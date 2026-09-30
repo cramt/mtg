@@ -1,0 +1,112 @@
+name = "Kellan's Casino"
+format = "commander"
+
+cards = [
+  { name = "Adarkar Wastes (eoc)" },
+  { name = "Aether Channeler (j25)", in = ["Removal Prize"] },
+  { name = "Avacyn's Pilgrim (scd)", in = ["Ramp"] },
+  { name = "Baffling End (plst)", in = ["Removal Prize", "Gift"] },
+  { name = "Banishing Light (hoc)", in = ["Removal Prize"] },
+  { name = "Battle at the Helvault (cmm)", in = ["Saga Removal"] },
+  { name = "Behold the Multiverse (khm)", in = ["Foretell", "Draw", "Cast From Exile"] },
+  { name = "Birds of Paradise (msc)", in = ["Ramp"] },
+  { name = "Breeding Pool (trk)" },
+  { name = "Brushland (fic)" },
+  { name = "Canopy Vista (msc)" },
+  { name = "Chimil, the Inner Sun (ecc)", in = ["Cast From Exile"] },
+  { name = "Clash of the Eikons (fin)", in = ["Saga Rewind", "Interaction"] },
+  { name = "Clockspinning (who)", in = ["Battle Flipping", "Saga Rewind", "Cast From Exile"] },
+  { name = "Command Tower (frc)" },
+  { name = "Doomskar (khm)", in = ["Foretell", "Cast From Exile", "Board Wipe"] },
+  { name = "Dreamroot Cascade (sos)" },
+  { name = "Elspeth Conquers Death (plst)", in = ["Saga Removal"] },
+  { name = "Elvish Mystic (hoc)", in = ["Ramp"] },
+  { name = "Exotic Orchard (frc)" },
+  { name = "Falco Spara, Pactweaver (snc)", in = ["Cast From Exile"] },
+  { name = "Flooded Strand (mh3)" },
+  { name = "Forbidden Orchard (2x2)" },
+  { printing = "trk/326", qty = 5 },  # Forest
+  { name = "Future Sight (mh1)", in = ["Cast From Exile", "Draw"] },
+  { name = "Fyndhorn Elves (fdc)", in = ["Ramp"] },
+  { name = "Generous Gift (msc)", in = ["Interaction", "Gift"] },
+  { name = "Glacial Fortress (frc)" },
+  { name = "Grasp of Fate (fdc)", in = ["Removal Prize"] },
+  { name = "Hallowed Fountain (trk)" },
+  { name = "Hidden Cataract (m3c)" },
+  { name = "Hidden Courtyard (lci)" },
+  { name = "Hidden Nursery (m3c)" },
+  { name = "Hinterland Harbor (msc)" },
+  { name = "Hunted Phantasm (rav)", in = ["Gift", "Forced Attack"] },
+  { name = "Invasion of Dominaria // Serra Faithkeeper (mom)" },
+  { name = "Invasion of Ikoria // Zilortha, Apex of Ikoria (mom)" },
+  { name = "Invasion of Ixalan // Belligerent Regisaur (mom)" },
+  { name = "Invasion of Kamigawa // Rooftop Saboteurs (mom)" },
+  { name = "Invasion of Moag // Bloomwielder Dryads (mom)" },
+  { name = "Invasion of New Phyrexia // Teferi Akosa of Zhalfir (mom)" },
+  { name = "Invasion of Pyrulea // Gargantuan Slabhorn (mom)" },
+  { name = "Invasion of Ravnica // Guildpact Paragon (mom)" },
+  { name = "Invasion of Segovia // Caetus, Sea Tyrant of Segovia (mom)" },
+  { name = "Invasion of Shandalar // Leyline Surge (mom)" },
+  { name = "Invasion of Vryn // Overloaded Mage-Ring (mom)" },
+  { name = "Invasion of Xerex // Vertex Paladin (mom)" },
+  { name = "Invasion of Zendikar // Awakened Skyclave (mom)" },
+  { name = "Inventive Iteration // Living Breakthrough (neo)", in = ["Saga Removal"] },
+  { printing = "trk/319", qty = 4 },  # Island
+  { name = "Jace Reawakened (otj)", in = ["Plot", "Draw", "Cast From Exile"] },
+  { name = "Kellan, the Kid (otj)", in = ["Commander"] },
+  { name = "Knight of Autumn (afc)", in = ["Removal Prize"] },
+  { name = "Llanowar Elves (fdn)", in = ["Ramp"] },
+  { name = "Loran of the Third Path (blc)", in = ["Draw", "Gift", "Removal Prize"] },
+  { name = "Love Song of Night and Day (cmm)", in = ["Draw", "Gift", "Saga Payoff"] },
+  { name = "M'Baku, Jabari Chieftain (msc)", in = ["Gift", "Draw"] },
+  { name = "Make Your Own Luck (otj)", in = ["Plot", "Draw", "Cast From Exile"] },
+  { name = "Mikokoro, Center of the Sea (dmc)" },
+  { name = "Misty Rainforest (mh2)" },
+  { name = "Ms. Bumbleflower (blc)", in = ["Gift", "Draw"] },
+  { name = "Nesting Grounds (ecc)" },
+  { name = "Noble Hierarch (plst)", in = ["Ramp"] },
+  { name = "Oblivion Ring (plst)", in = ["Removal Prize"] },
+  { printing = "trk/317", qty = 5 },  # Plains
+  { name = "Portent Tracker (mom)", in = ["Battle Flipping", "Ramp"] },
+  { name = "Prairie Stream (frc)" },
+  { name = "Satsuki, the Living Lore (neo)", in = ["Saga Rewind"] },
+  { name = "Selvala, Explorer Returned (blc)", in = ["Draw", "Ramp", "Gift"] },
+  { name = "Skyclave Apparition (soc)", in = ["Removal Prize"] },
+  { name = "Spara's Headquarters (snc)" },
+  { name = "Step Between Worlds (otj)", in = ["Plot", "Draw", "Cast From Exile", "Gift"] },
+  { name = "Struggle for Project Purity (pip)", in = ["Draw", "Gift"] },
+  { name = "Summon: Ixion (fic)", in = ["Saga Removal"] },
+  { name = "Summon: Yojimbo (fic)", in = ["Saga Removal", "Attack Tax"] },
+  { name = "Sunpetal Grove (msc)" },
+  { name = "Swords to Plowshares (frc)", in = ["Interaction"] },
+  { name = "Tataru Taru (fic)", in = ["Gift", "Draw"] },
+  { name = "Temple Garden (trk)" },
+  { name = "Tenuous Truce (ncc)", in = ["Gift"] },
+  { name = "The Fall of Lord Konda // Fragment of Konda (neo)", in = ["Saga Removal"] },
+  { name = "The Legend of Yangchen // Avatar Yangchen (tla)", in = ["Saga Removal", "Gift"] },
+  { name = "The Wandering Emperor (neo)", in = ["Removal Prize"] },
+  { name = "Trial of a Time Lord (who)", in = ["Saga Removal"] },
+  { name = "Utopia Sprawl (rvr)", in = ["Ramp"] },
+  { name = "Vega, the Watcher (khm)", in = ["Draw"] },
+  { name = "Wedding Ring (who)", in = ["Gift", "Draw"] },
+  { name = "Windswept Heath (mh3)" },
+  { name = "Yavimaya Coast (soc)" },
+]
+
+[categories]
+"Attack Tax" = {}
+"Battle Flipping" = {}
+"Board Wipe" = {}
+"Cast From Exile" = {}
+Commander = { type = "commander" }
+Draw = {}
+"Forced Attack" = {}
+Foretell = {}
+Gift = {}
+Interaction = {}
+Plot = {}
+Ramp = {}
+"Removal Prize" = {}
+"Saga Payoff" = {}
+"Saga Removal" = {}
+"Saga Rewind" = {}
