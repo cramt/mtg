@@ -2,7 +2,7 @@ name = "Kellan's Casino 2"
 format = "commander"
 
 cards = [
-  { printing = "eoc/147" },  # Adarkar Wastes
+  { printing = "eoc/147", in = ["Land"] },  # Adarkar Wastes
   { printing = "j25/283", in = ["Removal Prize"] },  # Aether Channeler
   { printing = "scd/171", in = ["Ramp"] },  # Avacyn's Pilgrim
   { printing = "plst/RIX-1", in = ["Removal Prize", "Gift"] },  # Baffling End
@@ -10,48 +10,48 @@ cards = [
   { printing = "cmm/719", in = ["Saga Removal"] },  # Battle at the Helvault
   { printing = "khm/46", in = ["Foretell", "Draw", "Cast From Exile"] },  # Behold the Multiverse
   { printing = "msc/170", in = ["Ramp"] },  # Birds of Paradise
-  { printing = "trk/279" },  # Breeding Pool
-  { printing = "fic/377" },  # Brushland
-  { printing = "msc/227" },  # Canopy Vista
+  { printing = "trk/279", in = ["Land"] },  # Breeding Pool
+  { printing = "fic/377", in = ["Land"] },  # Brushland
+  { printing = "msc/227", in = ["Land"] },  # Canopy Vista
   { printing = "ecc/137", in = ["Cast From Exile"] },  # Chimil, the Inner Sun
   { printing = "fin/180", in = ["Saga Rewind", "Interaction"] },  # Clash of the Eikons
   { printing = "who/215", in = ["Battle Flipping", "Saga Rewind", "Cast From Exile"] },  # Clockspinning
-  { printing = "frc/22" },  # Command Tower
+  { printing = "frc/22", in = ["Land"] },  # Command Tower
   { printing = "khm/9", in = ["Foretell", "Cast From Exile", "Board Wipe"] },  # Doomskar
-  { printing = "sos/254" },  # Dreamroot Cascade
+  { printing = "sos/254", in = ["Land"] },  # Dreamroot Cascade
   { printing = "plst/THB-13", in = ["Saga Removal"] },  # Elspeth Conquers Death
   { printing = "hoc/205", in = ["Ramp"] },  # Elvish Mystic
-  { printing = "frc/70" },  # Exotic Orchard
+  { printing = "frc/70", in = ["Land"] },  # Exotic Orchard
   { printing = "snc/186", in = ["Cast From Exile"] },  # Falco Spara, Pactweaver
-  { printing = "mh3/220" },  # Flooded Strand
-  { printing = "2x2/323" },  # Forbidden Orchard
-  { printing = "trk/326", qty = 5 },  # Forest
+  { printing = "mh3/220", in = ["Land"] },  # Flooded Strand
+  { printing = "2x2/323", in = ["Land"] },  # Forbidden Orchard
+  { printing = "trk/326", qty = 5, in = ["Land"] },  # Forest
   { printing = "mh1/53", in = ["Cast From Exile", "Draw"] },  # Future Sight
   { printing = "fdc/204", in = ["Ramp"] },  # Fyndhorn Elves
   { printing = "msc/133", in = ["Interaction", "Gift"] },  # Generous Gift
-  { printing = "frc/73" },  # Glacial Fortress
+  { printing = "frc/73", in = ["Land"] },  # Glacial Fortress
   { printing = "fdc/32", in = ["Removal Prize"] },  # Grasp of Fate
-  { printing = "trk/286" },  # Hallowed Fountain
-  { printing = "m3c/348" },  # Hidden Cataract
-  { printing = "lci/274" },  # Hidden Courtyard
-  { printing = "m3c/349" },  # Hidden Nursery
-  { printing = "msc/250" },  # Hinterland Harbor
+  { printing = "trk/286", in = ["Land"] },  # Hallowed Fountain
+  { printing = "m3c/348", in = ["Land"] },  # Hidden Cataract
+  { printing = "lci/274", in = ["Land"] },  # Hidden Courtyard
+  { printing = "m3c/349", in = ["Land"] },  # Hidden Nursery
+  { printing = "msc/250", in = ["Land"] },  # Hinterland Harbor
   { printing = "rav/55", in = ["Gift", "Forced Attack"] },  # Hunted Phantasm
-  { printing = "mom/21" },  # Invasion of Dominaria // Serra Faithkeeper
-  { printing = "mom/190" },  # Invasion of Ikoria // Zilortha, Apex of Ikoria
-  { printing = "mom/191" },  # Invasion of Ixalan // Belligerent Regisaur
-  { printing = "mom/62" },  # Invasion of Kamigawa // Rooftop Saboteurs
-  { printing = "mom/237" },  # Invasion of Moag // Bloomwielder Dryads
-  { printing = "mom/239" },  # Invasion of New Phyrexia // Teferi Akosa of Zhalfir
-  { printing = "mom/240" },  # Invasion of Pyrulea // Gargantuan Slabhorn
-  { printing = "mom/1" },  # Invasion of Ravnica // Guildpact Paragon
-  { printing = "mom/63" },  # Invasion of Segovia // Caetus, Sea Tyrant of Segovia
-  { printing = "mom/193" },  # Invasion of Shandalar // Leyline Surge
-  { printing = "mom/64" },  # Invasion of Vryn // Overloaded Mage-Ring
-  { printing = "mom/242" },  # Invasion of Xerex // Vertex Paladin
-  { printing = "mom/194" },  # Invasion of Zendikar // Awakened Skyclave
+  { printing = "mom/21", in = ["Battle"] },  # Invasion of Dominaria // Serra Faithkeeper
+  { printing = "mom/190", in = ["Battle"] },  # Invasion of Ikoria // Zilortha, Apex of Ikoria
+  { printing = "mom/191", in = ["Battle"] },  # Invasion of Ixalan // Belligerent Regisaur
+  { printing = "mom/62", in = ["Battle"] },  # Invasion of Kamigawa // Rooftop Saboteurs
+  { printing = "mom/237", in = ["Battle"] },  # Invasion of Moag // Bloomwielder Dryads
+  { printing = "mom/239", in = ["Battle"] },  # Invasion of New Phyrexia // Teferi Akosa of Zhalfir
+  { printing = "mom/240", in = ["Battle"] },  # Invasion of Pyrulea // Gargantuan Slabhorn
+  { printing = "mom/1", in = ["Battle"] },  # Invasion of Ravnica // Guildpact Paragon
+  { printing = "mom/63", in = ["Battle"] },  # Invasion of Segovia // Caetus, Sea Tyrant of Segovia
+  { printing = "mom/193", in = ["Battle"] },  # Invasion of Shandalar // Leyline Surge
+  { printing = "mom/64", in = ["Battle"] },  # Invasion of Vryn // Overloaded Mage-Ring
+  { printing = "mom/242", in = ["Battle"] },  # Invasion of Xerex // Vertex Paladin
+  { printing = "mom/194", in = ["Battle"] },  # Invasion of Zendikar // Awakened Skyclave
   { printing = "neo/57", in = ["Saga Removal"] },  # Inventive Iteration // Living Breakthrough
-  { printing = "trk/319", qty = 4 },  # Island
+  { printing = "trk/319", qty = 4, in = ["Land"] },  # Island
   { printing = "otj/271", in = ["Plot", "Draw", "Cast From Exile"] },  # Jace Reawakened
   { printing = "otj/213", in = ["Commander"] },  # Kellan, the Kid
   { printing = "afc/187", in = ["Removal Prize"] },  # Knight of Autumn
@@ -60,27 +60,27 @@ cards = [
   { printing = "cmm/827", in = ["Draw", "Gift", "Saga Payoff"] },  # Love Song of Night and Day
   { printing = "msc/67", in = ["Gift", "Draw"] },  # M'Baku, Jabari Chieftain
   { printing = "otj/218", in = ["Plot", "Draw", "Cast From Exile"] },  # Make Your Own Luck
-  { printing = "dmc/217" },  # Mikokoro, Center of the Sea
-  { printing = "mh2/250" },  # Misty Rainforest
+  { printing = "dmc/217", in = ["Land"] },  # Mikokoro, Center of the Sea
+  { printing = "mh2/250", in = ["Land"] },  # Misty Rainforest
   { printing = "blc/3", in = ["Gift", "Draw"] },  # Ms. Bumbleflower
-  { printing = "ecc/155" },  # Nesting Grounds
+  { printing = "ecc/155", in = ["Land"] },  # Nesting Grounds
   { printing = "plst/MM2-151", in = ["Ramp"] },  # Noble Hierarch
   { printing = "plst/LRW-34", in = ["Removal Prize"] },  # Oblivion Ring
-  { printing = "trk/317", qty = 5 },  # Plains
+  { printing = "trk/317", qty = 5, in = ["Land"] },  # Plains
   { printing = "mom/201", in = ["Battle Flipping", "Ramp"] },  # Portent Tracker
-  { printing = "frc/79" },  # Prairie Stream
+  { printing = "frc/79", in = ["Land"] },  # Prairie Stream
   { printing = "neo/235", in = ["Saga Rewind"] },  # Satsuki, the Living Lore
   { printing = "blc/259", in = ["Draw", "Ramp", "Gift"] },  # Selvala, Explorer Returned
   { printing = "soc/173", in = ["Removal Prize"] },  # Skyclave Apparition
-  { printing = "snc/257" },  # Spara's Headquarters
+  { printing = "snc/257", in = ["Land"] },  # Spara's Headquarters
   { printing = "otj/70", in = ["Plot", "Draw", "Cast From Exile", "Gift"] },  # Step Between Worlds
   { printing = "pip/39", in = ["Draw", "Gift"] },  # Struggle for Project Purity
   { printing = "fic/27", in = ["Saga Removal"] },  # Summon: Ixion
   { printing = "fic/28", in = ["Saga Removal", "Attack Tax"] },  # Summon: Yojimbo
-  { printing = "msc/272" },  # Sunpetal Grove
+  { printing = "msc/272", in = ["Land"] },  # Sunpetal Grove
   { printing = "frc/37", in = ["Interaction"] },  # Swords to Plowshares
   { printing = "fic/30", in = ["Gift", "Draw"] },  # Tataru Taru
-  { printing = "trk/301" },  # Temple Garden
+  { printing = "trk/301", in = ["Land"] },  # Temple Garden
   { printing = "ncc/87", in = ["Gift"] },  # Tenuous Truce
   { printing = "neo/12", in = ["Saga Removal"] },  # The Fall of Lord Konda // Fragment of Konda
   { printing = "tla/27", in = ["Saga Removal", "Gift"] },  # The Legend of Yangchen // Avatar Yangchen
@@ -89,8 +89,8 @@ cards = [
   { printing = "rvr/159", in = ["Ramp"] },  # Utopia Sprawl
   { printing = "khm/233", in = ["Draw"] },  # Vega, the Watcher
   { printing = "who/213", in = ["Gift", "Draw"] },  # Wedding Ring
-  { printing = "mh3/235" },  # Windswept Heath
-  { printing = "soc/425" },  # Yavimaya Coast
+  { printing = "mh3/235", in = ["Land"] },  # Windswept Heath
+  { printing = "soc/425", in = ["Land"] },  # Yavimaya Coast
 ]
 
 [categories]
@@ -110,3 +110,5 @@ Ramp = {}
 "Saga Payoff" = {}
 "Saga Removal" = {}
 "Saga Rewind" = {}
+Land = {}
+Battle = {}
