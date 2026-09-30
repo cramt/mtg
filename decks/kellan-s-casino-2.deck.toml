@@ -1,0 +1,112 @@
+name = "Kellan's Casino 2"
+format = "commander"
+
+cards = [
+  { printing = "eoc/147" },  # Adarkar Wastes
+  { printing = "j25/283", in = ["Removal Prize"] },  # Aether Channeler
+  { printing = "scd/171", in = ["Ramp"] },  # Avacyn's Pilgrim
+  { printing = "plst/rix-1", in = ["Removal Prize", "Gift"] },  # Baffling End
+  { printing = "hoc/161", in = ["Removal Prize"] },  # Banishing Light
+  { printing = "cmm/719", in = ["Saga Removal"] },  # Battle at the Helvault
+  { printing = "khm/46", in = ["Foretell", "Draw", "Cast From Exile"] },  # Behold the Multiverse
+  { printing = "msc/170", in = ["Ramp"] },  # Birds of Paradise
+  { printing = "trk/279" },  # Breeding Pool
+  { printing = "fic/377" },  # Brushland
+  { printing = "msc/227" },  # Canopy Vista
+  { printing = "ecc/137", in = ["Cast From Exile"] },  # Chimil, the Inner Sun
+  { printing = "fin/180", in = ["Saga Rewind", "Interaction"] },  # Clash of the Eikons
+  { printing = "who/215", in = ["Battle Flipping", "Saga Rewind", "Cast From Exile"] },  # Clockspinning
+  { printing = "frc/22" },  # Command Tower
+  { printing = "khm/9", in = ["Foretell", "Cast From Exile", "Board Wipe"] },  # Doomskar
+  { printing = "sos/254" },  # Dreamroot Cascade
+  { printing = "plst/thb-13", in = ["Saga Removal"] },  # Elspeth Conquers Death
+  { printing = "hoc/205", in = ["Ramp"] },  # Elvish Mystic
+  { printing = "frc/70" },  # Exotic Orchard
+  { printing = "snc/186", in = ["Cast From Exile"] },  # Falco Spara, Pactweaver
+  { printing = "mh3/220" },  # Flooded Strand
+  { printing = "2x2/323" },  # Forbidden Orchard
+  { printing = "trk/326", qty = 5 },  # Forest
+  { printing = "mh1/53", in = ["Cast From Exile", "Draw"] },  # Future Sight
+  { printing = "fdc/204", in = ["Ramp"] },  # Fyndhorn Elves
+  { printing = "msc/133", in = ["Interaction", "Gift"] },  # Generous Gift
+  { printing = "frc/73" },  # Glacial Fortress
+  { printing = "fdc/32", in = ["Removal Prize"] },  # Grasp of Fate
+  { printing = "trk/286" },  # Hallowed Fountain
+  { printing = "m3c/348" },  # Hidden Cataract
+  { printing = "lci/274" },  # Hidden Courtyard
+  { printing = "m3c/349" },  # Hidden Nursery
+  { printing = "msc/250" },  # Hinterland Harbor
+  { printing = "rav/55", in = ["Gift", "Forced Attack"] },  # Hunted Phantasm
+  { name = "Invasion of Dominaria // Serra Faithkeeper" },
+  { name = "Invasion of Ikoria // Zilortha, Apex of Ikoria" },
+  { name = "Invasion of Ixalan // Belligerent Regisaur" },
+  { name = "Invasion of Kamigawa // Rooftop Saboteurs" },
+  { name = "Invasion of Moag // Bloomwielder Dryads" },
+  { name = "Invasion of New Phyrexia // Teferi Akosa of Zhalfir" },
+  { name = "Invasion of Pyrulea // Gargantuan Slabhorn" },
+  { name = "Invasion of Ravnica // Guildpact Paragon" },
+  { name = "Invasion of Segovia // Caetus, Sea Tyrant of Segovia" },
+  { name = "Invasion of Shandalar // Leyline Surge" },
+  { name = "Invasion of Vryn // Overloaded Mage-Ring" },
+  { name = "Invasion of Xerex // Vertex Paladin" },
+  { name = "Invasion of Zendikar // Awakened Skyclave" },
+  { name = "Inventive Iteration // Living Breakthrough", in = ["Saga Removal"] },
+  { printing = "trk/319", qty = 4 },  # Island
+  { printing = "otj/271", in = ["Plot", "Draw", "Cast From Exile"] },  # Jace Reawakened
+  { printing = "otj/213", in = ["Commander"] },  # Kellan, the Kid
+  { printing = "afc/187", in = ["Removal Prize"] },  # Knight of Autumn
+  { printing = "fdn/227", in = ["Ramp"] },  # Llanowar Elves
+  { printing = "blc/143", in = ["Draw", "Gift", "Removal Prize"] },  # Loran of the Third Path
+  { printing = "cmm/827", in = ["Draw", "Gift", "Saga Payoff"] },  # Love Song of Night and Day
+  { printing = "msc/67", in = ["Gift", "Draw"] },  # M'Baku, Jabari Chieftain
+  { printing = "otj/218", in = ["Plot", "Draw", "Cast From Exile"] },  # Make Your Own Luck
+  { printing = "dmc/217" },  # Mikokoro, Center of the Sea
+  { printing = "mh2/250" },  # Misty Rainforest
+  { printing = "blc/3", in = ["Gift", "Draw"] },  # Ms. Bumbleflower
+  { printing = "ecc/155" },  # Nesting Grounds
+  { printing = "plst/mm2-151", in = ["Ramp"] },  # Noble Hierarch
+  { printing = "plst/lrw-34", in = ["Removal Prize"] },  # Oblivion Ring
+  { printing = "trk/317", qty = 5 },  # Plains
+  { printing = "mom/201", in = ["Battle Flipping", "Ramp"] },  # Portent Tracker
+  { printing = "frc/79" },  # Prairie Stream
+  { printing = "neo/235", in = ["Saga Rewind"] },  # Satsuki, the Living Lore
+  { printing = "blc/259", in = ["Draw", "Ramp", "Gift"] },  # Selvala, Explorer Returned
+  { printing = "soc/173", in = ["Removal Prize"] },  # Skyclave Apparition
+  { printing = "snc/257" },  # Spara's Headquarters
+  { printing = "otj/70", in = ["Plot", "Draw", "Cast From Exile", "Gift"] },  # Step Between Worlds
+  { printing = "pip/39", in = ["Draw", "Gift"] },  # Struggle for Project Purity
+  { printing = "fic/27", in = ["Saga Removal"] },  # Summon: Ixion
+  { printing = "fic/28", in = ["Saga Removal", "Attack Tax"] },  # Summon: Yojimbo
+  { printing = "msc/272" },  # Sunpetal Grove
+  { printing = "frc/37", in = ["Interaction"] },  # Swords to Plowshares
+  { printing = "fic/30", in = ["Gift", "Draw"] },  # Tataru Taru
+  { printing = "trk/301" },  # Temple Garden
+  { printing = "ncc/87", in = ["Gift"] },  # Tenuous Truce
+  { name = "The Fall of Lord Konda // Fragment of Konda", in = ["Saga Removal"] },
+  { name = "The Legend of Yangchen // Avatar Yangchen", in = ["Saga Removal", "Gift"] },
+  { printing = "neo/42", in = ["Removal Prize"] },  # The Wandering Emperor
+  { printing = "who/29", in = ["Saga Removal"] },  # Trial of a Time Lord
+  { printing = "rvr/159", in = ["Ramp"] },  # Utopia Sprawl
+  { printing = "khm/233", in = ["Draw"] },  # Vega, the Watcher
+  { printing = "who/213", in = ["Gift", "Draw"] },  # Wedding Ring
+  { printing = "mh3/235" },  # Windswept Heath
+  { printing = "soc/425" },  # Yavimaya Coast
+]
+
+[categories]
+"Attack Tax" = {}
+"Battle Flipping" = {}
+"Board Wipe" = {}
+"Cast From Exile" = {}
+Commander = { type = "commander" }
+Draw = {}
+"Forced Attack" = {}
+Foretell = {}
+Gift = {}
+Interaction = {}
+Plot = {}
+Ramp = {}
+"Removal Prize" = {}
+"Saga Payoff" = {}
+"Saga Removal" = {}
+"Saga Rewind" = {}
