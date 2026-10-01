@@ -61,7 +61,7 @@ cards = [
   { printing = "znc/141", at = "shit lands" },  # Submerged Boneyard
   { printing = "rvr/276", at = "shit lands" },  # Dimir Guildgate
   { printing = "ddi/36", at = "shit lands" },  # Sejiri Refuge
-  { printing = "hob/186", at = "shit lands" },  # Lake-town
+  { printing = "hob/186", qty = 2, at = "shit lands" },  # Lake-town
   { printing = "tdm/267", at = "shit lands" },  # Scoured Barrens
   { printing = "frf/168", at = "shit lands" },  # Dismal Backwater
   { printing = "m13/224", at = "shit lands" },  # Evolving Wilds
