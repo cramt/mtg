@@ -46,6 +46,7 @@ cards = [
   { printing = "c18/272", at = "shit lands" },  # Orzhov Guildgate
   { printing = "scd/308", at = "shit lands" },  # Meandering River
   { printing = "frf/174", at = "shit lands" },  # Tranquil Cove
+  { printing = "c19/230", at = "shit lands" },  # Bloodfell Caves
 ]
 
 [places]
