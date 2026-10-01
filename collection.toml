@@ -38,6 +38,8 @@ cards = [
   { printing = "sos/266", qty = 2, at = "shit lands" },  # Titan's Grave
   { printing = "sos/256", at = "shit lands" },  # Forum of Amity
   { printing = "sos/262", at = "shit lands" },  # Spectacle Summit
+  { printing = "rna/247", at = "shit lands" },  # Gateway Plaza
+  { printing = "grn/246", qty = 2, at = "shit lands" },  # Dimir Guildgate
 ]
 
 [places]
