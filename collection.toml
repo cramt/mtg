@@ -66,6 +66,7 @@ cards = [
   { printing = "frf/168", at = "shit lands" },  # Dismal Backwater
   { printing = "m13/224", at = "shit lands" },  # Evolving Wilds
   { printing = "mm2/241", at = "shit lands" },  # Evolving Wilds
+  { printing = "m20/248", qty = 2, at = "shit lands" },  # Jungle Hollow
 ]
 
 [places]
