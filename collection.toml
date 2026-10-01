@@ -34,10 +34,10 @@ cards = [
   { printing = "frc/84", at = "useful non-basic lands" },  # Sulfur Falls
   { printing = "eoc/187", at = "useful non-basic lands" },  # Temple of Epiphany
   { printing = "rix/186", at = "shit lands" },  # Evolving Wilds
-  { printing = "sos/265", at = "shit lands" },  # Terramorphic Expanse
+  { printing = "sos/265", qty = 2, at = "shit lands" },  # Terramorphic Expanse
   { printing = "sos/266", qty = 2, at = "shit lands" },  # Titan's Grave
   { printing = "sos/256", at = "shit lands" },  # Forum of Amity
-  { printing = "sos/262", at = "shit lands" },  # Spectacle Summit
+  { printing = "sos/262", qty = 2, at = "shit lands" },  # Spectacle Summit
   { printing = "rna/247", at = "shit lands" },  # Gateway Plaza
   { printing = "grn/246", qty = 3, at = "shit lands" },  # Dimir Guildgate
   { printing = "c18/234", at = "shit lands" },  # Azorius Guildgate
@@ -69,6 +69,8 @@ cards = [
   { printing = "m20/248", qty = 2, at = "shit lands" },  # Jungle Hollow
   { printing = "hob/182", qty = 2, at = "shit lands" },  # Elvenking's Halls
   { printing = "hob/184", at = "shit lands" },  # Hobbit Hole
+  { printing = "soc/394", at = "shit lands" },  # Prismari Campus
+  { printing = "soc/387", at = "shit lands" },  # Molten Tributary
 ]
 
 [places]
