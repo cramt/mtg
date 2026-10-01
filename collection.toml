@@ -2,10 +2,23 @@ cards = [
   { printing = "otc/326", at = "useful non-basic lands" },  # Sunscorched Divide
   { printing = "woc/172", at = "useful non-basic lands" },  # Temple of the False God
   { printing = "dmc/223", at = "useful non-basic lands" },  # Opulent Palace
-  { printing = "soc/130", at = "useful non-basic lands" },  # Fabled Passage
+  { printing = "soc/130", qty = 2, at = "useful non-basic lands" },  # Fabled Passage
   { printing = "soc/58", at = "useful non-basic lands" },  # Turbulent Steppe
   { printing = "soc/54", at = "useful non-basic lands" },  # Scorched Geyser
   { printing = "c21/80", at = "useful non-basic lands" },  # Study Hall
+  { printing = "soc/386", at = "useful non-basic lands" },  # Mistveil Plains
+  { printing = "soc/369", at = "useful non-basic lands" },  # Exotic Orchard
+  { printing = "ecc/158", at = "useful non-basic lands" },  # Path of Ancestry
+  { printing = "soc/407", at = "useful non-basic lands" },  # Study Hall
+  { printing = "soc/129", qty = 2, at = "useful non-basic lands" },  # Command Tower
+  { printing = "blc/300", at = "useful non-basic lands" },  # Clifftop Retreat
+  { printing = "soc/368", at = "useful non-basic lands" },  # Emeria, the Sky Ruin
+  { printing = "cmm/990", at = "useful non-basic lands" },  # Cascade Bluffs
+  { printing = "dmc/238", at = "useful non-basic lands" },  # Temple of Triumph
+  { printing = "tdc/361", at = "useful non-basic lands" },  # Ferrous Lake
+  { printing = "soc/57", at = "useful non-basic lands" },  # Turbulent Springs
+  { printing = "ecc/23", at = "useful non-basic lands" },  # Rain-Slicked Copse
+  { printing = "c17/267", qty = 3, at = "useful non-basic lands" },  # Opulent Palace
 ]
 
 [places]
