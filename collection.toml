@@ -61,6 +61,7 @@ cards = [
   { printing = "znc/141", at = "shit lands" },  # Submerged Boneyard
   { printing = "rvr/276", at = "shit lands" },  # Dimir Guildgate
   { printing = "ddi/36", at = "shit lands" },  # Sejiri Refuge
+  { printing = "hob/186", at = "shit lands" },  # Lake-town
 ]
 
 [places]
