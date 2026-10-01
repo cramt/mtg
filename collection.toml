@@ -39,7 +39,7 @@ cards = [
   { printing = "sos/256", at = "shit lands" },  # Forum of Amity
   { printing = "sos/262", at = "shit lands" },  # Spectacle Summit
   { printing = "rna/247", at = "shit lands" },  # Gateway Plaza
-  { printing = "grn/246", qty = 2, at = "shit lands" },  # Dimir Guildgate
+  { printing = "grn/246", qty = 3, at = "shit lands" },  # Dimir Guildgate
   { printing = "c18/234", at = "shit lands" },  # Azorius Guildgate
   { printing = "c18/244", at = "shit lands" },  # Dismal Backwater
   { printing = "clu/234", at = "shit lands" },  # Dimir Guildgate
