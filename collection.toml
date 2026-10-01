@@ -7,7 +7,7 @@ cards = [
   { printing = "soc/54", at = "useful non-basic lands" },  # Scorched Geyser
   { printing = "c21/80", at = "useful non-basic lands" },  # Study Hall
   { printing = "soc/386", at = "useful non-basic lands" },  # Mistveil Plains
-  { printing = "soc/369", at = "useful non-basic lands" },  # Exotic Orchard
+  { printing = "soc/369", qty = 2, at = "useful non-basic lands" },  # Exotic Orchard
   { printing = "ecc/158", at = "useful non-basic lands" },  # Path of Ancestry
   { printing = "soc/407", at = "useful non-basic lands" },  # Study Hall
   { printing = "soc/129", qty = 2, at = "useful non-basic lands" },  # Command Tower
@@ -19,6 +19,14 @@ cards = [
   { printing = "soc/57", at = "useful non-basic lands" },  # Turbulent Springs
   { printing = "ecc/23", at = "useful non-basic lands" },  # Rain-Slicked Copse
   { printing = "c17/267", qty = 3, at = "useful non-basic lands" },  # Opulent Palace
+  { printing = "soc/59", at = "useful non-basic lands" },  # Turbulent Wilderness
+  { printing = "m19/254", at = "useful non-basic lands" },  # Reliquary Tower
+  { printing = "soc/401", at = "useful non-basic lands" },  # Rugged Prairie
+  { printing = "soc/396", at = "useful non-basic lands" },  # Radiant Summit
+  { printing = "m20/249", at = "useful non-basic lands" },  # Lotus Field
+  { printing = "eoc/22", at = "useful non-basic lands" },  # Glittering Massif
+  { printing = "soc/375", at = "useful non-basic lands" },  # Furycalm Snarl
+  { printing = "bro/257", at = "useful non-basic lands" },  # Battlefield Forge
 ]
 
 [places]
