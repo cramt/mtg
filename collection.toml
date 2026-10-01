@@ -49,7 +49,7 @@ cards = [
   { printing = "c19/230", at = "shit lands" },  # Bloodfell Caves
   { printing = "c19/279", at = "shit lands" },  # Swiftwater Cliffs
   { printing = "ktk/246", at = "shit lands" },  # Tranquil Cove
-  { printing = "ema/246", qty = 2, at = "shit lands" },  # Thornwood Falls
+  { printing = "ema/246", qty = 3, at = "shit lands" },  # Thornwood Falls
   { printing = "fdn/266", at = "shit lands" },  # Scoured Barrens
   { printing = "grn/245", at = "shit lands" },  # Dimir Guildgate
   { printing = "m20/251", at = "shit lands" },  # Scoured Barrens
@@ -57,6 +57,8 @@ cards = [
   { printing = "grn/256", at = "shit lands" },  # Selesnya Guildgate
   { printing = "thb/249", at = "shit lands" },  # Unknown Shores
   { printing = "m20/243", at = "shit lands" },  # Blossoming Sands
+  { printing = "m20/260", at = "shit lands" },  # Wind-Scarred Crag
+  { printing = "znc/141", at = "shit lands" },  # Submerged Boneyard
 ]
 
 [places]
