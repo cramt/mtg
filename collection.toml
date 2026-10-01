@@ -33,6 +33,8 @@ cards = [
   { printing = "m3c/375", at = "useful non-basic lands" },  # Shivan Reef
   { printing = "frc/84", at = "useful non-basic lands" },  # Sulfur Falls
   { printing = "eoc/187", at = "useful non-basic lands" },  # Temple of Epiphany
+  { printing = "rix/186", at = "shit lands" },  # Evolving Wilds
+  { printing = "sos/265", at = "shit lands" },  # Terramorphic Expanse
 ]
 
 [places]
