@@ -1,4 +1,2 @@
 cards = [
-  { printing = "hob/44", qty = 2 },  # Lake-town Mariners // Gone Fishing
-  { printing = "hob/51", qty = 2 },  # Plunder the Trollshaws
 ]
