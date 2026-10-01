@@ -45,6 +45,7 @@ cards = [
   { printing = "clu/234", at = "shit lands" },  # Dimir Guildgate
   { printing = "c18/272", at = "shit lands" },  # Orzhov Guildgate
   { printing = "scd/308", at = "shit lands" },  # Meandering River
+  { printing = "frf/174", at = "shit lands" },  # Tranquil Cove
 ]
 
 [places]
