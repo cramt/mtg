@@ -51,6 +51,7 @@ cards = [
   { printing = "ktk/246", at = "shit lands" },  # Tranquil Cove
   { printing = "ema/246", at = "shit lands" },  # Thornwood Falls
   { printing = "fdn/266", at = "shit lands" },  # Scoured Barrens
+  { printing = "grn/245", at = "shit lands" },  # Dimir Guildgate
 ]
 
 [places]
