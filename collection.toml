@@ -51,7 +51,7 @@ cards = [
   { printing = "ktk/246", qty = 2, at = "shit lands" },  # Tranquil Cove
   { printing = "ema/246", qty = 3, at = "shit lands" },  # Thornwood Falls
   { printing = "fdn/266", at = "shit lands" },  # Scoured Barrens
-  { printing = "grn/245", at = "shit lands" },  # Dimir Guildgate
+  { printing = "grn/245", qty = 2, at = "shit lands" },  # Dimir Guildgate
   { printing = "m20/251", at = "shit lands" },  # Scoured Barrens
   { printing = "m20/258", at = "shit lands" },  # Thornwood Falls
   { printing = "grn/256", at = "shit lands" },  # Selesnya Guildgate
