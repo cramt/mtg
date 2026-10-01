@@ -64,6 +64,7 @@ cards = [
   { printing = "hob/186", at = "shit lands" },  # Lake-town
   { printing = "tdm/267", at = "shit lands" },  # Scoured Barrens
   { printing = "frf/168", at = "shit lands" },  # Dismal Backwater
+  { printing = "m13/224", at = "shit lands" },  # Evolving Wilds
 ]
 
 [places]
