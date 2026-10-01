@@ -5,6 +5,7 @@ cards = [
   { printing = "soc/130", at = "useful non-basic lands" },  # Fabled Passage
   { printing = "soc/58", at = "useful non-basic lands" },  # Turbulent Steppe
   { printing = "soc/54", at = "useful non-basic lands" },  # Scorched Geyser
+  { printing = "c21/80", at = "useful non-basic lands" },  # Study Hall
 ]
 
 [places]
