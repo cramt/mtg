@@ -55,6 +55,8 @@ cards = [
   { printing = "m20/251", at = "shit lands" },  # Scoured Barrens
   { printing = "m20/258", at = "shit lands" },  # Thornwood Falls
   { printing = "grn/256", at = "shit lands" },  # Selesnya Guildgate
+  { printing = "thb/249", at = "shit lands" },  # Unknown Shores
+  { printing = "m20/243", at = "shit lands" },  # Blossoming Sands
 ]
 
 [places]
