@@ -1,5 +1,10 @@
 cards = [
   { printing = "otc/326", at = "useful non-basic lands" },  # Sunscorched Divide
+  { printing = "woc/172", at = "useful non-basic lands" },  # Temple of the False God
+  { printing = "dmc/223", at = "useful non-basic lands" },  # Opulent Palace
+  { printing = "soc/130", at = "useful non-basic lands" },  # Fabled Passage
+  { printing = "soc/58", at = "useful non-basic lands" },  # Turbulent Steppe
+  { printing = "soc/54", at = "useful non-basic lands" },  # Scorched Geyser
 ]
 
 [places]
