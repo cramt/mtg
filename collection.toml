@@ -5,7 +5,7 @@ cards = [
   { printing = "soc/130", qty = 2, at = "useful non-basic lands" },  # Fabled Passage
   { printing = "soc/58", at = "useful non-basic lands" },  # Turbulent Steppe
   { printing = "soc/54", at = "useful non-basic lands" },  # Scorched Geyser
-  { printing = "c21/80", at = "useful non-basic lands" },  # Study Hall
+  { printing = "c21/80", qty = 2, at = "useful non-basic lands" },  # Study Hall
   { printing = "soc/386", at = "useful non-basic lands" },  # Mistveil Plains
   { printing = "soc/369", qty = 2, at = "useful non-basic lands" },  # Exotic Orchard
   { printing = "ecc/158", at = "useful non-basic lands" },  # Path of Ancestry
