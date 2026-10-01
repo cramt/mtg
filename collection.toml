@@ -34,7 +34,7 @@ cards = [
   { printing = "frc/84", at = "useful non-basic lands" },  # Sulfur Falls
   { printing = "eoc/187", at = "useful non-basic lands" },  # Temple of Epiphany
   { printing = "rix/186", at = "shit lands" },  # Evolving Wilds
-  { printing = "sos/265", qty = 2, at = "shit lands" },  # Terramorphic Expanse
+  { printing = "sos/265", qty = 3, at = "shit lands" },  # Terramorphic Expanse
   { printing = "sos/266", qty = 2, at = "shit lands" },  # Titan's Grave
   { printing = "sos/256", at = "shit lands" },  # Forum of Amity
   { printing = "sos/262", qty = 2, at = "shit lands" },  # Spectacle Summit
