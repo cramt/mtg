@@ -1,6 +1,5 @@
 name = "Kellan's Casino"
 format = "commander"
-cover = "eoc/147"
 
 cards = [
   { printing = "eoc/147", in = ["Land"] },  # Adarkar Wastes
