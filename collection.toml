@@ -47,6 +47,7 @@ cards = [
   { printing = "scd/308", at = "shit lands" },  # Meandering River
   { printing = "frf/174", at = "shit lands" },  # Tranquil Cove
   { printing = "c19/230", at = "shit lands" },  # Bloodfell Caves
+  { printing = "c19/279", at = "shit lands" },  # Swiftwater Cliffs
 ]
 
 [places]
