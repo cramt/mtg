@@ -73,6 +73,7 @@ cards = [
   { printing = "soc/387", at = "shit lands" },  # Molten Tributary
   { printing = "sos/255", at = "shit lands" },  # Fields of Strife
   { printing = "soc/384", at = "shit lands" },  # Lorehold Campus
+  { printing = "soc/402", at = "shit lands" },  # Sacred Peaks
 ]
 
 [places]
