@@ -28,6 +28,11 @@ cards = [
   { printing = "soc/375", at = "useful non-basic lands" },  # Furycalm Snarl
   { printing = "bro/257", at = "useful non-basic lands" },  # Battlefield Forge
   { printing = "moc/403", at = "useful non-basic lands" },  # Frostboil Snarl
+  { printing = "soc/378", at = "useful non-basic lands" },  # Hall of Oracles
+  { printing = "woe/260", at = "useful non-basic lands" },  # Restless Spire
+  { printing = "m3c/375", at = "useful non-basic lands" },  # Shivan Reef
+  { printing = "frc/84", at = "useful non-basic lands" },  # Sulfur Falls
+  { printing = "eoc/187", at = "useful non-basic lands" },  # Temple of Epiphany
 ]
 
 [places]
