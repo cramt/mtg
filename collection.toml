@@ -71,6 +71,7 @@ cards = [
   { printing = "hob/184", at = "shit lands" },  # Hobbit Hole
   { printing = "soc/394", at = "shit lands" },  # Prismari Campus
   { printing = "soc/387", at = "shit lands" },  # Molten Tributary
+  { printing = "sos/255", at = "shit lands" },  # Fields of Strife
 ]
 
 [places]
