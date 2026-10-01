@@ -1,4 +1,5 @@
 cards = [
+  { printing = "otc/326", at = "useful non-basic lands" },  # Sunscorched Divide
 ]
 
 [places]
