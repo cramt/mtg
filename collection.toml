@@ -235,6 +235,7 @@ cards = [
   { printing = "m21/36", at = "stables" },  # Selfless Savior
   { printing = "sos/23", at = "stables" },  # Joined Researchers // Secret Rendezvous
   { printing = "jou/123", at = "stables" },  # Font of Fertility
+  { printing = "arb/19", at = "stables" },  # Deny Reality
 ]
 
 [places]
