@@ -149,7 +149,7 @@ cards = [
   { printing = "stx/246", at = "stables" },  # Venerable Warsinger
   { printing = "soc/48", at = "stables" },  # Inspired Skypainter // Maestro's Gift
   { printing = "soc/337", at = "stables" },  # Veyran, Voice of Duality
-  { printing = "stx/220", at = "stables" },  # Quintorius, Field Historian
+  { printing = "stx/220", at = "bulk multicolor" },  # Quintorius, Field Historian
 ]
 
 [places]
