@@ -122,6 +122,7 @@ cards = [
   { printing = "thb/239", qty = 2, at = "colorless" },  # Thundering Chariot
   { printing = "bbd/247", at = "colorless" },  # Stone Golem
   { printing = "kld/217", at = "colorless" },  # Glassblower's Puzzleknot
+  { printing = "m20/241", at = "colorless" },  # Vial of Dragonfire
 ]
 
 [places]
