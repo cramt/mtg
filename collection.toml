@@ -211,6 +211,8 @@ cards = [
   { printing = "hob/168", at = "stables" },  # Thranduil's Company
   { printing = "tdm/172", at = "stables" },  # Betor, Kin to All
   { printing = "m15/229", at = "stables" },  # Scuttling Doom Engine
+  { printing = "jmp/484", qty = 2, at = "stables" },  # Scuttlemutt
+  { printing = "cp2/2", at = "stables" },  # Hero's Downfall
 ]
 
 [places]
