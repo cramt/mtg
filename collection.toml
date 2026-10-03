@@ -259,6 +259,8 @@ cards = [
   { printing = "hob/87", at = "stables" },  # Balin, Loremaster
   { printing = "hob/104", at = "stables" },  # The Misty Mountains Cold
   { printing = "hob/164", at = "stables" },  # Smaug, Wicked Worm
+  { printing = "clb/30", at = "stables" },  # Lae'zel's Acrobatics
+  { printing = "jou/66", at = "stables" },  # Doomwake Giant
 ]
 
 [places]
