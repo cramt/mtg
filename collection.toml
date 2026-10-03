@@ -216,6 +216,8 @@ cards = [
   { printing = "jou/73", at = "stables" },  # Grim Guardian
   { printing = "m21/50", at = "stables" },  # Frantic Inventory
   { printing = "hob/36", at = "stables" },  # Elrond, Moon-Reader
+  { printing = "hob/110", at = "stables" },  # Smaug the Magnificent
+  { printing = "hob/144", at = "stables" },  # Bard, King of Dale
 ]
 
 [places]
