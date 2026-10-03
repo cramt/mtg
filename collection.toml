@@ -106,6 +106,7 @@ cards = [
   { printing = "clb/330", at = "stables" },  # Nimblewright Schematic
   { printing = "thb/241", qty = 5, at = "colorless" },  # Wings of Hubris
   { printing = "xln/233", qty = 5, at = "colorless" },  # Cobbled Wings
+  { printing = "thb/231", at = "colorless" },  # Altar of the Pantheon
 ]
 
 [places]
