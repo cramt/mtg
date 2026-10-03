@@ -130,6 +130,7 @@ cards = [
   { printing = "grn/234", at = "colorless" },  # Dimir Locket
   { printing = "aer/156", at = "colorless" },  # Implement of Examination
   { printing = "sos/250", at = "colorless" },  # Page, Loose Leaf
+  { printing = "sos/249", at = "colorless" },  # Mage Tower Referee
 ]
 
 [places]
