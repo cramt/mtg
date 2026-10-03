@@ -118,6 +118,7 @@ cards = [
   { printing = "dom/231", at = "colorless" },  # Sorcerer's Wand
   { printing = "m21/237", at = "colorless" },  # Silent Dart
   { printing = "ogw/165", at = "colorless" },  # Seer's Lantern
+  { printing = "rix/184", at = "colorless" },  # Traveler's Amulet
 ]
 
 [places]
