@@ -91,6 +91,7 @@ cards = [
   { printing = "hob/2", at = "colorless" },  # Old Thrush
   { printing = "hob/180", at = "colorless" },  # Well-Worn Spatula
   { printing = "hob/173", at = "stables" },  # Giant's Boulder
+  { printing = "hob/1", at = "colorless" },  # Long-Bodied Grey Dog
 ]
 
 [places]
