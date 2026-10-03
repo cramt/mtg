@@ -248,6 +248,7 @@ cards = [
   { printing = "som/223", at = "stables" },  # Wurmcoil Engine
   { printing = "c18/203", at = "stables" },  # Dimir Signet
   { printing = "sos/57", at = "stables" },  # Mana Sculpt
+  { printing = "ice/64", at = "stables" },  # Counterspell
 ]
 
 [places]
