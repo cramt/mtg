@@ -135,16 +135,16 @@ cards = [
   { printing = "ktk/225", at = "colorless" },  # Sultai Banner
   { printing = "aer/159", at = "colorless" },  # Implement of Malice
   { printing = "arc/113", at = "colorless" },  # Obelisk of Esper
-  { printing = "soc/299", at = "colorless" },  # Brudiclad, Telchor Engineer
-  { printing = "soc/5", at = "colorless" },  # Muddle, the Ever-Changing
-  { printing = "stx/189", at = "colorless" },  # Galazeth Prismari
-  { printing = "soc/295", at = "colorless" },  # Balefire Liege
-  { printing = "soc/49", at = "colorless" },  # Lorehold Archivist // Restore Relic
-  { printing = "stx/186", at = "colorless" },  # Expressive Iteration
-  { printing = "soc/329", at = "colorless" },  # Rootha, Mercurial Artist
-  { printing = "lcc/279", at = "colorless" },  # Prismari Command
-  { printing = "soc/8", at = "colorless" },  # Rootha, Mastering the Moment
-  { printing = "soc/314", at = "colorless" },  # Hofri Ghostforge
+  { printing = "soc/299", at = "stables" },  # Brudiclad, Telchor Engineer
+  { printing = "soc/5", at = "stables" },  # Muddle, the Ever-Changing
+  { printing = "stx/189", at = "stables" },  # Galazeth Prismari
+  { printing = "soc/295", at = "stables" },  # Balefire Liege
+  { printing = "soc/49", at = "stables" },  # Lorehold Archivist // Restore Relic
+  { printing = "stx/186", at = "stables" },  # Expressive Iteration
+  { printing = "soc/329", at = "stables" },  # Rootha, Mercurial Artist
+  { printing = "lcc/279", at = "stables" },  # Prismari Command
+  { printing = "soc/8", at = "stables" },  # Rootha, Mastering the Moment
+  { printing = "soc/314", at = "stables" },  # Hofri Ghostforge
 ]
 
 [places]
