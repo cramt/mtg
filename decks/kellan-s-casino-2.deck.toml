@@ -1,15 +1,15 @@
 name = "Kellan's Casino"
 format = "commander"
 description = """
-Welcome to Kellan's Casiono where the house always wins. In the casino players can win opening loot boxes (battles) which can contain many things.
+Welcome to Kellan's Casino, where the house always wins. In the casino, players can win by opening loot boxes (battles), which can contain many things.
 
-The actual rules is that when a played defeats a battle and i cast it for free, and i get a kellan trigger my opponents choose the permanent. This is where Kellan's casino becomes a midrange'y board state control group hug/slug deck. The ideal gameplan is that
-- i play Invasion of Ravnica (thats value for me)
-- an opponent of mine defeats the battle cause they want value
-- battle defeated i get the backside of the battle (value for me) and they pick a card to cast
-- they pick Summon: Yojimbo to remove some problem from a third party (value for me) and im left with the rest of the saga (value for me)
+The actual rule: when a player defeats a battle, I cast it for free and get a Kellan trigger, and my opponents choose the permanent I cast. This is where Kellan's Casino becomes a midrange-y board control/politics/slug deck. The ideal game plan:
+- I play Invasion of Ravnica (that's value for me)
+- an opponent defeats the battle because they want value
+- the battle is defeated, I get the back side (value for me), and they pick a card for me to cast
+- they pick Summon: Yojimbo to remove some problem from a third party (value for me), and I'm left with the rest of the saga (value for me)
 
-The plan is that the house always wins. This deck is very saga focused, mostly by accident, most permanents with removal on etb but continued values just kinda happens to be sagas, but fundamentally this deck is about battles and politicking people to hit on battles"""
+The house always wins. The deck is very saga-focused, mostly by accident: most permanents with removal on ETB plus ongoing value just happen to be sagas. Fundamentally, though, this deck is about battles and politicking people into hitting them."""
 
 cards = [
   { printing = "eoc/147", in = ["Land"] },  # Adarkar Wastes
@@ -17,19 +17,18 @@ cards = [
   { printing = "scd/171", in = ["Ramp"] },  # Avacyn's Pilgrim
   { printing = "plst/RIX-1", in = ["Removal Prize", "Gift"] },  # Baffling End
   { printing = "hoc/161", in = ["Removal Prize"] },  # Banishing Light
-  { printing = "cmm/719", in = ["Saga Removal"] },  # Battle at the Helvault
-  { printing = "khm/46", in = ["Foretell", "Draw", "Cast From Exile"] },  # Behold the Multiverse
+  { printing = "dsc/172", in = ["Ramp", "Cast From Exile"] },  # Beanstalk Giant // Fertile Footsteps
   { printing = "msc/170", in = ["Ramp"] },  # Birds of Paradise
+  { printing = "soc/190", in = ["Interaction", "Cast From Exile"] },  # Brazen Borrower // Petty Theft
   { printing = "trk/279", in = ["Land"] },  # Breeding Pool
   { printing = "fic/377", in = ["Land"] },  # Brushland
   { printing = "msc/227", in = ["Land"] },  # Canopy Vista
   { printing = "ecc/137", in = ["Cast From Exile"] },  # Chimil, the Inner Sun
-  { printing = "fin/180", in = ["Saga Rewind", "Interaction"] },  # Clash of the Eikons
   { printing = "who/215", in = ["Battle Flipping", "Saga Rewind", "Cast From Exile"] },  # Clockspinning
   { printing = "frc/22", in = ["Land"] },  # Command Tower
+  { printing = "rtr/155", in = ["Removal Prize"] },  # Detention Sphere
   { printing = "khm/9", in = ["Foretell", "Cast From Exile", "Board Wipe"] },  # Doomskar
   { printing = "sos/254", in = ["Land"] },  # Dreamroot Cascade
-  { printing = "plst/THB-13", in = ["Saga Removal"] },  # Elspeth Conquers Death
   { printing = "hoc/205", in = ["Ramp"] },  # Elvish Mystic
   { printing = "frc/70", in = ["Land"] },  # Exotic Orchard
   { printing = "snc/186", in = ["Cast From Exile"] },  # Falco Spara, Pactweaver
@@ -38,7 +37,6 @@ cards = [
   { printing = "trk/326", qty = 5, in = ["Land"] },  # Forest
   { printing = "mh1/53", in = ["Cast From Exile", "Draw"] },  # Future Sight
   { printing = "fdc/204", in = ["Ramp"] },  # Fyndhorn Elves
-  { printing = "msc/133", in = ["Interaction", "Gift"] },  # Generous Gift
   { printing = "frc/73", in = ["Land"] },  # Glacial Fortress
   { printing = "fdc/32", in = ["Removal Prize"] },  # Grasp of Fate
   { printing = "trk/286", in = ["Land"] },  # Hallowed Fountain
@@ -47,7 +45,6 @@ cards = [
   { printing = "m3c/349", in = ["Land"] },  # Hidden Nursery
   { printing = "msc/250", in = ["Land"] },  # Hinterland Harbor
   { printing = "rav/55", in = ["Gift", "Forced Attack"] },  # Hunted Phantasm
-  { printing = "mom/21", in = ["Battle"] },  # Invasion of Dominaria // Serra Faithkeeper
   { printing = "mom/190", in = ["Battle"] },  # Invasion of Ikoria // Zilortha, Apex of Ikoria
   { printing = "mom/191", in = ["Battle"] },  # Invasion of Ixalan // Belligerent Regisaur
   { printing = "mom/62", in = ["Battle"] },  # Invasion of Kamigawa // Rooftop Saboteurs
@@ -57,48 +54,51 @@ cards = [
   { printing = "mom/1", in = ["Battle"] },  # Invasion of Ravnica // Guildpact Paragon
   { printing = "mom/63", in = ["Battle"] },  # Invasion of Segovia // Caetus, Sea Tyrant of Segovia
   { printing = "mom/193", in = ["Battle"] },  # Invasion of Shandalar // Leyline Surge
+  { printing = "mom/23", in = ["Battle"] },  # Invasion of Theros // Ephara, Ever-Sheltering
   { printing = "mom/64", in = ["Battle"] },  # Invasion of Vryn // Overloaded Mage-Ring
   { printing = "mom/242", in = ["Battle"] },  # Invasion of Xerex // Vertex Paladin
   { printing = "mom/194", in = ["Battle"] },  # Invasion of Zendikar // Awakened Skyclave
-  { printing = "neo/57", in = ["Saga Removal"] },  # Inventive Iteration // Living Breakthrough
   { printing = "trk/319", qty = 4, in = ["Land"] },  # Island
   { printing = "otj/271", in = ["Plot", "Draw", "Cast From Exile"] },  # Jace Reawakened
+  { printing = "cmd/17", in = ["Removal Prize"] },  # Journey to Nowhere
   { printing = "otj/213", in = ["Commander"] },  # Kellan, the Kid
+  { printing = "afc/162", in = ["Removal Prize"] },  # Kenrith's Transformation
   { printing = "afc/187", in = ["Removal Prize"] },  # Knight of Autumn
+  { printing = "mbs/111", in = ["Cast From Exile", "Opponent Loot Box"] },  # Knowledge Pool
   { printing = "fdn/227", in = ["Ramp"] },  # Llanowar Elves
   { printing = "blc/143", in = ["Draw", "Gift", "Removal Prize"] },  # Loran of the Third Path
-  { printing = "cmm/827", in = ["Draw", "Gift", "Saga Payoff"] },  # Love Song of Night and Day
-  { printing = "msc/67", in = ["Gift", "Draw"] },  # M'Baku, Jabari Chieftain
-  { printing = "otj/218", in = ["Plot", "Draw", "Cast From Exile"] },  # Make Your Own Luck
+  { printing = "shm/230", in = ["Battle Flipping"] },  # Medicine Runner
   { printing = "dmc/217", in = ["Land"] },  # Mikokoro, Center of the Sea
+  { printing = "otc/101", in = ["Cast From Exile", "Opponent Loot Box"] },  # Mind's Dilation
   { printing = "mh2/250", in = ["Land"] },  # Misty Rainforest
-  { printing = "blc/3", in = ["Gift", "Draw"] },  # Ms. Bumbleflower
   { printing = "ecc/155", in = ["Land"] },  # Nesting Grounds
   { printing = "plst/MM2-151", in = ["Ramp"] },  # Noble Hierarch
   { printing = "plst/LRW-34", in = ["Removal Prize"] },  # Oblivion Ring
+  { printing = "c19/91", in = ["Cast From Graveyard", "Draw"] },  # Oona's Grace
   { printing = "trk/317", qty = 5, in = ["Land"] },  # Plains
   { printing = "mom/201", in = ["Battle Flipping", "Ramp"] },  # Portent Tracker
+  { printing = "ncc/376", in = ["Battle Flipping"] },  # Power Conduit
   { printing = "frc/79", in = ["Land"] },  # Prairie Stream
-  { printing = "neo/235", in = ["Saga Rewind"] },  # Satsuki, the Living Lore
-  { printing = "blc/259", in = ["Draw", "Ramp", "Gift"] },  # Selvala, Explorer Returned
+  { printing = "brc/6", in = ["Battle Flipping", "Ramp"] },  # Scholar of New Horizons
+  { printing = "dom/31", in = ["Removal Prize"] },  # Seal Away
+  { printing = "dmc/137", in = ["Ramp", "Cast From Exile"] },  # Search for Tomorrow
+  { printing = "soc/170", in = ["Cast From Graveyard"] },  # Sevinne's Reclamation
+  { printing = "mh3/169", in = ["Cast From Graveyard"] },  # Six
   { printing = "soc/173", in = ["Removal Prize"] },  # Skyclave Apparition
+  { printing = "cmm/324", in = ["Removal Prize"] },  # Song of the Dryads
   { printing = "snc/257", in = ["Land"] },  # Spara's Headquarters
-  { printing = "otj/70", in = ["Plot", "Draw", "Cast From Exile", "Gift"] },  # Step Between Worlds
-  { printing = "pip/39", in = ["Draw", "Gift"] },  # Struggle for Project Purity
+  { printing = "c21/229", in = ["Cast From Graveyard"] },  # Spitting Image
   { printing = "fic/27", in = ["Saga Removal"] },  # Summon: Ixion
   { printing = "fic/28", in = ["Saga Removal", "Attack Tax"] },  # Summon: Yojimbo
   { printing = "msc/272", in = ["Land"] },  # Sunpetal Grove
   { printing = "frc/37", in = ["Interaction"] },  # Swords to Plowshares
-  { printing = "fic/30", in = ["Gift", "Draw"] },  # Tataru Taru
   { printing = "trk/301", in = ["Land"] },  # Temple Garden
-  { printing = "ncc/87", in = ["Gift"] },  # Tenuous Truce
   { printing = "neo/12", in = ["Saga Removal"] },  # The Fall of Lord Konda // Fragment of Konda
   { printing = "tla/27", in = ["Saga Removal", "Gift"] },  # The Legend of Yangchen // Avatar Yangchen
   { printing = "neo/42", in = ["Removal Prize"] },  # The Wandering Emperor
   { printing = "who/29", in = ["Saga Removal"] },  # Trial of a Time Lord
   { printing = "rvr/159", in = ["Ramp"] },  # Utopia Sprawl
   { printing = "khm/233", in = ["Draw"] },  # Vega, the Watcher
-  { printing = "who/213", in = ["Gift", "Draw"] },  # Wedding Ring
   { printing = "mh3/235", in = ["Land"] },  # Windswept Heath
   { printing = "soc/425", in = ["Land"] },  # Yavimaya Coast
 ]
@@ -108,16 +108,17 @@ cards = [
 "Battle Flipping" = {}
 "Board Wipe" = {}
 "Cast From Exile" = {}
+"Cast From Graveyard" = {}
 Commander = { type = "commander" }
 Draw = {}
 "Forced Attack" = {}
 Foretell = {}
 Gift = {}
 Interaction = {}
+"Opponent Loot Box" = {}
 Plot = {}
 Ramp = {}
 "Removal Prize" = {}
-"Saga Payoff" = {}
 "Saga Removal" = {}
 "Saga Rewind" = {}
 Land = {}
