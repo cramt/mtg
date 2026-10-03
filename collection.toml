@@ -191,10 +191,7 @@ cards = [
   { printing = "tdm/224", at = "stables" },  # Skirmish Rhino
   { printing = "tdm/197", at = "stables" },  # Jeskai Shrinekeeper
   { printing = "shm/152", at = "bulk multicolor" },  # Thistledown Duo
-  { printing = "sos/187", at = "bulk multicolor" },  # Essenceknit Scholar
-  { printing = "sos/244", at = "bulk multicolor" },  # Witherbloom Charm
   { printing = "sos/235", at = "bulk multicolor" },  # Stress Dream
-  { printing = "c20/226", qty = 3, at = "bulk multicolor" },  # Nyx Weaver
   { printing = "ktk/204", qty = 2, at = "bulk multicolor" },  # Sultai Charm
   { printing = "cp2/4", at = "bulk multicolor" },  # Reaper of the Wilds
   { printing = "ktk/205", qty = 2, at = "bulk multicolor" },  # Sultai Soothsayer
@@ -208,6 +205,9 @@ cards = [
   { printing = "hob/156", at = "bulk multicolor" },  # Fearsome Goblin Pair
   { printing = "hob/150", at = "bulk multicolor" },  # The Chief Warg
   { printing = "hob/163", qty = 2, at = "stables" },  # Silvan Reveler
+  { printing = "c20/226", qty = 3, at = "stables" },  # Nyx Weaver
+  { printing = "sos/244", at = "stables" },  # Witherbloom Charm
+  { printing = "sos/187", at = "stables" },  # Essenceknit Scholar
 ]
 
 [places]
