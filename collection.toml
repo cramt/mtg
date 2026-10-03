@@ -201,6 +201,8 @@ cards = [
   { printing = "sos/183", at = "bulk multicolor" },  # Cuboid Colony
   { printing = "sos/227", at = "bulk multicolor" },  # Snooping Page
   { printing = "hob/162", at = "bulk multicolor" },  # Patient Instructor
+  { printing = "hob/161", at = "bulk multicolor" },  # Nori, Teller of Tales
+  { printing = "hob/153", at = "bulk multicolor" },  # Duskwatch Hunter
 ]
 
 [places]
