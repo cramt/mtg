@@ -231,6 +231,7 @@ cards = [
   { printing = "sos/264", at = "stables" },  # Sundown Pass
   { printing = "cp2/5", at = "stables" },  # Whip of Erebos
   { printing = "frf/43★", at = "stables" },  # Monastery Siege
+  { printing = "sos/115", at = "stables" },  # Flashback
 ]
 
 [places]
