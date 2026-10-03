@@ -98,6 +98,7 @@ cards = [
   { printing = "clb/334", at = "colorless" },  # Prized Statue
   { printing = "tdm/243", at = "colorless" },  # Jade-Cast Sentinel
   { printing = "clb/297", at = "colorless" },  # Arcane Encyclopedia
+  { printing = "clb/442", at = "colorless" },  # Charcoal Diamond
 ]
 
 [places]
