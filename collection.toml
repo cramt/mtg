@@ -131,6 +131,7 @@ cards = [
   { printing = "aer/156", at = "colorless" },  # Implement of Examination
   { printing = "sos/250", at = "colorless" },  # Page, Loose Leaf
   { printing = "sos/249", at = "colorless" },  # Mage Tower Referee
+  { printing = "sos/3", at = "colorless" },  # Sundering Archaic
 ]
 
 [places]
