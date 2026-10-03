@@ -226,6 +226,7 @@ cards = [
   { printing = "hob/210", at = "stables" },  # Bard's Company
   { printing = "m20/87", at = "stables" },  # Blightbeetle
   { printing = "soa/60", at = "stables" },  # Veil of Summer
+  { printing = "sos/259", at = "stables" },  # Petrified Hamlet
 ]
 
 [places]
