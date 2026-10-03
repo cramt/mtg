@@ -172,9 +172,9 @@ cards = [
   { printing = "sos/224", qty = 2, at = "stables" },  # Scolding Administrator
   { printing = "xln/218", qty = 2, at = "stables" },  # Belligerent Brontodon
   { printing = "grn/172", qty = 2, at = "bulk multicolor" },  # Garrison Sergeant
-  { printing = "grn/155", qty = 2, at = "bulk multicolor" },  # Beamsplitter Mage
+  { printing = "grn/155", qty = 3, at = "bulk multicolor" },  # Beamsplitter Mage
   { printing = "grn/210", qty = 5, at = "bulk multicolor" },  # Undercity Uprising
-  { printing = "grn/158", qty = 7, at = "bulk multicolor" },  # Centaur Peacemaker
+  { printing = "grn/158", qty = 8, at = "bulk multicolor" },  # Centaur Peacemaker
   { printing = "sos/196", at = "bulk multicolor" },  # Inkling Mascot
   { printing = "grn/198", at = "bulk multicolor" },  # Skyknight Legionnaire
   { printing = "sos/195", at = "bulk multicolor" },  # Imperious Inkmage
@@ -199,6 +199,7 @@ cards = [
   { printing = "cp2/4", at = "bulk multicolor" },  # Reaper of the Wilds
   { printing = "ktk/205", qty = 2, at = "bulk multicolor" },  # Sultai Soothsayer
   { printing = "sos/183", at = "bulk multicolor" },  # Cuboid Colony
+  { printing = "sos/227", at = "bulk multicolor" },  # Snooping Page
 ]
 
 [places]
