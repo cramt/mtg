@@ -171,6 +171,7 @@ cards = [
   { printing = "thb/227", qty = 3, at = "stables" },  # Slaughter-Priest of Mogis
   { printing = "sos/177", qty = 2, at = "stables" },  # Bogwater Lumaret
   { printing = "sos/209", qty = 2, at = "stables" },  # Pest Mascot
+  { printing = "sos/224", qty = 2, at = "stables" },  # Scolding Administrator
 ]
 
 [places]
