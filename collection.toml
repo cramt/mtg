@@ -188,6 +188,7 @@ cards = [
   { printing = "tdm/175", at = "bulk multicolor" },  # Cori Mountain Stalwart
   { printing = "tdm/181", at = "bulk multicolor" },  # Effortless Master
   { printing = "tdm/224", at = "bulk multicolor" },  # Skirmish Rhino
+  { printing = "sos/223", at = "bulk multicolor" },  # Sanar, Unfinished Genius // Wild Idea
 ]
 
 [places]
