@@ -204,6 +204,7 @@ cards = [
   { printing = "hob/161", at = "bulk multicolor" },  # Nori, Teller of Tales
   { printing = "hob/153", at = "bulk multicolor" },  # Duskwatch Hunter
   { printing = "hob/157", qty = 2, at = "bulk multicolor" },  # Goblin Plate Mail
+  { printing = "hob/145", at = "bulk multicolor" },  # Bard the Bowman
 ]
 
 [places]
