@@ -123,7 +123,7 @@ cards = [
   { printing = "bbd/247", at = "colorless" },  # Stone Golem
   { printing = "kld/217", at = "colorless" },  # Glassblower's Puzzleknot
   { printing = "m20/241", at = "colorless" },  # Vial of Dragonfire
-  { printing = "aer/150", at = "colorless" },  # Filigree Crawler
+  { printing = "aer/150", qty = 2, at = "colorless" },  # Filigree Crawler
   { printing = "kld/197", at = "colorless" },  # Bastion Mastodon
   { printing = "m19/237", at = "colorless" },  # Gearsmith Guardian
 ]
