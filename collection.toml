@@ -238,6 +238,7 @@ cards = [
   { printing = "arb/19", at = "stables" },  # Deny Reality
   { printing = "m21/88", at = "stables" },  # Archfiend's Vessel
   { printing = "sos/226", at = "stables" },  # Silverquill, the Disputant
+  { printing = "m20/230", at = "stables" },  # Manifold Key
 ]
 
 [places]
