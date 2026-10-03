@@ -144,6 +144,7 @@ cards = [
   { printing = "soc/329", at = "colorless" },  # Rootha, Mercurial Artist
   { printing = "lcc/279", at = "colorless" },  # Prismari Command
   { printing = "soc/8", at = "colorless" },  # Rootha, Mastering the Moment
+  { printing = "soc/314", at = "colorless" },  # Hofri Ghostforge
 ]
 
 [places]
