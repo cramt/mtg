@@ -258,6 +258,7 @@ cards = [
   { printing = "hob/166", at = "stables" },  # Thranduil, Sindarin Liege // Silvan Rally
   { printing = "hob/87", at = "stables" },  # Balin, Loremaster
   { printing = "hob/104", at = "stables" },  # The Misty Mountains Cold
+  { printing = "hob/164", at = "stables" },  # Smaug, Wicked Worm
 ]
 
 [places]
