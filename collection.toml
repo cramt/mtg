@@ -79,6 +79,7 @@ cards = [
   { printing = "soc/347", at = "colorless" },  # Fellwar Stone
   { printing = "ema/226", at = "colorless" },  # Millikin
   { printing = "soc/352", at = "colorless" },  # Mind Stone
+  { printing = "soc/353", at = "colorless" },  # Patchwork Banner
 ]
 
 [places]
