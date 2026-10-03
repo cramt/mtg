@@ -88,10 +88,11 @@ cards = [
   { printing = "soc/357", at = "stables" },  # Talisman of Creativity
   { printing = "soc/351", at = "stables" },  # Millikin
   { printing = "soc/355", at = "stables" },  # Solemn Simulacrum
-  { printing = "hob/2", at = "colorless" },  # Old Thrush
+  { printing = "hob/2", qty = 2, at = "colorless" },  # Old Thrush
   { printing = "hob/180", at = "colorless" },  # Well-Worn Spatula
   { printing = "hob/173", at = "stables" },  # Giant's Boulder
   { printing = "hob/1", at = "colorless" },  # Long-Bodied Grey Dog
+  { printing = "hob/172", at = "colorless" },  # Dwarven Mattock
 ]
 
 [places]
