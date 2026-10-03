@@ -186,6 +186,7 @@ cards = [
   { printing = "tdm/227", at = "bulk multicolor" },  # Stalwart Successor
   { printing = "tdm/197", at = "bulk multicolor" },  # Jeskai Shrinekeeper
   { printing = "tdm/175", at = "bulk multicolor" },  # Cori Mountain Stalwart
+  { printing = "tdm/181", at = "bulk multicolor" },  # Effortless Master
 ]
 
 [places]
