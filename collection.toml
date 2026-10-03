@@ -81,10 +81,10 @@ cards = [
   { printing = "soc/352", at = "stables" },  # Mind Stone
   { printing = "soc/353", at = "stables" },  # Patchwork Banner
   { printing = "soc/127", qty = 2, at = "stables" },  # Arcane Signet
-  { printing = "soc/128", qty = 2, at = "stables" },  # Sol Ring
+  { printing = "soc/128", qty = 2, at = "sleaved stables" },  # Sol Ring
   { printing = "soc/345", at = "stables" },  # Currency Converter
-  { printing = "soc/343", at = "stables" },  # Bitterthorn, Nissa's Animus
-  { printing = "soc/350", at = "stables" },  # Lightning Greaves
+  { printing = "soc/343", at = "sleaved stables" },  # Bitterthorn, Nissa's Animus
+  { printing = "soc/350", at = "sleaved stables" },  # Lightning Greaves
   { printing = "soc/357", at = "stables" },  # Talisman of Creativity
   { printing = "soc/351", at = "stables" },  # Millikin
   { printing = "soc/355", at = "stables" },  # Solemn Simulacrum
@@ -137,7 +137,7 @@ cards = [
   { printing = "arc/113", at = "colorless" },  # Obelisk of Esper
   { printing = "soc/299", at = "stables" },  # Brudiclad, Telchor Engineer
   { printing = "soc/5", at = "stables" },  # Muddle, the Ever-Changing
-  { printing = "stx/189", at = "stables" },  # Galazeth Prismari
+  { printing = "stx/189", at = "sleaved stables" },  # Galazeth Prismari
   { printing = "soc/295", at = "stables" },  # Balefire Liege
   { printing = "soc/49", at = "stables" },  # Lorehold Archivist // Restore Relic
   { printing = "stx/186", at = "stables" },  # Expressive Iteration
@@ -216,3 +216,4 @@ cards = [
 stables = {}
 colorless = {}
 "bulk multicolor" = {}
+"sleaved stables" = {}
