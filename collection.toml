@@ -148,6 +148,7 @@ cards = [
   { printing = "soc/327", at = "stables" },  # Quintorius, Loremaster
   { printing = "stx/246", at = "stables" },  # Venerable Warsinger
   { printing = "soc/48", at = "stables" },  # Inspired Skypainter // Maestro's Gift
+  { printing = "soc/337", at = "stables" },  # Veyran, Voice of Duality
 ]
 
 [places]
