@@ -243,6 +243,8 @@ cards = [
   { printing = "m21/242", at = "stables" },  # Animal Sanctuary
   { printing = "rvr/7", at = "stables" },  # Basilica Guards
   { printing = "ddh/59", at = "stables" },  # Countersquall
+  { printing = "m20/206", at = "stables" },  # Corpse Knight
+  { printing = "aer/165", at = "stables" },  # Mobile Garrison
 ]
 
 [places]
