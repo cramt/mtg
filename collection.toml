@@ -101,6 +101,7 @@ cards = [
   { printing = "clb/442", at = "colorless" },  # Charcoal Diamond
   { printing = "clb/305", at = "colorless" },  # Charcoal Diamond
   { printing = "clb/330", at = "colorless" },  # Nimblewright Schematic
+  { printing = "xln/239", at = "colorless" },  # Gilded Sentinel
 ]
 
 [places]
