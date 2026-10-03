@@ -213,6 +213,7 @@ cards = [
   { printing = "m15/229", at = "stables" },  # Scuttling Doom Engine
   { printing = "jmp/484", qty = 2, at = "stables" },  # Scuttlemutt
   { printing = "cp2/2", at = "stables" },  # Hero's Downfall
+  { printing = "jou/73", at = "stables" },  # Grim Guardian
 ]
 
 [places]
