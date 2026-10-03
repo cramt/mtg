@@ -180,6 +180,7 @@ cards = [
   { printing = "sos/195", at = "bulk multicolor" },  # Imperious Inkmage
   { printing = "bfz/218", at = "bulk multicolor" },  # Resolute Blademaster
   { printing = "m20/213", at = "bulk multicolor" },  # Lightning Stormkin
+  { printing = "frf/153", at = "bulk multicolor" },  # Grim Contest
 ]
 
 [places]
