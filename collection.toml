@@ -240,6 +240,8 @@ cards = [
   { printing = "sos/226", at = "stables" },  # Silverquill, the Disputant
   { printing = "m20/230", at = "stables" },  # Manifold Key
   { printing = "cp2/6", at = "stables" },  # Courser of Kruphix
+  { printing = "m21/242", at = "stables" },  # Animal Sanctuary
+  { printing = "rvr/7", at = "stables" },  # Basilica Guards
 ]
 
 [places]
