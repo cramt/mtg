@@ -178,6 +178,8 @@ cards = [
   { printing = "sos/196", at = "bulk multicolor" },  # Inkling Mascot
   { printing = "grn/198", at = "bulk multicolor" },  # Skyknight Legionnaire
   { printing = "sos/195", at = "bulk multicolor" },  # Imperious Inkmage
+  { printing = "bfz/218", at = "bulk multicolor" },  # Resolute Blademaster
+  { printing = "m20/213", at = "bulk multicolor" },  # Lightning Stormkin
 ]
 
 [places]
