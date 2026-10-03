@@ -182,6 +182,7 @@ cards = [
   { printing = "m20/213", at = "bulk multicolor" },  # Lightning Stormkin
   { printing = "frf/153", at = "bulk multicolor" },  # Grim Contest
   { printing = "sos/240", at = "bulk multicolor" },  # Vibrant Outburst
+  { printing = "sos/233", at = "bulk multicolor" },  # Startled Relic Sloth
 ]
 
 [places]
