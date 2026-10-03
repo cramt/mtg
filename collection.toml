@@ -166,7 +166,7 @@ cards = [
   { printing = "clb/269", at = "stables" },  # Cadira, Caller of the Small
   { printing = "ala/162", at = "stables" },  # Carrion Thrash
   { printing = "grn/219", at = "stables" },  # Vernadi Shieldmate
-  { printing = "grn/210", qty = 3, at = "stables" },  # Undercity Uprising
+  { printing = "grn/210", qty = 5, at = "stables" },  # Undercity Uprising
   { printing = "grn/158", qty = 7, at = "stables" },  # Centaur Peacemaker
   { printing = "thb/227", qty = 3, at = "stables" },  # Slaughter-Priest of Mogis
   { printing = "sos/177", qty = 2, at = "stables" },  # Bogwater Lumaret
