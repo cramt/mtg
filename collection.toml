@@ -207,6 +207,7 @@ cards = [
   { printing = "hob/145", at = "bulk multicolor" },  # Bard the Bowman
   { printing = "hob/156", at = "bulk multicolor" },  # Fearsome Goblin Pair
   { printing = "hob/150", at = "bulk multicolor" },  # The Chief Warg
+  { printing = "hob/163", qty = 2, at = "bulk multicolor" },  # Silvan Reveler
 ]
 
 [places]
