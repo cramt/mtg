@@ -224,9 +224,11 @@ cards = [
   { printing = "sos/231", at = "stables" },  # Splatter Technique
   { printing = "hob/17", at = "stables" },  # Kíli the Resourceful
   { printing = "hob/210", at = "stables" },  # Bard's Company
-  { printing = "m20/87", at = "stables" },  # Blightbeetle
+  { printing = "m20/87", qty = 2, at = "stables" },  # Blightbeetle
   { printing = "soa/60", at = "stables" },  # Veil of Summer
   { printing = "sos/259", at = "stables" },  # Petrified Hamlet
+  { printing = "jou/122", at = "stables" },  # Eidolon of Blossoms
+  { printing = "sos/264", at = "stables" },  # Sundown Pass
 ]
 
 [places]
