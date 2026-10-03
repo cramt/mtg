@@ -252,6 +252,7 @@ cards = [
   { printing = "cp2/3", at = "stables" },  # Sultai Ascendancy
   { printing = "hob/206", at = "stables" },  # Dreaded Bat-Cloud
   { printing = "hob/227", at = "stables" },  # Glóin the Mighty // Easy Pickings
+  { printing = "hob/112", at = "stables" },  # Snowslope Hunter
 ]
 
 [places]
