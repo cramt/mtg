@@ -127,6 +127,7 @@ cards = [
   { printing = "kld/197", at = "colorless" },  # Bastion Mastodon
   { printing = "m19/237", at = "colorless" },  # Gearsmith Guardian
   { printing = "m20/237", at = "colorless" },  # Salvager of Ruin
+  { printing = "grn/234", at = "colorless" },  # Dimir Locket
 ]
 
 [places]
