@@ -76,16 +76,16 @@ cards = [
   { printing = "soc/402", at = "shit lands" },  # Sacred Peaks
   { printing = "neo/243", at = "stables" },  # Containment Construct
   { printing = "soc/354", at = "stables" },  # Perpetual Timepiece
-  { printing = "soc/347", qty = 2, at = "stables" },  # Fellwar Stone
+  { printing = "soc/347", qty = 2, at = "sleaved stables" },  # Fellwar Stone
   { printing = "ema/226", at = "stables" },  # Millikin
   { printing = "soc/352", at = "stables" },  # Mind Stone
-  { printing = "soc/353", at = "stables" },  # Patchwork Banner
-  { printing = "soc/127", qty = 2, at = "stables" },  # Arcane Signet
+  { printing = "soc/353", at = "sleaved stables" },  # Patchwork Banner
+  { printing = "soc/127", qty = 2, at = "sleaved stables" },  # Arcane Signet
   { printing = "soc/128", qty = 2, at = "sleaved stables" },  # Sol Ring
-  { printing = "soc/345", at = "stables" },  # Currency Converter
+  { printing = "soc/345", at = "sleaved stables" },  # Currency Converter
   { printing = "soc/343", at = "sleaved stables" },  # Bitterthorn, Nissa's Animus
   { printing = "soc/350", at = "sleaved stables" },  # Lightning Greaves
-  { printing = "soc/357", at = "stables" },  # Talisman of Creativity
+  { printing = "soc/357", at = "sleaved stables" },  # Talisman of Creativity
   { printing = "soc/351", at = "stables" },  # Millikin
   { printing = "soc/355", at = "stables" },  # Solemn Simulacrum
   { printing = "hob/2", qty = 2, at = "colorless" },  # Old Thrush
@@ -100,7 +100,7 @@ cards = [
   { printing = "xln/240", qty = 5, at = "colorless" },  # Hierophant's Chalice
   { printing = "clb/318", at = "stables" },  # Lantern of Revealing
   { printing = "clb/327", at = "stables" },  # Moss Diamond
-  { printing = "clb/334", at = "stables" },  # Prized Statue
+  { printing = "clb/334", at = "sleaved stables" },  # Prized Statue
   { printing = "clb/442", at = "stables" },  # Charcoal Diamond
   { printing = "clb/305", at = "stables" },  # Charcoal Diamond
   { printing = "clb/330", at = "stables" },  # Nimblewright Schematic
@@ -148,13 +148,13 @@ cards = [
   { printing = "soc/327", at = "stables" },  # Quintorius, Loremaster
   { printing = "stx/246", at = "stables" },  # Venerable Warsinger
   { printing = "soc/48", at = "stables" },  # Inspired Skypainter // Maestro's Gift
-  { printing = "soc/337", at = "stables" },  # Veyran, Voice of Duality
+  { printing = "soc/337", at = "sleaved stables" },  # Veyran, Voice of Duality
   { printing = "stx/220", at = "bulk multicolor" },  # Quintorius, Field Historian
   { printing = "soc/321", at = "stables" },  # Mortality Spear
   { printing = "soc/328", at = "stables" },  # Rip Apart
   { printing = "soc/331", at = "stables" },  # Stormcatch Mentor
   { printing = "soc/2", at = "stables" },  # Excava, the Risen Past
-  { printing = "soc/7", at = "stables" },  # Quintorius, History Chaser
+  { printing = "soc/7", at = "sleaved stables" },  # Quintorius, History Chaser
   { printing = "soc/318", at = "stables" },  # Magma Opus
   { printing = "sos/191", at = "stables" },  # Geometer's Arthropod
   { printing = "soc/305", at = "stables" },  # Dina, Soul Steeper
