@@ -149,7 +149,7 @@ cards = [
   { printing = "stx/246", at = "stables" },  # Venerable Warsinger
   { printing = "soc/48", at = "stables" },  # Inspired Skypainter // Maestro's Gift
   { printing = "soc/337", at = "stables" },  # Veyran, Voice of Duality
-  { printing = "stx/220", at = "stables" },  # Quintorius, Field Historian
+  { printing = "stx/220", at = "bulk multicolor" },  # Quintorius, Field Historian
   { printing = "soc/321", at = "stables" },  # Mortality Spear
   { printing = "soc/328", at = "stables" },  # Rip Apart
   { printing = "soc/331", at = "stables" },  # Stormcatch Mentor
@@ -165,9 +165,7 @@ cards = [
   { printing = "clb/270", at = "stables" },  # Commander Liara Portyr
   { printing = "clb/269", at = "stables" },  # Cadira, Caller of the Small
   { printing = "ala/162", at = "bulk multicolor" },  # Carrion Thrash
-  { printing = "grn/219", at = "stables" },  # Vernadi Shieldmate
-  { printing = "grn/210", qty = 3, at = "stables" },  # Undercity Uprising
-  { printing = "grn/158", qty = 2, at = "stables" },  # Centaur Peacemaker
+  { printing = "grn/219", at = "bulk multicolor" },  # Vernadi Shieldmate
   { printing = "thb/227", qty = 3, at = "stables" },  # Slaughter-Priest of Mogis
   { printing = "sos/177", qty = 2, at = "stables" },  # Bogwater Lumaret
   { printing = "sos/209", qty = 2, at = "stables" },  # Pest Mascot
@@ -175,8 +173,8 @@ cards = [
   { printing = "xln/218", qty = 2, at = "stables" },  # Belligerent Brontodon
   { printing = "grn/172", qty = 2, at = "bulk multicolor" },  # Garrison Sergeant
   { printing = "grn/155", qty = 2, at = "bulk multicolor" },  # Beamsplitter Mage
-  { printing = "grn/210", qty = 2, at = "bulk multicolor" },  # Undercity Uprising
-  { printing = "grn/158", qty = 5, at = "bulk multicolor" },  # Centaur Peacemaker
+  { printing = "grn/210", qty = 5, at = "bulk multicolor" },  # Undercity Uprising
+  { printing = "grn/158", qty = 7, at = "bulk multicolor" },  # Centaur Peacemaker
 ]
 
 [places]
