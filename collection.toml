@@ -205,6 +205,8 @@ cards = [
   { printing = "hob/153", at = "bulk multicolor" },  # Duskwatch Hunter
   { printing = "hob/157", qty = 2, at = "bulk multicolor" },  # Goblin Plate Mail
   { printing = "hob/145", at = "bulk multicolor" },  # Bard the Bowman
+  { printing = "hob/156", at = "bulk multicolor" },  # Fearsome Goblin Pair
+  { printing = "hob/150", at = "bulk multicolor" },  # The Chief Warg
 ]
 
 [places]
