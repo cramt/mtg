@@ -214,6 +214,7 @@ cards = [
   { printing = "jmp/484", qty = 2, at = "stables" },  # Scuttlemutt
   { printing = "cp2/2", at = "stables" },  # Hero's Downfall
   { printing = "jou/73", at = "stables" },  # Grim Guardian
+  { printing = "m21/50", at = "stables" },  # Frantic Inventory
 ]
 
 [places]
