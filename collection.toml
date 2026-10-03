@@ -95,6 +95,7 @@ cards = [
   { printing = "hob/172", at = "colorless" },  # Dwarven Mattock
   { printing = "clb/318", at = "colorless" },  # Lantern of Revealing
   { printing = "clb/327", at = "colorless" },  # Moss Diamond
+  { printing = "clb/334", at = "colorless" },  # Prized Statue
 ]
 
 [places]
