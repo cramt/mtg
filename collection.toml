@@ -264,6 +264,7 @@ cards = [
   { printing = "clb/182", at = "stables" },  # Ingenious Artillerist
   { printing = "clb/358", at = "stables" },  # Reflecting Pool
   { printing = "clb/300", at = "stables" },  # Basilisk Collar
+  { printing = "clb/265", at = "stables" },  # Astarion, the Decadent
 ]
 
 [places]
