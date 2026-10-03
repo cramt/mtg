@@ -236,6 +236,8 @@ cards = [
   { printing = "sos/23", at = "stables" },  # Joined Researchers // Secret Rendezvous
   { printing = "jou/123", at = "stables" },  # Font of Fertility
   { printing = "arb/19", at = "stables" },  # Deny Reality
+  { printing = "m21/88", at = "stables" },  # Archfiend's Vessel
+  { printing = "sos/226", at = "stables" },  # Silverquill, the Disputant
 ]
 
 [places]
