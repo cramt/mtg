@@ -105,6 +105,7 @@ cards = [
   { printing = "clb/305", at = "stables" },  # Charcoal Diamond
   { printing = "clb/330", at = "stables" },  # Nimblewright Schematic
   { printing = "thb/241", qty = 5, at = "colorless" },  # Wings of Hubris
+  { printing = "xln/233", qty = 5, at = "colorless" },  # Cobbled Wings
 ]
 
 [places]
