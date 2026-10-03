@@ -212,7 +212,7 @@ cards = [
   { printing = "tdm/172", at = "stables" },  # Betor, Kin to All
   { printing = "m15/229", at = "stables" },  # Scuttling Doom Engine
   { printing = "jmp/484", qty = 2, at = "stables" },  # Scuttlemutt
-  { printing = "cp2/2", at = "stables" },  # Hero's Downfall
+  { printing = "cp2/2", at = "sleaved stables" },  # Hero's Downfall
   { printing = "jou/73", qty = 2, at = "stables" },  # Grim Guardian
   { printing = "m21/50", at = "stables" },  # Frantic Inventory
   { printing = "hob/36", at = "stables" },  # Elrond, Moon-Reader
@@ -229,8 +229,8 @@ cards = [
   { printing = "sos/259", at = "stables" },  # Petrified Hamlet
   { printing = "jou/122", at = "stables" },  # Eidolon of Blossoms
   { printing = "sos/264", at = "stables" },  # Sundown Pass
-  { printing = "cp2/5", at = "stables" },  # Whip of Erebos
-  { printing = "frf/43★", at = "stables" },  # Monastery Siege
+  { printing = "cp2/5", at = "sleaved stables" },  # Whip of Erebos
+  { printing = "frf/43★", at = "sleaved stables" },  # Monastery Siege
   { printing = "sos/115", at = "stables" },  # Flashback
   { printing = "m21/36", at = "stables" },  # Selfless Savior
   { printing = "sos/23", at = "stables" },  # Joined Researchers // Secret Rendezvous
@@ -239,7 +239,7 @@ cards = [
   { printing = "m21/88", at = "stables" },  # Archfiend's Vessel
   { printing = "sos/226", at = "stables" },  # Silverquill, the Disputant
   { printing = "m20/230", qty = 2, at = "stables" },  # Manifold Key
-  { printing = "cp2/6", at = "stables" },  # Courser of Kruphix
+  { printing = "cp2/6", at = "sleaved stables" },  # Courser of Kruphix
   { printing = "m21/242", at = "stables" },  # Animal Sanctuary
   { printing = "rvr/7", at = "stables" },  # Basilica Guards
   { printing = "ddh/59", at = "stables" },  # Countersquall
@@ -249,7 +249,7 @@ cards = [
   { printing = "c18/203", at = "stables" },  # Dimir Signet
   { printing = "sos/57", at = "stables" },  # Mana Sculpt
   { printing = "ice/64", at = "stables" },  # Counterspell
-  { printing = "cp2/3", at = "stables" },  # Sultai Ascendancy
+  { printing = "cp2/3", at = "sleaved stables" },  # Sultai Ascendancy
   { printing = "hob/206", at = "stables" },  # Dreaded Bat-Cloud
   { printing = "hob/227", at = "stables" },  # Glóin the Mighty // Easy Pickings
   { printing = "hob/112", at = "stables" },  # Snowslope Hunter
