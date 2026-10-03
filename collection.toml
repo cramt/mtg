@@ -123,6 +123,7 @@ cards = [
   { printing = "bbd/247", at = "colorless" },  # Stone Golem
   { printing = "kld/217", at = "colorless" },  # Glassblower's Puzzleknot
   { printing = "m20/241", at = "colorless" },  # Vial of Dragonfire
+  { printing = "aer/150", at = "colorless" },  # Filigree Crawler
 ]
 
 [places]
