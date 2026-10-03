@@ -256,6 +256,8 @@ cards = [
   { printing = "hob/179", at = "stables" },  # Thrór's Map
   { printing = "hob/215", at = "stables" },  # Bofur, Reliable Guardian // Concerted Care
   { printing = "hob/166", at = "stables" },  # Thranduil, Sindarin Liege // Silvan Rally
+  { printing = "hob/87", at = "stables" },  # Balin, Loremaster
+  { printing = "hob/104", at = "stables" },  # The Misty Mountains Cold
 ]
 
 [places]
