@@ -74,23 +74,23 @@ cards = [
   { printing = "sos/255", at = "shit lands" },  # Fields of Strife
   { printing = "soc/384", at = "shit lands" },  # Lorehold Campus
   { printing = "soc/402", at = "shit lands" },  # Sacred Peaks
-  { printing = "neo/243", at = "colorless" },  # Containment Construct
-  { printing = "soc/354", at = "colorless" },  # Perpetual Timepiece
-  { printing = "soc/347", qty = 2, at = "colorless" },  # Fellwar Stone
-  { printing = "ema/226", at = "colorless" },  # Millikin
-  { printing = "soc/352", at = "colorless" },  # Mind Stone
-  { printing = "soc/353", at = "colorless" },  # Patchwork Banner
-  { printing = "soc/127", qty = 2, at = "colorless" },  # Arcane Signet
-  { printing = "soc/128", qty = 2, at = "colorless" },  # Sol Ring
-  { printing = "soc/345", at = "colorless" },  # Currency Converter
-  { printing = "soc/343", at = "colorless" },  # Bitterthorn, Nissa's Animus
-  { printing = "soc/350", at = "colorless" },  # Lightning Greaves
-  { printing = "soc/357", at = "colorless" },  # Talisman of Creativity
-  { printing = "soc/351", at = "colorless" },  # Millikin
-  { printing = "soc/355", at = "colorless" },  # Solemn Simulacrum
+  { printing = "neo/243", at = "stables" },  # Containment Construct
+  { printing = "soc/354", at = "stables" },  # Perpetual Timepiece
+  { printing = "soc/347", qty = 2, at = "stables" },  # Fellwar Stone
+  { printing = "ema/226", at = "stables" },  # Millikin
+  { printing = "soc/352", at = "stables" },  # Mind Stone
+  { printing = "soc/353", at = "stables" },  # Patchwork Banner
+  { printing = "soc/127", qty = 2, at = "stables" },  # Arcane Signet
+  { printing = "soc/128", qty = 2, at = "stables" },  # Sol Ring
+  { printing = "soc/345", at = "stables" },  # Currency Converter
+  { printing = "soc/343", at = "stables" },  # Bitterthorn, Nissa's Animus
+  { printing = "soc/350", at = "stables" },  # Lightning Greaves
+  { printing = "soc/357", at = "stables" },  # Talisman of Creativity
+  { printing = "soc/351", at = "stables" },  # Millikin
+  { printing = "soc/355", at = "stables" },  # Solemn Simulacrum
 ]
 
 [places]
 "useful non-basic lands" = {}
 "shit lands" = {}
-colorless = {}
+stables = {}
