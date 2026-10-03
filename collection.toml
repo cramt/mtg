@@ -93,6 +93,7 @@ cards = [
   { printing = "hob/173", at = "stables" },  # Giant's Boulder
   { printing = "hob/1", at = "colorless" },  # Long-Bodied Grey Dog
   { printing = "hob/172", at = "colorless" },  # Dwarven Mattock
+  { printing = "clb/318", at = "colorless" },  # Lantern of Revealing
 ]
 
 [places]
