@@ -220,6 +220,7 @@ cards = [
   { printing = "hob/144", at = "stables" },  # Bard, King of Dale
   { printing = "hob/12", at = "stables" },  # The Eagles Are Coming!
   { printing = "hob/46", at = "stables" },  # The Lord of the Eagles
+  { printing = "hob/117", at = "stables" },  # Bejeweled Warg
 ]
 
 [places]
