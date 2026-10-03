@@ -175,6 +175,7 @@ cards = [
   { printing = "grn/155", qty = 2, at = "bulk multicolor" },  # Beamsplitter Mage
   { printing = "grn/210", qty = 5, at = "bulk multicolor" },  # Undercity Uprising
   { printing = "grn/158", qty = 7, at = "bulk multicolor" },  # Centaur Peacemaker
+  { printing = "sos/196", at = "bulk multicolor" },  # Inkling Mascot
 ]
 
 [places]
