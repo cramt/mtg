@@ -145,6 +145,7 @@ cards = [
   { printing = "lcc/279", at = "stables" },  # Prismari Command
   { printing = "soc/8", at = "stables" },  # Rootha, Mastering the Moment
   { printing = "soc/314", at = "stables" },  # Hofri Ghostforge
+  { printing = "soc/327", at = "stables" },  # Quintorius, Loremaster
 ]
 
 [places]
