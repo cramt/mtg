@@ -119,7 +119,8 @@ cards = [
   { printing = "m21/237", at = "colorless" },  # Silent Dart
   { printing = "ogw/165", at = "colorless" },  # Seer's Lantern
   { printing = "rix/184", at = "colorless" },  # Traveler's Amulet
-  { printing = "thb/239", at = "colorless" },  # Thundering Chariot
+  { printing = "thb/239", qty = 2, at = "colorless" },  # Thundering Chariot
+  { printing = "bbd/247", at = "colorless" },  # Stone Golem
 ]
 
 [places]
