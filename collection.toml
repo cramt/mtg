@@ -129,6 +129,7 @@ cards = [
   { printing = "m20/237", qty = 2, at = "colorless" },  # Salvager of Ruin
   { printing = "grn/234", at = "colorless" },  # Dimir Locket
   { printing = "aer/156", at = "colorless" },  # Implement of Examination
+  { printing = "sos/250", at = "colorless" },  # Page, Loose Leaf
 ]
 
 [places]
