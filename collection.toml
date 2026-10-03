@@ -100,6 +100,7 @@ cards = [
   { printing = "clb/297", at = "colorless" },  # Arcane Encyclopedia
   { printing = "clb/442", at = "colorless" },  # Charcoal Diamond
   { printing = "clb/305", at = "colorless" },  # Charcoal Diamond
+  { printing = "clb/330", at = "colorless" },  # Nimblewright Schematic
 ]
 
 [places]
