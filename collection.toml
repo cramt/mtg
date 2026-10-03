@@ -208,6 +208,7 @@ cards = [
   { printing = "c20/226", qty = 3, at = "stables" },  # Nyx Weaver
   { printing = "sos/244", at = "stables" },  # Witherbloom Charm
   { printing = "sos/187", at = "stables" },  # Essenceknit Scholar
+  { printing = "hob/168", at = "stables" },  # Thranduil's Company
 ]
 
 [places]
