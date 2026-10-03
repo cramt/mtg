@@ -230,6 +230,7 @@ cards = [
   { printing = "jou/122", at = "stables" },  # Eidolon of Blossoms
   { printing = "sos/264", at = "stables" },  # Sundown Pass
   { printing = "cp2/5", at = "stables" },  # Whip of Erebos
+  { printing = "frf/43★", at = "stables" },  # Monastery Siege
 ]
 
 [places]
