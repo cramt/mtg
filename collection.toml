@@ -209,6 +209,7 @@ cards = [
   { printing = "sos/244", at = "stables" },  # Witherbloom Charm
   { printing = "sos/187", at = "stables" },  # Essenceknit Scholar
   { printing = "hob/168", at = "stables" },  # Thranduil's Company
+  { printing = "tdm/172", at = "stables" },  # Betor, Kin to All
 ]
 
 [places]
