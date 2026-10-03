@@ -215,6 +215,7 @@ cards = [
   { printing = "cp2/2", at = "stables" },  # Hero's Downfall
   { printing = "jou/73", at = "stables" },  # Grim Guardian
   { printing = "m21/50", at = "stables" },  # Frantic Inventory
+  { printing = "hob/36", at = "stables" },  # Elrond, Moon-Reader
 ]
 
 [places]
