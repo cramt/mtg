@@ -111,6 +111,7 @@ cards = [
   { printing = "m20/234", at = "colorless" },  # Pattern Matcher
   { printing = "xln/237", at = "colorless" },  # Elaborate Firecannon
   { printing = "m20/221", at = "colorless" },  # Anvilwrought Raptor
+  { printing = "dom/228", at = "colorless" },  # Shield of the Realm
 ]
 
 [places]
