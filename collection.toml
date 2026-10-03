@@ -262,6 +262,7 @@ cards = [
   { printing = "clb/30", at = "stables" },  # Lae'zel's Acrobatics
   { printing = "jou/66", at = "stables" },  # Doomwake Giant
   { printing = "clb/182", at = "stables" },  # Ingenious Artillerist
+  { printing = "clb/358", at = "stables" },  # Reflecting Pool
 ]
 
 [places]
