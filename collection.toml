@@ -140,6 +140,8 @@ cards = [
   { printing = "stx/189", at = "colorless" },  # Galazeth Prismari
   { printing = "soc/295", at = "colorless" },  # Balefire Liege
   { printing = "soc/49", at = "colorless" },  # Lorehold Archivist // Restore Relic
+  { printing = "stx/186", at = "colorless" },  # Expressive Iteration
+  { printing = "soc/329", at = "colorless" },  # Rootha, Mercurial Artist
 ]
 
 [places]
