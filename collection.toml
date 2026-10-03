@@ -76,7 +76,7 @@ cards = [
   { printing = "soc/402", at = "shit lands" },  # Sacred Peaks
   { printing = "neo/243", at = "colorless" },  # Containment Construct
   { printing = "soc/354", at = "colorless" },  # Perpetual Timepiece
-  { printing = "soc/347", at = "colorless" },  # Fellwar Stone
+  { printing = "soc/347", qty = 2, at = "colorless" },  # Fellwar Stone
   { printing = "ema/226", at = "colorless" },  # Millikin
   { printing = "soc/352", at = "colorless" },  # Mind Stone
   { printing = "soc/353", at = "colorless" },  # Patchwork Banner
