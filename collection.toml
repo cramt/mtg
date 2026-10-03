@@ -229,6 +229,7 @@ cards = [
   { printing = "sos/259", at = "stables" },  # Petrified Hamlet
   { printing = "jou/122", at = "stables" },  # Eidolon of Blossoms
   { printing = "sos/264", at = "stables" },  # Sundown Pass
+  { printing = "cp2/5", at = "stables" },  # Whip of Erebos
 ]
 
 [places]
