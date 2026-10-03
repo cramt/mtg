@@ -93,15 +93,17 @@ cards = [
   { printing = "hob/173", at = "stables" },  # Giant's Boulder
   { printing = "hob/1", at = "colorless" },  # Long-Bodied Grey Dog
   { printing = "hob/172", at = "colorless" },  # Dwarven Mattock
-  { printing = "clb/318", at = "colorless" },  # Lantern of Revealing
-  { printing = "clb/327", at = "colorless" },  # Moss Diamond
-  { printing = "clb/334", at = "colorless" },  # Prized Statue
   { printing = "tdm/243", at = "colorless" },  # Jade-Cast Sentinel
   { printing = "clb/297", at = "colorless" },  # Arcane Encyclopedia
-  { printing = "clb/442", at = "colorless" },  # Charcoal Diamond
-  { printing = "clb/305", at = "colorless" },  # Charcoal Diamond
-  { printing = "clb/330", at = "colorless" },  # Nimblewright Schematic
   { printing = "xln/239", at = "colorless" },  # Gilded Sentinel
+  { printing = "xln/242", at = "colorless" },  # Pirate's Cutlass
+  { printing = "xln/240", at = "colorless" },  # Hierophant's Chalice
+  { printing = "clb/318", at = "stables" },  # Lantern of Revealing
+  { printing = "clb/327", at = "stables" },  # Moss Diamond
+  { printing = "clb/334", at = "stables" },  # Prized Statue
+  { printing = "clb/442", at = "stables" },  # Charcoal Diamond
+  { printing = "clb/305", at = "stables" },  # Charcoal Diamond
+  { printing = "clb/330", at = "stables" },  # Nimblewright Schematic
 ]
 
 [places]
