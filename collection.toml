@@ -263,6 +263,7 @@ cards = [
   { printing = "jou/66", at = "stables" },  # Doomwake Giant
   { printing = "clb/182", at = "stables" },  # Ingenious Artillerist
   { printing = "clb/358", at = "stables" },  # Reflecting Pool
+  { printing = "clb/300", at = "stables" },  # Basilisk Collar
 ]
 
 [places]
