@@ -246,6 +246,8 @@ cards = [
   { printing = "m20/206", at = "stables" },  # Corpse Knight
   { printing = "aer/165", at = "stables" },  # Mobile Garrison
   { printing = "som/223", at = "stables" },  # Wurmcoil Engine
+  { printing = "c18/203", at = "stables" },  # Dimir Signet
+  { printing = "sos/57", at = "stables" },  # Mana Sculpt
 ]
 
 [places]
