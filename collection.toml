@@ -245,6 +245,7 @@ cards = [
   { printing = "ddh/59", at = "stables" },  # Countersquall
   { printing = "m20/206", at = "stables" },  # Corpse Knight
   { printing = "aer/165", at = "stables" },  # Mobile Garrison
+  { printing = "som/223", at = "stables" },  # Wurmcoil Engine
 ]
 
 [places]
