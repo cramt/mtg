@@ -88,6 +88,7 @@ cards = [
   { printing = "soc/357", at = "stables" },  # Talisman of Creativity
   { printing = "soc/351", at = "stables" },  # Millikin
   { printing = "soc/355", at = "stables" },  # Solemn Simulacrum
+  { printing = "hob/2", at = "colorless" },  # Old Thrush
 ]
 
 [places]
