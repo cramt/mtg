@@ -97,7 +97,7 @@ cards = [
   { printing = "clb/297", at = "colorless" },  # Arcane Encyclopedia
   { printing = "xln/239", at = "colorless" },  # Gilded Sentinel
   { printing = "xln/242", at = "colorless" },  # Pirate's Cutlass
-  { printing = "xln/240", at = "colorless" },  # Hierophant's Chalice
+  { printing = "xln/240", qty = 3, at = "colorless" },  # Hierophant's Chalice
   { printing = "clb/318", at = "stables" },  # Lantern of Revealing
   { printing = "clb/327", at = "stables" },  # Moss Diamond
   { printing = "clb/334", at = "stables" },  # Prized Statue
