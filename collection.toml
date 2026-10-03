@@ -218,6 +218,7 @@ cards = [
   { printing = "hob/36", at = "stables" },  # Elrond, Moon-Reader
   { printing = "hob/110", at = "stables" },  # Smaug the Magnificent
   { printing = "hob/144", at = "stables" },  # Bard, King of Dale
+  { printing = "hob/12", at = "stables" },  # The Eagles Are Coming!
 ]
 
 [places]
