@@ -113,6 +113,7 @@ cards = [
   { printing = "m20/221", at = "colorless" },  # Anvilwrought Raptor
   { printing = "dom/228", at = "colorless" },  # Shield of the Realm
   { printing = "nph/163", at = "colorless" },  # Trespassing Souleater
+  { printing = "kld/232", at = "colorless" },  # Self-Assembler
 ]
 
 [places]
