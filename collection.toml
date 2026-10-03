@@ -250,6 +250,7 @@ cards = [
   { printing = "sos/57", at = "stables" },  # Mana Sculpt
   { printing = "ice/64", at = "stables" },  # Counterspell
   { printing = "cp2/3", at = "stables" },  # Sultai Ascendancy
+  { printing = "hob/206", at = "stables" },  # Dreaded Bat-Cloud
 ]
 
 [places]
