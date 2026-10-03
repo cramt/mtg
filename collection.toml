@@ -149,7 +149,26 @@ cards = [
   { printing = "stx/246", at = "stables" },  # Venerable Warsinger
   { printing = "soc/48", at = "stables" },  # Inspired Skypainter // Maestro's Gift
   { printing = "soc/337", at = "stables" },  # Veyran, Voice of Duality
-  { printing = "stx/220", at = "bulk multicolor" },  # Quintorius, Field Historian
+  { printing = "stx/220", at = "stables" },  # Quintorius, Field Historian
+  { printing = "soc/321", at = "stables" },  # Mortality Spear
+  { printing = "soc/328", at = "stables" },  # Rip Apart
+  { printing = "soc/331", at = "stables" },  # Stormcatch Mentor
+  { printing = "soc/2", at = "stables" },  # Excava, the Risen Past
+  { printing = "soc/7", at = "stables" },  # Quintorius, History Chaser
+  { printing = "soc/318", at = "stables" },  # Magma Opus
+  { printing = "sos/191", at = "stables" },  # Geometer's Arthropod
+  { printing = "soc/305", at = "stables" },  # Dina, Soul Steeper
+  { printing = "sos/198", at = "stables" },  # Kirol, History Buff // Pack a Punch
+  { printing = "sos/200", at = "stables" },  # Lorehold Charm
+  { printing = "sos/211", at = "stables" },  # Prismari Charm
+  { printing = "clb/415", at = "stables" },  # Bane, Lord of Darkness
+  { printing = "clb/270", at = "stables" },  # Commander Liara Portyr
+  { printing = "clb/269", at = "stables" },  # Cadira, Caller of the Small
+  { printing = "ala/162", at = "stables" },  # Carrion Thrash
+  { printing = "grn/219", at = "stables" },  # Vernadi Shieldmate
+  { printing = "grn/210", qty = 3, at = "stables" },  # Undercity Uprising
+  { printing = "grn/158", qty = 2, at = "stables" },  # Centaur Peacemaker
+  { printing = "thb/227", qty = 3, at = "stables" },  # Slaughter-Priest of Mogis
 ]
 
 [places]
