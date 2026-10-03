@@ -200,6 +200,7 @@ cards = [
   { printing = "ktk/205", qty = 2, at = "bulk multicolor" },  # Sultai Soothsayer
   { printing = "sos/183", at = "bulk multicolor" },  # Cuboid Colony
   { printing = "sos/227", at = "bulk multicolor" },  # Snooping Page
+  { printing = "hob/162", at = "bulk multicolor" },  # Patient Instructor
 ]
 
 [places]
