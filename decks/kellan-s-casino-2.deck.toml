@@ -64,12 +64,12 @@ cards = [
   { printing = "otj/213", in = ["Commander"] },  # Kellan, the Kid
   { printing = "afc/162", in = ["Removal Prize"] },  # Kenrith's Transformation
   { printing = "afc/187", in = ["Removal Prize"] },  # Knight of Autumn
-  { printing = "mbs/111", in = ["Cast From Exile", "Opponent Loot Box"] },  # Knowledge Pool
+  { printing = "mbs/111", in = ["Cast From Exile"] },  # Knowledge Pool
   { printing = "fdn/227", in = ["Ramp"] },  # Llanowar Elves
   { printing = "blc/143", in = ["Draw", "Gift", "Removal Prize"] },  # Loran of the Third Path
   { printing = "shm/230", in = ["Battle Flipping"] },  # Medicine Runner
   { printing = "dmc/217", in = ["Land"] },  # Mikokoro, Center of the Sea
-  { printing = "otc/101", in = ["Cast From Exile", "Opponent Loot Box"] },  # Mind's Dilation
+  { printing = "otc/101", in = ["Cast From Exile"] },  # Mind's Dilation
   { printing = "mh2/250", in = ["Land"] },  # Misty Rainforest
   { printing = "ecc/155", in = ["Land"] },  # Nesting Grounds
   { printing = "plst/MM2-151", in = ["Ramp"] },  # Noble Hierarch
@@ -115,7 +115,6 @@ Draw = {}
 Foretell = {}
 Gift = {}
 Interaction = {}
-"Opponent Loot Box" = {}
 Plot = {}
 Ramp = {}
 "Removal Prize" = {}
