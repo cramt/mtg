@@ -84,6 +84,7 @@ cards = [
   { printing = "soc/128", at = "colorless" },  # Sol Ring
   { printing = "soc/345", at = "colorless" },  # Currency Converter
   { printing = "soc/343", at = "colorless" },  # Bitterthorn, Nissa's Animus
+  { printing = "soc/350", at = "colorless" },  # Lightning Greaves
 ]
 
 [places]
