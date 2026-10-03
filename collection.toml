@@ -253,6 +253,9 @@ cards = [
   { printing = "hob/206", at = "stables" },  # Dreaded Bat-Cloud
   { printing = "hob/227", at = "stables" },  # Glóin the Mighty // Easy Pickings
   { printing = "hob/112", at = "stables" },  # Snowslope Hunter
+  { printing = "hob/179", at = "stables" },  # Thrór's Map
+  { printing = "hob/215", at = "stables" },  # Bofur, Reliable Guardian // Concerted Care
+  { printing = "hob/166", at = "stables" },  # Thranduil, Sindarin Liege // Silvan Rally
 ]
 
 [places]
