@@ -87,6 +87,7 @@ cards = [
   { printing = "soc/350", at = "colorless" },  # Lightning Greaves
   { printing = "soc/357", at = "colorless" },  # Talisman of Creativity
   { printing = "soc/351", at = "colorless" },  # Millikin
+  { printing = "soc/355", at = "colorless" },  # Solemn Simulacrum
 ]
 
 [places]
