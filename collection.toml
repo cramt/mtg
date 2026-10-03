@@ -196,6 +196,7 @@ cards = [
   { printing = "sos/235", at = "bulk multicolor" },  # Stress Dream
   { printing = "c20/226", qty = 3, at = "bulk multicolor" },  # Nyx Weaver
   { printing = "ktk/204", qty = 2, at = "bulk multicolor" },  # Sultai Charm
+  { printing = "cp2/4", at = "bulk multicolor" },  # Reaper of the Wilds
 ]
 
 [places]
