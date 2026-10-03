@@ -124,6 +124,7 @@ cards = [
   { printing = "kld/217", at = "colorless" },  # Glassblower's Puzzleknot
   { printing = "m20/241", at = "colorless" },  # Vial of Dragonfire
   { printing = "aer/150", at = "colorless" },  # Filigree Crawler
+  { printing = "kld/197", at = "colorless" },  # Bastion Mastodon
 ]
 
 [places]
