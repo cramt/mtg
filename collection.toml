@@ -233,6 +233,7 @@ cards = [
   { printing = "frf/43★", at = "stables" },  # Monastery Siege
   { printing = "sos/115", at = "stables" },  # Flashback
   { printing = "m21/36", at = "stables" },  # Selfless Savior
+  { printing = "sos/23", at = "stables" },  # Joined Researchers // Secret Rendezvous
 ]
 
 [places]
