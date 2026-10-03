@@ -169,6 +169,7 @@ cards = [
   { printing = "grn/210", qty = 3, at = "stables" },  # Undercity Uprising
   { printing = "grn/158", qty = 7, at = "stables" },  # Centaur Peacemaker
   { printing = "thb/227", qty = 3, at = "stables" },  # Slaughter-Priest of Mogis
+  { printing = "sos/177", qty = 2, at = "stables" },  # Bogwater Lumaret
 ]
 
 [places]
