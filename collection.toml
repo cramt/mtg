@@ -112,6 +112,7 @@ cards = [
   { printing = "xln/237", at = "colorless" },  # Elaborate Firecannon
   { printing = "m20/221", at = "colorless" },  # Anvilwrought Raptor
   { printing = "dom/228", at = "colorless" },  # Shield of the Realm
+  { printing = "nph/163", at = "colorless" },  # Trespassing Souleater
 ]
 
 [places]
