@@ -173,6 +173,7 @@ cards = [
   { printing = "sos/209", qty = 2, at = "stables" },  # Pest Mascot
   { printing = "sos/224", qty = 2, at = "stables" },  # Scolding Administrator
   { printing = "xln/218", qty = 2, at = "stables" },  # Belligerent Brontodon
+  { printing = "grn/155", qty = 2, at = "stables" },  # Beamsplitter Mage
 ]
 
 [places]
