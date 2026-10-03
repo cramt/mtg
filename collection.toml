@@ -109,6 +109,8 @@ cards = [
   { printing = "thb/231", at = "colorless" },  # Altar of the Pantheon
   { printing = "grn/236", qty = 2, at = "colorless" },  # Glaive of the Guildpact
   { printing = "m20/234", at = "colorless" },  # Pattern Matcher
+  { printing = "xln/237", at = "colorless" },  # Elaborate Firecannon
+  { printing = "m20/221", at = "colorless" },  # Anvilwrought Raptor
 ]
 
 [places]
