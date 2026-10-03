@@ -1,7 +1,15 @@
 name = "Kellan's Casino"
 format = "commander"
 description = """
-testing"""
+Welcome to Kellan's Casiono where the house always wins. In the casino players can win opening loot boxes (battles) which can contain many things.
+
+The actual rules is that when a played defeats a battle and i cast it for free, and i get a kellan trigger my opponents choose the permanent. This is where Kellan's casino becomes a midrange'y board state control group hug/slug deck. The ideal gameplan is that
+- i play Invasion of Ravnica (thats value for me)
+- an opponent of mine defeats the battle cause they want value
+- battle defeated i get the backside of the battle (value for me) and they pick a card to cast
+- they pick Summon: Yojimbo to remove some problem from a third party (value for me) and im left with the rest of the saga (value for me)
+
+The plan is that the house always wins. This deck is very saga focused, mostly by accident, most permanents with removal on etb but continued values just kinda happens to be sagas, but fundamentally this deck is about battles and politicking people to hit on battles"""
 
 cards = [
   { printing = "eoc/147", in = ["Land"] },  # Adarkar Wastes
