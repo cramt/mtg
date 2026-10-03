@@ -115,6 +115,7 @@ cards = [
   { printing = "nph/163", at = "colorless" },  # Trespassing Souleater
   { printing = "kld/232", at = "colorless" },  # Self-Assembler
   { printing = "bfz/224", at = "colorless" },  # Hedron Blade
+  { printing = "dom/231", at = "colorless" },  # Sorcerer's Wand
 ]
 
 [places]
