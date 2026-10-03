@@ -107,7 +107,8 @@ cards = [
   { printing = "thb/241", qty = 5, at = "colorless" },  # Wings of Hubris
   { printing = "xln/233", qty = 5, at = "colorless" },  # Cobbled Wings
   { printing = "thb/231", at = "colorless" },  # Altar of the Pantheon
-  { printing = "grn/236", at = "colorless" },  # Glaive of the Guildpact
+  { printing = "grn/236", qty = 2, at = "colorless" },  # Glaive of the Guildpact
+  { printing = "m20/234", at = "colorless" },  # Pattern Matcher
 ]
 
 [places]
