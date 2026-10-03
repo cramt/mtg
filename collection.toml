@@ -187,6 +187,7 @@ cards = [
   { printing = "tdm/197", at = "bulk multicolor" },  # Jeskai Shrinekeeper
   { printing = "tdm/175", at = "bulk multicolor" },  # Cori Mountain Stalwart
   { printing = "tdm/181", at = "bulk multicolor" },  # Effortless Master
+  { printing = "tdm/224", at = "bulk multicolor" },  # Skirmish Rhino
 ]
 
 [places]
