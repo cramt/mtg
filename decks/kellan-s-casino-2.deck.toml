@@ -13,7 +13,7 @@ The house always wins. The deck is very saga-focused, mostly by accident: most p
 
 cards = [
   { printing = "eoc/147", in = ["Land"] },  # Adarkar Wastes
-  { printing = "j25/283", in = ["Removal Prize"] },  # Aether Channeler
+  { printing = "arb/1", in = ["Cascade", "Cast From Exile"] },  # Ardent Plea
   { printing = "scd/171", in = ["Ramp"] },  # Avacyn's Pilgrim
   { printing = "plst/RIX-1", in = ["Removal Prize", "Gift"] },  # Baffling End
   { printing = "hoc/161", in = ["Removal Prize"] },  # Banishing Light
@@ -45,6 +45,7 @@ cards = [
   { printing = "m3c/349", in = ["Land"] },  # Hidden Nursery
   { printing = "msc/250", in = ["Land"] },  # Hinterland Harbor
   { printing = "rav/55", in = ["Gift", "Forced Attack"] },  # Hunted Phantasm
+  { printing = "cmr/280", in = ["Cascade", "Cast From Exile"] },  # Imoti, Celebrant of Bounty
   { printing = "mom/190", in = ["Battle"] },  # Invasion of Ikoria // Zilortha, Apex of Ikoria
   { printing = "mom/191", in = ["Battle"] },  # Invasion of Ixalan // Belligerent Regisaur
   { printing = "mom/62", in = ["Battle"] },  # Invasion of Kamigawa // Rooftop Saboteurs
@@ -73,16 +74,15 @@ cards = [
   { printing = "plst/MM2-151", in = ["Ramp"] },  # Noble Hierarch
   { printing = "plst/LRW-34", in = ["Removal Prize"] },  # Oblivion Ring
   { printing = "znr/30", in = ["Land", "Board Wipe"] },  # Ondu Inversion // Ondu Skyruins
-  { printing = "c19/91", in = ["Cast From Graveyard", "Draw"] },  # Oona's Grace
   { printing = "trk/317", qty = 4, in = ["Land"] },  # Plains
   { printing = "mom/201", in = ["Battle Flipping", "Ramp"] },  # Portent Tracker
   { printing = "ncc/376", in = ["Battle Flipping"] },  # Power Conduit
   { printing = "frc/79", in = ["Land"] },  # Prairie Stream
   { printing = "fut/43", in = ["Suspend", "Cast From Exile", "Interaction"] },  # Reality Strobe
   { printing = "brc/6", in = ["Battle Flipping", "Ramp"] },  # Scholar of New Horizons
-  { printing = "dom/31", in = ["Removal Prize"] },  # Seal Away
   { printing = "dmc/137", in = ["Ramp", "Suspend", "Cast From Exile"] },  # Search for Tomorrow
   { printing = "soc/170", in = ["Cast From Graveyard"] },  # Sevinne's Reclamation
+  { printing = "mh2/292", in = ["Cascade", "Cast From Exile"] },  # Shardless Agent
   { printing = "mh3/241", in = ["Land", "Interaction"] },  # Sink into Stupor // Soporific Springs
   { printing = "mh3/169", in = ["Cast From Graveyard"] },  # Six
   { printing = "soc/173", in = ["Removal Prize"] },  # Skyclave Apparition
@@ -109,6 +109,7 @@ cards = [
 "Attack Tax" = {}
 "Battle Flipping" = {}
 "Board Wipe" = {}
+Cascade = {}
 "Cast From Exile" = {}
 "Cast From Graveyard" = {}
 Commander = { type = "commander" }
