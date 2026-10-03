@@ -209,46 +209,46 @@ cards = [
   { printing = "sos/244", qty = 2, at = "stables" },  # Witherbloom Charm
   { printing = "sos/187", at = "stables" },  # Essenceknit Scholar
   { printing = "hob/168", at = "stables" },  # Thranduil's Company
-  { printing = "tdm/172", at = "stables" },  # Betor, Kin to All
+  { printing = "tdm/172", at = "sleaved stables" },  # Betor, Kin to All
   { printing = "m15/229", at = "stables" },  # Scuttling Doom Engine
   { printing = "jmp/484", qty = 2, at = "stables" },  # Scuttlemutt
   { printing = "cp2/2", at = "sleaved stables" },  # Hero's Downfall
   { printing = "jou/73", qty = 2, at = "stables" },  # Grim Guardian
   { printing = "m21/50", at = "stables" },  # Frantic Inventory
-  { printing = "hob/36", at = "stables" },  # Elrond, Moon-Reader
-  { printing = "hob/110", at = "stables" },  # Smaug the Magnificent
-  { printing = "hob/144", at = "stables" },  # Bard, King of Dale
+  { printing = "hob/36", at = "sleaved stables" },  # Elrond, Moon-Reader
+  { printing = "hob/110", at = "sleaved stables" },  # Smaug the Magnificent
+  { printing = "hob/144", at = "sleaved stables" },  # Bard, King of Dale
   { printing = "hob/12", at = "stables" },  # The Eagles Are Coming!
   { printing = "hob/46", at = "stables" },  # The Lord of the Eagles
   { printing = "hob/117", at = "stables" },  # Bejeweled Warg
   { printing = "sos/231", at = "stables" },  # Splatter Technique
-  { printing = "hob/17", at = "stables" },  # Kíli the Resourceful
+  { printing = "hob/17", at = "sleaved stables" },  # Kíli the Resourceful
   { printing = "hob/210", at = "stables" },  # Bard's Company
   { printing = "m20/87", qty = 2, at = "stables" },  # Blightbeetle
-  { printing = "soa/60", at = "stables" },  # Veil of Summer
+  { printing = "soa/60", at = "sleaved stables" },  # Veil of Summer
   { printing = "sos/259", at = "stables" },  # Petrified Hamlet
-  { printing = "jou/122", at = "stables" },  # Eidolon of Blossoms
-  { printing = "sos/264", at = "stables" },  # Sundown Pass
+  { printing = "jou/122", at = "sleaved stables" },  # Eidolon of Blossoms
+  { printing = "sos/264", at = "sleaved stables" },  # Sundown Pass
   { printing = "cp2/5", at = "sleaved stables" },  # Whip of Erebos
   { printing = "frf/43★", at = "sleaved stables" },  # Monastery Siege
-  { printing = "sos/115", at = "stables" },  # Flashback
+  { printing = "sos/115", at = "sleaved stables" },  # Flashback
   { printing = "m21/36", at = "stables" },  # Selfless Savior
   { printing = "sos/23", at = "stables" },  # Joined Researchers // Secret Rendezvous
   { printing = "jou/123", at = "stables" },  # Font of Fertility
   { printing = "arb/19", at = "stables" },  # Deny Reality
   { printing = "m21/88", at = "stables" },  # Archfiend's Vessel
-  { printing = "sos/226", at = "stables" },  # Silverquill, the Disputant
-  { printing = "m20/230", qty = 2, at = "stables" },  # Manifold Key
+  { printing = "sos/226", at = "sleaved stables" },  # Silverquill, the Disputant
+  { printing = "m20/230", qty = 2, at = "sleaved stables" },  # Manifold Key
   { printing = "cp2/6", at = "sleaved stables" },  # Courser of Kruphix
-  { printing = "m21/242", at = "stables" },  # Animal Sanctuary
+  { printing = "m21/242", at = "sleaved stables" },  # Animal Sanctuary
   { printing = "rvr/7", at = "stables" },  # Basilica Guards
   { printing = "ddh/59", at = "stables" },  # Countersquall
   { printing = "m20/206", at = "stables" },  # Corpse Knight
   { printing = "aer/165", at = "stables" },  # Mobile Garrison
-  { printing = "som/223", at = "stables" },  # Wurmcoil Engine
+  { printing = "som/223", at = "sleaved stables" },  # Wurmcoil Engine
   { printing = "c18/203", at = "stables" },  # Dimir Signet
   { printing = "sos/57", at = "stables" },  # Mana Sculpt
-  { printing = "ice/64", at = "stables" },  # Counterspell
+  { printing = "ice/64", at = "sleaved stables" },  # Counterspell
   { printing = "cp2/3", at = "sleaved stables" },  # Sultai Ascendancy
   { printing = "hob/206", at = "stables" },  # Dreaded Bat-Cloud
   { printing = "hob/227", at = "stables" },  # Glóin the Mighty // Easy Pickings
@@ -258,13 +258,13 @@ cards = [
   { printing = "hob/166", at = "stables" },  # Thranduil, Sindarin Liege // Silvan Rally
   { printing = "hob/87", at = "stables" },  # Balin, Loremaster
   { printing = "hob/104", at = "stables" },  # The Misty Mountains Cold
-  { printing = "hob/164", at = "stables" },  # Smaug, Wicked Worm
-  { printing = "clb/30", at = "stables" },  # Lae'zel's Acrobatics
+  { printing = "hob/164", at = "sleaved stables" },  # Smaug, Wicked Worm
+  { printing = "clb/30", at = "sleaved stables" },  # Lae'zel's Acrobatics
   { printing = "jou/66", at = "stables" },  # Doomwake Giant
-  { printing = "clb/182", at = "stables" },  # Ingenious Artillerist
-  { printing = "clb/358", at = "stables" },  # Reflecting Pool
-  { printing = "clb/300", at = "stables" },  # Basilisk Collar
-  { printing = "clb/265", at = "stables" },  # Astarion, the Decadent
+  { printing = "clb/182", at = "sleaved stables" },  # Ingenious Artillerist
+  { printing = "clb/358", at = "sleaved stables" },  # Reflecting Pool
+  { printing = "clb/300", at = "sleaved stables" },  # Basilisk Collar
+  { printing = "clb/265", at = "sleaved stables" },  # Astarion, the Decadent
   { printing = "sos/238", at = "stables" },  # Teacher's Pest
 ]
 
