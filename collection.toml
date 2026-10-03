@@ -210,6 +210,7 @@ cards = [
   { printing = "sos/187", at = "stables" },  # Essenceknit Scholar
   { printing = "hob/168", at = "stables" },  # Thranduil's Company
   { printing = "tdm/172", at = "stables" },  # Betor, Kin to All
+  { printing = "m15/229", at = "stables" },  # Scuttling Doom Engine
 ]
 
 [places]
