@@ -197,6 +197,7 @@ cards = [
   { printing = "c20/226", qty = 3, at = "bulk multicolor" },  # Nyx Weaver
   { printing = "ktk/204", qty = 2, at = "bulk multicolor" },  # Sultai Charm
   { printing = "cp2/4", at = "bulk multicolor" },  # Reaper of the Wilds
+  { printing = "ktk/205", qty = 2, at = "bulk multicolor" },  # Sultai Soothsayer
 ]
 
 [places]
