@@ -81,6 +81,8 @@ cards = [
   { printing = "soc/352", at = "colorless" },  # Mind Stone
   { printing = "soc/353", at = "colorless" },  # Patchwork Banner
   { printing = "soc/127", at = "colorless" },  # Arcane Signet
+  { printing = "soc/128", at = "colorless" },  # Sol Ring
+  { printing = "soc/345", at = "colorless" },  # Currency Converter
 ]
 
 [places]
