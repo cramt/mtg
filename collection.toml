@@ -190,6 +190,7 @@ cards = [
   { printing = "sos/223", at = "stables" },  # Sanar, Unfinished Genius // Wild Idea
   { printing = "tdm/224", at = "stables" },  # Skirmish Rhino
   { printing = "tdm/197", at = "stables" },  # Jeskai Shrinekeeper
+  { printing = "shm/152", at = "bulk multicolor" },  # Thistledown Duo
 ]
 
 [places]
