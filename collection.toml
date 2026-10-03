@@ -265,6 +265,7 @@ cards = [
   { printing = "clb/358", at = "stables" },  # Reflecting Pool
   { printing = "clb/300", at = "stables" },  # Basilisk Collar
   { printing = "clb/265", at = "stables" },  # Astarion, the Decadent
+  { printing = "sos/238", at = "stables" },  # Teacher's Pest
 ]
 
 [places]
