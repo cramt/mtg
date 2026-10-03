@@ -136,6 +136,7 @@ cards = [
   { printing = "aer/159", at = "colorless" },  # Implement of Malice
   { printing = "arc/113", at = "colorless" },  # Obelisk of Esper
   { printing = "soc/299", at = "colorless" },  # Brudiclad, Telchor Engineer
+  { printing = "soc/5", at = "colorless" },  # Muddle, the Ever-Changing
 ]
 
 [places]
