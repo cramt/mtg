@@ -225,6 +225,7 @@ cards = [
   { printing = "hob/17", at = "stables" },  # Kíli the Resourceful
   { printing = "hob/210", at = "stables" },  # Bard's Company
   { printing = "m20/87", at = "stables" },  # Blightbeetle
+  { printing = "soa/60", at = "stables" },  # Veil of Summer
 ]
 
 [places]
