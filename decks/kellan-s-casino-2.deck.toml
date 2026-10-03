@@ -24,17 +24,17 @@ cards = [
   { printing = "fic/377", in = ["Land"] },  # Brushland
   { printing = "msc/227", in = ["Land"] },  # Canopy Vista
   { printing = "ecc/137", in = ["Cast From Exile"] },  # Chimil, the Inner Sun
+  { printing = "fut/4", in = ["Suspend", "Cast From Exile", "Forced Attack"] },  # Chronomantic Escape
   { printing = "who/215", in = ["Battle Flipping", "Saga Rewind", "Cast From Exile"] },  # Clockspinning
   { printing = "frc/22", in = ["Land"] },  # Command Tower
   { printing = "rtr/155", in = ["Removal Prize"] },  # Detention Sphere
   { printing = "khm/9", in = ["Foretell", "Cast From Exile", "Board Wipe"] },  # Doomskar
   { printing = "sos/254", in = ["Land"] },  # Dreamroot Cascade
   { printing = "hoc/205", in = ["Ramp"] },  # Elvish Mystic
-  { printing = "frc/70", in = ["Land"] },  # Exotic Orchard
   { printing = "snc/186", in = ["Cast From Exile"] },  # Falco Spara, Pactweaver
   { printing = "mh3/220", in = ["Land"] },  # Flooded Strand
   { printing = "2x2/323", in = ["Land"] },  # Forbidden Orchard
-  { printing = "trk/326", qty = 5, in = ["Land"] },  # Forest
+  { printing = "trk/326", qty = 4, in = ["Land"] },  # Forest
   { printing = "mh1/53", in = ["Cast From Exile", "Draw"] },  # Future Sight
   { printing = "fdc/204", in = ["Ramp"] },  # Fyndhorn Elves
   { printing = "frc/73", in = ["Land"] },  # Glacial Fortress
@@ -64,25 +64,26 @@ cards = [
   { printing = "otj/213", in = ["Commander"] },  # Kellan, the Kid
   { printing = "afc/162", in = ["Removal Prize"] },  # Kenrith's Transformation
   { printing = "afc/187", in = ["Removal Prize"] },  # Knight of Autumn
-  { printing = "mbs/111", in = ["Cast From Exile"] },  # Knowledge Pool
   { printing = "fdn/227", in = ["Ramp"] },  # Llanowar Elves
   { printing = "blc/143", in = ["Draw", "Gift", "Removal Prize"] },  # Loran of the Third Path
-  { printing = "shm/230", in = ["Battle Flipping"] },  # Medicine Runner
   { printing = "dmc/217", in = ["Land"] },  # Mikokoro, Center of the Sea
   { printing = "otc/101", in = ["Cast From Exile"] },  # Mind's Dilation
   { printing = "mh2/250", in = ["Land"] },  # Misty Rainforest
   { printing = "ecc/155", in = ["Land"] },  # Nesting Grounds
   { printing = "plst/MM2-151", in = ["Ramp"] },  # Noble Hierarch
   { printing = "plst/LRW-34", in = ["Removal Prize"] },  # Oblivion Ring
+  { printing = "znr/30", in = ["Land", "Board Wipe"] },  # Ondu Inversion // Ondu Skyruins
   { printing = "c19/91", in = ["Cast From Graveyard", "Draw"] },  # Oona's Grace
-  { printing = "trk/317", qty = 5, in = ["Land"] },  # Plains
+  { printing = "trk/317", qty = 4, in = ["Land"] },  # Plains
   { printing = "mom/201", in = ["Battle Flipping", "Ramp"] },  # Portent Tracker
   { printing = "ncc/376", in = ["Battle Flipping"] },  # Power Conduit
   { printing = "frc/79", in = ["Land"] },  # Prairie Stream
+  { printing = "fut/43", in = ["Suspend", "Cast From Exile", "Interaction"] },  # Reality Strobe
   { printing = "brc/6", in = ["Battle Flipping", "Ramp"] },  # Scholar of New Horizons
   { printing = "dom/31", in = ["Removal Prize"] },  # Seal Away
-  { printing = "dmc/137", in = ["Ramp", "Cast From Exile"] },  # Search for Tomorrow
+  { printing = "dmc/137", in = ["Ramp", "Suspend", "Cast From Exile"] },  # Search for Tomorrow
   { printing = "soc/170", in = ["Cast From Graveyard"] },  # Sevinne's Reclamation
+  { printing = "mh3/241", in = ["Land", "Interaction"] },  # Sink into Stupor // Soporific Springs
   { printing = "mh3/169", in = ["Cast From Graveyard"] },  # Six
   { printing = "soc/173", in = ["Removal Prize"] },  # Skyclave Apparition
   { printing = "cmm/324", in = ["Removal Prize"] },  # Song of the Dryads
@@ -100,6 +101,7 @@ cards = [
   { printing = "rvr/159", in = ["Ramp"] },  # Utopia Sprawl
   { printing = "khm/233", in = ["Draw"] },  # Vega, the Watcher
   { printing = "mh3/235", in = ["Land"] },  # Windswept Heath
+  { printing = "mh3/239", in = ["Land", "Removal Prize"] },  # Witch Enchanter // Witch-Blessed Meadow
   { printing = "soc/425", in = ["Land"] },  # Yavimaya Coast
 ]
 
@@ -120,5 +122,6 @@ Ramp = {}
 "Removal Prize" = {}
 "Saga Removal" = {}
 "Saga Rewind" = {}
+Suspend = {}
 Land = {}
 Battle = {}
