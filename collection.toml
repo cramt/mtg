@@ -74,7 +74,8 @@ cards = [
   { printing = "sos/255", at = "shit lands" },  # Fields of Strife
   { printing = "soc/384", at = "shit lands" },  # Lorehold Campus
   { printing = "soc/402", at = "shit lands" },  # Sacred Peaks
-  { printing = "soc/354", at = "shit lands" },  # Perpetual Timepiece
+  { printing = "neo/243", at = "colorless" },  # Containment Construct
+  { printing = "soc/354", at = "colorless" },  # Perpetual Timepiece
 ]
 
 [places]
