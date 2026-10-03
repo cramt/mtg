@@ -224,6 +224,7 @@ cards = [
   { printing = "sos/231", at = "stables" },  # Splatter Technique
   { printing = "hob/17", at = "stables" },  # Kíli the Resourceful
   { printing = "hob/210", at = "stables" },  # Bard's Company
+  { printing = "m20/87", at = "stables" },  # Blightbeetle
 ]
 
 [places]
