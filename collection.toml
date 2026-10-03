@@ -191,6 +191,9 @@ cards = [
   { printing = "tdm/224", at = "stables" },  # Skirmish Rhino
   { printing = "tdm/197", at = "stables" },  # Jeskai Shrinekeeper
   { printing = "shm/152", at = "bulk multicolor" },  # Thistledown Duo
+  { printing = "sos/187", at = "bulk multicolor" },  # Essenceknit Scholar
+  { printing = "sos/244", at = "bulk multicolor" },  # Witherbloom Charm
+  { printing = "sos/235", at = "bulk multicolor" },  # Stress Dream
 ]
 
 [places]
