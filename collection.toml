@@ -143,6 +143,7 @@ cards = [
   { printing = "stx/186", at = "colorless" },  # Expressive Iteration
   { printing = "soc/329", at = "colorless" },  # Rootha, Mercurial Artist
   { printing = "lcc/279", at = "colorless" },  # Prismari Command
+  { printing = "soc/8", at = "colorless" },  # Rootha, Mastering the Moment
 ]
 
 [places]
