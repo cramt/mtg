@@ -138,6 +138,7 @@ cards = [
   { printing = "soc/299", at = "colorless" },  # Brudiclad, Telchor Engineer
   { printing = "soc/5", at = "colorless" },  # Muddle, the Ever-Changing
   { printing = "stx/189", at = "colorless" },  # Galazeth Prismari
+  { printing = "soc/295", at = "colorless" },  # Balefire Liege
 ]
 
 [places]
