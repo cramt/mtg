@@ -273,6 +273,7 @@ cards = [
   { printing = "soc/199", at = "stables" },  # Reality Shift
   { printing = "soc/201", at = "stables" },  # Resculpt
   { printing = "tsr/319", at = "sleaved stables" },  # Treasure Cruise
+  { printing = "soc/188", at = "sleaved stables" },  # Archmage Emeritus
 ]
 
 [places]
