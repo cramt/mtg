@@ -292,7 +292,7 @@ cards = [
   { printing = "hob/58", at = "blue bulk" },  # Uneasy Partings
   { printing = "hob/34", at = "blue bulk" },  # Bilbo Baggins, Burglar // Take a Glance
   { printing = "hob/55", qty = 2, at = "blue bulk" },  # Sound the Trumpets
-  { printing = "hob/37", at = "blue bulk" },  # Elven Raft-Steerer
+  { printing = "hob/37", at = "stables" },  # Elven Raft-Steerer
   { printing = "clb/88", at = "blue bulk" },  # Pseudodragon Familiar
   { printing = "tdm/36", at = "blue bulk" },  # Agent of Kotis
   { printing = "tdm/53", at = "blue bulk" },  # Ringing Strike Mastery
@@ -303,12 +303,12 @@ cards = [
   { printing = "frf/53", at = "blue bulk" },  # Sultai Skullkeeper
   { printing = "ktk/54", at = "blue bulk" },  # Set Adrift
   { printing = "frf/44", at = "blue bulk" },  # Neutralizing Blast
-  { printing = "ths/38", at = "blue bulk" },  # Annul
-  { printing = "ktk/57", qty = 2, at = "blue bulk" },  # Taigam's Scheming
-  { printing = "ktk/59", at = "blue bulk" },  # Treasure Cruise
+  { printing = "ths/38", at = "stables" },  # Annul
+  { printing = "ktk/57", qty = 2, at = "stables" },  # Taigam's Scheming
+  { printing = "ktk/59", at = "stables" },  # Treasure Cruise
   { printing = "sos/47", at = "blue bulk" },  # Essence Scatter
   { printing = "m19/47", qty = 2, at = "blue bulk" },  # Bone to Ash
-  { printing = "thb/47", qty = 8, at = "blue bulk" },  # Deny the Divine
+  { printing = "thb/47", qty = 8, at = "stables" },  # Deny the Divine
   { printing = "rix/47", at = "blue bulk" },  # River Darter
   { printing = "ons/112", at = "blue bulk" },  # Screaming Seahawk
   { printing = "rix/56", qty = 2, at = "blue bulk" },  # Soul of the Rapids
@@ -321,7 +321,7 @@ cards = [
   { printing = "kld/51", at = "blue bulk" },  # Hightide Hermit
   { printing = "grn/36", qty = 2, at = "blue bulk" },  # Dimir Informant
   { printing = "jou/32", at = "blue bulk" },  # Cloaked Siren
-  { printing = "clu/82", at = "blue bulk" },  # Cloudkin Seer
+  { printing = "clu/82", at = "stables" },  # Cloudkin Seer
   { printing = "dtk/68", at = "blue bulk" },  # Ojutai's Summons
   { printing = "akh/53", at = "blue bulk" },  # Floodwaters
   { printing = "m20/67", qty = 4, at = "blue bulk" },  # Moat Piranhas
