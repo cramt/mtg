@@ -355,7 +355,7 @@ cards = [
   { printing = "rtr/46", at = "blue bulk" },  # Paralyzing Grasp
   { printing = "ths/44", at = "blue bulk" },  # Coastline Chimera
   { printing = "bfz/83", at = "blue bulk" },  # Roilmage's Trick
-  { printing = "grn/31", qty = 2, at = "blue bulk" },  # Capture Sphere
+  { printing = "grn/31", qty = 3, at = "blue bulk" },  # Capture Sphere
   { printing = "ogw/65", at = "blue bulk" },  # Umara Entangler
   { printing = "grn/46", qty = 3, at = "blue bulk" },  # Muse Drake
   { printing = "frf/33", at = "blue bulk" },  # Enhanced Awareness
