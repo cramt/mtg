@@ -321,6 +321,8 @@ cards = [
   { printing = "kld/51", at = "blue bulk" },  # Hightide Hermit
   { printing = "grn/36", at = "blue bulk" },  # Dimir Informant
   { printing = "jou/32", at = "blue bulk" },  # Cloaked Siren
+  { printing = "clu/82", at = "blue bulk" },  # Cloudkin Seer
+  { printing = "dtk/68", at = "blue bulk" },  # Ojutai's Summons
 ]
 
 [places]
