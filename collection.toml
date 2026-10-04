@@ -326,6 +326,7 @@ cards = [
   { printing = "akh/53", at = "blue bulk" },  # Floodwaters
   { printing = "m20/67", at = "blue bulk" },  # Moat Piranhas
   { printing = "jmp/161", qty = 2, at = "blue bulk" },  # Octoprophet
+  { printing = "thb/51", qty = 2, at = "blue bulk" },  # Ichthyomorphosis
 ]
 
 [places]
