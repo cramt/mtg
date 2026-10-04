@@ -362,6 +362,7 @@ cards = [
   { printing = "ktk/53", at = "blue bulk" },  # Scion of Glaciers
   { printing = "dtk/85", at = "blue bulk" },  # Zephyr Scribe
   { printing = "2x2/42", at = "blue bulk" },  # Capture Sphere
+  { printing = "bfz/73", at = "blue bulk" },  # Coastal Discovery
 ]
 
 [places]
