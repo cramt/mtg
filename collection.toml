@@ -352,6 +352,11 @@ cards = [
   { printing = "rix/36", at = "blue bulk" },  # Deadeye Rig-Hauler
   { printing = "thb/49", at = "blue bulk" },  # Elite Instructor
   { printing = "aer/45", at = "blue bulk" },  # Shipwreck Moray
+  { printing = "rtr/46", at = "blue bulk" },  # Paralyzing Grasp
+  { printing = "ths/44", at = "blue bulk" },  # Coastline Chimera
+  { printing = "bfz/83", at = "blue bulk" },  # Roilmage's Trick
+  { printing = "grn/31", at = "blue bulk" },  # Capture Sphere
+  { printing = "ogw/65", at = "blue bulk" },  # Umara Entangler
 ]
 
 [places]
