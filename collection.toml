@@ -290,6 +290,7 @@ cards = [
   { printing = "hob/39", qty = 2, at = "blue bulk" },  # Enchanted River's Grasp
   { printing = "hob/38", at = "blue bulk" },  # Elvenking's Harper
   { printing = "hob/58", at = "blue bulk" },  # Uneasy Partings
+  { printing = "hob/34", at = "blue bulk" },  # Bilbo Baggins, Burglar // Take a Glance
 ]
 
 [places]
