@@ -281,6 +281,7 @@ cards = [
   { printing = "soc/202", at = "stables" },  # Rite of Replication
   { printing = "soc/204", at = "sleaved stables" },  # Thunderclap Drake
   { printing = "soc/114", at = "sleaved stables" },  # Faerie Mastermind
+  { printing = "soc/17", at = "stables" },  # Abstract Performance
 ]
 
 [places]
