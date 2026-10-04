@@ -286,6 +286,7 @@ cards = [
   { printing = "soc/20", at = "stables" },  # Leitmotif Composer
   { printing = "hob/48", at = "blue bulk" },  # Mirkwood Meditator
   { printing = "hob/45", at = "blue bulk" },  # Long Lake Nuisance
+  { printing = "hob/43", at = "blue bulk" },  # Lakeshore Apothecary
 ]
 
 [places]
