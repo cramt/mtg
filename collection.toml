@@ -317,6 +317,8 @@ cards = [
   { printing = "rix/58", at = "blue bulk" },  # Sworn Guardian
   { printing = "m20/70", at = "blue bulk" },  # Octoprophet
   { printing = "kld/70†", at = "blue bulk" },  # Wind Drake
+  { printing = "aer/32", at = "blue bulk" },  # Dispersal Technician
+  { printing = "kld/51", at = "blue bulk" },  # Hightide Hermit
 ]
 
 [places]
