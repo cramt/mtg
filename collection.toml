@@ -320,6 +320,7 @@ cards = [
   { printing = "aer/32", at = "blue bulk" },  # Dispersal Technician
   { printing = "kld/51", at = "blue bulk" },  # Hightide Hermit
   { printing = "grn/36", at = "blue bulk" },  # Dimir Informant
+  { printing = "jou/32", at = "blue bulk" },  # Cloaked Siren
 ]
 
 [places]
