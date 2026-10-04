@@ -274,6 +274,10 @@ cards = [
   { printing = "soc/201", at = "stables" },  # Resculpt
   { printing = "tsr/319", at = "sleaved stables" },  # Treasure Cruise
   { printing = "soc/188", at = "sleaved stables" },  # Archmage Emeritus
+  { printing = "soc/190", at = "sleaved stables" },  # Brazen Borrower // Petty Theft
+  { printing = "soc/191", at = "stables" },  # Curiosity Crafter
+  { printing = "soc/195", at = "stables" },  # Dig Through Time
+  { printing = "soc/200", at = "stables" },  # Replication Technique
 ]
 
 [places]
