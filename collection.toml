@@ -302,6 +302,7 @@ cards = [
   { printing = "clb/80", at = "stables" },  # Kenku Artificer
   { printing = "frf/53", at = "blue bulk" },  # Sultai Skullkeeper
   { printing = "ktk/54", at = "blue bulk" },  # Set Adrift
+  { printing = "frf/44", at = "blue bulk" },  # Neutralizing Blast
 ]
 
 [places]
