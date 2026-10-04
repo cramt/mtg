@@ -324,7 +324,7 @@ cards = [
   { printing = "clu/82", at = "blue bulk" },  # Cloudkin Seer
   { printing = "dtk/68", at = "blue bulk" },  # Ojutai's Summons
   { printing = "akh/53", at = "blue bulk" },  # Floodwaters
-  { printing = "m20/67", qty = 2, at = "blue bulk" },  # Moat Piranhas
+  { printing = "m20/67", qty = 4, at = "blue bulk" },  # Moat Piranhas
   { printing = "jmp/161", qty = 5, at = "blue bulk" },  # Octoprophet
   { printing = "thb/51", qty = 8, at = "blue bulk" },  # Ichthyomorphosis
   { printing = "bok/51", at = "blue bulk" },  # Shimmering Glasskite
@@ -334,6 +334,7 @@ cards = [
   { printing = "m15/84", at = "blue bulk" },  # Welkin Tern
   { printing = "ice/92", at = "blue bulk" },  # Ray of Command
   { printing = "ths/52", at = "blue bulk" },  # Lost in a Labyrinth
+  { printing = "dom/50", at = "blue bulk" },  # Deep Freeze
 ]
 
 [places]
