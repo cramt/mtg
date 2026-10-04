@@ -300,6 +300,7 @@ cards = [
   { printing = "clb/381", at = "stables" },  # Alora, Merry Thief
   { printing = "clb/92", at = "stables" },  # Run Away Together
   { printing = "clb/80", at = "stables" },  # Kenku Artificer
+  { printing = "frf/53", at = "blue bulk" },  # Sultai Skullkeeper
 ]
 
 [places]
