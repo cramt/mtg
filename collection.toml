@@ -278,6 +278,8 @@ cards = [
   { printing = "soc/191", at = "stables" },  # Curiosity Crafter
   { printing = "soc/195", at = "stables" },  # Dig Through Time
   { printing = "soc/200", at = "stables" },  # Replication Technique
+  { printing = "soc/202", at = "stables" },  # Rite of Replication
+  { printing = "soc/204", at = "sleaved stables" },  # Thunderclap Drake
 ]
 
 [places]
