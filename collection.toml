@@ -337,6 +337,7 @@ cards = [
   { printing = "dom/50", at = "blue bulk" },  # Deep Freeze
   { printing = "ala/34", at = "blue bulk" },  # Cathartic Adept
   { printing = "soi/71", at = "stables" },  # Just the Wind
+  { printing = "m20/78", at = "blue bulk" },  # Unsummon
 ]
 
 [places]
