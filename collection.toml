@@ -346,8 +346,8 @@ cards = [
   { printing = "dom/73", at = "blue bulk" },  # Vodalian Arcanist
   { printing = "jou/39", at = "blue bulk" },  # Godhunter Octopus
   { printing = "bng/41", at = "blue bulk" },  # Floodtide Serpent
-  { printing = "mir/93", at = "blue bulk" },  # Soar
-  { printing = "jmp/156", at = "blue bulk" },  # Leave in the Dust
+  { printing = "mir/93", at = "stables" },  # Soar
+  { printing = "jmp/156", at = "stables" },  # Leave in the Dust
   { printing = "rix/57", at = "blue bulk" },  # Spire Winder
   { printing = "rix/36", at = "blue bulk" },  # Deadeye Rig-Hauler
   { printing = "thb/49", at = "blue bulk" },  # Elite Instructor
@@ -366,10 +366,10 @@ cards = [
   { printing = "m14/76", at = "blue bulk" },  # Trained Condor
   { printing = "bfz/84", at = "blue bulk" },  # Rush of Ice
   { printing = "m15/77", at = "blue bulk" },  # Research Assistant
-  { printing = "kld/58", at = "blue bulk" },  # Nimble Innovator
+  { printing = "kld/58", at = "stables" },  # Nimble Innovator
   { printing = "kld/36", at = "blue bulk" },  # Aether Meltdown
   { printing = "thb/46", at = "blue bulk" },  # Chain to Memory
-  { printing = "m10/70", at = "blue bulk" },  # Serpent of the Endless Sea
+  { printing = "m10/70", at = "stables" },  # Serpent of the Endless Sea
   { printing = "sos/66", at = "blue bulk" },  # Run Behind
   { printing = "sos/64", at = "blue bulk" },  # Procrastinate
   { printing = "sos/51", at = "blue bulk" },  # Fractalize
