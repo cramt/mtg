@@ -294,6 +294,7 @@ cards = [
   { printing = "hob/55", qty = 2, at = "blue bulk" },  # Sound the Trumpets
   { printing = "hob/50", at = "blue bulk" },  # Old Fat Spider Can't See Me
   { printing = "hob/37", at = "blue bulk" },  # Elven Raft-Steerer
+  { printing = "clb/88", at = "blue bulk" },  # Pseudodragon Familiar
 ]
 
 [places]
