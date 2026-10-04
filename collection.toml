@@ -266,6 +266,8 @@ cards = [
   { printing = "clb/300", at = "sleaved stables" },  # Basilisk Collar
   { printing = "clb/265", at = "sleaved stables" },  # Astarion, the Decadent
   { printing = "sos/238", at = "stables" },  # Teacher's Pest
+  { printing = "tdm/58", at = "blue bulk" },  # Spectral Denial
+  { printing = "clb/62", at = "blue bulk" },  # Contact Other Plane
 ]
 
 [places]
