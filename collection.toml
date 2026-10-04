@@ -311,6 +311,7 @@ cards = [
   { printing = "thb/47", qty = 8, at = "blue bulk" },  # Deny the Divine
   { printing = "rix/47", at = "blue bulk" },  # River Darter
   { printing = "ons/112", at = "blue bulk" },  # Screaming Seahawk
+  { printing = "rix/56", at = "blue bulk" },  # Soul of the Rapids
 ]
 
 [places]
