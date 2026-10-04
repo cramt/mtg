@@ -307,6 +307,8 @@ cards = [
   { printing = "ktk/57", qty = 2, at = "blue bulk" },  # Taigam's Scheming
   { printing = "ktk/59", at = "blue bulk" },  # Treasure Cruise
   { printing = "sos/47", at = "blue bulk" },  # Essence Scatter
+  { printing = "m19/47", qty = 2, at = "blue bulk" },  # Bone to Ash
+  { printing = "thb/47", qty = 8, at = "blue bulk" },  # Deny the Divine
 ]
 
 [places]
