@@ -301,6 +301,7 @@ cards = [
   { printing = "clb/92", at = "stables" },  # Run Away Together
   { printing = "clb/80", at = "stables" },  # Kenku Artificer
   { printing = "frf/53", at = "blue bulk" },  # Sultai Skullkeeper
+  { printing = "ktk/54", at = "blue bulk" },  # Set Adrift
 ]
 
 [places]
