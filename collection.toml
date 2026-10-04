@@ -314,7 +314,7 @@ cards = [
   { printing = "rix/56", qty = 2, at = "blue bulk" },  # Soul of the Rapids
   { printing = "ths/45", at = "blue bulk" },  # Crackling Triton
   { printing = "kld/42", at = "blue bulk" },  # Curio Vendor
-  { printing = "rix/58", qty = 4, at = "blue bulk" },  # Sworn Guardian
+  { printing = "rix/58", qty = 5, at = "blue bulk" },  # Sworn Guardian
   { printing = "m20/70", at = "blue bulk" },  # Octoprophet
   { printing = "kld/70†", at = "blue bulk" },  # Wind Drake
   { printing = "aer/32", at = "blue bulk" },  # Dispersal Technician
@@ -328,6 +328,8 @@ cards = [
   { printing = "jmp/161", qty = 2, at = "blue bulk" },  # Octoprophet
   { printing = "thb/51", qty = 2, at = "blue bulk" },  # Ichthyomorphosis
   { printing = "bok/51", at = "blue bulk" },  # Shimmering Glasskite
+  { printing = "m20/74", at = "blue bulk" },  # Scholar of the Ages
+  { printing = "m20/82", at = "blue bulk" },  # Zephyr Charge
 ]
 
 [places]
