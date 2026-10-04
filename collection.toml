@@ -286,7 +286,7 @@ cards = [
   { printing = "soc/20", at = "stables" },  # Leitmotif Composer
   { printing = "hob/48", qty = 2, at = "blue bulk" },  # Mirkwood Meditator
   { printing = "hob/45", qty = 2, at = "blue bulk" },  # Long Lake Nuisance
-  { printing = "hob/43", at = "blue bulk" },  # Lakeshore Apothecary
+  { printing = "hob/43", qty = 2, at = "blue bulk" },  # Lakeshore Apothecary
   { printing = "hob/39", qty = 2, at = "blue bulk" },  # Enchanted River's Grasp
   { printing = "hob/38", at = "blue bulk" },  # Elvenking's Harper
 ]
