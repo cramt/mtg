@@ -88,53 +88,53 @@ cards = [
   { printing = "soc/357", at = "sleaved stables" },  # Talisman of Creativity
   { printing = "soc/351", at = "stables" },  # Millikin
   { printing = "soc/355", at = "stables" },  # Solemn Simulacrum
-  { printing = "hob/2", qty = 2, at = "colorless" },  # Old Thrush
-  { printing = "hob/180", at = "colorless" },  # Well-Worn Spatula
+  { printing = "hob/2", qty = 2, at = "colorless bulk" },  # Old Thrush
+  { printing = "hob/180", at = "colorless bulk" },  # Well-Worn Spatula
   { printing = "hob/173", at = "stables" },  # Giant's Boulder
-  { printing = "hob/1", at = "colorless" },  # Long-Bodied Grey Dog
-  { printing = "hob/172", at = "colorless" },  # Dwarven Mattock
-  { printing = "tdm/243", at = "colorless" },  # Jade-Cast Sentinel
-  { printing = "clb/297", at = "colorless" },  # Arcane Encyclopedia
-  { printing = "xln/239", qty = 9, at = "colorless" },  # Gilded Sentinel
-  { printing = "xln/242", qty = 9, at = "colorless" },  # Pirate's Cutlass
-  { printing = "xln/240", qty = 5, at = "colorless" },  # Hierophant's Chalice
+  { printing = "hob/1", at = "colorless bulk" },  # Long-Bodied Grey Dog
+  { printing = "hob/172", at = "colorless bulk" },  # Dwarven Mattock
+  { printing = "tdm/243", at = "colorless bulk" },  # Jade-Cast Sentinel
+  { printing = "clb/297", at = "colorless bulk" },  # Arcane Encyclopedia
+  { printing = "xln/239", qty = 9, at = "colorless bulk" },  # Gilded Sentinel
+  { printing = "xln/242", qty = 9, at = "colorless bulk" },  # Pirate's Cutlass
+  { printing = "xln/240", qty = 5, at = "colorless bulk" },  # Hierophant's Chalice
   { printing = "clb/318", at = "stables" },  # Lantern of Revealing
   { printing = "clb/327", at = "stables" },  # Moss Diamond
   { printing = "clb/334", at = "sleaved stables" },  # Prized Statue
   { printing = "clb/442", at = "stables" },  # Charcoal Diamond
   { printing = "clb/305", at = "stables" },  # Charcoal Diamond
   { printing = "clb/330", at = "stables" },  # Nimblewright Schematic
-  { printing = "thb/241", qty = 5, at = "colorless" },  # Wings of Hubris
-  { printing = "xln/233", qty = 5, at = "colorless" },  # Cobbled Wings
-  { printing = "thb/231", qty = 2, at = "colorless" },  # Altar of the Pantheon
-  { printing = "grn/236", qty = 3, at = "colorless" },  # Glaive of the Guildpact
-  { printing = "m20/234", at = "colorless" },  # Pattern Matcher
-  { printing = "xln/237", qty = 2, at = "colorless" },  # Elaborate Firecannon
-  { printing = "m20/221", at = "colorless" },  # Anvilwrought Raptor
-  { printing = "dom/228", at = "colorless" },  # Shield of the Realm
-  { printing = "nph/163", at = "colorless" },  # Trespassing Souleater
-  { printing = "kld/232", qty = 2, at = "colorless" },  # Self-Assembler
-  { printing = "bfz/224", at = "colorless" },  # Hedron Blade
-  { printing = "dom/231", at = "colorless" },  # Sorcerer's Wand
-  { printing = "m21/237", at = "colorless" },  # Silent Dart
-  { printing = "ogw/165", at = "colorless" },  # Seer's Lantern
-  { printing = "rix/184", at = "colorless" },  # Traveler's Amulet
-  { printing = "thb/239", qty = 2, at = "colorless" },  # Thundering Chariot
-  { printing = "bbd/247", at = "colorless" },  # Stone Golem
-  { printing = "kld/217", qty = 2, at = "colorless" },  # Glassblower's Puzzleknot
-  { printing = "m20/241", at = "colorless" },  # Vial of Dragonfire
-  { printing = "aer/150", qty = 2, at = "colorless" },  # Filigree Crawler
-  { printing = "kld/197", at = "colorless" },  # Bastion Mastodon
-  { printing = "m19/237", at = "colorless" },  # Gearsmith Guardian
-  { printing = "m20/237", qty = 2, at = "colorless" },  # Salvager of Ruin
-  { printing = "grn/234", qty = 2, at = "colorless" },  # Dimir Locket
-  { printing = "aer/156", at = "colorless" },  # Implement of Examination
-  { printing = "sos/250", at = "colorless" },  # Page, Loose Leaf
-  { printing = "sos/249", at = "colorless" },  # Mage Tower Referee
-  { printing = "sos/3", at = "colorless" },  # Sundering Archaic
-  { printing = "ktk/225", at = "colorless" },  # Sultai Banner
-  { printing = "aer/159", at = "colorless" },  # Implement of Malice
-  { printing = "arc/113", at = "colorless" },  # Obelisk of Esper
+  { printing = "thb/241", qty = 5, at = "colorless bulk" },  # Wings of Hubris
+  { printing = "xln/233", qty = 5, at = "colorless bulk" },  # Cobbled Wings
+  { printing = "thb/231", qty = 2, at = "colorless bulk" },  # Altar of the Pantheon
+  { printing = "grn/236", qty = 3, at = "colorless bulk" },  # Glaive of the Guildpact
+  { printing = "m20/234", at = "colorless bulk" },  # Pattern Matcher
+  { printing = "xln/237", qty = 2, at = "colorless bulk" },  # Elaborate Firecannon
+  { printing = "m20/221", at = "colorless bulk" },  # Anvilwrought Raptor
+  { printing = "dom/228", at = "colorless bulk" },  # Shield of the Realm
+  { printing = "nph/163", at = "colorless bulk" },  # Trespassing Souleater
+  { printing = "kld/232", qty = 2, at = "colorless bulk" },  # Self-Assembler
+  { printing = "bfz/224", at = "colorless bulk" },  # Hedron Blade
+  { printing = "dom/231", at = "colorless bulk" },  # Sorcerer's Wand
+  { printing = "m21/237", at = "colorless bulk" },  # Silent Dart
+  { printing = "ogw/165", at = "colorless bulk" },  # Seer's Lantern
+  { printing = "rix/184", at = "colorless bulk" },  # Traveler's Amulet
+  { printing = "thb/239", qty = 2, at = "colorless bulk" },  # Thundering Chariot
+  { printing = "bbd/247", at = "colorless bulk" },  # Stone Golem
+  { printing = "kld/217", qty = 2, at = "colorless bulk" },  # Glassblower's Puzzleknot
+  { printing = "m20/241", at = "colorless bulk" },  # Vial of Dragonfire
+  { printing = "aer/150", qty = 2, at = "colorless bulk" },  # Filigree Crawler
+  { printing = "kld/197", at = "colorless bulk" },  # Bastion Mastodon
+  { printing = "m19/237", at = "colorless bulk" },  # Gearsmith Guardian
+  { printing = "m20/237", qty = 2, at = "colorless bulk" },  # Salvager of Ruin
+  { printing = "grn/234", qty = 2, at = "colorless bulk" },  # Dimir Locket
+  { printing = "aer/156", at = "colorless bulk" },  # Implement of Examination
+  { printing = "sos/250", at = "colorless bulk" },  # Page, Loose Leaf
+  { printing = "sos/249", at = "colorless bulk" },  # Mage Tower Referee
+  { printing = "sos/3", at = "colorless bulk" },  # Sundering Archaic
+  { printing = "ktk/225", at = "colorless bulk" },  # Sultai Banner
+  { printing = "aer/159", at = "colorless bulk" },  # Implement of Malice
+  { printing = "arc/113", at = "colorless bulk" },  # Obelisk of Esper
   { printing = "soc/299", at = "stables" },  # Brudiclad, Telchor Engineer
   { printing = "soc/5", at = "stables" },  # Muddle, the Ever-Changing
   { printing = "stx/189", at = "sleaved stables" },  # Galazeth Prismari
@@ -272,6 +272,6 @@ cards = [
 "useful non-basic lands" = {}
 "shit lands" = {}
 stables = {}
-colorless = {}
+"colorless bulk" = {}
 "bulk multicolor" = {}
 "sleaved stables" = {}
