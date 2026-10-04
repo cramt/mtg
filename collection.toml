@@ -351,6 +351,7 @@ cards = [
   { printing = "rix/57", at = "blue bulk" },  # Spire Winder
   { printing = "rix/36", at = "blue bulk" },  # Deadeye Rig-Hauler
   { printing = "thb/49", at = "blue bulk" },  # Elite Instructor
+  { printing = "aer/45", at = "blue bulk" },  # Shipwreck Moray
 ]
 
 [places]
