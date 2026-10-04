@@ -284,7 +284,7 @@ cards = [
   { printing = "soc/17", at = "stables" },  # Abstract Performance
   { printing = "soc/18", at = "stables" },  # Dirgur Focusmage // Braingeyser
   { printing = "soc/20", at = "stables" },  # Leitmotif Composer
-  { printing = "hob/48", at = "blue bulk" },  # Mirkwood Meditator
+  { printing = "hob/48", qty = 2, at = "blue bulk" },  # Mirkwood Meditator
   { printing = "hob/45", at = "blue bulk" },  # Long Lake Nuisance
   { printing = "hob/43", at = "blue bulk" },  # Lakeshore Apothecary
 ]
