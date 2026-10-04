@@ -293,6 +293,7 @@ cards = [
   { printing = "hob/34", at = "blue bulk" },  # Bilbo Baggins, Burglar // Take a Glance
   { printing = "hob/55", at = "blue bulk" },  # Sound the Trumpets
   { printing = "hob/50", at = "blue bulk" },  # Old Fat Spider Can't See Me
+  { printing = "hob/37", at = "blue bulk" },  # Elven Raft-Steerer
 ]
 
 [places]
