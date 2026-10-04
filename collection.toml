@@ -284,6 +284,7 @@ cards = [
   { printing = "soc/17", at = "stables" },  # Abstract Performance
   { printing = "soc/18", at = "stables" },  # Dirgur Focusmage // Braingeyser
   { printing = "soc/20", at = "stables" },  # Leitmotif Composer
+  { printing = "hob/48", at = "blue bulk" },  # Mirkwood Meditator
 ]
 
 [places]
