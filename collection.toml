@@ -323,6 +323,7 @@ cards = [
   { printing = "jou/32", at = "blue bulk" },  # Cloaked Siren
   { printing = "clu/82", at = "blue bulk" },  # Cloudkin Seer
   { printing = "dtk/68", at = "blue bulk" },  # Ojutai's Summons
+  { printing = "akh/53", at = "blue bulk" },  # Floodwaters
 ]
 
 [places]
