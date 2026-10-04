@@ -289,6 +289,7 @@ cards = [
   { printing = "hob/43", qty = 2, at = "blue bulk" },  # Lakeshore Apothecary
   { printing = "hob/39", qty = 2, at = "blue bulk" },  # Enchanted River's Grasp
   { printing = "hob/38", at = "blue bulk" },  # Elvenking's Harper
+  { printing = "hob/58", at = "blue bulk" },  # Uneasy Partings
 ]
 
 [places]
