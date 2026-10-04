@@ -349,6 +349,7 @@ cards = [
   { printing = "mir/93", at = "blue bulk" },  # Soar
   { printing = "jmp/156", at = "blue bulk" },  # Leave in the Dust
   { printing = "rix/57", at = "blue bulk" },  # Spire Winder
+  { printing = "rix/36", at = "blue bulk" },  # Deadeye Rig-Hauler
 ]
 
 [places]
