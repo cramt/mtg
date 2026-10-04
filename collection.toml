@@ -359,6 +359,7 @@ cards = [
   { printing = "ogw/65", at = "blue bulk" },  # Umara Entangler
   { printing = "grn/46", qty = 3, at = "blue bulk" },  # Muse Drake
   { printing = "frf/33", at = "blue bulk" },  # Enhanced Awareness
+  { printing = "ktk/53", at = "blue bulk" },  # Scion of Glaciers
 ]
 
 [places]
