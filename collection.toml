@@ -363,6 +363,8 @@ cards = [
   { printing = "dtk/85", at = "blue bulk" },  # Zephyr Scribe
   { printing = "2x2/42", at = "blue bulk" },  # Capture Sphere
   { printing = "bfz/73", at = "blue bulk" },  # Coastal Discovery
+  { printing = "m14/76", at = "blue bulk" },  # Trained Condor
+  { printing = "bfz/84", at = "blue bulk" },  # Rush of Ice
 ]
 
 [places]
