@@ -324,8 +324,8 @@ cards = [
   { printing = "clu/82", at = "blue bulk" },  # Cloudkin Seer
   { printing = "dtk/68", at = "blue bulk" },  # Ojutai's Summons
   { printing = "akh/53", at = "blue bulk" },  # Floodwaters
-  { printing = "m20/67", at = "blue bulk" },  # Moat Piranhas
-  { printing = "jmp/161", qty = 4, at = "blue bulk" },  # Octoprophet
+  { printing = "m20/67", qty = 2, at = "blue bulk" },  # Moat Piranhas
+  { printing = "jmp/161", qty = 5, at = "blue bulk" },  # Octoprophet
   { printing = "thb/51", qty = 8, at = "blue bulk" },  # Ichthyomorphosis
   { printing = "bok/51", at = "blue bulk" },  # Shimmering Glasskite
   { printing = "m20/74", at = "blue bulk" },  # Scholar of the Ages
