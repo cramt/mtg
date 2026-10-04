@@ -324,7 +324,7 @@ cards = [
   { printing = "clu/82", at = "stables" },  # Cloudkin Seer
   { printing = "dtk/68", at = "blue bulk" },  # Ojutai's Summons
   { printing = "akh/53", at = "blue bulk" },  # Floodwaters
-  { printing = "m20/67", qty = 4, at = "blue bulk" },  # Moat Piranhas
+  { printing = "m20/67", qty = 7, at = "blue bulk" },  # Moat Piranhas
   { printing = "jmp/161", qty = 5, at = "blue bulk" },  # Octoprophet
   { printing = "thb/51", qty = 8, at = "blue bulk" },  # Ichthyomorphosis
   { printing = "bok/51", at = "blue bulk" },  # Shimmering Glasskite
@@ -338,6 +338,8 @@ cards = [
   { printing = "ala/34", at = "blue bulk" },  # Cathartic Adept
   { printing = "soi/71", at = "stables" },  # Just the Wind
   { printing = "m20/78", at = "blue bulk" },  # Unsummon
+  { printing = "dom/43", at = "blue bulk" },  # Arcane Flight
+  { printing = "som/51", at = "blue bulk" },  # Vault Skyward
 ]
 
 [places]
