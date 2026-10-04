@@ -325,11 +325,14 @@ cards = [
   { printing = "dtk/68", at = "blue bulk" },  # Ojutai's Summons
   { printing = "akh/53", at = "blue bulk" },  # Floodwaters
   { printing = "m20/67", at = "blue bulk" },  # Moat Piranhas
-  { printing = "jmp/161", qty = 2, at = "blue bulk" },  # Octoprophet
-  { printing = "thb/51", qty = 2, at = "blue bulk" },  # Ichthyomorphosis
+  { printing = "jmp/161", qty = 3, at = "blue bulk" },  # Octoprophet
+  { printing = "thb/51", qty = 7, at = "blue bulk" },  # Ichthyomorphosis
   { printing = "bok/51", at = "blue bulk" },  # Shimmering Glasskite
   { printing = "m20/74", at = "blue bulk" },  # Scholar of the Ages
   { printing = "m20/82", at = "blue bulk" },  # Zephyr Charge
+  { printing = "j25/395", at = "blue bulk" },  # Yarok's Wavecrasher
+  { printing = "m15/84", at = "blue bulk" },  # Welkin Tern
+  { printing = "ice/92", at = "blue bulk" },  # Ray of Command
 ]
 
 [places]
