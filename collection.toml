@@ -292,14 +292,14 @@ cards = [
   { printing = "hob/58", at = "blue bulk" },  # Uneasy Partings
   { printing = "hob/34", at = "blue bulk" },  # Bilbo Baggins, Burglar // Take a Glance
   { printing = "hob/55", qty = 2, at = "blue bulk" },  # Sound the Trumpets
-  { printing = "hob/50", at = "blue bulk" },  # Old Fat Spider Can't See Me
   { printing = "hob/37", at = "blue bulk" },  # Elven Raft-Steerer
   { printing = "clb/88", at = "blue bulk" },  # Pseudodragon Familiar
-  { printing = "clb/381", at = "blue bulk" },  # Alora, Merry Thief
   { printing = "tdm/36", at = "blue bulk" },  # Agent of Kotis
   { printing = "tdm/53", at = "blue bulk" },  # Ringing Strike Mastery
-  { printing = "clb/92", at = "blue bulk" },  # Run Away Together
-  { printing = "clb/80", at = "blue bulk" },  # Kenku Artificer
+  { printing = "hob/50", at = "stables" },  # Old Fat Spider Can't See Me
+  { printing = "clb/381", at = "stables" },  # Alora, Merry Thief
+  { printing = "clb/92", at = "stables" },  # Run Away Together
+  { printing = "clb/80", at = "stables" },  # Kenku Artificer
 ]
 
 [places]
