@@ -314,6 +314,7 @@ cards = [
   { printing = "rix/56", at = "blue bulk" },  # Soul of the Rapids
   { printing = "ths/45", at = "blue bulk" },  # Crackling Triton
   { printing = "kld/42", at = "blue bulk" },  # Curio Vendor
+  { printing = "rix/58", at = "blue bulk" },  # Sworn Guardian
 ]
 
 [places]
