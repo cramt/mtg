@@ -269,6 +269,7 @@ cards = [
   { printing = "clb/62", at = "blue bulk" },  # Contact Other Plane
   { printing = "soc/186", at = "stables" },  # Aether Gale
   { printing = "tdm/58", at = "stables" },  # Spectral Denial
+  { printing = "cmr/393", at = "sleaved stables" },  # Arcane Denial
 ]
 
 [places]
