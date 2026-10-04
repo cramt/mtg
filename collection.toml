@@ -335,6 +335,8 @@ cards = [
   { printing = "ice/92", at = "blue bulk" },  # Ray of Command
   { printing = "ths/52", at = "blue bulk" },  # Lost in a Labyrinth
   { printing = "dom/50", at = "blue bulk" },  # Deep Freeze
+  { printing = "ala/34", at = "blue bulk" },  # Cathartic Adept
+  { printing = "soi/71", at = "blue bulk" },  # Just the Wind
 ]
 
 [places]
