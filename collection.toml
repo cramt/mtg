@@ -312,6 +312,7 @@ cards = [
   { printing = "rix/47", at = "blue bulk" },  # River Darter
   { printing = "ons/112", at = "blue bulk" },  # Screaming Seahawk
   { printing = "rix/56", at = "blue bulk" },  # Soul of the Rapids
+  { printing = "ths/45", at = "blue bulk" },  # Crackling Triton
 ]
 
 [places]
