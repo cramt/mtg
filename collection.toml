@@ -332,7 +332,7 @@ cards = [
   { printing = "m20/82", at = "blue bulk" },  # Zephyr Charge
   { printing = "j25/395", at = "blue bulk" },  # Yarok's Wavecrasher
   { printing = "m15/84", at = "blue bulk" },  # Welkin Tern
-  { printing = "ice/92", at = "blue bulk" },  # Ray of Command
+  { printing = "ice/92", at = "stables" },  # Ray of Command
   { printing = "ths/52", at = "blue bulk" },  # Lost in a Labyrinth
   { printing = "dom/50", at = "blue bulk" },  # Deep Freeze
   { printing = "ala/34", at = "blue bulk" },  # Cathartic Adept
