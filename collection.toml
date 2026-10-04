@@ -305,6 +305,7 @@ cards = [
   { printing = "frf/44", at = "blue bulk" },  # Neutralizing Blast
   { printing = "ths/38", at = "blue bulk" },  # Annul
   { printing = "ktk/57", at = "blue bulk" },  # Taigam's Scheming
+  { printing = "ktk/59", at = "blue bulk" },  # Treasure Cruise
 ]
 
 [places]
