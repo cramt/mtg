@@ -299,6 +299,7 @@ cards = [
   { printing = "tdm/36", at = "blue bulk" },  # Agent of Kotis
   { printing = "tdm/53", at = "blue bulk" },  # Ringing Strike Mastery
   { printing = "clb/92", at = "blue bulk" },  # Run Away Together
+  { printing = "clb/80", at = "blue bulk" },  # Kenku Artificer
 ]
 
 [places]
