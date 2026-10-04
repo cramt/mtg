@@ -314,7 +314,7 @@ cards = [
   { printing = "rix/56", qty = 2, at = "blue bulk" },  # Soul of the Rapids
   { printing = "ths/45", at = "blue bulk" },  # Crackling Triton
   { printing = "kld/42", qty = 2, at = "blue bulk" },  # Curio Vendor
-  { printing = "rix/58", qty = 6, at = "blue bulk" },  # Sworn Guardian
+  { printing = "rix/58", qty = 7, at = "blue bulk" },  # Sworn Guardian
   { printing = "m20/70", qty = 3, at = "blue bulk" },  # Octoprophet
   { printing = "kld/70†", at = "blue bulk" },  # Wind Drake
   { printing = "aer/32", at = "blue bulk" },  # Dispersal Technician
