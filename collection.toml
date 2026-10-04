@@ -271,6 +271,7 @@ cards = [
   { printing = "tdm/58", at = "stables" },  # Spectral Denial
   { printing = "cmr/393", at = "sleaved stables" },  # Arcane Denial
   { printing = "soc/199", at = "stables" },  # Reality Shift
+  { printing = "soc/201", at = "stables" },  # Resculpt
 ]
 
 [places]
