@@ -316,6 +316,7 @@ cards = [
   { printing = "kld/42", at = "blue bulk" },  # Curio Vendor
   { printing = "rix/58", at = "blue bulk" },  # Sworn Guardian
   { printing = "m20/70", at = "blue bulk" },  # Octoprophet
+  { printing = "kld/70†", at = "blue bulk" },  # Wind Drake
 ]
 
 [places]
