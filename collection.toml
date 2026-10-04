@@ -319,6 +319,7 @@ cards = [
   { printing = "kld/70†", at = "blue bulk" },  # Wind Drake
   { printing = "aer/32", at = "blue bulk" },  # Dispersal Technician
   { printing = "kld/51", at = "blue bulk" },  # Hightide Hermit
+  { printing = "grn/36", at = "blue bulk" },  # Dimir Informant
 ]
 
 [places]
