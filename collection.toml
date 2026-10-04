@@ -372,6 +372,8 @@ cards = [
   { printing = "m10/70", at = "blue bulk" },  # Serpent of the Endless Sea
   { printing = "sos/66", at = "blue bulk" },  # Run Behind
   { printing = "sos/64", at = "blue bulk" },  # Procrastinate
+  { printing = "sos/51", at = "blue bulk" },  # Fractalize
+  { printing = "hob/51", qty = 2, at = "blue bulk" },  # Plunder the Trollshaws
 ]
 
 [places]
