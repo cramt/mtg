@@ -374,6 +374,7 @@ cards = [
   { printing = "sos/64", at = "blue bulk" },  # Procrastinate
   { printing = "sos/51", at = "blue bulk" },  # Fractalize
   { printing = "hob/51", qty = 2, at = "blue bulk" },  # Plunder the Trollshaws
+  { printing = "hob/44", qty = 2, at = "blue bulk" },  # Lake-town Mariners // Gone Fishing
 ]
 
 [places]
