@@ -365,6 +365,10 @@ cards = [
   { printing = "bfz/73", at = "blue bulk" },  # Coastal Discovery
   { printing = "m14/76", at = "blue bulk" },  # Trained Condor
   { printing = "bfz/84", at = "blue bulk" },  # Rush of Ice
+  { printing = "m15/77", at = "blue bulk" },  # Research Assistant
+  { printing = "kld/58", at = "blue bulk" },  # Nimble Innovator
+  { printing = "kld/36", at = "blue bulk" },  # Aether Meltdown
+  { printing = "thb/46", at = "blue bulk" },  # Chain to Memory
 ]
 
 [places]
