@@ -315,7 +315,7 @@ cards = [
   { printing = "ths/45", at = "blue bulk" },  # Crackling Triton
   { printing = "kld/42", at = "blue bulk" },  # Curio Vendor
   { printing = "rix/58", qty = 5, at = "blue bulk" },  # Sworn Guardian
-  { printing = "m20/70", at = "blue bulk" },  # Octoprophet
+  { printing = "m20/70", qty = 3, at = "blue bulk" },  # Octoprophet
   { printing = "kld/70†", at = "blue bulk" },  # Wind Drake
   { printing = "aer/32", at = "blue bulk" },  # Dispersal Technician
   { printing = "kld/51", at = "blue bulk" },  # Hightide Hermit
@@ -340,6 +340,9 @@ cards = [
   { printing = "m20/78", at = "blue bulk" },  # Unsummon
   { printing = "dom/43", at = "blue bulk" },  # Arcane Flight
   { printing = "som/51", at = "blue bulk" },  # Vault Skyward
+  { printing = "kld/37", at = "blue bulk" },  # Aether Theorist
+  { printing = "ktk/32", at = "blue bulk" },  # Blinding Spray
+  { printing = "ths/50", at = "blue bulk" },  # Griptide
 ]
 
 [places]
