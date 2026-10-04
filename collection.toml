@@ -369,6 +369,7 @@ cards = [
   { printing = "kld/58", at = "blue bulk" },  # Nimble Innovator
   { printing = "kld/36", at = "blue bulk" },  # Aether Meltdown
   { printing = "thb/46", at = "blue bulk" },  # Chain to Memory
+  { printing = "m10/70", at = "blue bulk" },  # Serpent of the Endless Sea
 ]
 
 [places]
