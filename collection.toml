@@ -322,7 +322,7 @@ cards = [
   { printing = "grn/36", qty = 2, at = "blue bulk" },  # Dimir Informant
   { printing = "jou/32", at = "blue bulk" },  # Cloaked Siren
   { printing = "clu/82", at = "stables" },  # Cloudkin Seer
-  { printing = "dtk/68", qty = 2, at = "blue bulk" },  # Ojutai's Summons
+  { printing = "dtk/68", qty = 3, at = "blue bulk" },  # Ojutai's Summons
   { printing = "akh/53", at = "blue bulk" },  # Floodwaters
   { printing = "m20/67", qty = 7, at = "blue bulk" },  # Moat Piranhas
   { printing = "jmp/161", qty = 5, at = "blue bulk" },  # Octoprophet
