@@ -297,6 +297,7 @@ cards = [
   { printing = "clb/88", at = "blue bulk" },  # Pseudodragon Familiar
   { printing = "clb/381", at = "blue bulk" },  # Alora, Merry Thief
   { printing = "tdm/36", at = "blue bulk" },  # Agent of Kotis
+  { printing = "tdm/53", at = "blue bulk" },  # Ringing Strike Mastery
 ]
 
 [places]
