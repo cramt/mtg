@@ -296,6 +296,7 @@ cards = [
   { printing = "hob/37", at = "blue bulk" },  # Elven Raft-Steerer
   { printing = "clb/88", at = "blue bulk" },  # Pseudodragon Familiar
   { printing = "clb/381", at = "blue bulk" },  # Alora, Merry Thief
+  { printing = "tdm/36", at = "blue bulk" },  # Agent of Kotis
 ]
 
 [places]
