@@ -370,6 +370,8 @@ cards = [
   { printing = "kld/36", at = "blue bulk" },  # Aether Meltdown
   { printing = "thb/46", at = "blue bulk" },  # Chain to Memory
   { printing = "m10/70", at = "blue bulk" },  # Serpent of the Endless Sea
+  { printing = "sos/66", at = "blue bulk" },  # Run Behind
+  { printing = "sos/64", at = "blue bulk" },  # Procrastinate
 ]
 
 [places]
