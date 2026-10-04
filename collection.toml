@@ -348,6 +348,7 @@ cards = [
   { printing = "bng/41", at = "blue bulk" },  # Floodtide Serpent
   { printing = "mir/93", at = "blue bulk" },  # Soar
   { printing = "jmp/156", at = "blue bulk" },  # Leave in the Dust
+  { printing = "rix/57", at = "blue bulk" },  # Spire Winder
 ]
 
 [places]
