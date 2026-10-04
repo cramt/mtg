@@ -311,10 +311,10 @@ cards = [
   { printing = "thb/47", qty = 8, at = "blue bulk" },  # Deny the Divine
   { printing = "rix/47", at = "blue bulk" },  # River Darter
   { printing = "ons/112", at = "blue bulk" },  # Screaming Seahawk
-  { printing = "rix/56", at = "blue bulk" },  # Soul of the Rapids
+  { printing = "rix/56", qty = 2, at = "blue bulk" },  # Soul of the Rapids
   { printing = "ths/45", at = "blue bulk" },  # Crackling Triton
   { printing = "kld/42", at = "blue bulk" },  # Curio Vendor
-  { printing = "rix/58", qty = 3, at = "blue bulk" },  # Sworn Guardian
+  { printing = "rix/58", qty = 4, at = "blue bulk" },  # Sworn Guardian
   { printing = "m20/70", at = "blue bulk" },  # Octoprophet
   { printing = "kld/70†", at = "blue bulk" },  # Wind Drake
   { printing = "aer/32", at = "blue bulk" },  # Dispersal Technician
@@ -325,6 +325,7 @@ cards = [
   { printing = "dtk/68", at = "blue bulk" },  # Ojutai's Summons
   { printing = "akh/53", at = "blue bulk" },  # Floodwaters
   { printing = "m20/67", at = "blue bulk" },  # Moat Piranhas
+  { printing = "jmp/161", qty = 2, at = "blue bulk" },  # Octoprophet
 ]
 
 [places]
