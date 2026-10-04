@@ -315,7 +315,7 @@ cards = [
   { printing = "ths/45", at = "blue bulk" },  # Crackling Triton
   { printing = "kld/42", qty = 2, at = "blue bulk" },  # Curio Vendor
   { printing = "rix/58", qty = 7, at = "blue bulk" },  # Sworn Guardian
-  { printing = "m20/70", qty = 3, at = "blue bulk" },  # Octoprophet
+  { printing = "m20/70", qty = 4, at = "blue bulk" },  # Octoprophet
   { printing = "kld/70†", at = "blue bulk" },  # Wind Drake
   { printing = "aer/32", at = "blue bulk" },  # Dispersal Technician
   { printing = "kld/51", at = "blue bulk" },  # Hightide Hermit
@@ -329,7 +329,7 @@ cards = [
   { printing = "thb/51", qty = 8, at = "blue bulk" },  # Ichthyomorphosis
   { printing = "bok/51", at = "blue bulk" },  # Shimmering Glasskite
   { printing = "m20/74", at = "blue bulk" },  # Scholar of the Ages
-  { printing = "m20/82", at = "blue bulk" },  # Zephyr Charge
+  { printing = "m20/82", qty = 2, at = "blue bulk" },  # Zephyr Charge
   { printing = "j25/395", at = "blue bulk" },  # Yarok's Wavecrasher
   { printing = "m15/84", at = "blue bulk" },  # Welkin Tern
   { printing = "ice/92", at = "stables" },  # Ray of Command
