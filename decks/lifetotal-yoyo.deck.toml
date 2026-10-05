@@ -10,14 +10,12 @@ cards = [
   { printing = "fdn/652", in = ["Life Snap-Back"] },  # Ayli, Eternal Pilgrim
   { printing = "tdc/1", in = ["Commander"] },  # Betor, Ancestor's Voice
   { printing = "msc/170", in = ["Ramp"] },  # Birds of Paradise
-  { printing = "ema/80", in = ["Ramp"] },  # Blightsoil Druid
   { printing = "soc/209", in = ["Lifegain Wincon"] },  # Blood Artist
   { printing = "c14/137", in = ["Draw"] },  # Bloodgift Demon
   { printing = "mh3/243", in = ["Graveyard Police", "Land - MDFC"] },  # Boggart Trawler // Boggart Bog
   { printing = "war/79", in = ["Life Payment - Dial"] },  # Bolas's Citadel
   { printing = "dis/38", in = ["Mass Life Loss"] },  # Bond of Agony
   { printing = "fic/377", in = ["Land - Pays Life"] },  # Brushland
-  { printing = "fdn/250", in = ["Ramp"] },  # Burnished Hart
   { printing = "mbs/40", in = ["Mass Life Loss"] },  # Caustic Hound
   { printing = "frc/66", in = ["Land - Pays Life"] },  # Caves of Koilos
   { printing = "cmm/144", in = ["Reanimation"] },  # Chainer, Dementia Master
@@ -37,6 +35,7 @@ cards = [
   { printing = "trk/326", qty = 3, in = ["Land - Basic"] },  # Forest
   { printing = "m19/97", in = ["Interaction"] },  # Fraying Omnipotence
   { printing = "trk/285", in = ["Land - Fixing"] },  # Godless Shrine
+  { printing = "fra/104", in = ["Ramp"] },  # Greenhouse Propagator
   { printing = "soc/380", in = ["Land - Utility"] },  # High Market
   { printing = "who/287", in = ["Land - Pays Life"] },  # Horizon Canopy
   { printing = "gvl/43", in = ["Mass Life Loss"] },  # Howling Banshee
@@ -69,6 +68,7 @@ cards = [
   { printing = "znr/122", in = ["Mass Life Loss"] },  # Scourge of the Skyclaves
   { printing = "sos/260", in = ["Land - Fixing"] },  # Shattered Sanctum
   { printing = "mh1/246", in = ["Land - Pays Life"] },  # Silent Clearing
+  { printing = "fra/113", in = ["Ramp"] },  # Simulacrum Shaper
   { printing = "soc/173", in = ["Interaction"] },  # Skyclave Apparition
   { printing = "avr/120", in = ["Mass Life Loss"] },  # Soulcage Fiend
   { printing = "blb/115", in = ["Yoyo Payoff"] },  # Starlit Soothsayer
