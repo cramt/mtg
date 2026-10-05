@@ -25,7 +25,6 @@ cards = [
   { printing = "fdn/652", in = ["Life Snap-Back"] },  # Ayli, Eternal Pilgrim
   { printing = "tdc/1", in = ["Commander"] },  # Betor, Ancestor's Voice
   { printing = "msc/170", in = ["Ramp"] },  # Birds of Paradise
-  { printing = "c14/137", in = ["Draw"] },  # Bloodgift Demon
   { printing = "fra/124", in = ["Draw"] },  # Bloombrute
   { printing = "mh3/243", in = ["Graveyard Police", "Land - MDFC"] },  # Boggart Trawler // Boggart Bog
   { printing = "war/79", in = ["Life Payment - Dial"] },  # Bolas's Citadel
@@ -46,9 +45,11 @@ cards = [
   { printing = "mkc/128", in = ["Life Payment - Dial"] },  # Doom Whisperer
   { printing = "plst/GK1-56", in = ["Ramp"] },  # Elves of Deep Shadow
   { printing = "fra/5", in = ["Draw", "Yoyo Payoff"] },  # Enlightened Confidant
+  { printing = "soc/369", in = ["Land - Fixing"] },  # Exotic Orchard
+  { printing = "soc/130", in = ["Land - Fixing"] },  # Fabled Passage
   { printing = "mh3/244", in = ["Interaction", "Land - MDFC"] },  # Fell the Profane // Fell Mire
   { printing = "sos/188", in = ["Reanimation"] },  # Fix What's Broken
-  { printing = "trk/326", qty = 3, in = ["Land - Basic"] },  # Forest
+  { printing = "trk/326", qty = 4, in = ["Land - Basic"] },  # Forest
   { printing = "m19/97", in = ["Interaction"] },  # Fraying Omnipotence
   { printing = "trk/285", in = ["Land - Fixing"] },  # Godless Shrine
   { printing = "fra/104", in = ["Ramp"] },  # Greenhouse Propagator
@@ -75,7 +76,6 @@ cards = [
   { printing = "lcc/208", in = ["Ramp"] },  # Pitiless Plunderer
   { printing = "trk/317", qty = 2, in = ["Land - Basic"] },  # Plains
   { printing = "sos/214", in = ["Draw", "Interaction"] },  # Professor Dellian Fel
-  { printing = "mkc/136", in = ["Interaction"] },  # Ravenous Chupacabra
   { printing = "fic/282", in = ["Reanimation"] },  # Reanimate
   { printing = "soc/285", in = ["Ramp"] },  # Sakura-Tribe Elder
   { printing = "ecc/164", in = ["Land - Fixing"] },  # Sandsteppe Citadel
@@ -107,7 +107,6 @@ cards = [
   { printing = "plst/MRD-82", in = ["Life Payment - Dial"] },  # Wall of Blood
   { printing = "inr/287", in = ["Land - Utility"] },  # Westvale Abbey // Ormendahl, Profane Prince
   { printing = "dsc/159", in = ["Life Snap-Back"] },  # Whip of Erebos
-  { printing = "c21/6", in = ["Yoyo Payoff"] },  # Willowdusk, Essence Seer
   { printing = "mh3/239", in = ["Interaction", "Land - MDFC"] },  # Witch Enchanter // Witch-Blessed Meadow
   { printing = "hob/142", in = ["Ramp"] },  # Wood Elves
   { printing = "eoe/128", in = ["Reanimation"] },  # Zero Point Ballad
