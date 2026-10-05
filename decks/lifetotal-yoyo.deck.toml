@@ -16,20 +16,22 @@ cards = [
   { printing = "war/79", in = ["Life Payment - Dial"] },  # Bolas's Citadel
   { printing = "dis/38", in = ["Mass Life Loss"] },  # Bond of Agony
   { printing = "fic/377", in = ["Land - Pays Life"] },  # Brushland
+  { printing = "sos/179", in = ["Lifegain Wincon", "Sacrifice Outlet"] },  # Cauldron of Essence
   { printing = "mbs/40", in = ["Mass Life Loss"] },  # Caustic Hound
   { printing = "frc/66", in = ["Land - Pays Life"] },  # Caves of Koilos
   { printing = "cmm/144", in = ["Reanimation"] },  # Chainer, Dementia Master
   { printing = "tsr/14", in = ["Life Snap-Back"] },  # Children of Korlis
   { printing = "tmc/62", in = ["Land - Pays Life"] },  # City of Brass
   { printing = "frc/22", in = ["Land - Fixing"] },  # Command Tower
-  { printing = "drc/89", in = ["Interaction"] },  # Damn
   { printing = "fin/94", in = ["Draw"] },  # Dark Confidant
   { printing = "rvr/175", in = ["Ramp"] },  # Deathrite Shaman
   { printing = "soc/25", in = ["Lifegain Wincon"] },  # Defiling Daemogoth
   { printing = "otc/132", in = ["Mass Life Loss"] },  # Dire Fleet Ravager
   { printing = "mh3/250", in = ["Draw", "Land - MDFC"] },  # Disciple of Freyalise // Garden of Freyalise
   { printing = "mkc/128", in = ["Life Payment - Dial"] },  # Doom Whisperer
+  { printing = "fra/270", in = ["Sacrifice Outlet"] },  # Edgar, Ancient Bloodlord
   { printing = "plst/GK1-56", in = ["Ramp"] },  # Elves of Deep Shadow
+  { printing = "fra/5", in = ["Draw", "Yoyo Payoff"] },  # Enlightened Confidant
   { printing = "mh3/244", in = ["Interaction", "Land - MDFC"] },  # Fell the Profane // Fell Mire
   { printing = "sos/188", in = ["Reanimation"] },  # Fix What's Broken
   { printing = "trk/326", qty = 3, in = ["Land - Basic"] },  # Forest
@@ -42,6 +44,7 @@ cards = [
   { printing = "iko/248", in = ["Land - Fixing"] },  # Indatha Triome
   { printing = "plst/DRB-9", in = ["Reanimation Target"] },  # Kokusho, the Evening Star
   { printing = "mh3/274", in = ["Life Payment - Dial"] },  # K'rrik, Son of Yawgmoth
+  { printing = "fra/140", in = ["Ramp", "Yoyo Payoff"] },  # Kwia Vigorbloom
   { printing = "fdc/213", in = ["Ramp"] },  # Llanowar Elves
   { printing = "soc/383", in = ["Land - Pays Life"] },  # Llanowar Wastes
   { printing = "fic/246", in = ["Recursion"] },  # Luminous Broodmoth
@@ -50,6 +53,7 @@ cards = [
   { printing = "spm/135", in = ["Life Total Swap"] },  # Mister Negative
   { printing = "msh/106", in = ["Life Payment - Dial"] },  # M.O.D.O.K.
   { printing = "40k/41", in = ["Yoyo Payoff"] },  # Mortarion, Daemon Primarch
+  { printing = "sos/91", in = ["Reanimation", "Yoyo Payoff"] },  # Moseo, Vein's New Dean
   { printing = "roe/38", in = ["Alt Win"] },  # Near-Death Experience
   { printing = "frc/10", in = ["Yoyo Payoff"] },  # Niv-Mizzet, Ghost Counsel
   { printing = "mh1/243", in = ["Land - Pays Life"] },  # Nurturing Peatland
@@ -57,11 +61,9 @@ cards = [
   { printing = "tdc/194", in = ["Life Payment - Dial"] },  # Phyrexian Reclamation
   { printing = "lcc/208", in = ["Ramp"] },  # Pitiless Plunderer
   { printing = "trk/317", qty = 2, in = ["Land - Basic"] },  # Plains
-  { printing = "nem/68", in = ["Mass Life Loss"] },  # Rathi Fiend
+  { printing = "sos/214", in = ["Draw", "Interaction"] },  # Professor Dellian Fel
   { printing = "mkc/136", in = ["Interaction"] },  # Ravenous Chupacabra
-  { printing = "cmm/181", in = ["Reanimation Target"] },  # Razaketh, the Foulblooded
   { printing = "fic/282", in = ["Reanimation"] },  # Reanimate
-  { printing = "fdn/184", in = ["Reanimation Target"] },  # Rune-Scarred Demon
   { printing = "soc/285", in = ["Ramp"] },  # Sakura-Tribe Elder
   { printing = "ecc/164", in = ["Land - Fixing"] },  # Sandsteppe Citadel
   { printing = "tdm/267", in = ["Land - Fixing"] },  # Scoured Barrens
@@ -71,9 +73,7 @@ cards = [
   { printing = "fra/113", in = ["Ramp"] },  # Simulacrum Shaper
   { printing = "soc/173", in = ["Interaction"] },  # Skyclave Apparition
   { printing = "avr/120", in = ["Mass Life Loss"] },  # Soulcage Fiend
-  { printing = "blb/115", in = ["Yoyo Payoff"] },  # Starlit Soothsayer
   { printing = "blb/233", in = ["Yoyo Payoff"] },  # Starseer Mentor
-  { printing = "fic/287", in = ["Graveyard Setup"] },  # Stitcher's Supplier
   { printing = "trk/321", qty = 4, in = ["Land - Basic"] },  # Swamp
   { printing = "frc/37", in = ["Interaction"] },  # Swords to Plowshares
   { printing = "arb/83", in = ["Life Snap-Back"] },  # Tainted Sigil
@@ -81,9 +81,9 @@ cards = [
   { printing = "trk/301", in = ["Land - Fixing"] },  # Temple Garden
   { printing = "msc/161", in = ["Interaction"] },  # Toxic Deluge
   { printing = "tdc/97", in = ["Life Total Swap"] },  # Tree of Redemption
-  { printing = "clu/215", in = ["Graveyard Setup"] },  # Underrealm Lich
   { printing = "plst/SCG-79", in = ["Life Payment - Dial"] },  # Unspeakable Symbol
   { printing = "tdc/410", in = ["Land - Utility"] },  # Vault of the Archangel
+  { printing = "sos/241", in = ["Interaction"] },  # Vicious Rivalry
   { printing = "j25/70", in = ["Reanimation Target"] },  # Vilis, Broker of Blood
   { printing = "soc/229", in = ["Sacrifice Outlet"] },  # Viscera Seer
   { printing = "j25/71", in = ["Lifegain Wincon"] },  # Vito, Thorn of the Dusk Rose
@@ -103,7 +103,6 @@ cards = [
 Commander = { type = "commander" }
 Draw = {}
 "Graveyard Police" = {}
-"Graveyard Setup" = {}
 Interaction = {}
 "Land - Basic" = {}
 "Land - Fixing" = {}
