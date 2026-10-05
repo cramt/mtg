@@ -16,10 +16,9 @@ Niv-Mizzet turns every life gain into an equal loss plus that many cards, so it 
 
 The graveyard has to be stocked for any of this to matter. Stitcher's Supplier, Undead Butler, Yathan Roadwatcher and Stinkweed Imp's dredge fill it early. Altar of Dementia sacrifices a creature and mills you for its power, so a Betor-pumped creature turns into a huge self-mill. Skirsdag Supplicant pitches reanimation targets and makes every player lose 2. The Master of Lake-town makes every player mill one card per life they lose: a 27-point yoyo mills you 27 deep, and Ravager effects mill the table. Watch your library count when it's out.
 
-Wincons: drain the table out with Vito, Defiling Daemogoth, Aetherflux Reservoir and the death triggers."""
+Wincons: drain the table out with Vito, Defiling Daemogoth, Gray Merchant, Exsanguinate and the death triggers."""
 
 cards = [
-  { printing = "plst/KLD-192", in = ["Lifegain Wincon"] },  # Aetherflux Reservoir
   { printing = "znr/90", in = ["Reanimation", "Land - MDFC"] },  # Agadeem's Awakening // Agadeem, the Undercrypt
   { printing = "mh1/218", in = ["Sacrifice Outlet", "Self-Mill"] },  # Altar of Dementia
   { printing = "soc/293", in = ["Interaction"] },  # Anguished Unmaking
@@ -47,6 +46,7 @@ cards = [
   { printing = "mkc/128", in = ["Life Payment - Dial"] },  # Doom Whisperer
   { printing = "plst/GK1-56", in = ["Ramp"] },  # Elves of Deep Shadow
   { printing = "fra/5", in = ["Draw", "Yoyo Payoff"] },  # Enlightened Confidant
+  { printing = "fdn/173", in = ["Lifegain Wincon"] },  # Exsanguinate
   { printing = "soc/130", in = ["Land - Fixing"] },  # Fabled Passage
   { printing = "mh3/244", in = ["Interaction", "Land - MDFC"] },  # Fell the Profane // Fell Mire
   { printing = "sos/188", in = ["Reanimation"] },  # Fix What's Broken
