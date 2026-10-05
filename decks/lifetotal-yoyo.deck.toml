@@ -105,8 +105,8 @@ cards = [
   { printing = "lcc/293", in = ["Life Payment - Dial"] },  # Vona, Butcher of Magan
   { printing = "plst/MRD-82", in = ["Life Payment - Dial"] },  # Wall of Blood
   { printing = "inr/287", in = ["Land - Utility"] },  # Westvale Abbey // Ormendahl, Profane Prince
-  { printing = "mh3/235", in = ["Land - Pays Life"] },  # Windswept Heath
   { printing = "dsc/159", in = ["Life Snap-Back"] },  # Whip of Erebos
+  { printing = "mh3/235", in = ["Land - Pays Life"] },  # Windswept Heath
   { printing = "mh3/239", in = ["Interaction", "Land - MDFC"] },  # Witch Enchanter // Witch-Blessed Meadow
   { printing = "hob/142", in = ["Ramp"] },  # Wood Elves
   { printing = "eoe/128", in = ["Reanimation"] },  # Zero Point Ballad
