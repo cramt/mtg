@@ -6,7 +6,7 @@ Betor doesn't care where your life total ends up, only how far it moved. At your
 The ideal turn:
 - lose a pile of life: pay X for Bond of Agony or Vicious Rivalry, tap Tree of Redemption to swap your life with its toughness, run Vona, crack the pay-3-life MDFC lands
 - snap it back: Children of Korlis, Tainted Sigil, Tree of Redemption the next turn, Mister Negative swapping life with whoever is highest
-- end step: Betor brings back something huge, Moseo brings back another creature off the gain side, Astarion doubles the gain before Betor counts it, and Lunar Convocation, Starseer Mentor and Mortarion all pay out
+- end step: Betor brings back something huge, Moseo brings back another creature off the gain side, Astarion doubles the gain before Betor counts it, and Mortarion makes tokens off the loss
 
 Betor's reanimation targets, so all the losing has to happen before the end step. You can't pay more life in response to make the target legal.
 
@@ -14,18 +14,20 @@ Between yoyo turns it's a midrange grind. Soulcage Fiend, Caustic Hound, Dire Fl
 
 Niv-Mizzet turns every life gain into an equal loss plus that many cards, so it feeds both halves of Betor at once. Vilis draws again off the loss.
 
+The graveyard has to be stocked for any of this to matter. Stitcher's Supplier, Undead Butler, Yathan Roadwatcher and Stinkweed Imp's dredge fill it early. Altar of Dementia sacrifices a creature and mills you for its power, so a Betor-pumped creature turns into a huge self-mill. Skirsdag Supplicant pitches reanimation targets and makes every player lose 2. The Master of Lake-town makes every player mill one card per life they lose: a 27-point yoyo mills you 27 deep, and Ravager effects mill the table. Watch your library count when it's out.
+
 Wincons: drain the table out with Vito, Defiling Daemogoth, Aetherflux Reservoir and the death triggers."""
 
 cards = [
   { printing = "plst/KLD-192", in = ["Lifegain Wincon"] },  # Aetherflux Reservoir
   { printing = "znr/90", in = ["Reanimation", "Land - MDFC"] },  # Agadeem's Awakening // Agadeem, the Undercrypt
+  { printing = "mh1/218", in = ["Sacrifice Outlet", "Self-Mill"] },  # Altar of Dementia
   { printing = "soc/293", in = ["Interaction"] },  # Anguished Unmaking
   { printing = "frc/47", in = ["Reanimation Target"] },  # Archon of Cruelty
   { printing = "clb/265", in = ["Yoyo Payoff"] },  # Astarion, the Decadent
   { printing = "fdn/652", in = ["Life Snap-Back"] },  # Ayli, Eternal Pilgrim
   { printing = "tdc/1", in = ["Commander"] },  # Betor, Ancestor's Voice
   { printing = "msc/170", in = ["Ramp"] },  # Birds of Paradise
-  { printing = "fra/124", in = ["Draw"] },  # Bloombrute
   { printing = "mh3/243", in = ["Graveyard Police", "Land - MDFC"] },  # Boggart Trawler // Boggart Bog
   { printing = "war/79", in = ["Life Payment - Dial"] },  # Bolas's Citadel
   { printing = "dis/38", in = ["Mass Life Loss"] },  # Bond of Agony
@@ -62,8 +64,6 @@ cards = [
   { printing = "fra/140", in = ["Ramp", "Yoyo Payoff"] },  # Kwia Vigorbloom
   { printing = "fdc/213", in = ["Ramp"] },  # Llanowar Elves
   { printing = "soc/383", in = ["Land - Pays Life"] },  # Llanowar Wastes
-  { printing = "fic/246", in = ["Recursion"] },  # Luminous Broodmoth
-  { printing = "blb/223", in = ["Yoyo Payoff"] },  # Lunar Convocation
   { printing = "jou/163", in = ["Land - Pays Life"] },  # Mana Confluence
   { printing = "spm/135", in = ["Life Total Swap"] },  # Mister Negative
   { printing = "msh/106", in = ["Life Payment - Dial"] },  # M.O.D.O.K.
@@ -72,29 +72,31 @@ cards = [
   { printing = "frc/10", in = ["Yoyo Payoff"] },  # Niv-Mizzet, Ghost Counsel
   { printing = "mh1/243", in = ["Land - Pays Life"] },  # Nurturing Peatland
   { printing = "trk/289", in = ["Land - Fixing"] },  # Overgrown Tomb
-  { printing = "tdc/194", in = ["Life Payment - Dial"] },  # Phyrexian Reclamation
   { printing = "lcc/208", in = ["Ramp"] },  # Pitiless Plunderer
   { printing = "trk/317", qty = 2, in = ["Land - Basic"] },  # Plains
   { printing = "sos/214", in = ["Draw", "Interaction"] },  # Professor Dellian Fel
   { printing = "fic/282", in = ["Reanimation"] },  # Reanimate
   { printing = "soc/285", in = ["Ramp"] },  # Sakura-Tribe Elder
   { printing = "ecc/164", in = ["Land - Fixing"] },  # Sandsteppe Citadel
-  { printing = "znr/122", in = ["Mass Life Loss"] },  # Scourge of the Skyclaves
   { printing = "thb/236", in = ["Lifelink"] },  # Shadowspear
   { printing = "sos/260", in = ["Land - Fixing"] },  # Shattered Sanctum
   { printing = "soc/171", in = ["Interaction", "Lifelink"] },  # Sheltered by Ghosts
   { printing = "mh1/246", in = ["Land - Pays Life"] },  # Silent Clearing
   { printing = "fra/113", in = ["Ramp"] },  # Simulacrum Shaper
+  { printing = "emn/104", in = ["Discard Outlet", "Mass Life Loss"] },  # Skirsdag Supplicant
   { printing = "soc/173", in = ["Interaction"] },  # Skyclave Apparition
   { printing = "avr/120", in = ["Mass Life Loss"] },  # Soulcage Fiend
-  { printing = "blb/233", in = ["Yoyo Payoff"] },  # Starseer Mentor
+  { printing = "dvd/36", in = ["Self-Mill"] },  # Stinkweed Imp
+  { printing = "fic/287", in = ["Self-Mill"] },  # Stitcher's Supplier
   { printing = "trk/321", qty = 4, in = ["Land - Basic"] },  # Swamp
   { printing = "frc/37", in = ["Interaction"] },  # Swords to Plowshares
   { printing = "arb/83", in = ["Life Snap-Back"] },  # Tainted Sigil
   { printing = "znr/211", in = ["Ramp", "Land - MDFC"] },  # Tangled Florahedron // Tangled Vale
   { printing = "trk/301", in = ["Land - Fixing"] },  # Temple Garden
+  { printing = "hob/77", in = ["Self-Mill", "Yoyo Payoff"] },  # The Master of Lake-town
   { printing = "msc/161", in = ["Interaction"] },  # Toxic Deluge
   { printing = "tdc/97", in = ["Life Total Swap"] },  # Tree of Redemption
+  { printing = "vow/133", in = ["Self-Mill", "Recursion"] },  # Undead Butler
   { printing = "plst/SCG-79", in = ["Life Payment - Dial"] },  # Unspeakable Symbol
   { printing = "tdc/410", in = ["Land - Utility"] },  # Vault of the Archangel
   { printing = "sos/241", in = ["Interaction"] },  # Vicious Rivalry
@@ -109,11 +111,12 @@ cards = [
   { printing = "mh3/235", in = ["Land - Pays Life"] },  # Windswept Heath
   { printing = "mh3/239", in = ["Interaction", "Land - MDFC"] },  # Witch Enchanter // Witch-Blessed Meadow
   { printing = "hob/142", in = ["Ramp"] },  # Wood Elves
-  { printing = "eoe/128", in = ["Reanimation"] },  # Zero Point Ballad
+  { printing = "tdm/236", in = ["Self-Mill", "Reanimation"] },  # Yathan Roadwatcher
 ]
 
 [categories]
 Commander = { type = "commander" }
+"Discard Outlet" = {}
 Draw = {}
 "Graveyard Police" = {}
 Interaction = {}
@@ -133,4 +136,5 @@ Reanimation = {}
 "Reanimation Target" = {}
 Recursion = {}
 "Sacrifice Outlet" = {}
+"Self-Mill" = {}
 "Yoyo Payoff" = {}
