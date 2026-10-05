@@ -14,7 +14,7 @@ Between yoyo turns it's a midrange grind. Soulcage Fiend, Caustic Hound, Dire Fl
 
 Niv-Mizzet turns every life gain into an equal loss plus that many cards, so it feeds both halves of Betor at once. Vilis draws again off the loss.
 
-Wincons: drain out with Vito, Defiling Daemogoth, Aetherflux Reservoir and the death triggers, or park yourself at exactly 1 life with Bond of Agony and win on upkeep off Near-Death Experience."""
+Wincons: drain the table out with Vito, Defiling Daemogoth, Aetherflux Reservoir and the death triggers."""
 
 cards = [
   { printing = "plst/KLD-192", in = ["Lifegain Wincon"] },  # Aetherflux Reservoir
@@ -27,6 +27,7 @@ cards = [
   { printing = "msc/170", in = ["Ramp"] },  # Birds of Paradise
   { printing = "soc/209", in = ["Lifegain Wincon"] },  # Blood Artist
   { printing = "c14/137", in = ["Draw"] },  # Bloodgift Demon
+  { printing = "fra/124", in = ["Draw"] },  # Bloombrute
   { printing = "mh3/243", in = ["Graveyard Police", "Land - MDFC"] },  # Boggart Trawler // Boggart Bog
   { printing = "war/79", in = ["Life Payment - Dial"] },  # Bolas's Citadel
   { printing = "dis/38", in = ["Mass Life Loss"] },  # Bond of Agony
@@ -69,7 +70,6 @@ cards = [
   { printing = "msh/106", in = ["Life Payment - Dial"] },  # M.O.D.O.K.
   { printing = "40k/41", in = ["Yoyo Payoff"] },  # Mortarion, Daemon Primarch
   { printing = "sos/91", in = ["Reanimation", "Yoyo Payoff"] },  # Moseo, Vein's New Dean
-  { printing = "roe/38", in = ["Alt Win"] },  # Near-Death Experience
   { printing = "frc/10", in = ["Yoyo Payoff"] },  # Niv-Mizzet, Ghost Counsel
   { printing = "mh1/243", in = ["Land - Pays Life"] },  # Nurturing Peatland
   { printing = "trk/289", in = ["Land - Fixing"] },  # Overgrown Tomb
@@ -114,7 +114,6 @@ cards = [
 ]
 
 [categories]
-"Alt Win" = {}
 Commander = { type = "commander" }
 Draw = {}
 "Graveyard Police" = {}
