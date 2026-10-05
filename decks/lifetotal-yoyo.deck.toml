@@ -1,0 +1,119 @@
+name = "lifetotal yoyo"
+format = "commander"
+
+cards = [
+  { printing = "plst/KLD-192", in = ["Lifegain Wincon"] },  # Aetherflux Reservoir
+  { printing = "c21/184", in = ["Reanimation Target"] },  # Ageless Entity
+  { printing = "soc/293", in = ["Interaction"] },  # Anguished Unmaking
+  { printing = "soc/207", in = ["Reanimation"] },  # Animate Dead
+  { printing = "frc/20", in = ["Ramp"] },  # Arcane Signet
+  { printing = "frc/47", in = ["Reanimation Target"] },  # Archon of Cruelty
+  { printing = "soc/294", in = ["Interaction"] },  # Assassin's Trophy
+  { printing = "fdn/652", in = ["Life Snap-Back"] },  # Ayli, Eternal Pilgrim
+  { printing = "tdc/1", in = ["Commander"] },  # Betor, Ancestor's Voice
+  { printing = "msc/170", in = ["Ramp"] },  # Birds of Paradise
+  { printing = "tdm/251", in = ["Land - Fixing"] },  # Blossoming Sands
+  { printing = "soc/363", in = ["Land - Utility"] },  # Bojuka Bog
+  { printing = "war/79", in = ["Life Payment - Dial"] },  # Bolas's Citadel
+  { printing = "dis/38", in = ["Mass Life Loss"] },  # Bond of Agony
+  { printing = "fic/377", in = ["Land - Pays Life"] },  # Brushland
+  { printing = "mh3/273", in = ["Graveyard Setup"] },  # Buried Alive
+  { printing = "frc/66", in = ["Land - Pays Life"] },  # Caves of Koilos
+  { printing = "cmm/144", in = ["Reanimation"] },  # Chainer, Dementia Master
+  { printing = "tsr/14", in = ["Life Snap-Back"] },  # Children of Korlis
+  { printing = "tmc/62", in = ["Land - Pays Life"] },  # City of Brass
+  { printing = "frc/22", in = ["Land - Fixing"] },  # Command Tower
+  { printing = "msc/172", in = ["Ramp"] },  # Cultivate
+  { printing = "drc/89", in = ["Interaction"] },  # Damn
+  { printing = "rvr/175", in = ["Ramp"] },  # Deathrite Shaman
+  { printing = "soc/25", in = ["Lifegain Wincon"] },  # Defiling Daemogoth
+  { printing = "otc/132", in = ["Mass Life Loss"] },  # Dire Fleet Ravager
+  { printing = "mkc/128", in = ["Life Payment - Dial"] },  # Doom Whisperer
+  { printing = "plst/GK1-56", in = ["Ramp"] },  # Elves of Deep Shadow
+  { printing = "dmr/82", in = ["Graveyard Setup"] },  # Entomb
+  { printing = "plst/USG-134", in = ["Reanimation"] },  # Exhume
+  { printing = "frc/70", in = ["Land - Fixing"] },  # Exotic Orchard
+  { printing = "sos/188", in = ["Reanimation"] },  # Fix What's Broken
+  { printing = "trk/326", qty = 3, in = ["Land - Basic"] },  # Forest
+  { printing = "m19/97", in = ["Interaction"] },  # Fraying Omnipotence
+  { printing = "fdn/222", in = ["Reanimation Target"] },  # Ghalta, Primal Hunger
+  { printing = "trk/285", in = ["Land - Fixing"] },  # Godless Shrine
+  { printing = "soc/380", in = ["Land - Utility"] },  # High Market
+  { printing = "who/287", in = ["Land - Pays Life"] },  # Horizon Canopy
+  { printing = "iko/248", in = ["Land - Fixing"] },  # Indatha Triome
+  { printing = "tdm/258", in = ["Land - Fixing"] },  # Jungle Hollow
+  { printing = "mh3/274", in = ["Life Payment - Dial"] },  # K'rrik, Son of Yawgmoth
+  { printing = "ecc/113", in = ["Ramp"] },  # Kodama's Reach
+  { printing = "plst/DRB-9", in = ["Reanimation Target"] },  # Kokusho, the Evening Star
+  { printing = "fdc/213", in = ["Ramp"] },  # Llanowar Elves
+  { printing = "soc/383", in = ["Land - Pays Life"] },  # Llanowar Wastes
+  { printing = "fic/246", in = ["Recursion"] },  # Luminous Broodmoth
+  { printing = "blb/223", in = ["Yoyo Payoff"] },  # Lunar Convocation
+  { printing = "msh/106", in = ["Life Payment - Dial"] },  # M.O.D.O.K.
+  { printing = "jou/163", in = ["Land - Pays Life"] },  # Mana Confluence
+  { printing = "msc/177", in = ["Ramp"] },  # Nature's Lore
+  { printing = "mkc/131", in = ["Reanimation"] },  # Necromancy
+  { printing = "hoc/189", in = ["Draw"] },  # Night's Whisper
+  { printing = "mh1/243", in = ["Land - Pays Life"] },  # Nurturing Peatland
+  { printing = "trk/289", in = ["Land - Fixing"] },  # Overgrown Tomb
+  { printing = "ecc/82", in = ["Draw"] },  # Painful Truths
+  { printing = "tdc/194", in = ["Life Payment - Dial"] },  # Phyrexian Reclamation
+  { printing = "trk/317", qty = 2, in = ["Land - Basic"] },  # Plains
+  { printing = "cmm/181", in = ["Reanimation Target"] },  # Razaketh, the Foulblooded
+  { printing = "fic/282", in = ["Reanimation"] },  # Reanimate
+  { printing = "fdn/184", in = ["Reanimation Target"] },  # Rune-Scarred Demon
+  { printing = "ecc/164", in = ["Land - Fixing"] },  # Sandsteppe Citadel
+  { printing = "tdm/267", in = ["Land - Fixing"] },  # Scoured Barrens
+  { printing = "dmr/26", in = ["Reanimation Target"] },  # Serra Avatar
+  { printing = "sos/260", in = ["Land - Fixing"] },  # Shattered Sanctum
+  { printing = "plst/JMP-278", in = ["Reanimation Target"] },  # Sheoldred, Whispering One
+  { printing = "dmu/108", in = ["Reanimation"] },  # Sheoldred's Restoration
+  { printing = "mh1/246", in = ["Land - Pays Life"] },  # Silent Clearing
+  { printing = "plst/TMP-158", in = ["Life Payment - Dial"] },  # Souldrinker
+  { printing = "blb/115", in = ["Yoyo Payoff"] },  # Starlit Soothsayer
+  { printing = "blb/233", in = ["Yoyo Payoff"] },  # Starseer Mentor
+  { printing = "fic/287", in = ["Graveyard Setup"] },  # Stitcher's Supplier
+  { printing = "soc/178", in = ["Reanimation Target", "Recursion"] },  # Sun Titan
+  { printing = "trk/321", qty = 4, in = ["Land - Basic"] },  # Swamp
+  { printing = "frc/37", in = ["Interaction"] },  # Swords to Plowshares
+  { printing = "arb/83", in = ["Life Snap-Back"] },  # Tainted Sigil
+  { printing = "trk/301", in = ["Land - Fixing"] },  # Temple Garden
+  { printing = "msc/181", in = ["Ramp"] },  # Three Visits
+  { printing = "msc/161", in = ["Interaction"] },  # Toxic Deluge
+  { printing = "clu/215", in = ["Graveyard Setup"] },  # Underrealm Lich
+  { printing = "plst/SCG-79", in = ["Life Payment - Dial"] },  # Unspeakable Symbol
+  { printing = "tdc/410", in = ["Land - Utility"] },  # Vault of the Archangel
+  { printing = "tdc/198", in = ["Reanimation"] },  # Victimize
+  { printing = "j25/70", in = ["Reanimation Target"] },  # Vilis, Broker of Blood
+  { printing = "fic/330", in = ["Interaction"] },  # Vindicate
+  { printing = "soc/229", in = ["Sacrifice Outlet"] },  # Viscera Seer
+  { printing = "j25/71", in = ["Lifegain Wincon"] },  # Vito, Thorn of the Dusk Rose
+  { printing = "sth/143", in = ["Land - Utility"] },  # Volrath's Stronghold
+  { printing = "lcc/293", in = ["Life Payment - Dial"] },  # Vona, Butcher of Magan
+  { printing = "plst/MRD-82", in = ["Life Payment - Dial"] },  # Wall of Blood
+  { printing = "inr/287", in = ["Land - Utility"] },  # Westvale Abbey // Ormendahl, Profane Prince
+  { printing = "dsc/159", in = ["Life Snap-Back"] },  # Whip of Erebos
+  { printing = "c21/6", in = ["Yoyo Payoff"] },  # Willowdusk, Essence Seer
+  { printing = "hob/142", in = ["Ramp"] },  # Wood Elves
+  { printing = "eoe/128", in = ["Reanimation"] },  # Zero Point Ballad
+]
+
+[categories]
+Commander = { type = "commander" }
+Draw = {}
+"Graveyard Setup" = {}
+Interaction = {}
+"Land - Basic" = {}
+"Land - Fixing" = {}
+"Land - Pays Life" = {}
+"Land - Utility" = {}
+"Life Payment - Dial" = {}
+"Life Snap-Back" = {}
+"Lifegain Wincon" = {}
+"Mass Life Loss" = {}
+Ramp = {}
+Reanimation = {}
+"Reanimation Target" = {}
+Recursion = {}
+"Sacrifice Outlet" = {}
+"Yoyo Payoff" = {}
