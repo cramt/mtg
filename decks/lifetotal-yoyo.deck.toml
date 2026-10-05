@@ -1,5 +1,20 @@
 name = "lifetotal yoyo"
 format = "commander"
+description = """
+Betor doesn't care where your life total ends up, only how far it moved. At your end step it puts +1/+1 counters equal to the life you gained this turn on a creature, and returns a creature from your graveyard with mana value up to the life you lost this turn. The game tracks gained and lost separately, so going from 40 to 13 and back to 40 counts as losing 27 and gaining 27. That's 27 counters and any creature in your graveyard back, all for a net change of zero.
+
+The ideal turn:
+- lose a pile of life: pay X for Bond of Agony or Vicious Rivalry, tap Tree of Redemption to swap your life with its toughness, run Vona, crack the pay-3-life MDFC lands
+- snap it back: Children of Korlis, Tainted Sigil, Tree of Redemption the next turn, Mister Negative swapping life with whoever is highest
+- end step: Betor brings back something huge, Moseo brings back another creature off the gain side, Astarion doubles the gain before Betor counts it, and Lunar Convocation, Starseer Mentor and Mortarion all pay out
+
+Betor's reanimation targets, so all the losing has to happen before the end step. You can't pay more life in response to make the target legal.
+
+Between yoyo turns it's a midrange grind. Soulcage Fiend, Caustic Hound, Dire Fleet Ravager and friends make everyone lose life whenever they enter or die. You lose life too, which is the point: Betor recurs them at end step. Soulcage Fiend + a sac outlet means every player loses 3 every turn, the Fiend comes back, and Blood Artist, Cauldron of Essence and Pitiless Plunderer get paid each time. The ramp creatures loop the same way: Sakura-Tribe Elder, Wood Elves and Simulacrum Shaper all come back for more lands.
+
+Niv-Mizzet turns every life gain into an equal loss plus that many cards, so it feeds both halves of Betor at once. Vilis draws again off the loss.
+
+Wincons: drain out with Vito, Defiling Daemogoth, Aetherflux Reservoir and the death triggers, or park yourself at exactly 1 life with Bond of Agony and win on upkeep off Near-Death Experience."""
 
 cards = [
   { printing = "plst/KLD-192", in = ["Lifegain Wincon"] },  # Aetherflux Reservoir
