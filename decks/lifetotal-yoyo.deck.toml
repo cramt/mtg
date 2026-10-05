@@ -79,7 +79,6 @@ cards = [
   { printing = "fic/282", in = ["Reanimation"] },  # Reanimate
   { printing = "soc/285", in = ["Ramp"] },  # Sakura-Tribe Elder
   { printing = "ecc/164", in = ["Land - Fixing"] },  # Sandsteppe Citadel
-  { printing = "tdm/267", in = ["Land - Fixing"] },  # Scoured Barrens
   { printing = "znr/122", in = ["Mass Life Loss"] },  # Scourge of the Skyclaves
   { printing = "thb/236", in = ["Lifelink"] },  # Shadowspear
   { printing = "sos/260", in = ["Land - Fixing"] },  # Shattered Sanctum
@@ -106,6 +105,7 @@ cards = [
   { printing = "lcc/293", in = ["Life Payment - Dial"] },  # Vona, Butcher of Magan
   { printing = "plst/MRD-82", in = ["Life Payment - Dial"] },  # Wall of Blood
   { printing = "inr/287", in = ["Land - Utility"] },  # Westvale Abbey // Ormendahl, Profane Prince
+  { printing = "mh3/235", in = ["Land - Pays Life"] },  # Windswept Heath
   { printing = "dsc/159", in = ["Life Snap-Back"] },  # Whip of Erebos
   { printing = "mh3/239", in = ["Interaction", "Land - MDFC"] },  # Witch Enchanter // Witch-Blessed Meadow
   { printing = "hob/142", in = ["Ramp"] },  # Wood Elves
