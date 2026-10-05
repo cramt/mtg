@@ -47,15 +47,13 @@ cards = [
   { printing = "mkc/128", in = ["Life Payment - Dial"] },  # Doom Whisperer
   { printing = "plst/GK1-56", in = ["Ramp"] },  # Elves of Deep Shadow
   { printing = "fra/5", in = ["Draw", "Yoyo Payoff"] },  # Enlightened Confidant
-  { printing = "soc/369", in = ["Land - Fixing"] },  # Exotic Orchard
   { printing = "soc/130", in = ["Land - Fixing"] },  # Fabled Passage
   { printing = "mh3/244", in = ["Interaction", "Land - MDFC"] },  # Fell the Profane // Fell Mire
   { printing = "sos/188", in = ["Reanimation"] },  # Fix What's Broken
-  { printing = "trk/326", qty = 4, in = ["Land - Basic"] },  # Forest
+  { printing = "trk/326", qty = 7, in = ["Land - Basic"] },  # Forest
   { printing = "m19/97", in = ["Interaction"] },  # Fraying Omnipotence
   { printing = "trk/285", in = ["Land - Fixing"] },  # Godless Shrine
   { printing = "fra/104", in = ["Ramp"] },  # Greenhouse Propagator
-  { printing = "soc/380", in = ["Land - Utility"] },  # High Market
   { printing = "who/287", in = ["Land - Pays Life"] },  # Horizon Canopy
   { printing = "gvl/43", in = ["Mass Life Loss"] },  # Howling Banshee
   { printing = "iko/248", in = ["Land - Fixing"] },  # Indatha Triome
@@ -79,7 +77,6 @@ cards = [
   { printing = "soc/285", in = ["Ramp"] },  # Sakura-Tribe Elder
   { printing = "ecc/164", in = ["Land - Fixing"] },  # Sandsteppe Citadel
   { printing = "thb/236", in = ["Lifelink"] },  # Shadowspear
-  { printing = "sos/260", in = ["Land - Fixing"] },  # Shattered Sanctum
   { printing = "soc/171", in = ["Interaction", "Lifelink"] },  # Sheltered by Ghosts
   { printing = "mh1/246", in = ["Land - Pays Life"] },  # Silent Clearing
   { printing = "fra/113", in = ["Ramp"] },  # Simulacrum Shaper
@@ -88,7 +85,7 @@ cards = [
   { printing = "avr/120", in = ["Mass Life Loss"] },  # Soulcage Fiend
   { printing = "dvd/36", in = ["Self-Mill"] },  # Stinkweed Imp
   { printing = "fic/287", in = ["Self-Mill"] },  # Stitcher's Supplier
-  { printing = "trk/321", qty = 4, in = ["Land - Basic"] },  # Swamp
+  { printing = "trk/321", qty = 5, in = ["Land - Basic"] },  # Swamp
   { printing = "frc/37", in = ["Interaction"] },  # Swords to Plowshares
   { printing = "arb/83", in = ["Life Snap-Back"] },  # Tainted Sigil
   { printing = "znr/211", in = ["Ramp", "Land - MDFC"] },  # Tangled Florahedron // Tangled Vale
@@ -106,7 +103,6 @@ cards = [
   { printing = "sth/143", in = ["Land - Utility"] },  # Volrath's Stronghold
   { printing = "lcc/293", in = ["Life Payment - Dial"] },  # Vona, Butcher of Magan
   { printing = "plst/MRD-82", in = ["Life Payment - Dial"] },  # Wall of Blood
-  { printing = "inr/287", in = ["Land - Utility"] },  # Westvale Abbey // Ormendahl, Profane Prince
   { printing = "dsc/159", in = ["Life Snap-Back"] },  # Whip of Erebos
   { printing = "mh3/235", in = ["Land - Pays Life"] },  # Windswept Heath
   { printing = "mh3/239", in = ["Interaction", "Land - MDFC"] },  # Witch Enchanter // Witch-Blessed Meadow
