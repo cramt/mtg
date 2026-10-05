@@ -10,7 +10,7 @@ The ideal turn:
 
 Betor's reanimation targets, so all the losing has to happen before the end step. You can't pay more life in response to make the target legal.
 
-Between yoyo turns it's a midrange grind. Soulcage Fiend, Caustic Hound, Dire Fleet Ravager and friends make everyone lose life whenever they enter or die. You lose life too, which is the point: Betor recurs them at end step. Soulcage Fiend + a sac outlet means every player loses 3 every turn, the Fiend comes back, and Blood Artist, Cauldron of Essence and Pitiless Plunderer get paid each time. The ramp creatures loop the same way: Sakura-Tribe Elder, Wood Elves and Simulacrum Shaper all come back for more lands.
+Between yoyo turns it's a midrange grind. Soulcage Fiend, Caustic Hound, Dire Fleet Ravager and friends make everyone lose life whenever they enter or die. You lose life too, which is the point: Betor recurs them at end step. Soulcage Fiend + a sac outlet means every player loses 3 every turn, the Fiend comes back, and Cauldron of Essence and Pitiless Plunderer get paid each time. The ramp creatures loop the same way: Sakura-Tribe Elder, Wood Elves and Simulacrum Shaper all come back for more lands.
 
 Niv-Mizzet turns every life gain into an equal loss plus that many cards, so it feeds both halves of Betor at once. Vilis draws again off the loss.
 
@@ -25,7 +25,6 @@ cards = [
   { printing = "fdn/652", in = ["Life Snap-Back"] },  # Ayli, Eternal Pilgrim
   { printing = "tdc/1", in = ["Commander"] },  # Betor, Ancestor's Voice
   { printing = "msc/170", in = ["Ramp"] },  # Birds of Paradise
-  { printing = "soc/209", in = ["Lifegain Wincon"] },  # Blood Artist
   { printing = "c14/137", in = ["Draw"] },  # Bloodgift Demon
   { printing = "fra/124", in = ["Draw"] },  # Bloombrute
   { printing = "mh3/243", in = ["Graveyard Police", "Land - MDFC"] },  # Boggart Trawler // Boggart Bog
@@ -45,7 +44,6 @@ cards = [
   { printing = "otc/132", in = ["Mass Life Loss"] },  # Dire Fleet Ravager
   { printing = "mh3/250", in = ["Draw", "Land - MDFC"] },  # Disciple of Freyalise // Garden of Freyalise
   { printing = "mkc/128", in = ["Life Payment - Dial"] },  # Doom Whisperer
-  { printing = "fra/270", in = ["Sacrifice Outlet"] },  # Edgar, Ancient Bloodlord
   { printing = "plst/GK1-56", in = ["Ramp"] },  # Elves of Deep Shadow
   { printing = "fra/5", in = ["Draw", "Yoyo Payoff"] },  # Enlightened Confidant
   { printing = "mh3/244", in = ["Interaction", "Land - MDFC"] },  # Fell the Profane // Fell Mire
@@ -83,7 +81,9 @@ cards = [
   { printing = "ecc/164", in = ["Land - Fixing"] },  # Sandsteppe Citadel
   { printing = "tdm/267", in = ["Land - Fixing"] },  # Scoured Barrens
   { printing = "znr/122", in = ["Mass Life Loss"] },  # Scourge of the Skyclaves
+  { printing = "thb/236", in = ["Lifelink"] },  # Shadowspear
   { printing = "sos/260", in = ["Land - Fixing"] },  # Shattered Sanctum
+  { printing = "soc/171", in = ["Interaction", "Lifelink"] },  # Sheltered by Ghosts
   { printing = "mh1/246", in = ["Land - Pays Life"] },  # Silent Clearing
   { printing = "fra/113", in = ["Ramp"] },  # Simulacrum Shaper
   { printing = "soc/173", in = ["Interaction"] },  # Skyclave Apparition
@@ -124,6 +124,7 @@ Interaction = {}
 "Land - Pays Life" = {}
 "Land - Utility" = {}
 "Lifegain Wincon" = {}
+"Lifelink" = {}
 "Life Payment - Dial" = {}
 "Life Snap-Back" = {}
 "Life Total Swap" = {}
