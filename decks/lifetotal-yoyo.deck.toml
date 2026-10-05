@@ -6,7 +6,7 @@ Betor doesn't care where your life total ends up, only how far it moved. At your
 The ideal turn:
 - lose a pile of life: pay X for Bond of Agony or Vicious Rivalry, tap Tree of Redemption to swap your life with its toughness, run Vona, crack the pay-3-life MDFC lands
 - snap it back: Children of Korlis, Tainted Sigil, Tree of Redemption the next turn, Mister Negative swapping life with whoever is highest
-- end step: Betor brings back something huge, Moseo brings back another creature off the gain side, Astarion doubles the gain before Betor counts it, and Mortarion makes tokens off the loss
+- end step: Betor brings back something huge, Moseo brings back another creature off the gain side, Astarion doubles the gain before Betor counts it
 
 Betor's reanimation targets, so all the losing has to happen before the end step. You can't pay more life in response to make the target legal.
 
@@ -53,6 +53,7 @@ cards = [
   { printing = "trk/326", qty = 7, in = ["Land - Basic"] },  # Forest
   { printing = "m19/97", in = ["Interaction"] },  # Fraying Omnipotence
   { printing = "trk/285", in = ["Land - Fixing"] },  # Godless Shrine
+  { printing = "dsc/142", in = ["Lifegain Wincon"] },  # Gray Merchant of Asphodel
   { printing = "fra/104", in = ["Ramp"] },  # Greenhouse Propagator
   { printing = "who/287", in = ["Land - Pays Life"] },  # Horizon Canopy
   { printing = "gvl/43", in = ["Mass Life Loss"] },  # Howling Banshee
@@ -65,7 +66,6 @@ cards = [
   { printing = "jou/163", in = ["Land - Pays Life"] },  # Mana Confluence
   { printing = "spm/135", in = ["Life Total Swap"] },  # Mister Negative
   { printing = "msh/106", in = ["Life Payment - Dial"] },  # M.O.D.O.K.
-  { printing = "40k/41", in = ["Yoyo Payoff"] },  # Mortarion, Daemon Primarch
   { printing = "sos/91", in = ["Reanimation", "Yoyo Payoff"] },  # Moseo, Vein's New Dean
   { printing = "frc/10", in = ["Yoyo Payoff"] },  # Niv-Mizzet, Ghost Counsel
   { printing = "mh1/243", in = ["Land - Pays Life"] },  # Nurturing Peatland
