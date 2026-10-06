@@ -28,9 +28,9 @@ cards = [
   { printing = "fdn/652", in = ["Life Snap-Back"] },  # Ayli, Eternal Pilgrim
   { printing = "tdc/1", in = ["Commander"] },  # Betor, Ancestor's Voice
   { printing = "msc/170", in = ["Ramp"] },  # Birds of Paradise
+  { printing = "tdc/173", in = ["Interaction"] },  # Bitter Triumph
   { printing = "dft/250", in = ["Land - Fixing"] },  # Bleachbone Verge
   { printing = "mh3/216", in = ["Land - Pays Life"] },  # Bloodstained Mire
-  { printing = "war/79", in = ["Life Payment - Dial"] },  # Bolas's Citadel
   { printing = "dis/38", in = ["Mass Life Loss"] },  # Bond of Agony
   { printing = "msc/226", in = ["Land - Fixing"] },  # Bountiful Promenade
   { printing = "fic/377", in = ["Land - Pays Life"] },  # Brushland
@@ -42,6 +42,7 @@ cards = [
   { printing = "tmc/62", in = ["Land - Pays Life"] },  # City of Brass
   { printing = "frc/22", in = ["Land - Fixing"] },  # Command Tower
   { printing = "fin/94", in = ["Draw"] },  # Dark Confidant
+  { printing = "blb/90", in = ["Draw", "Life Payment - Dial"] },  # Darkstar Augur
   { printing = "rvr/175", in = ["Ramp"] },  # Deathrite Shaman
   { printing = "soc/25", in = ["Lifegain Wincon"] },  # Defiling Daemogoth
   { printing = "otc/132", in = ["Mass Life Loss"] },  # Dire Fleet Ravager
@@ -52,8 +53,8 @@ cards = [
   { printing = "mh3/244", in = ["Interaction", "Land - MDFC"] },  # Fell the Profane // Fell Mire
   { printing = "sos/188", in = ["Reanimation"] },  # Fix What's Broken
   { printing = "trk/326", qty = 3, in = ["Land - Basic"] },  # Forest
-  { printing = "m19/97", in = ["Interaction"] },  # Fraying Omnipotence
   { printing = "trk/285", in = ["Land - Fixing"] },  # Godless Shrine
+  { printing = "sos/85", in = ["Reanimation", "Self-Mill"] },  # Grave Researcher // Reanimate
   { printing = "dsc/142", in = ["Lifegain Wincon"] },  # Gray Merchant of Asphodel
   { printing = "fra/104", in = ["Ramp"] },  # Greenhouse Propagator
   { printing = "who/287", in = ["Land - Pays Life"] },  # Horizon Canopy
@@ -62,9 +63,9 @@ cards = [
   { printing = "iko/248", in = ["Land - Fixing"] },  # Indatha Triome
   { printing = "plst/DRB-9", in = ["Reanimation Target"] },  # Kokusho, the Evening Star
   { printing = "mh3/274", in = ["Life Payment - Dial"] },  # K'rrik, Son of Yawgmoth
-  { printing = "fra/140", in = ["Ramp", "Yoyo Payoff"] },  # Kwia Vigorbloom
   { printing = "fdc/213", in = ["Ramp"] },  # Llanowar Elves
   { printing = "soc/383", in = ["Land - Pays Life"] },  # Llanowar Wastes
+  { printing = "tmt/66", in = ["Life Payment - Dial"] },  # Madame Null, Power Broker
   { printing = "jou/163", in = ["Land - Pays Life"] },  # Mana Confluence
   { printing = "mh2/248", in = ["Land - Pays Life"] },  # Marsh Flats
   { printing = "spm/135", in = ["Life Total Swap"] },  # Mister Negative
@@ -75,7 +76,6 @@ cards = [
   { printing = "trk/289", in = ["Land - Fixing"] },  # Overgrown Tomb
   { printing = "lcc/208", in = ["Ramp"] },  # Pitiless Plunderer
   { printing = "trk/317", qty = 3, in = ["Land - Basic"] },  # Plains
-  { printing = "sos/214", in = ["Draw", "Interaction"] },  # Professor Dellian Fel
   { printing = "fic/282", in = ["Reanimation"] },  # Reanimate
   { printing = "soc/285", in = ["Ramp"] },  # Sakura-Tribe Elder
   { printing = "soc/171", in = ["Interaction", "Lifelink"] },  # Sheltered by Ghosts
