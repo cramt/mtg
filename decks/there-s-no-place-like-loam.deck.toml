@@ -1,5 +1,17 @@
 name = "There's No Place Like Loam"
 format = "commander"
+description = """
+Borborygmos and Fblthp draw a card whenever they enter or attack, then let you discard any number of land cards and deal twice that much damage to target creature. Discarding lands is normally card disadvantage. Here it's removal, and every land in the graveyard is something Life from the Loam brings back.
+
+The engine:
+- Tectonic Reformation gives every land card in your hand cycling {R}, and Trade Routes bounces your own lands and discards land cards to draw. Lands in hand are fuel, not land drops.
+- Life from the Loam dredges itself back and returns three lands to discard again. The cycling lands do the same job without Tectonic Reformation.
+- The retrace spells (Flame Jab, Throes of Chaos, Decaying Time Loop, Formless Genesis, Oona's Grace) are cast from the graveyard by discarding a land card. Six gives every nonland permanent card in your graveyard retrace on your turn.
+- Spider-Man, Glint-Horn Buccaneer and Brallin turn every discard into damage. Burning Vengeance and Secrets of the Dead pay off every spell cast from the graveyard.
+
+Borborygmos and Fblthp also has {1}{U}: put it into its owner's library third from the top. Tuck it in response to removal, dig back to it, and the enter trigger fires again.
+
+Ramunap Excavator, Conduit of Worlds and Wrenn and Six get the lands back out of the graveyard, so a land you discarded for value is still a land drop later."""
 
 cards = [
   { printing = "tdc/96", in = ["Loam Engine", "Loam Access"] },  # Life from the Loam
