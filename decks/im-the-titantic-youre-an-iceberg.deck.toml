@@ -1,5 +1,18 @@
 name = "Im the titantic youre an iceberg"
 format = "commander"
+description = """
+RMS Titanic is a 4-mana Vehicle with flying, trample and crew 3. When it deals combat damage to a player, you sacrifice it and create that many Treasures. The ship sinks every time it connects, so the deck either keeps it afloat or raises it.
+
+Keeping it afloat: Assault Suit makes the equipped creature impossible to sacrifice, so the trigger makes the Treasures and the Titanic stays. Equip it after crewing, since equipment falls off a Vehicle when it stops being a creature.
+
+Raising it:
+- Nim Deathmantle returns a nontoken creature that dies for {4}, and the trigger just made the Treasures to pay for it.
+- Goblin Welder swaps one of those Treasures for the Titanic in your graveyard. Daretti, Scrap Savant's -2 does the same.
+- Myr Retriever returns it to your hand.
+
+A bigger boat means more Treasures. Junk Jet, Bulk Up and Rush of Blood double its power, Twinflame Tyrant doubles the damage, and Strionic Resonator copies the trigger for a second batch.
+
+The Treasures go into Goldspan Dragon, Magda, Professional Face-Breaker and the other Treasure payoffs."""
 
 cards = [
   { printing = "lci/146", in = ["Boat Bigger"] },  # Dowsing Device // Geode Grotto
