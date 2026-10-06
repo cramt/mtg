@@ -1,4 +1,4 @@
-name = "Im the titantic youre an iceberg"
+name = "I'm the Titanic, You're an Iceberg"
 format = "commander"
 description = """
 RMS Titanic is a 4-mana Vehicle with flying, trample and crew 3. When it deals combat damage to a player, you sacrifice it and create that many Treasures. The ship sinks every time it connects, so the deck either keeps it afloat or raises it.
