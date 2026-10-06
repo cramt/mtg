@@ -1,5 +1,15 @@
 name = "Pirates on a Bicycle"
 format = "commander"
+description = """
+Pirates on a bicycle: Captain Howler, and cycling.
+
+Whenever you discard one or more cards, Captain Howler gives target creature +2/+0 for each card discarded, and whenever that creature deals combat damage to a player this turn you draw a card. Cycling is discarding, so every cycled card pumps an attacker and sets up a draw.
+
+The deck cycles constantly. The cycling lands are land drops that also pump, Fluctuator and New Perspectives make cycling cheap or free, Lightning Rift and Drannith Stinger deal damage per cycle, and Abandoned Sarcophagus and Sacred Excavation bring cycled cards back.
+
+The pumped creature has to connect. Rogue's Passage, Prowler's Helm, Aqueous Form, Artful Dodge and friends get it through, and Fireshrieker or Berserkers' Onslaught give it double strike, so every Howler trigger draws twice.
+
+The ideal turn: suit up something evasive, wait for blockers, cycle three cards at instant speed. That's +6 power and three draws per hit, six with double strike."""
 
 cards = [
   { printing = "c20/241", in = ["Cycling Cost Reduction"] },  # Fluctuator
