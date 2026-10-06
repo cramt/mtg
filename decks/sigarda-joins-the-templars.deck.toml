@@ -1,5 +1,18 @@
 name = "Sigarda Joins the Templars"
 format = "commander"
+description = """
+A deck can run any number of Templar Knights, and this one runs 22. Templar Knight is a Human, so Sigarda lets you cast them off the top of your library: look at the top card, cast it if it's a Knight, look at the next one.
+
+Templar Knight has vigilance and "{W}, tap five untapped attacking creatures named Templar Knight: search your library for a legendary artifact card and put it onto the battlefield". Vigilance keeps them untapped while attacking, so five Knights swinging fetch an artifact every combat.
+
+The legendary artifacts:
+- Thrumming Stone gives every spell ripple 4. Cast a Templar Knight, reveal the top four, and cast every Templar Knight among them for free.
+- Helm of the Host copies a Knight every combat, and the token is still named Templar Knight.
+- Chronicle of Victory naming Human makes every Knight +2/+2 with first strike and trample, and draws a card on every Templar Knight cast.
+- Horn of Gondor makes a Soldier for every Human you control.
+- Graaz makes every other creature a 5/3, which is a big upgrade for a 2/2.
+
+Sigarda gives every other permanent you control hexproof, so the army is hard to pick apart one card at a time."""
 
 cards = [
   { printing = "usg/34", in = ["Recursion"] },  # Remembrance
