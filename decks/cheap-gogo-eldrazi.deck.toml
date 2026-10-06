@@ -1,5 +1,11 @@
 name = "cheap gogo eldrazi"
 format = "commander"
+description = """
+The budget version of gogo is an eldrazi. Same plan: Gogo copies land-fetch abilities to ramp, then copies Eldrazi triggers.
+
+The ramp is Wayfarer's Bauble, Burnished Hart, Solemn Simulacrum, Dreamscape Artist and the basic-land fetch lands, all copyable with Gogo. The Eldrazi Spawn and Scion makers fill in, and their enter triggers copy too.
+
+Without the titans, the finishers are the cheaper annihilator creatures: Ulamog's Crusher, Artisan of Kozilek, Hand of Emrakul. Gogo copies annihilator triggers, so one Crusher attack can make an opponent sacrifice four or six permanents. The Eldrazi anthems and Leyline of Transformation make the board bigger, and the counterspells are cheap."""
 
 cards = [
   { printing = "mh3/9", in = ["Anthem"] },  # It That Heralds the End
