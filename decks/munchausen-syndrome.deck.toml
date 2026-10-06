@@ -102,7 +102,6 @@ cards = [
   { printing = "j25/70", in = ["Reanimation Target"] },  # Vilis, Broker of Blood
   { printing = "soc/229", in = ["Sacrifice Outlet"] },  # Viscera Seer
   { printing = "j25/71", in = ["Lifegain Wincon"] },  # Vito, Thorn of the Dusk Rose
-  { printing = "sth/143", in = ["Land - Utility"] },  # Volrath's Stronghold
   { printing = "lcc/293", in = ["Life Payment - Dial"] },  # Vona, Butcher of Magan
   { printing = "plst/MRD-82", in = ["Life Payment - Dial"] },  # Wall of Blood
   { printing = "mh3/110", in = ["Sacrifice Outlet"] },  # Warren Soultrader
@@ -111,6 +110,7 @@ cards = [
   { printing = "mh3/235", in = ["Land - Pays Life"] },  # Windswept Heath
   { printing = "mh3/239", in = ["Interaction", "Land - MDFC"] },  # Witch Enchanter // Witch-Blessed Meadow
   { printing = "hob/142", in = ["Ramp"] },  # Wood Elves
+  { printing = "soc/424", in = ["Land - Fixing"] },  # Woodland Cemetery
   { printing = "tdm/236", in = ["Self-Mill", "Reanimation"] },  # Yathan Roadwatcher
 ]
 
@@ -123,7 +123,6 @@ Interaction = {}
 "Land - Fixing" = {}
 "Land - MDFC" = {}
 "Land - Pays Life" = {}
-"Land - Utility" = {}
 "Lifegain Wincon" = {}
 "Lifelink" = {}
 "Life Payment - Dial" = {}
