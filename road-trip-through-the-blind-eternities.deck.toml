@@ -1,0 +1,124 @@
+name = "Road Trip Through The Blind Eternities"
+format = "commander"
+
+cards = [
+  { printing = "fin/267", in = ["Commander"] },  # The Regalia
+  { printing = "eoc/191", in = ["Land - Mana"] },  # Wastes
+  { printing = "m3c/401", in = ["Land - Mana"] },  # Urza's Mine
+  { printing = "m3c/402", in = ["Land - Mana"] },  # Urza's Power Plant
+  { printing = "m3c/403", in = ["Land - Mana"] },  # Urza's Tower
+  { printing = "brc/28", in = ["Land - Mana"] },  # Urza's Workshop
+  { printing = "m3c/132", in = ["Land - Mana"] },  # Planar Nexus
+  { printing = "m3c/330", in = ["Land - Mana"] },  # Cloudpost
+  { printing = "m3c/346", in = ["Land - Mana"] },  # Glimmerpost
+  { printing = "mh3/301", in = ["Land - Mana"] },  # Deserted Temple
+  { printing = "soc/416", in = ["Land - Mana"] },  # Temple of the False God
+  { printing = "m3c/376", in = ["Land - Mana"] },  # Shrine of the Forsaken Gods
+  { printing = "m3c/339", in = ["Land - Mana"] },  # Eldrazi Temple
+  { printing = "mh3/233", in = ["Land - Mana"] },  # Ugin's Labyrinth
+  { printing = "dft/257", in = ["Land - Mana"] },  # Muraganda Raceway
+  { printing = "plst/CHK-277", in = ["Land - Mana"] },  # Hall of the Bandit Lord
+  { printing = "mh2/259", in = ["Land - Toolbox"] },  # Urza's Saga
+  { printing = "mh3/234", in = ["Land - Toolbox"] },  # Urza's Cave
+  { printing = "mm2/242", in = ["Land - Toolbox"] },  # Eye of Ugin
+  { printing = "bfz/242", in = ["Land - Toolbox"] },  # Sanctum of Ugin
+  { printing = "plst/KLD-247", in = ["Land - Toolbox"] },  # Inventors' Fair
+  { printing = "acr/79", in = ["Land - Toolbox"] },  # Abstergo Entertainment
+  { printing = "m3c/395", in = ["Land - Toolbox"] },  # Thespian's Stage
+  { printing = "m3c/404", in = ["Land - Toolbox"] },  # Vesuva
+  { printing = "plst/ODY-323", in = ["Land - Toolbox"] },  # Petrified Field
+  { printing = "eoc/168", in = ["Land - Toolbox"] },  # The Mycosynth Gardens
+  { printing = "m3c/322", in = ["Land - Interaction"] },  # Blast Zone
+  { printing = "mkc/272", in = ["Land - Interaction"] },  # Labyrinth of Skophos
+  { printing = "c17/264", in = ["Land - Interaction"] },  # Mystifying Maze
+  { printing = "mmq/330", in = ["Land - Interaction"] },  # Tower of the Magistrate
+  { printing = "c16/301", in = ["Land - Interaction"] },  # Homeward Path
+  { printing = "msc/263", in = ["Land - Interaction"] },  # Scavenger Grounds
+  { printing = "m3c/134", in = ["Land - Interaction"] },  # Talon Gates of Madara
+  { printing = "hoc/212", in = ["Land - Interaction"] },  # Rogue's Passage
+  { printing = "lcc/319", in = ["Land - Card Draw"] },  # Arch of Orazca
+  { printing = "fic/376", in = ["Land - Card Draw"] },  # Bonders' Enclave
+  { printing = "soc/422", in = ["Land - Card Draw"] },  # War Room
+  { printing = "blb/253", in = ["Land - Card Draw"] },  # Fountainport
+  { printing = "soc/380", in = ["Land - Sac Outlet"] },  # High Market
+  { printing = "c21/309", in = ["Land - Sac Outlet"] },  # Phyrexia's Core
+  { printing = "clb/903", in = ["Crew Enablers"] },  # Mutavault
+  { printing = "bro/265", in = ["Crew Enablers"] },  # Mishra's Foundry
+  { printing = "2xm/311", in = ["Crew Enablers"] },  # Blinkmoth Nexus
+  { printing = "mbs/145", in = ["Crew Enablers"] },  # Inkmoth Nexus
+  { printing = "m3c/380", in = ["Crew Enablers"] },  # Spawning Bed
+  { printing = "plst/SOM-174", in = ["Crew Enablers"] },  # Memnite
+  { printing = "otc/266", in = ["Crew Enablers"] },  # Scaretiller
+  { printing = "wwk/131", in = ["Crew Enablers"] },  # Walking Atlas
+  { printing = "soc/352", in = ["Ramp"] },  # Mind Stone
+  { printing = "j25/753", in = ["Ramp"] },  # Guardian Idol
+  { printing = "j22/785", in = ["Ramp"] },  # Manakin
+  { printing = "onc/139", in = ["Ramp"] },  # Plague Myr
+  { printing = "soc/351", in = ["Ramp"] },  # Millikin
+  { printing = "msc/222", in = ["Ramp"] },  # Thought Vessel
+  { printing = "otc/264", in = ["Ramp"] },  # Prismatic Lens
+  { printing = "brc/145", in = ["Ramp"] },  # Liquimetal Torque
+  { printing = "cmm/967", in = ["Ramp"] },  # Palladium Myr
+  { printing = "msc/290", in = ["Ramp"] },  # Thran Dynamo
+  { printing = "m3c/158", in = ["Ramp"] },  # Oblivion Sower
+  { printing = "fdn/724", in = ["Tutors"] },  # Expedition Map
+  { printing = "bfz/4", in = ["Tutors"] },  # Conduit of Ruin
+  { printing = "m3c/293", in = ["Colorless Payoffs"] },  # Forsaken Monument
+  { printing = "fin/2", in = ["Colorless Payoffs"] },  # Ultima, Origin of Oblivion
+  { printing = "m3c/160", in = ["Colorless Payoffs"] },  # Ugin, the Ineffable
+  { printing = "bro/237", in = ["Colorless Payoffs"] },  # Liberator, Urza's Battlethopter
+  { printing = "soc/356", in = ["Finishers"] },  # Stonecoil Serpent
+  { printing = "fdn/1", in = ["Finishers"] },  # Sire of Seven Deaths
+  { printing = "m3c/38", in = ["Finishers"] },  # Ulamog's Dreadsire
+  { printing = "mh3/386", in = ["Finishers"] },  # Kozilek, the Broken Reality
+  { printing = "2x2/2", in = ["Finishers"] },  # Kozilek, Butcher of Truth
+  { printing = "cmm/5", in = ["Finishers"] },  # Ulamog, the Ceaseless Hunger
+  { printing = "2x2/3", in = ["Finishers"] },  # Ulamog, the Infinite Gyre
+  { printing = "mh3/384", in = ["Finishers"] },  # Emrakul, the World Anew
+  { printing = "inr/5", in = ["Finishers"] },  # Emrakul, the Promised End
+  { printing = "m3c/156", in = ["Card Advantage"] },  # Endbringer
+  { printing = "msc/288", in = ["Card Advantage"] },  # Mind's Eye
+  { printing = "ltr/247", in = ["Card Advantage"] },  # Palantír of Orthanc
+  { printing = "one/246", in = ["Card Advantage"] },  # Zenith Chronicler
+  { printing = "eoe/1", in = ["Card Advantage"] },  # Anticausal Vestige
+  { printing = "msh/245", in = ["Card Advantage"] },  # Cosmic Cube
+  { printing = "msh/255", in = ["Card Advantage"] },  # The Vision
+  { printing = "m3c/152", in = ["One-Sided Color Hate"] },  # All Is Dust
+  { printing = "m3c/35", in = ["One-Sided Color Hate"] },  # Selective Obliteration
+  { printing = "m21/1", in = ["One-Sided Color Hate"] },  # Ugin, the Spirit Dragon
+  { printing = "mh3/2", in = ["One-Sided Color Hate"] },  # Devourer of Destiny
+  { printing = "mh3/12", in = ["One-Sided Color Hate"] },  # Null Elemental Blast
+  { printing = "cmm/810", in = ["Spot Removal"] },  # Titan's Presence
+  { printing = "blc/285", in = ["Spot Removal"] },  # Spine of Ish Sah
+  { printing = "pmh3/11p", in = ["Spot Removal"] },  # Kozilek's Command
+  { printing = "m3c/162", in = ["Spot Removal"] },  # Warping Wail
+  { printing = "cmm/809", in = ["Spot Removal"] },  # Spatial Contortion
+  { printing = "m3c/32", in = ["Spot Removal"] },  # Eldrazi Confluence
+  { printing = "cmm/965", in = ["Board Wipe"] },  # Nevinyrral's Disk
+  { printing = "m3c/303", in = ["Board Wipe"] },  # Oblivion Stone
+  { printing = "msc/202", in = ["Protection"] },  # Lightning Greaves
+  { printing = "plst/THB-236", in = ["Protection"] },  # Shadowspear
+  { printing = "m3c/33", in = ["Protection"] },  # Eldritch Immunity
+  { printing = "cmm/807", in = ["Protection"] },  # Not of This World
+  { printing = "mh3/320", in = ["Copy Effects"] },  # Echoes of Eternity
+  { printing = "moc/384", in = ["Copy Effects"] },  # Strionic Resonator
+]
+
+[categories]
+"Board Wipe" = {}
+"Card Advantage" = {}
+"Colorless Payoffs" = {}
+Commander = { type = "commander" }
+"Copy Effects" = {}
+"Crew Enablers" = {}
+Finishers = {}
+"Land - Card Draw" = {}
+"Land - Interaction" = {}
+"Land - Mana" = {}
+"Land - Sac Outlet" = {}
+"Land - Toolbox" = {}
+"One-Sided Color Hate" = {}
+Protection = {}
+Ramp = {}
+"Spot Removal" = {}
+Tutors = {}
