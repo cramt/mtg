@@ -16,6 +16,8 @@ Niv-Mizzet turns every life gain into an equal loss plus that many cards, so it 
 
 The graveyard has to be stocked for any of this to matter. Stitcher's Supplier, Undead Butler, Yathan Roadwatcher and Stinkweed Imp's dredge fill it early. Skirsdag Supplicant pitches reanimation targets and makes every player lose 2. The Master of Lake-town makes every player mill one card per life they lose: a 27-point yoyo mills you 27 deep, and Ravager effects mill the table. Watch your library count when it's out.
 
+The mana base pays life too. Fetches, shocks, painlands, horizon lands, City of Brass and Mana Confluence all feed the life-lost half of Betor, so fixing your colours also sets up the end step. The deck is mostly black, so the basics lean Swamp.
+
 Wincons: drain the table out with Vito, Defiling Daemogoth, Gray Merchant, Exsanguinate and the death triggers."""
 
 cards = [
@@ -26,9 +28,11 @@ cards = [
   { printing = "fdn/652", in = ["Life Snap-Back"] },  # Ayli, Eternal Pilgrim
   { printing = "tdc/1", in = ["Commander"] },  # Betor, Ancestor's Voice
   { printing = "msc/170", in = ["Ramp"] },  # Birds of Paradise
-  { printing = "mh3/243", in = ["Graveyard Police", "Land - MDFC"] },  # Boggart Trawler // Boggart Bog
+  { printing = "dft/250", in = ["Land - Fixing"] },  # Bleachbone Verge
+  { printing = "mh3/216", in = ["Land - Pays Life"] },  # Bloodstained Mire
   { printing = "war/79", in = ["Life Payment - Dial"] },  # Bolas's Citadel
   { printing = "dis/38", in = ["Mass Life Loss"] },  # Bond of Agony
+  { printing = "msc/226", in = ["Land - Fixing"] },  # Bountiful Promenade
   { printing = "fic/377", in = ["Land - Pays Life"] },  # Brushland
   { printing = "sos/179", in = ["Lifegain Wincon", "Sacrifice Outlet"] },  # Cauldron of Essence
   { printing = "mbs/40", in = ["Mass Life Loss"] },  # Caustic Hound
@@ -41,21 +45,20 @@ cards = [
   { printing = "rvr/175", in = ["Ramp"] },  # Deathrite Shaman
   { printing = "soc/25", in = ["Lifegain Wincon"] },  # Defiling Daemogoth
   { printing = "otc/132", in = ["Mass Life Loss"] },  # Dire Fleet Ravager
-  { printing = "mh3/250", in = ["Draw", "Land - MDFC"] },  # Disciple of Freyalise // Garden of Freyalise
   { printing = "mkc/128", in = ["Life Payment - Dial"] },  # Doom Whisperer
   { printing = "plst/GK1-56", in = ["Ramp"] },  # Elves of Deep Shadow
   { printing = "fra/5", in = ["Draw", "Yoyo Payoff"] },  # Enlightened Confidant
   { printing = "fdn/173", in = ["Lifegain Wincon"] },  # Exsanguinate
-  { printing = "soc/130", in = ["Land - Fixing"] },  # Fabled Passage
   { printing = "mh3/244", in = ["Interaction", "Land - MDFC"] },  # Fell the Profane // Fell Mire
   { printing = "sos/188", in = ["Reanimation"] },  # Fix What's Broken
-  { printing = "trk/326", qty = 7, in = ["Land - Basic"] },  # Forest
+  { printing = "trk/326", qty = 3, in = ["Land - Basic"] },  # Forest
   { printing = "m19/97", in = ["Interaction"] },  # Fraying Omnipotence
   { printing = "trk/285", in = ["Land - Fixing"] },  # Godless Shrine
   { printing = "dsc/142", in = ["Lifegain Wincon"] },  # Gray Merchant of Asphodel
   { printing = "fra/104", in = ["Ramp"] },  # Greenhouse Propagator
   { printing = "who/287", in = ["Land - Pays Life"] },  # Horizon Canopy
   { printing = "gvl/43", in = ["Mass Life Loss"] },  # Howling Banshee
+  { printing = "dsk/261", in = ["Land - Fixing"] },  # Hushwood Verge
   { printing = "iko/248", in = ["Land - Fixing"] },  # Indatha Triome
   { printing = "plst/DRB-9", in = ["Reanimation Target"] },  # Kokusho, the Evening Star
   { printing = "mh3/274", in = ["Life Payment - Dial"] },  # K'rrik, Son of Yawgmoth
@@ -63,6 +66,7 @@ cards = [
   { printing = "fdc/213", in = ["Ramp"] },  # Llanowar Elves
   { printing = "soc/383", in = ["Land - Pays Life"] },  # Llanowar Wastes
   { printing = "jou/163", in = ["Land - Pays Life"] },  # Mana Confluence
+  { printing = "mh2/248", in = ["Land - Pays Life"] },  # Marsh Flats
   { printing = "spm/135", in = ["Life Total Swap"] },  # Mister Negative
   { printing = "msh/106", in = ["Life Payment - Dial"] },  # M.O.D.O.K.
   { printing = "sos/91", in = ["Reanimation", "Yoyo Payoff"] },  # Moseo, Vein's New Dean
@@ -70,12 +74,10 @@ cards = [
   { printing = "mh1/243", in = ["Land - Pays Life"] },  # Nurturing Peatland
   { printing = "trk/289", in = ["Land - Fixing"] },  # Overgrown Tomb
   { printing = "lcc/208", in = ["Ramp"] },  # Pitiless Plunderer
-  { printing = "trk/317", qty = 2, in = ["Land - Basic"] },  # Plains
+  { printing = "trk/317", qty = 3, in = ["Land - Basic"] },  # Plains
   { printing = "sos/214", in = ["Draw", "Interaction"] },  # Professor Dellian Fel
   { printing = "fic/282", in = ["Reanimation"] },  # Reanimate
   { printing = "soc/285", in = ["Ramp"] },  # Sakura-Tribe Elder
-  { printing = "ecc/164", in = ["Land - Fixing"] },  # Sandsteppe Citadel
-  { printing = "thb/236", in = ["Lifelink"] },  # Shadowspear
   { printing = "soc/171", in = ["Interaction", "Lifelink"] },  # Sheltered by Ghosts
   { printing = "mh1/246", in = ["Land - Pays Life"] },  # Silent Clearing
   { printing = "fra/113", in = ["Ramp"] },  # Simulacrum Shaper
@@ -85,16 +87,17 @@ cards = [
   { printing = "dvd/39", in = ["Life Payment - Dial"] },  # Souldrinker
   { printing = "dvd/36", in = ["Self-Mill"] },  # Stinkweed Imp
   { printing = "fic/287", in = ["Self-Mill"] },  # Stitcher's Supplier
-  { printing = "trk/321", qty = 5, in = ["Land - Basic"] },  # Swamp
+  { printing = "trk/321", qty = 6, in = ["Land - Basic"] },  # Swamp
   { printing = "frc/37", in = ["Interaction"] },  # Swords to Plowshares
   { printing = "arb/83", in = ["Life Snap-Back"] },  # Tainted Sigil
-  { printing = "znr/211", in = ["Ramp", "Land - MDFC"] },  # Tangled Florahedron // Tangled Vale
   { printing = "trk/301", in = ["Land - Fixing"] },  # Temple Garden
   { printing = "hob/77", in = ["Self-Mill", "Yoyo Payoff"] },  # The Master of Lake-town
   { printing = "msc/161", in = ["Interaction"] },  # Toxic Deluge
   { printing = "tdc/97", in = ["Life Total Swap"] },  # Tree of Redemption
   { printing = "vow/133", in = ["Self-Mill", "Recursion"] },  # Undead Butler
-  { printing = "tdc/410", in = ["Land - Utility"] },  # Vault of the Archangel
+  { printing = "tmc/80", in = ["Land - Fixing"] },  # Undergrowth Stadium
+  { printing = "cmm/436", in = ["Land - Fixing"] },  # Vault of Champions
+  { printing = "mh2/260", in = ["Land - Pays Life"] },  # Verdant Catacombs
   { printing = "sos/241", in = ["Interaction"] },  # Vicious Rivalry
   { printing = "j25/70", in = ["Reanimation Target"] },  # Vilis, Broker of Blood
   { printing = "soc/229", in = ["Sacrifice Outlet"] },  # Viscera Seer
@@ -103,6 +106,7 @@ cards = [
   { printing = "lcc/293", in = ["Life Payment - Dial"] },  # Vona, Butcher of Magan
   { printing = "plst/MRD-82", in = ["Life Payment - Dial"] },  # Wall of Blood
   { printing = "mh3/110", in = ["Sacrifice Outlet"] },  # Warren Soultrader
+  { printing = "dft/268", in = ["Land - Fixing"] },  # Wastewood Verge
   { printing = "dsc/159", in = ["Life Snap-Back"] },  # Whip of Erebos
   { printing = "mh3/235", in = ["Land - Pays Life"] },  # Windswept Heath
   { printing = "mh3/239", in = ["Interaction", "Land - MDFC"] },  # Witch Enchanter // Witch-Blessed Meadow
@@ -114,7 +118,6 @@ cards = [
 Commander = { type = "commander" }
 "Discard Outlet" = {}
 Draw = {}
-"Graveyard Police" = {}
 Interaction = {}
 "Land - Basic" = {}
 "Land - Fixing" = {}
