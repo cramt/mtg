@@ -1,0 +1,112 @@
+name = "Pirates on a Bicycle"
+format = "commander"
+
+cards = [
+  { printing = "c20/241", in = ["Cycling Cost Reduction"] },  # Fluctuator
+  { printing = "c20/119", in = ["Cycling Cost Reduction"] },  # New Perspectives
+  { printing = "c20/162", in = ["Cycling Cost Reduction"] },  # Tectonic Reformation
+  { printing = "iko/139", in = ["Cycling Payoff - Engine"] },  # Unpredictable Cyclone
+  { printing = "c20/31", in = ["Cycling Payoff - Engine"] },  # Crystalline Resonance
+  { printing = "iko/48", in = ["Cycling Payoff - Engine"] },  # Escape Protocol
+  { printing = "c20/236", in = ["Cycling Recursion"] },  # Abandoned Sarcophagus
+  { printing = "akh/67", in = ["Cycling Recursion"] },  # Sacred Excavation
+  { printing = "j22/590", in = ["Cycling Recursion"] },  # Rooting Moloch
+  { printing = "dmr/129", in = ["Cycling Payoff - Direct Damage"] },  # Lightning Rift
+  { printing = "j22/78", in = ["Cycling Payoff - Direct Damage"] },  # Drannith Stinger
+  { printing = "dft/137", in = ["Cycling Payoff - Direct Damage"] },  # Magmakin Artillerist
+  { printing = "hou/33", in = ["Discard Payoff - Attacker"] },  # Cunning Survivor
+  { printing = "j22/131", in = ["Discard Payoff - Attacker"] },  # Flameblade Adept
+  { printing = "j22/580", in = ["Discard Payoff - Attacker"] },  # Prickly Marmoset
+  { printing = "afc/81", in = ["Discard Payoff - Attacker"] },  # Curator of Mysteries
+  { printing = "akh/77", in = ["Discard Payoff - Attacker"] },  # Zenith Seeker
+  { printing = "c20/56", in = ["Discard Payoff - Attacker"] },  # Spellpyre Phoenix
+  { printing = "c20/110", in = ["Discard Payoff - Attacker"] },  # Drake Haven
+  { printing = "dsc/127", in = ["Discard Payoff - Attacker"] },  # Shark Typhoon
+  { printing = "hob/32", in = ["Evasion"] },  # Bilbo, Luckwearer // Burglar's Plot
+  { printing = "ths/219", in = ["Evasion"] },  # Prowler's Helm
+  { printing = "fic/370", in = ["Evasion"] },  # Trailblazer's Boots
+  { printing = "cmr/56", in = ["Evasion"] },  # Aqueous Form
+  { printing = "plst/IKO-118", in = ["Evasion"] },  # Footfall Crater
+  { printing = "plst/OGW-47", in = ["Evasion"] },  # Slip Through Space
+  { printing = "plst/IMA-52", in = ["Evasion"] },  # Distortion Strike
+  { printing = "dka/27", in = ["Evasion"] },  # Artful Dodge
+  { printing = "j22/584", in = ["Combat Damage Multiplier"] },  # Raking Claws
+  { printing = "tmt/91", in = ["Combat Damage Multiplier"] },  # Hard-Won Jitte
+  { printing = "fdn/674", in = ["Combat Damage Multiplier"] },  # Fireshrieker
+  { printing = "blc/192", in = ["Combat Damage Multiplier"] },  # Berserkers' Onslaught
+  { printing = "j25/531", in = ["Combat Damage Multiplier"] },  # Combat Celebrant
+  { printing = "lcc/230", in = ["Combat Damage Multiplier"] },  # Port Razer
+  { printing = "akh/46", in = ["Interaction"] },  # Censor
+  { printing = "plst/ONS-76", in = ["Interaction"] },  # Complicate
+  { printing = "c20/121", in = ["Interaction"] },  # Nimble Obstructionist
+  { printing = "dmr/140", in = ["Interaction"] },  # Solar Blast
+  { printing = "j22/520", in = ["Interaction"] },  # Deem Worthy
+  { printing = "cmm/255", in = ["Interaction"] },  # Slice and Dice
+  { printing = "msc/163", in = ["Interaction"] },  # Blasphemous Act
+  { printing = "msc/164", in = ["Interaction"] },  # Chaos Warp
+  { printing = "msc/168", in = ["Interaction"] },  # Vandalblast
+  { printing = "c21/132", in = ["Cycling - Land Fetch"] },  # Traumatic Visions
+  { printing = "hoc/179", in = ["Cycling - Land Fetch"] },  # Lórien Revealed
+  { printing = "ecl/72", in = ["Cycling - Land Fetch"] },  # Stratosoarer
+  { printing = "hoc/199", in = ["Cycling - Land Fetch"] },  # Oliphaunt
+  { printing = "j25/546", in = ["Cycling - Land Fetch"] },  # Fiery Fall
+  { printing = "mh2/392", in = ["Cycling - Tutor"] },  # Step Through
+  { printing = "ltc/185", in = ["Draw"] },  # Boon of the Wish-Giver
+  { printing = "j22/307", in = ["Draw"] },  # Hieroglyphic Illumination
+  { printing = "plst/HOU-48", in = ["Draw"] },  # Striped Riverwinder
+  { printing = "j22/625", in = ["Draw"] },  # Yidaro, Wandering Monster
+  { printing = "cmm/131", in = ["Draw"] },  # Vizier of Tumbling Sands
+  { printing = "j25/390", in = ["Draw"] },  # Windcaller Aven
+  { printing = "msc/194", in = ["Ramp"] },  # Arcane Signet
+  { printing = "tdc/320", in = ["Ramp"] },  # Izzet Signet
+  { printing = "msc/218", in = ["Ramp"] },  # Talisman of Creativity
+  { printing = "msc/285", in = ["Ramp"] },  # Fellwar Stone
+  { printing = "soc/352", in = ["Ramp"] },  # Mind Stone
+  { printing = "j25/753", in = ["Ramp"] },  # Guardian Idol
+  { printing = "eoc/166", in = ["Land - Cycling"] },  # Lonely Sandbar
+  { printing = "j25/766", in = ["Land - Cycling"] },  # Forgotten Cave
+  { printing = "drc/150", in = ["Land - Cycling"] },  # Desert of the Mindful
+  { printing = "j25/764", in = ["Land - Cycling"] },  # Desert of the Fervent
+  { printing = "znr/146", in = ["Land - Fixing"] },  # Kazuul's Fury // Kazuul's Cliffs
+  { printing = "znr/165", in = ["Land - Fixing"] },  # Song-Mad Treachery // Song-Mad Ruins
+  { printing = "mh3/248", in = ["Land - Fixing"] },  # Sundering Eruption // Volcanic Fissure
+  { printing = "msc/232", in = ["Land - Cycling"] },  # Coastal Peak
+  { printing = "tmc/60", in = ["Land - Cycling"] },  # Ash Barrens
+  { printing = "hob/184", in = ["Land - Cycling"] },  # Hobbit Hole
+  { printing = "hoc/212", in = ["Land - Utility"] },  # Rogue's Passage
+  { printing = "trk/298", in = ["Land - Fixing"] },  # Steam Vents
+  { printing = "soc/404", in = ["Land - Fixing"] },  # Shivan Reef
+  { printing = "msc/269", in = ["Land - Fixing"] },  # Sulfur Falls
+  { printing = "otj/270", in = ["Land - Fixing"] },  # Spirebluff Canal
+  { printing = "fic/376", in = ["Land - Utility"] },  # Bonders' Enclave
+  { printing = "mh2/303", in = ["Land - Utility"] },  # Riptide Laboratory
+  { printing = "mkm/269", in = ["Land - Fixing"] },  # Thundering Falls
+  { printing = "soc/388", in = ["Land - Utility"] },  # Mystic Sanctuary
+  { printing = "dsc/267", in = ["Land - Utility"] },  # Castle Vantress
+  { printing = "sos/263", in = ["Land - Fixing"] },  # Stormcarved Coast
+  { printing = "mh3/241", in = ["Land - Fixing"] },  # Sink into Stupor // Soporific Springs
+  { printing = "who/278", in = ["Land - Fixing"] },  # Fiery Islet
+  { printing = "znr/161", in = ["Land - Fixing"] },  # Shatterskull Smashing // Shatterskull, the Hammer Pass
+  { printing = "trk/320", qty = 8, in = ["Land - Basic"] },  # Island
+  { printing = "trk/324", qty = 6, in = ["Land - Basic"] },  # Mountain
+  { printing = "dft/194", in = ["Commander"] },  # Captain Howler, Sea Scourge
+]
+
+[categories]
+"Combat Damage Multiplier" = {}
+Commander = { type = "commander" }
+"Cycling - Land Fetch" = {}
+"Cycling - Tutor" = {}
+"Cycling Cost Reduction" = {}
+"Cycling Payoff - Direct Damage" = {}
+"Cycling Payoff - Engine" = {}
+"Cycling Recursion" = {}
+"Discard Payoff - Attacker" = {}
+Draw = {}
+Evasion = {}
+Interaction = {}
+"Land - Basic" = {}
+"Land - Cycling" = {}
+"Land - Fixing" = {}
+"Land - Utility" = {}
+Ramp = {}
