@@ -1,0 +1,90 @@
+name = "Sigarda Joins the Templars"
+format = "commander"
+
+cards = [
+  { printing = "usg/34", in = ["Recursion"] },  # Remembrance
+  { printing = "2x2/315", in = ["Templar Target"] },  # Thrumming Stone
+  { printing = "acr/10", qty = 22, in = ["Da Bois"] },  # Templar Knight
+  { printing = "dft/231", in = ["Templar Target"] },  # The Aetherspark
+  { printing = "ecl/253", in = ["Templar Target"] },  # Chronicle of Victory
+  { printing = "dmc/17", in = ["Templar Target"] },  # Gerrard's Hourglass Pendant
+  { printing = "mid/230", in = ["Ramp"] },  # Katilda, Dawnhart Prime
+  { printing = "neo/268", in = ["Land"] },  # Eiganjo, Seat of the Empire
+  { printing = "moc/406", in = ["Land"] },  # Gavony Township
+  { printing = "blb/260", in = ["Land"] },  # Three Tree City
+  { printing = "ltr/240", in = ["Templar Target"] },  # Horn of Gondor
+  { printing = "blc/276", in = ["Templar Target"] },  # Helm of the Host
+  { printing = "blc/215", in = ["Templar Target"] },  # Esika's Chariot
+  { printing = "tdc/346", in = ["Land"] },  # Castle Ardenvale
+  { printing = "neo/266", in = ["Land"] },  # Boseiju, Who Endures
+  { printing = "mid/240", in = ["Draw"] },  # Sigarda, Champion of Light
+  { printing = "2x2/314", in = ["Draw"] },  # Sensei's Divining Top
+  { printing = "soc/368", in = ["Land"] },  # Emeria, the Sky Ruin
+  { printing = "mkc/231", in = ["Draw"] },  # Lifecrafter's Bestiary
+  { printing = "cmm/294", in = ["Templar Target"] },  # The Great Henge
+  { printing = "mh2/261", in = ["Land"] },  # Yavimaya, Cradle of Growth
+  { printing = "ltr/256", in = ["Land"] },  # Minas Tirith
+  { printing = "otc/274", in = ["Land"] },  # Bonders' Enclave
+  { printing = "tla/263", in = ["Land"] },  # Abandoned Air Temple
+  { printing = "mat/47", in = ["Commander"] },  # Sigarda, Font of Blessings
+  { printing = "slx/18", in = ["Humans"] },  # Greymond, Avacyn's Stalwart
+  { printing = "moc/192", in = ["Knights"] },  # Knight Exemplar
+  { printing = "fin/16", in = ["Knights"] },  # Dion, Bahamut's Dominant // Bahamut, Warden of Light
+  { printing = "fin/36", in = ["Knights"] },  # Summon: Knights of Round
+  { printing = "fdn/22", in = ["Recursion"] },  # Raise the Past
+  { printing = "tsr/262", in = ["Templar Target"] },  # Akroma's Memorial
+  { printing = "ncc/334", in = ["Draw"] },  # Camaraderie
+  { printing = "dom/21", in = ["Knights"] },  # History of Benalia
+  { printing = "soc/179", in = ["Removal"] },  # Swords to Plowshares
+  { printing = "soc/289", in = ["Ramp"] },  # Three Visits
+  { printing = "mrd/18", in = ["Untap"] },  # Roar of the Kha
+  { printing = "tdc/254", in = ["Draw"] },  # Elemental Bond
+  { printing = "otj/27", in = ["Untap"] },  # Rustler Rampage
+  { printing = "m15/29", in = ["Recursion"] },  # Return to the Ranks
+  { printing = "tdc/343", in = ["Land"] },  # Canopy Vista
+  { printing = "one/229", in = ["Templar Target"] },  # Graaz, Unstoppable Juggernaut
+  { printing = "soc/159", in = ["Removal"] },  # Path to Exile
+  { printing = "soc/278", in = ["Ramp"] },  # Nature's Lore
+  { printing = "clu/246", in = ["Land"] },  # Selesnya Sanctuary
+  { printing = "cmm/295", in = ["Protection"] },  # Heroic Intervention
+  { printing = "akr/186", in = ["Draw"] },  # Collected Company
+  { printing = "eoc/50", in = ["Ramp"] },  # Farseek
+  { printing = "c14/66", in = ["Protection"] },  # Brave the Elements
+  { printing = "mh3/235", in = ["Land"] },  # Windswept Heath
+  { printing = "tdc/381", in = ["Land"] },  # Overgrown Farmland
+  { printing = "big/2", in = ["Protection"] },  # Grand Abolisher
+  { printing = "znr/12", in = ["Protection"] },  # Emeria's Call // Emeria, Shattered Skyclave
+  { printing = "tdc/397", in = ["Land"] },  # Sungrass Prairie
+  { printing = "lcc/128", in = ["Removal"] },  # Generous Gift
+  { printing = "tdc/399", in = ["Land"] },  # Sunpetal Grove
+  { printing = "2xm/332", in = ["Land"] },  # Wooded Bastion
+  { printing = "mkm/263", in = ["Land"] },  # Lush Portico
+  { printing = "clb/348", in = ["Land"] },  # Bountiful Promenade
+  { printing = "ecl/268", in = ["Land"] },  # Temple Garden
+  { printing = "mh2/12", in = ["Draw"] },  # Esper Sentinel
+  { printing = "tdc/366", in = ["Land"] },  # Fortified Village
+  { printing = "bro/259", in = ["Land"] },  # Brushland
+  { printing = "dsk/261", in = ["Land"] },  # Hushwood Verge
+  { printing = "znr/37", in = ["Protection"] },  # Sejiri Shelter // Sejiri Glacier
+  { printing = "mh3/239", in = ["Removal"] },  # Witch Enchanter // Witch-Blessed Meadow
+  { printing = "mh1/37", in = ["Removal"] },  # Winds of Abandon
+  { printing = "znr/180", in = ["Recursion"] },  # Bala Ged Recovery // Bala Ged Sanctuary
+  { printing = "eoc/92", in = ["Draw"] },  # Augur of Autumn
+  { printing = "hob/198", qty = 3, in = ["Land"] },  # Forest
+  { printing = "hob/194", qty = 7, in = ["Land"] },  # Plains
+  { printing = "m3c/227", in = ["Recursion"] },  # Eternal Witness
+]
+
+[categories]
+Commander = { type = "commander" }
+"Da Bois" = {}
+Draw = {}
+Humans = {}
+Knights = {}
+Land = {}
+Protection = {}
+Ramp = {}
+Recursion = {}
+Removal = {}
+"Templar Target" = {}
+Untap = {}
