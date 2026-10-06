@@ -1,4 +1,4 @@
-name = "gogo is an eldrazi"
+name = "Go Go Gadget Eldrazi"
 format = "commander"
 description = """
 Gogo copies an activated or triggered ability you control X times for {X}{X}. Point it at a land-fetch ability and it's mono-blue ramp. Point it at an Eldrazi cast trigger and it gets silly.
