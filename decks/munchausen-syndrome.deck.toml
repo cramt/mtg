@@ -1,4 +1,4 @@
-name = "Betor's Yo-Yo Diet"
+name = "Munchausen Syndrome"
 format = "commander"
 description = """
 Betor doesn't care where your life total ends up, only how far it moved. At your end step it puts +1/+1 counters equal to the life you gained this turn on a creature, and returns a creature from your graveyard with mana value up to the life you lost this turn. The game tracks gained and lost separately, so going from 40 to 13 and back to 40 counts as losing 27 and gaining 27. That's 27 counters and any creature in your graveyard back, all for a net change of zero.
