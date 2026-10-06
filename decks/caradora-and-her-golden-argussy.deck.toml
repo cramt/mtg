@@ -1,0 +1,104 @@
+name = "caradora and her golden argussy"
+format = "commander"
+description = """
+Step 1: Find Golden Argosy
+Step 2: Blink Commander, Find Whatever is most funny
+Step 3: Toolbox Car Time"""
+
+cards = [
+  { printing = "nec/165", in = ["Generic Good Boats"] },  # Weatherlight
+  { printing = "dmu/230", in = ["Best Boat"] },  # Golden Argosy
+  { printing = "clb/328", in = ["Toolbox Boat"] },  # Nautiloid Ship
+  { printing = "snc/246", in = ["Toolbox Boat"] },  # Unlicensed Hearse
+  { printing = "blc/215", in = ["Boat Who Crews"] },  # Esika's Chariot
+  { printing = "neo/249", in = ["Generic Good Boats"] },  # Mechtitan Core
+  { printing = "nec/87", in = ["Boat Who Crews"] },  # Parhelion II
+  { printing = "j22/96", in = ["Boat Who Crews"] },  # Peacewalker Colossus
+  { printing = "dsk/37", in = ["Toolbox Boat"] },  # Unidentified Hovership
+  { printing = "unf/186", in = ["Boat Who Crews"] },  # Clown Car
+  { printing = "dft/27", in = ["Toolbox Boat"] },  # Salvation Engine
+  { printing = "pip/22", in = ["Boat Who Crews"] },  # The Prydwen, Steel Flagship
+  { printing = "dft/168", in = ["Generic Good Boats"] },  # Lumbering Worldwagon
+  { printing = "neo/255", in = ["Generic Good Boats"] },  # Reckoner Bankbuster
+  { printing = "dft/35", in = ["Boat Who Crews"] },  # Valor's Flagship
+  { printing = "dft/234", in = ["Toolbox Boat"] },  # Lifecraft Engine
+  { printing = "snc/22", in = ["Toolbox Boat"] },  # Mysterious Limousine
+  { printing = "40k/162", in = ["Boat Who Crews"] },  # Night Scythe
+  { printing = "nec/159", in = ["Generic Good Boats"] },  # Skysovereign, Consul Flagship
+  { printing = "nec/160", in = ["Generic Good Boats"] },  # Smuggler's Copter
+  { printing = "otj/169", in = ["Ramp"] },  # Intrepid Stablemaster
+  { printing = "plst/GRN-168", in = ["Peak Piloting"] },  # Emmara, Soul of the Accord
+  { printing = "dsk/228", in = ["Draw"] },  # Rip, Spawn Hunter
+  { printing = "otj/221", in = ["Bigger Boat"] },  # Miriam, Herd Whisperer
+  { printing = "neo/260", in = ["Generic Good Boats"] },  # Surgehacker Mech
+  { printing = "nec/80", in = ["Bigger Boat"] },  # Armed and Armored
+  { printing = "mh3/222", in = ["Land"] },  # Monumental Henge
+  { printing = "nec/88", in = ["Draw"] },  # Sram, Senior Edificer
+  { printing = "otj/22", in = ["Boat Repair"] },  # One Last Job
+  { printing = "fdn/227", in = ["Ramp"] },  # Llanowar Elves
+  { printing = "tdc/266", in = ["Ramp"] },  # Sakura-Tribe Elder
+  { printing = "cmm/284", in = ["Ramp"] },  # Elvish Mystic
+  { printing = "dft/233", in = ["Peak Piloting"] },  # Guidelight Matrix
+  { printing = "mom/198", in = ["Bigger Boat"] },  # Ozolith, the Shattered Spire
+  { printing = "eoc/53", in = ["Ramp"] },  # Arcane Signet
+  { printing = "moc/406", in = ["Land"] },  # Gavony Township
+  { printing = "dft/269", in = ["Land"] },  # Wild Roads
+  { printing = "eoc/163", in = ["Land"] },  # Karn's Bastion
+  { printing = "dft/253", in = ["Land"] },  # Country Roads
+  { printing = "eoe/250", in = ["Land"] },  # Adagia, Windswept Bastion
+  { printing = "cmm/38", in = ["Draw"] },  # Losheel, Clockwork Scholar
+  { printing = "eoc/45", in = ["Interaction"] },  # Swords to Plowshares
+  { printing = "blc/106", in = ["Interaction"] },  # Generous Gift
+  { printing = "fic/248", in = ["Interaction"] },  # Path to Exile
+  { printing = "m3c/160", in = ["Peak Piloting", "Ramp"] },  # Ugin, the Ineffable
+  { printing = "eoc/93", in = ["Interaction"] },  # Beast Within
+  { printing = "fic/313", in = ["Ramp"] },  # Rampant Growth
+  { printing = "eoc/64", in = ["Interaction"] },  # Dispatch
+  { printing = "j22/139", in = ["Peak Piloting"] },  # Aerial Modification
+  { printing = "dft/179", in = ["Interaction"] },  # Run Over
+  { printing = "tdc/381", in = ["Land"] },  # Overgrown Farmland
+  { printing = "fic/396", in = ["Land"] },  # Fortified Village
+  { printing = "fic/432", in = ["Land"] },  # Sunpetal Grove
+  { printing = "eoc/59", in = ["Land"] },  # Command Tower
+  { printing = "fic/378", in = ["Land"] },  # Canopy Vista
+  { printing = "dsk/261", in = ["Land"] },  # Hushwood Verge
+  { printing = "fic/437", in = ["Land"] },  # Temple of Plenty
+  { printing = "3ed/285", in = ["Land"] },  # Savannah
+  { printing = "ecl/268", in = ["Land"] },  # Temple Garden
+  { printing = "tla/282", qty = 19, in = ["Land"] },  # Plains
+  { printing = "tla/286", qty = 5, in = ["Land"] },  # Forest
+  { printing = "scd/171", in = ["Ramp"] },  # Avacyn's Pilgrim
+  { printing = "tla/196", in = ["Ramp"] },  # Shared Roots
+  { printing = "fic/306", in = ["Ramp"] },  # Gyre Sage
+  { printing = "dft/362", in = ["Commander"] },  # Caradora, Heart of Alacria
+  { printing = "nec/10", in = ["Interaction", "Become the Boat"] },  # Swift Reconfiguration
+  { printing = "pip/141", in = ["Boat Who Crews", "Toolbox Boat"] },  # Recon Craft Theta
+  { printing = "otj/239", in = ["Draw"] },  # Wylie Duke, Atiin Hero
+  { printing = "neo/270", in = ["Land", "Peak Piloting"] },  # Mech Hangar
+  { printing = "fic/13", in = ["Boat Repair", "Ramp"] },  # Cid, Freeflier Pilot
+  { printing = "dft/157", in = ["Peak Piloting", "Protection"] },  # Defend the Rider
+  { printing = "neo/6", in = ["Peak Piloting", "Bigger Boat"] },  # Born to Drive
+  { printing = "otj/12", in = ["Best Boat"] },  # Fortune, Loyal Steed
+  { printing = "eoc/50", in = ["Ramp"] },  # Farseek
+  { printing = "fic/315", in = ["Ramp"] },  # Three Visits
+  { printing = "eoc/101", in = ["Ramp"] },  # Nature's Lore
+  { printing = "40k/156", in = ["Toolbox Boat", "Boat Repair"] },  # Ghost Ark
+  { printing = "dsk/32", in = ["Wipe time"] },  # Split Up
+]
+
+[categories]
+"Become the Boat" = {}
+"Best Boat" = {}
+"Bigger Boat" = {}
+"Boat Repair" = {}
+"Boat Who Crews" = {}
+Commander = { type = "commander" }
+Draw = {}
+"Generic Good Boats" = {}
+Interaction = {}
+Land = {}
+"Peak Piloting" = {}
+Protection = {}
+Ramp = {}
+"Toolbox Boat" = {}
+"Wipe time" = {}
