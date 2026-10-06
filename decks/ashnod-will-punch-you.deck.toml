@@ -1,5 +1,17 @@
 name = "Ashnod will punch you"
 format = "commander"
+description = """
+Mono-black ramp. Whenever Ashnod attacks you may sacrifice another creature, and if you do you get a tapped Powerstone. Powerstone mana can't cast nonartifact spells, so the deck spends it on everything else.
+
+The sacrifice fodder comes back on its own: Reassembling Skeleton, Bloodghast, Bloodsoaked Champion, Persistent Specimen, Haunt of the Dead Marshes. Every attack is a free Powerstone.
+
+Powerstone mana goes into:
+- artifacts: Noxious Gearhulk, Cityscape Leveler, Marketback Walker, Cybermen Squadron, The Endstone
+- activated abilities, which Powerstones can pay for, including Ashnod's own {5}: exile a creature card from your graveyard to make a 3/3 Zombie artifact
+- mana dumps: Idol of Oblivion, Trading Post, Staff of Domination, Mind's Eye
+- Bog Initiate. "{1}: Add {B}" isn't a spell, so Powerstone mana pays for it and comes out black. Powerstone restriction??? what do you mean???
+
+And Ashnod will punch you. Deathtouch plus Cranial Plating, Lashwrithe, Sword of Vengeance, Shadowspear and Blackblade Reforged. Equipment is artifacts, so the Powerstones pay for the weapons too."""
 
 cards = [
   { printing = "msc/752", in = ["Ashnod's cool weapons"] },  # Swordsman's Steel
