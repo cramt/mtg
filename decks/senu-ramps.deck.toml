@@ -1,5 +1,15 @@
 name = "senu ramps"
 format = "commander"
+description = """
+Ashnod is mono-black ramp and Gogo is mono-blue ramp. Senu is the attempt at mono-white ramp, built around City of Shadows. It doesn't work very well, but this is the idea.
+
+City of Shadows exiles a creature you control for a storage counter, then taps for {C} per counter. Senu wants to be exiled: whenever a legendary creature you control attacks and isn't blocked, Senu comes back from exile attacking. Exile Senu to City of Shadows, attack with a legend, Senu comes back, exile it again. City of Shadows gets one counter bigger every time.
+
+Senu can exile itself too ({T}: gain 2 life and scry 2), and Safe Haven, Northampton Farm, Gilraen, Ennis and Liberate are more ways into exile. The cute one is Golden Argosy: it's legendary, so Senu crews it, the Argosy's attack trigger exiles Senu, and if the Argosy goes unblocked Senu comes straight back attacking.
+
+The rest is white catch-up ramp. Land Tax, Keeper of the Accord, Knight of the White Orchid and friends want you behind on lands, and the self-bounce lands (Karoo, Guildless Commons, Arid Archway, Ghost Town) keep the land count low while making extra mana. Ugin's Labyrinth and Deserted Temple add more.
+
+The mana goes into big colourless threats: Myr Battlesphere, Wurmcoil Engine, Portal to Phyrexia, Kozilek."""
 
 cards = [
   { printing = "bro/233", in = ["Big Colorless"] },  # Cityscape Leveler
