@@ -1,5 +1,16 @@
 name = "Third Lantern Control"
 format = "commander"
+description = """
+The third Lantern deck. Lantern of Insight and Wizened Snitches make every player play with the top card of their library revealed, so you always know what's coming next. Then you choose it.
+
+Rashmi and Ragavan trigger on your first spell each turn: exile the top card of target opponent's library, make a Treasure, and cast that card for free if its mana value is less than the number of artifacts you control. If it's too big, you can still cast it this turn. With every top card revealed, you pick which opponent to rob, and the mill artifacts clear away anything not worth stealing first.
+
+The sculpting pieces:
+- Codex Shredder mills one player, Ghoulcaller's Bell mills everyone, Pyxis of Pandemonium exiles everyone's top card face down, Soldier of Fortune makes a player shuffle.
+- Unwinding Clock and Seedborn Muse untap them on everyone else's turn, so if an opponent's next draw is good, it's gone before they draw it.
+- The cheap rocks and the Treasures count as artifacts and raise Rashmi's free-cast limit. Academy Manufactor turns each Treasure into three artifacts.
+
+Counterbalance and Powerbalance use your own revealed top card: counter a spell that matches its mana value, or cast yours for free. Stolen Strategy and Extract Power rob the top of every library at once."""
 
 cards = [
   { printing = "5dn/135", in = ["Lantern - Vision"] },  # Lantern of Insight
