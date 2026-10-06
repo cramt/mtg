@@ -1,0 +1,50 @@
+# Mana-base bench: `gauntlet test decks/munchausen-syndrome.deck.toml decks/munchausen-syndrome.criteria.toml [--draw]`
+# Shocks, MDFC pay-3-life lands and Fabled Passage are read as entering tapped, so colour/cast numbers are floors.
+
+[[expect]]
+name = "lands in opener (incl. MDFCs)"
+turn = 0
+query = "t:land"
+
+[[criterion]]
+name = "opener has 2-5 lands"
+require = [{ turn = 0, query = "t:land", min = 2, max = 5 }]
+
+[[criterion]]
+name = "opener has 2+ lands and a 1-drop dork"
+require = [
+  { turn = 0, query = "t:land", min = 2 },
+  { turn = 0, query = 'cat:"Ramp" mv<=1', min = 1 },
+]
+
+[[criterion]]
+name = "3 lands by T3"
+require = [{ turn = 3, query = "t:land", min = 3 }]
+
+[[criterion]]
+name = "W by T3"
+require = [{ turn = 3, can_cast = "{W}" }]
+
+[[criterion]]
+name = "WBG by T3"
+require = [{ turn = 3, can_cast = "{W}{B}{G}" }]
+
+[[criterion]]
+name = "Betor cast by T4, dorks in the line"
+require = [{ turn = 4, cast = '''name:"Betor, Ancestor's Voice"''', min = 1 }]
+
+[[criterion]]
+name = "Betor cast by T5, dorks in the line"
+require = [{ turn = 5, cast = '''name:"Betor, Ancestor's Voice"''', min = 1 }]
+
+# Betor first, then mana creatures cheapest-first. Deathrite is left out: the engine can't pay hybrid.
+[casting]
+prefer = [
+  '''name:"Betor, Ancestor's Voice"''',
+  'name:"Birds of Paradise"',
+  'name:"Llanowar Elves"',
+  'name:"Elves of Deep Shadow"',
+  'name:"Sakura-Tribe Elder"',
+  'name:"Wood Elves"',
+  'name:"Kwia Vigorbloom"',
+]
