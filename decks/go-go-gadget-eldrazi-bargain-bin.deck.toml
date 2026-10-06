@@ -1,7 +1,7 @@
-name = "cheap gogo eldrazi"
+name = "Go Go Gadget Eldrazi (Bargain Bin)"
 format = "commander"
 description = """
-The budget version of gogo is an eldrazi. Same plan: Gogo copies land-fetch abilities to ramp, then copies Eldrazi triggers.
+The budget version of Go Go Gadget Eldrazi. Same plan: Gogo copies land-fetch abilities to ramp, then copies Eldrazi triggers.
 
 The ramp is Wayfarer's Bauble, Burnished Hart, Solemn Simulacrum, Dreamscape Artist and the basic-land fetch lands, all copyable with Gogo. The Eldrazi Spawn and Scion makers fill in, and their enter triggers copy too.
 
