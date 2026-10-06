@@ -1,0 +1,98 @@
+name = "Im the titantic youre an iceberg"
+format = "commander"
+
+cards = [
+  { printing = "lci/146", in = ["Boat Bigger"] },  # Dowsing Device // Geode Grotto
+  { printing = "soi/265", in = ["Tutor"] },  # Tamiyo's Journal
+  { printing = "clb/343", in = ["Ramp"] },  # Vexing Puzzlebox
+  { printing = "m14/224", in = ["Double The Boat Double The Fun"] },  # Strionic Resonator
+  { printing = "fin/135", in = ["Double The Boat Double The Fun"] },  # The Fire Crystal
+  { printing = "mkc/233", in = ["Treasure Walue"] },  # Nettlecyst
+  { printing = "blc/277", in = ["Draw"] },  # Idol of Oblivion
+  { printing = "woc/28", in = ["Ramp"] },  # Throne of Eldraine
+  { printing = "eoc/53", in = ["Ramp"] },  # Arcane Signet
+  { printing = "40k/230★", in = ["Boat Iceberg Protection"] },  # Assault Suit
+  { printing = "clb/445", in = ["Ramp"] },  # Fire Diamond
+  { printing = "pip/915", in = ["Boat Bigger"] },  # Junk Jet
+  { printing = "who/835", in = ["Ramp"] },  # Mind Stone
+  { printing = "2x2/309", in = ["Boat Iceberg Protection"] },  # Nim Deathmantle
+  { printing = "fdc/2", in = ["Ramp"] },  # Sol Ring
+  { printing = "mkm/121", in = ["Treasure Walue"] },  # Crime Novelist
+  { printing = "snc/116", in = ["Treasure Walue"] },  # Professional Face-Breaker
+  { printing = "afr/167", in = ["Ramp"] },  # Xorn
+  { printing = "tdm/126", in = ["Ramp"] },  # Sunset Strikemaster
+  { printing = "khm/142", in = ["Treasure Walue"] },  # Magda, Brazen Outlaw
+  { printing = "blc/264", in = ["Treasure Walue"] },  # Academy Manufactor
+  { printing = "j21/458", in = ["Tutor"] },  # Goblin Engineer
+  { printing = "chk/169", in = ["Tutor"] },  # Godo, Bandit Warlord
+  { printing = "khm/139", in = ["Ramp"] },  # Goldspan Dragon
+  { printing = "eoe/169", in = ["Treasure Walue"] },  # Weftstalker Ardent
+  { printing = "one/246", in = ["Draw"] },  # Zenith Chronicler
+  { printing = "gtc/94", in = ["Treasure Walue"] },  # Hellkite Tyrant
+  { printing = "fdn/257", in = ["Ramp"] },  # Solemn Simulacrum
+  { printing = "mrd/215", in = ["Recursion"] },  # Myr Retriever
+  { printing = "mh2/281", in = ["Tutor"] },  # Imperial Recruiter
+  { printing = "cmm/385", in = ["Ramp"] },  # Foundry Inspector
+  { printing = "fdn/97", in = ["Boat Bigger"] },  # Twinflame Tyrant
+  { printing = "plst/SOM-168", in = ["Ramp"] },  # Iron Myr
+  { printing = "voc/144", in = ["Boat Bigger"] },  # Bloodsworn Steward
+  { printing = "moc/31", in = ["Draw"] },  # Hedron Detonator
+  { printing = "dft/124", in = ["Ramp"] },  # Endrider Catalyzer
+  { printing = "cm2/101", in = ["Recursion"] },  # Goblin Welder
+  { printing = "c21/178", in = ["Treasure Walue"] },  # Quicksmith Genius
+  { printing = "blc/22", in = ["Ramp"] },  # Alchemist's Talent
+  { printing = "tdc/209", in = ["Ramp"] },  # Curse of Opulence
+  { printing = "fdn/80", in = ["Boat Bigger"] },  # Bulk Up
+  { printing = "avr/154", in = ["Boat Bigger"] },  # Rush of Blood
+  { printing = "roe/8", in = ["Protection"] },  # Not of This World
+  { printing = "snc/102", in = ["Draw"] },  # Big Score
+  { printing = "fdn/619", in = ["Protection"] },  # Bolt Bend
+  { printing = "dsk/161", in = ["Protection"] },  # Untimely Malfunction
+  { printing = "otj/142", in = ["Protection"] },  # Return the Favor
+  { printing = "tla/151", in = ["Protection"] },  # Redirect Lightning
+  { printing = "mkm/122", in = ["Draw"] },  # Demand Answers
+  { printing = "pio/158", in = ["Draw"] },  # Valakut Awakening // Valakut Stoneforge
+  { printing = "omb/28", in = ["Draw"] },  # Thrill of Possibility
+  { printing = "tla/268", in = ["Land"] },  # Fire Nation Palace
+  { printing = "fdn/264", in = ["Land"] },  # Rogue's Passage
+  { printing = "eoc/150", in = ["Land"] },  # Buried Ruin
+  { printing = "dft/261", in = ["Land"] },  # Rocky Roads
+  { printing = "neo/270", in = ["Land"] },  # Mech Hangar
+  { printing = "eos/21", in = ["Land"] },  # Inventors' Fair
+  { printing = "pbig/29p", in = ["Land"] },  # Fomori Vault
+  { printing = "dsc/289", in = ["Land"] },  # Myriad Landscape
+  { printing = "mh3/234", in = ["Land"] },  # Urza's Cave
+  { printing = "dft/275", qty = 22, in = ["Land"] },  # Mountain
+  { printing = "tdc/352", in = ["Land"] },  # Command Beacon
+  { printing = "mh2/259", in = ["Land"] },  # Urza's Saga
+  { printing = "who/330", in = ["Land"] },  # War Room
+  { printing = "eoe/2", in = ["Treasure Walue"] },  # Tezzeret, Cruel Captain
+  { printing = "dft/116", in = ["Vehicle Nonsense"] },  # Chandra, Spark Hunter
+  { printing = "c21/164", in = ["Recursion"] },  # Daretti, Scrap Savant
+  { printing = "stx/101", in = ["Tutor"] },  # Fervent Mastery
+  { printing = "mkc/156", in = ["Ramp"] },  # Jeska's Will
+  { printing = "akh/213", in = ["Boat Bigger"] },  # Insult // Injury
+  { printing = "fdn/546", in = ["Draw"] },  # Seize the Spoils
+  { printing = "inr/151", in = ["Draw"] },  # Faithless Looting
+  { printing = "inr/167", in = ["Draw"] },  # Reforge the Soul
+  { printing = "mom/173", in = ["Draw"] },  # Wrenn's Resolve
+  { printing = "spg/24", in = ["Tutor"] },  # Gamble
+  { printing = "2x2/120", in = ["Draw"] },  # Pirate's Pillage
+  { printing = "tdm/132", in = ["Boat Bigger"] },  # Wild Ride
+  { printing = "khm/153", in = ["Protection"] },  # Tibalt's Trickery
+  { printing = "who/93", in = ["Commander"] },  # RMS Titanic
+]
+
+[categories]
+"Boat Bigger" = {}
+"Boat Iceberg Protection" = {}
+Commander = { type = "commander" }
+"Double The Boat Double The Fun" = {}
+Draw = {}
+Land = {}
+Protection = {}
+Ramp = {}
+Recursion = {}
+"Treasure Walue" = {}
+Tutor = {}
+"Vehicle Nonsense" = {}
