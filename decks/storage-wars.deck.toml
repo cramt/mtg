@@ -1,4 +1,4 @@
-name = "senu ramps"
+name = "Storage Wars"
 format = "commander"
 description = """
 Ashnod is mono-black ramp and Gogo is mono-blue ramp. Senu is the attempt at mono-white ramp, built around City of Shadows. It doesn't work very well, but this is the idea.
