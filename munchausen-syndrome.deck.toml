@@ -10,17 +10,16 @@ The ideal turn:
 
 Betor's reanimation targets, so all the losing has to happen before the end step. You can't pay more life in response to make the target legal.
 
-Between yoyo turns it's a midrange grind. Soulcage Fiend, Caustic Hound, Dire Fleet Ravager and friends make everyone lose life whenever they enter or die. You lose life too, which is the point: Betor recurs them at end step. Soulcage Fiend + a sac outlet means every player loses 3 every turn, the Fiend comes back, and Cauldron of Essence and Pitiless Plunderer get paid each time. The ramp creatures loop the same way: Sakura-Tribe Elder, Wood Elves and Simulacrum Shaper all come back for more lands.
+Between yoyo turns it's a midrange grind. Soulcage Fiend, Caustic Hound, Dire Fleet Ravager and friends make everyone lose life whenever they enter or die. You lose life too, which is the point: Betor recurs them at end step. Soulcage Fiend + Warren Soultrader means every player loses 3 every turn, the Fiend comes back, and Cauldron of Essence and Pitiless Plunderer get paid each time. The ramp creatures loop the same way: Sakura-Tribe Elder, Wood Elves and Simulacrum Shaper all come back for more lands.
 
 Niv-Mizzet turns every life gain into an equal loss plus that many cards, so it feeds both halves of Betor at once. Vilis draws again off the loss.
 
-The graveyard has to be stocked for any of this to matter. Stitcher's Supplier, Undead Butler, Yathan Roadwatcher and Stinkweed Imp's dredge fill it early. Altar of Dementia sacrifices a creature and mills you for its power, so a Betor-pumped creature turns into a huge self-mill. Skirsdag Supplicant pitches reanimation targets and makes every player lose 2. The Master of Lake-town makes every player mill one card per life they lose: a 27-point yoyo mills you 27 deep, and Ravager effects mill the table. Watch your library count when it's out.
+The graveyard has to be stocked for any of this to matter. Stitcher's Supplier, Undead Butler, Yathan Roadwatcher and Stinkweed Imp's dredge fill it early. Skirsdag Supplicant pitches reanimation targets and makes every player lose 2. The Master of Lake-town makes every player mill one card per life they lose: a 27-point yoyo mills you 27 deep, and Ravager effects mill the table. Watch your library count when it's out.
 
 Wincons: drain the table out with Vito, Defiling Daemogoth, Gray Merchant, Exsanguinate and the death triggers."""
 
 cards = [
   { printing = "znr/90", in = ["Reanimation", "Land - MDFC"] },  # Agadeem's Awakening // Agadeem, the Undercrypt
-  { printing = "mh1/218", in = ["Sacrifice Outlet", "Self-Mill"] },  # Altar of Dementia
   { printing = "soc/293", in = ["Interaction"] },  # Anguished Unmaking
   { printing = "frc/47", in = ["Reanimation Target"] },  # Archon of Cruelty
   { printing = "clb/265", in = ["Yoyo Payoff"] },  # Astarion, the Decadent
@@ -83,6 +82,7 @@ cards = [
   { printing = "emn/104", in = ["Discard Outlet", "Mass Life Loss"] },  # Skirsdag Supplicant
   { printing = "soc/173", in = ["Interaction"] },  # Skyclave Apparition
   { printing = "avr/120", in = ["Mass Life Loss"] },  # Soulcage Fiend
+  { printing = "dvd/39", in = ["Life Payment - Dial"] },  # Souldrinker
   { printing = "dvd/36", in = ["Self-Mill"] },  # Stinkweed Imp
   { printing = "fic/287", in = ["Self-Mill"] },  # Stitcher's Supplier
   { printing = "trk/321", qty = 5, in = ["Land - Basic"] },  # Swamp
@@ -94,7 +94,6 @@ cards = [
   { printing = "msc/161", in = ["Interaction"] },  # Toxic Deluge
   { printing = "tdc/97", in = ["Life Total Swap"] },  # Tree of Redemption
   { printing = "vow/133", in = ["Self-Mill", "Recursion"] },  # Undead Butler
-  { printing = "plst/SCG-79", in = ["Life Payment - Dial"] },  # Unspeakable Symbol
   { printing = "tdc/410", in = ["Land - Utility"] },  # Vault of the Archangel
   { printing = "sos/241", in = ["Interaction"] },  # Vicious Rivalry
   { printing = "j25/70", in = ["Reanimation Target"] },  # Vilis, Broker of Blood
@@ -103,6 +102,7 @@ cards = [
   { printing = "sth/143", in = ["Land - Utility"] },  # Volrath's Stronghold
   { printing = "lcc/293", in = ["Life Payment - Dial"] },  # Vona, Butcher of Magan
   { printing = "plst/MRD-82", in = ["Life Payment - Dial"] },  # Wall of Blood
+  { printing = "mh3/110", in = ["Sacrifice Outlet"] },  # Warren Soultrader
   { printing = "dsc/159", in = ["Life Snap-Back"] },  # Whip of Erebos
   { printing = "mh3/235", in = ["Land - Pays Life"] },  # Windswept Heath
   { printing = "mh3/239", in = ["Interaction", "Land - MDFC"] },  # Witch Enchanter // Witch-Blessed Meadow
