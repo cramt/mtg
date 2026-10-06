@@ -1,5 +1,13 @@
 name = "Road Trip Through The Blind Eternities"
 format = "commander"
+description = """
+The Regalia has haste and crew 1. Whenever it attacks, reveal cards from the top of your library until you hit a land, put it onto the battlefield tapped, and put the rest on the bottom. Every attack is a free land drop, and since the deck is colourless every land is a good one: Tron, Cloudpost and Glimmerpost, Eldrazi Temple, Ugin's Labyrinth, Urza's Saga and a pile of utility lands.
+
+Crewing it is cheap. Mutavault, Mishra's Foundry, Blinkmoth Nexus and Inkmoth Nexus become creatures, crew, and stay lands. Memnite and the Myr crew too.
+
+Strionic Resonator copies the attack trigger, and Echoes of Eternity makes it trigger twice by itself since The Regalia is colourless. Two lands per attack.
+
+The ramp goes into Eldrazi titans and colour hate. All Is Dust, Selective Obliteration and Ugin, the Spirit Dragon wreck coloured permanents and leave every colourless thing on your side alone."""
 
 cards = [
   { printing = "fin/267", in = ["Commander"] },  # The Regalia
