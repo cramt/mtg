@@ -1,0 +1,123 @@
+name = "senu ramps"
+format = "commander"
+
+cards = [
+  { printing = "bro/233", in = ["Big Colorless"] },  # Cityscape Leveler
+  { printing = "cmm/2", in = ["Big Colorless"] },  # Kozilek, the Great Distortion
+  { printing = "bro/240", in = ["Big Colorless"] },  # Portal to Phyrexia
+  { printing = "blc/285", in = ["Big Colorless"] },  # Spine of Ish Sah
+  { printing = "tdc/327", in = ["Big Colorless"] },  # Steel Hellkite
+  { printing = "2xm/308", in = ["Big Colorless"] },  # Wurmcoil Engine
+  { printing = "mh3/35", in = ["Counter Multiplier"] },  # Metastatic Evangel
+  { printing = "cmr/335", in = ["Counter Multiplier"] },  # Rings of Brighthearth
+  { printing = "eoe/19", in = ["Draw"] },  # Haliya, Guided by Light
+  { printing = "cmm/38", in = ["Draw"] },  # Losheel, Clockwork Scholar
+  { printing = "blc/283", in = ["Draw"] },  # Skullclamp
+  { printing = "tdc/140", in = ["Draw"] },  # Welcoming Vampire
+  { printing = "mkm/12", in = ["Evasion"] },  # Delney, Streetwise Lookout
+  { printing = "mid/18", in = ["Interaction"] },  # Fateful Absence
+  { printing = "woc/68", in = ["Interaction"] },  # Generous Gift
+  { printing = "neo/28", in = ["Interaction"] },  # March of Otherworldly Light
+  { printing = "soc/159", in = ["Interaction"] },  # Path to Exile
+  { printing = "tsr/37", in = ["Interaction"] },  # Return to Dust
+  { printing = "dsc/106", in = ["Interaction"] },  # Swords to Plowshares
+  { printing = "lci/41", in = ["Interaction"] },  # Unstable Glyphbridge // Sandswirl Wanderglyph
+  { printing = "cmm/70", in = ["Interaction"] },  # Wrath of God
+  { printing = "dmr/398", in = ["Land - Defensive"] },  # Maze of Ith
+  { printing = "ddg/36", in = ["Land - Defensive"] },  # Sejiri Steppe
+  { printing = "soc/400", in = ["Land - Evasion"] },  # Rogue's Passage
+  { printing = "tmt/188", in = ["Land - Exile Outlet"] },  # Northampton Farm
+  { printing = "me3/206", in = ["Land - Mana Engine"] },  # City of Shadows
+  { printing = "mh3/301", in = ["Land - Mana Engine"] },  # Deserted Temple
+  { printing = "mh3/233", in = ["Land - Mana Engine"] },  # Ugin's Labyrinth
+  { printing = "otj/252", in = ["Land - Self Bounce"] },  # Arid Archway
+  { printing = "plst/TMP-318", in = ["Land - Self Bounce"] },  # Ghost Town
+  { printing = "cmm/1003", in = ["Land - Self Bounce"] },  # Guildless Commons
+  { printing = "plst/C14-303", in = ["Land - Self Bounce"] },  # Karoo
+  { printing = "soc/136", in = ["Land Tax Package"] },  # Archaeomancer's Map
+  { printing = "pip/164", in = ["Land Tax Package"] },  # Keeper of the Accord
+  { printing = "moc/193", in = ["Land Tax Package"] },  # Knight of the White Orchid
+  { printing = "soc/153", in = ["Land Tax Package"] },  # Land Tax
+  { printing = "blc/107", in = ["Land Tax Package"] },  # Loyal Warhound
+  { printing = "cmm/832", in = ["Land Tax Package"] },  # Oreskos Explorer
+  { printing = "ltc/183", in = ["Land Tax Package"] },  # Weathered Wayfarer
+  { printing = "plst/KLD-247", in = ["Land - Tutor"] },  # Inventors' Fair
+  { printing = "mh3/234", in = ["Land - Tutor"] },  # Urza's Cave
+  { printing = "tdc/346", in = ["Land - Utility"] },  # Castle Ardenvale
+  { printing = "neo/268", in = ["Land - Utility"] },  # Eiganjo, Seat of the Empire
+  { printing = "soc/368", in = ["Land - Utility"] },  # Emeria, the Sky Ruin
+  { printing = "tdc/108", in = ["Legendary Attacker"] },  # Adeline, Resplendent Cathar
+  { printing = "fin/4", in = ["Legendary Attacker"] },  # Aerith Gainsborough
+  { printing = "dft/3", in = ["Legendary Attacker"] },  # Basri, Tomorrow's Champion
+  { printing = "jud/9", in = ["Legendary Attacker"] },  # Commander Eesha
+  { printing = "msc/14", in = ["Legendary Attacker"] },  # Falcon and Redwing
+  { printing = "plst/AER-154", in = ["Legendary Attacker"] },  # Hope of Ghirapur
+  { printing = "fic/23", in = ["Legendary Attacker"] },  # Lord Jyscal Guado
+  { printing = "stx/21", in = ["Legendary Attacker"] },  # Mavinda, Students' Advocate
+  { printing = "tla/30", in = ["Legendary Attacker"] },  # Momo, Playful Pet
+  { printing = "inr/36", in = ["Legendary Attacker"] },  # Odric, Lunarch Marshal
+  { printing = "one/33", in = ["Legendary Attacker"] },  # Skrelv, Defector Mite
+  { printing = "soc/180", in = ["Legendary Attacker"] },  # Teshar, Ancestor's Apostle
+  { printing = "nec/32", in = ["Legendary Attacker"] },  # Yoshimaru, Ever Faithful
+  { printing = "soc/348", in = ["Mana Sink"] },  # Hangarback Walker
+  { printing = "j25/225", in = ["Mana Sink"] },  # Mikaeus, the Lunarch
+  { printing = "m3c/293", in = ["Ramp"] },  # Forsaken Monument
+  { printing = "msc/106", in = ["Ramp"] },  # H.E.R.B.I.E., Lovable Robot
+  { printing = "dsc/253", in = ["Ramp"] },  # Solemn Simulacrum
+  { printing = "unf/21", in = ["Sticker Package"] },  # Park Bleater
+  { printing = "unf/25", in = ["Sticker Package"] },  # Robo-Piñata
+  { printing = "unf/195", in = ["Sticker Package"] },  # Ticketomaton
+  { printing = "fdn/724", in = ["Tutor"] },  # Expedition Map
+  { printing = "afr/28", in = ["Tutor"] },  # Oswald Fiddlebender
+  { printing = "plst/MM3-19", in = ["Tutor"] },  # Ranger of Eos
+  { printing = "mh3/266", in = ["Tutor"] },  # Recruiter of the Guard
+  { printing = "sunf/23", in = ["Stickers"] },  # Ancestral Hot Dog Minotaur
+  { printing = "sunf/7", in = ["Stickers"] },  # Carnival Elephant Meteor
+  { printing = "sunf/28", in = ["Stickers"] },  # Cool Fluffy Loxodon
+  { printing = "sunf/14", in = ["Stickers"] },  # Deep-Fried Plague Myr
+  { printing = "sunf/25", in = ["Stickers"] },  # Giant Mana Cake
+  { printing = "sunf/17", in = ["Stickers"] },  # Goblin Coward Parade
+  { printing = "sunf/3", in = ["Stickers"] },  # Night Brushwagg Ringmaster
+  { printing = "sunf/41", in = ["Stickers"] },  # Notorious Sliver War
+  { printing = "sunf/34", in = ["Stickers"] },  # Sassy Gremlin Blood
+  { printing = "sunf/35", in = ["Stickers"] },  # Yawgmoth Merfolk Soul
+  { printing = "hoc/89", in = ["Land - Utility"] },  # Minas Tirith
+  { printing = "mh3/222", in = ["Land - Utility"] },  # Monumental Henge
+  { printing = "eld/246", in = ["Land - Utility"] },  # Idyllic Grange
+  { printing = "otc/318", in = ["Land - Utility"] },  # Shefet Dunes
+  { printing = "chr/113", in = ["Land - Exile Outlet"] },  # Safe Haven
+  { printing = "ltc/13", in = ["Exile Outlet"] },  # Gilraen, Dúnedain Protector
+  { printing = "dmu/230", in = ["Exile Outlet"] },  # Golden Argosy
+  { printing = "inv/21", in = ["Exile Outlet"] },  # Liberate
+  { printing = "sos/14", in = ["Exile Outlet"] },  # Ennis, Debate Moderator
+  { printing = "clb/692", in = ["Interaction"] },  # Eight-and-a-Half-Tails
+  { printing = "msc/223", in = ["Draw"] },  # Tome of Legends
+  { printing = "cmm/947", in = ["Draw"] },  # Endless Atlas
+  { printing = "acr/128", in = ["Commander"] },  # Senu, Keen-Eyed Protector
+  { printing = "tdc/322", in = ["Big Colorless"] },  # Myr Battlesphere
+  { printing = "sos/267", qty = 17, in = ["Land - Basic"] },  # Plains
+]
+
+[categories]
+"Big Colorless" = {}
+Commander = { type = "commander" }
+"Counter Multiplier" = {}
+Draw = {}
+Evasion = {}
+"Exile Outlet" = {}
+Interaction = {}
+"Land - Basic" = {}
+"Land - Defensive" = {}
+"Land - Evasion" = {}
+"Land - Exile Outlet" = {}
+"Land - Mana Engine" = {}
+"Land - Self Bounce" = {}
+"Land - Tutor" = {}
+"Land - Utility" = {}
+"Land Tax Package" = {}
+"Legendary Attacker" = {}
+"Mana Sink" = {}
+Ramp = {}
+"Sticker Package" = {}
+Stickers = { type = "not-in-deck" }
+Tutor = {}
