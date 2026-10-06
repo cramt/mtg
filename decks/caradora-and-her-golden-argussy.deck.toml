@@ -1,9 +1,19 @@
 name = "caradora and her golden argussy"
 format = "commander"
 description = """
+A vehicle toolbox. Caradora's enter trigger searches your library for a Mount or Vehicle, and Golden Argosy makes Caradora enter every turn.
+
+Golden Argosy has crew 1, and whenever it attacks it exiles each creature that crewed it and returns them at the next end step. Crew it with Caradora, attack, and Caradora comes back at end step and finds another vehicle. Every turn you pick the vehicle that solves the board, or whichever one is funniest.
+
 Step 1: Find Golden Argosy
 Step 2: Blink Commander, Find Whatever is most funny
-Step 3: Toolbox Car Time"""
+Step 3: Toolbox Car Time
+
+Fortune, Loyal Steed is the Mount version: saddle it with Caradora, attack, and both get exiled and come back at end of combat.
+
+The toolbox: Nautiloid Ship, Unlicensed Hearse, Unidentified Hovership, Salvation Engine, Lifecraft Engine, Mysterious Limousine, Recon Craft Theta, Ghost Ark. Esika's Chariot, Parhelion II and Clown Car bring their own crew.
+
+Caradora also adds an extra +1/+1 counter whenever counters would go on a creature or Vehicle you control, so Ozolith, Armed and Armored, Born to Drive and Miriam make the boats bigger."""
 
 cards = [
   { printing = "nec/165", in = ["Generic Good Boats"] },  # Weatherlight
