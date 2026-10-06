@@ -1,0 +1,99 @@
+name = "cheap gogo eldrazi"
+format = "commander"
+
+cards = [
+  { printing = "mh3/9", in = ["Anthem"] },  # It That Heralds the End
+  { printing = "plst/BFZ-64", in = ["Anthem"] },  # Ruination Guide
+  { printing = "msc/203", in = ["Anthem"] },  # Metallic Mimic
+  { printing = "lcc/305", in = ["Anthem"] },  # Icon of Ancestry
+  { printing = "cmr/301", in = ["Anthem"] },  # Brass Herald
+  { printing = "m3c/37", in = ["Anthem"] },  # Twins of Discord
+  { printing = "dsk/63", in = ["Kindred Enabler"] },  # Leyline of Transformation
+  { printing = "ecl/257", in = ["Kindred Enabler"] },  # Gathering Stone
+  { printing = "mkc/53", in = ["Draw"] },  # Ugin's Mastery
+  { printing = "ecc/45", in = ["Draw"] },  # Distant Melody
+  { printing = "plst/BFZ-58", in = ["Spawn Ramp"] },  # Eldrazi Skyspawner
+  { printing = "bfz/60", in = ["Spawn Ramp"] },  # Incubator Drone
+  { printing = "plst/EMN-58", in = ["Spawn Ramp"] },  # Enlightened Maniac
+  { printing = "m3c/182", in = ["Spawn Ramp"] },  # Drowner of Hope
+  { printing = "bfz/2", in = ["Spawn Ramp"] },  # Blight Herder
+  { printing = "mh3/65", in = ["Spawn Ramp"] },  # Kozilek's Unsealing
+  { printing = "cmm/806", in = ["Eldrazi Body"] },  # Matter Reshaper
+  { printing = "ogw/7", in = ["Eldrazi Body"] },  # Reality Smasher
+  { printing = "m3c/156", in = ["Eldrazi Body"] },  # Endbringer
+  { printing = "m3c/158", in = ["Eldrazi Body"] },  # Oblivion Sower
+  { printing = "mh3/61", in = ["Eldrazi Body"] },  # Emrakul's Messenger
+  { printing = "bfz/5", in = ["Eldrazi Body"] },  # Deathless Behemoth
+  { printing = "m3c/161", in = ["Annihilator Finisher"] },  # Ulamog's Crusher
+  { printing = "m3c/153", in = ["Annihilator Finisher"] },  # Artisan of Kozilek
+  { printing = "mh3/1", in = ["Annihilator Finisher"] },  # Breaker of Creation
+  { printing = "roe/5", in = ["Annihilator Finisher"] },  # Hand of Emrakul
+  { printing = "mh3/5", in = ["Annihilator Finisher"] },  # Eldrazi Ravager
+  { printing = "plst/BFZ-7", in = ["Annihilator Finisher"] },  # Eldrazi Devastator
+  { printing = "m3c/180", in = ["Draw off Combat"] },  # Deepfathom Skulker
+  { printing = "dsc/13", in = ["Draw off Combat"] },  # Glitch Interpreter
+  { printing = "msc/205", in = ["Removal"] },  # Meteor Golem
+  { printing = "drc/54", in = ["Removal"] },  # Duplicant
+  { printing = "blc/285", in = ["Removal"] },  # Spine of Ish Sah
+  { printing = "cmm/810", in = ["Removal"] },  # Titan's Presence
+  { printing = "soc/199", in = ["Removal"] },  # Reality Shift
+  { printing = "bfz/13", in = ["Removal"] },  # Scour from Existence
+  { printing = "ori/55", in = ["Removal"] },  # Displacement Wave
+  { printing = "j22/334", in = ["Removal"] },  # Perilous Voyage
+  { printing = "bfz/9", in = ["Removal"] },  # Gruesome Slaughter
+  { printing = "bfz/54", in = ["Removal"] },  # Adverse Conditions
+  { printing = "mh3/76", in = ["Removal"] },  # Ugin's Binding
+  { printing = "ogw/40", in = ["Counterspell"] },  # Abstruse Interference
+  { printing = "fin/80", in = ["Counterspell"] },  # Syncopate
+  { printing = "woe/47", in = ["Counterspell"] },  # Disdainful Stroke
+  { printing = "uma/68", in = ["Counterspell"] },  # Rune Snag
+  { printing = "akh/46", in = ["Counterspell"] },  # Censor
+  { printing = "mh2/49", in = ["Counterspell"] },  # Lose Focus
+  { printing = "mh3/77", in = ["Draw"] },  # Unfathomable Truths
+  { printing = "soc/195", in = ["Draw"] },  # Dig Through Time
+  { printing = "soc/205", in = ["Draw"] },  # Treasure Cruise
+  { printing = "dmr/287", in = ["Draw"] },  # Impulse
+  { printing = "fdn/586", in = ["Draw"] },  # Chart a Course
+  { printing = "znr/80", in = ["Draw"] },  # Silundi Vision // Silundi Isle
+  { printing = "thb/72", in = ["Draw"] },  # Thassa's Intervention
+  { printing = "j22/50", in = ["Anthem"] },  # Instruments of War
+  { printing = "mom/70", in = ["Ramp - Activates Gogo"] },  # Omen Hawker
+  { printing = "dft/238", in = ["Ramp - Activates Gogo"] },  # Pit Automaton
+  { printing = "hoc/211", in = ["Land Fetch - Copyable"] },  # Wayfarer's Bauble
+  { printing = "fdn/250", in = ["Land Fetch - Copyable"] },  # Burnished Hart
+  { printing = "msc/215", in = ["Land Fetch - Copyable"] },  # Solemn Simulacrum
+  { printing = "tsr/64", in = ["Land Fetch - Copyable"] },  # Dreamscape Artist
+  { printing = "fdn/724", in = ["Land Fetch - Copyable"] },  # Expedition Map
+  { printing = "m3c/370", in = ["Land - Colorless"] },  # Ruins of Oran-Rief
+  { printing = "m3c/376", in = ["Land - Colorless"] },  # Shrine of the Forsaken Gods
+  { printing = "ogw/170", in = ["Land - Colorless"] },  # Crumbling Vestige
+  { printing = "dmr/399", in = ["Land - Colorless"] },  # Mishra's Factory
+  { printing = "fdn/685", in = ["Land - Colorless"] },  # Crawling Barrens
+  { printing = "fic/385", in = ["Land - Colorless"] },  # Demolition Field
+  { printing = "msc/263", in = ["Land - Colorless"] },  # Scavenger Grounds
+  { printing = "msc/273", in = ["Land - Basic Fetch"] },  # Terramorphic Expanse
+  { printing = "msc/240", in = ["Land - Basic Fetch"] },  # Evolving Wilds
+  { printing = "tmt/184", in = ["Land - Basic Fetch"] },  # Escape Tunnel
+  { printing = "tmc/82", in = ["Land - Basic Fetch"] },  # Vibrant Cityscape
+  { printing = "hob/184", in = ["Land - Basic Fetch"] },  # Hobbit Hole
+  { printing = "trk/319", qty = 21, in = ["Land - Basic"] },  # Island
+  { printing = "fin/54", in = ["Commander"] },  # Gogo, Master of Mimicry
+  { printing = "eoc/191", qty = 4, in = ["Land - Basic"] },  # Wastes
+]
+
+[categories]
+"Annihilator Finisher" = {}
+Anthem = {}
+Commander = { type = "commander" }
+Counterspell = {}
+Draw = {}
+"Draw off Combat" = {}
+"Eldrazi Body" = {}
+"Kindred Enabler" = {}
+"Land - Basic" = {}
+"Land - Basic Fetch" = {}
+"Land - Colorless" = {}
+"Land Fetch - Copyable" = {}
+"Ramp - Activates Gogo" = {}
+Removal = {}
+"Spawn Ramp" = {}
