@@ -1,0 +1,115 @@
+name = "gogo is an eldrazi"
+format = "commander"
+description = """
+Gameplan:
+- play gogo
+- play fetchland (or other activated ability ramp like burnished hart)
+- hold up interaction
+- crack fetchland with gogo for ramp
+- if you cant play an eldrazi go to step 2, if you can continue
+- play eldrazi, optionally copy cast trigger or annihilator with gogo
+- ???
+- win"""
+
+cards = [
+  { printing = "c15/257", in = ["Wouldnt it be neat if Ulamog had haste"] },  # Lightning Greaves
+  { printing = "c15/271", in = ["Wouldnt it be neat if Ulamog had haste"] },  # Swiftfoot Boots
+  { printing = "mh3/384", in = ["Big Boi Eldrazi"] },  # Emrakul, the World Anew
+  { printing = "cmm/715", in = ["Big Boi Eldrazi"] },  # Flayer of Loyalties
+  { printing = "cmm/805", in = ["Big Boi Eldrazi"] },  # It That Betrays
+  { printing = "mh3/10", in = ["Big Boi Eldrazi"] },  # Kozilek, the Broken Reality
+  { printing = "cmm/2", in = ["Big Boi Eldrazi"] },  # Kozilek, the Great Distortion
+  { printing = "mh3/13", in = ["Big Boi Eldrazi"] },  # Nulldrifter
+  { printing = "mh3/15", in = ["Big Boi Eldrazi"] },  # Ulamog, the Defiler
+  { printing = "a25/44", in = ["Draw"] },  # Blue Sun's Zenith
+  { printing = "tle/155", in = ["Draw"] },  # Brainstorm
+  { printing = "eoe/51", in = ["Draw"] },  # Consult the Star Charts
+  { printing = "soc/195", in = ["Draw"] },  # Dig Through Time
+  { printing = "fdn/589", in = ["Draw"] },  # Finale of Revelation
+  { printing = "khm/61", in = ["Draw"] },  # Graven Lore
+  { printing = "dmr/56", in = ["Draw"] },  # Impulse
+  { printing = "znr/76", in = ["Draw"] },  # Sea Gate Restoration // Sea Gate, Reborn
+  { printing = "m3c/304", in = ["Draw"] },  # Seer's Sundial
+  { printing = "znr/80", in = ["Draw"] },  # Silundi Vision // Silundi Isle
+  { printing = "dmu/65", in = ["Draw"] },  # Silver Scrutiny
+  { printing = "thb/72", in = ["Draw"] },  # Thassa's Intervention
+  { printing = "soc/205", in = ["Draw"] },  # Treasure Cruise
+  { printing = "eoe/1", in = ["Eldrazi Synergy"] },  # Anticausal Vestige
+  { printing = "m3c/46", in = ["Eldrazi Synergy"] },  # Benthic Anomaly
+  { printing = "bfz/4", in = ["Eldrazi Synergy"] },  # Conduit of Ruin
+  { printing = "m3c/182", in = ["Eldrazi Synergy"] },  # Drowner of Hope
+  { printing = "m3c/156", in = ["Eldrazi Synergy"] },  # Endbringer
+  { printing = "mh3/7", in = ["Eldrazi Synergy"] },  # Glaring Fleshraker
+  { printing = "mh3/385", in = ["Eldrazi Synergy"] },  # It That Heralds the End
+  { printing = "plst/OGW-9", in = ["Eldrazi Synergy"] },  # Thought-Knot Seer
+  { printing = "fdn/250", in = ["Gogo Ramp"] },  # Burnished Hart
+  { printing = "2x2/303", in = ["Gogo Ramp"] },  # Crucible of Worlds
+  { printing = "tsr/64", in = ["Gogo Ramp"] },  # Dreamscape Artist
+  { printing = "msc/215", in = ["Gogo Ramp"] },  # Solemn Simulacrum
+  { printing = "hoc/211", in = ["Gogo Ramp"] },  # Wayfarer's Bauble
+  { printing = "fdn/151", in = ["Interaction"] },  # Aetherize
+  { printing = "fic/267", in = ["Interaction"] },  # An Offer You Can't Refuse
+  { printing = "msc/147", in = ["Interaction"] },  # Arcane Denial
+  { printing = "dsc/114", in = ["Interaction"] },  # Counterspell
+  { printing = "rvr/313", in = ["Interaction"] },  # Cyclonic Rift
+  { printing = "rvr/315", in = ["Interaction"] },  # Muddle the Mixture
+  { printing = "tdc/160", in = ["Interaction"] },  # Pongify
+  { printing = "soc/198", in = ["Interaction"] },  # Rapid Hybridization
+  { printing = "soc/199", in = ["Interaction"] },  # Reality Shift
+  { printing = "mh3/76", in = ["Interaction"] },  # Ugin's Binding
+  { printing = "m3c/162", in = ["Interaction"] },  # Warping Wail
+  { printing = "j22/833", qty = 11, in = ["Land"] },  # Snow-Covered Island
+  { printing = "fic/376", in = ["Land"] },  # Bonders' Enclave
+  { printing = "fic/385", in = ["Land"] },  # Demolition Field
+  { printing = "m3c/339", in = ["Land"] },  # Eldrazi Temple
+  { printing = "msc/240", in = ["Land"] },  # Evolving Wilds
+  { printing = "msc/242", in = ["Land"] },  # Fabled Passage
+  { printing = "mh3/220", in = ["Land"] },  # Flooded Strand
+  { printing = "blb/253", in = ["Land"] },  # Fountainport
+  { printing = "mh2/438", in = ["Land"] },  # Misty Rainforest
+  { printing = "eoc/169", in = ["Land"] },  # Myriad Landscape
+  { printing = "soc/388", in = ["Land"] },  # Mystic Sanctuary
+  { printing = "plst/ODY-323", in = ["Land"] },  # Petrified Field
+  { printing = "mh3/438", in = ["Land"] },  # Polluted Delta
+  { printing = "h1r/40", in = ["Land"] },  # Prismatic Vista
+  { printing = "mh2/439", in = ["Land"] },  # Scalding Tarn
+  { printing = "msc/263", in = ["Land"] },  # Scavenger Grounds
+  { printing = "m3c/133", in = ["Land"] },  # Sunken Palace
+  { printing = "msc/273", in = ["Land"] },  # Terramorphic Expanse
+  { printing = "mh3/234", in = ["Land"] },  # Urza's Cave
+  { printing = "soc/422", in = ["Land"] },  # War Room
+  { printing = "mh3/439", qty = 5, in = ["Land"] },  # Snow-Covered Wastes
+  { printing = "mh3/240", in = ["Protection"] },  # Hydroelectric Specimen // Hydroelectric Laboratory
+  { printing = "msc/193", in = ["Ramp"] },  # Arcane Signet
+  { printing = "m3c/293", in = ["Ramp"] },  # Forsaken Monument
+  { printing = "j25/753", in = ["Ramp"] },  # Guardian Idol
+  { printing = "soc/352", in = ["Ramp"] },  # Mind Stone
+  { printing = "mom/70", in = ["Ramp"] },  # Omen Hawker
+  { printing = "lci/55", in = ["Ramp"] },  # The Enigma Jewel // Locus of Enlightenment
+  { printing = "msc/222", in = ["Ramp"] },  # Thought Vessel
+  { printing = "m3c/152", in = ["Removal"] },  # All Is Dust
+  { printing = "blb/58", in = ["Removal"] },  # Long River's Pull
+  { printing = "mh3/12", in = ["Removal"] },  # Null Elemental Blast
+  { printing = "mh3/241", in = ["Removal"] },  # Sink into Stupor // Soporific Springs
+  { printing = "cmm/810", in = ["Removal"] },  # Titan's Presence
+  { printing = "tdm/1", in = ["Removal"] },  # Ugin, Eye of the Storms
+  { printing = "m3c/160", in = ["Removal"] },  # Ugin, the Ineffable
+  { printing = "m21/1", in = ["Removal"] },  # Ugin, the Spirit Dragon
+  { printing = "fdn/724", in = ["Tutor"] },  # Expedition Map
+  { printing = "plst/M10-52", in = ["Tutor"] },  # Fabricate
+  { printing = "fin/54", in = ["Commander"] },  # Gogo, Master of Mimicry
+]
+
+[categories]
+"Big Boi Eldrazi" = {}
+Commander = { type = "commander" }
+Draw = {}
+"Eldrazi Synergy" = {}
+"Gogo Ramp" = {}
+Interaction = {}
+Land = {}
+Protection = {}
+Ramp = {}
+Removal = {}
+Tutor = {}
+"Wouldnt it be neat if Ulamog had haste" = {}
