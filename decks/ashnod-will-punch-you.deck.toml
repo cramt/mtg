@@ -1,0 +1,94 @@
+name = "Ashnod will punch you"
+format = "commander"
+
+cards = [
+  { printing = "msc/752", in = ["Ashnod's cool weapons"] },  # Swordsman's Steel
+  { printing = "msc/120", in = ["Land"] },  # The Great Mound
+  { printing = "ltr/90", in = ["Ashnods Sac Fodder"] },  # Haunt of the Dead Marshes
+  { printing = "blb/395", in = ["Ashnod's cool weapons"] },  # Sword of Vengeance
+  { printing = "bro/84", in = ["Commander"] },  # Ashnod, Flesh Mechanist
+  { printing = "msc/668", in = ["Creature"] },  # Ultron the Annihilator
+  { printing = "msc/656", in = ["Ashnods Sac Fodder"] },  # Fixer, Techno Terror
+  { printing = "2xm/245", in = ["Ashnod's cool weapons"] },  # Cranial Plating
+  { printing = "msc/115", in = ["Creature"] },  # Tri-Sentinel, Act of Vengeance
+  { printing = "mkc/233", in = ["Ashnod's cool weapons"] },  # Nettlecyst
+  { printing = "vow/125", in = ["Ashnods Sac Fodder"] },  # Persistent Specimen
+  { printing = "clb/740", in = ["Ashnods Sac Fodder"] },  # Bloodsoaked Champion
+  { printing = "tdc/195", in = ["Ashnods Sac Fodder"] },  # Reassembling Skeleton
+  { printing = "tdc/319", in = ["Powerstone Mana Dump"] },  # Idol of Oblivion
+  { printing = "soc/210", in = ["Ashnods Sac Fodder"] },  # Bloodghast
+  { printing = "c14/245", in = ["Ashnod's cool weapons"] },  # Lashwrithe
+  { printing = "plst/CM2-225", in = ["Powerstone Mana Dump"] },  # Trading Post
+  { printing = "mkc/246", in = ["Powerstone Mana Dump"] },  # Tome of Legends
+  { printing = "tdc/328", in = ["Ashnod's cool weapons"] },  # Swiftfoot Boots
+  { printing = "tla/100", in = ["Ashnods Sac Fodder"] },  # Fire Navy Trebuchet
+  { printing = "tdc/191", in = ["Its cheap cause powerstone"] },  # Noxious Gearhulk
+  { printing = "thb/236", in = ["Ashnod's cool weapons"] },  # Shadowspear
+  { printing = "40k/32", in = ["Powerstone Mana Dump"] },  # Chronomancer
+  { printing = "msc/108", in = ["Ashnods Sac Fodder"] },  # Jocasta, Automaton Avenger
+  { printing = "tdc/177", in = ["Draw"] },  # Deadly Dispute
+  { printing = "dft/235", in = ["Its cheap cause powerstone"] },  # Marketback Walker
+  { printing = "blc/283", in = ["Draw"] },  # Skullclamp
+  { printing = "inv/95", in = ["Powerstone Restriction??? what do you mean???"] },  # Bog Initiate
+  { printing = "bro/233", in = ["Its cheap cause powerstone"] },  # Cityscape Leveler
+  { printing = "soc/217", in = ["Ashnods Sac Fodder"] },  # Jadar, Ghoulcaller of Nephalia
+  { printing = "dmc/178", in = ["Ashnod's cool weapons"] },  # Blackblade Reforged
+  { printing = "c14/274", in = ["Ashnod's cool weapons"] },  # Strata Scythe
+  { printing = "bro/253", in = ["Ashnod's cool weapons"] },  # Thran Power Suit
+  { printing = "lci/264", in = ["Ashnod's cool weapons"] },  # Tarrian's Soulcleaver
+  { printing = "tdc/31", in = ["Removal"] },  # Will of the Abzan
+  { printing = "drc/16", in = ["Ashnod's cool weapons"] },  # Adaptive Omnitool
+  { printing = "moc/250", in = ["Removal"] },  # Go for the Throat
+  { printing = "fin/258", in = ["Ashnod's cool weapons"] },  # Genji Glove
+  { printing = "acr/71", in = ["Ashnod's cool weapons"] },  # Brotherhood Regalia
+  { printing = "cmm/413", in = ["Ashnod's cool weapons"] },  # Sword of the Animist
+  { printing = "cmr/343", in = ["Powerstone Mana Dump"] },  # Staff of Domination
+  { printing = "tsr/144", in = ["Removal"] },  # Sudden Spoiling
+  { printing = "eoe/89", in = ["Ramp"] },  # Beamsaw Prospector
+  { printing = "eoe/88", in = ["Removal"] },  # Archenemy's Charm
+  { printing = "cmm/147", in = ["Removal"] },  # Deadly Rollick
+  { printing = "bro/254", in = ["Powerstone Mana Dump"] },  # Thran Spider
+  { printing = "brc/58", in = ["Ramp"] },  # Wreck Hunter
+  { printing = "who/176", in = ["Its cheap cause powerstone"] },  # Cybermen Squadron
+  { printing = "mh1/86", in = ["Removal"] },  # Defile
+  { printing = "cmm/167", in = ["Protection"] },  # Imp's Mischief
+  { printing = "eoc/169", in = ["Land"] },  # Myriad Landscape
+  { printing = "dmu/1", in = ["Ramp"] },  # Karn, Living Legacy
+  { printing = "dsk/124", in = ["Removal"] },  # Withering Torment
+  { printing = "eoe/2", in = ["Tutor"] },  # Tezzeret, Cruel Captain
+  { printing = "neo/278", in = ["Land"] },  # Takenuma, Abandoned Mire
+  { printing = "ltc/514", in = ["Land"] },  # Minas Morgul, Dark Fortress
+  { printing = "mh3/277", in = ["Removal"] },  # Toxic Deluge
+  { printing = "eoe/240", in = ["Its cheap cause powerstone"] },  # The Endstone
+  { printing = "mh2/301", in = ["Land"] },  # Cabal Coffers
+  { printing = "soc/422", in = ["Land"] },  # War Room
+  { printing = "tsr/287", in = ["Land"] },  # Urborg, Tomb of Yawgmoth
+  { printing = "sos/269", qty = 29, in = ["Land"] },  # Swamp
+  { printing = "woe/96", in = ["Recursion"] },  # Lich-Knights' Conquest
+  { printing = "bbd/240", in = ["Powerstone Mana Dump"] },  # Mind's Eye
+  { printing = "one/108", in = ["Removal"] },  # Sheoldred's Edict
+  { printing = "mh2/259", in = ["Land"] },  # Urza's Saga
+  { printing = "tdc/180", in = ["Removal"] },  # Feed the Swarm
+  { printing = "tla/114", in = ["Tokens"] },  # Phoenix Fleet Airship
+  { printing = "eoc/150", in = ["Land"] },  # Buried Ruin
+  { printing = "soc/400", in = ["Land"] },  # Rogue's Passage
+  { printing = "dom/238", in = ["Land"] },  # Cabal Stronghold
+  { printing = "clb/884", in = ["Land"] },  # Castle Locthwain
+]
+
+[categories]
+"Ashnod's cool weapons" = {}
+"Ashnods Sac Fodder" = {}
+Commander = { type = "commander" }
+Creature = {}
+Draw = {}
+"Its cheap cause powerstone" = {}
+Land = {}
+"Powerstone Mana Dump" = {}
+"Powerstone Restriction??? what do you mean???" = {}
+Protection = {}
+Ramp = {}
+Recursion = {}
+Removal = {}
+Tokens = {}
+Tutor = {}
