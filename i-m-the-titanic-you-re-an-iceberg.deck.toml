@@ -29,7 +29,7 @@ cards = [
   { printing = "pip/915", in = ["Boat Bigger"] },  # Junk Jet
   { printing = "who/835", in = ["Ramp"] },  # Mind Stone
   { printing = "2x2/309", in = ["Boat Iceberg Protection"] },  # Nim Deathmantle
-  { printing = "fdc/2", in = ["Ramp"] },  # Sol Ring
+  { name = "Everflowing Chalice", in = ["Ramp"] },
   { printing = "mkm/121", in = ["Treasure Walue"] },  # Crime Novelist
   { printing = "snc/116", in = ["Treasure Walue"] },  # Professional Face-Breaker
   { printing = "afr/167", in = ["Ramp"] },  # Xorn
