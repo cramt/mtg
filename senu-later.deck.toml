@@ -31,7 +31,7 @@ cards = [
   { printing = "lci/41", in = ["Interaction"] },  # Unstable Glyphbridge // Sandswirl Wanderglyph
   { printing = "dmr/398", in = ["Land - Defensive"] },  # Maze of Ith
   { printing = "soc/400", in = ["Land - Evasion"] },  # Rogue's Passage
-  { printing = "me3/206", in = ["Land - Mana Engine"] },  # City of Shadows
+  { printing = "drk/116", in = ["Land - Mana Engine"] },  # City of Shadows
   { printing = "mh3/301", in = ["Land - Mana Engine"] },  # Deserted Temple
   { printing = "otj/252", in = ["Land - Self Bounce"] },  # Arid Archway
   { printing = "plst/TMP-318", in = ["Land - Self Bounce"] },  # Ghost Town
