@@ -85,8 +85,8 @@ cards = [
   { printing = "soc/173", in = ["Interaction"] },  # Skyclave Apparition
   { printing = "avr/120", in = ["Mass Life Loss"] },  # Soulcage Fiend
   { printing = "ddc/39", in = ["Life Payment - Dial"] },  # Souldrinker
-  { printing = "dvd/36", in = ["Self-Mill"] },  # Stinkweed Imp
-  { printing = "fic/287", in = ["Self-Mill"] },  # Stitcher's Supplier
+  { printing = "gk1/53", in = ["Self-Mill"] },  # Stinkweed Imp
+  { printing = "tdc/196", in = ["Self-Mill"] },  # Stitcher's Supplier
   { printing = "sos/269", qty = 6, in = ["Land - Basic"] },  # Swamp
   { printing = "frc/37", in = ["Interaction"] },  # Swords to Plowshares
   { printing = "arb/83", in = ["Life Snap-Back"] },  # Tainted Sigil
