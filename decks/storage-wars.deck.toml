@@ -16,9 +16,9 @@ cards = [
   { printing = "cmm/2", in = ["Big Colorless"] },  # Kozilek, the Great Distortion
   { printing = "bro/240", in = ["Big Colorless"] },  # Portal to Phyrexia
   { printing = "blc/285", in = ["Big Colorless"] },  # Spine of Ish Sah
-  { printing = "tdc/327", in = ["Big Colorless"] },  # Steel Hellkite
+  { printing = "fdc/289", in = ["Big Colorless"] },  # Steel Hellkite
   { printing = "2xm/308", in = ["Big Colorless"] },  # Wurmcoil Engine
-  { printing = "mh3/35", in = ["Counter Multiplier"] },  # Metastatic Evangel
+  { printing = "plst/MH3-35", in = ["Counter Multiplier"] },  # Metastatic Evangel
   { printing = "cmr/335", in = ["Counter Multiplier"] },  # Rings of Brighthearth
   { printing = "eoe/19", in = ["Draw"] },  # Haliya, Guided by Light
   { printing = "cmm/38", in = ["Draw"] },  # Losheel, Clockwork Scholar
@@ -104,7 +104,7 @@ cards = [
   { printing = "msc/223", in = ["Draw"] },  # Tome of Legends
   { printing = "cmm/947", in = ["Draw"] },  # Endless Atlas
   { printing = "acr/128", in = ["Commander"] },  # Senu, Keen-Eyed Protector
-  { printing = "tdc/322", in = ["Big Colorless"] },  # Myr Battlesphere
+  { printing = "fdc/273", in = ["Big Colorless"] },  # Myr Battlesphere
   { printing = "sos/267", qty = 17, in = ["Land - Basic"] },  # Plains
 ]
 
