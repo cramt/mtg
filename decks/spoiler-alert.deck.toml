@@ -23,7 +23,7 @@ cards = [
   { printing = "brr/61", in = ["Lantern - Sculpt"] },  # Unwinding Clock
   { printing = "plst/C19-179", in = ["Lantern - Sculpt"] },  # Seedborn Muse
   { printing = "moc/346", in = ["Artifact Count"] },  # Academy Manufactor
-  { printing = "cmr/472", in = ["Artifact Count"] },  # Sol Ring
+  { name = "Everflowing Chalice", in = ["Artifact Count"] },
   { printing = "40k/244", in = ["Artifact Count"] },  # Mind Stone
   { printing = "9ed/297", in = ["Artifact Count"] },  # Fellwar Stone
   { printing = "aer/48", in = ["Tutor Package"] },  # Trophy Mage
