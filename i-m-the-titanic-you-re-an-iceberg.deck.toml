@@ -36,7 +36,7 @@ cards = [
   { printing = "tdm/126", in = ["Ramp"] },  # Sunset Strikemaster
   { printing = "khm/142", in = ["Treasure Walue"] },  # Magda, Brazen Outlaw
   { printing = "blc/264", in = ["Treasure Walue"] },  # Academy Manufactor
-  { printing = "j21/458", in = ["Tutor"] },  # Goblin Engineer
+  { printing = "mh1/128", in = ["Tutor"] },  # Goblin Engineer
   { printing = "chk/169", in = ["Tutor"] },  # Godo, Bandit Warlord
   { printing = "khm/139", in = ["Ramp"] },  # Goldspan Dragon
   { printing = "eoe/169", in = ["Treasure Walue"] },  # Weftstalker Ardent
@@ -64,8 +64,8 @@ cards = [
   { printing = "otj/142", in = ["Protection"] },  # Return the Favor
   { printing = "tla/151", in = ["Protection"] },  # Redirect Lightning
   { printing = "mkm/122", in = ["Draw"] },  # Demand Answers
-  { printing = "pio/158", in = ["Draw"] },  # Valakut Awakening // Valakut Stoneforge
-  { printing = "omb/28", in = ["Draw"] },  # Thrill of Possibility
+  { printing = "znr/174", in = ["Draw"] },  # Valakut Awakening // Valakut Stoneforge
+  { printing = "fdc/180", in = ["Draw"] },  # Thrill of Possibility
   { printing = "tla/268", in = ["Land"] },  # Fire Nation Palace
   { printing = "fdn/264", in = ["Land"] },  # Rogue's Passage
   { printing = "eoc/150", in = ["Land"] },  # Buried Ruin
