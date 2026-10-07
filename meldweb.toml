@@ -1,0 +1,28 @@
+# Meldweb Curator's settings (ADR-0026 in progress-engine).
+
+[printings]
+# Which printing of a card the All printings grid offers first. Each rule is a
+# Scryfall query over one printing. The first rule that tells two printings
+# apart decides; later rules only break ties. What no rule decides goes to the
+# newest printing, whose wording is closest to current oracle text.
+rank = [
+  # Can't hold it.
+  { avoid = "is:digital" },
+  # World Championship gold borders, Collectors' Edition, art cards, playtest.
+  { avoid = "border:gold or border:silver or is:oversized or is:playtest or st:memorabilia" },
+  # Never another language.
+  { avoid = "-lang:en" },
+  # Full art lands are so pretty, textless or not.
+  { prefer = "t:basic is:fullart" },
+  { avoid = "is:textless" },
+  # Amonkhet Invocations: the text is hieroglyphs.
+  { avoid = "set:mp2" },
+  # Printed under another name, like the Godzilla series.
+  { avoid = "is:flavorname" },
+  # The comic panel ones (Marvel, TMNT, Final Fantasy, Avatar).
+  { avoid = "is:sourcematerial" },
+  # A normal card over a stylised one.
+  { avoid = "is:showcase or frame:old or frame:future or frame:etched or is:poster" },
+  # In-universe over Universes Beyond.
+  { avoid = "is:ub" },
+]
