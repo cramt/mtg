@@ -10,7 +10,7 @@ The sculpting pieces:
 - Unwinding Clock untaps them on everyone else's turn, so if an opponent's next draw is good, it's gone before they draw it.
 - The cheap rocks and the Treasures count as artifacts and raise Rashmi's free-cast limit. Academy Manufactor turns each Treasure into three artifacts.
 
-Rashmi's trigger targets the opponent, not the card, so you can mill in response until something worth stealing is on top. Memory Lapse, Hinder, Metamorphose, Expel from Orazca and Noxious Revival go the other way: they put an opponent's spell, permanent or milled card back on top of their library for Rashmi to take next. Cast them at instant speed, in response to the trigger or on an opponent's turn, since the trigger resolves before the spell that caused it. Wizard's Staff makes Rashmi trigger twice. Shared Fate turns every draw at the table into a steal from a library you've already arranged.
+Rashmi's trigger targets the opponent, not the card, so you can mill in response until something worth stealing is on top. Memory Lapse, Hinder, Metamorphose, Expel from Orazca and Noxious Revival go the other way: they put an opponent's spell, permanent or milled card back on top of their library for Rashmi to take next. Cast them at instant speed, in response to the trigger or on an opponent's turn, since the trigger resolves before the spell that caused it. Wizard's Staff makes Rashmi trigger twice. Ornate Kanzashi is a second steal engine: sculpt a top, then take it, and Unwinding Clock untaps it for every opponent's turn.
 
 Closing: Reckless Fireweaver pings every opponent for each artifact that enters (Rashmi's Treasure, three with Academy Manufactor), and Keeper of Secrets hits an opponent for the mana value of every stolen spell. Tezzeret the Seeker's -5 turns the artifact pile into 5/5s.
 
@@ -39,7 +39,7 @@ cards = [
   { printing = "cmr/395", in = ["Interaction"] },  # Counterspell
   { printing = "ths/65", in = ["Interaction"] },  # Swan Song
   { printing = "dsk/248", in = ["Graveyard Police"] },  # Ghost Vacuum
-  { name = "Shared Fate", in = ["Topdeck Value"] },
+  { name = "Ornate Kanzashi", in = ["Topdeck Value"] },
   { printing = "ddf/74", in = ["Land - Artifact"] },  # Seat of the Synod
   { printing = "eoc/180", in = ["Land - Artifact"] },  # Silverbluff Bridge
   { printing = "drc/171", in = ["Land - Artifact"] },  # Slagwoods Bridge
