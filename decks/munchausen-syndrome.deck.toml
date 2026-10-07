@@ -92,7 +92,7 @@ cards = [
   { printing = "arb/83", in = ["Life Snap-Back"] },  # Tainted Sigil
   { printing = "trk/301", in = ["Land - Fixing"] },  # Temple Garden
   { printing = "hob/77", in = ["Self-Mill", "Yoyo Payoff"] },  # The Master of Lake-town
-  { printing = "msc/161", in = ["Interaction"] },  # Toxic Deluge
+  { printing = "soc/120", in = ["Interaction"] },  # Toxic Deluge
   { printing = "tdc/97", in = ["Life Total Swap"] },  # Tree of Redemption
   { printing = "vow/133", in = ["Self-Mill", "Recursion"] },  # Undead Butler
   { printing = "tmc/80", in = ["Land - Fixing"] },  # Undergrowth Stadium
