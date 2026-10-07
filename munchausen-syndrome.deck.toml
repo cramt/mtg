@@ -76,7 +76,7 @@ cards = [
   { printing = "grn/253", in = ["Land - Fixing"] },  # Overgrown Tomb
   { printing = "lcc/208", in = ["Ramp"] },  # Pitiless Plunderer
   { printing = "sos/267", qty = 3, in = ["Land - Basic"] },  # Plains
-  { printing = "fic/282", in = ["Reanimation"] },  # Reanimate
+  { printing = "dsc/155", in = ["Reanimation"] },  # Reanimate
   { printing = "tdc/266", in = ["Ramp"] },  # Sakura-Tribe Elder
   { printing = "soc/171", in = ["Interaction", "Lifelink"] },  # Sheltered by Ghosts
   { printing = "mh1/246", in = ["Land - Pays Life"] },  # Silent Clearing
@@ -99,7 +99,7 @@ cards = [
   { printing = "cmm/436", in = ["Land - Fixing"] },  # Vault of Champions
   { printing = "mh2/260", in = ["Land - Pays Life"] },  # Verdant Catacombs
   { printing = "sos/241", in = ["Interaction"] },  # Vicious Rivalry
-  { printing = "j25/70", in = ["Reanimation Target"] },  # Vilis, Broker of Blood
+  { printing = "gn3/63", in = ["Reanimation Target"] },  # Vilis, Broker of Blood
   { printing = "soc/229", in = ["Sacrifice Outlet"] },  # Viscera Seer
   { printing = "j22/487", in = ["Lifegain Wincon"] },  # Vito, Thorn of the Dusk Rose
   { printing = "lcc/293", in = ["Life Payment - Dial"] },  # Vona, Butcher of Magan
@@ -111,7 +111,7 @@ cards = [
   { printing = "mh3/239", in = ["Interaction", "Land - MDFC"] },  # Witch Enchanter // Witch-Blessed Meadow
   { printing = "hob/142", in = ["Ramp"] },  # Wood Elves
   { printing = "soc/424", in = ["Land - Fixing"] },  # Woodland Cemetery
-  { printing = "tdm/236", in = ["Self-Mill", "Reanimation"] },  # Yathan Roadwatcher
+  { printing = "ptdm/236p", in = ["Self-Mill", "Reanimation"] },  # Yathan Roadwatcher
 ]
 
 [categories]
