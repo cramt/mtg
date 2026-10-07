@@ -1,0 +1,45 @@
+# Senu Later: does the loop come online, and does City show up?
+# Every white/colourless card that places stickers is already in the list, so the sticker engine is a turn-5-plus plan, not an opener.
+[mulligan]
+keep = [{ query = "t:land", min = 2, max = 5 }]
+down_to = 6
+bottom = ['mv>=6', 't:land']
+
+[casting]
+prefer = ['name:"Senu, Keen-Eyed Protector"', 'cat:"Legendary Attacker"', 'cat:"Ramp"', 'cat:"Sticker Package" -name:"Pin Collection"', 'name:"Recruiter of the Guard"']
+
+[assume]
+untapped = ['name:"Castle Ardenvale"', 'name:"Monumental Henge"']
+
+[[criterion]]
+name = "commander on curve (2-drop: turn 2)"
+at_least = 0.70
+require = [{ turn = 2, cast = 'name:"Senu, Keen-Eyed Protector"', min = 1 }]
+
+[[criterion]]
+name = "loop ready: Senu + another legendary attacker cast by turn 4"
+at_least = 0.60
+require = [
+  { turn = 4, cast = 'name:"Senu, Keen-Eyed Protector"', min = 1 },
+  { turn = 4, cast = 'cat:"Legendary Attacker"', min = 1 },
+]
+
+[[criterion]]
+name = "City access by turn 5 (City, a copy, or a finder)"
+at_least = 0.55
+require = [{ turn = 5, query = 'cat:"Land - Mana Engine" and name:"City of Shadows" or cat:"Land - City Copy" or cat:"Land Finder"', min = 1 }]
+
+[[criterion]]
+name = "sticker placer (or Recruiter) cast by turn 6"
+at_least = 0.50
+require = [{ turn = 6, cast = '(cat:"Sticker Package" -name:"Pin Collection") or name:"Recruiter of the Guard"', min = 1 }]
+
+[[criterion]]
+name = "three lands by turn 3"
+at_least = 0.80
+require = [{ turn = 3, query = 't:land', min = 3 }]
+
+[[expect]]
+name = "Senu payoffs + draw by turn 5"
+turn = 5
+query = 'cat:"Senu Payoff" or cat:"Draw"'

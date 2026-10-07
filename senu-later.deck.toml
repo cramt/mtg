@@ -7,9 +7,9 @@ City of Shadows is the mana engine. Each loop adds a storage counter, Metastatic
 
 This is also the sticker deck. Stickers stay on a card in every public zone, exile and the command zone included (CR 123.5), so a sticker on Senu lasts the whole game and its abilities fire every turn: attack triggers when Senu is declared, leaves-the-battlefield triggers when it's exiled, combat-damage triggers when it comes back unblocked. Cool Fluffy Loxodon draws, Yawgmoth Merfolk Soul makes five Clown Robots, Plague Myr and Coward Parade destroy things, Elephant Meteor proliferates City, and Beeble Mascot untaps City after it exiles Senu. Delney doubles the triggers of creatures with power 2 or less, which Senu is. Park Bleater, Ticketomaton, Aerialephant, Robo-Piñata, Wicker Picker and Pin Collection put stickers on things; Bleater, Turbotubes and Midway Bamboozle make tickets.
 
-The loop also feeds Welcoming Vampire, Tome of Legends, Lulu, Hero's Blade, Yoshimaru, Haliya and Ennis. White catch-up ramp (Land Tax, Keeper of the Accord, Knight of the White Orchid, the Karoo lands) keeps the mana flowing, and Winds of Abandon and Path to Exile give opponents the extra lands that switch it on.
+The loop also feeds Search for Dagger and Tome of Legends (both trigger twice a turn: once when Senu attacks, once when it comes back), Welcoming Vampire, Lulu, Hero's Blade, Haliya and Ennis. Aang gets an experience counter every time Senu leaves without dying and turns those into tokens each upkeep. Genji Glove gives a legend an extra combat, and so a second loop: in that combat City exiles the freshly returned Senu, which doesn't need to tap. Phelia exiles a blocker every attack, and Tomik stops opponents targeting City. White catch-up ramp (Land Tax, Keeper of the Accord, Knight of the White Orchid, the Karoo lands) keeps the mana flowing, and Winds of Abandon and Path to Exile give opponents the extra lands that switch it on.
 
-City's mana goes into a few colourless threats: Myr Battlesphere, Wurmcoil Engine, Steel Hellkite and Kozilek."""
+City's mana goes into Genji Glove, sticker tickets and a few colourless threats: Myr Battlesphere, Wurmcoil Engine, Steel Hellkite and Kozilek."""
 
 cards = [
   { printing = "cmm/2", in = ["Big Colorless"] },  # Kozilek, the Great Distortion
@@ -21,7 +21,7 @@ cards = [
   { printing = "cmm/38", in = ["Draw"] },  # Losheel, Clockwork Scholar
   { printing = "blc/283", in = ["Draw"] },  # Skullclamp
   { printing = "tdc/140", in = ["Draw"] },  # Welcoming Vampire
-  { printing = "mkm/12", in = ["Evasion"] },  # Delney, Streetwise Lookout
+  { printing = "mkm/12", in = ["Evasion", "Legendary Attacker"] },  # Delney, Streetwise Lookout
   { printing = "mid/18", in = ["Interaction"] },  # Fateful Absence
   { printing = "woc/68", in = ["Interaction"] },  # Generous Gift
   { printing = "neo/28", in = ["Interaction"] },  # March of Otherworldly Light
@@ -42,7 +42,6 @@ cards = [
   { printing = "moc/193", in = ["Land Tax Package"] },  # Knight of the White Orchid
   { printing = "soc/153", in = ["Land Tax Package"] },  # Land Tax
   { printing = "blc/107", in = ["Land Tax Package"] },  # Loyal Warhound
-  { printing = "cmm/832", in = ["Land Tax Package"] },  # Oreskos Explorer
   { printing = "ltc/183", in = ["Land Tax Package", "Land Finder"] },  # Weathered Wayfarer
   { printing = "mh3/234", in = ["Land - Tutor", "Land Finder"] },  # Urza's Cave
   { printing = "tdc/346", in = ["Land - Utility"] },  # Castle Ardenvale
@@ -56,11 +55,8 @@ cards = [
   { printing = "fic/23", in = ["Legendary Attacker"] },  # Lord Jyscal Guado
   { printing = "tla/30", in = ["Legendary Attacker"] },  # Momo, Playful Pet
   { printing = "one/33", in = ["Legendary Attacker"] },  # Skrelv, Defector Mite
-  { printing = "nec/32", in = ["Legendary Attacker"] },  # Yoshimaru, Ever Faithful
-  { printing = "soc/348", in = ["Mana Sink"] },  # Hangarback Walker
-  { printing = "j25/225", in = ["Mana Sink"] },  # Mikaeus, the Lunarch
   { printing = "m3c/293", in = ["Ramp"] },  # Forsaken Monument
-  { printing = "msc/106", in = ["Ramp"] },  # H.E.R.B.I.E., Lovable Robot
+  { printing = "msc/106", in = ["Ramp", "Legendary Attacker"] },  # H.E.R.B.I.E., Lovable Robot
   { printing = "dsc/253", in = ["Ramp"] },  # Solemn Simulacrum
   { printing = "unf/21", in = ["Sticker Package"] },  # Park Bleater
   { printing = "unf/25", in = ["Sticker Package"] },  # Robo-Piñata
@@ -82,7 +78,6 @@ cards = [
   { printing = "sos/14", in = ["Exile Outlet"] },  # Ennis, Debate Moderator
   { printing = "clb/692", in = ["Interaction"] },  # Eight-and-a-Half-Tails
   { printing = "msc/223", in = ["Draw"] },  # Tome of Legends
-  { printing = "cmm/947", in = ["Draw"] },  # Endless Atlas
   { printing = "acr/128", in = ["Commander"] },  # Senu, Keen-Eyed Protector
   { printing = "fdc/273", in = ["Big Colorless"] },  # Myr Battlesphere
   { printing = "sos/267", qty = 17, in = ["Land - Basic"] },  # Plains
@@ -106,6 +101,11 @@ cards = [
   { name = "Playable Delusionary Hydra", in = ["Stickers"] },
   { name = "Familiar Beeble Mascot", in = ["Stickers"] },
   { name = "Phyrexian Midway Bamboozle", in = ["Stickers"] },
+  { name = "Search for Dagger", in = ["Draw", "Senu Payoff"] },
+  { name = "Aang, Airbending Master", in = ["Senu Payoff", "Legendary Attacker"] },
+  { name = "Genji Glove", in = ["Senu Payoff"] },
+  { name = "Phelia, Exuberant Shepherd", in = ["Legendary Attacker", "Evasion"] },
+  { name = "Tomik, Distinguished Advokist", in = ["Legendary Attacker", "Protection"] },
 ]
 
 [categories]
@@ -132,7 +132,6 @@ Protection = {}
 "Senu Payoff" = {}
 "Land Tax Package" = {}
 "Legendary Attacker" = {}
-"Mana Sink" = {}
 Ramp = {}
 "Sticker Package" = {}
 Stickers = { type = "not-in-deck" }
