@@ -27,7 +27,7 @@ cards = [
   { printing = "clb/265", in = ["Yoyo Payoff"] },  # Astarion, the Decadent
   { printing = "fdn/652", in = ["Life Snap-Back"] },  # Ayli, Eternal Pilgrim
   { printing = "tdc/1", in = ["Commander"] },  # Betor, Ancestor's Voice
-  { printing = "msc/170", in = ["Ramp"] },  # Birds of Paradise
+  { printing = "fdc/191", in = ["Ramp"] },  # Birds of Paradise
   { printing = "tdc/173", in = ["Interaction"] },  # Bitter Triumph
   { printing = "dft/250", in = ["Land - Fixing"] },  # Bleachbone Verge
   { printing = "mh3/216", in = ["Land - Pays Life"] },  # Bloodstained Mire
