@@ -1,4 +1,5 @@
 # Bench: `gauntlet test decks/spoiler-alert.deck.toml decks/spoiler-alert.criteria.toml [--draw]`
+# Mox Opal is read as always on (metalcraft not modelled), so its share is a ceiling.
 # Shocks, pay-3-life MDFCs, fetches and Training Center-style lands read as tapped, so mana numbers are floors.
 
 [assume]
@@ -13,7 +14,7 @@ bottom = ['mv>=5', 't:land']
 prefer = ['name:"Rashmi and Ragavan"', 'cat:"Artifact Count"']
 
 [[effect]]
-match = 'name:"Mind Stone" or name:"Fellwar Stone" or name:"Arcane Signet" or name:"Talisman of Creativity" or name:"Talisman of Curiosity" or name:"Talisman of Impulse"'
+match = 'name:"Mind Stone" or name:"Fellwar Stone" or name:"Arcane Signet" or name:"Talisman of Creativity" or name:"Talisman of Curiosity" or name:"Talisman of Impulse" or name:"Izzet Signet" or name:"Mox Opal"'
 on = "cast"
 adds = 1
 
