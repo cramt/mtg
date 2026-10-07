@@ -33,7 +33,7 @@ at_least = 0.70
 require = [{ turn = 4, cast = 'name:"Rashmi and Ragavan"', min = 1 }]
 
 [[criterion]]
-name = "UUU by turn 3 (Archmage's Charm, Whir)"
+name = "UUU by turn 3 (Whir of Invention)"
 require = [{ turn = 3, can_cast = "{U}{U}{U}" }]
 
 [[criterion]]
