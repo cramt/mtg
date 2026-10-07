@@ -101,7 +101,7 @@ cards = [
   { printing = "sos/241", in = ["Interaction"] },  # Vicious Rivalry
   { printing = "j25/70", in = ["Reanimation Target"] },  # Vilis, Broker of Blood
   { printing = "soc/229", in = ["Sacrifice Outlet"] },  # Viscera Seer
-  { printing = "j25/71", in = ["Lifegain Wincon"] },  # Vito, Thorn of the Dusk Rose
+  { printing = "j22/487", in = ["Lifegain Wincon"] },  # Vito, Thorn of the Dusk Rose
   { printing = "lcc/293", in = ["Life Payment - Dial"] },  # Vona, Butcher of Magan
   { printing = "plst/MRD-82", in = ["Life Payment - Dial"] },  # Wall of Blood
   { printing = "mh3/110", in = ["Sacrifice Outlet"] },  # Warren Soultrader
