@@ -29,7 +29,7 @@ cards = [
   { printing = "pip/915", in = ["Boat Bigger"] },  # Junk Jet
   { printing = "who/835", in = ["Ramp"] },  # Mind Stone
   { printing = "2x2/309", in = ["Boat Iceberg Protection"] },  # Nim Deathmantle
-  { name = "Everflowing Chalice", in = ["Ramp"] },
+  { name = "Ruby Medallion", in = ["Ramp"] },
   { printing = "mkm/121", in = ["Treasure Walue"] },  # Crime Novelist
   { printing = "snc/116", in = ["Treasure Walue"] },  # Professional Face-Breaker
   { printing = "afr/167", in = ["Ramp"] },  # Xorn
@@ -83,13 +83,13 @@ cards = [
   { printing = "dft/116", in = ["Vehicle Nonsense"] },  # Chandra, Spark Hunter
   { printing = "c21/164", in = ["Recursion"] },  # Daretti, Scrap Savant
   { printing = "stx/101", in = ["Tutor"] },  # Fervent Mastery
-  { printing = "mkc/156", in = ["Ramp"] },  # Jeska's Will
+  { name = "Glóin, Dwarf Emissary", in = ["Ramp", "Treasure Walue"] },
   { printing = "akh/213", in = ["Boat Bigger"] },  # Insult // Injury
   { printing = "fdn/546", in = ["Draw"] },  # Seize the Spoils
   { printing = "inr/151", in = ["Draw"] },  # Faithless Looting
   { printing = "inr/167", in = ["Draw"] },  # Reforge the Soul
   { printing = "mom/173", in = ["Draw"] },  # Wrenn's Resolve
-  { printing = "spg/24", in = ["Tutor"] },  # Gamble
+  { name = "Reckless Handling", in = ["Tutor"] },
   { printing = "2x2/120", in = ["Draw"] },  # Pirate's Pillage
   { printing = "tdm/132", in = ["Boat Bigger"] },  # Wild Ride
   { printing = "khm/153", in = ["Protection"] },  # Tibalt's Trickery
