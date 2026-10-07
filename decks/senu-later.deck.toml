@@ -1,21 +1,18 @@
-name = "Storage Wars"
+name = "Senu Later"
 format = "commander"
 description = """
-Ashnod is mono-black ramp and Gogo is mono-blue ramp. Senu is the attempt at mono-white ramp, built around City of Shadows. It doesn't work very well, but this is the idea.
+Senu leaves every turn and always comes back. Attack with Senu (it has vigilance) and another legend, then exile Senu before blocks, either with its own {T} or with City of Shadows. If the other legend isn't blocked, Senu comes back attacking and unblocked (CR 508.4d). It only comes back once per combat: after the first trigger returns it, Senu is a new object and the other triggers lose track of it.
 
-City of Shadows exiles a creature you control for a storage counter, then taps for {C} per counter. Senu wants to be exiled: whenever a legendary creature you control attacks and isn't blocked, Senu comes back from exile attacking. Exile Senu to City of Shadows, attack with a legend, Senu comes back, exile it again. City of Shadows gets one counter bigger every time.
+City of Shadows is the mana engine. Each loop adds a storage counter, Metastatic Evangel proliferates it when Senu comes back, and Rings of Brighthearth copies the counter ability. Vesuva and Thespian's Stage are second Cities. Expedition Map, World Map, Urza's Cave and Weathered Wayfarer find the real one, and Ranger of Eos and Recruiter of the Guard find Wayfarer.
 
-Senu can exile itself too ({T}: gain 2 life and scry 2), and Safe Haven, Northampton Farm, Gilraen, Ennis and Liberate are more ways into exile. The cute one is Golden Argosy: it's legendary, so Senu crews it, the Argosy's attack trigger exiles Senu, and if the Argosy goes unblocked Senu comes straight back attacking.
+This is also the sticker deck. Stickers stay on a card in every public zone, exile and the command zone included (CR 123.5), so a sticker on Senu lasts the whole game and its abilities fire every turn: attack triggers when Senu is declared, leaves-the-battlefield triggers when it's exiled, combat-damage triggers when it comes back unblocked. Cool Fluffy Loxodon draws, Yawgmoth Merfolk Soul makes five Clown Robots, Plague Myr and Coward Parade destroy things, Elephant Meteor proliferates City, and Beeble Mascot untaps City after it exiles Senu. Delney doubles the triggers of creatures with power 2 or less, which Senu is. Park Bleater, Ticketomaton, Aerialephant, Robo-Piñata, Wicker Picker and Pin Collection put stickers on things; Bleater, Turbotubes and Midway Bamboozle make tickets.
 
-The rest is white catch-up ramp. Land Tax, Keeper of the Accord, Knight of the White Orchid and friends want you behind on lands, and the self-bounce lands (Karoo, Guildless Commons, Arid Archway, Ghost Town) keep the land count low while making extra mana. Ugin's Labyrinth and Deserted Temple add more.
+The loop also feeds Welcoming Vampire, Tome of Legends, Lulu, Hero's Blade, Yoshimaru, Haliya and Ennis. White catch-up ramp (Land Tax, Keeper of the Accord, Knight of the White Orchid, the Karoo lands) keeps the mana flowing, and Winds of Abandon and Path to Exile give opponents the extra lands that switch it on.
 
-The mana goes into big colourless threats: Myr Battlesphere, Wurmcoil Engine, Portal to Phyrexia, Kozilek."""
+City's mana goes into a few colourless threats: Myr Battlesphere, Wurmcoil Engine, Steel Hellkite and Kozilek."""
 
 cards = [
-  { printing = "bro/233", in = ["Big Colorless"] },  # Cityscape Leveler
   { printing = "cmm/2", in = ["Big Colorless"] },  # Kozilek, the Great Distortion
-  { printing = "bro/240", in = ["Big Colorless"] },  # Portal to Phyrexia
-  { printing = "blc/285", in = ["Big Colorless"] },  # Spine of Ish Sah
   { printing = "fdc/289", in = ["Big Colorless"] },  # Steel Hellkite
   { printing = "2xm/308", in = ["Big Colorless"] },  # Wurmcoil Engine
   { printing = "plst/MH3-35", in = ["Counter Multiplier"] },  # Metastatic Evangel
@@ -32,14 +29,10 @@ cards = [
   { printing = "tsr/37", in = ["Interaction"] },  # Return to Dust
   { printing = "dsc/106", in = ["Interaction"] },  # Swords to Plowshares
   { printing = "lci/41", in = ["Interaction"] },  # Unstable Glyphbridge // Sandswirl Wanderglyph
-  { printing = "cmm/70", in = ["Interaction"] },  # Wrath of God
   { printing = "dmr/398", in = ["Land - Defensive"] },  # Maze of Ith
-  { printing = "ddg/36", in = ["Land - Defensive"] },  # Sejiri Steppe
   { printing = "soc/400", in = ["Land - Evasion"] },  # Rogue's Passage
-  { printing = "tmt/188", in = ["Land - Exile Outlet"] },  # Northampton Farm
   { printing = "me3/206", in = ["Land - Mana Engine"] },  # City of Shadows
   { printing = "mh3/301", in = ["Land - Mana Engine"] },  # Deserted Temple
-  { printing = "mh3/233", in = ["Land - Mana Engine"] },  # Ugin's Labyrinth
   { printing = "otj/252", in = ["Land - Self Bounce"] },  # Arid Archway
   { printing = "plst/TMP-318", in = ["Land - Self Bounce"] },  # Ghost Town
   { printing = "cmm/1003", in = ["Land - Self Bounce"] },  # Guildless Commons
@@ -50,24 +43,19 @@ cards = [
   { printing = "soc/153", in = ["Land Tax Package"] },  # Land Tax
   { printing = "blc/107", in = ["Land Tax Package"] },  # Loyal Warhound
   { printing = "cmm/832", in = ["Land Tax Package"] },  # Oreskos Explorer
-  { printing = "ltc/183", in = ["Land Tax Package"] },  # Weathered Wayfarer
-  { printing = "plst/KLD-247", in = ["Land - Tutor"] },  # Inventors' Fair
-  { printing = "mh3/234", in = ["Land - Tutor"] },  # Urza's Cave
+  { printing = "ltc/183", in = ["Land Tax Package", "Land Finder"] },  # Weathered Wayfarer
+  { printing = "mh3/234", in = ["Land - Tutor", "Land Finder"] },  # Urza's Cave
   { printing = "tdc/346", in = ["Land - Utility"] },  # Castle Ardenvale
   { printing = "neo/268", in = ["Land - Utility"] },  # Eiganjo, Seat of the Empire
   { printing = "soc/368", in = ["Land - Utility"] },  # Emeria, the Sky Ruin
   { printing = "tdc/108", in = ["Legendary Attacker"] },  # Adeline, Resplendent Cathar
-  { printing = "fin/4", in = ["Legendary Attacker"] },  # Aerith Gainsborough
   { printing = "dft/3", in = ["Legendary Attacker"] },  # Basri, Tomorrow's Champion
   { printing = "jud/9", in = ["Legendary Attacker"] },  # Commander Eesha
   { printing = "msc/14", in = ["Legendary Attacker"] },  # Falcon and Redwing
   { printing = "plst/AER-154", in = ["Legendary Attacker"] },  # Hope of Ghirapur
   { printing = "fic/23", in = ["Legendary Attacker"] },  # Lord Jyscal Guado
-  { printing = "stx/21", in = ["Legendary Attacker"] },  # Mavinda, Students' Advocate
   { printing = "tla/30", in = ["Legendary Attacker"] },  # Momo, Playful Pet
-  { printing = "inr/36", in = ["Legendary Attacker"] },  # Odric, Lunarch Marshal
   { printing = "one/33", in = ["Legendary Attacker"] },  # Skrelv, Defector Mite
-  { printing = "soc/180", in = ["Legendary Attacker"] },  # Teshar, Ancestor's Apostle
   { printing = "nec/32", in = ["Legendary Attacker"] },  # Yoshimaru, Ever Faithful
   { printing = "soc/348", in = ["Mana Sink"] },  # Hangarback Walker
   { printing = "j25/225", in = ["Mana Sink"] },  # Mikaeus, the Lunarch
@@ -77,28 +65,20 @@ cards = [
   { printing = "unf/21", in = ["Sticker Package"] },  # Park Bleater
   { printing = "unf/25", in = ["Sticker Package"] },  # Robo-Piñata
   { printing = "unf/195", in = ["Sticker Package"] },  # Ticketomaton
-  { printing = "fdn/724", in = ["Tutor"] },  # Expedition Map
+  { printing = "fdn/724", in = ["Land Finder"] },  # Expedition Map
   { printing = "afr/28", in = ["Tutor"] },  # Oswald Fiddlebender
   { printing = "plst/MM3-19", in = ["Tutor"] },  # Ranger of Eos
   { printing = "mh3/266", in = ["Tutor"] },  # Recruiter of the Guard
-  { printing = "sunf/23", in = ["Stickers"] },  # Ancestral Hot Dog Minotaur
   { printing = "sunf/7", in = ["Stickers"] },  # Carnival Elephant Meteor
   { printing = "sunf/28", in = ["Stickers"] },  # Cool Fluffy Loxodon
   { printing = "sunf/14", in = ["Stickers"] },  # Deep-Fried Plague Myr
-  { printing = "sunf/25", in = ["Stickers"] },  # Giant Mana Cake
   { printing = "sunf/17", in = ["Stickers"] },  # Goblin Coward Parade
-  { printing = "sunf/3", in = ["Stickers"] },  # Night Brushwagg Ringmaster
-  { printing = "sunf/41", in = ["Stickers"] },  # Notorious Sliver War
   { printing = "sunf/34", in = ["Stickers"] },  # Sassy Gremlin Blood
   { printing = "sunf/35", in = ["Stickers"] },  # Yawgmoth Merfolk Soul
   { printing = "hoc/89", in = ["Land - Utility"] },  # Minas Tirith
   { printing = "mh3/222", in = ["Land - Utility"] },  # Monumental Henge
   { printing = "eld/246", in = ["Land - Utility"] },  # Idyllic Grange
   { printing = "otc/318", in = ["Land - Utility"] },  # Shefet Dunes
-  { printing = "chr/113", in = ["Land - Exile Outlet"] },  # Safe Haven
-  { printing = "ltc/13", in = ["Exile Outlet"] },  # Gilraen, Dúnedain Protector
-  { printing = "dmu/230", in = ["Exile Outlet"] },  # Golden Argosy
-  { printing = "inv/21", in = ["Exile Outlet"] },  # Liberate
   { printing = "sos/14", in = ["Exile Outlet"] },  # Ennis, Debate Moderator
   { printing = "clb/692", in = ["Interaction"] },  # Eight-and-a-Half-Tails
   { printing = "msc/223", in = ["Draw"] },  # Tome of Legends
@@ -106,10 +86,31 @@ cards = [
   { printing = "acr/128", in = ["Commander"] },  # Senu, Keen-Eyed Protector
   { printing = "fdc/273", in = ["Big Colorless"] },  # Myr Battlesphere
   { printing = "sos/267", qty = 17, in = ["Land - Basic"] },  # Plains
+  { name = "Winds of Abandon", in = ["Interaction"] },
+  { name = "Witch Enchanter // Witch-Blessed Meadow", in = ["Interaction", "Land - MDFC"] },
+  { name = "Emeria's Call // Emeria, Shattered Skyclave", in = ["Big Threat", "Land - MDFC"] },
+  { name = "Sejiri Shelter // Sejiri Glacier", in = ["Protection", "Land - MDFC"] },
+  { name = "Aerialephant", in = ["Sticker Package"] },
+  { name = "Ticket Turbotubes", in = ["Sticker Package", "Ramp"] },
+  { name = "Wicker Picker", in = ["Sticker Package"] },
+  { name = "Pin Collection", in = ["Sticker Package"] },
+  { name = "Lulu, Loyal Hollyphant", in = ["Legendary Attacker", "Senu Payoff"] },
+  { name = "Hero's Blade", in = ["Senu Payoff"] },
+  { name = "Brotherhood Regalia", in = ["Evasion"] },
+  { name = "Mirror of Galadriel", in = ["Draw"] },
+  { name = "World Map", in = ["Land Finder"] },
+  { name = "Vesuva", in = ["Land - City Copy"] },
+  { name = "Thespian's Stage", in = ["Land - City Copy"] },
+  { name = "Scavenger Grounds", in = ["Land - Graveyard Hate"] },
+  { name = "Zombie Cheese Magician", in = ["Stickers"] },
+  { name = "Playable Delusionary Hydra", in = ["Stickers"] },
+  { name = "Familiar Beeble Mascot", in = ["Stickers"] },
+  { name = "Phyrexian Midway Bamboozle", in = ["Stickers"] },
 ]
 
 [categories]
 "Big Colorless" = {}
+"Big Threat" = {}
 Commander = { type = "commander" }
 "Counter Multiplier" = {}
 Draw = {}
@@ -117,13 +118,18 @@ Evasion = {}
 "Exile Outlet" = {}
 Interaction = {}
 "Land - Basic" = {}
+"Land - Tutor" = {}
 "Land - Defensive" = {}
 "Land - Evasion" = {}
-"Land - Exile Outlet" = {}
 "Land - Mana Engine" = {}
 "Land - Self Bounce" = {}
-"Land - Tutor" = {}
 "Land - Utility" = {}
+"Land - MDFC" = {}
+"Land - City Copy" = {}
+"Land - Graveyard Hate" = {}
+"Land Finder" = {}
+Protection = {}
+"Senu Payoff" = {}
 "Land Tax Package" = {}
 "Legendary Attacker" = {}
 "Mana Sink" = {}
