@@ -60,7 +60,7 @@ cards = [
   { printing = "soc/278", in = ["Ramp"] },  # Nature's Lore
   { printing = "clu/246", in = ["Land"] },  # Selesnya Sanctuary
   { printing = "cmm/295", in = ["Protection"] },  # Heroic Intervention
-  { printing = "akr/186", in = ["Draw"] },  # Collected Company
+  { printing = "dtk/177", in = ["Draw"] },  # Collected Company
   { printing = "eoc/50", in = ["Ramp"] },  # Farseek
   { printing = "c14/66", in = ["Protection"] },  # Brave the Elements
   { printing = "mh3/235", in = ["Land"] },  # Windswept Heath
