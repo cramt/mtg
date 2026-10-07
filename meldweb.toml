@@ -17,6 +17,8 @@ rank = [
   { avoid = "is:textless" },
   # Amonkhet Invocations: the text is hieroglyphs.
   { avoid = "set:mp2" },
+  # The Zeta Set (Secret Lair box).
+  { avoid = "set:slz" },
   # Printed under another name, like the Godzilla series.
   { avoid = "is:flavorname" },
   # The comic panel ones (Marvel, TMNT, Final Fantasy, Avatar).
