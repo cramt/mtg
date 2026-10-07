@@ -73,7 +73,7 @@ cards = [
   { printing = "sos/91", in = ["Reanimation", "Yoyo Payoff"] },  # Moseo, Vein's New Dean
   { printing = "frc/10", in = ["Yoyo Payoff"] },  # Niv-Mizzet, Ghost Counsel
   { printing = "mh1/243", in = ["Land - Pays Life"] },  # Nurturing Peatland
-  { printing = "trk/289", in = ["Land - Fixing"] },  # Overgrown Tomb
+  { printing = "grn/253", in = ["Land - Fixing"] },  # Overgrown Tomb
   { printing = "lcc/208", in = ["Ramp"] },  # Pitiless Plunderer
   { printing = "sos/267", qty = 3, in = ["Land - Basic"] },  # Plains
   { printing = "fic/282", in = ["Reanimation"] },  # Reanimate
@@ -90,12 +90,12 @@ cards = [
   { printing = "sos/269", qty = 6, in = ["Land - Basic"] },  # Swamp
   { printing = "frc/37", in = ["Interaction"] },  # Swords to Plowshares
   { printing = "arb/83", in = ["Life Snap-Back"] },  # Tainted Sigil
-  { printing = "trk/301", in = ["Land - Fixing"] },  # Temple Garden
+  { printing = "grn/258", in = ["Land - Fixing"] },  # Temple Garden
   { printing = "hob/77", in = ["Self-Mill", "Yoyo Payoff"] },  # The Master of Lake-town
   { printing = "soc/120", in = ["Interaction"] },  # Toxic Deluge
   { printing = "tdc/97", in = ["Life Total Swap"] },  # Tree of Redemption
   { printing = "vow/133", in = ["Self-Mill", "Recursion"] },  # Undead Butler
-  { printing = "tmc/80", in = ["Land - Fixing"] },  # Undergrowth Stadium
+  { printing = "cmm/435", in = ["Land - Fixing"] },  # Undergrowth Stadium
   { printing = "cmm/436", in = ["Land - Fixing"] },  # Vault of Champions
   { printing = "mh2/260", in = ["Land - Pays Life"] },  # Verdant Catacombs
   { printing = "sos/241", in = ["Interaction"] },  # Vicious Rivalry
