@@ -32,7 +32,7 @@ cards = [
   { printing = "dft/250", in = ["Land - Fixing"] },  # Bleachbone Verge
   { printing = "mh3/216", in = ["Land - Pays Life"] },  # Bloodstained Mire
   { printing = "dis/38", in = ["Mass Life Loss"] },  # Bond of Agony
-  { printing = "msc/226", in = ["Land - Fixing"] },  # Bountiful Promenade
+  { printing = "clb/348", in = ["Land - Fixing"] },  # Bountiful Promenade
   { printing = "fic/377", in = ["Land - Pays Life"] },  # Brushland
   { printing = "sos/179", in = ["Lifegain Wincon", "Sacrifice Outlet"] },  # Cauldron of Essence
   { printing = "mbs/40", in = ["Mass Life Loss"] },  # Caustic Hound
@@ -40,7 +40,7 @@ cards = [
   { printing = "cmm/144", in = ["Reanimation"] },  # Chainer, Dementia Master
   { printing = "tsr/14", in = ["Life Snap-Back"] },  # Children of Korlis
   { printing = "tmc/62", in = ["Land - Pays Life"] },  # City of Brass
-  { printing = "frc/22", in = ["Land - Fixing"] },  # Command Tower
+  { printing = "soc/129", in = ["Land - Fixing"] },  # Command Tower
   { printing = "fin/94", in = ["Draw"] },  # Dark Confidant
   { printing = "blb/90", in = ["Draw", "Life Payment - Dial"] },  # Darkstar Augur
   { printing = "rvr/175", in = ["Ramp"] },  # Deathrite Shaman
@@ -53,7 +53,7 @@ cards = [
   { printing = "mh3/244", in = ["Interaction", "Land - MDFC"] },  # Fell the Profane // Fell Mire
   { printing = "sos/188", in = ["Reanimation"] },  # Fix What's Broken
   { printing = "sos/271", qty = 3, in = ["Land - Basic"] },  # Forest
-  { printing = "trk/285", in = ["Land - Fixing"] },  # Godless Shrine
+  { printing = "eoe/254", in = ["Land - Fixing"] },  # Godless Shrine
   { printing = "sos/85", in = ["Reanimation", "Self-Mill"] },  # Grave Researcher // Reanimate
   { printing = "dsc/142", in = ["Lifegain Wincon"] },  # Gray Merchant of Asphodel
   { printing = "fra/104", in = ["Ramp"] },  # Greenhouse Propagator
