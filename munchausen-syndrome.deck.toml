@@ -77,7 +77,7 @@ cards = [
   { printing = "lcc/208", in = ["Ramp"] },  # Pitiless Plunderer
   { printing = "sos/267", qty = 3, in = ["Land - Basic"] },  # Plains
   { printing = "fic/282", in = ["Reanimation"] },  # Reanimate
-  { printing = "soc/285", in = ["Ramp"] },  # Sakura-Tribe Elder
+  { printing = "tdc/266", in = ["Ramp"] },  # Sakura-Tribe Elder
   { printing = "soc/171", in = ["Interaction", "Lifelink"] },  # Sheltered by Ghosts
   { printing = "mh1/246", in = ["Land - Pays Life"] },  # Silent Clearing
   { printing = "fra/113", in = ["Ramp"] },  # Simulacrum Shaper
