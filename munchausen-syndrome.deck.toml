@@ -52,7 +52,7 @@ cards = [
   { printing = "fdn/173", in = ["Lifegain Wincon"] },  # Exsanguinate
   { printing = "mh3/244", in = ["Interaction", "Land - MDFC"] },  # Fell the Profane // Fell Mire
   { printing = "sos/188", in = ["Reanimation"] },  # Fix What's Broken
-  { printing = "trk/326", qty = 3, in = ["Land - Basic"] },  # Forest
+  { printing = "sos/271", qty = 3, in = ["Land - Basic"] },  # Forest
   { printing = "trk/285", in = ["Land - Fixing"] },  # Godless Shrine
   { printing = "sos/85", in = ["Reanimation", "Self-Mill"] },  # Grave Researcher // Reanimate
   { printing = "dsc/142", in = ["Lifegain Wincon"] },  # Gray Merchant of Asphodel
@@ -75,7 +75,7 @@ cards = [
   { printing = "mh1/243", in = ["Land - Pays Life"] },  # Nurturing Peatland
   { printing = "trk/289", in = ["Land - Fixing"] },  # Overgrown Tomb
   { printing = "lcc/208", in = ["Ramp"] },  # Pitiless Plunderer
-  { printing = "trk/317", qty = 3, in = ["Land - Basic"] },  # Plains
+  { printing = "sos/267", qty = 3, in = ["Land - Basic"] },  # Plains
   { printing = "fic/282", in = ["Reanimation"] },  # Reanimate
   { printing = "soc/285", in = ["Ramp"] },  # Sakura-Tribe Elder
   { printing = "soc/171", in = ["Interaction", "Lifelink"] },  # Sheltered by Ghosts
@@ -87,7 +87,7 @@ cards = [
   { printing = "dvd/39", in = ["Life Payment - Dial"] },  # Souldrinker
   { printing = "dvd/36", in = ["Self-Mill"] },  # Stinkweed Imp
   { printing = "fic/287", in = ["Self-Mill"] },  # Stitcher's Supplier
-  { printing = "trk/321", qty = 6, in = ["Land - Basic"] },  # Swamp
+  { printing = "sos/269", qty = 6, in = ["Land - Basic"] },  # Swamp
   { printing = "frc/37", in = ["Interaction"] },  # Swords to Plowshares
   { printing = "arb/83", in = ["Life Snap-Back"] },  # Tainted Sigil
   { printing = "trk/301", in = ["Land - Fixing"] },  # Temple Garden
