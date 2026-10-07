@@ -1,0 +1,49 @@
+# Bench: `gauntlet test decks/spoiler-alert.deck.toml decks/spoiler-alert.criteria.toml [--draw]`
+# Shocks, pay-3-life MDFCs, fetches and Training Center-style lands read as tapped, so mana numbers are floors.
+
+[assume]
+untapped = ['o:"two or more opponents"', 'o:"you may pay 2 life"']
+
+[mulligan]
+keep = [{ query = "t:land", min = 2, max = 5 }]
+down_to = 6
+bottom = ['mv>=5', 't:land']
+
+[casting]
+prefer = ['name:"Rashmi and Ragavan"', 'cat:"Artifact Count"']
+
+[[effect]]
+match = 'name:"Mind Stone" or name:"Fellwar Stone" or name:"Arcane Signet" or name:"Talisman of Creativity" or name:"Talisman of Curiosity" or name:"Talisman of Impulse"'
+on = "cast"
+adds = 1
+
+[[expect]]
+name = "lands in opener (incl. MDFCs)"
+turn = 0
+query = "t:land"
+
+[[criterion]]
+name = "commander on curve (4-drop: turn 3)"
+at_least = 0.30
+require = [{ turn = 3, cast = 'name:"Rashmi and Ragavan"', min = 1 }]
+
+[[criterion]]
+name = "commander by turn 4"
+at_least = 0.70
+require = [{ turn = 4, cast = 'name:"Rashmi and Ragavan"', min = 1 }]
+
+[[criterion]]
+name = "UUU by turn 3 (Archmage's Charm, Whir)"
+require = [{ turn = 3, can_cast = "{U}{U}{U}" }]
+
+[[criterion]]
+name = "RR by turn 2 (Powerbalance)"
+require = [{ turn = 2, can_cast = "{R}{R}" }]
+
+[[criterion]]
+name = "a reveal-the-top piece in hand by turn 4"
+require = [{ turn = 4, query = '''cat:"Lantern - Vision" -name:"Sensei's Divining Top"''', min = 1 }]
+
+[[criterion]]
+name = "a library sculptor (mill/shuffle) by turn 4"
+require = [{ turn = 4, query = 'cat:"Lantern - Sculpt"', min = 1 }]
