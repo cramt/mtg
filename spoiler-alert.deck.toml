@@ -10,6 +10,8 @@ The sculpting pieces:
 - Unwinding Clock untaps them on everyone else's turn and Unstoppable Plan at your end step, so if an opponent's next draw is good, it's gone before they draw it.
 - The cheap rocks and the Treasures count as artifacts and raise Rashmi's free-cast limit. Academy Manufactor turns each Treasure into three artifacts.
 
+Rashmi's trigger targets the opponent, not the card, so you can mill in response until something worth stealing is on top. Memory Lapse, Expel from Orazca and Noxious Revival go the other way: they put an opponent's spell, permanent or milled card back on top of their library for Rashmi to take next. Reckless Fireweaver closes: Rashmi's Treasure each turn (three artifacts with Academy Manufactor) pings every opponent.
+
 Counterbalance and Powerbalance use your own revealed top card: counter a spell that matches its mana value, or cast yours for free. Stolen Strategy and Extract Power rob the top of every library at once."""
 
 cards = [
@@ -26,7 +28,7 @@ cards = [
   { name = "Moonsnare Prototype", in = ["Artifact Count"] },
   { printing = "40k/244", in = ["Artifact Count"] },  # Mind Stone
   { printing = "9ed/297", in = ["Artifact Count"] },  # Fellwar Stone
-  { printing = "aer/48", in = ["Tutor Package"] },  # Trophy Mage
+  { name = "Noxious Revival", in = ["Topdeck Value"] },
   { printing = "2xm/255", in = ["Tutor Package"] },  # Expedition Map
   { printing = "scd/268", in = ["Draw"] },  # Idol of Oblivion
   { printing = "msh/421", in = ["Draw"] },  # Moon Girl and Devil Dinosaur
@@ -43,8 +45,8 @@ cards = [
   { printing = "neo/271", in = ["Land - Utility"] },  # Otawara, Soaring City
   { printing = "mh3/228", in = ["Land - Utility"] },  # Shifting Woodland
   { printing = "msh/263", in = ["Land - Utility"] },  # Castle Doom
-  { printing = "dmr/250", in = ["Land - Utility"] },  # Maze of Ith
-  { printing = "30a/278", in = ["Land - Fixing"] },  # Taiga
+  { name = "Tanglepool Bridge", in = ["Land - Artifact"] },
+  { name = "Thornspire Verge", in = ["Land - Fixing"] },
   { printing = "peoe/251p", in = ["Land - Fixing"] },  # Breeding Pool
   { printing = "cmr/358", in = ["Land - Fixing"] },  # Training Center
   { printing = "pgrn/257p", in = ["Land - Fixing"] },  # Steam Vents
@@ -62,7 +64,7 @@ cards = [
   { printing = "pdft/72p", in = ["Lantern - Sculpt"] },  # Unstoppable Plan
   { printing = "mh3/495", in = ["Topdeck Value"] },  # Powerbalance
   { printing = "5dn/23", in = ["Tutor Package"] },  # Artificer's Intuition
-  { printing = "rav/43", in = ["Tutor Package"] },  # Dizzy Spell
+  { name = "Reckless Fireweaver", in = ["Finisher"] },
   { printing = "plst/MH1-128", in = ["Tutor Package"] },  # Goblin Engineer
   { printing = "moc/94", in = ["Commander"] },  # Rashmi and Ragavan
   { printing = "sld/2699", in = ["Land - Fetch"] },  # Prismatic Vista
@@ -72,7 +74,7 @@ cards = [
   { printing = "znr/76", in = ["MDFC - Spell or Land"] },  # Sea Gate Restoration // Sea Gate, Reborn
   { printing = "znr/80", in = ["MDFC - Spell or Land"] },  # Silundi Vision // Silundi Isle
   { printing = "znr/180", in = ["MDFC - Spell or Land"] },  # Bala Ged Recovery // Bala Ged Sanctuary
-  { printing = "cei/284", in = ["Land - Fixing"] },  # Tropical Island
+  { name = "Willowrush Verge", in = ["Land - Fixing"] },
   { printing = "mb2/114", in = ["Land - Utility"] },  # Urza's Saga
   { printing = "j25/94", in = ["Land - Basic"] },  # Forest
   { printing = "mm3/240", in = ["Land - Fetch"] },  # Misty Rainforest
@@ -88,7 +90,7 @@ cards = [
   { printing = "c16/288", in = ["Land - Artifact"] },  # Darksteel Citadel
   { printing = "drc/58", in = ["Land - Utility"] },  # Academy Ruins
   { printing = "pneo/266s", in = ["Land - Utility"] },  # Boseiju, Who Endures
-  { printing = "30a/282", in = ["Land - Fixing"] },  # Volcanic Island
+  { name = "Riverpyre Verge", in = ["Land - Fixing"] },
   { printing = "gtc/247", in = ["Land - Fixing"] },  # Stomping Ground
   { printing = "iko/250", in = ["Land - Fixing"] },  # Ketria Triome
   { printing = "pmkm/262p", in = ["Land - Fixing"] },  # Hedge Maze
@@ -107,7 +109,7 @@ cards = [
   { printing = "xln/74", in = ["Lantern - Vision"] },  # Search for Azcanta // Azcanta, the Sunken Ruin
   { printing = "peld/71p", in = ["Lantern - Sculpt"] },  # Vantress Gargoyle
   { printing = "mar/62", in = ["Interaction"] },  # Three Steps Ahead
-  { printing = "otp/8", in = ["Interaction"] },  # Archmage's Charm
+  { name = "Expel from Orazca", in = ["Interaction", "Topdeck Value"] },
   { printing = "j25/370", in = ["Interaction"] },  # Supreme Will
   { printing = "pstx/214p", in = ["Interaction"] },  # Prismari Command
   { printing = "pznr/161s", in = ["MDFC - Spell or Land"] },  # Shatterskull Smashing // Shatterskull, the Hammer Pass
@@ -119,6 +121,7 @@ cards = [
 "Artifact Count" = {}
 Commander = { type = "commander" }
 Draw = {}
+Finisher = {}
 "Graveyard Police" = {}
 Interaction = {}
 "Land - Artifact" = {}
