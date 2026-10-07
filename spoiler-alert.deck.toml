@@ -6,8 +6,8 @@ The third Lantern deck. Lantern of Insight and Wizened Snitches make every playe
 Rashmi and Ragavan trigger on your first spell each turn: exile the top card of target opponent's library, make a Treasure, and cast that card for free if its mana value is less than the number of artifacts you control. If it's too big, you can still cast it this turn. With every top card revealed, you pick which opponent to rob, and the mill artifacts clear away anything not worth stealing first.
 
 The sculpting pieces:
-- Codex Shredder mills one player, Ghoulcaller's Bell mills everyone, Pyxis of Pandemonium exiles everyone's top card face down, Soldier of Fortune makes a player shuffle.
-- Unwinding Clock and Seedborn Muse untap them on everyone else's turn, so if an opponent's next draw is good, it's gone before they draw it.
+- Wand of Denial bins any nonland card on top of a library for 2 life, leaving opponents to draw lands. Codex Shredder mills one player, Ghoulcaller's Bell mills everyone, Pyxis of Pandemonium exiles everyone's top card face down, Soldier of Fortune makes a player shuffle.
+- Unwinding Clock untaps them on everyone else's turn and Unstoppable Plan at your end step, so if an opponent's next draw is good, it's gone before they draw it.
 - The cheap rocks and the Treasures count as artifacts and raise Rashmi's free-cast limit. Academy Manufactor turns each Treasure into three artifacts.
 
 Counterbalance and Powerbalance use your own revealed top card: counter a spell that matches its mana value, or cast yours for free. Stolen Strategy and Extract Power rob the top of every library at once."""
@@ -21,16 +21,16 @@ cards = [
   { printing = "dft/57", in = ["Lantern - Sculpt"] },  # Riverchurn Monument
   { printing = "plst/JOU-35", in = ["Lantern - Sculpt"] },  # Dakra Mystic
   { printing = "brr/61", in = ["Lantern - Sculpt"] },  # Unwinding Clock
-  { printing = "plst/C19-179", in = ["Lantern - Sculpt"] },  # Seedborn Muse
+  { name = "Wand of Denial", in = ["Lantern - Sculpt"] },
   { printing = "moc/346", in = ["Artifact Count"] },  # Academy Manufactor
-  { name = "Everflowing Chalice", in = ["Artifact Count"] },
+  { name = "Moonsnare Prototype", in = ["Artifact Count"] },
   { printing = "40k/244", in = ["Artifact Count"] },  # Mind Stone
   { printing = "9ed/297", in = ["Artifact Count"] },  # Fellwar Stone
   { printing = "aer/48", in = ["Tutor Package"] },  # Trophy Mage
   { printing = "2xm/255", in = ["Tutor Package"] },  # Expedition Map
   { printing = "scd/268", in = ["Draw"] },  # Idol of Oblivion
   { printing = "msh/421", in = ["Draw"] },  # Moon Girl and Devil Dinosaur
-  { printing = "ltr/0", in = ["Draw"] },  # The One Ring
+  { name = "Tireless Tracker", in = ["Draw"] },
   { printing = "pneo/74p", in = ["Draw"] },  # The Reality Chip
   { printing = "cmr/395", in = ["Interaction"] },  # Counterspell
   { printing = "ths/65", in = ["Interaction"] },  # Swan Song
