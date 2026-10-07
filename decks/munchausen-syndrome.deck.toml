@@ -84,7 +84,7 @@ cards = [
   { printing = "emn/104", in = ["Discard Outlet", "Mass Life Loss"] },  # Skirsdag Supplicant
   { printing = "soc/173", in = ["Interaction"] },  # Skyclave Apparition
   { printing = "avr/120", in = ["Mass Life Loss"] },  # Soulcage Fiend
-  { printing = "dvd/39", in = ["Life Payment - Dial"] },  # Souldrinker
+  { printing = "ddc/39", in = ["Life Payment - Dial"] },  # Souldrinker
   { printing = "dvd/36", in = ["Self-Mill"] },  # Stinkweed Imp
   { printing = "fic/287", in = ["Self-Mill"] },  # Stitcher's Supplier
   { printing = "sos/269", qty = 6, in = ["Land - Basic"] },  # Swamp
