@@ -68,7 +68,7 @@ cards = [
   { printing = "tmt/66", in = ["Life Payment - Dial"] },  # Madame Null, Power Broker
   { printing = "jou/163", in = ["Land - Pays Life"] },  # Mana Confluence
   { printing = "mh2/248", in = ["Land - Pays Life"] },  # Marsh Flats
-  { printing = "spm/135", in = ["Life Total Swap"] },  # Mister Negative
+  { printing = "pspm/135s", in = ["Life Total Swap"] },  # Mister Negative
   { printing = "msh/106", in = ["Life Payment - Dial"] },  # M.O.D.O.K.
   { printing = "sos/91", in = ["Reanimation", "Yoyo Payoff"] },  # Moseo, Vein's New Dean
   { printing = "frc/10", in = ["Yoyo Payoff"] },  # Niv-Mizzet, Ghost Counsel
@@ -106,7 +106,7 @@ cards = [
   { printing = "plst/MRD-82", in = ["Life Payment - Dial"] },  # Wall of Blood
   { printing = "mh3/110", in = ["Sacrifice Outlet"] },  # Warren Soultrader
   { printing = "dft/268", in = ["Land - Fixing"] },  # Wastewood Verge
-  { printing = "dsc/159", in = ["Life Snap-Back"] },  # Whip of Erebos
+  { printing = "cp2/5", in = ["Life Snap-Back"] },  # Whip of Erebos
   { printing = "mh3/235", in = ["Land - Pays Life"] },  # Windswept Heath
   { printing = "mh3/239", in = ["Interaction", "Land - MDFC"] },  # Witch Enchanter // Witch-Blessed Meadow
   { printing = "hob/142", in = ["Ramp"] },  # Wood Elves
