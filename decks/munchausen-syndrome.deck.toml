@@ -33,13 +33,13 @@ cards = [
   { printing = "mh3/216", in = ["Land - Pays Life"] },  # Bloodstained Mire
   { printing = "dis/38", in = ["Mass Life Loss"] },  # Bond of Agony
   { printing = "clb/348", in = ["Land - Fixing"] },  # Bountiful Promenade
-  { printing = "fic/377", in = ["Land - Pays Life"] },  # Brushland
+  { printing = "blc/295", in = ["Land - Pays Life"] },  # Brushland
   { printing = "sos/179", in = ["Lifegain Wincon", "Sacrifice Outlet"] },  # Cauldron of Essence
   { printing = "mbs/40", in = ["Mass Life Loss"] },  # Caustic Hound
-  { printing = "frc/66", in = ["Land - Pays Life"] },  # Caves of Koilos
+  { printing = "soc/365", in = ["Land - Pays Life"] },  # Caves of Koilos
   { printing = "cmm/144", in = ["Reanimation"] },  # Chainer, Dementia Master
   { printing = "tsr/14", in = ["Life Snap-Back"] },  # Children of Korlis
-  { printing = "tmc/62", in = ["Land - Pays Life"] },  # City of Brass
+  { printing = "2x2/321", in = ["Land - Pays Life"] },  # City of Brass
   { printing = "soc/129", in = ["Land - Fixing"] },  # Command Tower
   { printing = "fin/94", in = ["Draw"] },  # Dark Confidant
   { printing = "blb/90", in = ["Draw", "Life Payment - Dial"] },  # Darkstar Augur
@@ -57,7 +57,7 @@ cards = [
   { printing = "sos/85", in = ["Reanimation", "Self-Mill"] },  # Grave Researcher // Reanimate
   { printing = "dsc/142", in = ["Lifegain Wincon"] },  # Gray Merchant of Asphodel
   { printing = "fra/104", in = ["Ramp"] },  # Greenhouse Propagator
-  { printing = "who/287", in = ["Land - Pays Life"] },  # Horizon Canopy
+  { printing = "ima/240", in = ["Land - Pays Life"] },  # Horizon Canopy
   { printing = "gvl/43", in = ["Mass Life Loss"] },  # Howling Banshee
   { printing = "dsk/261", in = ["Land - Fixing"] },  # Hushwood Verge
   { printing = "iko/248", in = ["Land - Fixing"] },  # Indatha Triome
