@@ -1,0 +1,39 @@
+# Kellan's Casino (120-card rule-zero Yorion build). Shocklands read as tapped
+# here, so the mana figures are floors: compare lists, don't quote absolutes.
+[mulligan]
+keep = [{ query = "t:land", min = 2, max = 5 }]
+down_to = 6
+bottom = ['mv>=6', 't:land']
+
+[assume]
+untapped = ['o:"two or more opponents"']
+
+[casting]
+prefer = ['name:"Kellan, the Kid"', 'cat:"Ramp" -name:"Beanstalk Giant" -name:"Studious First-Year"']
+
+[[criterion]]
+name = "commander on curve (3-drop: turn 3)"
+at_least = 0.30
+require = [{ turn = 3, cast = 'name:"Kellan, the Kid"', min = 1 }]
+
+[[criterion]]
+name = "Kellan by turn 4"
+at_least = 0.50
+require = [{ turn = 4, cast = 'name:"Kellan, the Kid"', min = 1 }]
+
+[[criterion]]
+name = "a cast-from-elsewhere source by turn 5"
+at_least = 0.70
+require = [{ turn = 5, query = 'cat:"Cast From Exile" or cat:"Cast From Graveyard" or cat:"Battle"', min = 1 }]
+
+[[criterion]]
+name = "a draw source by turn 5"
+require = [{ turn = 5, query = 'cat:"Draw"', min = 1 }]
+
+[[criterion]]
+name = "a removal prize by turn 5"
+require = [{ turn = 5, query = 'cat:"Removal Prize" or cat:"Saga Removal"', min = 1 }]
+
+[[criterion]]
+name = "battle + self-flipper by turn 5"
+require = [{ turn = 5, query = 'cat:"Battle"', min = 1 }, { turn = 5, query = 'cat:"Battle Flipping"', min = 1 }]
