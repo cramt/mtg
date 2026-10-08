@@ -118,7 +118,7 @@ cards = [
   { name = "Tam, Observant Sequencer // Deep Sight", in = ["Draw", "Prepare", "Cast From Exile", "Ikoria Fetch"] },
   { name = "Palace Jailer", in = ["Removal Prize", "Draw"] },
   { name = "Círdan the Shipwright", in = ["Draw", "Gift", "Ikoria Fetch"] },
-  { name = "Studious First-Year // Rampant Growth", in = ["Ramp", "Prepare", "Cast From Exile"] },
+  { name = "Baffling End", in = ["Removal Prize", "Gift"] },
   { name = "Floodfarm Verge", in = ["Land"] },
   { name = "Willowrush Verge", in = ["Land"] },
   { name = "Hushwood Verge", in = ["Land"] },
