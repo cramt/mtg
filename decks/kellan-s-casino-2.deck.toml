@@ -91,7 +91,7 @@ cards = [
   { printing = "trk/301", in = ["Land"] },  # Temple Garden
   { printing = "neo/12", in = ["Saga Removal"] },  # The Fall of Lord Konda // Fragment of Konda
   { printing = "tla/27", in = ["Saga Removal", "Gift"] },  # The Legend of Yangchen // Avatar Yangchen
-  { printing = "neo/42", in = ["Removal Prize"] },  # The Wandering Emperor
+  { name = "Elspeth Conquers Death", in = ["Saga Removal", "Removal Prize"] },
   { printing = "who/29", in = ["Saga Removal"] },  # Trial of a Time Lord
   { printing = "rvr/159", in = ["Ramp"] },  # Utopia Sprawl
   { printing = "khm/233", in = ["Draw", "Ikoria Fetch"] },  # Vega, the Watcher
