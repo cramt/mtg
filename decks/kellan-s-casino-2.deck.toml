@@ -45,7 +45,6 @@ cards = [
   { printing = "m3c/349", in = ["Land"] },  # Hidden Nursery
   { printing = "msc/250", in = ["Land"] },  # Hinterland Harbor
   { printing = "rav/55", in = ["Gift", "Forced Attack", "Ikoria Fetch"] },  # Hunted Phantasm
-  { printing = "cmr/280", in = ["Cascade", "Cast From Exile"] },  # Imoti, Celebrant of Bounty
   { printing = "mom/190", in = ["Battle"] },  # Invasion of Ikoria // Zilortha, Apex of Ikoria
   { printing = "mom/191", in = ["Battle"] },  # Invasion of Ixalan // Belligerent Regisaur
   { printing = "mom/62", in = ["Battle"] },  # Invasion of Kamigawa // Rooftop Saboteurs
@@ -100,6 +99,9 @@ cards = [
   { printing = "soc/425", in = ["Land"] },  # Yavimaya Coast
   { name = "Yorion, Sky Nomad", in = ["Companion"] },
   { name = "Zoetic Glyph", in = ["Gift", "Cast From Exile"] },
+  { name = "Sheltered by Ghosts", in = ["Removal Prize"] },
+  { name = "Ossification", in = ["Removal Prize"] },
+  { name = "Witness Protection", in = ["Removal Prize"] },
   { name = "Joined Researchers // Secret Rendezvous", in = ["Draw", "Gift", "Prepare", "Cast From Exile"] },
   { name = "Emeritus of Truce // Swords to Plowshares", in = ["Removal Prize", "Gift", "Prepare", "Cast From Exile", "Ikoria Fetch"] },
   { name = "King Solomon's Frogs", in = ["Removal Prize", "Gift"] },
@@ -113,10 +115,8 @@ cards = [
   { name = "Invasion of Dominaria // Serra Faithkeeper", in = ["Battle"] },
   { name = "Invasion of Gobakhan // Lightshield Array", in = ["Battle"] },
   { name = "Invasion of Muraganda // Primordial Plasm", in = ["Battle", "Removal Prize"] },
-  { name = "Invasion of Belenon // Belenon War Anthem", in = ["Battle"] },
   { name = "Tam, Observant Sequencer // Deep Sight", in = ["Draw", "Prepare", "Cast From Exile", "Ikoria Fetch"] },
   { name = "Palace Jailer", in = ["Removal Prize", "Draw"] },
-  { name = "Tenuous Truce", in = ["Draw", "Gift"] },
   { name = "Círdan the Shipwright", in = ["Draw", "Gift", "Ikoria Fetch"] },
   { name = "Studious First-Year // Rampant Growth", in = ["Ramp", "Prepare", "Cast From Exile"] },
   { name = "Floodfarm Verge", in = ["Land"] },
@@ -137,7 +137,6 @@ cards = [
   { name = "Quantum Riddler", in = ["Maybeboard", "Draw", "Cast From Exile"] },
   { name = "Mind's Dilation", in = ["Maybeboard", "Cast From Exile"] },
   { name = "Power Conduit", in = ["Maybeboard", "Battle Flipping"] },
-  { name = "Baffling End", in = ["Maybeboard", "Removal Prize", "Gift"] },
 ]
 
 [categories]
