@@ -61,7 +61,6 @@ cards = [
   { printing = "cmd/17", in = ["Removal Prize"] },  # Journey to Nowhere
   { printing = "otj/213", in = ["Commander"] },  # Kellan, the Kid
   { printing = "afc/162", in = ["Removal Prize"] },  # Kenrith's Transformation
-  { printing = "afc/187", in = ["Removal Prize", "Ikoria Fetch"] },  # Knight of Autumn
   { printing = "fdn/227", in = ["Ramp"] },  # Llanowar Elves
   { printing = "blc/143", in = ["Draw", "Gift", "Removal Prize"] },  # Loran of the Third Path
   { printing = "dmc/217", in = ["Land"] },  # Mikokoro, Center of the Sea
@@ -134,7 +133,7 @@ cards = [
   { name = "Memory Deluge", in = ["Maybeboard", "Draw", "Cast From Graveyard"] },
   { name = "Deep Analysis", in = ["Maybeboard", "Draw", "Gift", "Cast From Graveyard"] },
   { name = "Emeritus of Ideation // Ancestral Recall", in = ["Maybeboard", "Draw", "Gift", "Prepare", "Cast From Exile"] },
-  { name = "Dusk Rose Reliquary", in = ["Maybeboard", "Removal Prize"] },
+  { name = "Dusk Rose Reliquary", in = ["Removal Prize"] },
   { name = "Quantum Riddler", in = ["Maybeboard", "Draw", "Cast From Exile"] },
   { name = "Mind's Dilation", in = ["Maybeboard", "Cast From Exile"] },
   { name = "Power Conduit", in = ["Maybeboard", "Battle Flipping"] },
