@@ -31,7 +31,7 @@ cards = [
   { printing = "khm/9", in = ["Foretell", "Cast From Exile", "Board Wipe"] },  # Doomskar
   { printing = "sos/254", in = ["Land"] },  # Dreamroot Cascade
   { printing = "hoc/205", in = ["Ramp"] },  # Elvish Mystic
-  { name = "Cemetery Illuminator", in = ["Cast From Exile", "Interaction"] },
+  { name = "Cemetery Illuminator", in = ["Cast From Exile", "Interaction", "Ikoria Fetch"] },
   { printing = "mh3/220", in = ["Land"] },  # Flooded Strand
   { printing = "2x2/323", in = ["Land"] },  # Forbidden Orchard
   { printing = "trk/326", qty = 4, in = ["Land"] },  # Forest
@@ -44,7 +44,7 @@ cards = [
   { printing = "lci/274", in = ["Land"] },  # Hidden Courtyard
   { printing = "m3c/349", in = ["Land"] },  # Hidden Nursery
   { printing = "msc/250", in = ["Land"] },  # Hinterland Harbor
-  { printing = "rav/55", in = ["Gift", "Forced Attack"] },  # Hunted Phantasm
+  { printing = "rav/55", in = ["Gift", "Forced Attack", "Ikoria Fetch"] },  # Hunted Phantasm
   { printing = "cmr/280", in = ["Cascade", "Cast From Exile"] },  # Imoti, Celebrant of Bounty
   { printing = "mom/190", in = ["Battle"] },  # Invasion of Ikoria // Zilortha, Apex of Ikoria
   { printing = "mom/191", in = ["Battle"] },  # Invasion of Ixalan // Belligerent Regisaur
@@ -64,7 +64,7 @@ cards = [
   { printing = "cmd/17", in = ["Removal Prize"] },  # Journey to Nowhere
   { printing = "otj/213", in = ["Commander"] },  # Kellan, the Kid
   { printing = "afc/162", in = ["Removal Prize"] },  # Kenrith's Transformation
-  { printing = "afc/187", in = ["Removal Prize"] },  # Knight of Autumn
+  { printing = "afc/187", in = ["Removal Prize", "Ikoria Fetch"] },  # Knight of Autumn
   { printing = "fdn/227", in = ["Ramp"] },  # Llanowar Elves
   { printing = "blc/143", in = ["Draw", "Gift", "Removal Prize"] },  # Loran of the Third Path
   { printing = "dmc/217", in = ["Land"] },  # Mikokoro, Center of the Sea
@@ -80,8 +80,8 @@ cards = [
   { printing = "dmc/137", in = ["Ramp", "Suspend", "Cast From Exile"] },  # Search for Tomorrow
   { printing = "mh2/292", in = ["Cascade", "Cast From Exile"] },  # Shardless Agent
   { printing = "mh3/241", in = ["Land", "Interaction"] },  # Sink into Stupor // Soporific Springs
-  { printing = "mh3/169", in = ["Cast From Graveyard"] },  # Six
-  { printing = "soc/173", in = ["Removal Prize"] },  # Skyclave Apparition
+  { printing = "mh3/169", in = ["Cast From Graveyard", "Ikoria Fetch"] },  # Six
+  { printing = "soc/173", in = ["Removal Prize", "Ikoria Fetch"] },  # Skyclave Apparition
   { printing = "cmm/324", in = ["Removal Prize"] },  # Song of the Dryads
   { printing = "snc/257", in = ["Land"] },  # Spara's Headquarters
   { printing = "fic/27", in = ["Saga Removal"] },  # Summon: Ixion
@@ -94,16 +94,16 @@ cards = [
   { printing = "neo/42", in = ["Removal Prize"] },  # The Wandering Emperor
   { printing = "who/29", in = ["Saga Removal"] },  # Trial of a Time Lord
   { printing = "rvr/159", in = ["Ramp"] },  # Utopia Sprawl
-  { printing = "khm/233", in = ["Draw"] },  # Vega, the Watcher
+  { printing = "khm/233", in = ["Draw", "Ikoria Fetch"] },  # Vega, the Watcher
   { printing = "mh3/235", in = ["Land"] },  # Windswept Heath
   { printing = "mh3/239", in = ["Land", "Removal Prize"] },  # Witch Enchanter // Witch-Blessed Meadow
   { printing = "soc/425", in = ["Land"] },  # Yavimaya Coast
   { name = "Yorion, Sky Nomad", in = ["Companion"] },
   { name = "Zoetic Glyph", in = ["Gift", "Cast From Exile"] },
   { name = "Joined Researchers // Secret Rendezvous", in = ["Draw", "Gift", "Prepare", "Cast From Exile"] },
-  { name = "Emeritus of Truce // Swords to Plowshares", in = ["Removal Prize", "Gift", "Prepare", "Cast From Exile"] },
+  { name = "Emeritus of Truce // Swords to Plowshares", in = ["Removal Prize", "Gift", "Prepare", "Cast From Exile", "Ikoria Fetch"] },
   { name = "King Solomon's Frogs", in = ["Removal Prize", "Gift"] },
-  { name = "Master of Ceremonies", in = ["Draw", "Gift"] },
+  { name = "Master of Ceremonies", in = ["Draw", "Gift", "Ikoria Fetch"] },
   { name = "Abstract Performance", in = ["Cast From Exile", "Draw"] },
   { name = "Uro, Titan of Nature's Wrath", in = ["Draw", "Ramp", "Cast From Graveyard"] },
   { name = "Recurring Insight", in = ["Draw", "Cast From Exile"] },
@@ -114,11 +114,11 @@ cards = [
   { name = "Invasion of Gobakhan // Lightshield Array", in = ["Battle"] },
   { name = "Invasion of Muraganda // Primordial Plasm", in = ["Battle", "Removal Prize"] },
   { name = "Invasion of Belenon // Belenon War Anthem", in = ["Battle"] },
-  { name = "Tam, Observant Sequencer // Deep Sight", in = ["Draw", "Prepare", "Cast From Exile"] },
+  { name = "Tam, Observant Sequencer // Deep Sight", in = ["Draw", "Prepare", "Cast From Exile", "Ikoria Fetch"] },
   { name = "Palace Jailer", in = ["Removal Prize", "Draw"] },
   { name = "Tenuous Truce", in = ["Draw", "Gift"] },
-  { name = "Círdan the Shipwright", in = ["Draw", "Gift"] },
-  { name = "Studious First-Year // Rampant Growth", in = ["Ramp", "Prepare", "Cast From Exile"] },
+  { name = "Círdan the Shipwright", in = ["Draw", "Gift", "Ikoria Fetch"] },
+  { name = "Studious First-Year // Rampant Growth", in = ["Ramp", "Prepare", "Cast From Exile", "Ikoria Fetch"] },
   { name = "Floodfarm Verge", in = ["Land"] },
   { name = "Willowrush Verge", in = ["Land"] },
   { name = "Hushwood Verge", in = ["Land"] },
@@ -138,6 +138,7 @@ Cascade = {}
 Commander = { type = "commander" }
 Companion = { type = "companion" }
 Prepare = {}
+"Ikoria Fetch" = {}
 Draw = {}
 "Forced Attack" = {}
 Foretell = {}
