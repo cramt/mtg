@@ -3,7 +3,7 @@ format = "commander"
 description = """
 Welcome to Kellan's Casino, where the house always wins. In the casino, players can win by opening loot boxes (battles), which can contain many things.
 
-The actual rule: when a player defeats a battle, I cast it for free and get a Kellan trigger, and my opponents choose the permanent I cast. This is where Kellan's Casino becomes a midrange-y board control/politics/slug deck. The ideal game plan:
+The actual rule: when a player defeats a battle, I cast it for free and get a Kellan trigger, and my opponents choose the permanent I cast and its targets (anything except my stuff). This is where Kellan's Casino becomes a midrange-y board control/politics/slug deck. The ideal game plan:
 - I play Invasion of Ravnica (that's value for me)
 - an opponent defeats the battle because they want value
 - the battle is defeated, I get the back side (value for me), and they pick a card for me to cast
