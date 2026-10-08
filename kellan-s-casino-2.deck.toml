@@ -17,7 +17,6 @@ cards = [
   { printing = "eoc/147", in = ["Land"] },  # Adarkar Wastes
   { printing = "arb/1", in = ["Cascade", "Cast From Exile"] },  # Ardent Plea
   { printing = "scd/171", in = ["Ramp"] },  # Avacyn's Pilgrim
-  { printing = "plst/RIX-1", in = ["Removal Prize", "Gift"] },  # Baffling End
   { printing = "hoc/161", in = ["Removal Prize"] },  # Banishing Light
   { printing = "dsc/172", in = ["Ramp", "Cast From Exile"] },  # Beanstalk Giant // Fertile Footsteps
   { printing = "msc/170", in = ["Ramp"] },  # Birds of Paradise
@@ -26,7 +25,6 @@ cards = [
   { printing = "fic/377", in = ["Land"] },  # Brushland
   { printing = "msc/227", in = ["Land"] },  # Canopy Vista
   { printing = "ecc/137", in = ["Cast From Exile"] },  # Chimil, the Inner Sun
-  { printing = "fut/4", in = ["Suspend", "Cast From Exile", "Forced Attack"] },  # Chronomantic Escape
   { printing = "who/215", in = ["Battle Flipping", "Saga Rewind", "Cast From Exile"] },  # Clockspinning
   { printing = "frc/22", in = ["Land"] },  # Command Tower
   { printing = "rtr/155", in = ["Removal Prize"] },  # Detention Sphere
@@ -70,7 +68,6 @@ cards = [
   { printing = "fdn/227", in = ["Ramp"] },  # Llanowar Elves
   { printing = "blc/143", in = ["Draw", "Gift", "Removal Prize"] },  # Loran of the Third Path
   { printing = "dmc/217", in = ["Land"] },  # Mikokoro, Center of the Sea
-  { printing = "otc/101", in = ["Cast From Exile"] },  # Mind's Dilation
   { printing = "mh2/250", in = ["Land"] },  # Misty Rainforest
   { printing = "ecc/155", in = ["Land"] },  # Nesting Grounds
   { printing = "plst/MM2-151", in = ["Ramp"] },  # Noble Hierarch
@@ -78,9 +75,7 @@ cards = [
   { printing = "znr/30", in = ["Land", "Board Wipe"] },  # Ondu Inversion // Ondu Skyruins
   { printing = "trk/317", qty = 4, in = ["Land"] },  # Plains
   { printing = "mom/201", in = ["Battle Flipping", "Ramp"] },  # Portent Tracker
-  { printing = "ncc/376", in = ["Battle Flipping"] },  # Power Conduit
   { printing = "frc/79", in = ["Land"] },  # Prairie Stream
-  { printing = "fut/43", in = ["Suspend", "Cast From Exile", "Interaction"] },  # Reality Strobe
   { printing = "brc/6", in = ["Battle Flipping", "Ramp"] },  # Scholar of New Horizons
   { printing = "dmc/137", in = ["Ramp", "Suspend", "Cast From Exile"] },  # Search for Tomorrow
   { printing = "mh2/292", in = ["Cascade", "Cast From Exile"] },  # Shardless Agent
@@ -110,6 +105,11 @@ cards = [
   { name = "King Solomon's Frogs", in = ["Removal Prize", "Gift"] },
   { name = "Master of Ceremonies", in = ["Draw", "Gift"] },
   { name = "Abstract Performance", in = ["Cast From Exile", "Draw"] },
+  { name = "Uro, Titan of Nature's Wrath", in = ["Draw", "Ramp", "Cast From Graveyard"] },
+  { name = "Recurring Insight", in = ["Draw", "Cast From Exile"] },
+  { name = "Plan the Heist", in = ["Draw", "Plot", "Cast From Exile"] },
+  { name = "Behold the Multiverse", in = ["Draw", "Foretell", "Cast From Exile"] },
+  { name = "Make Your Own Luck", in = ["Draw", "Plot", "Cast From Exile"] },
   { name = "Invasion of Dominaria // Serra Faithkeeper", in = ["Battle"] },
   { name = "Invasion of Gobakhan // Lightshield Array", in = ["Battle"] },
   { name = "Invasion of Muraganda // Primordial Plasm", in = ["Battle", "Removal Prize"] },
