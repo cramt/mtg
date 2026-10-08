@@ -83,14 +83,12 @@ cards = [
   { printing = "fut/43", in = ["Suspend", "Cast From Exile", "Interaction"] },  # Reality Strobe
   { printing = "brc/6", in = ["Battle Flipping", "Ramp"] },  # Scholar of New Horizons
   { printing = "dmc/137", in = ["Ramp", "Suspend", "Cast From Exile"] },  # Search for Tomorrow
-  { printing = "soc/170", in = ["Cast From Graveyard"] },  # Sevinne's Reclamation
   { printing = "mh2/292", in = ["Cascade", "Cast From Exile"] },  # Shardless Agent
   { printing = "mh3/241", in = ["Land", "Interaction"] },  # Sink into Stupor // Soporific Springs
   { printing = "mh3/169", in = ["Cast From Graveyard"] },  # Six
   { printing = "soc/173", in = ["Removal Prize"] },  # Skyclave Apparition
   { printing = "cmm/324", in = ["Removal Prize"] },  # Song of the Dryads
   { printing = "snc/257", in = ["Land"] },  # Spara's Headquarters
-  { printing = "c21/229", in = ["Cast From Graveyard"] },  # Spitting Image
   { printing = "fic/27", in = ["Saga Removal"] },  # Summon: Ixion
   { printing = "fic/28", in = ["Saga Removal", "Attack Tax"] },  # Summon: Yojimbo
   { printing = "msc/272", in = ["Land"] },  # Sunpetal Grove
@@ -114,6 +112,8 @@ cards = [
   { name = "Abstract Performance", in = ["Cast From Exile", "Draw"] },
   { name = "Invasion of Dominaria // Serra Faithkeeper", in = ["Battle"] },
   { name = "Invasion of Gobakhan // Lightshield Array", in = ["Battle"] },
+  { name = "Invasion of Muraganda // Primordial Plasm", in = ["Battle", "Removal Prize"] },
+  { name = "Invasion of Belenon // Belenon War Anthem", in = ["Battle"] },
   { name = "Tam, Observant Sequencer // Deep Sight", in = ["Draw", "Prepare", "Cast From Exile"] },
   { name = "Palace Jailer", in = ["Removal Prize", "Draw"] },
   { name = "Tenuous Truce", in = ["Draw", "Gift"] },
