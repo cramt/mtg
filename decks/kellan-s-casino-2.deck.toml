@@ -31,7 +31,7 @@ cards = [
   { printing = "khm/9", in = ["Foretell", "Cast From Exile", "Board Wipe"] },  # Doomskar
   { printing = "sos/254", in = ["Land"] },  # Dreamroot Cascade
   { printing = "hoc/205", in = ["Ramp"] },  # Elvish Mystic
-  { printing = "snc/186", in = ["Cast From Exile"] },  # Falco Spara, Pactweaver
+  { name = "Cemetery Illuminator", in = ["Cast From Exile", "Interaction"] },
   { printing = "mh3/220", in = ["Land"] },  # Flooded Strand
   { printing = "2x2/323", in = ["Land"] },  # Forbidden Orchard
   { printing = "trk/326", qty = 4, in = ["Land"] },  # Forest
