@@ -9,6 +9,8 @@ The actual rule: when a player defeats a battle, I cast it for free and get a Ke
 - the battle is defeated, I get the back side (value for me), and they pick a card for me to cast
 - they pick Summon: Yojimbo to remove some problem from a third party (value for me), and I'm left with the rest of the saga (value for me)
 
+Rule zero: this is a 120-card deck with Yorion, Sky Nomad as companion. Commander decks are exactly 100 cards, so Yorion can never be a legal companion; I ask the table first. Yorion flickers battles (fresh ETB, new protector, full defense), sagas (back to chapter I) and O-Rings (new target).
+
 The house always wins. The deck is very saga-focused, mostly by accident: most permanents with removal on ETB plus ongoing value just happen to be sagas. Fundamentally, though, this deck is about battles and politicking people into hitting them."""
 
 cards = [
@@ -103,6 +105,27 @@ cards = [
   { printing = "mh3/235", in = ["Land"] },  # Windswept Heath
   { printing = "mh3/239", in = ["Land", "Removal Prize"] },  # Witch Enchanter // Witch-Blessed Meadow
   { printing = "soc/425", in = ["Land"] },  # Yavimaya Coast
+  { name = "Yorion, Sky Nomad", in = ["Companion"] },
+  { name = "Zoetic Glyph", in = ["Gift", "Cast From Exile"] },
+  { name = "Joined Researchers // Secret Rendezvous", in = ["Draw", "Gift", "Prepare", "Cast From Exile"] },
+  { name = "Emeritus of Truce // Swords to Plowshares", in = ["Removal Prize", "Gift", "Prepare", "Cast From Exile"] },
+  { name = "King Solomon's Frogs", in = ["Removal Prize", "Gift"] },
+  { name = "Master of Ceremonies", in = ["Draw", "Gift"] },
+  { name = "Abstract Performance", in = ["Cast From Exile", "Draw"] },
+  { name = "Invasion of Dominaria // Serra Faithkeeper", in = ["Battle"] },
+  { name = "Invasion of Gobakhan // Lightshield Array", in = ["Battle"] },
+  { name = "Tam, Observant Sequencer // Deep Sight", in = ["Draw", "Prepare", "Cast From Exile"] },
+  { name = "Palace Jailer", in = ["Removal Prize", "Draw"] },
+  { name = "Tenuous Truce", in = ["Draw", "Gift"] },
+  { name = "Círdan the Shipwright", in = ["Draw", "Gift"] },
+  { name = "Studious First-Year // Rampant Growth", in = ["Ramp", "Prepare", "Cast From Exile"] },
+  { name = "Floodfarm Verge", in = ["Land"] },
+  { name = "Willowrush Verge", in = ["Land"] },
+  { name = "Hushwood Verge", in = ["Land"] },
+  { name = "Sea of Clouds", in = ["Land"] },
+  { name = "Rejuvenating Springs", in = ["Land"] },
+  { name = "Mana Confluence", in = ["Land"] },
+  { name = "Skycoach Waypoint", in = ["Land", "Prepare"] },
 ]
 
 [categories]
@@ -113,6 +136,8 @@ Cascade = {}
 "Cast From Exile" = {}
 "Cast From Graveyard" = {}
 Commander = { type = "commander" }
+Companion = { type = "companion" }
+Prepare = {}
 Draw = {}
 "Forced Attack" = {}
 Foretell = {}
