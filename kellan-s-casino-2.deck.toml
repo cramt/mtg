@@ -126,41 +126,18 @@ cards = [
   { name = "Rejuvenating Springs", in = ["Land"] },
   { name = "Mana Confluence", in = ["Land"] },
   { name = "Skycoach Waypoint", in = ["Land", "Prepare"] },
-  { name = "Arcane Heist", in = ["Maybeboard", "Cipher", "Cast From Graveyard"] },
-  { name = "Last Thoughts", in = ["Maybeboard", "Cipher", "Draw"] },
-  { name = "Hidden Strings", in = ["Maybeboard", "Cipher"] },
-  { name = "Dennick, Pious Apprentice // Dennick, Pious Apparition", in = ["Maybeboard", "Disturb", "Cast From Graveyard", "Interaction"] },
-  { name = "Devoted Grafkeeper // Departed Soulkeeper", in = ["Maybeboard", "Disturb", "Cast From Graveyard", "Interaction"] },
-  { name = "Overwhelmed Archivist // Archive Haunt", in = ["Maybeboard", "Disturb", "Cast From Graveyard", "Draw"] },
   { name = "Gwafa Hazid, Profiteer", in = ["Maybeboard", "Gift", "Interaction"] },
   { name = "Tataru Taru", in = ["Maybeboard", "Gift", "Draw"] },
-  { name = "Black Widow, Intel Expert", in = ["Maybeboard", "Gift", "Draw"] },
-  { name = "Tempting Contract", in = ["Maybeboard", "Gift", "Ramp"] },
-  { name = "Trap the Trespassers", in = ["Maybeboard", "Voting", "Interaction"] },
   { name = "Council's Judgment", in = ["Maybeboard", "Voting", "Interaction"] },
-  { name = "Erestor of the Council", in = ["Maybeboard", "Voting", "Draw"] },
-  { name = "Queen Mother Ramonda", in = ["Maybeboard", "Monarch"] },
   { name = "Court of Grace", in = ["Maybeboard", "Monarch"] },
   { name = "Fall of the Impostor", in = ["Maybeboard", "Saga Removal", "Removal Prize"] },
-  { name = "The Curse of Fenric", in = ["Maybeboard", "Saga Removal", "Removal Prize", "Gift"] },
-  { name = "Ajani Fells the Godsire", in = ["Maybeboard", "Saga Removal", "Removal Prize"] },
   { name = "Memory Deluge", in = ["Maybeboard", "Draw", "Cast From Graveyard"] },
   { name = "Deep Analysis", in = ["Maybeboard", "Draw", "Gift", "Cast From Graveyard"] },
-  { name = "Tales of the Ancestors", in = ["Maybeboard", "Draw", "Gift", "Foretell", "Cast From Exile"] },
-  { name = "Sarulf's Packmate", in = ["Maybeboard", "Draw", "Foretell", "Cast From Exile"] },
   { name = "Emeritus of Ideation // Ancestral Recall", in = ["Maybeboard", "Draw", "Gift", "Prepare", "Cast From Exile"] },
   { name = "Quantum Riddler", in = ["Maybeboard", "Draw", "Cast From Exile"] },
-  { name = "The Fourth Doctor", in = ["Maybeboard", "Cast From Exile"] },
-  { name = "Invasion of Arcavios // Invocation of the Founders", in = ["Maybeboard", "Battle"] },
-  { name = "Falco Spara, Pactweaver", in = ["Maybeboard", "Cast From Exile"] },
-  { name = "The Wandering Emperor", in = ["Maybeboard", "Removal Prize"] },
   { name = "Mind's Dilation", in = ["Maybeboard", "Cast From Exile"] },
-  { name = "Chronomantic Escape", in = ["Maybeboard", "Suspend", "Cast From Exile", "Forced Attack"] },
-  { name = "Reality Strobe", in = ["Maybeboard", "Suspend", "Cast From Exile", "Interaction"] },
   { name = "Power Conduit", in = ["Maybeboard", "Battle Flipping"] },
   { name = "Baffling End", in = ["Maybeboard", "Removal Prize", "Gift"] },
-  { name = "Spitting Image", in = ["Maybeboard", "Cast From Graveyard"] },
-  { name = "Sevinne's Reclamation", in = ["Maybeboard", "Cast From Graveyard"] },
 ]
 
 [categories]
@@ -175,8 +152,6 @@ Companion = { type = "companion" }
 Prepare = {}
 "Ikoria Fetch" = {}
 Maybeboard = { type = "maybeboard" }
-Cipher = {}
-Disturb = {}
 Voting = {}
 Monarch = {}
 Draw = {}
