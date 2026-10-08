@@ -17,7 +17,6 @@ cards = [
   { printing = "eoc/147", in = ["Land"] },  # Adarkar Wastes
   { printing = "arb/1", in = ["Cascade", "Cast From Exile"] },  # Ardent Plea
   { printing = "scd/171", in = ["Ramp"] },  # Avacyn's Pilgrim
-  { printing = "hoc/161", in = ["Removal Prize"] },  # Banishing Light
   { printing = "dsc/172", in = ["Ramp", "Cast From Exile"] },  # Beanstalk Giant // Fertile Footsteps
   { printing = "msc/170", in = ["Ramp"] },  # Birds of Paradise
   { printing = "soc/190", in = ["Interaction", "Cast From Exile"] },  # Brazen Borrower // Petty Theft
@@ -27,7 +26,6 @@ cards = [
   { printing = "ecc/137", in = ["Cast From Exile"] },  # Chimil, the Inner Sun
   { printing = "who/215", in = ["Battle Flipping", "Saga Rewind", "Cast From Exile"] },  # Clockspinning
   { printing = "frc/22", in = ["Land"] },  # Command Tower
-  { printing = "rtr/155", in = ["Removal Prize"] },  # Detention Sphere
   { printing = "khm/9", in = ["Foretell", "Cast From Exile", "Board Wipe"] },  # Doomskar
   { printing = "sos/254", in = ["Land"] },  # Dreamroot Cascade
   { printing = "hoc/205", in = ["Ramp"] },  # Elvish Mystic
@@ -70,7 +68,6 @@ cards = [
   { printing = "mh2/250", in = ["Land"] },  # Misty Rainforest
   { printing = "ecc/155", in = ["Land"] },  # Nesting Grounds
   { printing = "plst/MM2-151", in = ["Ramp"] },  # Noble Hierarch
-  { printing = "plst/LRW-34", in = ["Removal Prize"] },  # Oblivion Ring
   { printing = "znr/30", in = ["Land", "Board Wipe"] },  # Ondu Inversion // Ondu Skyruins
   { printing = "trk/317", qty = 4, in = ["Land"] },  # Plains
   { printing = "mom/201", in = ["Battle Flipping", "Ramp"] },  # Portent Tracker
@@ -81,7 +78,6 @@ cards = [
   { printing = "mh3/241", in = ["Land", "Interaction"] },  # Sink into Stupor // Soporific Springs
   { printing = "mh3/169", in = ["Cast From Graveyard", "Ikoria Fetch"] },  # Six
   { printing = "soc/173", in = ["Removal Prize", "Ikoria Fetch"] },  # Skyclave Apparition
-  { printing = "cmm/324", in = ["Removal Prize"] },  # Song of the Dryads
   { printing = "snc/257", in = ["Land"] },  # Spara's Headquarters
   { printing = "fic/27", in = ["Saga Removal"] },  # Summon: Ixion
   { printing = "fic/28", in = ["Saga Removal", "Attack Tax"] },  # Summon: Yojimbo
@@ -99,6 +95,10 @@ cards = [
   { printing = "soc/425", in = ["Land"] },  # Yavimaya Coast
   { name = "Yorion, Sky Nomad", in = ["Companion"] },
   { name = "Zoetic Glyph", in = ["Gift", "Cast From Exile"] },
+  { name = "Baffling End", in = ["Removal Prize", "Gift"] },
+  { printing = "cmr/280", in = ["Cascade", "Cast From Exile"] },  # Imoti, Celebrant of Bounty
+  { name = "Invasion of Belenon // Belenon War Anthem", in = ["Battle"] },
+  { name = "Tenuous Truce", in = ["Draw", "Gift"] },
   { name = "Sheltered by Ghosts", in = ["Removal Prize"] },
   { name = "Ossification", in = ["Removal Prize"] },
   { name = "Witness Protection", in = ["Removal Prize"] },
