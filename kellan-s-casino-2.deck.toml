@@ -118,7 +118,7 @@ cards = [
   { name = "Palace Jailer", in = ["Removal Prize", "Draw"] },
   { name = "Tenuous Truce", in = ["Draw", "Gift"] },
   { name = "Círdan the Shipwright", in = ["Draw", "Gift", "Ikoria Fetch"] },
-  { name = "Studious First-Year // Rampant Growth", in = ["Ramp", "Prepare", "Cast From Exile", "Ikoria Fetch"] },
+  { name = "Studious First-Year // Rampant Growth", in = ["Ramp", "Prepare", "Cast From Exile"] },
   { name = "Floodfarm Verge", in = ["Land"] },
   { name = "Willowrush Verge", in = ["Land"] },
   { name = "Hushwood Verge", in = ["Land"] },
