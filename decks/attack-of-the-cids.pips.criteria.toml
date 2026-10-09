@@ -1,0 +1,44 @@
+# Cid cycles for {W}{U}, and the deck wants several cycles a turn, so both colours must
+# arrive every turn. No [casting]: rocks never get cast here, so every number is lands
+# only, a floor. Colour reliability is each cycling line divided by its generic baseline,
+# which separates "wrong colours" from "too few lands". Karsten's bar is (89+MV)%.
+# Measured 2026-10-09 after cutting Hall of Echoes / Inventors' Fair / Academy Ruins:
+# T2 92%, T4 87%, T6 83% (was 88/73/58).
+
+# Check/fast lands are untapped early in a deck with 9 basics + Tundra; shocks and the
+# pay-3-life MDFCs get paid when a turn-2 cycle is on the line; Sea of Clouds is a
+# Battlebond land (untapped in multiplayer).
+[assume]
+untapped = ['name:"Hallowed Fountain"', 'name:"Glacial Fortress"', 'name:"Seachrome Coast"', 'name:"Deserted Beach"', 'name:"Sea of Clouds"', 'name:"Prairie Stream"', 'name:"Sink into Stupor"', 'name:"Witch Enchanter"', 'name:"Sea Gate Restoration"']
+
+[mulligan]
+keep = [{ query = "t:land", min = 2, max = 5 }]
+down_to = 6
+bottom = ['mv>=5', 't:land']
+
+[[criterion]]
+name = "cycle a Cid on turn 2"
+at_least = 0.83
+require = [{ turn = 2, can_cast = "{W}{U}" }]
+
+[[criterion]]
+name = "cycle two Cids on turn 4"
+at_least = 0.48
+require = [{ turn = 4, can_cast = "{W}{W}{U}{U}" }]
+
+[[criterion]]
+name = "cycle three Cids on turn 6"
+at_least = 0.19
+require = [{ turn = 6, can_cast = "{W}{W}{W}{U}{U}{U}" }]
+
+[[criterion]]
+name = "baseline: 2 mana on turn 2"
+require = [{ turn = 2, can_cast = "{2}" }]
+
+[[criterion]]
+name = "baseline: 4 mana on turn 4"
+require = [{ turn = 4, can_cast = "{4}" }]
+
+[[criterion]]
+name = "baseline: 6 mana on turn 6"
+require = [{ turn = 6, can_cast = "{6}" }]
