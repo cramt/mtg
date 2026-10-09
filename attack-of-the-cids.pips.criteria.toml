@@ -6,9 +6,9 @@
 # 90/82/78%, back to 92/87/83% after Marsh Flats, Polluted Delta and Arcane Sanctum.
 
 # Check/fast lands are untapped early; shocks and the pay-3-life MDFCs get paid when a
-# turn-2 cycle is on the line; Sea of Clouds is untapped in multiplayer.
+# turn-2 cycle is on the line; Sea of Clouds and Morphic Pool are untapped in multiplayer.
 [assume]
-untapped = ['name:"Hallowed Fountain"', 'name:"Watery Grave"', 'name:"Godless Shrine"', 'name:"Glacial Fortress"', 'name:"Seachrome Coast"', 'name:"Sea of Clouds"', 'name:"Sink into Stupor"', 'name:"Witch Enchanter"', 'name:"Sea Gate Restoration"']
+untapped = ['name:"Hallowed Fountain"', 'name:"Watery Grave"', 'name:"Godless Shrine"', 'name:"Glacial Fortress"', 'name:"Seachrome Coast"', 'name:"Darkslick Shores"', 'name:"Concealed Courtyard"', 'name:"Morphic Pool"', 'name:"Sea of Clouds"', 'name:"Sink into Stupor"', 'name:"Witch Enchanter"', 'name:"Sea Gate Restoration"']
 
 [mulligan]
 keep = [{ query = "t:land", min = 2, max = 5 }]
@@ -41,3 +41,19 @@ require = [{ turn = 4, can_cast = "{4}" }]
 [[criterion]]
 name = "baseline: 6 mana on turn 6"
 require = [{ turn = 6, can_cast = "{6}" }]
+
+# Black is a real third colour: Stitcher's Supplier on turn 1, Buried Alive on turn 3
+# (89.7% given 3 mana on 2026-10-09; Karsten wants 92%, rocks not counted here).
+[[criterion]]
+name = "Stitcher's Supplier on turn 1"
+at_least = 0.40
+require = [{ turn = 1, can_cast = "{B}" }]
+
+[[criterion]]
+name = "Buried Alive on turn 3"
+at_least = 0.66
+require = [{ turn = 3, can_cast = "{2}{B}" }]
+
+[[criterion]]
+name = "baseline: 3 mana on turn 3"
+require = [{ turn = 3, can_cast = "{3}" }]

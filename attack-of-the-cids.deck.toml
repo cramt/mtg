@@ -1,7 +1,7 @@
 name = "Attack of the Cids"
 format = "commander"
 description = """
-Ravos + Sakashima, Esper: Azorius with a black splash for Ravos. Eighteen Cid, Timeless Artificer: Sakashima turns off the legend rule so they all stick, cycled ones still count from the graveyard, Ravos pumps everything and hands a Cid back every upkeep to cycle again, and Maskwood Nexus / Encroaching Mycosynth make the Cids pump each other.
+Ravos + Sakashima, Esper. Black bins Cids: Stitcher's Supplier, Buried Alive, Necromancer's Stockpile, Likeness Looter. Eighteen Cid, Timeless Artificer: Sakashima turns off the legend rule so they all stick, cycled ones still count from the graveyard, Ravos pumps everything and hands a Cid back every upkeep to cycle again, and Maskwood Nexus / Encroaching Mycosynth make the Cids pump each other.
 """
 
 cards = [
@@ -10,13 +10,13 @@ cards = [
   { name = "Cid, Timeless Artificer", qty = 18, in = ["Cid"] },
   { name = "Maskwood Nexus", in = ["Type Change"] },
   { name = "Arcane Adaptation", in = ["Type Change"] },
-  { name = "Leyline of Transformation", in = ["Type Change"] },
+  { name = "Necromancer's Stockpile", in = ["Self-Mill", "Draw"] },
   { name = "Encroaching Mycosynth", in = ["Type Change"] },
   { name = "Liquimetal Torque", in = ["Ramp", "Type Change"] },
   { name = "Mirror Box", in = ["Legend Rule", "Anthem"] },
   { name = "Key to the Side-Door", in = ["Draw", "Evasion"] },
-  { name = "Perpetual Timepiece", in = ["Self-Mill"] },
-  { name = "Phyrexian Metamorph", in = ["Copy"] },
+  { name = "Buried Alive", in = ["Self-Mill"] },
+  { name = "Likeness Looter", in = ["Copy", "Self-Mill"] },
   { name = "Three Steps Ahead", in = ["Counter", "Copy"] },
   { name = "Etherium Sculptor", in = ["Artificer Artifact", "Cost Reducer"] },
   { name = "Voyager Quickwelder", in = ["Artificer Artifact", "Cost Reducer"] },
@@ -29,7 +29,7 @@ cards = [
   { name = "Urza, Prince of Kroog", in = ["Artificer", "Anthem"] },
   { name = "Losheel, Clockwork Scholar", in = ["Artificer", "Draw"] },
   { name = "Padeem, Consul of Innovation", in = ["Artificer", "Draw"] },
-  { name = "Whirler Rogue", in = ["Artificer", "Tokens", "Evasion"] },
+  { name = "Weaponcraft Enthusiast", in = ["Artificer", "Tokens"] },
   { name = "Universal Automaton", in = ["Changeling"] },
   { name = "Three Tree Mascot", in = ["Changeling", "Ramp"] },
   { name = "Unsettled Mariner", in = ["Changeling"] },
@@ -38,16 +38,16 @@ cards = [
   { name = "Silver Myr", in = ["Ramp"] },
   { name = "Ornithopter of Paradise", in = ["Ramp"] },
   { name = "Arcane Signet", in = ["Ramp"] },
-  { name = "Talisman of Progress", in = ["Ramp"] },
+  { name = "Talisman of Hierarchy", in = ["Ramp"] },
   { name = "Thopter Spy Network", in = ["Draw", "Tokens"] },
-  { name = "Esper Sentinel", in = ["Draw"] },
+  { name = "Stitcher's Supplier", in = ["Self-Mill"] },
   { name = "Swords to Plowshares", in = ["Removal"] },
-  { name = "Path to Exile", in = ["Removal"] },
+  { name = "Bitter Triumph", in = ["Removal", "Self-Mill"] },
   { name = "Dispatch", in = ["Removal"] },
   { name = "Get Lost", in = ["Removal"] },
   { name = "Fateful Absence", in = ["Removal"] },
-  { name = "Generous Gift", in = ["Removal"] },
-  { name = "Counterspell", in = ["Counter"] },
+  { name = "Infernal Grasp", in = ["Removal"] },
+  { name = "Anguished Unmaking", in = ["Removal"] },
   { name = "An Offer You Can't Refuse", in = ["Counter"] },
   { name = "Organic Extinction", in = ["Wipe"] },
   { name = "Austere Command", in = ["Wipe"] },
@@ -79,9 +79,12 @@ cards = [
   { name = "Polluted Delta", in = ["Land"] },
   { name = "Arcane Sanctum", in = ["Land"] },
   { name = "Marsh Flats", in = ["Land"] },
-  { name = "Island", qty = 5, in = ["Land"] },
+  { name = "Darkslick Shores", in = ["Land"] },
+  { name = "Morphic Pool", in = ["Land"] },
+  { name = "Concealed Courtyard", in = ["Land"] },
+  { name = "Island", qty = 3, in = ["Land"] },
   { name = "Caves of Koilos", in = ["Land"] },
-  { name = "Plains", qty = 3, in = ["Land"] },
+  { name = "Plains", qty = 2, in = ["Land"] },
 ]
 
 [categories]
