@@ -1,11 +1,10 @@
 # Curve: does the deck cast what it should, when it should. Mana spent here is gone, so the
 # colour questions live in attack-of-the-cids.pips.criteria.toml, which casts nothing.
 
-# Check/fast lands are untapped early in a deck with 9 basics + Tundra; shocks and the
-# pay-3-life MDFCs get paid when a turn-2 cycle is on the line; Sea of Clouds is a
-# Battlebond land (untapped in multiplayer).
+# Check/fast lands are untapped early; shocks and the pay-3-life MDFCs get paid when a
+# turn-2 cycle is on the line; Sea of Clouds is untapped in multiplayer.
 [assume]
-untapped = ['name:"Hallowed Fountain"', 'name:"Glacial Fortress"', 'name:"Seachrome Coast"', 'name:"Deserted Beach"', 'name:"Sea of Clouds"', 'name:"Prairie Stream"', 'name:"Sink into Stupor"', 'name:"Witch Enchanter"', 'name:"Sea Gate Restoration"']
+untapped = ['name:"Hallowed Fountain"', 'name:"Watery Grave"', 'name:"Godless Shrine"', 'name:"Glacial Fortress"', 'name:"Seachrome Coast"', 'name:"Sea of Clouds"', 'name:"Sink into Stupor"', 'name:"Witch Enchanter"', 'name:"Sea Gate Restoration"']
 
 [mulligan]
 keep = [{ query = "t:land", min = 2, max = 5 }]
@@ -13,15 +12,15 @@ down_to = 6
 bottom = ['mv>=5', 't:land']
 
 [casting]
-prefer = ['cat:"Ramp"', 'name:"Sakashima of a Thousand Faces"', 'name:"Rebbec, Architect of Ascension"']
+prefer = ['cat:"Ramp"', 'name:"Sakashima of a Thousand Faces"', 'name:"Ravos, Soultender"']
 
 [[criterion]]
-name = "commander on curve (4-drop: turn 3 off a 2-mana rock)"
+name = "commander on curve (Sakashima turn 3 or Ravos turn 4, off a 2-mana rock)"
 at_least = 0.15
 [[criterion.any_of]]
 require = [{ turn = 3, cast = 'name:"Sakashima of a Thousand Faces"', min = 1 }]
 [[criterion.any_of]]
-require = [{ turn = 3, cast = 'name:"Rebbec, Architect of Ascension"', min = 1 }]
+require = [{ turn = 4, cast = 'name:"Ravos, Soultender"', min = 1 }]
 
 [[criterion]]
 name = "a commander down by turn 4"
@@ -29,7 +28,7 @@ at_least = 0.55
 [[criterion.any_of]]
 require = [{ turn = 4, cast = 'name:"Sakashima of a Thousand Faces"', min = 1 }]
 [[criterion.any_of]]
-require = [{ turn = 4, cast = 'name:"Rebbec, Architect of Ascension"', min = 1 }]
+require = [{ turn = 4, cast = 'name:"Ravos, Soultender"', min = 1 }]
 
 [[expect]]
 name = "Cids seen by turn 6"

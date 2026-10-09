@@ -2,14 +2,13 @@
 # arrive every turn. No [casting]: rocks never get cast here, so every number is lands
 # only, a floor. Colour reliability is each cycling line divided by its generic baseline,
 # which separates "wrong colours" from "too few lands". Karsten's bar is (89+MV)%.
-# Measured 2026-10-09 after cutting Hall of Echoes / Inventors' Fair / Academy Ruins:
-# T2 92%, T4 87%, T6 83% (was 88/73/58).
+# Measured 2026-10-09, WU-given-mana: WU-only build 92/87/83%; Esper splash with 8 black duals
+# 90/82/78%, back to 92/87/83% after Marsh Flats, Polluted Delta and Arcane Sanctum.
 
-# Check/fast lands are untapped early in a deck with 9 basics + Tundra; shocks and the
-# pay-3-life MDFCs get paid when a turn-2 cycle is on the line; Sea of Clouds is a
-# Battlebond land (untapped in multiplayer).
+# Check/fast lands are untapped early; shocks and the pay-3-life MDFCs get paid when a
+# turn-2 cycle is on the line; Sea of Clouds is untapped in multiplayer.
 [assume]
-untapped = ['name:"Hallowed Fountain"', 'name:"Glacial Fortress"', 'name:"Seachrome Coast"', 'name:"Deserted Beach"', 'name:"Sea of Clouds"', 'name:"Prairie Stream"', 'name:"Sink into Stupor"', 'name:"Witch Enchanter"', 'name:"Sea Gate Restoration"']
+untapped = ['name:"Hallowed Fountain"', 'name:"Watery Grave"', 'name:"Godless Shrine"', 'name:"Glacial Fortress"', 'name:"Seachrome Coast"', 'name:"Sea of Clouds"', 'name:"Sink into Stupor"', 'name:"Witch Enchanter"', 'name:"Sea Gate Restoration"']
 
 [mulligan]
 keep = [{ query = "t:land", min = 2, max = 5 }]

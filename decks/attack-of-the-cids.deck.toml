@@ -1,11 +1,11 @@
 name = "Attack of the Cids"
 format = "commander"
 description = """
-Rebbec + Sakashima, WU. Eighteen Cid, Timeless Artificer: Sakashima turns off the legend rule so they all stick, cycled ones still count from the graveyard, and Maskwood Nexus / Encroaching Mycosynth make the Cids pump each other. Rebbec gives every artifact protection from each mana value you control, so one Treasure makes your army unblockable by tokens.
+Ravos + Sakashima, Esper: Azorius with a black splash for Ravos. Eighteen Cid, Timeless Artificer: Sakashima turns off the legend rule so they all stick, cycled ones still count from the graveyard, Ravos pumps everything and hands a Cid back every upkeep to cycle again, and Maskwood Nexus / Encroaching Mycosynth make the Cids pump each other.
 """
 
 cards = [
-  { name = "Rebbec, Architect of Ascension", in = ["Commander"] },
+  { name = "Ravos, Soultender", in = ["Commander"] },
   { name = "Sakashima of a Thousand Faces", in = ["Commander"] },
   { name = "Cid, Timeless Artificer", qty = 18, in = ["Cid"] },
   { name = "Maskwood Nexus", in = ["Type Change"] },
@@ -15,7 +15,7 @@ cards = [
   { name = "Liquimetal Torque", in = ["Ramp", "Type Change"] },
   { name = "Mirror Box", in = ["Legend Rule", "Anthem"] },
   { name = "Key to the Side-Door", in = ["Draw", "Evasion"] },
-  { name = "Spark Double", in = ["Copy"] },
+  { name = "Perpetual Timepiece", in = ["Self-Mill"] },
   { name = "Phyrexian Metamorph", in = ["Copy"] },
   { name = "Three Steps Ahead", in = ["Counter", "Copy"] },
   { name = "Etherium Sculptor", in = ["Artificer Artifact", "Cost Reducer"] },
@@ -63,21 +63,25 @@ cards = [
   { name = "Glacial Fortress", in = ["Land"] },
   { name = "Adarkar Wastes", in = ["Land"] },
   { name = "Seachrome Coast", in = ["Land"] },
-  { name = "Hengegate Pathway // Mistgate Pathway", in = ["Land"] },
+  { name = "Scrubland", in = ["Land"] },
   { name = "Floodfarm Verge", in = ["Land"] },
-  { name = "Deserted Beach", in = ["Land"] },
-  { name = "Port Town", in = ["Land"] },
-  { name = "Prairie Stream", in = ["Land"] },
+  { name = "Underground Sea", in = ["Land"] },
+  { name = "Watery Grave", in = ["Land"] },
+  { name = "Godless Shrine", in = ["Land"] },
   { name = "Sea of Clouds", in = ["Land"] },
-  { name = "Irrigated Farmland", in = ["Land"] },
+  { name = "Raffine's Tower", in = ["Land"] },
   { name = "Razortide Bridge", in = ["Land"] },
   { name = "Glimmervoid", in = ["Land"] },
   { name = "Spire of Industry", in = ["Land"] },
   { name = "Seat of the Synod", in = ["Land"] },
   { name = "Ancient Den", in = ["Land"] },
   { name = "Path of Ancestry", in = ["Land"] },
-  { name = "Island", qty = 7, in = ["Land"] },
-  { name = "Plains", qty = 5, in = ["Land"] },
+  { name = "Polluted Delta", in = ["Land"] },
+  { name = "Arcane Sanctum", in = ["Land"] },
+  { name = "Marsh Flats", in = ["Land"] },
+  { name = "Island", qty = 5, in = ["Land"] },
+  { name = "Caves of Koilos", in = ["Land"] },
+  { name = "Plains", qty = 3, in = ["Land"] },
 ]
 
 [categories]
