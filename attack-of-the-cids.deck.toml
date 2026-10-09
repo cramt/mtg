@@ -1,7 +1,7 @@
 name = "Attack of the Cids"
 format = "commander"
 description = """
-Ravos + Sakashima, Esper. Black bins Cids: Stitcher's Supplier, Buried Alive, Necromancer's Stockpile, Likeness Looter. Eighteen Cid, Timeless Artificer: Sakashima turns off the legend rule so they all stick, cycled ones still count from the graveyard, Ravos pumps everything and hands a Cid back every upkeep to cycle again, and Maskwood Nexus / Encroaching Mycosynth make the Cids pump each other. Every Cid is MV 4, so Fix What's Broken (X=4) and Immortal Servitude (X=4) bring the whole binned pile back at once; Angel of Glory's Rise does it off Animate Dead, Ravos or a Sakashima copy.
+Ravos + Sakashima, Esper. Black bins Cids: Stitcher's Supplier, Buried Alive, Necromancer's Stockpile, Likeness Looter. Eighteen Cid, Timeless Artificer: Sakashima turns off the legend rule so they all stick, cycled ones still count from the graveyard, Ravos pumps everything and hands a Cid back every upkeep to cycle again, and Maskwood Nexus / Encroaching Mycosynth make the Cids pump each other. Every Cid is MV 4, so Fix What's Broken (X=4) and Immortal Servitude (X=4) bring the whole binned pile back at once; Angel of Glory's Rise does it off Animate Dead, Ravos or a Sakashima copy. Sakashima, Mirror Box and Council of Reeds keep the legend rule off so a returned pile stays. Cyberdrive Awakener, Whirler Rogue, Dragoon's Lance and Gold-Forged Thopteryx get the pumped artifact creatures and Heroes over the top.
 """
 
 cards = [
@@ -10,7 +10,7 @@ cards = [
   { name = "Cid, Timeless Artificer", qty = 18, in = ["Cid"] },
   { name = "Maskwood Nexus", in = ["Type Change"] },
   { name = "Arcane Adaptation", in = ["Type Change"] },
-  { name = "Necromancer's Stockpile", in = ["Self-Mill", "Draw"] },
+  { name = "Council of Reeds", in = ["Legend Rule"] },
   { name = "Encroaching Mycosynth", in = ["Type Change"] },
   { name = "Liquimetal Torque", in = ["Ramp", "Type Change"] },
   { name = "Mirror Box", in = ["Legend Rule", "Anthem"] },
@@ -19,23 +19,23 @@ cards = [
   { name = "Likeness Looter", in = ["Copy", "Self-Mill"] },
   { name = "Three Steps Ahead", in = ["Counter", "Copy"] },
   { name = "Etherium Sculptor", in = ["Artificer Artifact", "Cost Reducer"] },
-  { name = "Voyager Quickwelder", in = ["Artificer Artifact", "Cost Reducer"] },
+  { name = "Gold-Forged Thopteryx", in = ["Evasion", "Protection"] },
   { name = "Automated Artificer", in = ["Artificer Artifact", "Ramp"] },
   { name = "Lita, Mechanical Engineer", in = ["Artificer Artifact"] },
   { name = "Animate Dead", in = ["Reanimation"] },
   { name = "Millikin", in = ["Ramp", "Self-Mill"] },
   { name = "Immortal Servitude", in = ["Mass Reanimation"] },
-  { name = "Shuri, Vibranium Technologist", in = ["Artificer"] },
+  { name = "Silver Myr", in = ["Ramp"] },
   { name = "Urza, Prince of Kroog", in = ["Artificer", "Anthem"] },
   { name = "Losheel, Clockwork Scholar", in = ["Artificer", "Draw"] },
   { name = "Angel of Glory's Rise", in = ["Mass Reanimation"] },
-  { name = "Weaponcraft Enthusiast", in = ["Artificer", "Tokens"] },
+  { name = "Whirler Rogue", in = ["Artificer", "Evasion", "Tokens"] },
   { name = "Universal Automaton", in = ["Changeling"] },
   { name = "Three Tree Mascot", in = ["Changeling", "Ramp"] },
   { name = "Unsettled Mariner", in = ["Changeling"] },
   { name = "Mirror Entity", in = ["Changeling", "Finisher"] },
   { name = "Urza's Incubator", in = ["Cost Reducer"] },
-  { name = "Silver Myr", in = ["Ramp"] },
+  { name = "Cyberdrive Awakener", in = ["Evasion", "Finisher"] },
   { name = "Ornithopter of Paradise", in = ["Ramp"] },
   { name = "Arcane Signet", in = ["Ramp"] },
   { name = "Talisman of Hierarchy", in = ["Ramp"] },
@@ -45,10 +45,10 @@ cards = [
   { name = "Bitter Triumph", in = ["Removal", "Self-Mill"] },
   { name = "Dispatch", in = ["Removal"] },
   { name = "Get Lost", in = ["Removal"] },
-  { name = "Fateful Absence", in = ["Removal"] },
+  { name = "Fell the Profane // Fell Mire", in = ["Land", "Removal"] },
   { name = "Infernal Grasp", in = ["Removal"] },
   { name = "Anguished Unmaking", in = ["Removal"] },
-  { name = "An Offer You Can't Refuse", in = ["Counter"] },
+  { name = "Dragoon's Lance", in = ["Hero", "Evasion"] },
   { name = "Fix What's Broken", in = ["Mass Reanimation"] },
   { name = "Austere Command", in = ["Wipe"] },
   { name = "Soul-Guide Lantern", in = ["Graveyard Hate"] },
@@ -101,10 +101,12 @@ Counter = {}
 Draw = {}
 Evasion = {}
 Finisher = {}
+Hero = {}
 "Graveyard Hate" = {}
 Land = {}
 "Legend Rule" = {}
 "Mass Reanimation" = {}
+Protection = {}
 Ramp = {}
 Reanimation = {}
 Removal = {}
