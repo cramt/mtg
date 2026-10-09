@@ -1,0 +1,83 @@
+# Mill: how many Cids reach the graveyard, and how often that meets a mass reanimation.
+# Cycling, Buried Alive and the reanimation itself aren't modelled by gauntlet, so these
+# are floors from milling and discarding alone. Compare variants; don't quote absolutes.
+# Gaps filed upstream: cycling cramt/progress-engine#136, Buried Alive #137, Traumatize
+# (mill half) #138, Stillness in Motion (upkeep) #139, reanimation itself #140. Until they
+# land, tools/cid-goldfish answers "Cids on the battlefield by turn N".
+
+[assume]
+untapped = ['name:"Hallowed Fountain"', 'name:"Watery Grave"', 'name:"Godless Shrine"', 'name:"Glacial Fortress"', 'name:"Seachrome Coast"', 'name:"Darkslick Shores"', 'name:"Concealed Courtyard"', 'name:"Morphic Pool"', 'name:"Sea of Clouds"', 'name:"Sink into Stupor"', 'name:"Witch Enchanter"', 'name:"Sea Gate Restoration"', 'name:"Fell the Profane"', 'name:"Drowned Catacomb"', 'name:"Isolated Chapel"']
+
+[mulligan]
+keep = [{ query = "t:land", min = 2, max = 5 }]
+down_to = 6
+bottom = ['mv>=5', 't:land']
+
+[land_drop]
+prefer = ['o:"enters tapped"', 't:land']
+
+[discard]
+prefer = ['cat:"Cid"']
+
+[casting]
+prefer = ['cat:"Self-Mill"', 'cat:"Ramp"']
+
+[[effect]]
+match = '''name:"Stitcher's Supplier"'''
+on = "cast"
+mill = 3
+
+[[effect]]
+match = 'name:"Bitter Triumph"'
+on = "cast"
+discard = 1
+
+[[criterion]]
+name = "3+ Cids in the graveyard by turn 5"
+require = [{ turn = 5, query = 'cat:"Cid"', zone = "graveyard", min = 3 }]
+
+[[criterion]]
+name = "reanimation turn: 3+ Cids binned, a mass reanimation in hand, by turn 6"
+require = [
+  { turn = 6, query = 'cat:"Cid"', zone = "graveyard", min = 3 },
+  { turn = 6, query = 'cat:"Mass Reanimation"', min = 1 },
+]
+
+[[criterion]]
+name = "a reanimation or a tutor for one in hand by turn 6"
+at_least = 0.60
+require = [{ turn = 6, query = 'cat:"Mass Reanimation" or cat:"Reanimation" or cat:"Tutor"', min = 1 }]
+
+[[expect]]
+name = "Cids in the graveyard, turn 6"
+turn = 6
+query = 'cat:"Cid"'
+zone = "graveyard"
+
+# X = 4 returns every Cid; the hybrid pips paid W, W, B.
+[[effect]]
+match = 'name:"Immortal Servitude"'
+on = "cast"
+cost = "{4}{W}{W}{B}"
+
+[[effect]]
+match = 'name:"Hedron Crab"'
+on = "landfall"
+mill = 3
+
+[[effect]]
+match = 'name:"Glimpse the Unthinkable"'
+on = "cast"
+mill = 10
+
+# Traumatize mills half the library (~40 cards on turn 5); gauntlet caps a mill at 20,
+# so this reads it at less than half its real size.
+[[effect]]
+match = 'name:"Traumatize"'
+on = "cast"
+mill = 20
+
+[[effect]]
+match = 'name:"Doombot Harbinger"'
+on = "cast"
+mill = 4
