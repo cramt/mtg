@@ -24,13 +24,13 @@ rank = [
 # by name.
 order = [
   "decks/munchausen-syndrome.deck.toml",
+  "decks/kellan-s-casino-2.deck.toml",
   "decks/ashnod-will-punch-you.deck.toml",
   "decks/attack-of-the-cids.deck.toml",
   "decks/caradora-and-her-golden-argussy.deck.toml",
   "decks/go-go-gadget-eldrazi.deck.toml",
   "decks/go-go-gadget-eldrazi-bargain-bin.deck.toml",
   "decks/i-m-the-titanic-you-re-an-iceberg.deck.toml",
-  "decks/kellan-s-casino-2.deck.toml",
   "decks/pirates-on-a-bicycle.deck.toml",
   "decks/road-trip-through-the-blind-eternities.deck.toml",
   "decks/senu-later.deck.toml",
