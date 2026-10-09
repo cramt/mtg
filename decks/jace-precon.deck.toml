@@ -1,0 +1,112 @@
+name = "Jace Precon"
+format = "commander"
+
+cards = [
+  { printing = "frc/19", in = ["Protection"] },  # Akroma, Angel of Fury
+  { printing = "frc/20", in = ["Ramp"] },  # Arcane Signet
+  { printing = "frc/46", in = ["Burn"] },  # Archfiend of Despair
+  { printing = "frc/47", in = ["Draw"] },  # Archon of Cruelty
+  { printing = "frc/7", in = ["Recursion"] },  # Avacyn, Angel of Horror
+  { printing = "frc/53", in = ["Ramp"] },  # Azorius Signet
+  { printing = "frc/65", in = ["Land"] },  # Battlefield Forge
+  { printing = "frc/39", in = ["Draw"] },  # Brainstorm
+  { printing = "frc/40", in = ["Draw"] },  # Brainsurge
+  { printing = "frc/66", in = ["Land"] },  # Caves of Koilos
+  { printing = "frc/54", in = ["Ramp"] },  # Chromatic Lantern
+  { printing = "frc/67", in = ["Land"] },  # Clifftop Retreat
+  { printing = "frc/22", in = ["Land"] },  # Command Tower
+  { printing = "frc/68", in = ["Land"] },  # Contaminated Landscape
+  { printing = "frc/55", in = ["Ramp"] },  # Currency Converter
+  { printing = "frc/49", in = ["Ramp"] },  # Cursed Mirror
+  { printing = "frc/4", in = ["Draw"] },  # Dack Fayden, Helping Hand
+  { printing = "frc/13", in = ["Protection"] },  # Darksteel Angel
+  { printing = "frc/50", in = ["Removal"] },  # Despark
+  { printing = "frc/56", in = ["Ramp"] },  # Dimir Signet
+  { printing = "frc/48", in = ["Tokens"] },  # Dreadhorde Invasion
+  { printing = "frc/69", in = ["Land"] },  # Drowned Catacomb
+  { printing = "frc/24", in = ["Tokens"] },  # Elspeth, Sun's Champion
+  { printing = "frc/70", in = ["Land"] },  # Exotic Orchard
+  { printing = "frc/71", in = ["Land"] },  # Fabled Passage
+  { printing = "frc/41", in = ["Draw"] },  # Fact or Fiction
+  { printing = "fra/132", in = ["Removal"] },  # Fatehold Charm
+  { printing = "frc/57", in = ["Ramp"] },  # Fellwar Stone
+  { printing = "frc/72", in = ["Land"] },  # Fetid Heath
+  { printing = "frc/25", in = ["Protection"] },  # Flawless Maneuver
+  { printing = "frc/14", in = ["Tokens"] },  # Ginger, Queen of Sweets
+  { printing = "frc/73", in = ["Land"] },  # Glacial Fortress
+  { printing = "frc/26", in = ["Protection"] },  # Grand Crescendo
+  { printing = "fra/284", qty = 3, in = ["Land"] },  # Island
+  { printing = "frc/74", in = ["Land"] },  # Isolated Chapel
+  { printing = "frc/58", in = ["Ramp"] },  # Izzet Signet
+  { printing = "frc/1", in = ["Commander"] },  # Jace, Multiverse Architect
+  { printing = "frc/8", in = ["Theft"] },  # Jhoira, Weatherlight Corsair
+  { printing = "frc/75", in = ["Land"] },  # Kher Keep
+  { printing = "frc/27", in = ["Tokens"] },  # Lingering Souls
+  { printing = "frc/28", in = ["Removal"] },  # Martial Coup
+  { printing = "frc/42", in = ["Tokens"] },  # Mass Polymorph
+  { printing = "frc/15", in = ["Draw"] },  # Memnarch, the Warden
+  { printing = "fra/287", qty = 2, in = ["Land"] },  # Mountain
+  { printing = "frc/76", in = ["Land"] },  # Mystic Gate
+  { printing = "frc/2", in = ["Draw"] },  # Nissa, Leyline Tamer
+  { printing = "frc/10", in = ["Draw"] },  # Niv-Mizzet, Ghost Counsel
+  { printing = "frc/5", in = ["Removal"] },  # Ob Nixilis, the Ascended
+  { printing = "frc/43", in = ["Draw"] },  # Occult Epiphany
+  { printing = "frc/3", in = ["Ramp"] },  # Omnath, Locus of the Void
+  { printing = "frc/29", in = ["Tokens"] },  # Overlord of the Mistmoors
+  { printing = "frc/77", in = ["Land"] },  # Path of Ancestry
+  { printing = "frc/30", in = ["Removal"] },  # Path to Exile
+  { printing = "frc/78", in = ["Land"] },  # Perilous Landscape
+  { printing = "fra/281", qty = 4, in = ["Land"] },  # Plains
+  { printing = "fra/35", in = ["Removal"] },  # Plan for All Outcomes
+  { printing = "frc/79", in = ["Land"] },  # Prairie Stream
+  { printing = "frc/59", in = ["Removal"] },  # Proteus Staff
+  { printing = "frc/80", in = ["Land"] },  # Radiant Summit
+  { printing = "frc/60", in = ["Ramp"] },  # Rakdos Signet
+  { printing = "frc/23", in = ["Land"] },  # Reflecting Pool
+  { printing = "frc/81", in = ["Land"] },  # Restless Anchorage
+  { printing = "frc/82", in = ["Land"] },  # Restless Spire
+  { printing = "frc/31", in = ["Tokens"] },  # Secure the Wastes
+  { printing = "frc/32", in = ["Protection"] },  # Serra's Emissary
+  { printing = "frc/44", in = ["Tokens"] },  # Shark Typhoon
+  { printing = "frc/83", in = ["Land"] },  # Shivan Reef
+  { printing = "frc/33", in = ["Tokens"] },  # Skrelv's Hive
+  { printing = "frc/21", in = ["Ramp"] },  # Sol Ring
+  { printing = "frc/34", in = ["Draw"] },  # Staff of the Storyteller
+  { printing = "frc/35", in = ["Removal"] },  # Stroke of Midnight
+  { printing = "frc/84", in = ["Land"] },  # Sulfur Falls
+  { printing = "frc/85", in = ["Land"] },  # Sulfurous Springs
+  { printing = "frc/36", in = ["Removal"] },  # Sunfall
+  { printing = "frc/86", in = ["Land"] },  # Sunken Ruins
+  { printing = "fra/286", qty = 2, in = ["Land"] },  # Swamp
+  { printing = "frc/37", in = ["Removal"] },  # Swords to Plowshares
+  { printing = "frc/45", in = ["Blink"] },  # Synthetic Destiny
+  { printing = "frc/61", in = ["Ramp"] },  # Talisman of Creativity
+  { printing = "frc/62", in = ["Ramp"] },  # Talisman of Dominance
+  { printing = "frc/63", in = ["Ramp"] },  # Talisman of Indulgence
+  { printing = "frc/64", in = ["Ramp"] },  # Talisman of Progress
+  { printing = "frc/11", in = ["Draw"] },  # Tamiyo, Upriser Crowned
+  { printing = "frc/6", in = ["Protection"] },  # Teferi's Reproach
+  { printing = "frc/12", in = ["Theft"] },  # The Ur-Sphinx
+  { printing = "frc/16", in = ["Land"] },  # Turbulent Crater
+  { printing = "frc/17", in = ["Land"] },  # Turbulent Shore
+  { printing = "frc/18", in = ["Land"] },  # Turbulent Wetlands
+  { printing = "frc/87", in = ["Land"] },  # Underground River
+  { printing = "frc/9", in = ["Copy"] },  # Venser, Fervent Forger
+  { printing = "frc/51", in = ["Draw"] },  # Whirlwind of Thought
+  { printing = "frc/38", in = ["Removal"] },  # White Sun's Twilight
+  { printing = "frc/52", in = ["Copy"] },  # Windcrag Siege
+]
+
+[categories]
+Blink = {}
+Burn = {}
+Commander = { type = "commander" }
+Copy = {}
+Draw = {}
+Protection = {}
+Ramp = {}
+Recursion = {}
+Removal = {}
+Theft = {}
+Tokens = {}
+Land = {}
