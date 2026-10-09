@@ -1,7 +1,7 @@
 name = "Attack of the Cids"
 format = "commander"
 description = """
-Ravos + Sakashima, Esper. Black bins Cids: Stitcher's Supplier, Buried Alive, Necromancer's Stockpile, Likeness Looter. Eighteen Cid, Timeless Artificer: Sakashima turns off the legend rule so they all stick, cycled ones still count from the graveyard, Ravos pumps everything and hands a Cid back every upkeep to cycle again, and Maskwood Nexus / Encroaching Mycosynth make the Cids pump each other. Every Cid is MV 4, so Fix What's Broken (X=4) and Immortal Servitude (X=4) bring the whole binned pile back at once; Angel of Glory's Rise does it off Animate Dead, Ravos or a Sakashima copy. Sakashima, Mirror Box and Council of Reeds keep the legend rule off so a returned pile stays. Cyberdrive Awakener, Whirler Rogue, Dragoon's Lance and Gold-Forged Thopteryx get the pumped artifact creatures and Heroes over the top.
+Ravos + Sakashima, Esper. Eighteen Cid, Timeless Artificer, all mana value 4 and Human. Mill them (Hedron Crab, Stitcher's Supplier, Stillness in Motion, Doombot Harbinger, Glimpse the Unthinkable, Traumatize for half the library), cycle the ones you draw, then bring the pile back at once: Fix What's Broken at X=4, Immortal Servitude at X=4, Patriarch's Bidding naming Artificer, Storm of Souls, or Angel of Glory's Rise off Entomb + Reanimate / Animate Dead. Diabolic Intent finds whichever is missing. Sakashima, Mirror Box and Council of Reeds keep the legend rule off so the pile stays. Each Cid pumps artifact creatures and Heroes per Artificer on the board and in the yard; Maskwood Nexus, Encroaching Mycosynth and Arcane Adaptation make the Cids pump each other, and Cyberdrive Awakener, Whirler Rogue, Doombot, Dragoon's Lance and Gold-Forged Thopteryx carry it through the air.
 """
 
 cards = [
@@ -14,14 +14,14 @@ cards = [
   { name = "Encroaching Mycosynth", in = ["Type Change"] },
   { name = "Liquimetal Torque", in = ["Ramp", "Type Change"] },
   { name = "Mirror Box", in = ["Legend Rule", "Anthem"] },
-  { name = "Key to the Side-Door", in = ["Draw", "Evasion"] },
+  { name = "Diabolic Intent", in = ["Tutor"] },
   { name = "Buried Alive", in = ["Self-Mill"] },
   { name = "Likeness Looter", in = ["Copy", "Self-Mill"] },
-  { name = "Three Steps Ahead", in = ["Counter", "Copy"] },
-  { name = "Etherium Sculptor", in = ["Artificer Artifact", "Cost Reducer"] },
+  { name = "Reanimate", in = ["Reanimation"] },
+  { name = "Glimpse the Unthinkable", in = ["Self-Mill"] },
   { name = "Gold-Forged Thopteryx", in = ["Evasion", "Protection"] },
   { name = "Automated Artificer", in = ["Artificer Artifact", "Ramp"] },
-  { name = "Lita, Mechanical Engineer", in = ["Artificer Artifact"] },
+  { name = "Doombot Harbinger", in = ["Self-Mill", "Evasion"] },
   { name = "Animate Dead", in = ["Reanimation"] },
   { name = "Millikin", in = ["Ramp", "Self-Mill"] },
   { name = "Immortal Servitude", in = ["Mass Reanimation"] },
@@ -29,28 +29,28 @@ cards = [
   { name = "Urza, Prince of Kroog", in = ["Artificer", "Anthem"] },
   { name = "Losheel, Clockwork Scholar", in = ["Artificer", "Draw"] },
   { name = "Angel of Glory's Rise", in = ["Mass Reanimation"] },
-  { name = "Whirler Rogue", in = ["Artificer", "Evasion", "Tokens"] },
-  { name = "Universal Automaton", in = ["Changeling"] },
-  { name = "Three Tree Mascot", in = ["Changeling", "Ramp"] },
-  { name = "Unsettled Mariner", in = ["Changeling"] },
-  { name = "Mirror Entity", in = ["Changeling", "Finisher"] },
-  { name = "Urza's Incubator", in = ["Cost Reducer"] },
+  { name = "Whirler Rogue", in = ["Artificer", "Evasion", "Token Maker"] },
+  { name = "Entomb", in = ["Tutor"] },
+  { name = "Three Tree Mascot", in = ["Changeling", "Fixing"] },
+  { name = "Traumatize", in = ["Self-Mill"] },
+  { name = "Patriarch's Bidding", in = ["Mass Reanimation"] },
+  { name = "Hedron Crab", in = ["Self-Mill"] },
   { name = "Cyberdrive Awakener", in = ["Evasion", "Finisher"] },
   { name = "Ornithopter of Paradise", in = ["Ramp"] },
   { name = "Arcane Signet", in = ["Ramp"] },
   { name = "Talisman of Hierarchy", in = ["Ramp"] },
-  { name = "Thopter Spy Network", in = ["Draw", "Tokens"] },
+  { name = "Thopter Spy Network", in = ["Draw", "Token Maker"] },
   { name = "Stitcher's Supplier", in = ["Self-Mill"] },
   { name = "Swords to Plowshares", in = ["Removal"] },
   { name = "Bitter Triumph", in = ["Removal", "Self-Mill"] },
-  { name = "Dispatch", in = ["Removal"] },
+  { name = "Stillness in Motion", in = ["Self-Mill"] },
   { name = "Get Lost", in = ["Removal"] },
   { name = "Fell the Profane // Fell Mire", in = ["Land", "Removal"] },
   { name = "Infernal Grasp", in = ["Removal"] },
   { name = "Anguished Unmaking", in = ["Removal"] },
   { name = "Dragoon's Lance", in = ["Hero", "Evasion"] },
   { name = "Fix What's Broken", in = ["Mass Reanimation"] },
-  { name = "Austere Command", in = ["Wipe"] },
+  { name = "Storm of Souls", in = ["Mass Reanimation"] },
   { name = "Soul-Guide Lantern", in = ["Graveyard Hate"] },
   { name = "Glasspool Mimic // Glasspool Shore", in = ["Land", "Copy"] },
   { name = "Sink into Stupor // Soporific Springs", in = ["Land", "Removal"] },
@@ -73,7 +73,7 @@ cards = [
   { name = "Razortide Bridge", in = ["Land"] },
   { name = "Glimmervoid", in = ["Land"] },
   { name = "Spire of Industry", in = ["Land"] },
-  { name = "Seat of the Synod", in = ["Land"] },
+  { name = "Starting Town", in = ["Land"] },
   { name = "Ancient Den", in = ["Land"] },
   { name = "Path of Ancestry", in = ["Land"] },
   { name = "Polluted Delta", in = ["Land"] },
@@ -82,9 +82,12 @@ cards = [
   { name = "Darkslick Shores", in = ["Land"] },
   { name = "Morphic Pool", in = ["Land"] },
   { name = "Concealed Courtyard", in = ["Land"] },
-  { name = "Island", qty = 3, in = ["Land"] },
+  { name = "Island", in = ["Land"] },
+  { name = "Drowned Catacomb", in = ["Land"] },
+  { name = "City of Brass", in = ["Land"] },
   { name = "Caves of Koilos", in = ["Land"] },
-  { name = "Plains", qty = 2, in = ["Land"] },
+  { name = "Plains", in = ["Land"] },
+  { name = "Isolated Chapel", in = ["Land"] },
 ]
 
 [categories]
@@ -101,6 +104,7 @@ Counter = {}
 Draw = {}
 Evasion = {}
 Finisher = {}
+Fixing = {}
 Hero = {}
 "Graveyard Hate" = {}
 Land = {}
@@ -108,8 +112,8 @@ Land = {}
 "Mass Reanimation" = {}
 Protection = {}
 Ramp = {}
+Tutor = {}
 Reanimation = {}
 Removal = {}
-Tokens = {}
+"Token Maker" = {}
 "Type Change" = {}
-Wipe = {}
