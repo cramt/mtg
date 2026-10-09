@@ -1,30 +1,40 @@
-# Meldweb Curator's settings (ADR-0026 in progress-engine).
+# Meldweb Curator's settings.
 
 [printings]
-# Which printing of a card the All printings grid offers first. Each rule is a
-# Scryfall query over one printing. The first rule that tells two printings
-# apart decides; later rules only break ties. What no rule decides goes to the
-# newest printing, whose wording is closest to current oracle text.
+# Which printing of a card to offer first. Each rule is a Scryfall query
+# over one printing. The first rule that tells two printings apart
+# decides, and later ones only break ties; untold apart, newest first.
+# A rule shaped `!"Sol Ring" set:c21 cn:263` pins one card's printing.
 rank = [
-  # Can't hold it.
   { avoid = "is:digital" },
-  # World Championship gold borders, Collectors' Edition, art cards, playtest.
   { avoid = "border:gold or border:silver or is:oversized or is:playtest or st:memorabilia" },
-  # Never another language.
   { avoid = "-lang:en" },
-  # Full art lands are so pretty, textless or not.
   { prefer = "t:basic is:fullart" },
   { avoid = "is:textless" },
-  # Amonkhet Invocations: the text is hieroglyphs.
   { avoid = "set:mp2" },
-  # The Zeta Set (Secret Lair box).
   { avoid = "set:slz" },
-  # Printed under another name, like the Godzilla series.
   { avoid = "is:flavorname" },
-  # The comic panel ones (Marvel, TMNT, Final Fantasy, Avatar).
   { avoid = "is:sourcematerial" },
-  # A normal card over a stylised one.
   { avoid = "is:showcase or frame:old or frame:future or frame:etched or is:poster" },
-  # In-universe over Universes Beyond.
   { avoid = "is:ub" },
+]
+
+[decks]
+# The deck list's order, by file. A deck not here goes after these,
+# by name.
+order = [
+  "decks/munchausen-syndrome.deck.toml",
+  "decks/ashnod-will-punch-you.deck.toml",
+  "decks/attack-of-the-cids.deck.toml",
+  "decks/caradora-and-her-golden-argussy.deck.toml",
+  "decks/go-go-gadget-eldrazi.deck.toml",
+  "decks/go-go-gadget-eldrazi-bargain-bin.deck.toml",
+  "decks/i-m-the-titanic-you-re-an-iceberg.deck.toml",
+  "decks/kellan-s-casino-2.deck.toml",
+  "decks/pirates-on-a-bicycle.deck.toml",
+  "decks/road-trip-through-the-blind-eternities.deck.toml",
+  "decks/senu-later.deck.toml",
+  "decks/sigarda-joins-the-templars.deck.toml",
+  "decks/spoiler-alert.deck.toml",
+  "decks/there-s-no-place-like-loam.deck.toml",
 ]
