@@ -4,11 +4,12 @@
 # which separates "wrong colours" from "too few lands". Karsten's bar is (89+MV)%.
 # Measured 2026-10-09, WU-given-mana: WU-only build 92/87/83%; Esper splash with 8 black duals
 # 90/82/78%, back to 92/87/83% after Marsh Flats, Polluted Delta and Arcane Sanctum.
+# Raw (not given-mana) after the reanimation + evasion rework: 85/49/20%, unchanged.
 
 # Check/fast lands are untapped early; shocks and the pay-3-life MDFCs get paid when a
 # turn-2 cycle is on the line; Sea of Clouds and Morphic Pool are untapped in multiplayer.
 [assume]
-untapped = ['name:"Hallowed Fountain"', 'name:"Watery Grave"', 'name:"Godless Shrine"', 'name:"Glacial Fortress"', 'name:"Seachrome Coast"', 'name:"Darkslick Shores"', 'name:"Concealed Courtyard"', 'name:"Morphic Pool"', 'name:"Sea of Clouds"', 'name:"Sink into Stupor"', 'name:"Witch Enchanter"', 'name:"Sea Gate Restoration"']
+untapped = ['name:"Hallowed Fountain"', 'name:"Watery Grave"', 'name:"Godless Shrine"', 'name:"Glacial Fortress"', 'name:"Seachrome Coast"', 'name:"Darkslick Shores"', 'name:"Concealed Courtyard"', 'name:"Morphic Pool"', 'name:"Sea of Clouds"', 'name:"Sink into Stupor"', 'name:"Witch Enchanter"', 'name:"Sea Gate Restoration"', 'name:"Fell the Profane"']
 
 [mulligan]
 keep = [{ query = "t:land", min = 2, max = 5 }]
