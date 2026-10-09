@@ -1,7 +1,7 @@
 name = "Attack of the Cids"
 format = "commander"
 description = """
-Ravos + Sakashima, Esper. Black bins Cids: Stitcher's Supplier, Buried Alive, Necromancer's Stockpile, Likeness Looter. Eighteen Cid, Timeless Artificer: Sakashima turns off the legend rule so they all stick, cycled ones still count from the graveyard, Ravos pumps everything and hands a Cid back every upkeep to cycle again, and Maskwood Nexus / Encroaching Mycosynth make the Cids pump each other.
+Ravos + Sakashima, Esper. Black bins Cids: Stitcher's Supplier, Buried Alive, Necromancer's Stockpile, Likeness Looter. Eighteen Cid, Timeless Artificer: Sakashima turns off the legend rule so they all stick, cycled ones still count from the graveyard, Ravos pumps everything and hands a Cid back every upkeep to cycle again, and Maskwood Nexus / Encroaching Mycosynth make the Cids pump each other. Every Cid is MV 4, so Fix What's Broken (X=4) and Immortal Servitude (X=4) bring the whole binned pile back at once; Angel of Glory's Rise does it off Animate Dead, Ravos or a Sakashima copy.
 """
 
 cards = [
@@ -22,19 +22,19 @@ cards = [
   { name = "Voyager Quickwelder", in = ["Artificer Artifact", "Cost Reducer"] },
   { name = "Automated Artificer", in = ["Artificer Artifact", "Ramp"] },
   { name = "Lita, Mechanical Engineer", in = ["Artificer Artifact"] },
-  { name = "Transplant Theorist", in = ["Artificer Artifact"] },
+  { name = "Animate Dead", in = ["Reanimation"] },
   { name = "Millikin", in = ["Ramp", "Self-Mill"] },
-  { name = "Shuri, Wakandan Inventor", in = ["Artificer", "Cost Reducer"] },
+  { name = "Immortal Servitude", in = ["Mass Reanimation"] },
   { name = "Shuri, Vibranium Technologist", in = ["Artificer"] },
   { name = "Urza, Prince of Kroog", in = ["Artificer", "Anthem"] },
   { name = "Losheel, Clockwork Scholar", in = ["Artificer", "Draw"] },
-  { name = "Padeem, Consul of Innovation", in = ["Artificer", "Draw"] },
+  { name = "Angel of Glory's Rise", in = ["Mass Reanimation"] },
   { name = "Weaponcraft Enthusiast", in = ["Artificer", "Tokens"] },
   { name = "Universal Automaton", in = ["Changeling"] },
   { name = "Three Tree Mascot", in = ["Changeling", "Ramp"] },
   { name = "Unsettled Mariner", in = ["Changeling"] },
   { name = "Mirror Entity", in = ["Changeling", "Finisher"] },
-  { name = "Gold Myr", in = ["Ramp"] },
+  { name = "Urza's Incubator", in = ["Cost Reducer"] },
   { name = "Silver Myr", in = ["Ramp"] },
   { name = "Ornithopter of Paradise", in = ["Ramp"] },
   { name = "Arcane Signet", in = ["Ramp"] },
@@ -49,7 +49,7 @@ cards = [
   { name = "Infernal Grasp", in = ["Removal"] },
   { name = "Anguished Unmaking", in = ["Removal"] },
   { name = "An Offer You Can't Refuse", in = ["Counter"] },
-  { name = "Organic Extinction", in = ["Wipe"] },
+  { name = "Fix What's Broken", in = ["Mass Reanimation"] },
   { name = "Austere Command", in = ["Wipe"] },
   { name = "Soul-Guide Lantern", in = ["Graveyard Hate"] },
   { name = "Glasspool Mimic // Glasspool Shore", in = ["Land", "Copy"] },
@@ -104,7 +104,9 @@ Finisher = {}
 "Graveyard Hate" = {}
 Land = {}
 "Legend Rule" = {}
+"Mass Reanimation" = {}
 Ramp = {}
+Reanimation = {}
 Removal = {}
 Tokens = {}
 "Type Change" = {}
