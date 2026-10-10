@@ -66,7 +66,7 @@ cards = [
   { printing = "dmc/217", in = ["Land"] },  # Mikokoro, Center of the Sea
   { printing = "mh2/250", in = ["Land"] },  # Misty Rainforest
   { printing = "ecc/155", in = ["Land"] },  # Nesting Grounds
-  { printing = "plst/MM2-151", in = ["Ramp"] },  # Noble Hierarch
+  { printing = "mm2/151", in = ["Ramp"] },  # Noble Hierarch
   { printing = "znr/30", in = ["Land", "Board Wipe"] },  # Ondu Inversion // Ondu Skyruins
   { printing = "trk/317", qty = 4, in = ["Land"] },  # Plains
   { printing = "mom/201", in = ["Battle Flipping", "Ramp"] },  # Portent Tracker
@@ -104,7 +104,7 @@ cards = [
   { name = "Joined Researchers // Secret Rendezvous", in = ["Draw", "Gift", "Prepare", "Cast From Exile"] },
   { name = "Emeritus of Truce // Swords to Plowshares", in = ["Removal Prize", "Gift", "Prepare", "Cast From Exile", "Ikoria Fetch"] },
   { name = "King Solomon's Frogs", in = ["Removal Prize", "Gift"] },
-  { name = "Master of Ceremonies", in = ["Draw", "Gift", "Ikoria Fetch"] },
+  { printing = "ncc/18", in = ["Draw", "Gift", "Ikoria Fetch"] },  # Master of Ceremonies
   { name = "Abstract Performance", in = ["Cast From Exile", "Draw"] },
   { name = "Uro, Titan of Nature's Wrath", in = ["Draw", "Ramp", "Cast From Graveyard"] },
   { name = "Recurring Insight", in = ["Draw", "Cast From Exile"] },
