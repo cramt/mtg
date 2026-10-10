@@ -34,9 +34,9 @@ cards = [
   { printing = "frc/84", at = "useful non-basic lands" },  # Sulfur Falls
   { printing = "eoc/187", at = "useful non-basic lands" },  # Temple of Epiphany
   { printing = "rix/186", at = "shit lands" },  # Evolving Wilds
-  { printing = "sos/265", qty = 3, at = "shit lands" },  # Terramorphic Expanse
+  { printing = "sos/265", qty = 4, at = "shit lands" },  # Terramorphic Expanse
   { printing = "sos/266", qty = 2, at = "shit lands" },  # Titan's Grave
-  { printing = "sos/256", at = "shit lands" },  # Forum of Amity
+  { printing = "sos/256", qty = 2, at = "shit lands" },  # Forum of Amity
   { printing = "sos/262", qty = 2, at = "shit lands" },  # Spectacle Summit
   { printing = "rna/247", at = "shit lands" },  # Gateway Plaza
   { printing = "grn/246", qty = 3, at = "shit lands" },  # Dimir Guildgate
@@ -377,6 +377,9 @@ cards = [
   { printing = "hob/44", qty = 2, at = "blue bulk" },  # Lake-town Mariners // Gone Fishing
   { printing = "sos/42", at = "blue bulk" },  # Deluge Virtuoso
   { printing = "sos/65", at = "blue bulk" },  # Quick Study
+  { printing = "soc/405", at = "shit lands" },  # Silverquill Campus
+  { printing = "soc/60", at = "useful non-basic lands" },  # Umbral Expanse
+  { printing = "dmu/257", at = "shit lands" },  # Sunlit Marsh
 ]
 
 [places]
