@@ -382,6 +382,7 @@ cards = [
   { printing = "dmu/257", at = "shit lands" },  # Sunlit Marsh
   { printing = "soc/4" },  # Killian, Decisive Mentor
   { printing = "soc/45" },  # Defacing Duskmage // Vandal's Edit
+  { printing = "soc/333" },  # Tomik, Wielder of Law
 ]
 
 [places]
