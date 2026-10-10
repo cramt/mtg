@@ -381,6 +381,7 @@ cards = [
   { printing = "soc/60", at = "useful non-basic lands" },  # Umbral Expanse
   { printing = "dmu/257", at = "shit lands" },  # Sunlit Marsh
   { printing = "soc/4" },  # Killian, Decisive Mentor
+  { printing = "soc/45" },  # Defacing Duskmage // Vandal's Edit
 ]
 
 [places]
