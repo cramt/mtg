@@ -77,7 +77,7 @@ cards = [
   { printing = "mh3/241", in = ["Land", "Interaction"] },  # Sink into Stupor // Soporific Springs
   { printing = "mh3/169", in = ["Cast From Graveyard", "Ikoria Fetch"] },  # Six
   { printing = "soc/173", in = ["Removal Prize", "Ikoria Fetch"] },  # Skyclave Apparition
-  { printing = "snc/257", in = ["Land"] },  # Spara's Headquarters
+  { printing = "psnc/257p", in = ["Land"] },  # Spara's Headquarters
   { printing = "fic/27", in = ["Saga Removal"] },  # Summon: Ixion
   { printing = "fic/28", in = ["Saga Removal", "Attack Tax"] },  # Summon: Yojimbo
   { printing = "msc/272", in = ["Land"] },  # Sunpetal Grove
@@ -123,7 +123,7 @@ cards = [
   { name = "Hushwood Verge", in = ["Land"] },
   { name = "Sea of Clouds", in = ["Land"] },
   { name = "Rejuvenating Springs", in = ["Land"] },
-  { name = "Mana Confluence", in = ["Land"] },
+  { printing = "cmr/721", finish = "foil", in = ["Land"] },  # Mana Confluence
   { name = "Skycoach Waypoint", in = ["Land", "Prepare"] },
   { name = "Gwafa Hazid, Profiteer", in = ["Maybeboard", "Gift", "Interaction"] },
   { name = "Tataru Taru", in = ["Maybeboard", "Gift", "Draw"] },
