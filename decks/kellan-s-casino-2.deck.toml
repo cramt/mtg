@@ -93,7 +93,7 @@ cards = [
   { printing = "mh3/239", in = ["Land", "Removal Prize"] },  # Witch Enchanter // Witch-Blessed Meadow
   { printing = "soc/425", in = ["Land"] },  # Yavimaya Coast
   { name = "Yorion, Sky Nomad", in = ["Companion"] },
-  { name = "Zoetic Glyph", in = ["Gift", "Cast From Exile"] },
+  { name = "Zoetic Glyph" },
   { name = "Baffling End", in = ["Removal Prize", "Gift"] },
   { printing = "cmr/280", in = ["Cascade", "Cast From Exile"] },  # Imoti, Celebrant of Bounty
   { name = "Invasion of Belenon // Belenon War Anthem", in = ["Battle"] },
