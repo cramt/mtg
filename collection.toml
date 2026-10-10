@@ -380,6 +380,7 @@ cards = [
   { printing = "soc/405", at = "shit lands" },  # Silverquill Campus
   { printing = "soc/60", at = "useful non-basic lands" },  # Umbral Expanse
   { printing = "dmu/257", at = "shit lands" },  # Sunlit Marsh
+  { printing = "soc/4" },  # Killian, Decisive Mentor
 ]
 
 [places]
