@@ -481,6 +481,8 @@ cards = [
   { printing = "tdm/74", at = "black bulk" },  # Caustic Exhale
   { printing = "clb/394", at = "black bulk" },  # Viconia, Drow Apostate
   { printing = "clb/145", at = "black bulk" },  # Scion of Halaster
+  { printing = "clb/135", at = "stables" },  # Myrkul's Edict
+  { printing = "m20/114", qty = 2, at = "black bulk" },  # Sorcerer of the Fang
 ]
 
 [places]
