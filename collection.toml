@@ -740,6 +740,15 @@ cards = [
   { printing = "grn/120", qty = 2, at = "red bulk" },  # Wojek Bodyguard
   { printing = "ori/133", at = "red bulk" },  # Boggart Brute
   { printing = "thb/135", at = "red bulk" },  # Flummoxed Cyclops
+  { printing = "tdm/132", at = "red bulk" },  # Wild Ride
+  { printing = "lci/149", at = "red bulk" },  # Etali's Favor
+  { printing = "soc/235", at = "red bulk" },  # Anger
+  { printing = "m3c/211", at = "red bulk" },  # Faithless Looting
+  { printing = "sos/129", at = "red bulk" },  # Seize the Spoils
+  { printing = "soc/236", at = "red bulk" },  # Atsushi, the Blazing Sky
+  { printing = "stx/94", at = "red bulk" },  # Conspiracy Theorist
+  { printing = "soc/246", at = "red bulk" },  # Laelia, the Blade Reforged
+  { printing = "soc/30", at = "red bulk" },  # Advanced Reconstruction
 ]
 
 [places]
