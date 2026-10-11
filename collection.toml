@@ -471,7 +471,7 @@ cards = [
   { printing = "m20/86", at = "black bulk" },  # Bladebrand
   { printing = "clb/113", at = "black bulk" },  # Arms of Hadar
   { printing = "clb/151", at = "stables" },  # Summon Undead
-  { printing = "clb/120", at = "black bulk" },  # Chain Devil
+  { printing = "clb/120", at = "stables" },  # Chain Devil
 ]
 
 [places]
