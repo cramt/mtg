@@ -894,6 +894,7 @@ cards = [
   { printing = "soc/317", at = "An Apple a Day" },  # Killian, Ink Duelist
   { printing = "soc/316", at = "An Apple a Day" },  # Inkshield
   { printing = "soc/144", at = "An Apple a Day" },  # Eidolon of Countless Battles
+  { printing = "frc/74" },  # Isolated Chapel
 ]
 
 [places]
