@@ -473,6 +473,8 @@ cards = [
   { printing = "clb/151", at = "stables" },  # Summon Undead
   { printing = "clb/120", at = "stables" },  # Chain Devil
   { printing = "clb/140", at = "stables" },  # Parasitic Impetus
+  { printing = "tdm/99", at = "black bulk" },  # Worthy Cost
+  { printing = "tdm/73", at = "stables" },  # Avenger of the Fallen
 ]
 
 [places]
