@@ -459,6 +459,7 @@ cards = [
   { printing = "m20/121", qty = 2, at = "black bulk" },  # Vengeful Warchief
   { printing = "grn/73", qty = 2, at = "black bulk" },  # Kraul Swarm
   { printing = "m20/85", at = "black bulk" },  # Barony Vampire
+  { printing = "uds/57", at = "black bulk" },  # Disease Carriers
 ]
 
 [places]
