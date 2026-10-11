@@ -724,7 +724,7 @@ cards = [
   { printing = "hou/94", at = "red bulk" },  # Gilded Cerodon
   { printing = "m20/147", qty = 4, at = "red bulk" },  # Lavakin Brawler
   { printing = "ths/136", at = "red bulk" },  # Purphoros's Emissary
-  { printing = "grn/117", at = "red bulk" },  # Street Riot
+  { printing = "grn/117", at = "stables" },  # Street Riot
   { printing = "jmp/353", at = "red bulk" },  # Ornery Goblin
   { printing = "som/106", at = "red bulk" },  # Turn to Slag
   { printing = "emn/122", at = "red bulk" },  # Brazen Wolves
@@ -733,7 +733,7 @@ cards = [
   { printing = "aer/100", at = "red bulk" },  # Sweatworks Brawler
   { printing = "gn2/38", at = "red bulk" },  # Destructive Tampering
   { printing = "ori/167", at = "red bulk" },  # Volcanic Rambler
-  { printing = "ktk/117", at = "red bulk" },  # Mardu Warshrieker
+  { printing = "ktk/117", at = "stables" },  # Mardu Warshrieker
   { printing = "thb/143", qty = 3, at = "red bulk" },  # Irreverent Revelers
   { printing = "ths/115", at = "red bulk" },  # Boulderfall
   { printing = "nph/99", at = "red bulk" },  # Victorious Destruction
