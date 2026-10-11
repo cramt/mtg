@@ -389,6 +389,9 @@ cards = [
   { printing = "jou/77" },  # Nyx Infusion
   { printing = "ths/88" },  # Fleshmad Steed
   { printing = "ktk/78" },  # Mardu Skullhunter
+  { printing = "m20/84", qty = 2 },  # Audacious Thief
+  { printing = "grn/88" },  # Veiled Shade
+  { printing = "rix/70" },  # Dusk Legion Zealot
 ]
 
 [places]
