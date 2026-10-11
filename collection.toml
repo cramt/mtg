@@ -398,6 +398,7 @@ cards = [
   { printing = "jou/62" },  # Brain Maggot
   { printing = "ktk/68" },  # Debilitating Injury
   { printing = "frf/61" },  # Ancestral Vengeance
+  { printing = "m20/119" },  # Unholy Indenture
 ]
 
 [places]
