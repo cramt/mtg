@@ -773,6 +773,7 @@ cards = [
   { printing = "soc/259", at = "red bulk" },  # Volcanic Salvo
   { printing = "soc/121", at = "red bulk" },  # Chain Reaction
   { printing = "soc/122", at = "red bulk" },  # Determined Iteration
+  { printing = "soc/123", at = "red bulk" },  # Harmonic Prodigy
 ]
 
 [places]
