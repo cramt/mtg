@@ -465,7 +465,7 @@ cards = [
   { printing = "ogw/73", at = "black bulk" },  # Kozilek's Shrieker
   { printing = "ori/126", at = "black bulk" },  # Weight of the Underworld
   { printing = "rix/89", at = "black bulk" },  # Vampire Revenant
-  { printing = "jou/64", at = "black bulk" },  # Cruel Feeding
+  { printing = "jou/64", at = "stables" },  # Cruel Feeding
 ]
 
 [places]
