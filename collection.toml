@@ -765,6 +765,8 @@ cards = [
   { printing = "soc/248", at = "red bulk" },  # Manaform Hellkite
   { printing = "soc/249", at = "red bulk" },  # Mirrorwing Dragon
   { printing = "soc/250", at = "red bulk" },  # Plargg and Nassari
+  { printing = "soc/251", at = "red bulk" },  # Redoubled Stormsinger
+  { printing = "soc/252", at = "red bulk" },  # Rionya, Fire Dancer
 ]
 
 [places]
