@@ -888,6 +888,12 @@ cards = [
   { printing = "soc/215", at = "eriette" },  # Hateful Eidolon
   { printing = "soc/147", at = "eriette" },  # Gift of Immortality
   { printing = "cmr/392", at = "eriette" },  # Winds of Rath
+  { printing = "soc/119", at = "eriette" },  # Screams from Within
+  { printing = "cma/9", at = "eriette" },  # Darksteel Mutation
+  { printing = "onc/164", at = "eriette" },  # Shineshadow Snarl
+  { printing = "soc/317", at = "eriette" },  # Killian, Ink Duelist
+  { printing = "soc/316", at = "eriette" },  # Inkshield
+  { printing = "soc/144", at = "eriette" },  # Eidolon of Countless Battles
 ]
 
 [places]
