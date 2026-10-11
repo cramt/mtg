@@ -5,7 +5,7 @@ The Silverquill Influence precon with Eriette in the command zone instead of Kil
 
 Eriette makes any creature wearing one of your Auras unable to attack you, and drains each opponent for the number of Auras you control at your end step. Auras go on both sides of the table. Opponents' creatures get the goad Auras (Coercive, Martial, Ghoulish and Parasitic Impetus, Redemption Arc, Scriv's Contracts), so they're shut off from you and pushed into everyone else. Your own creatures get the voltron and protection Auras (Angelic Destiny, Eldrazi Conscription, Eidolon of Countless Battles, Shielded by Faith) and carry them in.
 
-Sram, Kor Spiritdancer, Sage's Reverie, Hateful Eidolon and Pearl-Ear turn Auras into cards, and Transcendent Envoy, Starfield Mystic, Pearl-Ear and Killian make them cheap. Combat Calligrapher, Breena and Firemane Commando reward the other players for fighting each other, which is what all the goad pushes them into anyway. Sun Titan, Helping Hand and Whip of Erebos bring back the cheap creatures and Auras that die along the way."""
+Sram, Kor Spiritdancer, Sage's Reverie, Hateful Eidolon and Pearl-Ear turn Auras into cards, and Transcendent Envoy, Starfield Mystic, Pearl-Ear and Killian make them cheap. Combat Calligrapher, Breena and Firemane Commando reward the other players for fighting each other, which is what all the goad pushes them into anyway. Killian, Decisive Mentor (the precon's face commander) goads a creature every time an enchantment enters and draws whenever your enchanted creatures attack, including the opponents' creatures you've goaded. Sun Titan, Helping Hand and Whip of Erebos bring back the cheap creatures and Auras that die along the way."""
 
 cards = [
   { printing = "soc/307", in = ["Commander"] },  # Eriette of the Charmed Apple
@@ -30,7 +30,7 @@ cards = [
   { printing = "soc/156", in = ["Aura", "Goad"] },  # Martial Impetus
   { printing = "thb/107", in = ["Aura"] },  # Mogis's Favor
   { printing = "ths/98", in = ["Aura", "Threat"] },  # Nighthowler
-  { printing = "soc/222", in = ["Aura", "Goad"] },  # Parasitic Impetus
+  { printing = "clb/140", in = ["Aura", "Goad"] },  # Parasitic Impetus
   { printing = "soc/162", in = ["Aura"] },  # Raffine's Guidance
   { printing = "soc/163", in = ["Aura", "Goad", "Interaction"] },  # Redemption Arc
   { printing = "soc/165", in = ["Aura", "Aura Payoff", "Draw"] },  # Sage's Reverie
@@ -47,6 +47,7 @@ cards = [
   { printing = "cp2/1", in = ["Threat", "Interaction"] },  # Necropolis Fiend
   { printing = "soc/330", in = ["Threat", "Draw"] },  # Shadrix Silverquill
   { printing = "soc/178", in = ["Threat", "Recursion"] },  # Sun Titan
+  { printing = "soc/4", in = ["Goad", "Draw"] },  # Killian, Decisive Mentor
   { printing = "soc/317", in = ["Cost Reduction"] },  # Killian, Ink Duelist
   { printing = "soc/160", in = ["Cost Reduction", "Draw"] },  # Pearl-Ear, Imperial Advisor
   { printing = "soc/177", in = ["Cost Reduction", "Aura Payoff"] },  # Starfield Mystic

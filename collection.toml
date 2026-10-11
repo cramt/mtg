@@ -379,7 +379,7 @@ cards = [
   { printing = "soc/405", at = "shit lands" },  # Silverquill Campus
   { printing = "soc/60", at = "useful non-basic lands" },  # Umbral Expanse
   { printing = "dmu/257", at = "shit lands" },  # Sunlit Marsh
-  { printing = "soc/4", at = "stables" },  # Killian, Decisive Mentor
+  { printing = "soc/4", at = "An Apple a Day" },  # Killian, Decisive Mentor
   { printing = "soc/45", at = "stables" },  # Defacing Duskmage // Vandal's Edit
   { printing = "soc/333", at = "stables" },  # Tomik, Wielder of Law
   { printing = "soc/26", at = "stables" },  # Intermediate Chirography
@@ -472,6 +472,7 @@ cards = [
   { printing = "clb/151", at = "stables" },  # Summon Undead
   { printing = "clb/120", at = "stables" },  # Chain Devil
   { printing = "clb/140", at = "stables" },  # Parasitic Impetus
+  { printing = "soc/222", at = "stables" },  # Parasitic Impetus
   { printing = "tdm/99", at = "black bulk" },  # Worthy Cost
   { printing = "tdm/73", at = "stables" },  # Avenger of the Fallen
   { printing = "tdm/78", at = "stables" },  # Desperate Measures
@@ -904,7 +905,7 @@ cards = [
   { printing = "soc/393", at = "An Apple a Day" },  # Path of Ancestry
   { printing = "soc/160", at = "An Apple a Day" },  # Pearl-Ear, Imperial Advisor
   { printing = "soc/162", at = "An Apple a Day" },  # Raffine's Guidance
-  { printing = "soc/222", at = "An Apple a Day" },  # Parasitic Impetus
+  { printing = "clb/140", at = "An Apple a Day" },  # Parasitic Impetus
   { printing = "soc/138", at = "An Apple a Day" },  # Armored Skyhunter
   { printing = "soc/172", at = "An Apple a Day" },  # Shielded by Faith
   { printing = "soa/5", at = "An Apple a Day" },  # Helping Hand
