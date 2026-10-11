@@ -1046,7 +1046,7 @@ cards = [
   { printing = "soc/322" },  # Oversimplify
   { printing = "soc/196" },  # Entrancing Melody
   { printing = "soc/39" },  # Kinetic Ooze
-  { printing = "sos/281", qty = 4 },  # Forest
+  { printing = "sos/281", qty = 6 },  # Forest
   { printing = "soc/261" },  # Animist's Awakening
   { printing = "sos/265" },  # Terramorphic Expanse
   { printing = "soc/192" },  # Curse of the Swine
@@ -1076,6 +1076,15 @@ cards = [
   { printing = "soc/373" },  # Flooded Grove
   { printing = "soc/10" },  # Zimone, Infinite Analyst
   { printing = "soc/6" },  # Primo, the Unbounded
+  { printing = "soc/356" },  # Stonecoil Serpent
+  { printing = "soc/116" },  # Pull from Tomorrow
+  { printing = "soc/115" },  # Ingenious Prodigy
+  { printing = "soc/40" },  # Lattice Library
+  { printing = "soc/315" },  # Hydroid Krasis
+  { printing = "soc/286" },  # Silkguard
+  { printing = "soc/197" },  # Perplexing Test
+  { printing = "soc/332" },  # Tanazir Quandrix
+  { printing = "soc/270" },  # Goldvein Hydra
 ]
 
 [places]
