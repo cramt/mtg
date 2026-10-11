@@ -727,6 +727,13 @@ cards = [
   { printing = "grn/117", at = "red bulk" },  # Street Riot
   { printing = "jmp/353", at = "red bulk" },  # Ornery Goblin
   { printing = "som/106", at = "red bulk" },  # Turn to Slag
+  { printing = "emn/122", at = "red bulk" },  # Brazen Wolves
+  { printing = "kld/133", at = "red bulk" },  # Spireside Infiltrator
+  { printing = "m20/146", at = "red bulk" },  # Keldon Raider
+  { printing = "aer/100", at = "red bulk" },  # Sweatworks Brawler
+  { printing = "gn2/38", at = "red bulk" },  # Destructive Tampering
+  { printing = "ori/167", at = "red bulk" },  # Volcanic Rambler
+  { printing = "ktk/117", at = "red bulk" },  # Mardu Warshrieker
 ]
 
 [places]
