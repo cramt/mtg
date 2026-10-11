@@ -996,6 +996,11 @@ cards = [
   { printing = "frf/185" },  # Forest
   { printing = "soc/29" },  # Stensian Sanguinist // Exsanguinate
   { printing = "soc/264" },  # Blossoming Bogbeast
+  { printing = "soc/296" },  # Beledros Witherbloom
+  { printing = "clb/111" },  # Ancient Brass Dragon
+  { printing = "soa/26" },  # Bitter Triumph
+  { printing = "sos/214" },  # Professor Dellian Fel
+  { printing = "sos/265" },  # Terramorphic Expanse
 ]
 
 [places]
