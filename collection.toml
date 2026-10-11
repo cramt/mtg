@@ -458,9 +458,12 @@ cards = [
   { printing = "rix/91", qty = 3, at = "black bulk" },  # Voracious Vampire
   { printing = "m20/121", qty = 2, at = "black bulk" },  # Vengeful Warchief
   { printing = "grn/73", qty = 2, at = "black bulk" },  # Kraul Swarm
-  { printing = "m20/85", at = "black bulk" },  # Barony Vampire
+  { printing = "m20/85", qty = 2, at = "black bulk" },  # Barony Vampire
   { printing = "uds/57", at = "black bulk" },  # Disease Carriers
   { printing = "dgm/21", at = "black bulk" },  # Bane Alley Blackguard
+  { printing = "ogw/78", at = "black bulk" },  # Sky Scourer
+  { printing = "ogw/73", at = "black bulk" },  # Kozilek's Shrieker
+  { printing = "ori/126", at = "black bulk" },  # Weight of the Underworld
 ]
 
 [places]
