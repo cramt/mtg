@@ -612,6 +612,14 @@ cards = [
   { printing = "sos/159", at = "green bulk" },  # Shopkeeper's Bane
   { printing = "clb/259", at = "green bulk" },  # Undercellar Myconid
   { printing = "clb/837", at = "green bulk" },  # Three Visits
+  { printing = "znc/81", at = "green bulk" },  # Satyr Wayfinder
+  { printing = "hob/118", at = "green bulk" },  # Beorn, Reluctant Host // Till and Tend
+  { printing = "hob/133", at = "green bulk" },  # Ordinary Bear
+  { printing = "hob/121", qty = 2, at = "green bulk" },  # Boughside Wanderers
+  { printing = "hob/135", at = "green bulk" },  # Quarrel
+  { printing = "hob/142", at = "green bulk" },  # Wood Elves
+  { printing = "hob/116", at = "green bulk" },  # Attercop
+  { printing = "hob/127", at = "green bulk" },  # Guardian of the Halls
 ]
 
 [places]
