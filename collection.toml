@@ -705,6 +705,8 @@ cards = [
   { printing = "clb/785", at = "red bulk" },  # Chaos Warp
   { printing = "xln/163", qty = 4, at = "red bulk" },  # Storm Fleet Pyromancer
   { printing = "xln/167", qty = 5, at = "red bulk" },  # Swashbuckling
+  { printing = "bfz/147", at = "red bulk" },  # Lavastep Raider
+  { printing = "ima/117", at = "red bulk" },  # Battle-Rattle Shaman
 ]
 
 [places]
