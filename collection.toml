@@ -683,9 +683,9 @@ cards = [
   { printing = "m19/195", at = "green bulk" },  # Rabid Bite
   { printing = "emn/150", at = "green bulk" },  # Backwoods Survivalists
   { printing = "kld/141", at = "green bulk" },  # Appetite for the Unnatural
-  { printing = "soi/198", at = "green bulk" },  # Confront the Unknown
+  { printing = "soi/198", at = "stables" },  # Confront the Unknown
   { printing = "c21/202", at = "green bulk" },  # Pulse of Murasa
-  { printing = "grn/128", at = "green bulk" },  # District Guide
+  { printing = "grn/128", at = "stables" },  # District Guide
   { printing = "rix/135", at = "green bulk" },  # Jadecraft Artisan
   { printing = "j22/739", at = "green bulk" },  # Wily Bandar
 ]
