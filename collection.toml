@@ -927,7 +927,7 @@ cards = [
   { printing = "soc/230" },  # Witch of the Moors
   { printing = "soc/217" },  # Jadar, Ghoulcaller of Nephalia
   { printing = "soc/233" },  # Zulaport Cutthroat
-  { printing = "sos/276", qty = 3 },  # Swamp
+  { printing = "sos/276", qty = 5 },  # Swamp
   { printing = "soc/379" },  # Haunted Mire
   { printing = "soc/393" },  # Path of Ancestry
   { printing = "soc/339" },  # Witherbloom Command
@@ -947,11 +947,25 @@ cards = [
   { printing = "soc/47" },  # Immoral Bargain
   { printing = "soc/223" },  # Pawn of Ulamog
   { printing = "soc/216" },  # Infernal Grasp
-  { printing = "sos/280" },  # Forest
+  { printing = "sos/280", qty = 3 },  # Forest
   { printing = "onc/160" },  # Necroblossom Snarl
   { printing = "soc/418" },  # Twilight Mire
   { printing = "soc/290" },  # Trudge Garden
   { printing = "soc/231" },  # Woe Strider
+  { printing = "soc/224" },  # Plumb the Forbidden
+  { printing = "soc/220" },  # Nether Traitor
+  { printing = "soc/279" },  # Ohran Frostfang
+  { printing = "soc/46" },  # Eccentric Pestfinder // Turn Stones
+  { printing = "soc/282" },  # Pest Infestation
+  { printing = "soc/221" },  # Night's Whisper
+  { printing = "soc/130" },  # Fabled Passage
+  { printing = "soc/209" },  # Blood Artist
+  { printing = "soc/287" },  # Springbloom Druid
+  { printing = "soc/371" },  # Festering Thicket
+  { printing = "soc/42" },  # Pest Rescuer
+  { printing = "soc/285" },  # Sakura-Tribe Elder
+  { printing = "soc/118" },  # Ophiomancer
+  { printing = "soc/213" },  # Final Act
 ]
 
 [places]
