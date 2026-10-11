@@ -383,8 +383,8 @@ cards = [
   { printing = "soc/4", at = "stables" },  # Killian, Decisive Mentor
   { printing = "soc/45", at = "stables" },  # Defacing Duskmage // Vandal's Edit
   { printing = "soc/333", at = "stables" },  # Tomik, Wielder of Law
-  { printing = "soc/26" },  # Intermediate Chirography
-  { printing = "soc/212" },  # Doomwake Giant
+  { printing = "soc/26", at = "stables" },  # Intermediate Chirography
+  { printing = "soc/212", at = "stables" },  # Doomwake Giant
   { printing = "c21/42", at = "sleaved stables" },  # Keen Duelist
   { printing = "jou/77" },  # Nyx Infusion
   { printing = "ths/88" },  # Fleshmad Steed
@@ -395,11 +395,11 @@ cards = [
   { printing = "m21/90" },  # Blood Glutton
   { printing = "m14/83" },  # Accursed Spirit
   { printing = "dom/104" },  # Soul Salvage
-  { printing = "jou/62" },  # Brain Maggot
+  { printing = "jou/62", at = "stables" },  # Brain Maggot
   { printing = "ktk/68" },  # Debilitating Injury
   { printing = "frf/61" },  # Ancestral Vengeance
-  { printing = "m20/119" },  # Unholy Indenture
-  { printing = "bng/75" },  # Herald of Torment
+  { printing = "m20/119", at = "stables" },  # Unholy Indenture
+  { printing = "bng/75", at = "stables" },  # Herald of Torment
   { printing = "ths/78" },  # Baleful Eidolon
   { printing = "sos/104" },  # Wander Off
   { printing = "m20/108" },  # Mind Rot
