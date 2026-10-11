@@ -1020,7 +1020,7 @@ cards = [
   { printing = "soc/414" },  # Temple of Mystery
   { printing = "soc/395" },  # Quandrix Campus
   { printing = "soc/291" },  # Tyvar's Stand
-  { printing = "sos/275", qty = 6 },  # Island
+  { printing = "sos/275", qty = 7 },  # Island
   { printing = "soc/129" },  # Command Tower
   { printing = "sos/217" },  # Quandrix Charm
   { printing = "soc/268" },  # Fractal Harness
@@ -1041,6 +1041,40 @@ cards = [
   { printing = "soc/127" },  # Arcane Signet
   { printing = "soc/425" },  # Yavimaya Coast
   { printing = "soc/126" },  # Unbound Flourishing
+  { printing = "soc/272" },  # Hardened Scales
+  { printing = "soc/284" },  # Primordial Hydra
+  { printing = "soc/322" },  # Oversimplify
+  { printing = "soc/196" },  # Entrancing Melody
+  { printing = "soc/39" },  # Kinetic Ooze
+  { printing = "sos/281", qty = 4 },  # Forest
+  { printing = "soc/261" },  # Animist's Awakening
+  { printing = "sos/265" },  # Terramorphic Expanse
+  { printing = "soc/192" },  # Curse of the Swine
+  { printing = "soc/50" },  # Striding Shotcaller // Run the Play
+  { printing = "soc/274" },  # Lifeblood Hydra
+  { printing = "soc/312" },  # The Goose Mother
+  { printing = "soc/341" },  # Zimone, Quandrix Prodigy
+  { printing = "soc/297" },  # Biomass Mutation
+  { printing = "soc/342" },  # Astral Cornucopia
+  { printing = "soc/22" },  # Owlin Spiralmancer
+  { printing = "soc/390" },  # Opal Palace
+  { printing = "soc/393" },  # Path of Ancestry
+  { printing = "soc/420" },  # Vineglimmer Snarl
+  { printing = "soc/304" },  # Decisive Denial
+  { printing = "soc/281" },  # Ozolith, the Shattered Spire
+  { printing = "soc/21" },  # Nexus Mentality
+  { printing = "sos/258" },  # Paradox Gardens
+  { printing = "soc/407" },  # Study Hall
+  { printing = "soc/267" },  # Forgotten Ancient
+  { printing = "soc/271" },  # Guardian Augmenter
+  { printing = "soc/324" },  # Quandrix Apprentice
+  { printing = "soc/273" },  # Kami of Whispered Hopes
+  { printing = "soc/128" },  # Sol Ring
+  { printing = "soc/411" },  # Tangled Islet
+  { printing = "soc/369" },  # Exotic Orchard
+  { printing = "soc/283" },  # Primal Might
+  { printing = "soc/373" },  # Flooded Grove
+  { printing = "soc/10" },  # Zimone, Infinite Analyst
 ]
 
 [places]
