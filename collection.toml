@@ -1002,6 +1002,15 @@ cards = [
   { printing = "sos/214", at = "Pest Control" },  # Professor Dellian Fel
   { printing = "sos/265", at = "Pest Control" },  # Terramorphic Expanse
   { printing = "soc/1", at = "Pest Control" },  # Dina, Essence Brewer
+  { printing = "soc/203" },  # Stroke of Genius
+  { printing = "soc/19" },  # Expansion Algorithm
+  { printing = "soc/400" },  # Rogue's Passage
+  { printing = "soc/41" },  # Nev, the Practical Dean
+  { printing = "soc/381" },  # Hinterland Harbor
+  { printing = "soc/113" },  # Commander's Insight
+  { printing = "soc/391" },  # Oran-Rief, the Vastwood
+  { printing = "soc/51" },  # Brass Infiniscope
+  { printing = "clu/93" },  # Rapid Hybridization
 ]
 
 [places]
