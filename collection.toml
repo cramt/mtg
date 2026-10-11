@@ -784,6 +784,9 @@ cards = [
   { printing = "hob/100", at = "red bulk" },  # Goblin-town Flunkies
   { printing = "hob/94", at = "red bulk" },  # Dori, Bearer of Friends
   { printing = "hob/106", at = "red bulk" },  # Óin the Brave
+  { printing = "hob/108", at = "red bulk" },  # Ragged Short Spear
+  { printing = "hob/97", at = "red bulk" },  # Gandalf, Spark Starter
+  { printing = "hob/88", at = "red bulk" },  # Bombur, Gentle Dreamer
 ]
 
 [places]
