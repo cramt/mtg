@@ -835,6 +835,16 @@ cards = [
   { printing = "soc/254", at = "There's No Place Like Loam" },  # Squee, Goblin Nabob
   { printing = "soc/278", at = "There's No Place Like Loam" },  # Nature's Lore
   { printing = "soc/52", at = "There's No Place Like Loam" },  # Coastal Peak
+  { printing = "soc/307", at = "eriette" },  # Eriette of the Charmed Apple
+  { printing = "hob/315", at = "eriette" },  # Plains
+  { printing = "soc/168", at = "eriette" },  # Sentinel's Eyes
+  { printing = "fdc/31", at = "eriette" },  # Firemane Commando
+  { printing = "soc/131", at = "eriette" },  # Eldrazi Conscription
+  { printing = "w17/20", at = "eriette" },  # Untamed Hunger
+  { printing = "soc/134", at = "eriette" },  # Angelic Destiny
+  { printing = "soc/330", at = "eriette" },  # Shadrix Silverquill
+  { printing = "soc/128", at = "eriette" },  # Sol Ring
+  { printing = "soc/361", at = "eriette" },  # Arcane Lighthouse
 ]
 
 [places]
