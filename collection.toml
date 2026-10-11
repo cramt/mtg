@@ -848,7 +848,7 @@ cards = [
   { printing = "sos/273", qty = 5, at = "eriette" },  # Plains
   { printing = "soc/129", at = "eriette" },  # Command Tower
   { printing = "soc/407", at = "eriette" },  # Study Hall
-  { printing = "sos/277", qty = 3, at = "eriette" },  # Swamp
+  { printing = "sos/277", qty = 4, at = "eriette" },  # Swamp
   { printing = "c18/61", at = "eriette" },  # Ajani's Chosen
   { printing = "soc/23", at = "eriette" },  # Changing Loyalty
   { printing = "thb/107", at = "eriette" },  # Mogis's Favor
@@ -885,6 +885,9 @@ cards = [
   { printing = "soc/367", at = "eriette" },  # Desolate Mire
   { printing = "soc/310", at = "eriette" },  # Fracture
   { printing = "cmr/386", at = "eriette" },  # Sram, Senior Edificer
+  { printing = "soc/215", at = "eriette" },  # Hateful Eidolon
+  { printing = "soc/147", at = "eriette" },  # Gift of Immortality
+  { printing = "cmr/392", at = "eriette" },  # Winds of Rath
 ]
 
 [places]
