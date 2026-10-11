@@ -389,7 +389,7 @@ cards = [
   { printing = "jou/77", at = "black bulk" },  # Nyx Infusion
   { printing = "ths/88", at = "black bulk" },  # Fleshmad Steed
   { printing = "ktk/78", at = "stables" },  # Mardu Skullhunter
-  { printing = "m20/84", qty = 2, at = "stables" },  # Audacious Thief
+  { printing = "m20/84", qty = 3, at = "stables" },  # Audacious Thief
   { printing = "grn/88", at = "black bulk" },  # Veiled Shade
   { printing = "rix/70", at = "stables" },  # Dusk Legion Zealot
   { printing = "m21/90", at = "black bulk" },  # Blood Glutton
@@ -454,7 +454,7 @@ cards = [
   { printing = "ths/95", at = "black bulk" },  # Loathsome Catoblepas
   { printing = "som/62", at = "stables" },  # Flesh Allergy
   { printing = "ktk/84", at = "black bulk" },  # Rakshasa's Secret
-  { printing = "m20/118", at = "black bulk" },  # Undead Servant
+  { printing = "m20/118", qty = 3, at = "black bulk" },  # Undead Servant
   { printing = "rix/91", qty = 3, at = "black bulk" },  # Voracious Vampire
   { printing = "m20/121", qty = 2, at = "black bulk" },  # Vengeful Warchief
   { printing = "grn/73", qty = 2, at = "black bulk" },  # Kraul Swarm
