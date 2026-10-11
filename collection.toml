@@ -585,8 +585,15 @@ cards = [
   { printing = "clb/23", at = "white bulk" },  # Guardian Naga // Banishing Coils
   { printing = "clb/38", at = "white bulk" },  # Recruitment Drive
   { printing = "clb/53", qty = 2, at = "white bulk" },  # You're Confronted by Robbers
-  { printing = "clb/51", at = "white bulk" },  # Wyrm's Crossing Patrol
+  { printing = "clb/51", qty = 2, at = "white bulk" },  # Wyrm's Crossing Patrol
   { printing = "clb/52", at = "white bulk" },  # Your Temple Is Under Attack
+  { printing = "clb/46", at = "white bulk" },  # Tabaxi Toucaneers
+  { printing = "clb/22", at = "white bulk" },  # Greatsword of Tyr
+  { printing = "clb/6", at = "white bulk" },  # Astral Confrontation
+  { printing = "clb/17", at = "white bulk" },  # Far Traveler
+  { printing = "tdm/4", at = "white bulk" },  # Bearer of Glory
+  { printing = "tdm/28", at = "white bulk" },  # Stormplain Detainment
+  { printing = "clb/377", at = "white bulk" },  # Ellyn Harbreeze, Busybody
 ]
 
 [places]
