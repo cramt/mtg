@@ -723,6 +723,8 @@ cards = [
   { printing = "con/68", at = "red bulk" },  # Maniacal Rage
   { printing = "hou/94", at = "red bulk" },  # Gilded Cerodon
   { printing = "m20/147", qty = 4, at = "red bulk" },  # Lavakin Brawler
+  { printing = "ths/136", at = "red bulk" },  # Purphoros's Emissary
+  { printing = "grn/117", at = "red bulk" },  # Street Riot
 ]
 
 [places]
