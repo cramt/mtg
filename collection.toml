@@ -624,6 +624,7 @@ cards = [
   { printing = "hob/140", at = "green bulk" },  # Wargling
   { printing = "hob/141", at = "green bulk" },  # Wilderland Scrounger
   { printing = "hob/130", qty = 2, at = "green bulk" },  # Nasty Little Rabbit
+  { printing = "clb/263", at = "green bulk" },  # You Meet in a Tavern
 ]
 
 [places]
