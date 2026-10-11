@@ -545,10 +545,10 @@ cards = [
   { printing = "ima/29", at = "white bulk" },  # Seeker of the Way
   { printing = "dtk/13", at = "white bulk" },  # Dromoka Dunecaster
   { printing = "j22/164", at = "white bulk" },  # Caught in the Brights
-  { printing = "a25/12", at = "white bulk" },  # Disenchant
+  { printing = "a25/12", qty = 2, at = "white bulk" },  # Disenchant
   { printing = "ktk/14", at = "white bulk" },  # Jeskai Student
   { printing = "rix/27", qty = 7, at = "white bulk" },  # Sun-Crested Pterodon
-  { printing = "ima/12", at = "white bulk" },  # Benevolent Ancestor
+  { printing = "ima/12", qty = 2, at = "white bulk" },  # Benevolent Ancestor
   { printing = "rix/15", at = "white bulk" },  # Moment of Triumph
   { printing = "rix/11", qty = 5, at = "white bulk" },  # Legion Conquistador
   { printing = "grn/23", qty = 5, at = "white bulk" },  # Righteous Blow
@@ -561,14 +561,31 @@ cards = [
   { printing = "xln/31", at = "white bulk" },  # Raptor Companion
   { printing = "dom/34", at = "white bulk" },  # Serra Disciple
   { printing = "m21/2", at = "white bulk" },  # Alpine Watchdog
-  { printing = "ori/42", qty = 4, at = "white bulk" },  # Yoked Ox
+  { printing = "ori/42", qty = 6, at = "white bulk" },  # Yoked Ox
   { printing = "rix/26", at = "white bulk" },  # Sun Sentinel
   { printing = "soi/41", at = "white bulk" },  # Survive the Night
   { printing = "ths/30", at = "white bulk" },  # Setessan Griffin
   { printing = "grn/20", at = "white bulk" },  # Loxodon Restorer
   { printing = "jmp/80", at = "white bulk" },  # Aerial Assault
-  { printing = "j22/170", at = "white bulk" },  # Dawning Angel
+  { printing = "j22/170", qty = 2, at = "white bulk" },  # Dawning Angel
   { printing = "dtk/34", at = "white bulk" },  # Sandstorm Charger
+  { printing = "hob/20", qty = 2, at = "white bulk" },  # Magnificent End
+  { printing = "2x2/12", at = "white bulk" },  # Gods Willing
+  { printing = "kld/24", at = "white bulk" },  # Propeller Pioneer
+  { printing = "m21/39", at = "white bulk" },  # Staunch Shieldmate
+  { printing = "dtk/40", at = "white bulk" },  # Student of Ojutai
+  { printing = "hob/13", qty = 2, at = "white bulk" },  # Esgaroth Garrison
+  { printing = "hob/9", at = "white bulk" },  # Dwarven Provisioner
+  { printing = "hob/23", qty = 2, at = "white bulk" },  # Ori, Keeper of Songs
+  { printing = "hob/21", at = "white bulk" },  # Moment of Glory
+  { printing = "hob/30", at = "white bulk" },  # Velvetwing Butterflies // Gaze in Wonder
+  { printing = "hob/209", at = "white bulk" },  # Thorin's Last Stand
+  { printing = "hob/31", at = "white bulk" },  # Vow to Erebor
+  { printing = "hob/27", at = "white bulk" },  # Stone by Sunlight
+  { printing = "clb/23", at = "white bulk" },  # Guardian Naga // Banishing Coils
+  { printing = "clb/38", at = "white bulk" },  # Recruitment Drive
+  { printing = "clb/53", qty = 2, at = "white bulk" },  # You're Confronted by Robbers
+  { printing = "clb/51", at = "white bulk" },  # Wyrm's Crossing Patrol
 ]
 
 [places]
