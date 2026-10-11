@@ -567,6 +567,8 @@ cards = [
   { printing = "ths/30", at = "white bulk" },  # Setessan Griffin
   { printing = "grn/20", at = "white bulk" },  # Loxodon Restorer
   { printing = "jmp/80", at = "white bulk" },  # Aerial Assault
+  { printing = "j22/170", at = "white bulk" },  # Dawning Angel
+  { printing = "dtk/34", at = "white bulk" },  # Sandstorm Charger
 ]
 
 [places]
