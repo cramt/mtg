@@ -895,6 +895,12 @@ cards = [
   { printing = "soc/316", at = "An Apple a Day" },  # Inkshield
   { printing = "soc/144", at = "An Apple a Day" },  # Eidolon of Countless Battles
   { printing = "frc/74" },  # Isolated Chapel
+  { printing = "soc/156" },  # Martial Impetus
+  { printing = "rix/25" },  # Squire's Devotion
+  { printing = "soc/141" },  # Combat Calligrapher
+  { printing = "soc/56" },  # Turbulent Moor
+  { printing = "cmr/385" },  # Spirit Mantle
+  { printing = "soc/117" },  # Fallen Ideal
 ]
 
 [places]
