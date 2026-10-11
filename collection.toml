@@ -468,7 +468,7 @@ cards = [
   { printing = "jou/64", at = "stables" },  # Cruel Feeding
   { printing = "aer/67", at = "black bulk" },  # Night Market Aeronaut
   { printing = "dgm/30", at = "black bulk" },  # Ubul Sar Gatekeepers
-  { printing = "m20/86", at = "black bulk" },  # Bladebrand
+  { printing = "m20/86", qty = 3, at = "black bulk" },  # Bladebrand
   { printing = "clb/113", at = "black bulk" },  # Arms of Hadar
   { printing = "clb/151", at = "stables" },  # Summon Undead
   { printing = "clb/120", at = "stables" },  # Chain Devil
