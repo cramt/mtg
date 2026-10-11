@@ -920,6 +920,13 @@ cards = [
   { printing = "thb/101", at = "An Apple a Day" },  # Hateful Eidolon
   { printing = "cmr/386", at = "An Apple a Day" },  # Sram, Senior Edificer
   { printing = "soc/310", at = "An Apple a Day" },  # Fracture
+  { printing = "soc/55" },  # Turbulent Fen
+  { printing = "soc/229" },  # Viscera Seer
+  { printing = "sos/266" },  # Titan's Grave
+  { printing = "soc/380" },  # High Market
+  { printing = "soc/230" },  # Witch of the Moors
+  { printing = "soc/217" },  # Jadar, Ghoulcaller of Nephalia
+  { printing = "soc/233" },  # Zulaport Cutthroat
 ]
 
 [places]
