@@ -701,8 +701,6 @@ cards = [
   { printing = "m14/197", at = "stables" },  # Trollhide
   { printing = "rix/131", at = "green bulk" },  # Giltgrove Stalker
   { printing = "soc/238", at = "sleaved stables" },  # Blasphemous Act
-  { printing = "fem/58b", at = "red bulk" },  # Goblin War Drums
-  { printing = "clb/785", at = "red bulk" },  # Chaos Warp
   { printing = "xln/163", qty = 7, at = "red bulk" },  # Storm Fleet Pyromancer
   { printing = "xln/167", qty = 6, at = "red bulk" },  # Swashbuckling
   { printing = "bfz/147", at = "red bulk" },  # Lavastep Raider
@@ -715,10 +713,12 @@ cards = [
   { printing = "thb/138", at = "red bulk" },  # Heroes of the Revel
   { printing = "m20/145", qty = 2, at = "red bulk" },  # Infuriate
   { printing = "kld/140", at = "red bulk" },  # Welding Sparks
-  { printing = "fem/62c", at = "red bulk" },  # Orcish Veteran
   { printing = "zen/138", at = "red bulk" },  # Molten Ravager
   { printing = "mmq/182", at = "red bulk" },  # Ceremonial Guard
   { printing = "thb/163", at = "red bulk" },  # Underworld Rage-Hound
+  { printing = "fem/62c", at = "stables" },  # Orcish Veteran
+  { printing = "clb/785", at = "stables" },  # Chaos Warp
+  { printing = "fem/58b", at = "stables" },  # Goblin War Drums
 ]
 
 [places]
