@@ -835,65 +835,65 @@ cards = [
   { printing = "soc/254", at = "There's No Place Like Loam" },  # Squee, Goblin Nabob
   { printing = "soc/278", at = "There's No Place Like Loam" },  # Nature's Lore
   { printing = "soc/52", at = "There's No Place Like Loam" },  # Coastal Peak
-  { printing = "soc/307", at = "eriette" },  # Eriette of the Charmed Apple
-  { printing = "hob/315", at = "eriette" },  # Plains
-  { printing = "soc/168", at = "eriette" },  # Sentinel's Eyes
-  { printing = "fdc/31", at = "eriette" },  # Firemane Commando
-  { printing = "soc/131", at = "eriette" },  # Eldrazi Conscription
-  { printing = "w17/20", at = "eriette" },  # Untamed Hunger
-  { printing = "soc/134", at = "eriette" },  # Angelic Destiny
-  { printing = "soc/330", at = "eriette" },  # Shadrix Silverquill
-  { printing = "soc/128", at = "eriette" },  # Sol Ring
-  { printing = "soc/361", at = "eriette" },  # Arcane Lighthouse
-  { printing = "sos/273", qty = 5, at = "eriette" },  # Plains
-  { printing = "soc/129", at = "eriette" },  # Command Tower
-  { printing = "soc/407", at = "eriette" },  # Study Hall
-  { printing = "sos/277", qty = 4, at = "eriette" },  # Swamp
-  { printing = "c18/61", at = "eriette" },  # Ajani's Chosen
-  { printing = "soc/23", at = "eriette" },  # Changing Loyalty
-  { printing = "thb/107", at = "eriette" },  # Mogis's Favor
-  { printing = "m20/119", at = "eriette" },  # Unholy Indenture
-  { printing = "soc/53", at = "eriette" },  # Eclipsed Steppe
-  { printing = "soc/174", at = "eriette" },  # Songbirds' Blessing
-  { printing = "cp2/1", at = "eriette" },  # Necropolis Fiend
-  { printing = "soc/177", at = "eriette" },  # Starfield Mystic
-  { printing = "soc/13", at = "eriette" },  # Eiganjo Dynastorian // Replenish
-  { printing = "hob/316", at = "eriette" },  # Plains
-  { printing = "drc/142", at = "eriette" },  # Talisman of Hierarchy
-  { printing = "soc/24", at = "eriette" },  # Coercive Impetus
-  { printing = "c18/72", at = "eriette" },  # Sage's Reverie
-  { printing = "soc/369", at = "eriette" },  # Exotic Orchard
-  { printing = "soc/335", at = "eriette" },  # Vanishing Verse
-  { printing = "soc/207", at = "eriette" },  # Animate Dead
-  { printing = "cp2/5", at = "eriette" },  # Whip of Erebos
-  { printing = "clb/764", at = "eriette" },  # Nighthowler
-  { printing = "hob/191", at = "eriette" },  # Swamp
-  { printing = "soc/372", at = "eriette" },  # Fetid Heath
-  { printing = "soc/293", at = "eriette" },  # Anguished Unmaking
-  { printing = "soc/363", at = "eriette" },  # Bojuka Bog
-  { printing = "soc/152", at = "eriette" },  # Kor Spiritdancer
-  { printing = "soc/127", at = "eriette" },  # Arcane Signet
-  { printing = "soc/183", at = "eriette" },  # Transcendent Envoy
-  { printing = "soc/117", at = "eriette" },  # Fallen Ideal
-  { printing = "cmr/385", at = "eriette" },  # Spirit Mantle
-  { printing = "soc/56", at = "eriette" },  # Turbulent Moor
-  { printing = "soc/141", at = "eriette" },  # Combat Calligrapher
-  { printing = "rix/25", at = "eriette" },  # Squire's Devotion
-  { printing = "soc/156", at = "eriette" },  # Martial Impetus
-  { printing = "soc/382", at = "eriette" },  # Isolated Chapel
-  { printing = "soc/171", at = "eriette" },  # Sheltered by Ghosts
-  { printing = "soc/367", at = "eriette" },  # Desolate Mire
-  { printing = "soc/310", at = "eriette" },  # Fracture
-  { printing = "cmr/386", at = "eriette" },  # Sram, Senior Edificer
-  { printing = "soc/215", at = "eriette" },  # Hateful Eidolon
-  { printing = "soc/147", at = "eriette" },  # Gift of Immortality
-  { printing = "cmr/392", at = "eriette" },  # Winds of Rath
-  { printing = "soc/119", at = "eriette" },  # Screams from Within
-  { printing = "cma/9", at = "eriette" },  # Darksteel Mutation
-  { printing = "onc/164", at = "eriette" },  # Shineshadow Snarl
-  { printing = "soc/317", at = "eriette" },  # Killian, Ink Duelist
-  { printing = "soc/316", at = "eriette" },  # Inkshield
-  { printing = "soc/144", at = "eriette" },  # Eidolon of Countless Battles
+  { printing = "soc/307", at = "An Apple a Day" },  # Eriette of the Charmed Apple
+  { printing = "hob/315", at = "An Apple a Day" },  # Plains
+  { printing = "soc/168", at = "An Apple a Day" },  # Sentinel's Eyes
+  { printing = "fdc/31", at = "An Apple a Day" },  # Firemane Commando
+  { printing = "soc/131", at = "An Apple a Day" },  # Eldrazi Conscription
+  { printing = "w17/20", at = "An Apple a Day" },  # Untamed Hunger
+  { printing = "soc/134", at = "An Apple a Day" },  # Angelic Destiny
+  { printing = "soc/330", at = "An Apple a Day" },  # Shadrix Silverquill
+  { printing = "soc/128", at = "An Apple a Day" },  # Sol Ring
+  { printing = "soc/361", at = "An Apple a Day" },  # Arcane Lighthouse
+  { printing = "sos/273", qty = 5, at = "An Apple a Day" },  # Plains
+  { printing = "soc/129", at = "An Apple a Day" },  # Command Tower
+  { printing = "soc/407", at = "An Apple a Day" },  # Study Hall
+  { printing = "sos/277", qty = 4, at = "An Apple a Day" },  # Swamp
+  { printing = "c18/61", at = "An Apple a Day" },  # Ajani's Chosen
+  { printing = "soc/23", at = "An Apple a Day" },  # Changing Loyalty
+  { printing = "thb/107", at = "An Apple a Day" },  # Mogis's Favor
+  { printing = "m20/119", at = "An Apple a Day" },  # Unholy Indenture
+  { printing = "soc/53", at = "An Apple a Day" },  # Eclipsed Steppe
+  { printing = "soc/174", at = "An Apple a Day" },  # Songbirds' Blessing
+  { printing = "cp2/1", at = "An Apple a Day" },  # Necropolis Fiend
+  { printing = "soc/177", at = "An Apple a Day" },  # Starfield Mystic
+  { printing = "soc/13", at = "An Apple a Day" },  # Eiganjo Dynastorian // Replenish
+  { printing = "hob/316", at = "An Apple a Day" },  # Plains
+  { printing = "drc/142", at = "An Apple a Day" },  # Talisman of Hierarchy
+  { printing = "soc/24", at = "An Apple a Day" },  # Coercive Impetus
+  { printing = "c18/72", at = "An Apple a Day" },  # Sage's Reverie
+  { printing = "soc/369", at = "An Apple a Day" },  # Exotic Orchard
+  { printing = "soc/335", at = "An Apple a Day" },  # Vanishing Verse
+  { printing = "soc/207", at = "An Apple a Day" },  # Animate Dead
+  { printing = "cp2/5", at = "An Apple a Day" },  # Whip of Erebos
+  { printing = "clb/764", at = "An Apple a Day" },  # Nighthowler
+  { printing = "hob/191", at = "An Apple a Day" },  # Swamp
+  { printing = "soc/372", at = "An Apple a Day" },  # Fetid Heath
+  { printing = "soc/293", at = "An Apple a Day" },  # Anguished Unmaking
+  { printing = "soc/363", at = "An Apple a Day" },  # Bojuka Bog
+  { printing = "soc/152", at = "An Apple a Day" },  # Kor Spiritdancer
+  { printing = "soc/127", at = "An Apple a Day" },  # Arcane Signet
+  { printing = "soc/183", at = "An Apple a Day" },  # Transcendent Envoy
+  { printing = "soc/117", at = "An Apple a Day" },  # Fallen Ideal
+  { printing = "cmr/385", at = "An Apple a Day" },  # Spirit Mantle
+  { printing = "soc/56", at = "An Apple a Day" },  # Turbulent Moor
+  { printing = "soc/141", at = "An Apple a Day" },  # Combat Calligrapher
+  { printing = "rix/25", at = "An Apple a Day" },  # Squire's Devotion
+  { printing = "soc/156", at = "An Apple a Day" },  # Martial Impetus
+  { printing = "soc/382", at = "An Apple a Day" },  # Isolated Chapel
+  { printing = "soc/171", at = "An Apple a Day" },  # Sheltered by Ghosts
+  { printing = "soc/367", at = "An Apple a Day" },  # Desolate Mire
+  { printing = "soc/310", at = "An Apple a Day" },  # Fracture
+  { printing = "cmr/386", at = "An Apple a Day" },  # Sram, Senior Edificer
+  { printing = "soc/215", at = "An Apple a Day" },  # Hateful Eidolon
+  { printing = "soc/147", at = "An Apple a Day" },  # Gift of Immortality
+  { printing = "cmr/392", at = "An Apple a Day" },  # Winds of Rath
+  { printing = "soc/119", at = "An Apple a Day" },  # Screams from Within
+  { printing = "cma/9", at = "An Apple a Day" },  # Darksteel Mutation
+  { printing = "onc/164", at = "An Apple a Day" },  # Shineshadow Snarl
+  { printing = "soc/317", at = "An Apple a Day" },  # Killian, Ink Duelist
+  { printing = "soc/316", at = "An Apple a Day" },  # Inkshield
+  { printing = "soc/144", at = "An Apple a Day" },  # Eidolon of Countless Battles
 ]
 
 [places]
