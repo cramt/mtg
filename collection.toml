@@ -903,11 +903,11 @@ cards = [
   { printing = "soc/117" },  # Fallen Ideal
   { printing = "soc/183" },  # Transcendent Envoy
   { printing = "soc/127" },  # Arcane Signet
-  { printing = "sos/273", qty = 3 },  # Plains
+  { printing = "sos/273", qty = 6 },  # Plains
   { printing = "soc/152" },  # Kor Spiritdancer
   { printing = "soc/363" },  # Bojuka Bog
   { printing = "soc/293" },  # Anguished Unmaking
-  { printing = "sos/277", qty = 2 },  # Swamp
+  { printing = "sos/277", qty = 6 },  # Swamp
   { printing = "soc/372" },  # Fetid Heath
   { printing = "hob/191" },  # Swamp
   { printing = "ths/98" },  # Nighthowler
@@ -924,6 +924,31 @@ cards = [
   { printing = "cp2/1" },  # Necropolis Fiend
   { printing = "soc/174" },  # Songbirds' Blessing
   { printing = "soc/53" },  # Eclipsed Steppe
+  { printing = "m20/119" },  # Unholy Indenture
+  { printing = "thb/107" },  # Mogis's Favor
+  { printing = "soc/23" },  # Changing Loyalty
+  { printing = "soc/132" },  # Ajani's Chosen
+  { printing = "c21/80" },  # Study Hall
+  { printing = "soc/129" },  # Command Tower
+  { printing = "soc/361" },  # Arcane Lighthouse
+  { printing = "soc/128" },  # Sol Ring
+  { printing = "soc/330" },  # Shadrix Silverquill
+  { printing = "fdn/565" },  # Angelic Destiny
+  { printing = "w17/20" },  # Untamed Hunger
+  { printing = "roe/3" },  # Eldrazi Conscription
+  { printing = "soc/145" },  # Firemane Commando
+  { printing = "soc/168" },  # Sentinel's Eyes
+  { printing = "hob/315" },  # Plains
+  { printing = "soc/307" },  # Eriette of the Charmed Apple
+  { printing = "soc/367" },  # Desolate Mire
+  { printing = "soc/171" },  # Sheltered by Ghosts
+  { printing = "clb/140" },  # Parasitic Impetus
+  { printing = "soc/163" },  # Redemption Arc
+  { printing = "soc/130" },  # Fabled Passage
+  { printing = "clb/929" },  # War Room
+  { printing = "soc/9" },  # Scriv, the Obligator
+  { printing = "sld/1843" },  # Ghoulish Impetus
+  { printing = "soc/179" },  # Swords to Plowshares
 ]
 
 [places]
