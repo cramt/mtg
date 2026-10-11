@@ -828,6 +828,7 @@ cards = [
   { printing = "soc/325", at = "There's No Place Like Loam" },  # Quandrix Command
   { printing = "soc/388", at = "There's No Place Like Loam" },  # Mystic Sanctuary
   { printing = "sos/166", at = "There's No Place Like Loam" },  # Vastlands Scavenger // Bind to Life
+  { printing = "soc/194", at = "There's No Place Like Loam" },  # Deep Analysis
 ]
 
 [places]
