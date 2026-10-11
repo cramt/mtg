@@ -845,7 +845,7 @@ cards = [
   { printing = "soc/330", at = "eriette" },  # Shadrix Silverquill
   { printing = "soc/128", at = "eriette" },  # Sol Ring
   { printing = "soc/361", at = "eriette" },  # Arcane Lighthouse
-  { printing = "sos/273", qty = 2, at = "eriette" },  # Plains
+  { printing = "sos/273", qty = 3, at = "eriette" },  # Plains
   { printing = "soc/129", at = "eriette" },  # Command Tower
   { printing = "soc/407", at = "eriette" },  # Study Hall
   { printing = "sos/277", qty = 2, at = "eriette" },  # Swamp
@@ -862,6 +862,12 @@ cards = [
   { printing = "drc/142", at = "eriette" },  # Talisman of Hierarchy
   { printing = "soc/24", at = "eriette" },  # Coercive Impetus
   { printing = "c18/72", at = "eriette" },  # Sage's Reverie
+  { printing = "soc/369", at = "eriette" },  # Exotic Orchard
+  { printing = "soc/335", at = "eriette" },  # Vanishing Verse
+  { printing = "soc/207", at = "eriette" },  # Animate Dead
+  { printing = "cp2/5", at = "eriette" },  # Whip of Erebos
+  { printing = "clb/764", at = "eriette" },  # Nighthowler
+  { printing = "hob/191", at = "eriette" },  # Swamp
 ]
 
 [places]
