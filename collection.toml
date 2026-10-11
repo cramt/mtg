@@ -607,6 +607,11 @@ cards = [
   { printing = "rix/7", qty = 5, at = "white bulk" },  # Exultant Skymarcher
   { printing = "ths/1", at = "white bulk" },  # Battlewise Valor
   { printing = "grn/5", qty = 8, at = "white bulk" },  # Collar the Culprit
+  { printing = "sos/169", at = "green bulk" },  # Zimone's Experiment
+  { printing = "soa/55", at = "stables" },  # Pick Your Poison
+  { printing = "sos/159", at = "green bulk" },  # Shopkeeper's Bane
+  { printing = "clb/259", at = "green bulk" },  # Undercellar Myconid
+  { printing = "clb/837", at = "green bulk" },  # Three Visits
 ]
 
 [places]
