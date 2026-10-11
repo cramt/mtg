@@ -778,6 +778,7 @@ cards = [
   { printing = "soc/34", at = "stables" },  # Prismari Pianist
   { printing = "soc/36", at = "stables" },  # Renegade Bull
   { printing = "hob/102", at = "red bulk" },  # Iron Hills Stalwart
+  { printing = "hob/107", at = "red bulk" },  # Pinecone Strike
 ]
 
 [places]
