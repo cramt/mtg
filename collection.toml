@@ -757,6 +757,11 @@ cards = [
   { printing = "otc/155", at = "red bulk" },  # Big Score
   { printing = "tdc/223", at = "red bulk" },  # Mana Geyser
   { printing = "stx/115", at = "red bulk" },  # Storm-Kiln Artist
+  { printing = "clb/813", at = "red bulk" },  # Volcanic Torrent
+  { printing = "soc/241", at = "red bulk" },  # Creative Technique
+  { printing = "frc/49", at = "red bulk" },  # Cursed Mirror
+  { printing = "soc/243", at = "red bulk" },  # Dance with Calamity
+  { printing = "khm/139", at = "red bulk" },  # Goldspan Dragon
 ]
 
 [places]
