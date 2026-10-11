@@ -927,7 +927,7 @@ cards = [
   { printing = "soc/230" },  # Witch of the Moors
   { printing = "soc/217" },  # Jadar, Ghoulcaller of Nephalia
   { printing = "soc/233" },  # Zulaport Cutthroat
-  { printing = "sos/276", qty = 6 },  # Swamp
+  { printing = "sos/276", qty = 8 },  # Swamp
   { printing = "soc/379" },  # Haunted Mire
   { printing = "soc/393" },  # Path of Ancestry
   { printing = "soc/339" },  # Witherbloom Command
@@ -947,7 +947,7 @@ cards = [
   { printing = "soc/47" },  # Immoral Bargain
   { printing = "soc/223" },  # Pawn of Ulamog
   { printing = "soc/216" },  # Infernal Grasp
-  { printing = "sos/280", qty = 3 },  # Forest
+  { printing = "sos/280", qty = 8 },  # Forest
   { printing = "onc/160" },  # Necroblossom Snarl
   { printing = "soc/418" },  # Twilight Mire
   { printing = "soc/290" },  # Trudge Garden
@@ -972,6 +972,30 @@ cards = [
   { printing = "soc/303" },  # Deadly Brew
   { printing = "soc/302" },  # Culling Ritual
   { printing = "soc/208" },  # Blight Mound
+  { printing = "soc/319" },  # Mazirek, Kraul Death Priest
+  { printing = "soc/225" },  # Priest of Forgotten Gods
+  { printing = "sos/244" },  # Witherbloom Charm
+  { printing = "soc/276" },  # Mycoloth
+  { printing = "soc/125" },  # Tendershoot Dryad
+  { printing = "soc/421" },  # Viridescent Bog
+  { printing = "soc/320" },  # Moldervine Reclamation
+  { printing = "soc/377" },  # Grim Backwoods
+  { printing = "soc/313" },  # Gyome, Master Chef
+  { printing = "soc/419" },  # Vernal Fen
+  { printing = "soc/262" },  # Awakening Zone
+  { printing = "soc/127" },  # Arcane Signet
+  { printing = "soc/424" },  # Woodland Cemetery
+  { printing = "soc/300" },  # Casualties of War
+  { printing = "soc/383" },  # Llanowar Wastes
+  { printing = "soc/219" },  # Morbid Opportunist
+  { printing = "soc/363" },  # Bojuka Bog
+  { printing = "soc/120" },  # Toxic Deluge
+  { printing = "soc/27" },  # Merchant of Venom
+  { printing = "soc/38" },  # Feral Appetite
+  { printing = "soc/43" },  # Ribtruss Roaster
+  { printing = "frf/185" },  # Forest
+  { printing = "soc/29" },  # Stensian Sanguinist // Exsanguinate
+  { printing = "soc/264" },  # Blossoming Bogbeast
 ]
 
 [places]
