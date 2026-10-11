@@ -456,6 +456,8 @@ cards = [
   { printing = "ktk/84", at = "black bulk" },  # Rakshasa's Secret
   { printing = "m20/118", at = "black bulk" },  # Undead Servant
   { printing = "rix/91", at = "black bulk" },  # Voracious Vampire
+  { printing = "m20/121", qty = 2, at = "black bulk" },  # Vengeful Warchief
+  { printing = "grn/73", at = "black bulk" },  # Kraul Swarm
 ]
 
 [places]
