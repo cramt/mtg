@@ -820,6 +820,7 @@ cards = [
   { printing = "gtc/108", at = "red bulk" },  # Tin Street Market
   { printing = "clu/148", at = "stables" },  # Spellgorger Weird
   { printing = "thb/152", at = "stables" },  # Satyr's Cunning
+  { printing = "lrw/161", at = "red bulk" },  # Consuming Bonfire
 ]
 
 [places]
