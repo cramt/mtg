@@ -517,6 +517,8 @@ cards = [
   { printing = "soc/133", at = "stables" },  # Angel of Indemnity
   { printing = "soc/135", at = "stables" },  # Ao, the Dawn Sky
   { printing = "soc/136", at = "sleaved stables" },  # Archaeomancer's Map
+  { printing = "soc/140", at = "stables" },  # Claim Jumper
+  { printing = "soc/143", at = "white bulk" },  # Drumbellower
 ]
 
 [places]
