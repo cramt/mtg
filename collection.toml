@@ -476,6 +476,11 @@ cards = [
   { printing = "tdm/99", at = "black bulk" },  # Worthy Cost
   { printing = "tdm/73", at = "stables" },  # Avenger of the Fallen
   { printing = "tdm/78", at = "stables" },  # Desperate Measures
+  { printing = "tdm/98", at = "black bulk" },  # Wail of War
+  { printing = "tdm/76", at = "black bulk" },  # Cruel Truths
+  { printing = "tdm/74", at = "black bulk" },  # Caustic Exhale
+  { printing = "clb/394", at = "black bulk" },  # Viconia, Drow Apostate
+  { printing = "clb/145", at = "black bulk" },  # Scion of Halaster
 ]
 
 [places]
