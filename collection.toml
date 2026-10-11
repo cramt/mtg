@@ -1075,6 +1075,7 @@ cards = [
   { printing = "soc/283" },  # Primal Might
   { printing = "soc/373" },  # Flooded Grove
   { printing = "soc/10" },  # Zimone, Infinite Analyst
+  { printing = "soc/6" },  # Primo, the Unbounded
 ]
 
 [places]
