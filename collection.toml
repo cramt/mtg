@@ -400,6 +400,8 @@ cards = [
   { printing = "frf/61" },  # Ancestral Vengeance
   { printing = "m20/119" },  # Unholy Indenture
   { printing = "bng/75" },  # Herald of Torment
+  { printing = "ths/78" },  # Baleful Eidolon
+  { printing = "sos/104" },  # Wander Off
 ]
 
 [places]
