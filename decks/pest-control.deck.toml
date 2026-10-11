@@ -1,0 +1,110 @@
+name = "Pest Control"
+format = "commander"
+description = """
+The Witherbloom Pestilence precon, with a few swaps from the binder. Not at 100 yet.
+
+Dina draws a card the first time each turn you sacrifice a creature, and her own ability turns a sacrificed creature into life and +1/+1 counters on whatever you keep. So the deck is a pile of bodies that come back or leave something behind: Pest makers (Pest Rescuer, Blight Mound, Ribtruss Roaster, Beledros), recursive creatures (Bloodghast, Nether Traitor, Teacher's Pest), and free sac outlets (Viscera Seer, Umbral Collar Zealot, Woe Strider, Yahenni).
+
+Every Pest gains a life when it dies, and that life is the second engine. Blood Artist and Zulaport Cutthroat drain on every death, Pest Rescuer adds one to every lifegain, Trudge Garden turns it into 4/4s, and Witch of the Moors makes each opponent sacrifice a creature at your end step. Morbid Opportunist and Moldervine Reclamation keep the cards coming alongside Dina."""
+
+cards = [
+  { printing = "soc/1", in = ["Commander"] },  # Dina, Essence Brewer
+  { printing = "soc/225", in = ["Sac Outlet", "Interaction"] },  # Priest of Forgotten Gods
+  { printing = "soc/227", in = ["Sac Outlet"] },  # Umbral Collar Zealot
+  { printing = "soc/229", in = ["Sac Outlet"] },  # Viscera Seer
+  { printing = "soc/338", in = ["Sac Outlet", "Ramp"] },  # Wight of the Reliquary
+  { printing = "soc/231", in = ["Sac Outlet"] },  # Woe Strider
+  { printing = "soc/232", in = ["Sac Outlet"] },  # Yahenni, Undying Partisan
+  { printing = "soc/127", in = ["Ramp"] },  # Arcane Signet
+  { printing = "afc/164", in = ["Ramp"] },  # Nature's Lore
+  { printing = "soc/285", in = ["Ramp"] },  # Sakura-Tribe Elder
+  { printing = "soc/128", in = ["Ramp"] },  # Sol Ring
+  { printing = "soc/287", in = ["Ramp"] },  # Springbloom Druid
+  { printing = "soc/294", in = ["Interaction"] },  # Assassin's Trophy
+  { printing = "soa/26", in = ["Interaction"] },  # Bitter Triumph
+  { printing = "soc/300", in = ["Interaction"] },  # Casualties of War
+  { printing = "soc/303", in = ["Interaction", "Recursion"] },  # Deadly Brew
+  { printing = "soc/38", in = ["Interaction", "Graveyard Hate", "Token Maker"] },  # Feral Appetite
+  { printing = "soc/349", in = ["Interaction"] },  # Haywire Mite
+  { printing = "soc/47", in = ["Interaction"] },  # Immoral Bargain
+  { printing = "soc/216", in = ["Interaction"] },  # Infernal Grasp
+  { printing = "soc/27", in = ["Interaction"] },  # Merchant of Venom
+  { printing = "frf/76", in = ["Interaction"] },  # Merciless Executioner
+  { printing = "soc/282", in = ["Interaction", "Token Maker"] },  # Pest Infestation
+  { printing = "soc/29", in = ["Interaction"] },  # Stensian Sanguinist // Exsanguinate
+  { printing = "soc/339", in = ["Interaction"] },  # Witherbloom Command
+  { printing = "soc/262", in = ["Token Maker"] },  # Awakening Zone
+  { printing = "soc/296", in = ["Token Maker"] },  # Beledros Witherbloom
+  { printing = "soc/208", in = ["Token Maker", "Recursion"] },  # Blight Mound
+  { printing = "soc/301", in = ["Token Maker"] },  # Creakwood Liege
+  { printing = "soc/46", in = ["Token Maker"] },  # Eccentric Pestfinder // Turn Stones
+  { printing = "soc/269", in = ["Token Maker"] },  # Gilded Goose
+  { printing = "soc/217", in = ["Token Maker"] },  # Jadar, Ghoulcaller of Nephalia
+  { printing = "soc/276", in = ["Token Maker", "Sac Outlet"] },  # Mycoloth
+  { printing = "soc/118", in = ["Token Maker"] },  # Ophiomancer
+  { printing = "soc/223", in = ["Token Maker"] },  # Pawn of Ulamog
+  { printing = "soc/42", in = ["Token Maker"] },  # Pest Rescuer
+  { printing = "soc/43", in = ["Token Maker", "Sac Outlet"] },  # Ribtruss Roaster
+  { printing = "soc/125", in = ["Token Maker"] },  # Tendershoot Dryad
+  { printing = "soc/290", in = ["Token Maker", "Lifegain Payoff"] },  # Trudge Garden
+  { printing = "clb/111", in = ["Recursion"] },  # Ancient Brass Dragon
+  { printing = "soc/210", in = ["Recursion"] },  # Bloodghast
+  { printing = "soc/220", in = ["Recursion"] },  # Nether Traitor
+  { printing = "sos/238", in = ["Recursion"] },  # Teacher's Pest
+  { printing = "soc/264", in = ["Lifegain Payoff"] },  # Blossoming Bogbeast
+  { printing = "soc/230", in = ["Lifegain Payoff", "Interaction", "Recursion"] },  # Witch of the Moors
+  { printing = "soc/209", in = ["Death Payoff"] },  # Blood Artist
+  { printing = "soc/3", in = ["Death Payoff"] },  # Gorma, the Gullet
+  { printing = "soc/319", in = ["Death Payoff"] },  # Mazirek, Kraul Death Priest
+  { printing = "soc/320", in = ["Death Payoff", "Draw"] },  # Moldervine Reclamation
+  { printing = "soc/219", in = ["Death Payoff", "Draw"] },  # Morbid Opportunist
+  { printing = "soc/233", in = ["Death Payoff"] },  # Zulaport Cutthroat
+  { printing = "soc/221", in = ["Draw"] },  # Night's Whisper
+  { printing = "soc/279", in = ["Draw"] },  # Ohran Frostfang
+  { printing = "soc/28", in = ["Draw"] },  # Ominous Harvest
+  { printing = "soc/224", in = ["Draw"] },  # Plumb the Forbidden
+  { printing = "sos/214", in = ["Draw", "Interaction"] },  # Professor Dellian Fel
+  { printing = "sos/244", in = ["Draw", "Interaction"] },  # Witherbloom Charm
+  { printing = "soc/302", in = ["Board Wipe"] },  # Culling Ritual
+  { printing = "soc/213", in = ["Board Wipe"] },  # Final Act
+  { printing = "soc/120", in = ["Board Wipe"] },  # Toxic Deluge
+  { printing = "soc/313", in = ["Protection"] },  # Gyome, Master Chef
+  { printing = "soc/130", in = ["Land - Dual"] },  # Fabled Passage
+  { printing = "soc/371", in = ["Land - Dual"] },  # Festering Thicket
+  { printing = "soc/379", in = ["Land - Dual"] },  # Haunted Mire
+  { printing = "soc/383", in = ["Land - Dual"] },  # Llanowar Wastes
+  { printing = "onc/160", in = ["Land - Dual"] },  # Necroblossom Snarl
+  { printing = "soc/393", in = ["Land - Dual"] },  # Path of Ancestry
+  { printing = "soc/413", in = ["Land - Dual"] },  # Temple of Malady
+  { printing = "sos/265", in = ["Land - Dual"] },  # Terramorphic Expanse
+  { printing = "sos/266", in = ["Land - Dual"] },  # Titan's Grave
+  { printing = "soc/55", in = ["Land - Dual"] },  # Turbulent Fen
+  { printing = "soc/418", in = ["Land - Dual"] },  # Twilight Mire
+  { printing = "soc/419", in = ["Land - Dual"] },  # Vernal Fen
+  { printing = "soc/421", in = ["Land - Dual"] },  # Viridescent Bog
+  { printing = "soc/423", in = ["Land - Dual"] },  # Witherbloom Campus
+  { printing = "soc/424", in = ["Land - Dual"] },  # Woodland Cemetery
+  { printing = "soc/363", in = ["Land - Utility"] },  # Bojuka Bog
+  { printing = "soc/377", in = ["Land - Utility"] },  # Grim Backwoods
+  { printing = "soc/380", in = ["Land - Utility"] },  # High Market
+  { printing = "frf/185", in = ["Land - Basic"] },  # Forest
+  { printing = "sos/280", qty = 8, in = ["Land - Basic"] },  # Forest
+  { printing = "sos/276", qty = 8, in = ["Land - Basic"] },  # Swamp
+]
+
+[categories]
+Commander = { type = "commander" }
+"Sac Outlet" = {}
+Ramp = {}
+Interaction = {}
+"Token Maker" = {}
+Recursion = {}
+"Lifegain Payoff" = {}
+"Death Payoff" = {}
+Draw = {}
+"Graveyard Hate" = {}
+"Board Wipe" = {}
+Protection = {}
+"Land - Dual" = {}
+"Land - Utility" = {}
+"Land - Basic" = {}

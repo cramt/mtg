@@ -920,88 +920,88 @@ cards = [
   { printing = "thb/101", at = "An Apple a Day" },  # Hateful Eidolon
   { printing = "cmr/386", at = "An Apple a Day" },  # Sram, Senior Edificer
   { printing = "soc/310", at = "An Apple a Day" },  # Fracture
-  { printing = "soc/55" },  # Turbulent Fen
-  { printing = "soc/229" },  # Viscera Seer
-  { printing = "sos/266" },  # Titan's Grave
-  { printing = "soc/380" },  # High Market
-  { printing = "soc/230" },  # Witch of the Moors
-  { printing = "soc/217" },  # Jadar, Ghoulcaller of Nephalia
-  { printing = "soc/233" },  # Zulaport Cutthroat
-  { printing = "sos/276", qty = 8 },  # Swamp
-  { printing = "soc/379" },  # Haunted Mire
-  { printing = "soc/393" },  # Path of Ancestry
-  { printing = "soc/339" },  # Witherbloom Command
-  { printing = "frf/76" },  # Merciless Executioner
-  { printing = "afc/164" },  # Nature's Lore
-  { printing = "soc/232" },  # Yahenni, Undying Partisan
-  { printing = "soc/349" },  # Haywire Mite
-  { printing = "soc/269" },  # Gilded Goose
-  { printing = "sos/238" },  # Teacher's Pest
-  { printing = "soc/210" },  # Bloodghast
-  { printing = "soc/227" },  # Umbral Collar Zealot
-  { printing = "soc/338" },  # Wight of the Reliquary
-  { printing = "soc/294" },  # Assassin's Trophy
-  { printing = "soc/423" },  # Witherbloom Campus
-  { printing = "soc/128" },  # Sol Ring
-  { printing = "soc/413" },  # Temple of Malady
-  { printing = "soc/47" },  # Immoral Bargain
-  { printing = "soc/223" },  # Pawn of Ulamog
-  { printing = "soc/216" },  # Infernal Grasp
-  { printing = "sos/280", qty = 8 },  # Forest
-  { printing = "onc/160" },  # Necroblossom Snarl
-  { printing = "soc/418" },  # Twilight Mire
-  { printing = "soc/290" },  # Trudge Garden
-  { printing = "soc/231" },  # Woe Strider
-  { printing = "soc/224" },  # Plumb the Forbidden
-  { printing = "soc/220" },  # Nether Traitor
-  { printing = "soc/279" },  # Ohran Frostfang
-  { printing = "soc/46" },  # Eccentric Pestfinder // Turn Stones
-  { printing = "soc/282" },  # Pest Infestation
-  { printing = "soc/221" },  # Night's Whisper
-  { printing = "soc/130" },  # Fabled Passage
-  { printing = "soc/209" },  # Blood Artist
-  { printing = "soc/287" },  # Springbloom Druid
-  { printing = "soc/371" },  # Festering Thicket
-  { printing = "soc/42" },  # Pest Rescuer
-  { printing = "soc/285" },  # Sakura-Tribe Elder
-  { printing = "soc/118" },  # Ophiomancer
-  { printing = "soc/213" },  # Final Act
-  { printing = "soc/3" },  # Gorma, the Gullet
-  { printing = "soc/301" },  # Creakwood Liege
-  { printing = "soc/28" },  # Ominous Harvest
-  { printing = "soc/303" },  # Deadly Brew
-  { printing = "soc/302" },  # Culling Ritual
-  { printing = "soc/208" },  # Blight Mound
-  { printing = "soc/319" },  # Mazirek, Kraul Death Priest
-  { printing = "soc/225" },  # Priest of Forgotten Gods
-  { printing = "sos/244" },  # Witherbloom Charm
-  { printing = "soc/276" },  # Mycoloth
-  { printing = "soc/125" },  # Tendershoot Dryad
-  { printing = "soc/421" },  # Viridescent Bog
-  { printing = "soc/320" },  # Moldervine Reclamation
-  { printing = "soc/377" },  # Grim Backwoods
-  { printing = "soc/313" },  # Gyome, Master Chef
-  { printing = "soc/419" },  # Vernal Fen
-  { printing = "soc/262" },  # Awakening Zone
-  { printing = "soc/127" },  # Arcane Signet
-  { printing = "soc/424" },  # Woodland Cemetery
-  { printing = "soc/300" },  # Casualties of War
-  { printing = "soc/383" },  # Llanowar Wastes
-  { printing = "soc/219" },  # Morbid Opportunist
-  { printing = "soc/363" },  # Bojuka Bog
-  { printing = "soc/120" },  # Toxic Deluge
-  { printing = "soc/27" },  # Merchant of Venom
-  { printing = "soc/38" },  # Feral Appetite
-  { printing = "soc/43" },  # Ribtruss Roaster
-  { printing = "frf/185" },  # Forest
-  { printing = "soc/29" },  # Stensian Sanguinist // Exsanguinate
-  { printing = "soc/264" },  # Blossoming Bogbeast
-  { printing = "soc/296" },  # Beledros Witherbloom
-  { printing = "clb/111" },  # Ancient Brass Dragon
-  { printing = "soa/26" },  # Bitter Triumph
-  { printing = "sos/214" },  # Professor Dellian Fel
-  { printing = "sos/265" },  # Terramorphic Expanse
-  { printing = "soc/1" },  # Dina, Essence Brewer
+  { printing = "soc/55", at = "Pest Control" },  # Turbulent Fen
+  { printing = "soc/229", at = "Pest Control" },  # Viscera Seer
+  { printing = "sos/266", at = "Pest Control" },  # Titan's Grave
+  { printing = "soc/380", at = "Pest Control" },  # High Market
+  { printing = "soc/230", at = "Pest Control" },  # Witch of the Moors
+  { printing = "soc/217", at = "Pest Control" },  # Jadar, Ghoulcaller of Nephalia
+  { printing = "soc/233", at = "Pest Control" },  # Zulaport Cutthroat
+  { printing = "sos/276", qty = 8, at = "Pest Control" },  # Swamp
+  { printing = "soc/379", at = "Pest Control" },  # Haunted Mire
+  { printing = "soc/393", at = "Pest Control" },  # Path of Ancestry
+  { printing = "soc/339", at = "Pest Control" },  # Witherbloom Command
+  { printing = "frf/76", at = "Pest Control" },  # Merciless Executioner
+  { printing = "afc/164", at = "Pest Control" },  # Nature's Lore
+  { printing = "soc/232", at = "Pest Control" },  # Yahenni, Undying Partisan
+  { printing = "soc/349", at = "Pest Control" },  # Haywire Mite
+  { printing = "soc/269", at = "Pest Control" },  # Gilded Goose
+  { printing = "sos/238", at = "Pest Control" },  # Teacher's Pest
+  { printing = "soc/210", at = "Pest Control" },  # Bloodghast
+  { printing = "soc/227", at = "Pest Control" },  # Umbral Collar Zealot
+  { printing = "soc/338", at = "Pest Control" },  # Wight of the Reliquary
+  { printing = "soc/294", at = "Pest Control" },  # Assassin's Trophy
+  { printing = "soc/423", at = "Pest Control" },  # Witherbloom Campus
+  { printing = "soc/128", at = "Pest Control" },  # Sol Ring
+  { printing = "soc/413", at = "Pest Control" },  # Temple of Malady
+  { printing = "soc/47", at = "Pest Control" },  # Immoral Bargain
+  { printing = "soc/223", at = "Pest Control" },  # Pawn of Ulamog
+  { printing = "soc/216", at = "Pest Control" },  # Infernal Grasp
+  { printing = "sos/280", qty = 8, at = "Pest Control" },  # Forest
+  { printing = "onc/160", at = "Pest Control" },  # Necroblossom Snarl
+  { printing = "soc/418", at = "Pest Control" },  # Twilight Mire
+  { printing = "soc/290", at = "Pest Control" },  # Trudge Garden
+  { printing = "soc/231", at = "Pest Control" },  # Woe Strider
+  { printing = "soc/224", at = "Pest Control" },  # Plumb the Forbidden
+  { printing = "soc/220", at = "Pest Control" },  # Nether Traitor
+  { printing = "soc/279", at = "Pest Control" },  # Ohran Frostfang
+  { printing = "soc/46", at = "Pest Control" },  # Eccentric Pestfinder // Turn Stones
+  { printing = "soc/282", at = "Pest Control" },  # Pest Infestation
+  { printing = "soc/221", at = "Pest Control" },  # Night's Whisper
+  { printing = "soc/130", at = "Pest Control" },  # Fabled Passage
+  { printing = "soc/209", at = "Pest Control" },  # Blood Artist
+  { printing = "soc/287", at = "Pest Control" },  # Springbloom Druid
+  { printing = "soc/371", at = "Pest Control" },  # Festering Thicket
+  { printing = "soc/42", at = "Pest Control" },  # Pest Rescuer
+  { printing = "soc/285", at = "Pest Control" },  # Sakura-Tribe Elder
+  { printing = "soc/118", at = "Pest Control" },  # Ophiomancer
+  { printing = "soc/213", at = "Pest Control" },  # Final Act
+  { printing = "soc/3", at = "Pest Control" },  # Gorma, the Gullet
+  { printing = "soc/301", at = "Pest Control" },  # Creakwood Liege
+  { printing = "soc/28", at = "Pest Control" },  # Ominous Harvest
+  { printing = "soc/303", at = "Pest Control" },  # Deadly Brew
+  { printing = "soc/302", at = "Pest Control" },  # Culling Ritual
+  { printing = "soc/208", at = "Pest Control" },  # Blight Mound
+  { printing = "soc/319", at = "Pest Control" },  # Mazirek, Kraul Death Priest
+  { printing = "soc/225", at = "Pest Control" },  # Priest of Forgotten Gods
+  { printing = "sos/244", at = "Pest Control" },  # Witherbloom Charm
+  { printing = "soc/276", at = "Pest Control" },  # Mycoloth
+  { printing = "soc/125", at = "Pest Control" },  # Tendershoot Dryad
+  { printing = "soc/421", at = "Pest Control" },  # Viridescent Bog
+  { printing = "soc/320", at = "Pest Control" },  # Moldervine Reclamation
+  { printing = "soc/377", at = "Pest Control" },  # Grim Backwoods
+  { printing = "soc/313", at = "Pest Control" },  # Gyome, Master Chef
+  { printing = "soc/419", at = "Pest Control" },  # Vernal Fen
+  { printing = "soc/262", at = "Pest Control" },  # Awakening Zone
+  { printing = "soc/127", at = "Pest Control" },  # Arcane Signet
+  { printing = "soc/424", at = "Pest Control" },  # Woodland Cemetery
+  { printing = "soc/300", at = "Pest Control" },  # Casualties of War
+  { printing = "soc/383", at = "Pest Control" },  # Llanowar Wastes
+  { printing = "soc/219", at = "Pest Control" },  # Morbid Opportunist
+  { printing = "soc/363", at = "Pest Control" },  # Bojuka Bog
+  { printing = "soc/120", at = "Pest Control" },  # Toxic Deluge
+  { printing = "soc/27", at = "Pest Control" },  # Merchant of Venom
+  { printing = "soc/38", at = "Pest Control" },  # Feral Appetite
+  { printing = "soc/43", at = "Pest Control" },  # Ribtruss Roaster
+  { printing = "frf/185", at = "Pest Control" },  # Forest
+  { printing = "soc/29", at = "Pest Control" },  # Stensian Sanguinist // Exsanguinate
+  { printing = "soc/264", at = "Pest Control" },  # Blossoming Bogbeast
+  { printing = "soc/296", at = "Pest Control" },  # Beledros Witherbloom
+  { printing = "clb/111", at = "Pest Control" },  # Ancient Brass Dragon
+  { printing = "soa/26", at = "Pest Control" },  # Bitter Triumph
+  { printing = "sos/214", at = "Pest Control" },  # Professor Dellian Fel
+  { printing = "sos/265", at = "Pest Control" },  # Terramorphic Expanse
+  { printing = "soc/1", at = "Pest Control" },  # Dina, Essence Brewer
 ]
 
 [places]
@@ -1018,3 +1018,4 @@ stables = {}
 "red bulk" = {}
 "There's No Place Like Loam" = { deck = "decks/there-s-no-place-like-loam.deck.toml" }
 "An Apple a Day" = { deck = "decks/an-apple-a-day.deck.toml" }
+"Pest Control" = { deck = "decks/pest-control.deck.toml" }
