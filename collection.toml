@@ -702,7 +702,7 @@ cards = [
   { printing = "rix/131", at = "green bulk" },  # Giltgrove Stalker
   { printing = "soc/238", at = "sleaved stables" },  # Blasphemous Act
   { printing = "xln/163", qty = 7, at = "red bulk" },  # Storm Fleet Pyromancer
-  { printing = "xln/167", qty = 6, at = "red bulk" },  # Swashbuckling
+  { printing = "xln/167", qty = 7, at = "red bulk" },  # Swashbuckling
   { printing = "bfz/147", at = "red bulk" },  # Lavastep Raider
   { printing = "ima/117", at = "red bulk" },  # Battle-Rattle Shaman
   { printing = "bng/90", at = "red bulk" },  # Cyclops of One-Eyed Pass
@@ -715,7 +715,7 @@ cards = [
   { printing = "kld/140", qty = 2, at = "red bulk" },  # Welding Sparks
   { printing = "zen/138", at = "red bulk" },  # Molten Ravager
   { printing = "mmq/182", at = "red bulk" },  # Ceremonial Guard
-  { printing = "thb/163", qty = 6, at = "red bulk" },  # Underworld Rage-Hound
+  { printing = "thb/163", qty = 7, at = "red bulk" },  # Underworld Rage-Hound
   { printing = "fem/62c", at = "stables" },  # Orcish Veteran
   { printing = "clb/785", at = "stables" },  # Chaos Warp
   { printing = "fem/58b", at = "stables" },  # Goblin War Drums
@@ -788,7 +788,24 @@ cards = [
   { printing = "hob/97", at = "red bulk" },  # Gandalf, Spark Starter
   { printing = "hob/88", at = "red bulk" },  # Bombur, Gentle Dreamer
   { printing = "hob/95", at = "red bulk" },  # Dwarven Mauler
-  { printing = "clb/205", at = "red bulk" },  # Warehouse Thief
+  { printing = "clb/205", qty = 2, at = "red bulk" },  # Warehouse Thief
+  { printing = "clb/177", at = "red bulk" },  # Genasi Enforcers
+  { printing = "tdm/102", at = "red bulk" },  # Channeled Dragonfire
+  { printing = "tdm/112", at = "red bulk" },  # Meticulous Artisan
+  { printing = "tdm/110", at = "red bulk" },  # Jeskai Devotee
+  { printing = "sos/117", at = "red bulk" },  # Goblin Glasswright // Craft with Pride
+  { printing = "sos/134", at = "stables" },  # Thunderdrum Soloist
+  { printing = "sos/126", at = "stables" },  # Pigment Wrangler // Striking Palette
+  { printing = "sos/110", at = "stables" },  # Charging Strifeknight
+  { printing = "soa/41", at = "stables" },  # Burst Lightning
+  { printing = "sos/135", at = "red bulk" },  # Tome Blast
+  { printing = "sos/128", at = "red bulk" },  # Rubble Rouser
+  { printing = "sos/133", qty = 2, at = "red bulk" },  # Tackle Artist
+  { printing = "xln/160", qty = 3, at = "red bulk" },  # Rummaging Goblin
+  { printing = "thb/152", qty = 3, at = "red bulk" },  # Satyr's Cunning
+  { printing = "ths/133", at = "red bulk" },  # Portent of Betrayal
+  { printing = "kld/139", at = "red bulk" },  # Wayward Giant
+  { printing = "hou/95", at = "red bulk" },  # Granitic Titan
 ]
 
 [places]
