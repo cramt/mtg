@@ -389,9 +389,9 @@ cards = [
   { printing = "jou/77" },  # Nyx Infusion
   { printing = "ths/88" },  # Fleshmad Steed
   { printing = "ktk/78" },  # Mardu Skullhunter
-  { printing = "m20/84", qty = 2 },  # Audacious Thief
+  { printing = "m20/84", qty = 2, at = "stables" },  # Audacious Thief
   { printing = "grn/88" },  # Veiled Shade
-  { printing = "rix/70" },  # Dusk Legion Zealot
+  { printing = "rix/70", at = "stables" },  # Dusk Legion Zealot
   { printing = "m21/90" },  # Blood Glutton
   { printing = "m14/83" },  # Accursed Spirit
   { printing = "dom/104" },  # Soul Salvage
