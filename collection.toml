@@ -386,31 +386,31 @@ cards = [
   { printing = "soc/26", at = "stables" },  # Intermediate Chirography
   { printing = "soc/212", at = "stables" },  # Doomwake Giant
   { printing = "c21/42", at = "sleaved stables" },  # Keen Duelist
-  { printing = "jou/77" },  # Nyx Infusion
-  { printing = "ths/88" },  # Fleshmad Steed
+  { printing = "jou/77", at = "black bulk" },  # Nyx Infusion
+  { printing = "ths/88", at = "black bulk" },  # Fleshmad Steed
   { printing = "ktk/78", at = "stables" },  # Mardu Skullhunter
   { printing = "m20/84", qty = 2, at = "stables" },  # Audacious Thief
-  { printing = "grn/88" },  # Veiled Shade
+  { printing = "grn/88", at = "black bulk" },  # Veiled Shade
   { printing = "rix/70", at = "stables" },  # Dusk Legion Zealot
-  { printing = "m21/90" },  # Blood Glutton
+  { printing = "m21/90", at = "black bulk" },  # Blood Glutton
   { printing = "m14/83", at = "black bulk" },  # Accursed Spirit
-  { printing = "dom/104" },  # Soul Salvage
+  { printing = "dom/104", at = "black bulk" },  # Soul Salvage
   { printing = "jou/62", at = "stables" },  # Brain Maggot
-  { printing = "ktk/68" },  # Debilitating Injury
-  { printing = "frf/61" },  # Ancestral Vengeance
+  { printing = "ktk/68", at = "black bulk" },  # Debilitating Injury
+  { printing = "frf/61", at = "black bulk" },  # Ancestral Vengeance
   { printing = "m20/119", at = "stables" },  # Unholy Indenture
   { printing = "bng/75", at = "stables" },  # Herald of Torment
   { printing = "ths/78", at = "stables" },  # Baleful Eidolon
-  { printing = "sos/104" },  # Wander Off
-  { printing = "m20/108" },  # Mind Rot
-  { printing = "ori/111" },  # Nightsnare
+  { printing = "sos/104", at = "black bulk" },  # Wander Off
+  { printing = "m20/108", at = "black bulk" },  # Mind Rot
+  { printing = "ori/111", at = "black bulk" },  # Nightsnare
   { printing = "ths/96", at = "black bulk" },  # March of the Returned
-  { printing = "isd/93" },  # Corpse Lunge
+  { printing = "isd/93", at = "black bulk" },  # Corpse Lunge
   { printing = "inr/109", at = "stables" },  # Falkenrath Torturer
   { printing = "sos/96", at = "stables" },  # Rabid Attack
   { printing = "sos/76", at = "stables" },  # Cheerful Osteomancer // Raise Dead
-  { printing = "ktk/77" },  # Krumar Bond-Kin
-  { printing = "m20/88" },  # Blood Burglar
+  { printing = "ktk/77", at = "black bulk" },  # Krumar Bond-Kin
+  { printing = "m20/88", at = "black bulk" },  # Blood Burglar
 ]
 
 [places]
