@@ -41,3 +41,8 @@ order = [
   "decks/pest-control.deck.toml",
   "decks/solve-for-x.deck.toml",
 ]
+
+[friends]
+# GitHub logins whose public Magic repo a deck's sourcing reads, to
+# say who has the cards the collection is short of.
+logins = ["GrothenKek"]
