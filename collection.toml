@@ -405,6 +405,7 @@ cards = [
   { printing = "m20/108" },  # Mind Rot
   { printing = "ori/111" },  # Nightsnare
   { printing = "ths/96" },  # March of the Returned
+  { printing = "isd/93" },  # Corpse Lunge
 ]
 
 [places]
