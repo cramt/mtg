@@ -845,6 +845,8 @@ cards = [
   { printing = "soc/330", at = "eriette" },  # Shadrix Silverquill
   { printing = "soc/128", at = "eriette" },  # Sol Ring
   { printing = "soc/361", at = "eriette" },  # Arcane Lighthouse
+  { printing = "sos/273", at = "eriette" },  # Plains
+  { printing = "soc/129", at = "eriette" },  # Command Tower
 ]
 
 [places]
