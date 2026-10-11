@@ -483,6 +483,13 @@ cards = [
   { printing = "clb/145", at = "black bulk" },  # Scion of Halaster
   { printing = "clb/135", at = "stables" },  # Myrkul's Edict
   { printing = "m20/114", qty = 2, at = "black bulk" },  # Sorcerer of the Fang
+  { printing = "soc/15", at = "stables" },  # Herald of Amity
+  { printing = "soc/14", at = "stables" },  # Forum Filibuster
+  { printing = "mkc/79", at = "stables" },  # Promise of Loyalty
+  { printing = "soc/158", at = "stables" },  # Nils, Discipline Enforcer
+  { printing = "blc/145", at = "stables" },  # Mangara, the Diplomat
+  { printing = "soc/153", at = "sleaved stables" },  # Land Tax
+  { printing = "soc/146", at = "sleaved stables" },  # Ghostly Prison
 ]
 
 [places]
@@ -494,4 +501,3 @@ stables = {}
 "sleaved stables" = {}
 "blue bulk" = {}
 "black bulk" = {}
-"white bulk" = {}
