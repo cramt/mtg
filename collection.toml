@@ -525,6 +525,7 @@ cards = [
   { printing = "soc/157", at = "sleaved stables" },  # Monologue Tax
   { printing = "soc/164", at = "stables" },  # Remorseful Cleric
   { printing = "clb/706", at = "sleaved stables" },  # Selfless Spirit
+  { printing = "dmu/32", at = "sleaved stables" },  # Serra Paragon
 ]
 
 [places]
