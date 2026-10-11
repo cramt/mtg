@@ -460,6 +460,7 @@ cards = [
   { printing = "grn/73", qty = 2, at = "black bulk" },  # Kraul Swarm
   { printing = "m20/85", at = "black bulk" },  # Barony Vampire
   { printing = "uds/57", at = "black bulk" },  # Disease Carriers
+  { printing = "dgm/21", at = "black bulk" },  # Bane Alley Blackguard
 ]
 
 [places]
