@@ -402,6 +402,9 @@ cards = [
   { printing = "bng/75" },  # Herald of Torment
   { printing = "ths/78" },  # Baleful Eidolon
   { printing = "sos/104" },  # Wander Off
+  { printing = "m20/108" },  # Mind Rot
+  { printing = "ori/111" },  # Nightsnare
+  { printing = "ths/96" },  # March of the Returned
 ]
 
 [places]
