@@ -529,6 +529,9 @@ cards = [
   { printing = "clb/707", at = "stables" },  # Sevinne's Reclamation
   { printing = "soc/173", at = "stables" },  # Skyclave Apparition
   { printing = "soc/181", at = "sleaved stables" },  # Tocasia's Welcome
+  { printing = "soc/182", at = "stables" },  # Tragic Arrogance
+  { printing = "soc/184", at = "stables" },  # White Orchid Phantom
+  { printing = "soc/110", at = "white bulk" },  # Moonshaker Cavalry
 ]
 
 [places]
