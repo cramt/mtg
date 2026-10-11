@@ -693,6 +693,13 @@ cards = [
   { printing = "m20/175", qty = 3, at = "green bulk" },  # Growth Cycle
   { printing = "soi/213", qty = 2, at = "green bulk" },  # Intrepid Provisioner
   { printing = "grn/142", at = "green bulk" },  # Portcullis Vine
+  { printing = "grn/135", qty = 2, at = "green bulk" },  # Kraul Foragers
+  { printing = "m20/195", qty = 2, at = "green bulk" },  # Silverback Shaman
+  { printing = "con/97", at = "green bulk" },  # Wild Leotau
+  { printing = "xln/209", at = "green bulk" },  # Spike-Tailed Ceratops
+  { printing = "m15/197", qty = 2, at = "green bulk" },  # Runeclaw Bear
+  { printing = "m14/197", at = "stables" },  # Trollhide
+  { printing = "rix/131", at = "green bulk" },  # Giltgrove Stalker
 ]
 
 [places]
