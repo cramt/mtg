@@ -415,7 +415,7 @@ cards = [
   { printing = "soc/25", at = "sleaved stables" },  # Defiling Daemogoth
   { printing = "grn/78", qty = 2, at = "black bulk" },  # Moodmark Painter
   { printing = "m20/95", qty = 2, at = "black bulk" },  # Disfigure
-  { printing = "grn/65", qty = 5, at = "black bulk" },  # Child of Night
+  { printing = "grn/65", qty = 6, at = "black bulk" },  # Child of Night
   { printing = "grn/86", qty = 2, at = "black bulk" },  # Spinal Centipede
   { printing = "dom/94", at = "stables" },  # Fungal Infection
   { printing = "ths/77", at = "black bulk" },  # Asphodel Wanderer
