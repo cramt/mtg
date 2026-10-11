@@ -1015,6 +1015,32 @@ cards = [
   { printing = "soc/130" },  # Fabled Passage
   { printing = "soc/288" },  # Steelbane Hydra
   { printing = "soc/346" },  # Elementalist's Palette
+  { printing = "soc/124" },  # Benevolent Hydra
+  { printing = "soc/280" },  # Open the Way
+  { printing = "soc/414" },  # Temple of Mystery
+  { printing = "soc/395" },  # Quandrix Campus
+  { printing = "soc/291" },  # Tyvar's Stand
+  { printing = "sos/275", qty = 6 },  # Island
+  { printing = "soc/129" },  # Command Tower
+  { printing = "sos/217" },  # Quandrix Charm
+  { printing = "soc/268" },  # Fractal Harness
+  { printing = "soc/44" },  # Yavimaya Bloomsage // Channel
+  { printing = "soc/193" },  # Deekah, Fractal Theorist
+  { printing = "soc/308" },  # Eureka Moment
+  { printing = "soc/398" },  # Reliquary Tower
+  { printing = "soc/416" },  # Temple of the False God
+  { printing = "soc/406" },  # Sodden Verdure
+  { printing = "soc/275" },  # Mana Bloom
+  { printing = "soc/206" },  # Zimone's Hypothesis
+  { printing = "soc/360" },  # Alchemist's Refuge
+  { printing = "soc/306" },  # Elusive Otter // Grove's Bounty
+  { printing = "soc/292" },  # Altered Ego
+  { printing = "soc/340" },  # Zimone, All-Questioning
+  { printing = "soc/348" },  # Hangarback Walker
+  { printing = "soc/392" },  # Overflowing Basin
+  { printing = "soc/127" },  # Arcane Signet
+  { printing = "soc/425" },  # Yavimaya Coast
+  { printing = "soc/126" },  # Unbound Flourishing
 ]
 
 [places]
