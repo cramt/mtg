@@ -903,11 +903,11 @@ cards = [
   { printing = "soc/117" },  # Fallen Ideal
   { printing = "soc/183" },  # Transcendent Envoy
   { printing = "soc/127" },  # Arcane Signet
-  { printing = "sos/273", qty = 2 },  # Plains
+  { printing = "sos/273", qty = 3 },  # Plains
   { printing = "soc/152" },  # Kor Spiritdancer
   { printing = "soc/363" },  # Bojuka Bog
   { printing = "soc/293" },  # Anguished Unmaking
-  { printing = "sos/277" },  # Swamp
+  { printing = "sos/277", qty = 2 },  # Swamp
   { printing = "soc/372" },  # Fetid Heath
   { printing = "hob/191" },  # Swamp
   { printing = "ths/98" },  # Nighthowler
@@ -916,6 +916,14 @@ cards = [
   { printing = "soc/335" },  # Vanishing Verse
   { printing = "soc/369" },  # Exotic Orchard
   { printing = "soc/165" },  # Sage's Reverie
+  { printing = "soc/24" },  # Coercive Impetus
+  { printing = "soc/358" },  # Talisman of Hierarchy
+  { printing = "hob/316" },  # Plains
+  { printing = "soc/13" },  # Eiganjo Dynastorian // Replenish
+  { printing = "soc/177" },  # Starfield Mystic
+  { printing = "cp2/1" },  # Necropolis Fiend
+  { printing = "soc/174" },  # Songbirds' Blessing
+  { printing = "soc/53" },  # Eclipsed Steppe
 ]
 
 [places]
