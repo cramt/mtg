@@ -380,9 +380,9 @@ cards = [
   { printing = "soc/405", at = "shit lands" },  # Silverquill Campus
   { printing = "soc/60", at = "useful non-basic lands" },  # Umbral Expanse
   { printing = "dmu/257", at = "shit lands" },  # Sunlit Marsh
-  { printing = "soc/4" },  # Killian, Decisive Mentor
-  { printing = "soc/45" },  # Defacing Duskmage // Vandal's Edit
-  { printing = "soc/333" },  # Tomik, Wielder of Law
+  { printing = "soc/4", at = "stables" },  # Killian, Decisive Mentor
+  { printing = "soc/45", at = "stables" },  # Defacing Duskmage // Vandal's Edit
+  { printing = "soc/333", at = "stables" },  # Tomik, Wielder of Law
 ]
 
 [places]
