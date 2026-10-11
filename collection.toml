@@ -425,6 +425,7 @@ cards = [
   { printing = "hob/84", at = "black bulk" },  # Stir Up Trouble
   { printing = "hob/81", at = "black bulk" },  # Reverent Howl
   { printing = "hob/74", at = "black bulk" },  # Great Ugly-Looking Goblin // Clap! Snap!
+  { printing = "hob/66", at = "black bulk" },  # Dreaded Bat-Cloud
 ]
 
 [places]
