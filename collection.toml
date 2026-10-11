@@ -472,6 +472,7 @@ cards = [
   { printing = "clb/113", at = "black bulk" },  # Arms of Hadar
   { printing = "clb/151", at = "stables" },  # Summon Undead
   { printing = "clb/120", at = "stables" },  # Chain Devil
+  { printing = "clb/140", at = "stables" },  # Parasitic Impetus
 ]
 
 [places]
