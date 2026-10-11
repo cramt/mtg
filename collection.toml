@@ -475,6 +475,7 @@ cards = [
   { printing = "clb/140", at = "stables" },  # Parasitic Impetus
   { printing = "tdm/99", at = "black bulk" },  # Worthy Cost
   { printing = "tdm/73", at = "stables" },  # Avenger of the Fallen
+  { printing = "tdm/78", at = "stables" },  # Desperate Measures
 ]
 
 [places]
