@@ -901,6 +901,10 @@ cards = [
   { printing = "soc/56" },  # Turbulent Moor
   { printing = "cmr/385" },  # Spirit Mantle
   { printing = "soc/117" },  # Fallen Ideal
+  { printing = "soc/183" },  # Transcendent Envoy
+  { printing = "soc/127" },  # Arcane Signet
+  { printing = "sos/273" },  # Plains
+  { printing = "soc/152" },  # Kor Spiritdancer
 ]
 
 [places]
