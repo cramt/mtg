@@ -653,10 +653,10 @@ cards = [
   { printing = "m15/198", qty = 3, at = "stables" },  # Satyr Wayfinder
   { printing = "rix/125", qty = 11, at = "green bulk" },  # Colossal Dreadmaw
   { printing = "ths/165", at = "green bulk" },  # Nessian Courser
-  { printing = "rix/133", qty = 5, at = "green bulk" },  # Hunt the Weak
+  { printing = "rix/133", qty = 6, at = "green bulk" },  # Hunt the Weak
   { printing = "kld/175", qty = 4, at = "green bulk" },  # Wily Bandar
   { printing = "kld/148", at = "green bulk" },  # Commencement of Festivities
-  { printing = "thb/187", at = "green bulk" },  # Nylea's Huntmaster
+  { printing = "thb/187", qty = 2, at = "green bulk" },  # Nylea's Huntmaster
   { printing = "xln/188", qty = 2, at = "green bulk" },  # Emergent Growth
   { printing = "jou/136", at = "green bulk" },  # Ravenous Leucrocota
   { printing = "soi/205", at = "green bulk" },  # Fork in the Road
@@ -686,8 +686,13 @@ cards = [
   { printing = "soi/198", at = "stables" },  # Confront the Unknown
   { printing = "c21/202", at = "green bulk" },  # Pulse of Murasa
   { printing = "grn/128", at = "stables" },  # District Guide
-  { printing = "rix/135", at = "green bulk" },  # Jadecraft Artisan
-  { printing = "j22/739", at = "green bulk" },  # Wily Bandar
+  { printing = "rix/135", qty = 3, at = "green bulk" },  # Jadecraft Artisan
+  { printing = "j22/739", qty = 2, at = "green bulk" },  # Wily Bandar
+  { printing = "frf/129", at = "green bulk" },  # Formless Nurturing
+  { printing = "m20/197", at = "green bulk" },  # Thrashing Brontodon
+  { printing = "m20/175", qty = 3, at = "green bulk" },  # Growth Cycle
+  { printing = "soi/213", qty = 2, at = "green bulk" },  # Intrepid Provisioner
+  { printing = "grn/142", at = "green bulk" },  # Portcullis Vine
 ]
 
 [places]
