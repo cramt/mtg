@@ -711,7 +711,7 @@ cards = [
   { printing = "m20/149", qty = 5, at = "red bulk" },  # Maniacal Rage
   { printing = "xln/134", qty = 2, at = "red bulk" },  # Brazen Buccaneers
   { printing = "thb/138", at = "red bulk" },  # Heroes of the Revel
-  { printing = "m20/145", qty = 5, at = "red bulk" },  # Infuriate
+  { printing = "m20/145", qty = 6, at = "red bulk" },  # Infuriate
   { printing = "kld/140", at = "red bulk" },  # Welding Sparks
   { printing = "zen/138", at = "red bulk" },  # Molten Ravager
   { printing = "mmq/182", at = "red bulk" },  # Ceremonial Guard
@@ -722,6 +722,7 @@ cards = [
   { printing = "thb/164", qty = 7, at = "red bulk" },  # Wrap in Flames
   { printing = "con/68", at = "red bulk" },  # Maniacal Rage
   { printing = "hou/94", at = "red bulk" },  # Gilded Cerodon
+  { printing = "m20/147", qty = 4, at = "red bulk" },  # Lavakin Brawler
 ]
 
 [places]
