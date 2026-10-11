@@ -824,6 +824,8 @@ cards = [
   { printing = "soc/265", at = "There's No Place Like Loam" },  # Cultivate
   { printing = "blc/131", at = "There's No Place Like Loam" },  # Exotic Orchard
   { printing = "soc/263", at = "There's No Place Like Loam" },  # Beast Within
+  { printing = "soa/24", at = "There's No Place Like Loam" },  # Stock Up
+  { printing = "soc/325", at = "There's No Place Like Loam" },  # Quandrix Command
 ]
 
 [places]
