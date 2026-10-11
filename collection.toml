@@ -756,6 +756,7 @@ cards = [
   { printing = "gn3/67", at = "red bulk" },  # Abrade
   { printing = "otc/155", at = "red bulk" },  # Big Score
   { printing = "tdc/223", at = "red bulk" },  # Mana Geyser
+  { printing = "stx/115", at = "red bulk" },  # Storm-Kiln Artist
 ]
 
 [places]
