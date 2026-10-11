@@ -419,6 +419,12 @@ cards = [
   { printing = "grn/86", at = "black bulk" },  # Spinal Centipede
   { printing = "dom/94", at = "stables" },  # Fungal Infection
   { printing = "ths/77", at = "black bulk" },  # Asphodel Wanderer
+  { printing = "soc/228", at = "stables" },  # Veinwitch Coven
+  { printing = "clb/127", at = "black bulk" },  # Ghastly Death Tyrant
+  { printing = "hob/79", at = "black bulk" },  # Rage into the Valley
+  { printing = "hob/84", at = "black bulk" },  # Stir Up Trouble
+  { printing = "hob/81", at = "black bulk" },  # Reverent Howl
+  { printing = "hob/74", at = "black bulk" },  # Great Ugly-Looking Goblin // Clap! Snap!
 ]
 
 [places]
