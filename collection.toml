@@ -845,8 +845,23 @@ cards = [
   { printing = "soc/330", at = "eriette" },  # Shadrix Silverquill
   { printing = "soc/128", at = "eriette" },  # Sol Ring
   { printing = "soc/361", at = "eriette" },  # Arcane Lighthouse
-  { printing = "sos/273", at = "eriette" },  # Plains
+  { printing = "sos/273", qty = 2, at = "eriette" },  # Plains
   { printing = "soc/129", at = "eriette" },  # Command Tower
+  { printing = "soc/407", at = "eriette" },  # Study Hall
+  { printing = "sos/277", qty = 2, at = "eriette" },  # Swamp
+  { printing = "c18/61", at = "eriette" },  # Ajani's Chosen
+  { printing = "soc/23", at = "eriette" },  # Changing Loyalty
+  { printing = "thb/107", at = "eriette" },  # Mogis's Favor
+  { printing = "m20/119", at = "eriette" },  # Unholy Indenture
+  { printing = "soc/53", at = "eriette" },  # Eclipsed Steppe
+  { printing = "soc/174", at = "eriette" },  # Songbirds' Blessing
+  { printing = "cp2/1", at = "eriette" },  # Necropolis Fiend
+  { printing = "soc/177", at = "eriette" },  # Starfield Mystic
+  { printing = "soc/13", at = "eriette" },  # Eiganjo Dynastorian // Replenish
+  { printing = "hob/316", at = "eriette" },  # Plains
+  { printing = "drc/142", at = "eriette" },  # Talisman of Hierarchy
+  { printing = "soc/24", at = "eriette" },  # Coercive Impetus
+  { printing = "c18/72", at = "eriette" },  # Sage's Reverie
 ]
 
 [places]
