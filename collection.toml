@@ -823,6 +823,7 @@ cards = [
   { printing = "lrw/161", at = "red bulk" },  # Consuming Bonfire
   { printing = "soc/265", at = "There's No Place Like Loam" },  # Cultivate
   { printing = "blc/131", at = "There's No Place Like Loam" },  # Exotic Orchard
+  { printing = "soc/263", at = "There's No Place Like Loam" },  # Beast Within
 ]
 
 [places]
