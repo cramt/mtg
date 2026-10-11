@@ -788,6 +788,7 @@ cards = [
   { printing = "hob/97", at = "red bulk" },  # Gandalf, Spark Starter
   { printing = "hob/88", at = "red bulk" },  # Bombur, Gentle Dreamer
   { printing = "hob/95", at = "red bulk" },  # Dwarven Mauler
+  { printing = "clb/205", at = "red bulk" },  # Warehouse Thief
 ]
 
 [places]
