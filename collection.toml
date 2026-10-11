@@ -845,10 +845,10 @@ cards = [
   { printing = "soc/330", at = "eriette" },  # Shadrix Silverquill
   { printing = "soc/128", at = "eriette" },  # Sol Ring
   { printing = "soc/361", at = "eriette" },  # Arcane Lighthouse
-  { printing = "sos/273", qty = 3, at = "eriette" },  # Plains
+  { printing = "sos/273", qty = 5, at = "eriette" },  # Plains
   { printing = "soc/129", at = "eriette" },  # Command Tower
   { printing = "soc/407", at = "eriette" },  # Study Hall
-  { printing = "sos/277", qty = 2, at = "eriette" },  # Swamp
+  { printing = "sos/277", qty = 3, at = "eriette" },  # Swamp
   { printing = "c18/61", at = "eriette" },  # Ajani's Chosen
   { printing = "soc/23", at = "eriette" },  # Changing Loyalty
   { printing = "thb/107", at = "eriette" },  # Mogis's Favor
@@ -868,6 +868,23 @@ cards = [
   { printing = "cp2/5", at = "eriette" },  # Whip of Erebos
   { printing = "clb/764", at = "eriette" },  # Nighthowler
   { printing = "hob/191", at = "eriette" },  # Swamp
+  { printing = "soc/372", at = "eriette" },  # Fetid Heath
+  { printing = "soc/293", at = "eriette" },  # Anguished Unmaking
+  { printing = "soc/363", at = "eriette" },  # Bojuka Bog
+  { printing = "soc/152", at = "eriette" },  # Kor Spiritdancer
+  { printing = "soc/127", at = "eriette" },  # Arcane Signet
+  { printing = "soc/183", at = "eriette" },  # Transcendent Envoy
+  { printing = "soc/117", at = "eriette" },  # Fallen Ideal
+  { printing = "cmr/385", at = "eriette" },  # Spirit Mantle
+  { printing = "soc/56", at = "eriette" },  # Turbulent Moor
+  { printing = "soc/141", at = "eriette" },  # Combat Calligrapher
+  { printing = "rix/25", at = "eriette" },  # Squire's Devotion
+  { printing = "soc/156", at = "eriette" },  # Martial Impetus
+  { printing = "soc/382", at = "eriette" },  # Isolated Chapel
+  { printing = "soc/171", at = "eriette" },  # Sheltered by Ghosts
+  { printing = "soc/367", at = "eriette" },  # Desolate Mire
+  { printing = "soc/310", at = "eriette" },  # Fracture
+  { printing = "cmr/386", at = "eriette" },  # Sram, Senior Edificer
 ]
 
 [places]
