@@ -508,6 +508,15 @@ cards = [
   { printing = "sos/11", at = "white bulk" },  # Eager Glyphmage
   { printing = "sos/10", at = "stables" },  # Dig Site Inventory
   { printing = "sos/36", at = "white bulk" },  # Stone Docent
+  { printing = "sos/14", at = "stables" },  # Ennis, Debate Moderator
+  { printing = "sos/32", at = "white bulk" },  # Soaring Stoneglider
+  { printing = "soc/150", at = "white bulk" },  # Kami of Ancient Law
+  { printing = "fdc/45", at = "stables" },  # Secret Rendezvous
+  { printing = "dmc/105", at = "stables" },  # Teshar, Ancestor's Apostle
+  { printing = "sos/26", at = "white bulk" },  # Primary Research
+  { printing = "soc/133", at = "stables" },  # Angel of Indemnity
+  { printing = "soc/135", at = "stables" },  # Ao, the Dawn Sky
+  { printing = "soc/136", at = "sleaved stables" },  # Archaeomancer's Map
 ]
 
 [places]
