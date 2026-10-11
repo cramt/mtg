@@ -39,4 +39,5 @@ order = [
   "decks/there-s-no-place-like-loam.deck.toml",
   "decks/an-apple-a-day.deck.toml",
   "decks/pest-control.deck.toml",
+  "decks/solve-for-x.deck.toml",
 ]

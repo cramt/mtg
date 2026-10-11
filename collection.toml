@@ -1002,89 +1002,89 @@ cards = [
   { printing = "sos/214", at = "Pest Control" },  # Professor Dellian Fel
   { printing = "sos/265", at = "Pest Control" },  # Terramorphic Expanse
   { printing = "soc/1", at = "Pest Control" },  # Dina, Essence Brewer
-  { printing = "soc/203" },  # Stroke of Genius
-  { printing = "soc/19" },  # Expansion Algorithm
-  { printing = "soc/400" },  # Rogue's Passage
-  { printing = "soc/41" },  # Nev, the Practical Dean
-  { printing = "soc/381" },  # Hinterland Harbor
-  { printing = "soc/113" },  # Commander's Insight
-  { printing = "soc/391" },  # Oran-Rief, the Vastwood
-  { printing = "soc/51" },  # Brass Infiniscope
-  { printing = "clu/93" },  # Rapid Hybridization
-  { printing = "soc/334" },  # Troyan, Gutsy Explorer
-  { printing = "soc/130" },  # Fabled Passage
-  { printing = "soc/288" },  # Steelbane Hydra
-  { printing = "soc/346" },  # Elementalist's Palette
-  { printing = "soc/124" },  # Benevolent Hydra
-  { printing = "soc/280" },  # Open the Way
-  { printing = "soc/414" },  # Temple of Mystery
-  { printing = "soc/395" },  # Quandrix Campus
-  { printing = "soc/291" },  # Tyvar's Stand
-  { printing = "sos/275", qty = 7 },  # Island
-  { printing = "soc/129" },  # Command Tower
-  { printing = "sos/217" },  # Quandrix Charm
-  { printing = "soc/268" },  # Fractal Harness
-  { printing = "soc/44" },  # Yavimaya Bloomsage // Channel
-  { printing = "soc/193" },  # Deekah, Fractal Theorist
-  { printing = "soc/308" },  # Eureka Moment
-  { printing = "soc/398" },  # Reliquary Tower
-  { printing = "soc/416" },  # Temple of the False God
-  { printing = "soc/406" },  # Sodden Verdure
-  { printing = "soc/275" },  # Mana Bloom
-  { printing = "soc/206" },  # Zimone's Hypothesis
-  { printing = "soc/360" },  # Alchemist's Refuge
-  { printing = "soc/306" },  # Elusive Otter // Grove's Bounty
-  { printing = "soc/292" },  # Altered Ego
-  { printing = "soc/340" },  # Zimone, All-Questioning
-  { printing = "soc/348" },  # Hangarback Walker
-  { printing = "soc/392" },  # Overflowing Basin
-  { printing = "soc/127" },  # Arcane Signet
-  { printing = "soc/425" },  # Yavimaya Coast
-  { printing = "soc/126" },  # Unbound Flourishing
-  { printing = "soc/272" },  # Hardened Scales
-  { printing = "soc/284" },  # Primordial Hydra
-  { printing = "soc/322" },  # Oversimplify
-  { printing = "soc/196" },  # Entrancing Melody
-  { printing = "soc/39" },  # Kinetic Ooze
-  { printing = "sos/281", qty = 6 },  # Forest
-  { printing = "soc/261" },  # Animist's Awakening
-  { printing = "sos/265" },  # Terramorphic Expanse
-  { printing = "soc/192" },  # Curse of the Swine
-  { printing = "soc/50" },  # Striding Shotcaller // Run the Play
-  { printing = "soc/274" },  # Lifeblood Hydra
-  { printing = "soc/312" },  # The Goose Mother
-  { printing = "soc/341" },  # Zimone, Quandrix Prodigy
-  { printing = "soc/297" },  # Biomass Mutation
-  { printing = "soc/342" },  # Astral Cornucopia
-  { printing = "soc/22" },  # Owlin Spiralmancer
-  { printing = "soc/390" },  # Opal Palace
-  { printing = "soc/393" },  # Path of Ancestry
-  { printing = "soc/420" },  # Vineglimmer Snarl
-  { printing = "soc/304" },  # Decisive Denial
-  { printing = "soc/281" },  # Ozolith, the Shattered Spire
-  { printing = "soc/21" },  # Nexus Mentality
-  { printing = "sos/258" },  # Paradox Gardens
-  { printing = "soc/407" },  # Study Hall
-  { printing = "soc/267" },  # Forgotten Ancient
-  { printing = "soc/271" },  # Guardian Augmenter
-  { printing = "soc/324" },  # Quandrix Apprentice
-  { printing = "soc/273" },  # Kami of Whispered Hopes
-  { printing = "soc/128" },  # Sol Ring
-  { printing = "soc/411" },  # Tangled Islet
-  { printing = "soc/369" },  # Exotic Orchard
-  { printing = "soc/283" },  # Primal Might
-  { printing = "soc/373" },  # Flooded Grove
-  { printing = "soc/10", qty = 2 },  # Zimone, Infinite Analyst
-  { printing = "soc/6" },  # Primo, the Unbounded
-  { printing = "soc/356" },  # Stonecoil Serpent
-  { printing = "soc/116" },  # Pull from Tomorrow
-  { printing = "soc/115" },  # Ingenious Prodigy
-  { printing = "soc/40" },  # Lattice Library
-  { printing = "soc/315" },  # Hydroid Krasis
-  { printing = "soc/286" },  # Silkguard
-  { printing = "soc/197" },  # Perplexing Test
-  { printing = "soc/332" },  # Tanazir Quandrix
-  { printing = "soc/270" },  # Goldvein Hydra
+  { printing = "soc/203", at = "Solve for X" },  # Stroke of Genius
+  { printing = "soc/19", at = "Solve for X" },  # Expansion Algorithm
+  { printing = "soc/400", at = "Solve for X" },  # Rogue's Passage
+  { printing = "soc/41", at = "Solve for X" },  # Nev, the Practical Dean
+  { printing = "soc/381", at = "Solve for X" },  # Hinterland Harbor
+  { printing = "soc/113", at = "Solve for X" },  # Commander's Insight
+  { printing = "soc/391", at = "Solve for X" },  # Oran-Rief, the Vastwood
+  { printing = "soc/51", at = "Solve for X" },  # Brass Infiniscope
+  { printing = "clu/93", at = "Solve for X" },  # Rapid Hybridization
+  { printing = "soc/334", at = "Solve for X" },  # Troyan, Gutsy Explorer
+  { printing = "soc/130", at = "Solve for X" },  # Fabled Passage
+  { printing = "soc/288", at = "Solve for X" },  # Steelbane Hydra
+  { printing = "soc/346", at = "Solve for X" },  # Elementalist's Palette
+  { printing = "soc/124", at = "Solve for X" },  # Benevolent Hydra
+  { printing = "soc/280", at = "Solve for X" },  # Open the Way
+  { printing = "soc/414", at = "Solve for X" },  # Temple of Mystery
+  { printing = "soc/395", at = "Solve for X" },  # Quandrix Campus
+  { printing = "soc/291", at = "Solve for X" },  # Tyvar's Stand
+  { printing = "sos/275", qty = 7, at = "Solve for X" },  # Island
+  { printing = "soc/129", at = "Solve for X" },  # Command Tower
+  { printing = "sos/217", at = "Solve for X" },  # Quandrix Charm
+  { printing = "soc/268", at = "Solve for X" },  # Fractal Harness
+  { printing = "soc/44", at = "Solve for X" },  # Yavimaya Bloomsage // Channel
+  { printing = "soc/193", at = "Solve for X" },  # Deekah, Fractal Theorist
+  { printing = "soc/308", at = "Solve for X" },  # Eureka Moment
+  { printing = "soc/398", at = "Solve for X" },  # Reliquary Tower
+  { printing = "soc/416", at = "Solve for X" },  # Temple of the False God
+  { printing = "soc/406", at = "Solve for X" },  # Sodden Verdure
+  { printing = "soc/275", at = "Solve for X" },  # Mana Bloom
+  { printing = "soc/206", at = "Solve for X" },  # Zimone's Hypothesis
+  { printing = "soc/360", at = "Solve for X" },  # Alchemist's Refuge
+  { printing = "soc/306", at = "Solve for X" },  # Elusive Otter // Grove's Bounty
+  { printing = "soc/292", at = "Solve for X" },  # Altered Ego
+  { printing = "soc/340", at = "Solve for X" },  # Zimone, All-Questioning
+  { printing = "soc/348", at = "Solve for X" },  # Hangarback Walker
+  { printing = "soc/392", at = "Solve for X" },  # Overflowing Basin
+  { printing = "soc/127", at = "Solve for X" },  # Arcane Signet
+  { printing = "soc/425", at = "Solve for X" },  # Yavimaya Coast
+  { printing = "soc/126", at = "Solve for X" },  # Unbound Flourishing
+  { printing = "soc/272", at = "Solve for X" },  # Hardened Scales
+  { printing = "soc/284", at = "Solve for X" },  # Primordial Hydra
+  { printing = "soc/322", at = "Solve for X" },  # Oversimplify
+  { printing = "soc/196", at = "Solve for X" },  # Entrancing Melody
+  { printing = "soc/39", at = "Solve for X" },  # Kinetic Ooze
+  { printing = "sos/281", qty = 6, at = "Solve for X" },  # Forest
+  { printing = "soc/261", at = "Solve for X" },  # Animist's Awakening
+  { printing = "sos/265", at = "Solve for X" },  # Terramorphic Expanse
+  { printing = "soc/192", at = "Solve for X" },  # Curse of the Swine
+  { printing = "soc/50", at = "Solve for X" },  # Striding Shotcaller // Run the Play
+  { printing = "soc/274", at = "Solve for X" },  # Lifeblood Hydra
+  { printing = "soc/312", at = "Solve for X" },  # The Goose Mother
+  { printing = "soc/341", at = "Solve for X" },  # Zimone, Quandrix Prodigy
+  { printing = "soc/297", at = "Solve for X" },  # Biomass Mutation
+  { printing = "soc/342", at = "Solve for X" },  # Astral Cornucopia
+  { printing = "soc/22", at = "Solve for X" },  # Owlin Spiralmancer
+  { printing = "soc/390", at = "Solve for X" },  # Opal Palace
+  { printing = "soc/393", at = "Solve for X" },  # Path of Ancestry
+  { printing = "soc/420", at = "Solve for X" },  # Vineglimmer Snarl
+  { printing = "soc/304", at = "Solve for X" },  # Decisive Denial
+  { printing = "soc/281", at = "Solve for X" },  # Ozolith, the Shattered Spire
+  { printing = "soc/21", at = "Solve for X" },  # Nexus Mentality
+  { printing = "sos/258", at = "Solve for X" },  # Paradox Gardens
+  { printing = "soc/407", at = "Solve for X" },  # Study Hall
+  { printing = "soc/267", at = "Solve for X" },  # Forgotten Ancient
+  { printing = "soc/271", at = "Solve for X" },  # Guardian Augmenter
+  { printing = "soc/324", at = "Solve for X" },  # Quandrix Apprentice
+  { printing = "soc/273", at = "Solve for X" },  # Kami of Whispered Hopes
+  { printing = "soc/128", at = "Solve for X" },  # Sol Ring
+  { printing = "soc/411", at = "Solve for X" },  # Tangled Islet
+  { printing = "soc/369", at = "Solve for X" },  # Exotic Orchard
+  { printing = "soc/283", at = "Solve for X" },  # Primal Might
+  { printing = "soc/373", at = "Solve for X" },  # Flooded Grove
+  { printing = "soc/10", at = "Solve for X" },  # Zimone, Infinite Analyst
+  { printing = "soc/6", at = "Solve for X" },  # Primo, the Unbounded
+  { printing = "soc/356", at = "Solve for X" },  # Stonecoil Serpent
+  { printing = "soc/116", at = "Solve for X" },  # Pull from Tomorrow
+  { printing = "soc/115", at = "Solve for X" },  # Ingenious Prodigy
+  { printing = "soc/40", at = "Solve for X" },  # Lattice Library
+  { printing = "soc/315", at = "Solve for X" },  # Hydroid Krasis
+  { printing = "soc/286", at = "Solve for X" },  # Silkguard
+  { printing = "soc/197", at = "Solve for X" },  # Perplexing Test
+  { printing = "soc/332", at = "Solve for X" },  # Tanazir Quandrix
+  { printing = "soc/270", at = "Solve for X" },  # Goldvein Hydra
 ]
 
 [places]
@@ -1102,3 +1102,4 @@ stables = {}
 "There's No Place Like Loam" = { deck = "decks/there-s-no-place-like-loam.deck.toml" }
 "An Apple a Day" = { deck = "decks/an-apple-a-day.deck.toml" }
 "Pest Control" = { deck = "decks/pest-control.deck.toml" }
+"Solve for X" = { deck = "decks/solve-for-x.deck.toml" }
