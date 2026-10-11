@@ -423,15 +423,16 @@ cards = [
   { printing = "clb/127", at = "black bulk" },  # Ghastly Death Tyrant
   { printing = "hob/79", at = "black bulk" },  # Rage into the Valley
   { printing = "hob/84", qty = 2, at = "black bulk" },  # Stir Up Trouble
-  { printing = "hob/81", at = "black bulk" },  # Reverent Howl
+  { printing = "hob/81", qty = 2, at = "black bulk" },  # Reverent Howl
   { printing = "hob/74", at = "black bulk" },  # Great Ugly-Looking Goblin // Clap! Snap!
   { printing = "hob/66", qty = 2, at = "black bulk" },  # Dreaded Bat-Cloud
   { printing = "hob/69", at = "stables" },  # Gnashing of Teeth
   { printing = "hob/64", at = "stables" },  # Desolation Prowler
   { printing = "hob/72", at = "black bulk" },  # Gollum the Abandoned
-  { printing = "hob/67", at = "black bulk" },  # Front Porch Sentries
+  { printing = "hob/67", qty = 2, at = "black bulk" },  # Front Porch Sentries
   { printing = "hob/63", at = "black bulk" },  # Crude Bent Blade
   { printing = "hob/62", at = "black bulk" },  # Bilbo's Deadly Slice
+  { printing = "hob/85", at = "black bulk" },  # Stony-Voiced Goblins
 ]
 
 [places]
