@@ -649,6 +649,8 @@ cards = [
   { printing = "ema/162", qty = 3, at = "green bulk" },  # Commune with the Gods
   { printing = "bng/130", at = "green bulk" },  # Noble Quarry
   { printing = "ths/161", at = "green bulk" },  # Leafcrown Dryad
+  { printing = "jou/138", at = "green bulk" },  # Reviving Melody
+  { printing = "m15/198", qty = 3, at = "green bulk" },  # Satyr Wayfinder
 ]
 
 [places]
