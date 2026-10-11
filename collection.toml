@@ -725,6 +725,8 @@ cards = [
   { printing = "m20/147", qty = 4, at = "red bulk" },  # Lavakin Brawler
   { printing = "ths/136", at = "red bulk" },  # Purphoros's Emissary
   { printing = "grn/117", at = "red bulk" },  # Street Riot
+  { printing = "jmp/353", at = "red bulk" },  # Ornery Goblin
+  { printing = "som/106", at = "red bulk" },  # Turn to Slag
 ]
 
 [places]
