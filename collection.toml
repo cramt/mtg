@@ -624,9 +624,19 @@ cards = [
   { printing = "hob/140", at = "green bulk" },  # Wargling
   { printing = "hob/141", at = "green bulk" },  # Wilderland Scrounger
   { printing = "hob/130", qty = 2, at = "green bulk" },  # Nasty Little Rabbit
-  { printing = "clb/263", at = "green bulk" },  # You Meet in a Tavern
+  { printing = "clb/263", qty = 2, at = "green bulk" },  # You Meet in a Tavern
   { printing = "clb/243", at = "green bulk" },  # Myconid Spore Tender
   { printing = "clb/219", at = "green bulk" },  # Carefree Swinemaster
+  { printing = "clb/241", at = "green bulk" },  # Master Chef
+  { printing = "clb/239", at = "green bulk" },  # Lurking Green Dragon
+  { printing = "clb/257", at = "green bulk" },  # Split the Spoils
+  { printing = "clb/222", at = "green bulk" },  # Cloakwood Swarmkeeper
+  { printing = "clb/220", at = "green bulk" },  # Circle of the Land Druid
+  { printing = "clb/225", at = "green bulk" },  # Dread Linnorm // Scale Deflection
+  { printing = "clb/233", at = "green bulk" },  # Giant Ankheg
+  { printing = "tdm/143", at = "green bulk" },  # Formation Breaker
+  { printing = "tdm/156", at = "green bulk" },  # Sagu Pummeler
+  { printing = "tdm/158", at = "green bulk" },  # Sarkhan's Resolve
 ]
 
 [places]
