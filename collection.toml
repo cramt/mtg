@@ -751,6 +751,10 @@ cards = [
   { printing = "soc/30", at = "red bulk" },  # Advanced Reconstruction
   { printing = "soc/31", at = "red bulk" },  # Fateful Tempest
   { printing = "soc/33", at = "red bulk" },  # Naktamun Lorespinner // Wheel of Fortune
+  { printing = "soc/35", at = "red bulk" },  # Relic Retriever
+  { printing = "soc/37", at = "red bulk" },  # Spirit of Resilience
+  { printing = "gn3/67", at = "red bulk" },  # Abrade
+  { printing = "otc/155", at = "red bulk" },  # Big Score
 ]
 
 [places]
