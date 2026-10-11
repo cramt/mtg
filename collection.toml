@@ -1001,6 +1001,7 @@ cards = [
   { printing = "soa/26" },  # Bitter Triumph
   { printing = "sos/214" },  # Professor Dellian Fel
   { printing = "sos/265" },  # Terramorphic Expanse
+  { printing = "soc/1" },  # Dina, Essence Brewer
 ]
 
 [places]
