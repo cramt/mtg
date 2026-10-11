@@ -393,7 +393,7 @@ cards = [
   { printing = "grn/88" },  # Veiled Shade
   { printing = "rix/70", at = "stables" },  # Dusk Legion Zealot
   { printing = "m21/90" },  # Blood Glutton
-  { printing = "m14/83" },  # Accursed Spirit
+  { printing = "m14/83", at = "black bulk" },  # Accursed Spirit
   { printing = "dom/104" },  # Soul Salvage
   { printing = "jou/62", at = "stables" },  # Brain Maggot
   { printing = "ktk/68" },  # Debilitating Injury
