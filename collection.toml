@@ -927,7 +927,7 @@ cards = [
   { printing = "soc/230" },  # Witch of the Moors
   { printing = "soc/217" },  # Jadar, Ghoulcaller of Nephalia
   { printing = "soc/233" },  # Zulaport Cutthroat
-  { printing = "sos/276", qty = 5 },  # Swamp
+  { printing = "sos/276", qty = 6 },  # Swamp
   { printing = "soc/379" },  # Haunted Mire
   { printing = "soc/393" },  # Path of Ancestry
   { printing = "soc/339" },  # Witherbloom Command
@@ -966,6 +966,12 @@ cards = [
   { printing = "soc/285" },  # Sakura-Tribe Elder
   { printing = "soc/118" },  # Ophiomancer
   { printing = "soc/213" },  # Final Act
+  { printing = "soc/3" },  # Gorma, the Gullet
+  { printing = "soc/301" },  # Creakwood Liege
+  { printing = "soc/28" },  # Ominous Harvest
+  { printing = "soc/303" },  # Deadly Brew
+  { printing = "soc/302" },  # Culling Ritual
+  { printing = "soc/208" },  # Blight Mound
 ]
 
 [places]
