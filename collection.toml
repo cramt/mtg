@@ -526,7 +526,9 @@ cards = [
   { printing = "soc/164", at = "stables" },  # Remorseful Cleric
   { printing = "clb/706", at = "sleaved stables" },  # Selfless Spirit
   { printing = "dmu/32", at = "sleaved stables" },  # Serra Paragon
-  { printing = "clb/707", at = "white bulk" },  # Sevinne's Reclamation
+  { printing = "clb/707", at = "stables" },  # Sevinne's Reclamation
+  { printing = "soc/173", at = "stables" },  # Skyclave Apparition
+  { printing = "soc/181", at = "sleaved stables" },  # Tocasia's Welcome
 ]
 
 [places]
