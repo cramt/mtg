@@ -637,6 +637,18 @@ cards = [
   { printing = "tdm/143", at = "green bulk" },  # Formation Breaker
   { printing = "tdm/156", at = "green bulk" },  # Sagu Pummeler
   { printing = "tdm/158", at = "green bulk" },  # Sarkhan's Resolve
+  { printing = "tdm/151", at = "green bulk" },  # Piercing Exhale
+  { printing = "tdm/141", at = "green bulk" },  # Dusyut Earthcarver
+  { printing = "jou/133", qty = 2, at = "green bulk" },  # Oakheart Dryads
+  { printing = "ths/156", at = "green bulk" },  # Defend the Hearth
+  { printing = "m15/207", qty = 2, at = "green bulk" },  # Vineweft
+  { printing = "bng/122", at = "green bulk" },  # Graverobber Spider
+  { printing = "ths/163", qty = 2, at = "green bulk" },  # Nemesis of Mortals
+  { printing = "a25/183", at = "green bulk" },  # Plummet
+  { printing = "ktk/142", at = "green bulk" },  # Naturalize
+  { printing = "ema/162", qty = 3, at = "green bulk" },  # Commune with the Gods
+  { printing = "bng/130", at = "green bulk" },  # Noble Quarry
+  { printing = "ths/161", at = "green bulk" },  # Leafcrown Dryad
 ]
 
 [places]
