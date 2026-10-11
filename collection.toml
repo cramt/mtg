@@ -401,7 +401,7 @@ cards = [
   { printing = "m20/119", at = "stables" },  # Unholy Indenture
   { printing = "bng/75", at = "stables" },  # Herald of Torment
   { printing = "ths/78", at = "stables" },  # Baleful Eidolon
-  { printing = "sos/104", at = "black bulk" },  # Wander Off
+  { printing = "sos/104", qty = 2, at = "black bulk" },  # Wander Off
   { printing = "m20/108", at = "black bulk" },  # Mind Rot
   { printing = "ori/111", at = "black bulk" },  # Nightsnare
   { printing = "ths/96", at = "black bulk" },  # March of the Returned
@@ -438,6 +438,9 @@ cards = [
   { printing = "sos/90", at = "black bulk" },  # Melancholic Poet
   { printing = "sos/86", at = "black bulk" },  # Last Gasp
   { printing = "akh/92", at = "black bulk" },  # Final Reward
+  { printing = "hob/73", at = "stables" },  # Great Fierce Bee
+  { printing = "sos/100", at = "black bulk" },  # Send in the Pest
+  { printing = "sos/103", at = "black bulk" },  # Ulna Alley Shopkeep
 ]
 
 [places]
