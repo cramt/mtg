@@ -609,7 +609,7 @@ cards = [
   { printing = "grn/5", qty = 8, at = "white bulk" },  # Collar the Culprit
   { printing = "sos/169", at = "green bulk" },  # Zimone's Experiment
   { printing = "soa/55", at = "stables" },  # Pick Your Poison
-  { printing = "sos/159", at = "green bulk" },  # Shopkeeper's Bane
+  { printing = "sos/159", qty = 2, at = "green bulk" },  # Shopkeeper's Bane
   { printing = "clb/259", at = "stables" },  # Undercellar Myconid
   { printing = "clb/837", at = "sleaved stables" },  # Three Visits
   { printing = "znc/81", at = "green bulk" },  # Satyr Wayfinder
@@ -675,6 +675,10 @@ cards = [
   { printing = "sos/155", at = "green bulk" },  # Noxious Newt
   { printing = "sos/150", at = "green bulk" },  # Glorious Decay
   { printing = "sos/148", at = "green bulk" },  # Follow the Lumarets
+  { printing = "sos/152", at = "green bulk" },  # Infirmary Healer // Stream of Life
+  { printing = "sos/163", at = "green bulk" },  # Tenured Concocter
+  { printing = "sos/146", at = "green bulk" },  # Emil, Vastlands Roamer
+  { printing = "sos/157", at = "green bulk" },  # Pestbrood Sloth
 ]
 
 [places]
