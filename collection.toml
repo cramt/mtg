@@ -719,7 +719,7 @@ cards = [
   { printing = "fem/62c", at = "stables" },  # Orcish Veteran
   { printing = "clb/785", at = "stables" },  # Chaos Warp
   { printing = "fem/58b", at = "stables" },  # Goblin War Drums
-  { printing = "thb/164", qty = 6, at = "red bulk" },  # Wrap in Flames
+  { printing = "thb/164", qty = 7, at = "red bulk" },  # Wrap in Flames
   { printing = "con/68", at = "red bulk" },  # Maniacal Rage
   { printing = "hou/94", at = "red bulk" },  # Gilded Cerodon
 ]
