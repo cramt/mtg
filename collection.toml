@@ -776,6 +776,7 @@ cards = [
   { printing = "soc/123", at = "red bulk" },  # Harmonic Prodigy
   { printing = "soc/32", at = "red bulk" },  # Furygale Flocking
   { printing = "soc/34", at = "red bulk" },  # Prismari Pianist
+  { printing = "soc/36", at = "red bulk" },  # Renegade Bull
 ]
 
 [places]
