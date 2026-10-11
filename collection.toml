@@ -777,8 +777,13 @@ cards = [
   { printing = "soc/32", at = "stables" },  # Furygale Flocking
   { printing = "soc/34", at = "stables" },  # Prismari Pianist
   { printing = "soc/36", at = "stables" },  # Renegade Bull
-  { printing = "hob/102", at = "red bulk" },  # Iron Hills Stalwart
-  { printing = "hob/107", at = "red bulk" },  # Pinecone Strike
+  { printing = "hob/102", qty = 3, at = "red bulk" },  # Iron Hills Stalwart
+  { printing = "hob/107", qty = 2, at = "red bulk" },  # Pinecone Strike
+  { printing = "hob/115", qty = 2, at = "red bulk" },  # Tidings of War
+  { printing = "hob/109", qty = 2, at = "red bulk" },  # Smaug, the Great Calamity // Spew Flame
+  { printing = "hob/100", at = "red bulk" },  # Goblin-town Flunkies
+  { printing = "hob/94", at = "red bulk" },  # Dori, Bearer of Friends
+  { printing = "hob/106", at = "red bulk" },  # Óin the Brave
 ]
 
 [places]
