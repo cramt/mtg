@@ -933,6 +933,25 @@ cards = [
   { printing = "soc/339" },  # Witherbloom Command
   { printing = "frf/76" },  # Merciless Executioner
   { printing = "afc/164" },  # Nature's Lore
+  { printing = "soc/232" },  # Yahenni, Undying Partisan
+  { printing = "soc/349" },  # Haywire Mite
+  { printing = "soc/269" },  # Gilded Goose
+  { printing = "sos/238" },  # Teacher's Pest
+  { printing = "soc/210" },  # Bloodghast
+  { printing = "soc/227" },  # Umbral Collar Zealot
+  { printing = "soc/338" },  # Wight of the Reliquary
+  { printing = "soc/294" },  # Assassin's Trophy
+  { printing = "soc/423" },  # Witherbloom Campus
+  { printing = "soc/128" },  # Sol Ring
+  { printing = "soc/413" },  # Temple of Malady
+  { printing = "soc/47" },  # Immoral Bargain
+  { printing = "soc/223" },  # Pawn of Ulamog
+  { printing = "soc/216" },  # Infernal Grasp
+  { printing = "sos/280" },  # Forest
+  { printing = "onc/160" },  # Necroblossom Snarl
+  { printing = "soc/418" },  # Twilight Mire
+  { printing = "soc/290" },  # Trudge Garden
+  { printing = "soc/231" },  # Woe Strider
 ]
 
 [places]
