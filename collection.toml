@@ -709,7 +709,7 @@ cards = [
   { printing = "zen/136", at = "red bulk" },  # Magma Rift
   { printing = "plst/XLN-167", at = "red bulk" },  # Swashbuckling
   { printing = "m20/149", qty = 5, at = "red bulk" },  # Maniacal Rage
-  { printing = "xln/134", qty = 4, at = "red bulk" },  # Brazen Buccaneers
+  { printing = "xln/134", qty = 6, at = "red bulk" },  # Brazen Buccaneers
   { printing = "thb/138", at = "red bulk" },  # Heroes of the Revel
   { printing = "m20/145", qty = 7, at = "red bulk" },  # Infuriate
   { printing = "kld/140", qty = 2, at = "red bulk" },  # Welding Sparks
@@ -809,6 +809,7 @@ cards = [
   { printing = "cn2/168", at = "red bulk" },  # Ogre Sentry
   { printing = "soi/191", at = "red bulk" },  # Voldaren Duelist
   { printing = "gtc/109", at = "red bulk" },  # Towering Thunderfist
+  { printing = "frf/103", at = "red bulk" },  # Gore Swine
 ]
 
 [places]
