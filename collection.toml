@@ -701,6 +701,10 @@ cards = [
   { printing = "m14/197", at = "stables" },  # Trollhide
   { printing = "rix/131", at = "green bulk" },  # Giltgrove Stalker
   { printing = "soc/238", at = "sleaved stables" },  # Blasphemous Act
+  { printing = "fem/58b", at = "red bulk" },  # Goblin War Drums
+  { printing = "clb/785", at = "red bulk" },  # Chaos Warp
+  { printing = "xln/163", qty = 4, at = "red bulk" },  # Storm Fleet Pyromancer
+  { printing = "xln/167", qty = 5, at = "red bulk" },  # Swashbuckling
 ]
 
 [places]
