@@ -821,6 +821,8 @@ cards = [
   { printing = "clu/148", at = "stables" },  # Spellgorger Weird
   { printing = "thb/152", at = "stables" },  # Satyr's Cunning
   { printing = "lrw/161", at = "red bulk" },  # Consuming Bonfire
+  { printing = "soc/265", at = "There's No Place Like Loam" },  # Cultivate
+  { printing = "blc/131", at = "There's No Place Like Loam" },  # Exotic Orchard
 ]
 
 [places]
