@@ -410,12 +410,14 @@ cards = [
   { printing = "sos/96", at = "stables" },  # Rabid Attack
   { printing = "sos/76", at = "stables" },  # Cheerful Osteomancer // Raise Dead
   { printing = "ktk/77", at = "black bulk" },  # Krumar Bond-Kin
-  { printing = "m20/88", at = "black bulk" },  # Blood Burglar
+  { printing = "m20/88", qty = 3, at = "black bulk" },  # Blood Burglar
   { printing = "soc/226", at = "stables" },  # Smothering Abomination
   { printing = "soc/25", at = "sleaved stables" },  # Defiling Daemogoth
   { printing = "grn/78", at = "black bulk" },  # Moodmark Painter
   { printing = "m20/95", qty = 2, at = "black bulk" },  # Disfigure
-  { printing = "grn/65", qty = 4, at = "black bulk" },  # Child of Night
+  { printing = "grn/65", qty = 5, at = "black bulk" },  # Child of Night
+  { printing = "grn/86", at = "black bulk" },  # Spinal Centipede
+  { printing = "dom/94", at = "stables" },  # Fungal Infection
 ]
 
 [places]
