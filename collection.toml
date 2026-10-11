@@ -835,3 +835,4 @@ stables = {}
 "white bulk" = {}
 "green bulk" = {}
 "red bulk" = {}
+"There's No Place Like Loam" = { deck = "decks/there-s-no-place-like-loam.deck.toml" }
