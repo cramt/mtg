@@ -547,15 +547,22 @@ cards = [
   { printing = "j22/164", at = "white bulk" },  # Caught in the Brights
   { printing = "a25/12", at = "white bulk" },  # Disenchant
   { printing = "ktk/14", at = "white bulk" },  # Jeskai Student
-  { printing = "rix/27", qty = 3, at = "white bulk" },  # Sun-Crested Pterodon
+  { printing = "rix/27", qty = 7, at = "white bulk" },  # Sun-Crested Pterodon
   { printing = "ima/12", at = "white bulk" },  # Benevolent Ancestor
   { printing = "rix/15", at = "white bulk" },  # Moment of Triumph
-  { printing = "rix/11", qty = 4, at = "white bulk" },  # Legion Conquistador
-  { printing = "grn/23", qty = 3, at = "white bulk" },  # Righteous Blow
+  { printing = "rix/11", qty = 5, at = "white bulk" },  # Legion Conquistador
+  { printing = "grn/23", qty = 5, at = "white bulk" },  # Righteous Blow
   { printing = "m20/7", at = "white bulk" },  # Battalion Foot Soldier
   { printing = "soi/17", at = "white bulk" },  # Emissary of the Sleepless
-  { printing = "rix/19", at = "white bulk" },  # Raptor Companion
+  { printing = "rix/19", qty = 3, at = "white bulk" },  # Raptor Companion
   { printing = "aer/20", at = "white bulk" },  # Ghirapur Osprey
+  { printing = "ima/13", at = "white bulk" },  # Blinding Mage
+  { printing = "m19/32", at = "white bulk" },  # Pegasus Courser
+  { printing = "xln/31", at = "white bulk" },  # Raptor Companion
+  { printing = "dom/34", at = "white bulk" },  # Serra Disciple
+  { printing = "m21/2", at = "white bulk" },  # Alpine Watchdog
+  { printing = "ori/42", at = "white bulk" },  # Yoked Ox
+  { printing = "rix/26", at = "white bulk" },  # Sun Sentinel
 ]
 
 [places]
