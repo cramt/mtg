@@ -749,6 +749,8 @@ cards = [
   { printing = "stx/94", at = "red bulk" },  # Conspiracy Theorist
   { printing = "soc/246", at = "red bulk" },  # Laelia, the Blade Reforged
   { printing = "soc/30", at = "red bulk" },  # Advanced Reconstruction
+  { printing = "soc/31", at = "red bulk" },  # Fateful Tempest
+  { printing = "soc/33", at = "red bulk" },  # Naktamun Lorespinner // Wheel of Fortune
 ]
 
 [places]
