@@ -709,7 +709,7 @@ cards = [
   { printing = "zen/136", at = "red bulk" },  # Magma Rift
   { printing = "plst/XLN-167", at = "red bulk" },  # Swashbuckling
   { printing = "m20/149", qty = 5, at = "red bulk" },  # Maniacal Rage
-  { printing = "xln/134", qty = 6, at = "red bulk" },  # Brazen Buccaneers
+  { printing = "xln/134", qty = 8, at = "red bulk" },  # Brazen Buccaneers
   { printing = "thb/138", at = "red bulk" },  # Heroes of the Revel
   { printing = "m20/145", qty = 7, at = "red bulk" },  # Infuriate
   { printing = "kld/140", qty = 2, at = "red bulk" },  # Welding Sparks
@@ -802,7 +802,7 @@ cards = [
   { printing = "sos/128", at = "red bulk" },  # Rubble Rouser
   { printing = "sos/133", qty = 2, at = "red bulk" },  # Tackle Artist
   { printing = "xln/160", qty = 3, at = "red bulk" },  # Rummaging Goblin
-  { printing = "thb/152", qty = 3, at = "red bulk" },  # Satyr's Cunning
+  { printing = "thb/152", qty = 4, at = "red bulk" },  # Satyr's Cunning
   { printing = "ths/133", at = "red bulk" },  # Portent of Betrayal
   { printing = "kld/139", at = "red bulk" },  # Wayward Giant
   { printing = "hou/95", at = "red bulk" },  # Granitic Titan
@@ -810,6 +810,9 @@ cards = [
   { printing = "soi/191", at = "red bulk" },  # Voldaren Duelist
   { printing = "gtc/109", at = "red bulk" },  # Towering Thunderfist
   { printing = "frf/103", at = "red bulk" },  # Gore Swine
+  { printing = "m14/145", at = "red bulk" },  # Marauding Maulhorn
+  { printing = "m19/161", at = "red bulk" },  # Sure Strike
+  { printing = "clu/148", at = "red bulk" },  # Spellgorger Weird
 ]
 
 [places]
