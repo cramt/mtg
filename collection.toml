@@ -388,7 +388,7 @@ cards = [
   { printing = "c21/42", at = "sleaved stables" },  # Keen Duelist
   { printing = "jou/77" },  # Nyx Infusion
   { printing = "ths/88" },  # Fleshmad Steed
-  { printing = "ktk/78" },  # Mardu Skullhunter
+  { printing = "ktk/78", at = "stables" },  # Mardu Skullhunter
   { printing = "m20/84", qty = 2, at = "stables" },  # Audacious Thief
   { printing = "grn/88" },  # Veiled Shade
   { printing = "rix/70", at = "stables" },  # Dusk Legion Zealot
@@ -400,15 +400,15 @@ cards = [
   { printing = "frf/61" },  # Ancestral Vengeance
   { printing = "m20/119", at = "stables" },  # Unholy Indenture
   { printing = "bng/75", at = "stables" },  # Herald of Torment
-  { printing = "ths/78" },  # Baleful Eidolon
+  { printing = "ths/78", at = "stables" },  # Baleful Eidolon
   { printing = "sos/104" },  # Wander Off
   { printing = "m20/108" },  # Mind Rot
   { printing = "ori/111" },  # Nightsnare
-  { printing = "ths/96" },  # March of the Returned
+  { printing = "ths/96", at = "black bulk" },  # March of the Returned
   { printing = "isd/93" },  # Corpse Lunge
-  { printing = "inr/109" },  # Falkenrath Torturer
-  { printing = "sos/96" },  # Rabid Attack
-  { printing = "sos/76" },  # Cheerful Osteomancer // Raise Dead
+  { printing = "inr/109", at = "stables" },  # Falkenrath Torturer
+  { printing = "sos/96", at = "stables" },  # Rabid Attack
+  { printing = "sos/76", at = "stables" },  # Cheerful Osteomancer // Raise Dead
   { printing = "ktk/77" },  # Krumar Bond-Kin
   { printing = "m20/88" },  # Blood Burglar
 ]
@@ -421,3 +421,4 @@ stables = {}
 "bulk multicolor" = {}
 "sleaved stables" = {}
 "blue bulk" = {}
+"black bulk" = {}
