@@ -750,30 +750,30 @@ cards = [
   { printing = "soc/246", at = "red bulk" },  # Laelia, the Blade Reforged
   { printing = "soc/30", at = "red bulk" },  # Advanced Reconstruction
   { printing = "soc/31", at = "red bulk" },  # Fateful Tempest
-  { printing = "soc/33", at = "red bulk" },  # Naktamun Lorespinner // Wheel of Fortune
+  { printing = "soc/33", at = "sleaved stables" },  # Naktamun Lorespinner // Wheel of Fortune
   { printing = "soc/35", at = "red bulk" },  # Relic Retriever
   { printing = "soc/37", at = "red bulk" },  # Spirit of Resilience
   { printing = "gn3/67", at = "red bulk" },  # Abrade
-  { printing = "otc/155", at = "red bulk" },  # Big Score
-  { printing = "tdc/223", at = "red bulk" },  # Mana Geyser
-  { printing = "stx/115", at = "red bulk" },  # Storm-Kiln Artist
+  { printing = "otc/155", at = "sleaved stables" },  # Big Score
+  { printing = "tdc/223", at = "sleaved stables" },  # Mana Geyser
+  { printing = "stx/115", at = "sleaved stables" },  # Storm-Kiln Artist
   { printing = "clb/813", at = "red bulk" },  # Volcanic Torrent
   { printing = "soc/241", at = "red bulk" },  # Creative Technique
   { printing = "frc/49", at = "red bulk" },  # Cursed Mirror
   { printing = "soc/243", at = "red bulk" },  # Dance with Calamity
-  { printing = "khm/139", at = "red bulk" },  # Goldspan Dragon
+  { printing = "khm/139", at = "sleaved stables" },  # Goldspan Dragon
   { printing = "soc/248", at = "red bulk" },  # Manaform Hellkite
   { printing = "soc/249", at = "red bulk" },  # Mirrorwing Dragon
   { printing = "soc/250", at = "red bulk" },  # Plargg and Nassari
   { printing = "soc/251", at = "red bulk" },  # Redoubled Stormsinger
-  { printing = "soc/252", at = "red bulk" },  # Rionya, Fire Dancer
+  { printing = "soc/252", at = "sleaved stables" },  # Rionya, Fire Dancer
   { printing = "soc/253", at = "red bulk" },  # Rousing Refrain
   { printing = "soc/256", at = "red bulk" },  # Surge to Victory
-  { printing = "soc/258", at = "red bulk" },  # Twinflame
+  { printing = "soc/258", at = "sleaved stables" },  # Twinflame
   { printing = "soc/259", at = "red bulk" },  # Volcanic Salvo
   { printing = "soc/121", at = "red bulk" },  # Chain Reaction
-  { printing = "soc/122", at = "red bulk" },  # Determined Iteration
-  { printing = "soc/123", at = "red bulk" },  # Harmonic Prodigy
+  { printing = "soc/122", at = "sleaved stables" },  # Determined Iteration
+  { printing = "soc/123", at = "sleaved stables" },  # Harmonic Prodigy
   { printing = "soc/32", at = "red bulk" },  # Furygale Flocking
   { printing = "soc/34", at = "red bulk" },  # Prismari Pianist
   { printing = "soc/36", at = "red bulk" },  # Renegade Bull
