@@ -770,6 +770,9 @@ cards = [
   { printing = "soc/253", at = "red bulk" },  # Rousing Refrain
   { printing = "soc/256", at = "red bulk" },  # Surge to Victory
   { printing = "soc/258", at = "red bulk" },  # Twinflame
+  { printing = "soc/259", at = "red bulk" },  # Volcanic Salvo
+  { printing = "soc/121", at = "red bulk" },  # Chain Reaction
+  { printing = "soc/122", at = "red bulk" },  # Determined Iteration
 ]
 
 [places]
