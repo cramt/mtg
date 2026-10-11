@@ -777,6 +777,7 @@ cards = [
   { printing = "soc/32", at = "stables" },  # Furygale Flocking
   { printing = "soc/34", at = "stables" },  # Prismari Pianist
   { printing = "soc/36", at = "stables" },  # Renegade Bull
+  { printing = "hob/102", at = "red bulk" },  # Iron Hills Stalwart
 ]
 
 [places]
