@@ -446,6 +446,10 @@ cards = [
   { printing = "frf/72", at = "black bulk" },  # Gurmag Angler
   { printing = "frf/89", at = "black bulk" },  # Typhoid Rats
   { printing = "ths/103", at = "black bulk" },  # Returned Centaur
+  { printing = "ktk/69", at = "stables" },  # Despise
+  { printing = "ktk/91", qty = 2, at = "black bulk" },  # Sultai Scavenger
+  { printing = "m15/107", qty = 2, at = "black bulk" },  # Necromancer's Assistant
+  { printing = "ktk/67", at = "stables" },  # Dead Drop
 ]
 
 [places]
