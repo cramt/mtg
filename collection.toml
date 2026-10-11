@@ -408,6 +408,9 @@ cards = [
   { printing = "isd/93" },  # Corpse Lunge
   { printing = "inr/109" },  # Falkenrath Torturer
   { printing = "sos/96" },  # Rabid Attack
+  { printing = "sos/76" },  # Cheerful Osteomancer // Raise Dead
+  { printing = "ktk/77" },  # Krumar Bond-Kin
+  { printing = "m20/88" },  # Blood Burglar
 ]
 
 [places]
