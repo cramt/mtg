@@ -383,6 +383,10 @@ cards = [
   { printing = "soc/4", at = "stables" },  # Killian, Decisive Mentor
   { printing = "soc/45", at = "stables" },  # Defacing Duskmage // Vandal's Edit
   { printing = "soc/333", at = "stables" },  # Tomik, Wielder of Law
+  { printing = "soc/26" },  # Intermediate Chirography
+  { printing = "soc/212" },  # Doomwake Giant
+  { printing = "c21/42" },  # Keen Duelist
+  { printing = "jou/77" },  # Nyx Infusion
 ]
 
 [places]
