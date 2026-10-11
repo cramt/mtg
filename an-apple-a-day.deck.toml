@@ -1,0 +1,90 @@
+name = "An Apple a Day"
+format = "commander"
+description = """
+Work in progress: this is the cards sitting in the box so far, not a finished 100.
+
+Eriette makes any creature wearing one of your Auras unable to attack you, and drains each opponent for the number of Auras you control at your end step. Auras go on both sides of the table. Your own creatures get the voltron Auras (Angelic Destiny, Eldrazi Conscription, Eidolon of Countless Battles) and carry them in. Opponents' creatures get the cheap ones (Coercive and Martial Impetus, Mogis's Favor, Screams from Within, Darksteel Mutation), so they're both shut off from you and goaded into everyone else.
+
+Sram, Kor Spiritdancer, Sage's Reverie and Hateful Eidolon turn Auras into cards, and Transcendent Envoy, Starfield Mystic and Killian make them cheap. Combat Calligrapher and Firemane Commando reward the other players for fighting each other, which is what Eriette's tax pushes them into anyway."""
+
+cards = [
+  { printing = "soc/307", in = ["Commander"] },  # Eriette of the Charmed Apple
+  { printing = "c18/61", in = ["Aura Payoff"] },  # Ajani's Chosen
+  { printing = "soc/215", in = ["Aura Payoff", "Draw"] },  # Hateful Eidolon
+  { printing = "soc/152", in = ["Aura Payoff", "Draw"] },  # Kor Spiritdancer
+  { printing = "cmr/386", in = ["Aura Payoff", "Draw"] },  # Sram, Senior Edificer
+  { printing = "soc/134", in = ["Aura", "Threat"] },  # Angelic Destiny
+  { printing = "soc/207", in = ["Aura", "Recursion"] },  # Animate Dead
+  { printing = "soc/23", in = ["Aura", "Recursion"] },  # Changing Loyalty
+  { printing = "soc/24", in = ["Aura", "Goad", "Draw"] },  # Coercive Impetus
+  { printing = "cma/9", in = ["Aura", "Interaction"] },  # Darksteel Mutation
+  { printing = "soc/144", in = ["Aura", "Aura Payoff", "Threat"] },  # Eidolon of Countless Battles
+  { printing = "soc/131", in = ["Aura", "Threat"] },  # Eldrazi Conscription
+  { printing = "soc/117", in = ["Aura", "Evasion"] },  # Fallen Ideal
+  { printing = "soc/147", in = ["Aura", "Protection"] },  # Gift of Immortality
+  { printing = "soc/156", in = ["Aura", "Goad"] },  # Martial Impetus
+  { printing = "thb/107", in = ["Aura"] },  # Mogis's Favor
+  { printing = "clb/764", in = ["Aura", "Threat"] },  # Nighthowler
+  { printing = "c18/72", in = ["Aura", "Aura Payoff", "Draw"] },  # Sage's Reverie
+  { printing = "soc/119", in = ["Aura", "Interaction"] },  # Screams from Within
+  { printing = "soc/168", in = ["Aura", "Evasion"] },  # Sentinel's Eyes
+  { printing = "soc/171", in = ["Aura", "Interaction", "Protection"] },  # Sheltered by Ghosts
+  { printing = "soc/174", in = ["Aura", "Aura Tutor"] },  # Songbirds' Blessing
+  { printing = "cmr/385", in = ["Aura", "Protection"] },  # Spirit Mantle
+  { printing = "rix/25", in = ["Aura"] },  # Squire's Devotion
+  { printing = "m20/119", in = ["Aura", "Recursion"] },  # Unholy Indenture
+  { printing = "w17/20", in = ["Aura", "Evasion"] },  # Untamed Hunger
+  { printing = "cp2/1", in = ["Threat", "Interaction"] },  # Necropolis Fiend
+  { printing = "soc/330", in = ["Threat", "Draw"] },  # Shadrix Silverquill
+  { printing = "soc/317", in = ["Cost Reduction"] },  # Killian, Ink Duelist
+  { printing = "soc/177", in = ["Cost Reduction", "Aura Payoff"] },  # Starfield Mystic
+  { printing = "soc/183", in = ["Cost Reduction"] },  # Transcendent Envoy
+  { printing = "soc/141", in = ["Attack Elsewhere"] },  # Combat Calligrapher
+  { printing = "fdc/31", in = ["Attack Elsewhere", "Draw"] },  # Firemane Commando
+  { printing = "soc/293", in = ["Interaction"] },  # Anguished Unmaking
+  { printing = "soc/310", in = ["Interaction"] },  # Fracture
+  { printing = "soc/335", in = ["Interaction"] },  # Vanishing Verse
+  { printing = "soc/316", in = ["Protection"] },  # Inkshield
+  { printing = "soc/13", in = ["Recursion"] },  # Eiganjo Dynastorian // Replenish
+  { printing = "cp2/5", in = ["Recursion"] },  # Whip of Erebos
+  { printing = "cmr/392", in = ["Board Wipe"] },  # Winds of Rath
+  { printing = "soc/127", in = ["Ramp"] },  # Arcane Signet
+  { printing = "soc/128", in = ["Ramp"] },  # Sol Ring
+  { printing = "drc/142", in = ["Ramp"] },  # Talisman of Hierarchy
+  { printing = "soc/361", in = ["Land - Utility"] },  # Arcane Lighthouse
+  { printing = "soc/363", in = ["Land - Utility"] },  # Bojuka Bog
+  { printing = "hob/315", in = ["Land - Basic"] },  # Plains
+  { printing = "hob/316", in = ["Land - Basic"] },  # Plains
+  { printing = "sos/273", qty = 5, in = ["Land - Basic"] },  # Plains
+  { printing = "hob/191", in = ["Land - Basic"] },  # Swamp
+  { printing = "sos/277", qty = 4, in = ["Land - Basic"] },  # Swamp
+  { printing = "soc/129", in = ["Land - Dual"] },  # Command Tower
+  { printing = "soc/367", in = ["Land - Dual"] },  # Desolate Mire
+  { printing = "soc/53", in = ["Land - Dual"] },  # Eclipsed Steppe
+  { printing = "soc/369", in = ["Land - Dual"] },  # Exotic Orchard
+  { printing = "soc/372", in = ["Land - Dual"] },  # Fetid Heath
+  { printing = "soc/382", in = ["Land - Dual"] },  # Isolated Chapel
+  { printing = "onc/164", in = ["Land - Dual"] },  # Shineshadow Snarl
+  { printing = "soc/407", in = ["Land - Dual"] },  # Study Hall
+  { printing = "soc/56", in = ["Land - Dual"] },  # Turbulent Moor
+]
+
+[categories]
+Commander = { type = "commander" }
+"Aura Payoff" = {}
+Draw = {}
+Aura = {}
+Threat = {}
+"Cost Reduction" = {}
+Goad = {}
+"Attack Elsewhere" = {}
+Interaction = {}
+Evasion = {}
+"Aura Tutor" = {}
+Protection = {}
+Recursion = {}
+"Board Wipe" = {}
+Ramp = {}
+"Land - Utility" = {}
+"Land - Basic" = {}
+"Land - Dual" = {}
