@@ -491,7 +491,18 @@ cards = [
   { printing = "soc/153", at = "sleaved stables" },  # Land Tax
   { printing = "soc/146", at = "sleaved stables" },  # Ghostly Prison
   { printing = "hou/8", at = "white bulk" },  # Desert's Hold
-  { printing = "hou/21", at = "white bulk" },  # Saving Grace
+  { printing = "ogw/22", at = "white bulk" },  # Isolation Zone
+  { printing = "clu/68", at = "white bulk" },  # Parhelion Patrol
+  { printing = "kld/30", at = "white bulk" },  # Tasseled Dromedary
+  { printing = "bfz/38", at = "white bulk" },  # Lithomancer's Focus
+  { printing = "ori/34", at = "white bulk" },  # Suppression Bonds
+  { printing = "rix/14", at = "white bulk" },  # Martyr of Dusk
+  { printing = "aer/5", at = "white bulk" },  # Airdrop Aeronauts
+  { printing = "ths/21", at = "white bulk" },  # Lagonna-Band Elder
+  { printing = "hou/21", at = "stables" },  # Saving Grace
+  { printing = "ktk/21", at = "white bulk" },  # Salt Road Patrol
+  { printing = "mm2/21", at = "white bulk" },  # Kami of Ancient Law
+  { printing = "grn/22", at = "white bulk" },  # Parhelion Patrol
 ]
 
 [places]
