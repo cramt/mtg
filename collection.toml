@@ -548,10 +548,10 @@ cards = [
   { printing = "a25/12", qty = 2, at = "white bulk" },  # Disenchant
   { printing = "ktk/14", at = "white bulk" },  # Jeskai Student
   { printing = "rix/27", qty = 7, at = "white bulk" },  # Sun-Crested Pterodon
-  { printing = "ima/12", qty = 2, at = "white bulk" },  # Benevolent Ancestor
+  { printing = "ima/12", qty = 3, at = "white bulk" },  # Benevolent Ancestor
   { printing = "rix/15", at = "white bulk" },  # Moment of Triumph
   { printing = "rix/11", qty = 5, at = "white bulk" },  # Legion Conquistador
-  { printing = "grn/23", qty = 5, at = "white bulk" },  # Righteous Blow
+  { printing = "grn/23", qty = 6, at = "white bulk" },  # Righteous Blow
   { printing = "m20/7", at = "white bulk" },  # Battalion Foot Soldier
   { printing = "soi/17", at = "white bulk" },  # Emissary of the Sleepless
   { printing = "rix/19", qty = 3, at = "white bulk" },  # Raptor Companion
@@ -562,12 +562,12 @@ cards = [
   { printing = "dom/34", at = "white bulk" },  # Serra Disciple
   { printing = "m21/2", at = "white bulk" },  # Alpine Watchdog
   { printing = "ori/42", qty = 6, at = "white bulk" },  # Yoked Ox
-  { printing = "rix/26", at = "white bulk" },  # Sun Sentinel
+  { printing = "rix/26", qty = 2, at = "white bulk" },  # Sun Sentinel
   { printing = "soi/41", at = "white bulk" },  # Survive the Night
   { printing = "ths/30", at = "white bulk" },  # Setessan Griffin
   { printing = "grn/20", at = "white bulk" },  # Loxodon Restorer
   { printing = "jmp/80", at = "white bulk" },  # Aerial Assault
-  { printing = "j22/170", qty = 2, at = "white bulk" },  # Dawning Angel
+  { printing = "j22/170", qty = 3, at = "white bulk" },  # Dawning Angel
   { printing = "dtk/34", at = "white bulk" },  # Sandstorm Charger
   { printing = "hob/20", qty = 2, at = "white bulk" },  # Magnificent End
   { printing = "2x2/12", at = "white bulk" },  # Gods Willing
@@ -594,6 +594,19 @@ cards = [
   { printing = "tdm/4", at = "white bulk" },  # Bearer of Glory
   { printing = "tdm/28", at = "white bulk" },  # Stormplain Detainment
   { printing = "clb/377", at = "white bulk" },  # Ellyn Harbreeze, Busybody
+  { printing = "clb/11", at = "white bulk" },  # Blessed Hippogriff // Tyr's Blessing
+  { printing = "m20/41", at = "white bulk" },  # Yoked Ox
+  { printing = "m19/38", at = "white bulk" },  # Star-Crowned Stag
+  { printing = "m12/7", at = "white bulk" },  # Armored Warhorse
+  { printing = "kld/6", at = "white bulk" },  # Aviary Mechanic
+  { printing = "rvr/4", at = "white bulk" },  # Arrester's Zeal
+  { printing = "m20/14", at = "white bulk" },  # Disenchant
+  { printing = "m20/34", at = "white bulk" },  # Raise the Alarm
+  { printing = "ths/7", at = "white bulk" },  # Decorated Griffin
+  { printing = "ths/35", at = "white bulk" },  # Vanquish the Foul
+  { printing = "rix/7", qty = 5, at = "white bulk" },  # Exultant Skymarcher
+  { printing = "ths/1", at = "white bulk" },  # Battlewise Valor
+  { printing = "grn/5", qty = 8, at = "white bulk" },  # Collar the Culprit
 ]
 
 [places]
