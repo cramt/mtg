@@ -466,6 +466,7 @@ cards = [
   { printing = "ori/126", at = "black bulk" },  # Weight of the Underworld
   { printing = "rix/89", at = "black bulk" },  # Vampire Revenant
   { printing = "jou/64", at = "stables" },  # Cruel Feeding
+  { printing = "aer/67", at = "black bulk" },  # Night Market Aeronaut
 ]
 
 [places]
