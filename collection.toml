@@ -531,7 +531,12 @@ cards = [
   { printing = "soc/181", at = "sleaved stables" },  # Tocasia's Welcome
   { printing = "soc/182", at = "stables" },  # Tragic Arrogance
   { printing = "soc/184", at = "stables" },  # White Orchid Phantom
-  { printing = "soc/110", at = "white bulk" },  # Moonshaker Cavalry
+  { printing = "soc/111", at = "stables" },  # Staff of the Storyteller
+  { printing = "soc/110", at = "sleaved stables" },  # Moonshaker Cavalry
+  { printing = "soc/112", at = "stables" },  # Wave of Reckoning
+  { printing = "soc/11", at = "stables" },  # Augusta, Order Returned
+  { printing = "soc/12", at = "stables" },  # Ceaseless Conflict
+  { printing = "soc/16", at = "stables" },  # Vanguard of the Restless
 ]
 
 [places]
