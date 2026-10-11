@@ -392,6 +392,12 @@ cards = [
   { printing = "m20/84", qty = 2 },  # Audacious Thief
   { printing = "grn/88" },  # Veiled Shade
   { printing = "rix/70" },  # Dusk Legion Zealot
+  { printing = "m21/90" },  # Blood Glutton
+  { printing = "m14/83" },  # Accursed Spirit
+  { printing = "dom/104" },  # Soul Salvage
+  { printing = "jou/62" },  # Brain Maggot
+  { printing = "ktk/68" },  # Debilitating Injury
+  { printing = "frf/61" },  # Ancestral Vengeance
 ]
 
 [places]
