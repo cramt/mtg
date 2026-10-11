@@ -610,8 +610,8 @@ cards = [
   { printing = "sos/169", at = "green bulk" },  # Zimone's Experiment
   { printing = "soa/55", at = "stables" },  # Pick Your Poison
   { printing = "sos/159", at = "green bulk" },  # Shopkeeper's Bane
-  { printing = "clb/259", at = "stables" },  # Undercellar Myconid
-  { printing = "clb/837", at = "sleaved stables" },  # Three Visits
+  { printing = "clb/259", at = "green bulk" },  # Undercellar Myconid
+  { printing = "clb/837", at = "green bulk" },  # Three Visits
   { printing = "znc/81", at = "green bulk" },  # Satyr Wayfinder
   { printing = "hob/118", qty = 2, at = "green bulk" },  # Beorn, Reluctant Host // Till and Tend
   { printing = "hob/133", at = "green bulk" },  # Ordinary Bear
@@ -624,16 +624,16 @@ cards = [
   { printing = "hob/140", at = "green bulk" },  # Wargling
   { printing = "hob/141", at = "green bulk" },  # Wilderland Scrounger
   { printing = "hob/130", qty = 2, at = "green bulk" },  # Nasty Little Rabbit
-  { printing = "clb/263", qty = 2, at = "stables" },  # You Meet in a Tavern
-  { printing = "clb/243", at = "stables" },  # Myconid Spore Tender
-  { printing = "clb/219", at = "stables" },  # Carefree Swinemaster
-  { printing = "clb/241", at = "stables" },  # Master Chef
+  { printing = "clb/263", qty = 2, at = "green bulk" },  # You Meet in a Tavern
+  { printing = "clb/243", at = "green bulk" },  # Myconid Spore Tender
+  { printing = "clb/219", at = "green bulk" },  # Carefree Swinemaster
+  { printing = "clb/241", at = "green bulk" },  # Master Chef
   { printing = "clb/239", at = "green bulk" },  # Lurking Green Dragon
   { printing = "clb/257", at = "green bulk" },  # Split the Spoils
-  { printing = "clb/222", at = "stables" },  # Cloakwood Swarmkeeper
-  { printing = "clb/220", at = "stables" },  # Circle of the Land Druid
-  { printing = "clb/225", at = "stables" },  # Dread Linnorm // Scale Deflection
-  { printing = "clb/233", at = "stables" },  # Giant Ankheg
+  { printing = "clb/222", at = "green bulk" },  # Cloakwood Swarmkeeper
+  { printing = "clb/220", at = "green bulk" },  # Circle of the Land Druid
+  { printing = "clb/225", at = "green bulk" },  # Dread Linnorm // Scale Deflection
+  { printing = "clb/233", at = "green bulk" },  # Giant Ankheg
   { printing = "tdm/143", at = "green bulk" },  # Formation Breaker
   { printing = "tdm/156", at = "green bulk" },  # Sagu Pummeler
   { printing = "tdm/158", at = "green bulk" },  # Sarkhan's Resolve
@@ -642,15 +642,34 @@ cards = [
   { printing = "jou/133", qty = 2, at = "green bulk" },  # Oakheart Dryads
   { printing = "ths/156", at = "green bulk" },  # Defend the Hearth
   { printing = "m15/207", qty = 2, at = "green bulk" },  # Vineweft
-  { printing = "bng/122", at = "stables" },  # Graverobber Spider
-  { printing = "ths/163", qty = 2, at = "stables" },  # Nemesis of Mortals
+  { printing = "bng/122", at = "green bulk" },  # Graverobber Spider
+  { printing = "ths/163", qty = 2, at = "green bulk" },  # Nemesis of Mortals
   { printing = "a25/183", at = "green bulk" },  # Plummet
   { printing = "ktk/142", at = "green bulk" },  # Naturalize
-  { printing = "ema/162", qty = 3, at = "stables" },  # Commune with the Gods
+  { printing = "ema/162", qty = 3, at = "green bulk" },  # Commune with the Gods
   { printing = "bng/130", at = "green bulk" },  # Noble Quarry
   { printing = "ths/161", at = "green bulk" },  # Leafcrown Dryad
-  { printing = "jou/138", at = "stables" },  # Reviving Melody
-  { printing = "m15/198", qty = 3, at = "stables" },  # Satyr Wayfinder
+  { printing = "jou/138", at = "green bulk" },  # Reviving Melody
+  { printing = "m15/198", qty = 3, at = "green bulk" },  # Satyr Wayfinder
+  { printing = "rix/125", qty = 11, at = "green bulk" },  # Colossal Dreadmaw
+  { printing = "ths/165", at = "green bulk" },  # Nessian Courser
+  { printing = "rix/133", qty = 5, at = "green bulk" },  # Hunt the Weak
+  { printing = "kld/175", qty = 4, at = "green bulk" },  # Wily Bandar
+  { printing = "kld/148", at = "green bulk" },  # Commencement of Festivities
+  { printing = "thb/187", at = "green bulk" },  # Nylea's Huntmaster
+  { printing = "xln/188", qty = 2, at = "green bulk" },  # Emergent Growth
+  { printing = "jou/136", at = "green bulk" },  # Ravenous Leucrocota
+  { printing = "soi/205", at = "green bulk" },  # Fork in the Road
+  { printing = "m21/201", at = "green bulk" },  # Run Afoul
+  { printing = "j22/675", at = "green bulk" },  # Hunter's Edge
+  { printing = "ima/182", at = "green bulk" },  # Prey's Vengeance
+  { printing = "w17/27", at = "green bulk" },  # Rootwalla
+  { printing = "m20/192", at = "green bulk" },  # Sedge Scorpion
+  { printing = "emn/179", at = "green bulk" },  # Woodcutter's Grit
+  { printing = "m21/207", at = "green bulk" },  # Snarespinner
+  { printing = "dtk/183", at = "green bulk" },  # Dragon-Scarred Bear
+  { printing = "scg/113", at = "green bulk" },  # Break Asunder
+  { printing = "ori/208", at = "green bulk" },  # Yeva's Forcemage
 ]
 
 [places]
