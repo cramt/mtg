@@ -586,6 +586,7 @@ cards = [
   { printing = "clb/38", at = "white bulk" },  # Recruitment Drive
   { printing = "clb/53", qty = 2, at = "white bulk" },  # You're Confronted by Robbers
   { printing = "clb/51", at = "white bulk" },  # Wyrm's Crossing Patrol
+  { printing = "clb/52", at = "white bulk" },  # Your Temple Is Under Attack
 ]
 
 [places]
