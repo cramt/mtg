@@ -686,6 +686,8 @@ cards = [
   { printing = "soi/198", at = "green bulk" },  # Confront the Unknown
   { printing = "c21/202", at = "green bulk" },  # Pulse of Murasa
   { printing = "grn/128", at = "green bulk" },  # District Guide
+  { printing = "rix/135", at = "green bulk" },  # Jadecraft Artisan
+  { printing = "j22/739", at = "green bulk" },  # Wily Bandar
 ]
 
 [places]
