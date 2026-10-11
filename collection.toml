@@ -395,10 +395,10 @@ cards = [
   { printing = "m21/90", at = "black bulk" },  # Blood Glutton
   { printing = "m14/83", at = "black bulk" },  # Accursed Spirit
   { printing = "dom/104", at = "black bulk" },  # Soul Salvage
-  { printing = "jou/62", at = "stables" },  # Brain Maggot
+  { printing = "jou/62", qty = 2, at = "stables" },  # Brain Maggot
   { printing = "ktk/68", at = "black bulk" },  # Debilitating Injury
   { printing = "frf/61", at = "black bulk" },  # Ancestral Vengeance
-  { printing = "m20/119", at = "stables" },  # Unholy Indenture
+  { printing = "m20/119", qty = 3, at = "stables" },  # Unholy Indenture
   { printing = "bng/75", at = "stables" },  # Herald of Torment
   { printing = "ths/78", at = "stables" },  # Baleful Eidolon
   { printing = "sos/104", qty = 2, at = "black bulk" },  # Wander Off
