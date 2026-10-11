@@ -414,6 +414,8 @@ cards = [
   { printing = "soc/226", at = "stables" },  # Smothering Abomination
   { printing = "soc/25", at = "sleaved stables" },  # Defiling Daemogoth
   { printing = "grn/78", at = "black bulk" },  # Moodmark Painter
+  { printing = "m20/95", qty = 2, at = "black bulk" },  # Disfigure
+  { printing = "grn/65", qty = 4, at = "black bulk" },  # Child of Night
 ]
 
 [places]
