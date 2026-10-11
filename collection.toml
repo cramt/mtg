@@ -774,6 +774,8 @@ cards = [
   { printing = "soc/121", at = "red bulk" },  # Chain Reaction
   { printing = "soc/122", at = "red bulk" },  # Determined Iteration
   { printing = "soc/123", at = "red bulk" },  # Harmonic Prodigy
+  { printing = "soc/32", at = "red bulk" },  # Furygale Flocking
+  { printing = "soc/34", at = "red bulk" },  # Prismari Pianist
 ]
 
 [places]
