@@ -813,6 +813,8 @@ cards = [
   { printing = "m14/145", at = "red bulk" },  # Marauding Maulhorn
   { printing = "m19/161", at = "red bulk" },  # Sure Strike
   { printing = "clu/148", at = "red bulk" },  # Spellgorger Weird
+  { printing = "rix/95", at = "red bulk" },  # Brazen Freebooter
+  { printing = "rix/104", at = "red bulk" },  # Frilled Deathspitter
 ]
 
 [places]
