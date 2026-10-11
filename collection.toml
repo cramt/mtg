@@ -467,6 +467,8 @@ cards = [
   { printing = "rix/89", at = "black bulk" },  # Vampire Revenant
   { printing = "jou/64", at = "stables" },  # Cruel Feeding
   { printing = "aer/67", at = "black bulk" },  # Night Market Aeronaut
+  { printing = "dgm/30", at = "black bulk" },  # Ubul Sar Gatekeepers
+  { printing = "m20/86", at = "black bulk" },  # Bladebrand
 ]
 
 [places]
