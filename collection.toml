@@ -561,8 +561,12 @@ cards = [
   { printing = "xln/31", at = "white bulk" },  # Raptor Companion
   { printing = "dom/34", at = "white bulk" },  # Serra Disciple
   { printing = "m21/2", at = "white bulk" },  # Alpine Watchdog
-  { printing = "ori/42", at = "white bulk" },  # Yoked Ox
+  { printing = "ori/42", qty = 4, at = "white bulk" },  # Yoked Ox
   { printing = "rix/26", at = "white bulk" },  # Sun Sentinel
+  { printing = "soi/41", at = "white bulk" },  # Survive the Night
+  { printing = "ths/30", at = "white bulk" },  # Setessan Griffin
+  { printing = "grn/20", at = "white bulk" },  # Loxodon Restorer
+  { printing = "jmp/80", at = "white bulk" },  # Aerial Assault
 ]
 
 [places]
