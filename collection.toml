@@ -611,7 +611,7 @@ cards = [
   { printing = "soa/55", at = "stables" },  # Pick Your Poison
   { printing = "sos/159", at = "green bulk" },  # Shopkeeper's Bane
   { printing = "clb/259", at = "green bulk" },  # Undercellar Myconid
-  { printing = "clb/837", at = "green bulk" },  # Three Visits
+  { printing = "clb/837", at = "sleaved stables" },  # Three Visits
   { printing = "znc/81", at = "green bulk" },  # Satyr Wayfinder
   { printing = "hob/118", qty = 2, at = "green bulk" },  # Beorn, Reluctant Host // Till and Tend
   { printing = "hob/133", at = "green bulk" },  # Ordinary Bear
