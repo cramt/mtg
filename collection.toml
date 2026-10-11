@@ -613,13 +613,17 @@ cards = [
   { printing = "clb/259", at = "green bulk" },  # Undercellar Myconid
   { printing = "clb/837", at = "green bulk" },  # Three Visits
   { printing = "znc/81", at = "green bulk" },  # Satyr Wayfinder
-  { printing = "hob/118", at = "green bulk" },  # Beorn, Reluctant Host // Till and Tend
+  { printing = "hob/118", qty = 2, at = "green bulk" },  # Beorn, Reluctant Host // Till and Tend
   { printing = "hob/133", at = "green bulk" },  # Ordinary Bear
   { printing = "hob/121", qty = 2, at = "green bulk" },  # Boughside Wanderers
   { printing = "hob/135", at = "green bulk" },  # Quarrel
   { printing = "hob/142", at = "green bulk" },  # Wood Elves
   { printing = "hob/116", at = "green bulk" },  # Attercop
-  { printing = "hob/127", at = "green bulk" },  # Guardian of the Halls
+  { printing = "hob/127", qty = 2, at = "green bulk" },  # Guardian of the Halls
+  { printing = "hob/139", at = "green bulk" },  # Warg Tactics
+  { printing = "hob/140", at = "green bulk" },  # Wargling
+  { printing = "hob/141", at = "green bulk" },  # Wilderland Scrounger
+  { printing = "hob/130", qty = 2, at = "green bulk" },  # Nasty Little Rabbit
 ]
 
 [places]
