@@ -455,6 +455,7 @@ cards = [
   { printing = "som/62", at = "stables" },  # Flesh Allergy
   { printing = "ktk/84", at = "black bulk" },  # Rakshasa's Secret
   { printing = "m20/118", at = "black bulk" },  # Undead Servant
+  { printing = "rix/91", at = "black bulk" },  # Voracious Vampire
 ]
 
 [places]
