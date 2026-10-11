@@ -755,6 +755,7 @@ cards = [
   { printing = "soc/37", at = "red bulk" },  # Spirit of Resilience
   { printing = "gn3/67", at = "red bulk" },  # Abrade
   { printing = "otc/155", at = "red bulk" },  # Big Score
+  { printing = "tdc/223", at = "red bulk" },  # Mana Geyser
 ]
 
 [places]
