@@ -411,6 +411,8 @@ cards = [
   { printing = "sos/76", at = "stables" },  # Cheerful Osteomancer // Raise Dead
   { printing = "ktk/77", at = "black bulk" },  # Krumar Bond-Kin
   { printing = "m20/88", at = "black bulk" },  # Blood Burglar
+  { printing = "soc/226", at = "stables" },  # Smothering Abomination
+  { printing = "soc/25", at = "sleaved stables" },  # Defiling Daemogoth
 ]
 
 [places]
