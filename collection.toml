@@ -903,8 +903,19 @@ cards = [
   { printing = "soc/117" },  # Fallen Ideal
   { printing = "soc/183" },  # Transcendent Envoy
   { printing = "soc/127" },  # Arcane Signet
-  { printing = "sos/273" },  # Plains
+  { printing = "sos/273", qty = 2 },  # Plains
   { printing = "soc/152" },  # Kor Spiritdancer
+  { printing = "soc/363" },  # Bojuka Bog
+  { printing = "soc/293" },  # Anguished Unmaking
+  { printing = "sos/277" },  # Swamp
+  { printing = "soc/372" },  # Fetid Heath
+  { printing = "hob/191" },  # Swamp
+  { printing = "ths/98" },  # Nighthowler
+  { printing = "cp2/5" },  # Whip of Erebos
+  { printing = "soc/207" },  # Animate Dead
+  { printing = "soc/335" },  # Vanishing Verse
+  { printing = "soc/369" },  # Exotic Orchard
+  { printing = "soc/165" },  # Sage's Reverie
 ]
 
 [places]
