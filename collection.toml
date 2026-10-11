@@ -927,6 +927,12 @@ cards = [
   { printing = "soc/230" },  # Witch of the Moors
   { printing = "soc/217" },  # Jadar, Ghoulcaller of Nephalia
   { printing = "soc/233" },  # Zulaport Cutthroat
+  { printing = "sos/276", qty = 3 },  # Swamp
+  { printing = "soc/379" },  # Haunted Mire
+  { printing = "soc/393" },  # Path of Ancestry
+  { printing = "soc/339" },  # Witherbloom Command
+  { printing = "frf/76" },  # Merciless Executioner
+  { printing = "afc/164" },  # Nature's Lore
 ]
 
 [places]
