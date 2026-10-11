@@ -829,6 +829,12 @@ cards = [
   { printing = "soc/388", at = "There's No Place Like Loam" },  # Mystic Sanctuary
   { printing = "sos/166", at = "There's No Place Like Loam" },  # Vastlands Scavenger // Bind to Life
   { printing = "soc/194", at = "There's No Place Like Loam" },  # Deep Analysis
+  { printing = "soc/129", at = "There's No Place Like Loam" },  # Command Tower
+  { printing = "soc/257", at = "There's No Place Like Loam" },  # Throes of Chaos
+  { printing = "soc/266", at = "There's No Place Like Loam" },  # Elvish Mystic
+  { printing = "soc/254", at = "There's No Place Like Loam" },  # Squee, Goblin Nabob
+  { printing = "soc/278", at = "There's No Place Like Loam" },  # Nature's Lore
+  { printing = "soc/52", at = "There's No Place Like Loam" },  # Coastal Peak
 ]
 
 [places]
