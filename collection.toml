@@ -433,6 +433,10 @@ cards = [
   { printing = "hob/63", at = "black bulk" },  # Crude Bent Blade
   { printing = "hob/62", at = "black bulk" },  # Bilbo's Deadly Slice
   { printing = "hob/85", at = "black bulk" },  # Stony-Voiced Goblins
+  { printing = "hob/80", at = "black bulk" },  # Ravening Warg
+  { printing = "sos/89", at = "black bulk" },  # Masterful Flourish
+  { printing = "sos/90", at = "black bulk" },  # Melancholic Poet
+  { printing = "sos/86", at = "black bulk" },  # Last Gasp
 ]
 
 [places]
