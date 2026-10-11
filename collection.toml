@@ -523,8 +523,8 @@ cards = [
   { printing = "soc/149", at = "sleaved stables" },  # Guardian Scalelord
   { printing = "soc/151", at = "stables" },  # Karmic Guide
   { printing = "soc/157", at = "sleaved stables" },  # Monologue Tax
-  { printing = "soc/164", at = "white bulk" },  # Remorseful Cleric
-  { printing = "clb/706", at = "white bulk" },  # Selfless Spirit
+  { printing = "soc/164", at = "stables" },  # Remorseful Cleric
+  { printing = "clb/706", at = "sleaved stables" },  # Selfless Spirit
 ]
 
 [places]
