@@ -672,13 +672,20 @@ cards = [
   { printing = "ori/208", at = "green bulk" },  # Yeva's Forcemage
   { printing = "cn2/192", at = "green bulk" },  # Ravenous Leucrocota
   { printing = "ori/204", at = "green bulk" },  # Vastwood Gorger
-  { printing = "sos/155", at = "green bulk" },  # Noxious Newt
+  { printing = "sos/155", qty = 2, at = "green bulk" },  # Noxious Newt
   { printing = "sos/150", at = "green bulk" },  # Glorious Decay
   { printing = "sos/148", at = "green bulk" },  # Follow the Lumarets
   { printing = "sos/152", at = "green bulk" },  # Infirmary Healer // Stream of Life
   { printing = "sos/163", at = "green bulk" },  # Tenured Concocter
   { printing = "sos/146", at = "green bulk" },  # Emil, Vastlands Roamer
   { printing = "sos/157", at = "green bulk" },  # Pestbrood Sloth
+  { printing = "sos/144", at = "green bulk" },  # Efflorescence
+  { printing = "m19/195", at = "green bulk" },  # Rabid Bite
+  { printing = "emn/150", at = "green bulk" },  # Backwoods Survivalists
+  { printing = "kld/141", at = "green bulk" },  # Appetite for the Unnatural
+  { printing = "soi/198", at = "green bulk" },  # Confront the Unknown
+  { printing = "c21/202", at = "green bulk" },  # Pulse of Murasa
+  { printing = "grn/128", at = "green bulk" },  # District Guide
 ]
 
 [places]
