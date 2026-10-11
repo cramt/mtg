@@ -407,6 +407,7 @@ cards = [
   { printing = "ths/96" },  # March of the Returned
   { printing = "isd/93" },  # Corpse Lunge
   { printing = "inr/109" },  # Falkenrath Torturer
+  { printing = "sos/96" },  # Rabid Attack
 ]
 
 [places]
