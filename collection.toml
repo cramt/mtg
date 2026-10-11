@@ -442,6 +442,7 @@ cards = [
   { printing = "sos/100", at = "black bulk" },  # Send in the Pest
   { printing = "sos/103", at = "black bulk" },  # Ulna Alley Shopkeep
   { printing = "sos/72", at = "black bulk" },  # Adventurous Eater // Have a Bite
+  { printing = "ktk/81", qty = 2, at = "stables" },  # Murderous Cut
 ]
 
 [places]
