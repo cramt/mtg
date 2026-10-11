@@ -802,7 +802,7 @@ cards = [
   { printing = "sos/128", at = "red bulk" },  # Rubble Rouser
   { printing = "sos/133", qty = 2, at = "red bulk" },  # Tackle Artist
   { printing = "xln/160", qty = 3, at = "red bulk" },  # Rummaging Goblin
-  { printing = "thb/152", qty = 4, at = "red bulk" },  # Satyr's Cunning
+  { printing = "thb/152", qty = 3, at = "red bulk" },  # Satyr's Cunning
   { printing = "ths/133", at = "red bulk" },  # Portent of Betrayal
   { printing = "kld/139", at = "red bulk" },  # Wayward Giant
   { printing = "hou/95", at = "red bulk" },  # Granitic Titan
@@ -812,13 +812,14 @@ cards = [
   { printing = "frf/103", at = "red bulk" },  # Gore Swine
   { printing = "m14/145", at = "red bulk" },  # Marauding Maulhorn
   { printing = "m19/161", at = "red bulk" },  # Sure Strike
-  { printing = "clu/148", at = "red bulk" },  # Spellgorger Weird
   { printing = "rix/95", at = "red bulk" },  # Brazen Freebooter
   { printing = "rix/104", at = "red bulk" },  # Frilled Deathspitter
   { printing = "m21/152", at = "red bulk" },  # Hobblefiend
   { printing = "rix/114", at = "red bulk" },  # Shatter
   { printing = "rvr/130", at = "red bulk" },  # Wojek Bodyguard
   { printing = "gtc/108", at = "red bulk" },  # Tin Street Market
+  { printing = "clu/148", at = "stables" },  # Spellgorger Weird
+  { printing = "thb/152", at = "stables" },  # Satyr's Cunning
 ]
 
 [places]
