@@ -700,6 +700,7 @@ cards = [
   { printing = "m15/197", qty = 2, at = "green bulk" },  # Runeclaw Bear
   { printing = "m14/197", at = "stables" },  # Trollhide
   { printing = "rix/131", at = "green bulk" },  # Giltgrove Stalker
+  { printing = "soc/238", at = "sleaved stables" },  # Blasphemous Act
 ]
 
 [places]
