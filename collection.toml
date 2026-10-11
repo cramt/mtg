@@ -737,7 +737,7 @@ cards = [
   { printing = "thb/143", qty = 3, at = "red bulk" },  # Irreverent Revelers
   { printing = "ths/115", at = "red bulk" },  # Boulderfall
   { printing = "nph/99", at = "red bulk" },  # Victorious Destruction
-  { printing = "grn/120", qty = 2, at = "red bulk" },  # Wojek Bodyguard
+  { printing = "grn/120", qty = 3, at = "red bulk" },  # Wojek Bodyguard
   { printing = "ori/133", at = "red bulk" },  # Boggart Brute
   { printing = "thb/135", at = "red bulk" },  # Flummoxed Cyclops
   { printing = "tdm/132", at = "red bulk" },  # Wild Ride
@@ -815,6 +815,10 @@ cards = [
   { printing = "clu/148", at = "red bulk" },  # Spellgorger Weird
   { printing = "rix/95", at = "red bulk" },  # Brazen Freebooter
   { printing = "rix/104", at = "red bulk" },  # Frilled Deathspitter
+  { printing = "m21/152", at = "red bulk" },  # Hobblefiend
+  { printing = "rix/114", at = "red bulk" },  # Shatter
+  { printing = "rvr/130", at = "red bulk" },  # Wojek Bodyguard
+  { printing = "gtc/108", at = "red bulk" },  # Tin Street Market
 ]
 
 [places]
