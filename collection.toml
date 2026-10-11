@@ -1014,6 +1014,7 @@ cards = [
   { printing = "soc/334" },  # Troyan, Gutsy Explorer
   { printing = "soc/130" },  # Fabled Passage
   { printing = "soc/288" },  # Steelbane Hydra
+  { printing = "soc/346" },  # Elementalist's Palette
 ]
 
 [places]
