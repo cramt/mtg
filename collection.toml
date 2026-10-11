@@ -537,6 +537,15 @@ cards = [
   { printing = "soc/11", at = "stables" },  # Augusta, Order Returned
   { printing = "soc/12", at = "stables" },  # Ceaseless Conflict
   { printing = "soc/16", at = "stables" },  # Vanguard of the Restless
+  { printing = "ima/33", at = "white bulk" },  # Student of Ojutai
+  { printing = "dgm/3", at = "white bulk" },  # Lyev Decree
+  { printing = "rna/8", at = "white bulk" },  # Expose to Daylight
+  { printing = "m20/31", at = "white bulk" },  # Moorland Inquisitor
+  { printing = "m21/287", at = "white bulk" },  # Basri's Acolyte
+  { printing = "ima/29", at = "white bulk" },  # Seeker of the Way
+  { printing = "dtk/13", at = "white bulk" },  # Dromoka Dunecaster
+  { printing = "j22/164", at = "white bulk" },  # Caught in the Brights
+  { printing = "a25/12", at = "white bulk" },  # Disenchant
 ]
 
 [places]
