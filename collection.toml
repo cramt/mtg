@@ -470,6 +470,8 @@ cards = [
   { printing = "dgm/30", at = "black bulk" },  # Ubul Sar Gatekeepers
   { printing = "m20/86", at = "black bulk" },  # Bladebrand
   { printing = "clb/113", at = "black bulk" },  # Arms of Hadar
+  { printing = "clb/151", at = "stables" },  # Summon Undead
+  { printing = "clb/120", at = "black bulk" },  # Chain Devil
 ]
 
 [places]
