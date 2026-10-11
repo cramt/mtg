@@ -503,6 +503,11 @@ cards = [
   { printing = "ktk/21", at = "white bulk" },  # Salt Road Patrol
   { printing = "mm2/21", at = "white bulk" },  # Kami of Ancient Law
   { printing = "grn/22", at = "white bulk" },  # Parhelion Patrol
+  { printing = "mbs/2", at = "stables" },  # Ardent Recruit
+  { printing = "sos/28", at = "stables" },  # Rapier Wit
+  { printing = "sos/11", at = "white bulk" },  # Eager Glyphmage
+  { printing = "sos/10", at = "stables" },  # Dig Site Inventory
+  { printing = "sos/36", at = "white bulk" },  # Stone Docent
 ]
 
 [places]
