@@ -490,6 +490,8 @@ cards = [
   { printing = "blc/145", at = "stables" },  # Mangara, the Diplomat
   { printing = "soc/153", at = "sleaved stables" },  # Land Tax
   { printing = "soc/146", at = "sleaved stables" },  # Ghostly Prison
+  { printing = "hou/8", at = "white bulk" },  # Desert's Hold
+  { printing = "hou/21", at = "white bulk" },  # Saving Grace
 ]
 
 [places]
