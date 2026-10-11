@@ -670,6 +670,11 @@ cards = [
   { printing = "dtk/183", at = "green bulk" },  # Dragon-Scarred Bear
   { printing = "scg/113", at = "green bulk" },  # Break Asunder
   { printing = "ori/208", at = "green bulk" },  # Yeva's Forcemage
+  { printing = "cn2/192", at = "green bulk" },  # Ravenous Leucrocota
+  { printing = "ori/204", at = "green bulk" },  # Vastwood Gorger
+  { printing = "sos/155", at = "green bulk" },  # Noxious Newt
+  { printing = "sos/150", at = "green bulk" },  # Glorious Decay
+  { printing = "sos/148", at = "green bulk" },  # Follow the Lumarets
 ]
 
 [places]
