@@ -518,8 +518,11 @@ cards = [
   { printing = "soc/135", at = "stables" },  # Ao, the Dawn Sky
   { printing = "soc/136", at = "sleaved stables" },  # Archaeomancer's Map
   { printing = "soc/140", at = "stables" },  # Claim Jumper
-  { printing = "soc/143", at = "white bulk" },  # Drumbellower
-  { printing = "afr/18", at = "white bulk" },  # Guardian of Faith
+  { printing = "soc/143", at = "sleaved stables" },  # Drumbellower
+  { printing = "afr/18", at = "sleaved stables" },  # Guardian of Faith
+  { printing = "soc/149", at = "sleaved stables" },  # Guardian Scalelord
+  { printing = "soc/151", at = "stables" },  # Karmic Guide
+  { printing = "soc/157", at = "sleaved stables" },  # Monologue Tax
 ]
 
 [places]
