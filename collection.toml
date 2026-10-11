@@ -385,7 +385,7 @@ cards = [
   { printing = "soc/333", at = "stables" },  # Tomik, Wielder of Law
   { printing = "soc/26" },  # Intermediate Chirography
   { printing = "soc/212" },  # Doomwake Giant
-  { printing = "c21/42" },  # Keen Duelist
+  { printing = "c21/42", at = "sleaved stables" },  # Keen Duelist
   { printing = "jou/77" },  # Nyx Infusion
   { printing = "ths/88" },  # Fleshmad Steed
   { printing = "ktk/78" },  # Mardu Skullhunter
