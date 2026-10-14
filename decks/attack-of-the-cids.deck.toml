@@ -7,7 +7,7 @@ Ravos + Sakashima, Esper. Eighteen Cid, Timeless Artificer, all mana value 4 and
 cards = [
   { name = "Ravos, Soultender", in = ["Commander"] },
   { name = "Sakashima of a Thousand Faces", in = ["Commander"] },
-  { name = "Cid, Timeless Artificer", qty = 18, in = ["Cid"] },
+  { printing = "fin/420", qty = 18, in = ["Cid"] },  # Cid, Timeless Artificer
   { name = "Maskwood Nexus", in = ["Type Change"] },
   { name = "Arcane Adaptation", in = ["Type Change"] },
   { name = "Council of Reeds", in = ["Legend Rule"] },
