@@ -9,11 +9,16 @@ The sculpting pieces (Wand of Denial, Codex Shredder, Ghoulcaller's Bell, Pyxis 
 
 Misinformation puts the best milled card back on top for someone to steal. Scheming Symmetry has two opponents each tutor a card to the top of their own library, and you take it. Cunning Rhetoric steals from anyone who attacks you, and Gix gives a card to anyone who hits your opponents, so attacking each other is always the better deal.
 
-Your own theft doesn't need combat: Court of Locthwain, Blightwing Bandit, Brainstealer Dragon, Lobelia, Black Cat, Gonti, Lord of Luxury, Outrageous Robbery, Inside Information, Praetor's Grasp and Thieving Amalgam. Changeling Outcast, Tormented Soul, Tinybones, Nashi, Dream-Thief's Bandana and Thieves' Tools get Gonti's trigger yourself. Dauthi Voidwalker turns every milled card into one you can play.
+Your own theft doesn't need combat: Court of Locthwain, Blightwing Bandit, Brainstealer Dragon, Lobelia, Black Cat, Gonti, Lord of Luxury, Outrageous Robbery, Inside Information, Praetor's Grasp and Thieving Amalgam. Changeling Outcast, Tinybones, Nashi, Dream-Thief's Bandana and Thieves' Tools get Gonti's trigger yourself.
+
+Diabolic Tutor, Grim Tutor and Beseech the Mirror find Lantern (Beseech bargains a Treasure and casts it free) or whichever piece the table situation calls for. Dauthi Voidwalker turns every milled card into one you can play.
 
 Closing: Brainstealer Dragon drains for every stolen permanent, Thieving Amalgam drains when stolen creatures die, Exsanguinate is the Treasure-fuelled X spell, and Heartless Conscription steals every creature on the board."""
 
 cards = [
+  { name = "Diabolic Tutor", in = ["Tutor"] },
+  { name = "Grim Tutor", in = ["Tutor"] },
+  { name = "Beseech the Mirror", in = ["Tutor"] },
   { printing = "dft/87", in = ["Commander"] },  # Gonti, Night Minister
   { printing = "plst/5DN-135", in = ["Lantern - Vision"] },  # Lantern of Insight
   { printing = "6ed/317", in = ["Lantern - Sculpt"] },  # Wand of Denial
@@ -39,14 +44,11 @@ cards = [
   { printing = "tdc/176", in = ["Steal Engine", "Graveyard Hate"] },  # Dauthi Voidwalker
   { printing = "plst/OTJ-109", in = ["Evasive Attacker", "Steal Engine"] },  # Tinybones, the Pickpocket
   { printing = "plst/MH1-82", in = ["Evasive Attacker"] },  # Changeling Outcast
-  { printing = "j22/477", in = ["Evasive Attacker"] },  # Tormented Soul
-  { printing = "msc/46", in = ["Evasive Attacker"] },  # Klaw, Master of Sound
   { printing = "otc/143", in = ["Evasive Attacker"] },  # Nashi, Moon Sage's Scion
   { printing = "otc/38", in = ["Evasive Attacker"] },  # Dream-Thief's Bandana
   { printing = "tdc/181", in = ["Draw"] },  # Gix, Yawgmoth Praetor
   { printing = "j25/114", in = ["Draw"] },  # Dark Confidant
   { printing = "plst/LCC-181", in = ["Draw", "Ramp"] },  # Black Market Connections
-  { printing = "fdc/123", in = ["Draw"] },  # Phyrexian Arena
   { printing = "sld/1980", in = ["Draw"] },  # Deadly Dispute
   { printing = "fdc/245", in = ["Ramp"] },  # Arcane Signet
   { printing = "fdc/271", in = ["Ramp"] },  # Mind Stone
@@ -106,3 +108,4 @@ Ramp = {}
 Removal = {}
 "Steal Engine" = {}
 "Top Setup" = {}
+Tutor = {}
