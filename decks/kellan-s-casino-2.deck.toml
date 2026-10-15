@@ -29,7 +29,7 @@ cards = [
   { printing = "khm/9", in = ["Foretell", "Cast From Exile", "Board Wipe"] },  # Doomskar
   { printing = "sos/254", in = ["Land"] },  # Dreamroot Cascade
   { printing = "hoc/205", in = ["Ramp"] },  # Elvish Mystic
-  { name = "Cemetery Illuminator", in = ["Cast From Exile", "Interaction", "Ikoria Fetch"] },
+  { printing = "dbl/317", in = ["Cast From Exile", "Interaction", "Ikoria Fetch"] },  # Cemetery Illuminator
   { printing = "mh3/220", in = ["Land"] },  # Flooded Strand
   { printing = "2x2/323", in = ["Land"] },  # Forbidden Orchard
   { printing = "trk/326", qty = 4, in = ["Land"] },  # Forest
@@ -85,58 +85,58 @@ cards = [
   { printing = "trk/301", in = ["Land"] },  # Temple Garden
   { printing = "neo/12", in = ["Saga Removal"] },  # The Fall of Lord Konda // Fragment of Konda
   { printing = "tla/27", in = ["Saga Removal", "Gift"] },  # The Legend of Yangchen // Avatar Yangchen
-  { name = "Elspeth Conquers Death", in = ["Saga Removal", "Removal Prize"] },
+  { printing = "plst/THB-13", in = ["Saga Removal", "Removal Prize"] },  # Elspeth Conquers Death
   { printing = "who/29", in = ["Saga Removal"] },  # Trial of a Time Lord
   { printing = "rvr/159", in = ["Ramp"] },  # Utopia Sprawl
   { printing = "khm/233", in = ["Draw", "Ikoria Fetch"] },  # Vega, the Watcher
   { printing = "mh3/235", in = ["Land"] },  # Windswept Heath
   { printing = "mh3/239", in = ["Land", "Removal Prize"] },  # Witch Enchanter // Witch-Blessed Meadow
   { printing = "soc/425", in = ["Land"] },  # Yavimaya Coast
-  { name = "Yorion, Sky Nomad", in = ["Companion"] },
-  { name = "Zoetic Glyph" },
-  { name = "Baffling End", in = ["Removal Prize", "Gift"] },
+  { printing = "mb2/94", in = ["Companion"] },  # Yorion, Sky Nomad
+  { printing = "lci/86" },  # Zoetic Glyph
+  { printing = "plst/RIX-1", in = ["Removal Prize", "Gift"] },  # Baffling End
   { printing = "cmr/280", in = ["Cascade", "Cast From Exile"] },  # Imoti, Celebrant of Bounty
-  { name = "Invasion of Belenon // Belenon War Anthem", in = ["Battle"] },
-  { name = "Tenuous Truce", in = ["Draw", "Gift"] },
-  { name = "Sheltered by Ghosts", in = ["Removal Prize"] },
-  { name = "Ossification", in = ["Removal Prize"] },
-  { name = "Witness Protection", in = ["Removal Prize"] },
-  { name = "Joined Researchers // Secret Rendezvous", in = ["Draw", "Gift", "Prepare", "Cast From Exile"] },
-  { name = "Emeritus of Truce // Swords to Plowshares", in = ["Removal Prize", "Gift", "Prepare", "Cast From Exile", "Ikoria Fetch"] },
-  { name = "King Solomon's Frogs", in = ["Removal Prize", "Gift"] },
+  { printing = "mom/20", in = ["Battle"] },  # Invasion of Belenon // Belenon War Anthem
+  { printing = "blc/159", in = ["Draw", "Gift"] },  # Tenuous Truce
+  { printing = "plst/DSK-30", in = ["Removal Prize"] },  # Sheltered by Ghosts
+  { printing = "pcbb/1", in = ["Removal Prize"] },  # Ossification
+  { printing = "fdn/168", in = ["Removal Prize"] },  # Witness Protection
+  { printing = "psos/23p", in = ["Draw", "Gift", "Prepare", "Cast From Exile"] },  # Joined Researchers // Secret Rendezvous
+  { printing = "psos/13p", in = ["Removal Prize", "Gift", "Prepare", "Cast From Exile", "Ikoria Fetch"] },  # Emeritus of Truce // Swords to Plowshares
+  { printing = "msc/20", in = ["Removal Prize", "Gift"] },  # King Solomon's Frogs
   { printing = "ncc/18", in = ["Draw", "Gift", "Ikoria Fetch"] },  # Master of Ceremonies
-  { name = "Abstract Performance", in = ["Cast From Exile", "Draw"] },
-  { name = "Uro, Titan of Nature's Wrath", in = ["Draw", "Ramp", "Cast From Graveyard"] },
-  { name = "Recurring Insight", in = ["Draw", "Cast From Exile"] },
-  { name = "Plan the Heist", in = ["Draw", "Plot", "Cast From Exile"] },
-  { name = "Behold the Multiverse", in = ["Draw", "Foretell", "Cast From Exile"] },
-  { name = "Make Your Own Luck", in = ["Draw", "Plot", "Cast From Exile"] },
-  { name = "Invasion of Dominaria // Serra Faithkeeper", in = ["Battle"] },
-  { name = "Invasion of Gobakhan // Lightshield Array", in = ["Battle"] },
-  { name = "Invasion of Muraganda // Primordial Plasm", in = ["Battle", "Removal Prize"] },
-  { name = "Tam, Observant Sequencer // Deep Sight", in = ["Draw", "Prepare", "Cast From Exile", "Ikoria Fetch"] },
-  { name = "Palace Jailer", in = ["Removal Prize", "Draw"] },
-  { name = "Círdan the Shipwright", in = ["Draw", "Gift", "Ikoria Fetch"] },
-  { name = "Studious First-Year // Rampant Growth", in = ["Ramp", "Prepare", "Cast From Exile"] },
-  { name = "Floodfarm Verge", in = ["Land"] },
-  { name = "Willowrush Verge", in = ["Land"] },
-  { name = "Hushwood Verge", in = ["Land"] },
-  { name = "Sea of Clouds", in = ["Land"] },
-  { name = "Rejuvenating Springs", in = ["Land"] },
+  { printing = "soc/17", in = ["Cast From Exile", "Draw"] },  # Abstract Performance
+  { printing = "mb2/93", in = ["Draw", "Ramp", "Cast From Graveyard"] },  # Uro, Titan of Nature's Wrath
+  { printing = "roe/82", in = ["Draw", "Cast From Exile"] },  # Recurring Insight
+  { printing = "otj/62", in = ["Draw", "Plot", "Cast From Exile"] },  # Plan the Heist
+  { printing = "plst/KHM-46", in = ["Draw", "Foretell", "Cast From Exile"] },  # Behold the Multiverse
+  { printing = "otj/218", in = ["Draw", "Plot", "Cast From Exile"] },  # Make Your Own Luck
+  { printing = "mom/21", in = ["Battle"] },  # Invasion of Dominaria // Serra Faithkeeper
+  { printing = "mom/22", in = ["Battle"] },  # Invasion of Gobakhan // Lightshield Array
+  { printing = "mom/192", in = ["Battle", "Removal Prize"] },  # Invasion of Muraganda // Primordial Plasm
+  { printing = "sos/237", in = ["Draw", "Prepare", "Cast From Exile", "Ikoria Fetch"] },  # Tam, Observant Sequencer // Deep Sight
+  { printing = "cmm/47", in = ["Removal Prize", "Draw"] },  # Palace Jailer
+  { printing = "ltc/50", in = ["Draw", "Gift", "Ikoria Fetch"] },  # Círdan the Shipwright
+  { printing = "sos/162", in = ["Ramp", "Prepare", "Cast From Exile"] },  # Studious First-Year // Rampant Growth
+  { printing = "dsk/259", in = ["Land"] },  # Floodfarm Verge
+  { printing = "dft/270", in = ["Land"] },  # Willowrush Verge
+  { printing = "dsk/261", in = ["Land"] },  # Hushwood Verge
+  { printing = "plst/BBD-84", in = ["Land"] },  # Sea of Clouds
+  { printing = "cmm/424", in = ["Land"] },  # Rejuvenating Springs
   { printing = "cmr/721", finish = "foil", in = ["Land"] },  # Mana Confluence
-  { name = "Skycoach Waypoint", in = ["Land", "Prepare"] },
-  { name = "Gwafa Hazid, Profiteer", in = ["Maybeboard", "Gift", "Interaction"] },
-  { name = "Tataru Taru", in = ["Maybeboard", "Gift", "Draw"] },
-  { name = "Council's Judgment", in = ["Maybeboard", "Voting", "Interaction"] },
-  { name = "Court of Grace", in = ["Maybeboard", "Monarch"] },
-  { name = "Fall of the Impostor", in = ["Maybeboard", "Saga Removal", "Removal Prize"] },
-  { name = "Memory Deluge", in = ["Maybeboard", "Draw", "Cast From Graveyard"] },
-  { name = "Deep Analysis", in = ["Maybeboard", "Draw", "Gift", "Cast From Graveyard"] },
-  { name = "Emeritus of Ideation // Ancestral Recall", in = ["Maybeboard", "Draw", "Gift", "Prepare", "Cast From Exile"] },
-  { name = "Dusk Rose Reliquary", in = ["Removal Prize"] },
-  { name = "Quantum Riddler", in = ["Maybeboard", "Draw", "Cast From Exile"] },
-  { name = "Mind's Dilation", in = ["Maybeboard", "Cast From Exile"] },
-  { name = "Power Conduit", in = ["Maybeboard", "Battle Flipping"] },
+  { printing = "sos/261", in = ["Land", "Prepare"] },  # Skycoach Waypoint
+  { printing = "bbd/223", in = ["Maybeboard", "Gift", "Interaction"] },  # Gwafa Hazid, Profiteer
+  { printing = "fic/466", in = ["Maybeboard", "Gift", "Draw"] },  # Tataru Taru
+  { printing = "otc/79", in = ["Maybeboard", "Voting", "Interaction"] },  # Council's Judgment
+  { printing = "plst/ONC-62", in = ["Maybeboard", "Monarch"] },  # Court of Grace
+  { printing = "khm/208", in = ["Maybeboard", "Saga Removal", "Removal Prize"] },  # Fall of the Impostor
+  { printing = "inr/75", in = ["Maybeboard", "Draw", "Cast From Graveyard"] },  # Memory Deluge
+  { printing = "soc/194", in = ["Maybeboard", "Draw", "Gift", "Cast From Graveyard"] },  # Deep Analysis
+  { printing = "psos/45p", in = ["Maybeboard", "Draw", "Gift", "Prepare", "Cast From Exile"] },  # Emeritus of Ideation // Ancestral Recall
+  { printing = "lci/10", in = ["Removal Prize"] },  # Dusk Rose Reliquary
+  { printing = "eoe/72", in = ["Maybeboard", "Draw", "Cast From Exile"] },  # Quantum Riddler
+  { printing = "otc/101", in = ["Maybeboard", "Cast From Exile"] },  # Mind's Dilation
+  { printing = "plst/MRD-229", in = ["Maybeboard", "Battle Flipping"] },  # Power Conduit
 ]
 
 [categories]
