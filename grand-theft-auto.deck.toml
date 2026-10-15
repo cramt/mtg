@@ -1,0 +1,138 @@
+name = "Grand Theft Auto"
+format = "commander"
+description = """
+The fifth Lantern deck, and the one that drives. Lantern of Insight and Wizened Snitches make every player play with their top card revealed, so the whole table can see what each library is about to give up.
+
+Edward Kenway steals with Vehicles. Whenever a Vehicle you control deals combat damage to a player, you look at their top card, exile it face down and can play it for as long as it stays exiled. The trigger can't choose, so Lantern chooses for you: you already know which opponent has the Cyclonic Rift on top, and you declare attackers accordingly. That makes the attack step a negotiation. "The Copter's coming for whoever has the Rift, unless someone would like to make me an offer."
+
+Edward doesn't let you spend mana of any type on stolen cards, so he pays for them himself: at your end step he makes a Treasure for each tapped Assassin, Pirate and Vehicle. Vehicles tap to attack and crew tap to crew, so every steal funds its own off-colour mana. Changeling Outcast and Universal Automaton count as both Assassin and Pirate.
+
+The sculpting pieces decide what's worth taking. Wand of Denial bins a nonland top card for 2 life, Codex Shredder mills one player and Ghoulcaller's Bell mills everyone. Unwinding Clock untaps them, and every Vehicle, on each other player's turn, so you sculpt again and still have blockers. Tezzeret, Cruel Captain's 0 untaps a sculptor for a second go. His loyalty grows from every Treasure, and Heart of Kiran can be crewed by spending that loyalty.
+
+Top Setup goes the other way. Memory Lapse and Hinder counter a spell onto the top of its owner's library for a Vehicle to take back, Misinformation stacks three cards from an opponent's graveyard (what you just milled, say) onto their library, and Scheming Symmetry lets two opponents tutor to the top. One of them gets robbed.
+
+Trinket Mage, Fabricate, Tezzeret, Diabolic Tutor, Grim Tutor, Urza's Saga and Inventors' Fair find Lantern. Adéwalé finds a Vehicle and comes back whenever one connects.
+
+Desynchronization bounces every nonland permanent that isn't historic. Vehicles, Lantern, rocks and legendary crew are all artifacts or legendary, so it's nearly one-sided. Blasphemous Act and Toxic Deluge kill creatures but leave uncrewed Vehicles standing.
+
+Closing: Reckless Fireweaver pings every opponent for each Treasure, Port Razer untaps everything for an extra combat, so every Vehicle steals twice, and Phoenix Fleet Airship copies itself every turn you sacrifice a Treasure."""
+
+cards = [
+  { name = "Edward Kenway", in = ["Commander"] },
+  { name = "Lantern of Insight", in = ["Lantern - Vision"] },
+  { name = "Wizened Snitches", in = ["Lantern - Vision"] },
+  { name = "Codex Shredder", in = ["Lantern - Sculpt"] },
+  { name = "Wand of Denial", in = ["Lantern - Sculpt"] },
+  { name = "Ghoulcaller's Bell", in = ["Lantern - Sculpt"] },
+  { name = "Unwinding Clock", in = ["Lantern - Sculpt"] },
+  { name = "Heart of Kiran", in = ["Vehicle - Evasive"] },
+  { name = "Memory Lapse", in = ["Top Setup", "Counterspell"] },
+  { name = "Hinder", in = ["Top Setup", "Counterspell"] },
+  { name = "Misinformation", in = ["Top Setup"] },
+  { name = "Scheming Symmetry", in = ["Top Setup"] },
+  { name = "Smuggler's Copter", in = ["Vehicle - Evasive", "Draw"] },
+  { name = "Sky Skiff", in = ["Vehicle - Evasive"] },
+  { name = "High-Speed Hoverbike", in = ["Vehicle - Evasive"] },
+  { name = "Cargo Ship", in = ["Vehicle - Evasive", "Ramp"] },
+  { name = "Boosted Sloop", in = ["Vehicle - Evasive", "Draw"] },
+  { name = "Aethersphere Harvester", in = ["Vehicle - Evasive"] },
+  { name = "Adrestia", in = ["Vehicle - Evasive", "Draw"] },
+  { name = "Skysovereign, Consul Flagship", in = ["Vehicle - Evasive", "Removal"] },
+  { name = "Phoenix Fleet Airship", in = ["Vehicle - Evasive"] },
+  { name = "The Indomitable", in = ["Vehicle", "Draw"] },
+  { name = "The Lunar Whale", in = ["Vehicle - Evasive", "Draw"] },
+  { name = "Reckoner Bankbuster", in = ["Vehicle", "Draw"] },
+  { name = "Changeling Outcast", in = ["Crew"] },
+  { name = "Universal Automaton", in = ["Crew"] },
+  { name = "Siren Stormtamer", in = ["Crew", "Counterspell"] },
+  { name = "Malcolm, Alluring Scoundrel", in = ["Crew", "Draw"] },
+  { name = "Adéwalé, Breaker of Chains", in = ["Crew", "Tutor"] },
+  { name = "Mary Read and Anne Bonny", in = ["Crew", "Draw"] },
+  { name = "Fearless Swashbuckler", in = ["Crew", "Draw"] },
+  { name = "Basim Ibn Ishaq", in = ["Crew", "Draw"] },
+  { name = "Ramirez DePietro, Pillager", in = ["Crew", "Steal Engine"] },
+  { name = "Breeches, Brazen Plunderer", in = ["Crew", "Steal Engine"] },
+  { name = "Port Razer", in = ["Crew", "Finisher"] },
+  { name = "Hostage Taker", in = ["Crew", "Removal", "Steal Engine"] },
+  { name = "Kitesail Larcenist", in = ["Crew", "Removal"] },
+  { name = "Arcane Signet", in = ["Ramp"] },
+  { name = "Talisman of Dominance", in = ["Ramp"] },
+  { name = "Talisman of Creativity", in = ["Ramp"] },
+  { name = "Talisman of Indulgence", in = ["Ramp"] },
+  { name = "Mind Stone", in = ["Ramp"] },
+  { name = "Fellwar Stone", in = ["Ramp"] },
+  { name = "Wayfarer's Bauble", in = ["Ramp"] },
+  { name = "Coastal Piracy", in = ["Draw"] },
+  { name = "Black Market Connections", in = ["Draw", "Ramp"] },
+  { name = "Deadly Dispute", in = ["Draw"] },
+  { name = "Terminate", in = ["Removal"] },
+  { name = "Go for the Throat", in = ["Removal"] },
+  { name = "Infernal Grasp", in = ["Removal"] },
+  { name = "Bitter Triumph", in = ["Removal"] },
+  { name = "Cultivator's Caravan", in = ["Vehicle", "Ramp"] },
+  { name = "Chaos Warp", in = ["Removal"] },
+  { name = "Abrade", in = ["Removal"] },
+  { name = "Desynchronization", in = ["Board Wipe"] },
+  { name = "Blasphemous Act", in = ["Board Wipe"] },
+  { name = "Toxic Deluge", in = ["Board Wipe"] },
+  { name = "Trinket Mage", in = ["Tutor"] },
+  { name = "Fabricate", in = ["Tutor"] },
+  { name = "Diabolic Tutor", in = ["Tutor"] },
+  { name = "Grim Tutor", in = ["Tutor"] },
+  { name = "Tezzeret, Cruel Captain", in = ["Tutor", "Lantern - Sculpt"] },
+  { name = "Reckless Fireweaver", in = ["Finisher"] },
+  { name = "Fell the Profane // Fell Mire", in = ["Removal", "Land"] },
+  { name = "Hagra Mauling // Hagra Broodpit", in = ["Removal", "Land"] },
+  { name = "Sink into Stupor // Soporific Springs", in = ["Removal", "Land"] },
+  { name = "Command Tower", in = ["Land"] },
+  { name = "Exotic Orchard", in = ["Land"] },
+  { name = "Fabled Passage", in = ["Land"] },
+  { name = "Watery Grave", in = ["Land"] },
+  { name = "Blood Crypt", in = ["Land"] },
+  { name = "Steam Vents", in = ["Land"] },
+  { name = "Polluted Delta", in = ["Land"] },
+  { name = "Bloodstained Mire", in = ["Land"] },
+  { name = "Scalding Tarn", in = ["Land"] },
+  { name = "Gloomlake Verge", in = ["Land"] },
+  { name = "Blazemire Verge", in = ["Land"] },
+  { name = "Riverpyre Verge", in = ["Land"] },
+  { name = "Underground River", in = ["Land"] },
+  { name = "Sulfurous Springs", in = ["Land"] },
+  { name = "Shivan Reef", in = ["Land"] },
+  { name = "Drowned Catacomb", in = ["Land"] },
+  { name = "Dragonskull Summit", in = ["Land"] },
+  { name = "Sulfur Falls", in = ["Land"] },
+  { name = "Xander's Lounge", in = ["Land"] },
+  { name = "Spire of Industry", in = ["Land - Utility"] },
+  { name = "Urza's Saga", in = ["Land - Utility", "Tutor"] },
+  { name = "Inventors' Fair", in = ["Land - Utility", "Tutor"] },
+  { name = "Mech Hangar", in = ["Land - Utility"] },
+  { name = "Crumbling Necropolis", in = ["Land"] },
+  { name = "Island", qty = 2, in = ["Land"] },
+  { name = "Darkslick Shores", in = ["Land"] },
+  { name = "Swamp", in = ["Land"] },
+  { name = "Blackcleave Cliffs", in = ["Land"] },
+  { name = "Bojuka Bog", in = ["Land - Utility", "Graveyard Hate"] },
+  { name = "Mountain", qty = 3, in = ["Land"] },
+  { name = "Spirebluff Canal", in = ["Land"] },
+]
+
+[categories]
+"Board Wipe" = {}
+Commander = { type = "commander" }
+Counterspell = {}
+Crew = {}
+Draw = {}
+Finisher = {}
+"Graveyard Hate" = {}
+Land = {}
+"Land - Utility" = {}
+"Lantern - Sculpt" = {}
+"Lantern - Vision" = {}
+Ramp = {}
+Removal = {}
+"Steal Engine" = {}
+"Top Setup" = {}
+Tutor = {}
+Vehicle = {}
+"Vehicle - Evasive" = {}
