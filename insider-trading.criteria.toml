@@ -33,9 +33,9 @@ at_least = 0.70
 require = [{ turn = 4, cast = 'name:"Gonti, Night Minister"', min = 1 }]
 
 [[criterion]]
-name = "a top-card remover (sculptor, Lantern's shuffle, or Urza's Saga) by turn 4"
+name = "a top-card remover (sculptor, Lantern's shuffle, a tutor, or Urza's Saga) by turn 4"
 at_least = 0.70
-require = [{ turn = 4, query = '''cat:"Lantern - Sculpt" or cat:"Lantern - Vision" or name:"Urza's Saga"''', min = 1 }]
+require = [{ turn = 4, query = '''cat:"Lantern - Sculpt" or cat:"Lantern - Vision" or cat:"Tutor" or name:"Urza's Saga"''', min = 1 }]
 
 [[criterion]]
 name = "a steal engine by turn 5"
