@@ -1,0 +1,108 @@
+name = "Insider Trading"
+format = "commander"
+description = """
+The fourth Lantern deck, and the political one. Lantern of Insight makes every player play with their top card revealed, so the whole table knows what's coming. You hold the mill button, so you decide what actually arrives.
+
+Gonti, Night Minister turns that into a market. Whenever any creature deals combat damage to one of your opponents, that creature's controller exiles the top card of that opponent's library and may play it, lands included (it uses their land drop). Damage to you triggers nothing. Opponents are paid to hit each other, and everyone can see what each attack will steal before blocks. Whoever casts a spell they don't own gets a Treasure, so the table keeps robbing itself.
+
+The sculpting pieces (Wand of Denial, Codex Shredder, Ghoulcaller's Bell, Pyxis of Pandemonium, Scrib Nibblers, Millstone, Grindstone, Sands of Delirium) decide what's worth stealing. Bin the bomb before an opponent's attack and they steal a land; leave it for your own. Unwinding Clock untaps them on every opponent's turn, so the threat is always live, and leaving them untapped is the leverage. Urza's Saga fetches the 0- and 1-cost pieces.
+
+Misinformation puts the best milled card back on top for someone to steal. Scheming Symmetry has two opponents each tutor a card to the top of their own library, and you take it. Cunning Rhetoric steals from anyone who attacks you, and Gix gives a card to anyone who hits your opponents, so attacking each other is always the better deal.
+
+Your own theft doesn't need combat: Court of Locthwain, Blightwing Bandit, Brainstealer Dragon, Lobelia, Black Cat, Gonti, Lord of Luxury, Outrageous Robbery, Inside Information, Praetor's Grasp and Thieving Amalgam. Changeling Outcast, Tormented Soul, Tinybones, Nashi, Dream-Thief's Bandana and Thieves' Tools get Gonti's trigger yourself. Dauthi Voidwalker turns every milled card into one you can play.
+
+Closing: Brainstealer Dragon drains for every stolen permanent, Thieving Amalgam drains when stolen creatures die, Exsanguinate is the Treasure-fuelled X spell, and Heartless Conscription steals every creature on the board."""
+
+cards = [
+  { name = "Gonti, Night Minister", in = ["Commander"] },
+  { name = "Lantern of Insight", in = ["Lantern - Vision"] },
+  { name = "Wand of Denial", in = ["Lantern - Sculpt"] },
+  { name = "Codex Shredder", in = ["Lantern - Sculpt"] },
+  { name = "Ghoulcaller's Bell", in = ["Lantern - Sculpt"] },
+  { name = "Pyxis of Pandemonium", in = ["Lantern - Sculpt"] },
+  { name = "Scrib Nibblers", in = ["Lantern - Sculpt"] },
+  { name = "Millstone", in = ["Lantern - Sculpt"] },
+  { name = "Unwinding Clock", in = ["Lantern - Sculpt"] },
+  { name = "Misinformation", in = ["Top Setup"] },
+  { name = "Scheming Symmetry", in = ["Top Setup"] },
+  { name = "Court of Locthwain", in = ["Steal Engine"] },
+  { name = "Blightwing Bandit", in = ["Steal Engine"] },
+  { name = "Brainstealer Dragon", in = ["Steal Engine", "Finisher"] },
+  { name = "Lobelia, Defender of Bag End", in = ["Steal Engine"] },
+  { name = "Black Cat, Cunning Thief", in = ["Steal Engine"] },
+  { name = "Gonti, Lord of Luxury", in = ["Steal Engine"] },
+  { name = "Inside Information", in = ["Steal Engine"] },
+  { name = "Outrageous Robbery", in = ["Steal Engine"] },
+  { name = "Praetor's Grasp", in = ["Steal Engine"] },
+  { name = "Cunning Rhetoric", in = ["Steal Engine"] },
+  { name = "Thieving Amalgam", in = ["Steal Engine", "Finisher"] },
+  { name = "Dauthi Voidwalker", in = ["Steal Engine", "Graveyard Hate"] },
+  { name = "Tinybones, the Pickpocket", in = ["Evasive Attacker", "Steal Engine"] },
+  { name = "Changeling Outcast", in = ["Evasive Attacker"] },
+  { name = "Tormented Soul", in = ["Evasive Attacker"] },
+  { name = "Klaw, Master of Sound", in = ["Evasive Attacker"] },
+  { name = "Nashi, Moon Sage's Scion", in = ["Evasive Attacker"] },
+  { name = "Dream-Thief's Bandana", in = ["Evasive Attacker"] },
+  { name = "Gix, Yawgmoth Praetor", in = ["Draw"] },
+  { name = "Dark Confidant", in = ["Draw"] },
+  { name = "Black Market Connections", in = ["Draw", "Ramp"] },
+  { name = "Phyrexian Arena", in = ["Draw"] },
+  { name = "Deadly Dispute", in = ["Draw"] },
+  { name = "Arcane Signet", in = ["Ramp"] },
+  { name = "Mind Stone", in = ["Ramp"] },
+  { name = "Fellwar Stone", in = ["Ramp"] },
+  { name = "Coldsteel Heart", in = ["Ramp"] },
+  { name = "Wayfarer's Bauble", in = ["Ramp"] },
+  { name = "Thieves' Tools", in = ["Ramp", "Evasive Attacker"] },
+  { name = "Feed the Swarm", in = ["Removal"] },
+  { name = "Infernal Grasp", in = ["Removal"] },
+  { name = "Go for the Throat", in = ["Removal"] },
+  { name = "Bitter Triumph", in = ["Removal"] },
+  { name = "Snuff Out", in = ["Removal"] },
+  { name = "Withering Torment", in = ["Removal"] },
+  { name = "Baleful Mastery", in = ["Removal"] },
+  { name = "Introduction to Annihilation", in = ["Removal"] },
+  { name = "Bladegriff Prototype", in = ["Removal"] },
+  { name = "Toxic Deluge", in = ["Board Wipe"] },
+  { name = "Damnation", in = ["Board Wipe"] },
+  { name = "Heartless Conscription", in = ["Board Wipe", "Steal Engine"] },
+  { name = "Exsanguinate", in = ["Finisher"] },
+  { name = "Fell the Profane // Fell Mire", in = ["Removal", "Land"] },
+  { name = "Hagra Mauling // Hagra Broodpit", in = ["Removal", "Land"] },
+  { name = "Agadeem's Awakening // Agadeem, the Undercrypt", in = ["Land"] },
+  { name = "Malakir Rebirth // Malakir Mire", in = ["Land"] },
+  { name = "Boggart Trawler // Boggart Bog", in = ["Graveyard Hate", "Land"] },
+  { name = "Urza's Saga", in = ["Land - Utility"] },
+  { name = "Cabal Coffers", in = ["Land - Utility"] },
+  { name = "Urborg, Tomb of Yawgmoth", in = ["Land - Utility"] },
+  { name = "Castle Locthwain", in = ["Land - Utility"] },
+  { name = "Takenuma, Abandoned Mire", in = ["Land - Utility"] },
+  { name = "Bojuka Bog", in = ["Land - Utility", "Graveyard Hate"] },
+  { name = "War Room", in = ["Land - Utility"] },
+  { name = "Shizo, Death's Storehouse", in = ["Land - Utility"] },
+  { name = "Scavenger Grounds", in = ["Land - Utility", "Graveyard Hate"] },
+  { name = "Swamp", qty = 26, in = ["Land"] },
+  { name = "Grindstone", in = ["Lantern - Sculpt"] },
+  { name = "Sands of Delirium", in = ["Lantern - Sculpt"] },
+  { name = "Charcoal Diamond", in = ["Ramp"] },
+  { name = "Sheoldred's Edict", in = ["Removal"] },
+  { name = "Thought Vessel", in = ["Ramp"] },
+  { name = "Deadly Rollick", in = ["Removal"] },
+  { name = "Heartless Act", in = ["Removal"] },
+]
+
+[categories]
+"Board Wipe" = {}
+Commander = { type = "commander" }
+Draw = {}
+"Evasive Attacker" = {}
+Finisher = {}
+"Graveyard Hate" = {}
+Land = {}
+"Land - Utility" = {}
+"Lantern - Sculpt" = {}
+"Lantern - Vision" = {}
+Ramp = {}
+Removal = {}
+"Steal Engine" = {}
+"Top Setup" = {}

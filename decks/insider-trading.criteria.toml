@@ -1,0 +1,48 @@
+# Bench: `gauntlet test decks/insider-trading.deck.toml decks/insider-trading.criteria.toml [--draw]`
+# Mana numbers are floors: Urza's Saga constructs and Treasures aren't modelled.
+
+[assume]
+untapped = ['name:"Castle Locthwain"', '''name:"Agadeem's Awakening"''', 'name:"Fell the Profane"', 'name:"Boggart Trawler"']
+
+[mulligan]
+keep = [{ query = "t:land", min = 2, max = 5 }]
+down_to = 6
+bottom = ['mv>=6', 't:land']
+
+[casting]
+prefer = ['name:"Gonti, Night Minister"', 'cat:"Ramp"']
+
+[[effect]]
+match = 'name:"Arcane Signet" or name:"Mind Stone" or name:"Fellwar Stone" or name:"Coldsteel Heart" or name:"Charcoal Diamond" or name:"Thought Vessel"'
+on = "cast"
+adds = 1
+
+[[expect]]
+name = "lands in opener (incl. MDFCs)"
+turn = 0
+query = "t:land"
+
+[[criterion]]
+name = "commander on curve (4-drop: turn 3)"
+at_least = 0.30
+require = [{ turn = 3, cast = 'name:"Gonti, Night Minister"', min = 1 }]
+
+[[criterion]]
+name = "commander by turn 4"
+at_least = 0.70
+require = [{ turn = 4, cast = 'name:"Gonti, Night Minister"', min = 1 }]
+
+[[criterion]]
+name = "a top-card remover (sculptor, Lantern's shuffle, or Urza's Saga) by turn 4"
+at_least = 0.70
+require = [{ turn = 4, query = '''cat:"Lantern - Sculpt" or cat:"Lantern - Vision" or name:"Urza's Saga"''', min = 1 }]
+
+[[criterion]]
+name = "a steal engine by turn 5"
+at_least = 0.80
+require = [{ turn = 5, query = 'cat:"Steal Engine"', min = 1 }]
+
+[[criterion]]
+name = "cheap interaction (mv<=3 or alt-cost) by turn 4"
+at_least = 0.65
+require = [{ turn = 4, query = 'cat:"Removal" (mv<=3 or name:"Baleful Mastery" or name:"Snuff Out" or name:"Deadly Rollick")', min = 1 }]
