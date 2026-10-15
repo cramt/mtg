@@ -1,0 +1,63 @@
+# Bench: `gauntlet test decks/grand-theft-auto.deck.toml decks/edward-kenway.criteria.toml [--draw]`
+# Mana numbers are floors: Treasures (Edward, Ramirez, Black Market Connections), Verges' second
+# colour and Exotic Orchard aren't modelled. Thresholds sit just under the first build's figures
+# on the play, as regression guards.
+
+[assume]
+untapped = ['name:"Fell the Profane"', 'name:"Sink into Stupor"']
+
+[mulligan]
+keep = [{ query = "t:land", min = 2, max = 5 }]
+down_to = 6
+bottom = ['mv>=6', 't:land']
+
+[casting]
+prefer = ['name:"Edward Kenway"', 'cat:"Ramp"']
+
+[[effect]]
+match = 'name:"Arcane Signet" or name:"Mind Stone" or name:"Fellwar Stone" or name:"Talisman of Dominance" or name:"Talisman of Creativity" or name:"Talisman of Indulgence"'
+on = "cast"
+adds = 1
+
+[[expect]]
+name = "lands in opener (incl. MDFCs)"
+turn = 0
+query = "t:land"
+
+[[criterion]]
+name = "commander on curve (5-drop: turn 4)"
+at_least = 0.22
+require = [{ turn = 4, cast = 'name:"Edward Kenway"', min = 1 }]
+
+[[criterion]]
+name = "commander by turn 5"
+at_least = 0.50
+require = [{ turn = 5, cast = 'name:"Edward Kenway"', min = 1 }]
+
+[[criterion]]
+name = "Lantern or something that finds it by turn 5"
+at_least = 0.55
+require = [{ turn = 5, query = '''cat:"Lantern - Vision" or cat:"Tutor"''', min = 1 }]
+
+[[criterion]]
+name = "a top-card remover by turn 4"
+at_least = 0.60
+require = [{ turn = 4, query = '''cat:"Lantern - Sculpt" or cat:"Tutor"''', min = 1 }]
+
+[[criterion]]
+name = "an evasive Vehicle by turn 3"
+at_least = 0.58
+require = [{ turn = 3, query = 'cat:"Vehicle - Evasive"', min = 1 }]
+
+[[criterion]]
+name = "an evasive Vehicle and a crew body by turn 4"
+at_least = 0.45
+require = [
+  { turn = 4, query = 'cat:"Vehicle - Evasive"', min = 1 },
+  { turn = 4, query = 'cat:"Crew"', min = 1 },
+]
+
+[[criterion]]
+name = "cheap interaction (mv<=3) by turn 4"
+at_least = 0.65
+require = [{ turn = 4, query = '(cat:"Removal" or cat:"Counterspell") mv<=3', min = 1 }]
