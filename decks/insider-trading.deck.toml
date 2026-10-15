@@ -16,9 +16,9 @@ Diabolic Tutor, Grim Tutor and Beseech the Mirror find Lantern (Beseech bargains
 Closing: Brainstealer Dragon drains for every stolen permanent, Thieving Amalgam drains when stolen creatures die, Exsanguinate is the Treasure-fuelled X spell, and Heartless Conscription steals every creature on the board."""
 
 cards = [
-  { name = "Diabolic Tutor", in = ["Tutor"] },
-  { name = "Grim Tutor", in = ["Tutor"] },
-  { name = "Beseech the Mirror", in = ["Tutor"] },
+  { printing = "cma/54", in = ["Tutor"] },  # Diabolic Tutor
+  { printing = "m21/103", in = ["Tutor"] },  # Grim Tutor
+  { printing = "sld/2527", in = ["Tutor"] },  # Beseech the Mirror
   { printing = "dft/87", in = ["Commander"] },  # Gonti, Night Minister
   { printing = "plst/5DN-135", in = ["Lantern - Vision"] },  # Lantern of Insight
   { printing = "6ed/317", in = ["Lantern - Sculpt"] },  # Wand of Denial
