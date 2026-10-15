@@ -14,81 +14,81 @@ Your own theft doesn't need combat: Court of Locthwain, Blightwing Bandit, Brain
 Closing: Brainstealer Dragon drains for every stolen permanent, Thieving Amalgam drains when stolen creatures die, Exsanguinate is the Treasure-fuelled X spell, and Heartless Conscription steals every creature on the board."""
 
 cards = [
-  { name = "Gonti, Night Minister", in = ["Commander"] },
-  { name = "Lantern of Insight", in = ["Lantern - Vision"] },
-  { name = "Wand of Denial", in = ["Lantern - Sculpt"] },
-  { name = "Codex Shredder", in = ["Lantern - Sculpt"] },
-  { name = "Ghoulcaller's Bell", in = ["Lantern - Sculpt"] },
-  { name = "Pyxis of Pandemonium", in = ["Lantern - Sculpt"] },
-  { name = "Scrib Nibblers", in = ["Lantern - Sculpt"] },
-  { name = "Millstone", in = ["Lantern - Sculpt"] },
-  { name = "Unwinding Clock", in = ["Lantern - Sculpt"] },
-  { name = "Misinformation", in = ["Top Setup"] },
-  { name = "Scheming Symmetry", in = ["Top Setup"] },
-  { name = "Court of Locthwain", in = ["Steal Engine"] },
-  { name = "Blightwing Bandit", in = ["Steal Engine"] },
-  { name = "Brainstealer Dragon", in = ["Steal Engine", "Finisher"] },
-  { name = "Lobelia, Defender of Bag End", in = ["Steal Engine"] },
-  { name = "Black Cat, Cunning Thief", in = ["Steal Engine"] },
-  { name = "Gonti, Lord of Luxury", in = ["Steal Engine"] },
-  { name = "Inside Information", in = ["Steal Engine"] },
-  { name = "Outrageous Robbery", in = ["Steal Engine"] },
-  { name = "Praetor's Grasp", in = ["Steal Engine"] },
-  { name = "Cunning Rhetoric", in = ["Steal Engine"] },
-  { name = "Thieving Amalgam", in = ["Steal Engine", "Finisher"] },
-  { name = "Dauthi Voidwalker", in = ["Steal Engine", "Graveyard Hate"] },
-  { name = "Tinybones, the Pickpocket", in = ["Evasive Attacker", "Steal Engine"] },
-  { name = "Changeling Outcast", in = ["Evasive Attacker"] },
-  { name = "Tormented Soul", in = ["Evasive Attacker"] },
-  { name = "Klaw, Master of Sound", in = ["Evasive Attacker"] },
-  { name = "Nashi, Moon Sage's Scion", in = ["Evasive Attacker"] },
-  { name = "Dream-Thief's Bandana", in = ["Evasive Attacker"] },
-  { name = "Gix, Yawgmoth Praetor", in = ["Draw"] },
-  { name = "Dark Confidant", in = ["Draw"] },
-  { name = "Black Market Connections", in = ["Draw", "Ramp"] },
-  { name = "Phyrexian Arena", in = ["Draw"] },
-  { name = "Deadly Dispute", in = ["Draw"] },
-  { name = "Arcane Signet", in = ["Ramp"] },
-  { name = "Mind Stone", in = ["Ramp"] },
-  { name = "Fellwar Stone", in = ["Ramp"] },
-  { name = "Coldsteel Heart", in = ["Ramp"] },
-  { name = "Wayfarer's Bauble", in = ["Ramp"] },
-  { name = "Thieves' Tools", in = ["Ramp", "Evasive Attacker"] },
-  { name = "Feed the Swarm", in = ["Removal"] },
-  { name = "Infernal Grasp", in = ["Removal"] },
-  { name = "Go for the Throat", in = ["Removal"] },
-  { name = "Bitter Triumph", in = ["Removal"] },
-  { name = "Snuff Out", in = ["Removal"] },
-  { name = "Withering Torment", in = ["Removal"] },
-  { name = "Baleful Mastery", in = ["Removal"] },
-  { name = "Introduction to Annihilation", in = ["Removal"] },
-  { name = "Bladegriff Prototype", in = ["Removal"] },
-  { name = "Toxic Deluge", in = ["Board Wipe"] },
-  { name = "Damnation", in = ["Board Wipe"] },
-  { name = "Heartless Conscription", in = ["Board Wipe", "Steal Engine"] },
-  { name = "Exsanguinate", in = ["Finisher"] },
-  { name = "Fell the Profane // Fell Mire", in = ["Removal", "Land"] },
-  { name = "Hagra Mauling // Hagra Broodpit", in = ["Removal", "Land"] },
-  { name = "Agadeem's Awakening // Agadeem, the Undercrypt", in = ["Land"] },
-  { name = "Malakir Rebirth // Malakir Mire", in = ["Land"] },
-  { name = "Boggart Trawler // Boggart Bog", in = ["Graveyard Hate", "Land"] },
-  { name = "Urza's Saga", in = ["Land - Utility"] },
-  { name = "Cabal Coffers", in = ["Land - Utility"] },
-  { name = "Urborg, Tomb of Yawgmoth", in = ["Land - Utility"] },
-  { name = "Castle Locthwain", in = ["Land - Utility"] },
-  { name = "Takenuma, Abandoned Mire", in = ["Land - Utility"] },
-  { name = "Bojuka Bog", in = ["Land - Utility", "Graveyard Hate"] },
-  { name = "War Room", in = ["Land - Utility"] },
-  { name = "Shizo, Death's Storehouse", in = ["Land - Utility"] },
-  { name = "Scavenger Grounds", in = ["Land - Utility", "Graveyard Hate"] },
-  { name = "Swamp", qty = 26, in = ["Land"] },
-  { name = "Grindstone", in = ["Lantern - Sculpt"] },
-  { name = "Sands of Delirium", in = ["Lantern - Sculpt"] },
-  { name = "Charcoal Diamond", in = ["Ramp"] },
-  { name = "Sheoldred's Edict", in = ["Removal"] },
-  { name = "Thought Vessel", in = ["Ramp"] },
-  { name = "Deadly Rollick", in = ["Removal"] },
-  { name = "Heartless Act", in = ["Removal"] },
+  { printing = "dft/87", in = ["Commander"] },  # Gonti, Night Minister
+  { printing = "plst/5DN-135", in = ["Lantern - Vision"] },  # Lantern of Insight
+  { printing = "6ed/317", in = ["Lantern - Sculpt"] },  # Wand of Denial
+  { printing = "cmr/304", in = ["Lantern - Sculpt"] },  # Codex Shredder
+  { printing = "isd/224", in = ["Lantern - Sculpt"] },  # Ghoulcaller's Bell
+  { printing = "ths/220", in = ["Lantern - Sculpt"] },  # Pyxis of Pandemonium
+  { printing = "wwk/66", in = ["Lantern - Sculpt"] },  # Scrib Nibblers
+  { printing = "plst/M14-213", in = ["Lantern - Sculpt"] },  # Millstone
+  { printing = "plst/NPH-164", in = ["Lantern - Sculpt"] },  # Unwinding Clock
+  { printing = "all/56", in = ["Top Setup"] },  # Misinformation
+  { printing = "m20/113", in = ["Top Setup"] },  # Scheming Symmetry
+  { printing = "woc/23", in = ["Steal Engine"] },  # Court of Locthwain
+  { printing = "woc/13", in = ["Steal Engine"] },  # Blightwing Bandit
+  { printing = "plst/OTC-127", in = ["Steal Engine", "Finisher"] },  # Brainstealer Dragon
+  { printing = "ltc/27", in = ["Steal Engine"] },  # Lobelia, Defender of Bag End
+  { printing = "pspm/52s", in = ["Steal Engine"] },  # Black Cat, Cunning Thief
+  { printing = "plst/CMM-162", in = ["Steal Engine"] },  # Gonti, Lord of Luxury
+  { printing = "hob/76", in = ["Steal Engine"] },  # Inside Information
+  { printing = "mkm/97", in = ["Steal Engine"] },  # Outrageous Robbery
+  { printing = "sld/1023", in = ["Steal Engine"] },  # Praetor's Grasp
+  { printing = "otc/129", in = ["Steal Engine"] },  # Cunning Rhetoric
+  { printing = "otc/150", in = ["Steal Engine", "Finisher"] },  # Thieving Amalgam
+  { printing = "tdc/176", in = ["Steal Engine", "Graveyard Hate"] },  # Dauthi Voidwalker
+  { printing = "plst/OTJ-109", in = ["Evasive Attacker", "Steal Engine"] },  # Tinybones, the Pickpocket
+  { printing = "plst/MH1-82", in = ["Evasive Attacker"] },  # Changeling Outcast
+  { printing = "j22/477", in = ["Evasive Attacker"] },  # Tormented Soul
+  { printing = "msc/46", in = ["Evasive Attacker"] },  # Klaw, Master of Sound
+  { printing = "otc/143", in = ["Evasive Attacker"] },  # Nashi, Moon Sage's Scion
+  { printing = "otc/38", in = ["Evasive Attacker"] },  # Dream-Thief's Bandana
+  { printing = "tdc/181", in = ["Draw"] },  # Gix, Yawgmoth Praetor
+  { printing = "j25/114", in = ["Draw"] },  # Dark Confidant
+  { printing = "plst/LCC-181", in = ["Draw", "Ramp"] },  # Black Market Connections
+  { printing = "fdc/123", in = ["Draw"] },  # Phyrexian Arena
+  { printing = "sld/1980", in = ["Draw"] },  # Deadly Dispute
+  { printing = "fdc/245", in = ["Ramp"] },  # Arcane Signet
+  { printing = "fdc/271", in = ["Ramp"] },  # Mind Stone
+  { printing = "frc/57", in = ["Ramp"] },  # Fellwar Stone
+  { printing = "j22/94", in = ["Ramp"] },  # Coldsteel Heart
+  { printing = "plst/M3C-315", in = ["Ramp"] },  # Wayfarer's Bauble
+  { printing = "j25/126", in = ["Ramp", "Evasive Attacker"] },  # Thieves' Tools
+  { printing = "tdc/180", in = ["Removal"] },  # Feed the Swarm
+  { printing = "soc/216", in = ["Removal"] },  # Infernal Grasp
+  { printing = "fdc/100", in = ["Removal"] },  # Go for the Throat
+  { printing = "sch/42", in = ["Removal"] },  # Bitter Triumph
+  { printing = "gvl/53", in = ["Removal"] },  # Snuff Out
+  { printing = "fdc/134", in = ["Removal"] },  # Withering Torment
+  { printing = "otc/126", in = ["Removal"] },  # Baleful Mastery
+  { printing = "stx/3", in = ["Removal"] },  # Introduction to Annihilation
+  { printing = "otc/253", in = ["Removal"] },  # Bladegriff Prototype
+  { printing = "soc/120", in = ["Board Wipe"] },  # Toxic Deluge
+  { printing = "spg/68", in = ["Board Wipe"] },  # Damnation
+  { printing = "otc/21", in = ["Board Wipe", "Steal Engine"] },  # Heartless Conscription
+  { printing = "plst/CMM-156", in = ["Finisher"] },  # Exsanguinate
+  { printing = "mh3/244", in = ["Removal", "Land"] },  # Fell the Profane // Fell Mire
+  { printing = "plst/ZNR-106", in = ["Removal", "Land"] },  # Hagra Mauling // Hagra Broodpit
+  { printing = "pznr/90s", in = ["Land"] },  # Agadeem's Awakening // Agadeem, the Undercrypt
+  { printing = "znr/111", in = ["Land"] },  # Malakir Rebirth // Malakir Mire
+  { printing = "mh3/243", in = ["Graveyard Hate", "Land"] },  # Boggart Trawler // Boggart Bog
+  { printing = "mb2/114", in = ["Land - Utility"] },  # Urza's Saga
+  { printing = "mb2/106", in = ["Land - Utility"] },  # Cabal Coffers
+  { printing = "plst/UMA-254", in = ["Land - Utility"] },  # Urborg, Tomb of Yawgmoth
+  { printing = "fdc/299", in = ["Land - Utility"] },  # Castle Locthwain
+  { printing = "neo/278", in = ["Land - Utility"] },  # Takenuma, Abandoned Mire
+  { printing = "fdc/296", in = ["Land - Utility", "Graveyard Hate"] },  # Bojuka Bog
+  { printing = "fdc/317", in = ["Land - Utility"] },  # War Room
+  { printing = "dmc/233", in = ["Land - Utility"] },  # Shizo, Death's Storehouse
+  { printing = "fdc/311", in = ["Land - Utility", "Graveyard Hate"] },  # Scavenger Grounds
+  { printing = "fra/388", qty = 26, in = ["Land"] },  # Swamp
+  { printing = "otp/79", in = ["Lantern - Sculpt"] },  # Grindstone
+  { printing = "m13/216", in = ["Lantern - Sculpt"] },  # Sands of Delirium
+  { printing = "fdc/248", in = ["Ramp"] },  # Charcoal Diamond
+  { printing = "plst/ONE-108", in = ["Removal"] },  # Sheoldred's Edict
+  { printing = "fdc/292", in = ["Ramp"] },  # Thought Vessel
+  { printing = "cmm/147", in = ["Removal"] },  # Deadly Rollick
+  { printing = "plst/IKO-91", in = ["Removal"] },  # Heartless Act
 ]
 
 [categories]
