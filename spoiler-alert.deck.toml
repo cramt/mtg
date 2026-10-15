@@ -25,36 +25,36 @@ cards = [
   { printing = "dft/57", in = ["Lantern - Sculpt"] },  # Riverchurn Monument
   { printing = "plst/JOU-35", in = ["Lantern - Sculpt"] },  # Dakra Mystic
   { printing = "brr/61", in = ["Lantern - Sculpt"] },  # Unwinding Clock
-  { name = "Wand of Denial", in = ["Lantern - Sculpt"] },
+  { printing = "6ed/317", in = ["Lantern - Sculpt"] },  # Wand of Denial
   { printing = "moc/346", in = ["Artifact Count"] },  # Academy Manufactor
-  { name = "Moonsnare Prototype", in = ["Artifact Count"] },
+  { printing = "neo/69", in = ["Artifact Count"] },  # Moonsnare Prototype
   { printing = "40k/244", in = ["Artifact Count"] },  # Mind Stone
   { printing = "9ed/297", in = ["Artifact Count"] },  # Fellwar Stone
-  { name = "Noxious Revival", in = ["Topdeck Value"] },
-  { name = "Desynchronization", in = ["Board Wipe"] },
+  { printing = "spg/73", in = ["Topdeck Value"] },  # Noxious Revival
+  { printing = "acr/16", in = ["Board Wipe"] },  # Desynchronization
   { printing = "scd/268", in = ["Draw"] },  # Idol of Oblivion
   { printing = "msh/421", in = ["Draw"] },  # Moon Girl and Devil Dinosaur
-  { name = "Tireless Tracker", in = ["Draw"] },
+  { printing = "eoc/110", in = ["Draw"] },  # Tireless Tracker
   { printing = "pneo/74p", in = ["Draw"] },  # The Reality Chip
   { printing = "cmr/395", in = ["Interaction"] },  # Counterspell
   { printing = "ths/65", in = ["Interaction"] },  # Swan Song
   { printing = "dsk/248", in = ["Graveyard Police"] },  # Ghost Vacuum
-  { name = "Ornate Kanzashi", in = ["Topdeck Value"] },
+  { printing = "bok/157", in = ["Topdeck Value"] },  # Ornate Kanzashi
   { printing = "ddf/74", in = ["Land - Artifact"] },  # Seat of the Synod
   { printing = "eoc/180", in = ["Land - Artifact"] },  # Silverbluff Bridge
   { printing = "drc/171", in = ["Land - Artifact"] },  # Slagwoods Bridge
-  { name = "Mana Confluence", in = ["Land - Fixing"] },
+  { printing = "eos/25", in = ["Land - Fixing"] },  # Mana Confluence
   { printing = "neo/271", in = ["Land - Utility"] },  # Otawara, Soaring City
-  { name = "Spirebluff Canal", in = ["Land - Fixing"] },
-  { name = "Glimmervoid", in = ["Land - Fixing"] },
-  { name = "Tanglepool Bridge", in = ["Land - Artifact"] },
-  { name = "Thornspire Verge", in = ["Land - Fixing"] },
+  { printing = "otj/270", in = ["Land - Fixing"] },  # Spirebluff Canal
+  { printing = "2xm/319", in = ["Land - Fixing"] },  # Glimmervoid
+  { printing = "drc/175", in = ["Land - Artifact"] },  # Tanglepool Bridge
+  { printing = "dsk/270", in = ["Land - Fixing"] },  # Thornspire Verge
   { printing = "peoe/251p", in = ["Land - Fixing"] },  # Breeding Pool
   { printing = "cmr/358", in = ["Land - Fixing"] },  # Training Center
   { printing = "pgrn/257p", in = ["Land - Fixing"] },  # Steam Vents
   { printing = "zen/223", in = ["Land - Fetch"] },  # Scalding Tarn
   { printing = "hml/32b", in = ["Interaction"] },  # Memory Lapse
-  { name = "Keeper of Secrets", in = ["Finisher"] },
+  { printing = "40k/78", in = ["Finisher"] },  # Keeper of Secrets
   { printing = "cmm/979", in = ["Artifact Count"] },  # Talisman of Creativity
   { printing = "eoe/2", in = ["Tutor Package"] },  # Tezzeret, Cruel Captain
   { printing = "eoc/183", in = ["Land - Fixing"] },  # Spire of Industry
@@ -62,11 +62,11 @@ cards = [
   { printing = "bbd/64", in = ["Topdeck Value"] },  # Stolen Strategy
   { printing = "cmr/80", in = ["Interaction"] },  # Mana Drain
   { printing = "msc/29", in = ["Topdeck Value"] },  # Extract Power
-  { name = "Natural Selection", in = ["Lantern - Sculpt"] },
-  { name = "Wizard's Staff", in = ["Commander Support"] },
+  { printing = "2ed/213", in = ["Lantern - Sculpt"] },  # Natural Selection
+  { printing = "hob/59", in = ["Commander Support"] },  # Wizard's Staff
   { printing = "mh3/495", in = ["Topdeck Value"] },  # Powerbalance
-  { name = "Izzet Signet", in = ["Artifact Count"] },
-  { name = "Reckless Fireweaver", in = ["Finisher"] },
+  { printing = "frc/58", in = ["Artifact Count"] },  # Izzet Signet
+  { printing = "drc/106", in = ["Finisher"] },  # Reckless Fireweaver
   { printing = "plst/MH1-128", in = ["Tutor Package"] },  # Goblin Engineer
   { printing = "moc/94", in = ["Commander"] },  # Rashmi and Ragavan
   { printing = "sld/2699", in = ["Land - Fetch"] },  # Prismatic Vista
@@ -76,7 +76,7 @@ cards = [
   { printing = "znr/76", in = ["MDFC - Spell or Land"] },  # Sea Gate Restoration // Sea Gate, Reborn
   { printing = "znr/80", in = ["MDFC - Spell or Land"] },  # Silundi Vision // Silundi Isle
   { printing = "znr/180", in = ["MDFC - Spell or Land"] },  # Bala Ged Recovery // Bala Ged Sanctuary
-  { name = "Willowrush Verge", in = ["Land - Fixing"] },
+  { printing = "dft/270", in = ["Land - Fixing"] },  # Willowrush Verge
   { printing = "mb2/114", in = ["Land - Utility"] },  # Urza's Saga
   { printing = "j25/94", in = ["Land - Basic"] },  # Forest
   { printing = "mm3/240", in = ["Land - Fetch"] },  # Misty Rainforest
@@ -85,17 +85,17 @@ cards = [
   { printing = "leg/55", in = ["Lantern - Vision"] },  # Field of Dreams
   { printing = "ddu/41", in = ["Tutor Package"] },  # Trinket Mage
   { printing = "paer/49p", in = ["Tutor Package"] },  # Whir of Invention
-  { name = "Mox Opal", in = ["Artifact Count"] },
+  { printing = "2xm/275", in = ["Artifact Count"] },  # Mox Opal
   { printing = "ddl/69", in = ["Interaction"] },  # Beast Within
   { printing = "md1/21", in = ["Graveyard Police"] },  # Relic of Progenitus
   { printing = "peld/43p", in = ["Recursion"] },  # Emry, Lurker of the Loch
-  { name = "Great Furnace", in = ["Land - Artifact"] },
+  { printing = "eoc/161", in = ["Land - Artifact"] },  # Great Furnace
   { printing = "drc/58", in = ["Land - Utility"] },  # Academy Ruins
   { printing = "pneo/266s", in = ["Land - Utility"] },  # Boseiju, Who Endures
-  { name = "Riverpyre Verge", in = ["Land - Fixing"] },
+  { printing = "dft/260", in = ["Land - Fixing"] },  # Riverpyre Verge
   { printing = "gtc/247", in = ["Land - Fixing"] },  # Stomping Ground
   { printing = "iko/250", in = ["Land - Fixing"] },  # Ketria Triome
-  { name = "Fiery Islet", in = ["Land - Fixing"] },
+  { printing = "mh1/238", in = ["Land - Fixing"] },  # Fiery Islet
   { printing = "soc/107", in = ["Land - Fixing"] },  # Turbulent Wilderness
   { printing = "soc/105", in = ["Land - Fixing"] },  # Turbulent Springs
   { printing = "msc/260", in = ["Land - Fixing"] },  # Rejuvenating Springs
@@ -106,13 +106,13 @@ cards = [
   { printing = "pip/245", in = ["Artifact Count"] },  # Talisman of Curiosity
   { printing = "scd/281", in = ["Artifact Count"] },  # Talisman of Impulse
   { printing = "mb2/157", in = ["Topdeck Value"] },  # Counterbalance
-  { name = "Metamorphose", in = ["Interaction", "Topdeck Value"] },
+  { printing = "sld/2155", in = ["Interaction", "Topdeck Value"] },  # Metamorphose
   { printing = "pdft/56p", in = ["Tutor Package"] },  # Repurposing Bay
   { printing = "xln/74", in = ["Lantern - Vision"] },  # Search for Azcanta // Azcanta, the Sunken Ruin
   { printing = "peld/71p", in = ["Lantern - Sculpt"] },  # Vantress Gargoyle
   { printing = "mar/62", in = ["Interaction"] },  # Three Steps Ahead
-  { name = "Expel from Orazca", in = ["Interaction", "Topdeck Value"] },
-  { name = "Hinder", in = ["Interaction", "Topdeck Value"] },
+  { printing = "plst/RIX-37", in = ["Interaction", "Topdeck Value"] },  # Expel from Orazca
+  { printing = "2xm/54", in = ["Interaction", "Topdeck Value"] },  # Hinder
   { printing = "pstx/214p", in = ["Interaction"] },  # Prismari Command
   { printing = "pznr/161s", in = ["MDFC - Spell or Land"] },  # Shatterskull Smashing // Shatterskull, the Hammer Pass
   { printing = "znr/355", in = ["MDFC - Spell or Land"] },  # Valakut Awakening // Valakut Stoneforge
