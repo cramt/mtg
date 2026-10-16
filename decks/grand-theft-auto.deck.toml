@@ -18,103 +18,103 @@ Desynchronization bounces every nonland permanent that isn't historic. Vehicles,
 Closing: Reckless Fireweaver pings every opponent for each Treasure, Port Razer untaps everything for an extra combat, so every Vehicle steals twice, and Phoenix Fleet Airship copies itself every turn you sacrifice a Treasure."""
 
 cards = [
-  { name = "Edward Kenway", in = ["Commander"] },
-  { name = "Lantern of Insight", in = ["Lantern - Vision"] },
-  { name = "Wizened Snitches", in = ["Lantern - Vision"] },
-  { name = "Codex Shredder", in = ["Lantern - Sculpt"] },
-  { name = "Wand of Denial", in = ["Lantern - Sculpt"] },
-  { name = "Ghoulcaller's Bell", in = ["Lantern - Sculpt"] },
-  { name = "Unwinding Clock", in = ["Lantern - Sculpt"] },
-  { name = "Heart of Kiran", in = ["Vehicle - Evasive"] },
-  { name = "Memory Lapse", in = ["Top Setup", "Counterspell"] },
-  { name = "Hinder", in = ["Top Setup", "Counterspell"] },
-  { name = "Misinformation", in = ["Top Setup"] },
-  { name = "Scheming Symmetry", in = ["Top Setup"] },
-  { name = "Smuggler's Copter", in = ["Vehicle - Evasive", "Draw"] },
-  { name = "Sky Skiff", in = ["Vehicle - Evasive"] },
-  { name = "High-Speed Hoverbike", in = ["Vehicle - Evasive"] },
-  { name = "Cargo Ship", in = ["Vehicle - Evasive", "Ramp"] },
-  { name = "Boosted Sloop", in = ["Vehicle - Evasive", "Draw"] },
-  { name = "Aethersphere Harvester", in = ["Vehicle - Evasive"] },
-  { name = "Adrestia", in = ["Vehicle - Evasive", "Draw"] },
-  { name = "Skysovereign, Consul Flagship", in = ["Vehicle - Evasive", "Removal"] },
-  { name = "Phoenix Fleet Airship", in = ["Vehicle - Evasive"] },
-  { name = "The Indomitable", in = ["Vehicle", "Draw"] },
-  { name = "The Lunar Whale", in = ["Vehicle - Evasive", "Draw"] },
-  { name = "Reckoner Bankbuster", in = ["Vehicle", "Draw"] },
-  { name = "Changeling Outcast", in = ["Crew"] },
-  { name = "Universal Automaton", in = ["Crew"] },
-  { name = "Siren Stormtamer", in = ["Crew", "Counterspell"] },
-  { name = "Malcolm, Alluring Scoundrel", in = ["Crew", "Draw"] },
-  { name = "Adéwalé, Breaker of Chains", in = ["Crew", "Tutor"] },
-  { name = "Mary Read and Anne Bonny", in = ["Crew", "Draw"] },
-  { name = "Fearless Swashbuckler", in = ["Crew", "Draw"] },
-  { name = "Basim Ibn Ishaq", in = ["Crew", "Draw"] },
-  { name = "Ramirez DePietro, Pillager", in = ["Crew", "Steal Engine"] },
-  { name = "Breeches, Brazen Plunderer", in = ["Crew", "Steal Engine"] },
-  { name = "Port Razer", in = ["Crew", "Finisher"] },
-  { name = "Hostage Taker", in = ["Crew", "Removal", "Steal Engine"] },
-  { name = "Kitesail Larcenist", in = ["Crew", "Removal"] },
-  { name = "Arcane Signet", in = ["Ramp"] },
-  { name = "Talisman of Dominance", in = ["Ramp"] },
-  { name = "Talisman of Creativity", in = ["Ramp"] },
-  { name = "Talisman of Indulgence", in = ["Ramp"] },
-  { name = "Mind Stone", in = ["Ramp"] },
-  { name = "Fellwar Stone", in = ["Ramp"] },
-  { name = "Wayfarer's Bauble", in = ["Ramp"] },
-  { name = "Coastal Piracy", in = ["Draw"] },
-  { name = "Black Market Connections", in = ["Draw", "Ramp"] },
-  { name = "Deadly Dispute", in = ["Draw"] },
-  { name = "Terminate", in = ["Removal"] },
-  { name = "Go for the Throat", in = ["Removal"] },
-  { name = "Infernal Grasp", in = ["Removal"] },
-  { name = "Bitter Triumph", in = ["Removal"] },
-  { name = "Cultivator's Caravan", in = ["Vehicle", "Ramp"] },
-  { name = "Chaos Warp", in = ["Removal"] },
-  { name = "Abrade", in = ["Removal"] },
-  { name = "Desynchronization", in = ["Board Wipe"] },
-  { name = "Blasphemous Act", in = ["Board Wipe"] },
-  { name = "Toxic Deluge", in = ["Board Wipe"] },
-  { name = "Trinket Mage", in = ["Tutor"] },
-  { name = "Fabricate", in = ["Tutor"] },
-  { name = "Diabolic Tutor", in = ["Tutor"] },
-  { name = "Grim Tutor", in = ["Tutor"] },
-  { name = "Tezzeret, Cruel Captain", in = ["Tutor", "Lantern - Sculpt"] },
-  { name = "Reckless Fireweaver", in = ["Finisher"] },
-  { name = "Fell the Profane // Fell Mire", in = ["Removal", "Land"] },
-  { name = "Hagra Mauling // Hagra Broodpit", in = ["Removal", "Land"] },
-  { name = "Sink into Stupor // Soporific Springs", in = ["Removal", "Land"] },
-  { name = "Command Tower", in = ["Land"] },
-  { name = "Exotic Orchard", in = ["Land"] },
-  { name = "Fabled Passage", in = ["Land"] },
-  { name = "Watery Grave", in = ["Land"] },
-  { name = "Blood Crypt", in = ["Land"] },
-  { name = "Steam Vents", in = ["Land"] },
-  { name = "Polluted Delta", in = ["Land"] },
-  { name = "Bloodstained Mire", in = ["Land"] },
-  { name = "Scalding Tarn", in = ["Land"] },
-  { name = "Gloomlake Verge", in = ["Land"] },
-  { name = "Blazemire Verge", in = ["Land"] },
-  { name = "Riverpyre Verge", in = ["Land"] },
-  { name = "Underground River", in = ["Land"] },
-  { name = "Sulfurous Springs", in = ["Land"] },
-  { name = "Shivan Reef", in = ["Land"] },
-  { name = "Drowned Catacomb", in = ["Land"] },
-  { name = "Dragonskull Summit", in = ["Land"] },
-  { name = "Sulfur Falls", in = ["Land"] },
-  { name = "Xander's Lounge", in = ["Land"] },
-  { name = "Spire of Industry", in = ["Land - Utility"] },
-  { name = "Urza's Saga", in = ["Land - Utility", "Tutor"] },
-  { name = "Inventors' Fair", in = ["Land - Utility", "Tutor"] },
-  { name = "Mech Hangar", in = ["Land - Utility"] },
-  { name = "Crumbling Necropolis", in = ["Land"] },
-  { name = "Island", qty = 2, in = ["Land"] },
-  { name = "Darkslick Shores", in = ["Land"] },
-  { name = "Swamp", in = ["Land"] },
-  { name = "Blackcleave Cliffs", in = ["Land"] },
-  { name = "Bojuka Bog", in = ["Land - Utility", "Graveyard Hate"] },
-  { name = "Mountain", qty = 3, in = ["Land"] },
-  { name = "Spirebluff Canal", in = ["Land"] },
+  { printing = "acr/53", in = ["Commander"] },  # Edward Kenway
+  { printing = "plst/5DN-135", in = ["Lantern - Vision"] },  # Lantern of Insight
+  { printing = "rav/75", in = ["Lantern - Vision"] },  # Wizened Snitches
+  { printing = "cmr/304", in = ["Lantern - Sculpt"] },  # Codex Shredder
+  { printing = "6ed/317", in = ["Lantern - Sculpt"] },  # Wand of Denial
+  { printing = "isd/224", in = ["Lantern - Sculpt"] },  # Ghoulcaller's Bell
+  { printing = "plst/NPH-164", in = ["Lantern - Sculpt"] },  # Unwinding Clock
+  { printing = "aer/153", in = ["Vehicle - Evasive"] },  # Heart of Kiran
+  { printing = "sld/2142", in = ["Top Setup", "Counterspell"] },  # Memory Lapse
+  { printing = "2xm/54", in = ["Top Setup", "Counterspell"] },  # Hinder
+  { printing = "all/56", in = ["Top Setup"] },  # Misinformation
+  { printing = "m20/113", in = ["Top Setup"] },  # Scheming Symmetry
+  { printing = "plst/KLD-235", in = ["Vehicle - Evasive", "Draw"] },  # Smuggler's Copter
+  { printing = "kld/233", in = ["Vehicle - Evasive"] },  # Sky Skiff
+  { printing = "neo/247", in = ["Vehicle - Evasive"] },  # High-Speed Hoverbike
+  { printing = "fin/47", in = ["Vehicle - Evasive", "Ramp"] },  # Cargo Ship
+  { printing = "dft/190", in = ["Vehicle - Evasive", "Draw"] },  # Boosted Sloop
+  { printing = "m3c/280", in = ["Vehicle - Evasive"] },  # Aethersphere Harvester
+  { printing = "acr/68", in = ["Vehicle - Evasive", "Draw"] },  # Adrestia
+  { printing = "fdc/285", in = ["Vehicle - Evasive", "Removal"] },  # Skysovereign, Consul Flagship
+  { printing = "ptla/114s", in = ["Vehicle - Evasive"] },  # Phoenix Fleet Airship
+  { printing = "lcc/43", in = ["Vehicle", "Draw"] },  # The Indomitable
+  { printing = "fin/60", in = ["Vehicle - Evasive", "Draw"] },  # The Lunar Whale
+  { printing = "neo/255", in = ["Vehicle", "Draw"] },  # Reckoner Bankbuster
+  { printing = "plst/MH1-82", in = ["Crew"] },  # Changeling Outcast
+  { printing = "plst/J22-803", in = ["Crew"] },  # Universal Automaton
+  { printing = "plst/XLN-79", in = ["Crew", "Counterspell"] },  # Siren Stormtamer
+  { printing = "lci/63", in = ["Crew", "Draw"] },  # Malcolm, Alluring Scoundrel
+  { printing = "acr/44", in = ["Crew", "Tutor"] },  # Adéwalé, Breaker of Chains
+  { printing = "acr/61", in = ["Crew", "Draw"] },  # Mary Read and Anne Bonny
+  { printing = "dft/204", in = ["Crew", "Draw"] },  # Fearless Swashbuckler
+  { printing = "acr/49", in = ["Crew", "Draw"] },  # Basim Ibn Ishaq
+  { printing = "lcc/285", in = ["Crew", "Steal Engine"] },  # Ramirez DePietro, Pillager
+  { printing = "lcc/217", in = ["Crew", "Steal Engine"] },  # Breeches, Brazen Plunderer
+  { printing = "spg/33", in = ["Crew", "Finisher"] },  # Port Razer
+  { printing = "otc/231", in = ["Crew", "Removal", "Steal Engine"] },  # Hostage Taker
+  { printing = "lci/61", in = ["Crew", "Removal"] },  # Kitesail Larcenist
+  { printing = "fdc/245", in = ["Ramp"] },  # Arcane Signet
+  { printing = "frc/62", in = ["Ramp"] },  # Talisman of Dominance
+  { printing = "frc/61", in = ["Ramp"] },  # Talisman of Creativity
+  { printing = "frc/63", in = ["Ramp"] },  # Talisman of Indulgence
+  { printing = "fdc/271", in = ["Ramp"] },  # Mind Stone
+  { printing = "frc/57", in = ["Ramp"] },  # Fellwar Stone
+  { printing = "plst/M3C-315", in = ["Ramp"] },  # Wayfarer's Bauble
+  { printing = "jmp/144", in = ["Draw"] },  # Coastal Piracy
+  { printing = "plst/LCC-181", in = ["Draw", "Ramp"] },  # Black Market Connections
+  { printing = "sld/1980", in = ["Draw"] },  # Deadly Dispute
+  { printing = "ecc/134", in = ["Removal"] },  # Terminate
+  { printing = "fdc/100", in = ["Removal"] },  # Go for the Throat
+  { printing = "soc/216", in = ["Removal"] },  # Infernal Grasp
+  { printing = "sch/42", in = ["Removal"] },  # Bitter Triumph
+  { printing = "fdc/251", in = ["Vehicle", "Ramp"] },  # Cultivator's Caravan
+  { printing = "fdc/146", in = ["Removal"] },  # Chaos Warp
+  { printing = "fdc/136", in = ["Removal"] },  # Abrade
+  { printing = "acr/16", in = ["Board Wipe"] },  # Desynchronization
+  { printing = "fdc/140", in = ["Board Wipe"] },  # Blasphemous Act
+  { printing = "soc/120", in = ["Board Wipe"] },  # Toxic Deluge
+  { printing = "plst/DDU-41", in = ["Tutor"] },  # Trinket Mage
+  { printing = "spg/20", in = ["Tutor"] },  # Fabricate
+  { printing = "cma/54", in = ["Tutor"] },  # Diabolic Tutor
+  { printing = "m21/103", in = ["Tutor"] },  # Grim Tutor
+  { printing = "eoe/2", in = ["Tutor", "Lantern - Sculpt"] },  # Tezzeret, Cruel Captain
+  { printing = "drc/106", in = ["Finisher"] },  # Reckless Fireweaver
+  { printing = "mh3/244", in = ["Removal", "Land"] },  # Fell the Profane // Fell Mire
+  { printing = "plst/ZNR-106", in = ["Removal", "Land"] },  # Hagra Mauling // Hagra Broodpit
+  { printing = "mh3/241", in = ["Removal", "Land"] },  # Sink into Stupor // Soporific Springs
+  { printing = "frc/22", in = ["Land"] },  # Command Tower
+  { printing = "frc/70", in = ["Land"] },  # Exotic Orchard
+  { printing = "frc/71", in = ["Land"] },  # Fabled Passage
+  { printing = "eoe/261", in = ["Land"] },  # Watery Grave
+  { printing = "ecl/262", in = ["Land"] },  # Blood Crypt
+  { printing = "ecl/267", in = ["Land"] },  # Steam Vents
+  { printing = "mh3/224", in = ["Land"] },  # Polluted Delta
+  { printing = "mh3/216", in = ["Land"] },  # Bloodstained Mire
+  { printing = "spg/112", in = ["Land"] },  # Scalding Tarn
+  { printing = "dsk/260", in = ["Land"] },  # Gloomlake Verge
+  { printing = "dsk/256", in = ["Land"] },  # Blazemire Verge
+  { printing = "dft/260", in = ["Land"] },  # Riverpyre Verge
+  { printing = "frc/87", in = ["Land"] },  # Underground River
+  { printing = "frc/85", in = ["Land"] },  # Sulfurous Springs
+  { printing = "frc/83", in = ["Land"] },  # Shivan Reef
+  { printing = "frc/69", in = ["Land"] },  # Drowned Catacomb
+  { printing = "ecc/147", in = ["Land"] },  # Dragonskull Summit
+  { printing = "frc/84", in = ["Land"] },  # Sulfur Falls
+  { printing = "psnc/260p", in = ["Land"] },  # Xander's Lounge
+  { printing = "eoc/183", in = ["Land - Utility"] },  # Spire of Industry
+  { printing = "mb2/114", in = ["Land - Utility", "Tutor"] },  # Urza's Saga
+  { printing = "eos/21", in = ["Land - Utility", "Tutor"] },  # Inventors' Fair
+  { printing = "neo/270", in = ["Land - Utility"] },  # Mech Hangar
+  { printing = "lcc/326", in = ["Land"] },  # Crumbling Necropolis
+  { printing = "fra/385", qty = 2, in = ["Land"] },  # Island
+  { printing = "otc/281", in = ["Land"] },  # Darkslick Shores
+  { printing = "fra/388", in = ["Land"] },  # Swamp
+  { printing = "dsc/263", in = ["Land"] },  # Blackcleave Cliffs
+  { printing = "fdc/296", in = ["Land - Utility", "Graveyard Hate"] },  # Bojuka Bog
+  { printing = "fra/391", qty = 3, in = ["Land"] },  # Mountain
+  { printing = "otj/270", in = ["Land"] },  # Spirebluff Canal
 ]
 
 [categories]
