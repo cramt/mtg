@@ -10,7 +10,6 @@ Bracket 2: no Game Changers, no combos, no wipes. Just very good boys."""
 cards = [
   { printing = "plst/MKC-8", in = ["Commander"] },  # Sophia, Dogged Detective
   { printing = "sld/732", in = ["Dog", "Protection"] },  # Selfless Savior
-  { printing = "j22/201", in = ["Dog"] },  # Isamaru, Hound of Konda
   { printing = "dft/158", in = ["Dog", "Removal"] },  # District Mascot
   { printing = "who/47", in = ["Dog", "Protection"] },  # K-9, Mark I
   { printing = "j22/300", in = ["Dog", "Clue Maker"] },  # Floodhound
@@ -49,7 +48,6 @@ cards = [
   { printing = "sld/2195", in = ["Clue Maker"] },  # Academy Manufactor
   { printing = "mkm/185", in = ["Clue Maker"] },  # Alquist Proft, Master Sleuth
   { printing = "mkc/9", in = ["Clue Maker"] },  # Armed with Proof
-  { printing = "soi/198", in = ["Clue Maker"] },  # Confront the Unknown
   { printing = "ltr/181", in = ["Clue Maker"] },  # Peregrin Took
   { printing = "soc/272", in = ["Counters"] },  # Hardened Scales
   { printing = "fdn/226", in = ["Draw", "Protection"] },  # Inspiring Call
@@ -91,8 +89,8 @@ cards = [
   { printing = "fra/185", in = ["Land"] },  # Overgrown Farmland
   { printing = "fra/382", qty = 8, in = ["Land"] },  # Plains
   { printing = "psnc/257p", in = ["Land"] },  # Spara's Headquarters
-  { printing = "fra/394", qty = 7, in = ["Land"] },  # Forest
-  { printing = "fra/385", qty = 3, in = ["Land"] },  # Island
+  { printing = "fra/394", qty = 8, in = ["Land"] },  # Forest
+  { printing = "fra/385", qty = 4, in = ["Land"] },  # Island
 ]
 
 [categories]
