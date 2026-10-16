@@ -8,91 +8,91 @@ Sophia brings Tiny along. Every Dog that connects makes a Food and a Clue, and e
 Bracket 2: no Game Changers, no combos, no wipes. Just very good boys."""
 
 cards = [
-  { name = "Sophia, Dogged Detective", in = ["Commander"] },
-  { name = "Selfless Savior", in = ["Dog", "Protection"] },
-  { name = "Isamaru, Hound of Konda", in = ["Dog"] },
-  { name = "District Mascot", in = ["Dog", "Removal"] },
-  { name = "K-9, Mark I", in = ["Dog", "Protection"] },
-  { name = "Floodhound", in = ["Dog", "Clue Maker"] },
-  { name = "Pack Leader", in = ["Dog", "Anthem"] },
-  { name = "Generous Pup", in = ["Dog", "Counters"] },
-  { name = "Spirited Companion", in = ["Dog", "Draw"] },
-  { name = "Loyal Warhound", in = ["Dog", "Ramp"] },
-  { name = "Ainok Bond-Kin", in = ["Dog", "Counters"] },
-  { name = "Alpine Watchdog", in = ["Dog"] },
-  { name = "Faithful Watchdog", in = ["Dog"] },
-  { name = "Phelia, Exuberant Shepherd", in = ["Dog"] },
-  { name = "Mushroom Watchdogs", in = ["Dog"] },
-  { name = "Lucky the Pizza Dog", in = ["Dog"] },
-  { name = "Torgal, A Fine Hound", in = ["Dog", "Ramp"] },
-  { name = "Traveling Botanist", in = ["Dog", "Draw"] },
-  { name = "Ainok Strike Leader", in = ["Dog"] },
-  { name = "Ainok Survivalist", in = ["Dog", "Removal"] },
-  { name = "Yoshimaru, Beloved Companion", in = ["Dog", "Counters"] },
-  { name = "Mischievous Pup", in = ["Dog"] },
-  { name = "Long-Bodied Grey Dog", in = ["Dog", "Ramp"] },
-  { name = "Codecracker Hound", in = ["Dog", "Draw"] },
-  { name = "Mowu, Loyal Companion", in = ["Dog"] },
-  { name = "Trusty Retriever", in = ["Dog"] },
-  { name = "Arbor Adherent", in = ["Dog", "Ramp"] },
-  { name = "Trade Route Envoy", in = ["Dog", "Draw"] },
-  { name = "Mongrel Pack", in = ["Dog"] },
-  { name = "Rambunctious Mutt", in = ["Dog", "Removal"] },
-  { name = "Supply Runners", in = ["Dog", "Counters"] },
-  { name = "Karvanista, Loyal Lupari", in = ["Dog"] },
-  { name = "Greater Tanuki", in = ["Dog", "Ramp"] },
-  { name = "Mirror Entity", in = ["Dog", "Finisher"] },
-  { name = "Release the Dogs", in = ["Dog"] },
-  { name = "Thorough Investigation", in = ["Clue Maker"] },
-  { name = "Erdwal Illuminator", in = ["Clue Maker"] },
-  { name = "Tireless Tracker", in = ["Clue Maker"] },
-  { name = "Academy Manufactor", in = ["Clue Maker"] },
-  { name = "Alquist Proft, Master Sleuth", in = ["Clue Maker"] },
-  { name = "Armed with Proof", in = ["Clue Maker"] },
-  { name = "Confront the Unknown", in = ["Clue Maker"] },
-  { name = "Peregrin Took", in = ["Clue Maker"] },
-  { name = "Hardened Scales", in = ["Counters"] },
-  { name = "Inspiring Call", in = ["Draw", "Protection"] },
-  { name = "Guardian Project", in = ["Draw"] },
-  { name = "Kabira Takedown // Kabira Plateau", in = ["Removal", "Land"] },
-  { name = "Herald's Horn", in = ["Draw"] },
-  { name = "Arcane Signet", in = ["Ramp"] },
-  { name = "Fellwar Stone", in = ["Ramp"] },
-  { name = "Nature's Lore", in = ["Ramp"] },
-  { name = "Three Visits", in = ["Ramp"] },
-  { name = "Farseek", in = ["Ramp"] },
-  { name = "Rampant Growth", in = ["Ramp"] },
-  { name = "Swords to Plowshares", in = ["Removal"] },
-  { name = "Path to Exile", in = ["Removal"] },
-  { name = "Beast Within", in = ["Removal"] },
-  { name = "Generous Gift", in = ["Removal"] },
-  { name = "Fateful Absence", in = ["Removal"] },
-  { name = "Kenrith's Transformation", in = ["Removal"] },
-  { name = "Unbreakable Formation", in = ["Protection"] },
-  { name = "Heroic Intervention", in = ["Protection"] },
-  { name = "Overwhelming Stampede", in = ["Finisher"] },
-  { name = "Return of the Wildspeaker", in = ["Finisher", "Draw"] },
-  { name = "Command Tower", in = ["Land"] },
-  { name = "Exotic Orchard", in = ["Land"] },
-  { name = "Path of Ancestry", in = ["Land"] },
-  { name = "Fabled Passage", in = ["Land"] },
-  { name = "Evolving Wilds", in = ["Land"] },
-  { name = "Reflecting Pool", in = ["Land"] },
-  { name = "Hinterland Harbor", in = ["Land"] },
-  { name = "Yavimaya Coast", in = ["Land"] },
-  { name = "Vineglimmer Snarl", in = ["Land"] },
-  { name = "Sodden Verdure", in = ["Land"] },
-  { name = "Prairie Stream", in = ["Land"] },
-  { name = "Canopy Vista", in = ["Land"] },
-  { name = "Rogue's Passage", in = ["Land"] },
-  { name = "Animal Sanctuary", in = ["Land"] },
-  { name = "Seaside Citadel", in = ["Land"] },
-  { name = "Sunpetal Grove", in = ["Land"] },
-  { name = "Overgrown Farmland", in = ["Land"] },
-  { name = "Plains", qty = 8, in = ["Land"] },
-  { name = "Spara's Headquarters", in = ["Land"] },
-  { name = "Forest", qty = 7, in = ["Land"] },
-  { name = "Island", qty = 3, in = ["Land"] },
+  { printing = "plst/MKC-8", in = ["Commander"] },  # Sophia, Dogged Detective
+  { printing = "sld/732", in = ["Dog", "Protection"] },  # Selfless Savior
+  { printing = "j22/201", in = ["Dog"] },  # Isamaru, Hound of Konda
+  { printing = "dft/158", in = ["Dog", "Removal"] },  # District Mascot
+  { printing = "who/47", in = ["Dog", "Protection"] },  # K-9, Mark I
+  { printing = "j22/300", in = ["Dog", "Clue Maker"] },  # Floodhound
+  { printing = "plst/M21-29", in = ["Dog", "Anthem"] },  # Pack Leader
+  { printing = "j25/4", in = ["Dog", "Counters"] },  # Generous Pup
+  { printing = "sld/896", in = ["Dog", "Draw"] },  # Spirited Companion
+  { printing = "blc/107", in = ["Dog", "Ramp"] },  # Loyal Warhound
+  { printing = "cmm/7", in = ["Dog", "Counters"] },  # Ainok Bond-Kin
+  { printing = "plst/M21-2", in = ["Dog"] },  # Alpine Watchdog
+  { printing = "mh3/185", in = ["Dog"] },  # Faithful Watchdog
+  { printing = "plst/MH3-40", in = ["Dog"] },  # Phelia, Exuberant Shepherd
+  { printing = "ltr/180", in = ["Dog"] },  # Mushroom Watchdogs
+  { printing = "msc/726", in = ["Dog"] },  # Lucky the Pizza Dog
+  { printing = "fin/208", in = ["Dog", "Ramp"] },  # Torgal, A Fine Hound
+  { printing = "tdm/164", in = ["Dog", "Draw"] },  # Traveling Botanist
+  { printing = "tdc/11", in = ["Dog"] },  # Ainok Strike Leader
+  { printing = "mkc/165", in = ["Dog", "Removal"] },  # Ainok Survivalist
+  { printing = "fra/209", in = ["Dog", "Counters"] },  # Yoshimaru, Beloved Companion
+  { printing = "fdn/144", in = ["Dog"] },  # Mischievous Pup
+  { printing = "hob/1", in = ["Dog", "Ramp"] },  # Long-Bodied Grey Dog
+  { printing = "plst/EOE-50", in = ["Dog", "Draw"] },  # Codecracker Hound
+  { printing = "j25/79", in = ["Dog"] },  # Mowu, Loyal Companion
+  { printing = "j25/274", in = ["Dog"] },  # Trusty Retriever
+  { printing = "tdc/42", in = ["Dog", "Ramp"] },  # Arbor Adherent
+  { printing = "tdm/163", in = ["Dog", "Draw"] },  # Trade Route Envoy
+  { printing = "plst/TMP-237", in = ["Dog"] },  # Mongrel Pack
+  { printing = "plst/M21-30", in = ["Dog", "Removal"] },  # Rambunctious Mutt
+  { printing = "plst/JMP-7", in = ["Dog", "Counters"] },  # Supply Runners
+  { printing = "who/106", in = ["Dog"] },  # Karvanista, Loyal Lupari
+  { printing = "dsc/181", in = ["Dog", "Ramp"] },  # Greater Tanuki
+  { printing = "plst/OTC-83", in = ["Dog", "Finisher"] },  # Mirror Entity
+  { printing = "tdc/127", in = ["Dog"] },  # Release the Dogs
+  { printing = "afc/12", in = ["Clue Maker"] },  # Thorough Investigation
+  { printing = "mkc/104", in = ["Clue Maker"] },  # Erdwal Illuminator
+  { printing = "eoc/110", in = ["Clue Maker"] },  # Tireless Tracker
+  { printing = "sld/2195", in = ["Clue Maker"] },  # Academy Manufactor
+  { printing = "mkm/185", in = ["Clue Maker"] },  # Alquist Proft, Master Sleuth
+  { printing = "mkc/9", in = ["Clue Maker"] },  # Armed with Proof
+  { printing = "soi/198", in = ["Clue Maker"] },  # Confront the Unknown
+  { printing = "ltr/181", in = ["Clue Maker"] },  # Peregrin Took
+  { printing = "soc/272", in = ["Counters"] },  # Hardened Scales
+  { printing = "fdn/226", in = ["Draw", "Protection"] },  # Inspiring Call
+  { printing = "sld/2172", in = ["Draw"] },  # Guardian Project
+  { printing = "znr/19", in = ["Removal", "Land"] },  # Kabira Takedown // Kabira Plateau
+  { printing = "fdc/264", in = ["Draw"] },  # Herald's Horn
+  { printing = "fdc/245", in = ["Ramp"] },  # Arcane Signet
+  { printing = "frc/57", in = ["Ramp"] },  # Fellwar Stone
+  { printing = "plst/CMM-904", in = ["Ramp"] },  # Nature's Lore
+  { printing = "soc/289", in = ["Ramp"] },  # Three Visits
+  { printing = "eoc/50", in = ["Ramp"] },  # Farseek
+  { printing = "tdc/265", in = ["Ramp"] },  # Rampant Growth
+  { printing = "fdc/53", in = ["Removal"] },  # Swords to Plowshares
+  { printing = "frc/30", in = ["Removal"] },  # Path to Exile
+  { printing = "fdc/190", in = ["Removal"] },  # Beast Within
+  { printing = "sld/2534", in = ["Removal"] },  # Generous Gift
+  { printing = "fdc/30", in = ["Removal"] },  # Fateful Absence
+  { printing = "fdc/212", in = ["Removal"] },  # Kenrith's Transformation
+  { printing = "rvr/32", in = ["Protection"] },  # Unbreakable Formation
+  { printing = "cmm/295", in = ["Protection"] },  # Heroic Intervention
+  { printing = "fdc/218", in = ["Finisher"] },  # Overwhelming Stampede
+  { printing = "ecc/115", in = ["Finisher", "Draw"] },  # Return of the Wildspeaker
+  { printing = "frc/22", in = ["Land"] },  # Command Tower
+  { printing = "frc/70", in = ["Land"] },  # Exotic Orchard
+  { printing = "frc/77", in = ["Land"] },  # Path of Ancestry
+  { printing = "frc/71", in = ["Land"] },  # Fabled Passage
+  { printing = "plst/LCC-328", in = ["Land"] },  # Evolving Wilds
+  { printing = "frc/23", in = ["Land"] },  # Reflecting Pool
+  { printing = "soc/381", in = ["Land"] },  # Hinterland Harbor
+  { printing = "soc/425", in = ["Land"] },  # Yavimaya Coast
+  { printing = "soc/420", in = ["Land"] },  # Vineglimmer Snarl
+  { printing = "soc/406", in = ["Land"] },  # Sodden Verdure
+  { printing = "frc/79", in = ["Land"] },  # Prairie Stream
+  { printing = "plst/LCC-321", in = ["Land"] },  # Canopy Vista
+  { printing = "plst/MIC-179", in = ["Land"] },  # Rogue's Passage
+  { printing = "plst/M21-242", in = ["Land"] },  # Animal Sanctuary
+  { printing = "ecc/166", in = ["Land"] },  # Seaside Citadel
+  { printing = "plst/BLC-335", in = ["Land"] },  # Sunpetal Grove
+  { printing = "fra/185", in = ["Land"] },  # Overgrown Farmland
+  { printing = "fra/382", qty = 8, in = ["Land"] },  # Plains
+  { printing = "psnc/257p", in = ["Land"] },  # Spara's Headquarters
+  { printing = "fra/394", qty = 7, in = ["Land"] },  # Forest
+  { printing = "fra/385", qty = 3, in = ["Land"] },  # Island
 ]
 
 [categories]
