@@ -1,4 +1,4 @@
-name = "test"
+name = "Test"
 cost = "{1}{U}"
 type = "Creature — Homunculus"
 rules = """
