@@ -4,4 +4,4 @@ type = "Creature — Homunculus"
 rules = """
 Flying
 """
-pt = "1/1"
+pt = "212/1"
