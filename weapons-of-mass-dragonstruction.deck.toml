@@ -1,0 +1,36 @@
+name = "Weapons of Mass Dragonstruction"
+description = "Pioneer Bo1 Rakdos Weapons Manufacturing. Munitions ping, then Draconic Visitor turns every artifact token (Munitions, Anvil Constructs, Extruder Golems, Dispute Treasures) into 5/5 flying Dragons."
+
+cards = [
+  { name = "Weapons Manufacturing", qty = 4, in = ["Munitions Engine"] },
+  { name = "Oni-Cult Anvil", qty = 4, in = ["Sac Outlet", "Token Maker"] },
+  { name = "Draconic Visitor", qty = 3, in = ["Dragon Engine", "Finisher"] },
+  { name = "Experimental Synthesizer", qty = 4, in = ["Cheap Artifact"] },
+  { name = "Clockwork Percussionist", qty = 4, in = ["Cheap Artifact"] },
+  { name = "Legion Extruder", qty = 3, in = ["Cheap Artifact", "Sac Outlet", "Token Maker", "Removal"] },
+  { name = "Deadly Dispute", qty = 4, in = ["Sac Outlet", "Card Draw"] },
+  { name = "Shrapnel Blast", qty = 4, in = ["Sac Outlet", "Burn"] },
+  { name = "Rottenmouth Viper", qty = 2, in = ["Sac Outlet", "Finisher"] },
+  { name = "Fatal Push", qty = 4, in = ["Removal"] },
+  { name = "Voltage Surge", qty = 1, in = ["Removal", "Sac Outlet"] },
+  { name = "Blood Crypt", qty = 4, in = ["Land"] },
+  { name = "Blackcleave Cliffs", qty = 4, in = ["Land"] },
+  { name = "Blazemire Verge", qty = 4, in = ["Land"] },
+  { name = "Sulfurous Springs", qty = 3, in = ["Land"] },
+  { name = "Blightstep Pathway", qty = 2, in = ["Land"] },
+  { name = "Mountain", qty = 4, in = ["Land"] },
+  { name = "Swamp", in = ["Land"] },
+  { name = "Sokenzan, Crucible of Defiance", in = ["Land"] },
+]
+
+[categories]
+Burn = {}
+"Card Draw" = {}
+"Cheap Artifact" = {}
+"Dragon Engine" = {}
+Finisher = {}
+Land = {}
+"Munitions Engine" = {}
+Removal = {}
+"Sac Outlet" = {}
+"Token Maker" = {}
