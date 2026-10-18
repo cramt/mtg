@@ -1,0 +1,7 @@
+name = "test"
+cost = "{1}{U}"
+type = "Creature — Homunculus"
+rules = """
+Flying
+"""
+pt = "1/1"
