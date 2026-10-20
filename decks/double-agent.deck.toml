@@ -20,7 +20,7 @@ cards = [
   { printing = "plst/2XM-32", in = ["Equipment Tutor"] },  # Stonehewer Giant
   { printing = "c17/77", in = ["Equipment Tutor"] },  # Taj-Nar Swordsmith
   { printing = "msc/587", in = ["Equipment Tutor"] },  # Captain America, Liberator
-  { printing = "fin/564", in = ["Equipment Tutor"] },  # Cloud, Midgar Mercenary
+  { printing = "fin/10", in = ["Equipment Tutor"] },  # Cloud, Midgar Mercenary
   { printing = "dst/15", in = ["Equipment Tutor"] },  # Steelshaper Apprentice
   { printing = "m20/234", in = ["Creature Tutor"] },  # Pattern Matcher
   { printing = "sld/731", in = ["Equip Enabler"] },  # Sigarda's Aid
@@ -69,9 +69,9 @@ cards = [
   { printing = "soc/136", in = ["Ramp"] },  # Archaeomancer's Map
   { printing = "2x2/304", in = ["Spy Protection"] },  # Darksteel Plate
   { printing = "plst/CMR-3", in = ["Spy Protection", "Finisher"] },  # Akroma's Will
-  { printing = "pspl/2", in = ["Finisher"] },  # Kaldra Compleat
+  { printing = "cmm/958", in = ["Finisher"] },  # Kaldra Compleat
   { printing = "plst/NPH-130", in = ["Finisher"] },  # Batterskull
-  { printing = "slc/13", in = ["Finisher"] },  # Myrel, Shield of Argive
+  { printing = "bro/18", in = ["Finisher"] },  # Myrel, Shield of Argive
   { printing = "frc/24", in = ["Finisher"] },  # Elspeth, Sun's Champion
   { printing = "pznr/12s", in = ["Land", "Finisher"] },  # Emeria's Call // Emeria, Shattered Skyclave
   { printing = "znr/37", in = ["Land", "Spy Protection"] },  # Sejiri Shelter // Sejiri Glacier
