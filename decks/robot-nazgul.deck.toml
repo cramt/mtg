@@ -1,0 +1,122 @@
+name = "Robot Nazgûl"
+format = "commander"
+description = """
+Mishra, Artificer Prodigy fetches a card with the same name every time you cast an artifact spell. Encroaching Mycosynth and Biotransference make your creature spells, and every nonland permanent card in your library, artifacts. Each Nazgûl you cast brings a second one with it, so all nine take about five casts.
+
+Every Nazgûl has its own "whenever the Ring tempts you, put a +1/+1 counter on each Wraith". With k of them out, one temptation is k counters on each, and nine arriving one after another is 285 counters of deathtouch. Token copies are Wraiths with the same trigger: Mirrorworks copies every Nazgûl that enters (with Mycosynth out it's an artifact), Flameshadow Conjuring and both Saheelis make temporary copies that still tempt on the way in, and Brudiclad turns every Necron Warrior and Myr token you have into a Nazgûl at the start of combat.
+
+Mechanized Production is the alternative win. It copies a Nazgûl every upkeep and wins at eight artifacts that share a name. Nine Nazgûl qualify, and so do eight Necron Warriors, because Biotransference makes one for every artifact spell you cast.
+
+Mishra's search may come up empty (CR 701.23b), so with Mycosynth out every permanent you cast is an optional shuffle. That turns Brainstorm, Scroll Rack and Sensei's Divining Top into "keep the best, shuffle the rest away". Mystic Forge, Mm'menon and Crystal Skull cast artifacts from the top of your library, and Mycosynth makes that nearly every card. Top plus Forge is {1}: draw a card, then recast Top from the top of your library, which with Biotransference out also makes a 2/2.
+
+Bracket 3 by feel, 2 by rule: no Game Changers and no two-card infinites. Mechanized Production is a telegraphed upkeep win that takes a few turns of setup."""
+
+cards = [
+  { name = "Mishra, Artificer Prodigy", in = ["Commander"] },
+  { name = "Encroaching Mycosynth", in = ["Artifact Enabler"] },
+  { name = "Biotransference", in = ["Artifact Enabler", "Token Maker"] },
+  { name = "Nazgûl", qty = 9, in = ["Nazgûl", "Ring Tempt"] },
+  { name = "Pattern Matcher", in = ["Tutor"] },
+  { name = "Fabricate", in = ["Tutor"] },
+  { name = "Ringsight", in = ["Tutor", "Ring Tempt"] },
+  { name = "Mechanized Production", in = ["Token Copy", "Win Condition"] },
+  { name = "Mirrorworks", in = ["Token Copy"] },
+  { name = "Flameshadow Conjuring", in = ["Token Copy"] },
+  { name = "Saheeli, the Sun's Brilliance", in = ["Token Copy"] },
+  { name = "Saheeli Rai", in = ["Token Copy"] },
+  { name = "Brudiclad, Telchor Engineer", in = ["Token Copy", "Win Condition"] },
+  { name = "Spark Double", in = ["Clone"] },
+  { name = "Tezzeret the Seeker", in = ["Tutor"] },
+  { name = "Mystic Forge", in = ["Cast From Top"] },
+  { name = "Mm'menon, the Right Hand", in = ["Cast From Top", "Ramp"] },
+  { name = "Crystal Skull, Isu Spyglass", in = ["Cast From Top", "Ramp"] },
+  { name = "Sensei's Divining Top", in = ["Topdeck Setup"] },
+  { name = "Scroll Rack", in = ["Topdeck Setup"] },
+  { name = "Brainstorm", in = ["Topdeck Setup"] },
+  { name = "Call of the Ring", in = ["Ring Tempt", "Draw"] },
+  { name = "Gandalf, Friend of the Shire", in = ["Draw"] },
+  { name = "Witch-king of Angmar", in = ["Ring Tempt"] },
+  { name = "In the Darkness Bind Them", in = ["Ring Tempt", "Token Maker"] },
+  { name = "Sauron's Ransom", in = ["Draw", "Ring Tempt"] },
+  { name = "Reverse Engineer", in = ["Draw"] },
+  { name = "Tezzeret's Gambit", in = ["Draw"] },
+  { name = "Stock Up", in = ["Draw"] },
+  { name = "Padeem, Consul of Innovation", in = ["Draw", "Protection"] },
+  { name = "Urza, Lord High Artificer", in = ["Ramp"] },
+  { name = "Etherium Sculptor", in = ["Cost Reduction"] },
+  { name = "Foundry Inspector", in = ["Cost Reduction"] },
+  { name = "Steel Overseer", in = ["Artifact Payoff"] },
+  { name = "Reckless Fireweaver", in = ["Artifact Payoff"] },
+  { name = "Transmute Artifact", in = ["Tutor"] },
+  { name = "Tezzeret, Master of the Bridge", in = ["Artifact Payoff", "Win Condition"] },
+  { name = "Arcane Signet", in = ["Ramp"] },
+  { name = "Talisman of Dominance", in = ["Ramp"] },
+  { name = "Talisman of Indulgence", in = ["Ramp"] },
+  { name = "Talisman of Creativity", in = ["Ramp"] },
+  { name = "Dimir Signet", in = ["Ramp"] },
+  { name = "Rakdos Signet", in = ["Ramp"] },
+  { name = "Izzet Signet", in = ["Ramp"] },
+  { name = "Fellwar Stone", in = ["Ramp"] },
+  { name = "Inherited Envelope", in = ["Ramp", "Ring Tempt"] },
+  { name = "Pongify", in = ["Removal"] },
+  { name = "Bitter Triumph", in = ["Removal"] },
+  { name = "Infernal Grasp", in = ["Removal"] },
+  { name = "Feed the Swarm", in = ["Removal"] },
+  { name = "Chaos Warp", in = ["Removal"] },
+  { name = "Vandalblast", in = ["Removal", "Wipe"] },
+  { name = "Soothing of Sméagol", in = ["Removal", "Ring Tempt"] },
+  { name = "Claim the Precious", in = ["Removal", "Ring Tempt"] },
+  { name = "Ranger's Firebrand", in = ["Removal", "Ring Tempt"] },
+  { name = "The Black Breath", in = ["Wipe", "Ring Tempt"] },
+  { name = "Sink into Stupor // Soporific Springs", in = ["Removal", "Land"] },
+  { name = "Fell the Profane // Fell Mire", in = ["Removal", "Land"] },
+  { name = "Command Tower", in = ["Land"] },
+  { name = "Exotic Orchard", in = ["Land"] },
+  { name = "Fabled Passage", in = ["Land"] },
+  { name = "Path of Ancestry", in = ["Land"] },
+  { name = "Crumbling Necropolis", in = ["Land"] },
+  { name = "Xander's Lounge", in = ["Land"] },
+  { name = "Inventors' Fair", in = ["Land", "Tutor"] },
+  { name = "Bojuka Bog", in = ["Land", "Graveyard Hate"] },
+  { name = "Sulfur Falls", in = ["Land"] },
+  { name = "Shivan Reef", in = ["Land"] },
+  { name = "Frostboil Snarl", in = ["Land"] },
+  { name = "Spirebluff Canal", in = ["Land"] },
+  { name = "Drowned Catacomb", in = ["Land"] },
+  { name = "Underground River", in = ["Land"] },
+  { name = "Choked Estuary", in = ["Land"] },
+  { name = "Sunken Hollow", in = ["Land"] },
+  { name = "Darkslick Shores", in = ["Land"] },
+  { name = "Shipwreck Marsh", in = ["Land"] },
+  { name = "Dragonskull Summit", in = ["Land"] },
+  { name = "Sulfurous Springs", in = ["Land"] },
+  { name = "Foreboding Ruins", in = ["Land"] },
+  { name = "Smoldering Marsh", in = ["Land"] },
+  { name = "Haunted Ridge", in = ["Land"] },
+  { name = "Blackcleave Cliffs", in = ["Land"] },
+  { name = "Island", qty = 5, in = ["Land"] },
+  { name = "Swamp", qty = 4, in = ["Land"] },
+  { name = "Mountain", in = ["Land"] },
+]
+
+[categories]
+"Artifact Enabler" = {}
+"Artifact Payoff" = {}
+"Cast From Top" = {}
+Clone = {}
+Commander = { type = "commander" }
+"Cost Reduction" = {}
+Draw = {}
+"Graveyard Hate" = {}
+Land = {}
+"Nazgûl" = {}
+Protection = {}
+Ramp = {}
+Removal = {}
+"Ring Tempt" = {}
+"Token Copy" = {}
+"Token Maker" = {}
+"Topdeck Setup" = {}
+Tutor = {}
+"Win Condition" = {}
+Wipe = {}
