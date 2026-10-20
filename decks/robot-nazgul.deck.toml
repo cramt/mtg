@@ -12,91 +12,91 @@ Mishra's search may come up empty (CR 701.23b), so with Mycosynth out every perm
 Bracket 3 by feel, 2 by rule: no Game Changers and no two-card infinites. Mechanized Production is a telegraphed upkeep win that takes a few turns of setup."""
 
 cards = [
-  { name = "Mishra, Artificer Prodigy", in = ["Commander"] },
-  { name = "Encroaching Mycosynth", in = ["Artifact Enabler"] },
-  { name = "Biotransference", in = ["Artifact Enabler", "Token Maker"] },
-  { name = "Nazgûl", qty = 9, in = ["Nazgûl", "Ring Tempt"] },
-  { name = "Pattern Matcher", in = ["Tutor"] },
-  { name = "Fabricate", in = ["Tutor"] },
-  { name = "Ringsight", in = ["Tutor", "Ring Tempt"] },
-  { name = "Mechanized Production", in = ["Token Copy", "Win Condition"] },
-  { name = "Mirrorworks", in = ["Token Copy"] },
-  { name = "Flameshadow Conjuring", in = ["Token Copy"] },
-  { name = "Saheeli, the Sun's Brilliance", in = ["Token Copy"] },
-  { name = "Saheeli Rai", in = ["Token Copy"] },
-  { name = "Brudiclad, Telchor Engineer", in = ["Token Copy", "Win Condition"] },
-  { name = "Spark Double", in = ["Clone"] },
-  { name = "Tezzeret the Seeker", in = ["Tutor"] },
-  { name = "Mystic Forge", in = ["Cast From Top"] },
-  { name = "Mm'menon, the Right Hand", in = ["Cast From Top", "Ramp"] },
-  { name = "Crystal Skull, Isu Spyglass", in = ["Cast From Top", "Ramp"] },
-  { name = "Sensei's Divining Top", in = ["Topdeck Setup"] },
-  { name = "Scroll Rack", in = ["Topdeck Setup"] },
-  { name = "Brainstorm", in = ["Topdeck Setup"] },
-  { name = "Call of the Ring", in = ["Ring Tempt", "Draw"] },
-  { name = "Gandalf, Friend of the Shire", in = ["Draw"] },
-  { name = "Witch-king of Angmar", in = ["Ring Tempt"] },
-  { name = "In the Darkness Bind Them", in = ["Ring Tempt", "Token Maker"] },
-  { name = "Sauron's Ransom", in = ["Draw", "Ring Tempt"] },
-  { name = "Reverse Engineer", in = ["Draw"] },
-  { name = "Tezzeret's Gambit", in = ["Draw"] },
-  { name = "Stock Up", in = ["Draw"] },
-  { name = "Padeem, Consul of Innovation", in = ["Draw", "Protection"] },
-  { name = "Urza, Lord High Artificer", in = ["Ramp"] },
-  { name = "Etherium Sculptor", in = ["Cost Reduction"] },
-  { name = "Foundry Inspector", in = ["Cost Reduction"] },
-  { name = "Steel Overseer", in = ["Artifact Payoff"] },
-  { name = "Reckless Fireweaver", in = ["Artifact Payoff"] },
-  { name = "Transmute Artifact", in = ["Tutor"] },
-  { name = "Tezzeret, Master of the Bridge", in = ["Artifact Payoff", "Win Condition"] },
-  { name = "Arcane Signet", in = ["Ramp"] },
-  { name = "Talisman of Dominance", in = ["Ramp"] },
-  { name = "Talisman of Indulgence", in = ["Ramp"] },
-  { name = "Talisman of Creativity", in = ["Ramp"] },
-  { name = "Dimir Signet", in = ["Ramp"] },
-  { name = "Rakdos Signet", in = ["Ramp"] },
-  { name = "Izzet Signet", in = ["Ramp"] },
-  { name = "Fellwar Stone", in = ["Ramp"] },
-  { name = "Inherited Envelope", in = ["Ramp", "Ring Tempt"] },
-  { name = "Pongify", in = ["Removal"] },
-  { name = "Bitter Triumph", in = ["Removal"] },
-  { name = "Infernal Grasp", in = ["Removal"] },
-  { name = "Feed the Swarm", in = ["Removal"] },
-  { name = "Chaos Warp", in = ["Removal"] },
-  { name = "Vandalblast", in = ["Removal", "Wipe"] },
-  { name = "Soothing of Sméagol", in = ["Removal", "Ring Tempt"] },
-  { name = "Claim the Precious", in = ["Removal", "Ring Tempt"] },
-  { name = "Ranger's Firebrand", in = ["Removal", "Ring Tempt"] },
-  { name = "The Black Breath", in = ["Wipe", "Ring Tempt"] },
-  { name = "Sink into Stupor // Soporific Springs", in = ["Removal", "Land"] },
-  { name = "Fell the Profane // Fell Mire", in = ["Removal", "Land"] },
-  { name = "Command Tower", in = ["Land"] },
-  { name = "Exotic Orchard", in = ["Land"] },
-  { name = "Fabled Passage", in = ["Land"] },
-  { name = "Path of Ancestry", in = ["Land"] },
-  { name = "Crumbling Necropolis", in = ["Land"] },
-  { name = "Xander's Lounge", in = ["Land"] },
-  { name = "Inventors' Fair", in = ["Land", "Tutor"] },
-  { name = "Bojuka Bog", in = ["Land", "Graveyard Hate"] },
-  { name = "Sulfur Falls", in = ["Land"] },
-  { name = "Shivan Reef", in = ["Land"] },
-  { name = "Frostboil Snarl", in = ["Land"] },
-  { name = "Spirebluff Canal", in = ["Land"] },
-  { name = "Drowned Catacomb", in = ["Land"] },
-  { name = "Underground River", in = ["Land"] },
-  { name = "Choked Estuary", in = ["Land"] },
-  { name = "Sunken Hollow", in = ["Land"] },
-  { name = "Darkslick Shores", in = ["Land"] },
-  { name = "Shipwreck Marsh", in = ["Land"] },
-  { name = "Dragonskull Summit", in = ["Land"] },
-  { name = "Sulfurous Springs", in = ["Land"] },
-  { name = "Foreboding Ruins", in = ["Land"] },
-  { name = "Smoldering Marsh", in = ["Land"] },
-  { name = "Haunted Ridge", in = ["Land"] },
-  { name = "Blackcleave Cliffs", in = ["Land"] },
-  { name = "Island", qty = 5, in = ["Land"] },
-  { name = "Swamp", qty = 4, in = ["Land"] },
-  { name = "Mountain", in = ["Land"] },
+  { printing = "plst/TSP-243", in = ["Commander"] },  # Mishra, Artificer Prodigy
+  { printing = "one/47", in = ["Artifact Enabler"] },  # Encroaching Mycosynth
+  { printing = "40k/30", in = ["Artifact Enabler", "Token Maker"] },  # Biotransference
+  { printing = "ltr/100", qty = 9, in = ["Nazgûl", "Ring Tempt"] },  # Nazgûl
+  { printing = "m20/234", in = ["Tutor"] },  # Pattern Matcher
+  { printing = "spg/20", in = ["Tutor"] },  # Fabricate
+  { printing = "ltr/220", in = ["Tutor", "Ring Tempt"] },  # Ringsight
+  { printing = "sld/1841", in = ["Token Copy", "Win Condition"] },  # Mechanized Production
+  { printing = "c18/211", in = ["Token Copy"] },  # Mirrorworks
+  { printing = "moc/280", in = ["Token Copy"] },  # Flameshadow Conjuring
+  { printing = "lci/239", in = ["Token Copy"] },  # Saheeli, the Sun's Brilliance
+  { printing = "plst/KLD-186", in = ["Token Copy"] },  # Saheeli Rai
+  { printing = "soc/299", in = ["Token Copy", "Win Condition"] },  # Brudiclad, Telchor Engineer
+  { printing = "rvr/62", in = ["Clone"] },  # Spark Double
+  { printing = "mm2/62", in = ["Tutor"] },  # Tezzeret the Seeker
+  { printing = "m3c/302", in = ["Cast From Top"] },  # Mystic Forge
+  { printing = "eoe/68", in = ["Cast From Top", "Ramp"] },  # Mm'menon, the Right Hand
+  { printing = "acr/15", in = ["Cast From Top", "Ramp"] },  # Crystal Skull, Isu Spyglass
+  { printing = "2x2/314", in = ["Topdeck Setup"] },  # Sensei's Divining Top
+  { printing = "cmr/337", in = ["Topdeck Setup"] },  # Scroll Rack
+  { printing = "frc/39", in = ["Topdeck Setup"] },  # Brainstorm
+  { printing = "ltr/766", in = ["Ring Tempt", "Draw"] },  # Call of the Ring
+  { printing = "sld/1294", in = ["Draw"] },  # Gandalf, Friend of the Shire
+  { printing = "hoc/20", in = ["Ring Tempt"] },  # Witch-king of Angmar
+  { printing = "ltc/58", in = ["Ring Tempt", "Token Maker"] },  # In the Darkness Bind Them
+  { printing = "ltr/782", in = ["Draw", "Ring Tempt"] },  # Sauron's Ransom
+  { printing = "cmm/116", in = ["Draw"] },  # Reverse Engineer
+  { printing = "eoc/47", in = ["Draw"] },  # Tezzeret's Gambit
+  { printing = "plst/DFT-67", in = ["Draw"] },  # Stock Up
+  { printing = "fdc/71", in = ["Draw", "Protection"] },  # Padeem, Consul of Innovation
+  { printing = "cmm/130", in = ["Ramp"] },  # Urza, Lord High Artificer
+  { printing = "fdc/62", in = ["Cost Reduction"] },  # Etherium Sculptor
+  { printing = "fdc/259", in = ["Cost Reduction"] },  # Foundry Inspector
+  { printing = "fdc/290", in = ["Artifact Payoff"] },  # Steel Overseer
+  { printing = "drc/106", in = ["Artifact Payoff"] },  # Reckless Fireweaver
+  { printing = "atq/14", in = ["Tutor"] },  # Transmute Artifact
+  { printing = "war/275", in = ["Artifact Payoff", "Win Condition"] },  # Tezzeret, Master of the Bridge
+  { printing = "fdc/245", in = ["Ramp"] },  # Arcane Signet
+  { printing = "frc/62", in = ["Ramp"] },  # Talisman of Dominance
+  { printing = "frc/63", in = ["Ramp"] },  # Talisman of Indulgence
+  { printing = "frc/61", in = ["Ramp"] },  # Talisman of Creativity
+  { printing = "frc/56", in = ["Ramp"] },  # Dimir Signet
+  { printing = "frc/60", in = ["Ramp"] },  # Rakdos Signet
+  { printing = "frc/58", in = ["Ramp"] },  # Izzet Signet
+  { printing = "frc/57", in = ["Ramp"] },  # Fellwar Stone
+  { printing = "ltr/242", in = ["Ramp", "Ring Tempt"] },  # Inherited Envelope
+  { printing = "plst/OTC-106", in = ["Removal"] },  # Pongify
+  { printing = "sch/42", in = ["Removal"] },  # Bitter Triumph
+  { printing = "soc/216", in = ["Removal"] },  # Infernal Grasp
+  { printing = "tdc/180", in = ["Removal"] },  # Feed the Swarm
+  { printing = "fdc/146", in = ["Removal"] },  # Chaos Warp
+  { printing = "sld/2426", in = ["Removal", "Wipe"] },  # Vandalblast
+  { printing = "ltr/70", in = ["Removal", "Ring Tempt"] },  # Soothing of Sméagol
+  { printing = "ltr/81", in = ["Removal", "Ring Tempt"] },  # Claim the Precious
+  { printing = "ltr/143", in = ["Removal", "Ring Tempt"] },  # Ranger's Firebrand
+  { printing = "ltr/78", in = ["Wipe", "Ring Tempt"] },  # The Black Breath
+  { printing = "mh3/241", in = ["Removal", "Land"] },  # Sink into Stupor // Soporific Springs
+  { printing = "mh3/244", in = ["Removal", "Land"] },  # Fell the Profane // Fell Mire
+  { printing = "frc/22", in = ["Land"] },  # Command Tower
+  { printing = "frc/70", in = ["Land"] },  # Exotic Orchard
+  { printing = "frc/71", in = ["Land"] },  # Fabled Passage
+  { printing = "frc/77", in = ["Land"] },  # Path of Ancestry
+  { printing = "lcc/326", in = ["Land"] },  # Crumbling Necropolis
+  { printing = "psnc/260p", in = ["Land"] },  # Xander's Lounge
+  { printing = "eos/21", in = ["Land", "Tutor"] },  # Inventors' Fair
+  { printing = "fdc/296", in = ["Land", "Graveyard Hate"] },  # Bojuka Bog
+  { printing = "frc/84", in = ["Land"] },  # Sulfur Falls
+  { printing = "frc/83", in = ["Land"] },  # Shivan Reef
+  { printing = "soc/374", in = ["Land"] },  # Frostboil Snarl
+  { printing = "otj/270", in = ["Land"] },  # Spirebluff Canal
+  { printing = "frc/69", in = ["Land"] },  # Drowned Catacomb
+  { printing = "frc/87", in = ["Land"] },  # Underground River
+  { printing = "mkc/254", in = ["Land"] },  # Choked Estuary
+  { printing = "plst/OTC-325", in = ["Land"] },  # Sunken Hollow
+  { printing = "otc/281", in = ["Land"] },  # Darkslick Shores
+  { printing = "fra/189", in = ["Land"] },  # Shipwreck Marsh
+  { printing = "ecc/147", in = ["Land"] },  # Dragonskull Summit
+  { printing = "frc/85", in = ["Land"] },  # Sulfurous Springs
+  { printing = "dsc/277", in = ["Land"] },  # Foreboding Ruins
+  { printing = "ecc/168", in = ["Land"] },  # Smoldering Marsh
+  { printing = "fra/180", in = ["Land"] },  # Haunted Ridge
+  { printing = "dsc/263", in = ["Land"] },  # Blackcleave Cliffs
+  { printing = "fra/385", qty = 5, in = ["Land"] },  # Island
+  { printing = "fra/388", qty = 4, in = ["Land"] },  # Swamp
+  { printing = "fra/391", in = ["Land"] },  # Mountain
 ]
 
 [categories]
