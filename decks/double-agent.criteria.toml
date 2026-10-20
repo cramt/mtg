@@ -66,3 +66,9 @@ adds = 2
 match = 'name:"Basalt Monolith"'
 on = "cast"
 adds = 3
+
+# Three Plains turns it on, which 29 basics make a given by the time it's cast.
+[[effect]]
+match = 'name:"Sceptre of Eternal Glory"'
+on = "cast"
+adds = 3
