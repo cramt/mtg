@@ -40,13 +40,10 @@ cards = [
   { printing = "ltr/782", in = ["Draw", "Ring Tempt"] },  # Sauron's Ransom
   { printing = "cmm/116", in = ["Draw"] },  # Reverse Engineer
   { printing = "eoc/47", in = ["Draw"] },  # Tezzeret's Gambit
-  { printing = "plst/DFT-67", in = ["Draw"] },  # Stock Up
   { printing = "fdc/71", in = ["Draw", "Protection"] },  # Padeem, Consul of Innovation
   { printing = "cmm/130", in = ["Ramp"] },  # Urza, Lord High Artificer
   { printing = "fdc/62", in = ["Cost Reduction"] },  # Etherium Sculptor
   { printing = "fdc/259", in = ["Cost Reduction"] },  # Foundry Inspector
-  { printing = "fdc/290", in = ["Artifact Payoff"] },  # Steel Overseer
-  { printing = "drc/106", in = ["Artifact Payoff"] },  # Reckless Fireweaver
   { printing = "atq/14", in = ["Tutor"] },  # Transmute Artifact
   { printing = "war/275", in = ["Artifact Payoff", "Win Condition"] },  # Tezzeret, Master of the Bridge
   { printing = "fdc/245", in = ["Ramp"] },  # Arcane Signet
@@ -57,7 +54,7 @@ cards = [
   { printing = "frc/60", in = ["Ramp"] },  # Rakdos Signet
   { printing = "frc/58", in = ["Ramp"] },  # Izzet Signet
   { printing = "frc/57", in = ["Ramp"] },  # Fellwar Stone
-  { printing = "ltr/242", in = ["Ramp", "Ring Tempt"] },  # Inherited Envelope
+  { name = "Mind Stone", in = ["Ramp"] },
   { printing = "plst/OTC-106", in = ["Removal"] },  # Pongify
   { printing = "sch/42", in = ["Removal"] },  # Bitter Triumph
   { printing = "soc/216", in = ["Removal"] },  # Infernal Grasp
@@ -70,33 +67,33 @@ cards = [
   { printing = "ltr/78", in = ["Wipe", "Ring Tempt"] },  # The Black Breath
   { printing = "mh3/241", in = ["Removal", "Land"] },  # Sink into Stupor // Soporific Springs
   { printing = "mh3/244", in = ["Removal", "Land"] },  # Fell the Profane // Fell Mire
-  { printing = "frc/22", in = ["Land"] },  # Command Tower
-  { printing = "frc/70", in = ["Land"] },  # Exotic Orchard
-  { printing = "frc/71", in = ["Land"] },  # Fabled Passage
-  { printing = "frc/77", in = ["Land"] },  # Path of Ancestry
-  { printing = "lcc/326", in = ["Land"] },  # Crumbling Necropolis
-  { printing = "psnc/260p", in = ["Land"] },  # Xander's Lounge
   { printing = "eos/21", in = ["Land", "Tutor"] },  # Inventors' Fair
   { printing = "fdc/296", in = ["Land", "Graveyard Hate"] },  # Bojuka Bog
-  { printing = "frc/84", in = ["Land"] },  # Sulfur Falls
+  { printing = "frc/22", in = ["Land"] },  # Command Tower
+  { printing = "frc/70", in = ["Land"] },  # Exotic Orchard
+  { name = "Spire of Industry", in = ["Land"] },
+  { name = "Seat of the Synod", in = ["Land"] },
+  { name = "Vault of Whispers", in = ["Land"] },
+  { name = "Great Furnace", in = ["Land"] },
+  { name = "Polluted Delta", in = ["Land"] },
+  { name = "Bloodstained Mire", in = ["Land"] },
+  { name = "Scalding Tarn", in = ["Land"] },
+  { name = "Flooded Strand", in = ["Land"] },
+  { name = "Wooded Foothills", in = ["Land"] },
+  { printing = "frc/71", in = ["Land"] },  # Fabled Passage
+  { name = "Watery Grave", in = ["Land"] },
+  { name = "Blood Crypt", in = ["Land"] },
+  { name = "Steam Vents", in = ["Land"] },
+  { printing = "psnc/260p", in = ["Land"] },  # Xander's Lounge
+  { name = "Morphic Pool", in = ["Land"] },
+  { name = "Luxury Suite", in = ["Land"] },
+  { name = "Training Center", in = ["Land"] },
   { printing = "frc/83", in = ["Land"] },  # Shivan Reef
-  { printing = "soc/374", in = ["Land"] },  # Frostboil Snarl
-  { printing = "otj/270", in = ["Land"] },  # Spirebluff Canal
-  { printing = "frc/69", in = ["Land"] },  # Drowned Catacomb
   { printing = "frc/87", in = ["Land"] },  # Underground River
-  { printing = "mkc/254", in = ["Land"] },  # Choked Estuary
-  { printing = "plst/OTC-325", in = ["Land"] },  # Sunken Hollow
-  { printing = "otc/281", in = ["Land"] },  # Darkslick Shores
-  { printing = "fra/189", in = ["Land"] },  # Shipwreck Marsh
-  { printing = "ecc/147", in = ["Land"] },  # Dragonskull Summit
   { printing = "frc/85", in = ["Land"] },  # Sulfurous Springs
-  { printing = "dsc/277", in = ["Land"] },  # Foreboding Ruins
-  { printing = "ecc/168", in = ["Land"] },  # Smoldering Marsh
-  { printing = "fra/180", in = ["Land"] },  # Haunted Ridge
-  { printing = "dsc/263", in = ["Land"] },  # Blackcleave Cliffs
   { printing = "fra/385", qty = 5, in = ["Land"] },  # Island
-  { printing = "fra/388", qty = 4, in = ["Land"] },  # Swamp
-  { printing = "fra/391", in = ["Land"] },  # Mountain
+  { printing = "fra/388", qty = 5, in = ["Land"] },  # Swamp
+  { printing = "fra/391", qty = 3, in = ["Land"] },  # Mountain
 ]
 
 [categories]
