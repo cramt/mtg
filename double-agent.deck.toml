@@ -1,0 +1,103 @@
+name = "Double Agent"
+format = "commander"
+description = """
+Yes Man, Personal Securitron plants a spy. Tutor up Spy Kit, equip it to Yes Man, then tap Yes Man to hand it to an opponent and draw two. You keep control of the Kit (CR 301.5d), so it stays on Yes Man, and Yes Man now has the name of every nonlegendary creature card. Two objects with one name in common "have the same name" (CR 201.2a), so the opponent's whole nonlegendary board now shares a name with your spy.
+
+That turns the opponent-side "same name" removal into one-sided wipes. Declaration in Stone takes that player's board, Banishment takes every opponent's, and Winnow kills anything for 2 and draws. Yes Man goes with them to the command zone, and paying 2 more for another draw-two-and-wipe is fine. Eye of Singularity destroys every nonlegendary creature on the battlefield while Mithril Coat keeps Yes Man alive, and Cornered Market stops anyone casting nonlegendary creatures while the spy is out. That includes you, so it's a late-game lock.
+
+Assault Suit keeps the donated Yes Man from being sacrificed or attacking you with your own commander damage. Stoneforge, Stonehewer Giant, Taj-Nar, Captain America, Cloud and the rest find Spy Kit, Assault Suit, or Kaldra Compleat and Batterskull to close. The artifact rocks pay for equip costs and commander tax, and Foundry Inspector discounts Yes Man itself. When Yes Man dies instead of being exiled, it stays in the graveyard for Battle of Hoover Dam, Pre-War Formalwear, Sun Titan and Recommission. Wild Card's Soldiers feed Skullclamp and Mentor of the Meek.
+
+Bracket 2: no Game Changers, so no Enlightened Tutor or Smothering Tithe."""
+
+cards = [
+  { name = "Yes Man, Personal Securitron", in = ["Commander"] },
+  { name = "Spy Kit", in = ["Spy Kit"] },
+  { name = "Assault Suit", in = ["Spy Protection"] },
+  { name = "Mithril Coat", in = ["Spy Protection"] },
+  { name = "Stoneforge Mystic", in = ["Equipment Tutor"] },
+  { name = "Steelshaper's Gift", in = ["Equipment Tutor"] },
+  { name = "Open the Armory", in = ["Equipment Tutor"] },
+  { name = "Stonehewer Giant", in = ["Equipment Tutor"] },
+  { name = "Taj-Nar Swordsmith", in = ["Equipment Tutor"] },
+  { name = "Captain America, Liberator", in = ["Equipment Tutor"] },
+  { name = "Cloud, Midgar Mercenary", in = ["Equipment Tutor"] },
+  { name = "Steelshaper Apprentice", in = ["Equipment Tutor"] },
+  { name = "Pattern Matcher", in = ["Creature Tutor"] },
+  { name = "Sigarda's Aid", in = ["Equip Enabler"] },
+  { name = "Puresteel Paladin", in = ["Equip Enabler", "Draw"] },
+  { name = "Sram, Senior Edificer", in = ["Draw"] },
+  { name = "Skullclamp", in = ["Draw"] },
+  { name = "Mentor of the Meek", in = ["Draw"] },
+  { name = "Esper Sentinel", in = ["Draw"] },
+  { name = "Welcoming Vampire", in = ["Draw"] },
+  { name = "Archivist of Oghma", in = ["Draw"] },
+  { name = "Declaration in Stone", in = ["Same-Name Removal"] },
+  { name = "Banishment", in = ["Same-Name Removal"] },
+  { name = "Winnow", in = ["Same-Name Removal", "Draw"] },
+  { name = "Eye of Singularity", in = ["Same-Name Removal", "Wipe"] },
+  { name = "Cornered Market", in = ["Same-Name Removal", "Stax"] },
+  { name = "Swords to Plowshares", in = ["Removal"] },
+  { name = "Path to Exile", in = ["Removal"] },
+  { name = "Generous Gift", in = ["Removal"] },
+  { name = "Council's Judgment", in = ["Removal"] },
+  { name = "Get Lost", in = ["Removal"] },
+  { name = "Fateful Absence", in = ["Removal"] },
+  { name = "Austere Command", in = ["Wipe"] },
+  { name = "Flawless Maneuver", in = ["Spy Protection"] },
+  { name = "Battle of Hoover Dam", in = ["Commander Recursion"] },
+  { name = "Pre-War Formalwear", in = ["Commander Recursion"] },
+  { name = "Sun Titan", in = ["Commander Recursion", "Finisher"] },
+  { name = "Recommission", in = ["Commander Recursion"] },
+  { name = "Arcane Signet", in = ["Ramp"] },
+  { name = "Mind Stone", in = ["Ramp"] },
+  { name = "Fellwar Stone", in = ["Ramp"] },
+  { name = "Thought Vessel", in = ["Ramp"] },
+  { name = "Coldsteel Heart", in = ["Ramp"] },
+  { name = "Everflowing Chalice", in = ["Ramp"] },
+  { name = "Fabrication Foundry", in = ["Ramp"] },
+  { name = "Thran Dynamo", in = ["Ramp"] },
+  { name = "Worn Powerstone", in = ["Ramp"] },
+  { name = "Basalt Monolith", in = ["Ramp"] },
+  { name = "Hedron Archive", in = ["Ramp", "Draw"] },
+  { name = "Foundry Inspector", in = ["Ramp"] },
+  { name = "Prismatic Ending", in = ["Removal"] },
+  { name = "Loran of the Third Path", in = ["Removal"] },
+  { name = "Mangara, the Diplomat", in = ["Draw"] },
+  { name = "Tome of Legends", in = ["Draw"] },
+  { name = "Enduring Innocence", in = ["Draw"] },
+  { name = "Land Tax", in = ["Ramp", "Draw"] },
+  { name = "Archaeomancer's Map", in = ["Ramp"] },
+  { name = "Darksteel Plate", in = ["Spy Protection"] },
+  { name = "Akroma's Will", in = ["Spy Protection", "Finisher"] },
+  { name = "Kaldra Compleat", in = ["Finisher"] },
+  { name = "Batterskull", in = ["Finisher"] },
+  { name = "Myrel, Shield of Argive", in = ["Finisher"] },
+  { name = "Elspeth, Sun's Champion", in = ["Finisher"] },
+  { name = "Emeria's Call // Emeria, Shattered Skyclave", in = ["Land", "Finisher"] },
+  { name = "Sejiri Shelter // Sejiri Glacier", in = ["Land", "Spy Protection"] },
+  { name = "Inventors' Fair", in = ["Land", "Equipment Tutor"] },
+  { name = "Buried Ruin", in = ["Land", "Commander Recursion"] },
+  { name = "Castle Ardenvale", in = ["Land"] },
+  { name = "Scavenger Grounds", in = ["Land", "Graveyard Hate"] },
+  { name = "Ancient Den", in = ["Land"] },
+  { name = "Myriad Landscape", in = ["Land"] },
+  { name = "Plains", qty = 29, in = ["Land"] },
+]
+
+[categories]
+Commander = { type = "commander" }
+"Commander Recursion" = {}
+"Creature Tutor" = {}
+Draw = {}
+"Equip Enabler" = {}
+"Equipment Tutor" = {}
+Finisher = {}
+"Graveyard Hate" = {}
+Land = {}
+Ramp = {}
+Removal = {}
+"Same-Name Removal" = {}
+"Spy Kit" = {}
+"Spy Protection" = {}
+Stax = {}
+Wipe = {}
