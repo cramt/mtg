@@ -10,78 +10,78 @@ Assault Suit keeps the donated Yes Man from being sacrificed or attacking you wi
 Bracket 2: no Game Changers, so no Enlightened Tutor or Smothering Tithe."""
 
 cards = [
-  { name = "Yes Man, Personal Securitron", in = ["Commander"] },
-  { name = "Spy Kit", in = ["Spy Kit"] },
-  { name = "Assault Suit", in = ["Spy Protection"] },
-  { name = "Mithril Coat", in = ["Spy Protection"] },
-  { name = "Stoneforge Mystic", in = ["Equipment Tutor"] },
-  { name = "Steelshaper's Gift", in = ["Equipment Tutor"] },
-  { name = "Open the Armory", in = ["Equipment Tutor"] },
-  { name = "Stonehewer Giant", in = ["Equipment Tutor"] },
-  { name = "Taj-Nar Swordsmith", in = ["Equipment Tutor"] },
-  { name = "Captain America, Liberator", in = ["Equipment Tutor"] },
-  { name = "Cloud, Midgar Mercenary", in = ["Equipment Tutor"] },
-  { name = "Steelshaper Apprentice", in = ["Equipment Tutor"] },
-  { name = "Pattern Matcher", in = ["Creature Tutor"] },
-  { name = "Sigarda's Aid", in = ["Equip Enabler"] },
-  { name = "Puresteel Paladin", in = ["Equip Enabler", "Draw"] },
-  { name = "Sram, Senior Edificer", in = ["Draw"] },
-  { name = "Skullclamp", in = ["Draw"] },
-  { name = "Mentor of the Meek", in = ["Draw"] },
-  { name = "Esper Sentinel", in = ["Draw"] },
-  { name = "Welcoming Vampire", in = ["Draw"] },
-  { name = "Archivist of Oghma", in = ["Draw"] },
-  { name = "Declaration in Stone", in = ["Same-Name Removal"] },
-  { name = "Banishment", in = ["Same-Name Removal"] },
-  { name = "Winnow", in = ["Same-Name Removal", "Draw"] },
-  { name = "Eye of Singularity", in = ["Same-Name Removal", "Wipe"] },
-  { name = "Cornered Market", in = ["Same-Name Removal", "Stax"] },
-  { name = "Swords to Plowshares", in = ["Removal"] },
-  { name = "Path to Exile", in = ["Removal"] },
-  { name = "Generous Gift", in = ["Removal"] },
-  { name = "Council's Judgment", in = ["Removal"] },
-  { name = "Get Lost", in = ["Removal"] },
-  { name = "Fateful Absence", in = ["Removal"] },
-  { name = "Austere Command", in = ["Wipe"] },
-  { name = "Flawless Maneuver", in = ["Spy Protection"] },
-  { name = "Battle of Hoover Dam", in = ["Commander Recursion"] },
-  { name = "Pre-War Formalwear", in = ["Commander Recursion"] },
-  { name = "Sun Titan", in = ["Commander Recursion", "Finisher"] },
-  { name = "Recommission", in = ["Commander Recursion"] },
-  { name = "Arcane Signet", in = ["Ramp"] },
-  { name = "Mind Stone", in = ["Ramp"] },
-  { name = "Fellwar Stone", in = ["Ramp"] },
-  { name = "Thought Vessel", in = ["Ramp"] },
-  { name = "Coldsteel Heart", in = ["Ramp"] },
-  { name = "Everflowing Chalice", in = ["Ramp"] },
-  { name = "Fabrication Foundry", in = ["Ramp"] },
-  { name = "Thran Dynamo", in = ["Ramp"] },
-  { name = "Worn Powerstone", in = ["Ramp"] },
-  { name = "Basalt Monolith", in = ["Ramp"] },
-  { name = "Hedron Archive", in = ["Ramp", "Draw"] },
-  { name = "Foundry Inspector", in = ["Ramp"] },
-  { name = "Prismatic Ending", in = ["Removal"] },
-  { name = "Loran of the Third Path", in = ["Removal"] },
-  { name = "Mangara, the Diplomat", in = ["Draw"] },
-  { name = "Tome of Legends", in = ["Draw"] },
-  { name = "Enduring Innocence", in = ["Draw"] },
-  { name = "Land Tax", in = ["Ramp", "Draw"] },
-  { name = "Archaeomancer's Map", in = ["Ramp"] },
-  { name = "Darksteel Plate", in = ["Spy Protection"] },
-  { name = "Akroma's Will", in = ["Spy Protection", "Finisher"] },
-  { name = "Kaldra Compleat", in = ["Finisher"] },
-  { name = "Batterskull", in = ["Finisher"] },
-  { name = "Myrel, Shield of Argive", in = ["Finisher"] },
-  { name = "Elspeth, Sun's Champion", in = ["Finisher"] },
-  { name = "Emeria's Call // Emeria, Shattered Skyclave", in = ["Land", "Finisher"] },
-  { name = "Sejiri Shelter // Sejiri Glacier", in = ["Land", "Spy Protection"] },
-  { name = "Inventors' Fair", in = ["Land", "Equipment Tutor"] },
-  { name = "Buried Ruin", in = ["Land", "Commander Recursion"] },
-  { name = "Castle Ardenvale", in = ["Land"] },
-  { name = "Scavenger Grounds", in = ["Land", "Graveyard Hate"] },
-  { name = "Ancient Den", in = ["Land"] },
-  { name = "Myriad Landscape", in = ["Land"] },
-  { name = "Plains", qty = 29, in = ["Land"] },
+  { printing = "pip/29", in = ["Commander"] },  # Yes Man, Personal Securitron
+  { printing = "plst/CN2-79", in = ["Spy Kit"] },  # Spy Kit
+  { printing = "cmm/369", in = ["Spy Protection"] },  # Assault Suit
+  { printing = "hoc/43", in = ["Spy Protection"] },  # Mithril Coat
+  { printing = "spg/29", in = ["Equipment Tutor"] },  # Stoneforge Mystic
+  { printing = "cmm/59", in = ["Equipment Tutor"] },  # Steelshaper's Gift
+  { printing = "cmr/34", in = ["Equipment Tutor"] },  # Open the Armory
+  { printing = "plst/2XM-32", in = ["Equipment Tutor"] },  # Stonehewer Giant
+  { printing = "c17/77", in = ["Equipment Tutor"] },  # Taj-Nar Swordsmith
+  { printing = "msc/587", in = ["Equipment Tutor"] },  # Captain America, Liberator
+  { printing = "fin/564", in = ["Equipment Tutor"] },  # Cloud, Midgar Mercenary
+  { printing = "dst/15", in = ["Equipment Tutor"] },  # Steelshaper Apprentice
+  { printing = "m20/234", in = ["Creature Tutor"] },  # Pattern Matcher
+  { printing = "sld/731", in = ["Equip Enabler"] },  # Sigarda's Aid
+  { printing = "cmm/51", in = ["Equip Enabler", "Draw"] },  # Puresteel Paladin
+  { printing = "soc/176", in = ["Draw"] },  # Sram, Senior Edificer
+  { printing = "plst/MOC-379", in = ["Draw"] },  # Skullclamp
+  { printing = "inr/34", in = ["Draw"] },  # Mentor of the Meek
+  { printing = "sld/2123", in = ["Draw"] },  # Esper Sentinel
+  { printing = "tdc/140", in = ["Draw"] },  # Welcoming Vampire
+  { printing = "sld/874", in = ["Draw"] },  # Archivist of Oghma
+  { printing = "ncc/196", in = ["Same-Name Removal"] },  # Declaration in Stone
+  { printing = "clb/8", in = ["Same-Name Removal"] },  # Banishment
+  { printing = "inv/45", in = ["Same-Name Removal", "Draw"] },  # Winnow
+  { printing = "vis/4", in = ["Same-Name Removal", "Wipe"] },  # Eye of Singularity
+  { printing = "mmq/14", in = ["Same-Name Removal", "Stax"] },  # Cornered Market
+  { printing = "fdc/53", in = ["Removal"] },  # Swords to Plowshares
+  { printing = "frc/30", in = ["Removal"] },  # Path to Exile
+  { printing = "sld/2534", in = ["Removal"] },  # Generous Gift
+  { printing = "otc/79", in = ["Removal"] },  # Council's Judgment
+  { printing = "pspl/5", in = ["Removal"] },  # Get Lost
+  { printing = "fdc/30", in = ["Removal"] },  # Fateful Absence
+  { printing = "fdc/18", in = ["Wipe"] },  # Austere Command
+  { printing = "frc/25", in = ["Spy Protection"] },  # Flawless Maneuver
+  { printing = "pip/11", in = ["Commander Recursion"] },  # Battle of Hoover Dam
+  { printing = "sld/2450", in = ["Commander Recursion"] },  # Pre-War Formalwear
+  { printing = "soc/178", in = ["Commander Recursion", "Finisher"] },  # Sun Titan
+  { printing = "bro/22", in = ["Commander Recursion"] },  # Recommission
+  { printing = "fdc/245", in = ["Ramp"] },  # Arcane Signet
+  { printing = "fdc/271", in = ["Ramp"] },  # Mind Stone
+  { printing = "frc/57", in = ["Ramp"] },  # Fellwar Stone
+  { printing = "fdc/292", in = ["Ramp"] },  # Thought Vessel
+  { printing = "j22/94", in = ["Ramp"] },  # Coldsteel Heart
+  { printing = "eoc/137", in = ["Ramp"] },  # Everflowing Chalice
+  { printing = "lci/12", in = ["Ramp"] },  # Fabrication Foundry
+  { printing = "blc/290", in = ["Ramp"] },  # Thran Dynamo
+  { printing = "pmei/2026-21", in = ["Ramp"] },  # Worn Powerstone
+  { printing = "2xm/232", in = ["Ramp"] },  # Basalt Monolith
+  { printing = "fdc/262", in = ["Ramp", "Draw"] },  # Hedron Archive
+  { printing = "fdc/259", in = ["Ramp"] },  # Foundry Inspector
+  { printing = "mb2/16", in = ["Removal"] },  # Prismatic Ending
+  { printing = "plst/BLC-143", in = ["Removal"] },  # Loran of the Third Path
+  { printing = "plst/TDC-124", in = ["Draw"] },  # Mangara, the Diplomat
+  { printing = "fdc/293", in = ["Draw"] },  # Tome of Legends
+  { printing = "dsk/6", in = ["Draw"] },  # Enduring Innocence
+  { printing = "soc/153", in = ["Ramp", "Draw"] },  # Land Tax
+  { printing = "soc/136", in = ["Ramp"] },  # Archaeomancer's Map
+  { printing = "2x2/304", in = ["Spy Protection"] },  # Darksteel Plate
+  { printing = "plst/CMR-3", in = ["Spy Protection", "Finisher"] },  # Akroma's Will
+  { printing = "pspl/2", in = ["Finisher"] },  # Kaldra Compleat
+  { printing = "plst/NPH-130", in = ["Finisher"] },  # Batterskull
+  { printing = "slc/13", in = ["Finisher"] },  # Myrel, Shield of Argive
+  { printing = "frc/24", in = ["Finisher"] },  # Elspeth, Sun's Champion
+  { printing = "pznr/12s", in = ["Land", "Finisher"] },  # Emeria's Call // Emeria, Shattered Skyclave
+  { printing = "znr/37", in = ["Land", "Spy Protection"] },  # Sejiri Shelter // Sejiri Glacier
+  { printing = "eos/21", in = ["Land", "Equipment Tutor"] },  # Inventors' Fair
+  { printing = "fdc/298", in = ["Land", "Commander Recursion"] },  # Buried Ruin
+  { printing = "tdc/346", in = ["Land"] },  # Castle Ardenvale
+  { printing = "fdc/311", in = ["Land", "Graveyard Hate"] },  # Scavenger Grounds
+  { printing = "eoc/148", in = ["Land"] },  # Ancient Den
+  { printing = "plst/DSC-289", in = ["Land"] },  # Myriad Landscape
+  { printing = "fra/382", qty = 29, in = ["Land"] },  # Plains
 ]
 
 [categories]
