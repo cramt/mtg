@@ -38,14 +38,14 @@ cards = [
   { printing = "mmq/14", in = ["Same-Name Removal", "Stax"] },  # Cornered Market
   { printing = "fdc/53", in = ["Removal"] },  # Swords to Plowshares
   { printing = "frc/30", in = ["Removal"] },  # Path to Exile
-  { printing = "sld/2534", in = ["Removal"] },  # Generous Gift
+  { printing = "lcc/128", in = ["Removal"] },  # Generous Gift
   { printing = "otc/79", in = ["Removal"] },  # Council's Judgment
-  { printing = "pspl/5", in = ["Removal"] },  # Get Lost
+  { printing = "lci/14", in = ["Removal"] },  # Get Lost
   { printing = "fdc/30", in = ["Removal"] },  # Fateful Absence
   { printing = "fdc/18", in = ["Wipe"] },  # Austere Command
   { printing = "frc/25", in = ["Spy Protection"] },  # Flawless Maneuver
   { printing = "pip/11", in = ["Commander Recursion"] },  # Battle of Hoover Dam
-  { printing = "sld/2450", in = ["Commander Recursion"] },  # Pre-War Formalwear
+  { printing = "pip/21", in = ["Commander Recursion"] },  # Pre-War Formalwear
   { printing = "soc/178", in = ["Commander Recursion", "Finisher"] },  # Sun Titan
   { printing = "bro/22", in = ["Commander Recursion"] },  # Recommission
   { printing = "fdc/245", in = ["Ramp"] },  # Arcane Signet
