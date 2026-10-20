@@ -2,25 +2,25 @@ name = "Weapons of Mass Dragonstruction"
 description = "Pioneer Bo1 Rakdos Weapons Manufacturing. Munitions ping, then Draconic Visitor turns every artifact token (Munitions, Anvil Constructs, Extruder Golems, Dispute Treasures) into 5/5 flying Dragons."
 
 cards = [
-  { name = "Weapons Manufacturing", qty = 4, in = ["Munitions Engine"] },
-  { name = "Oni-Cult Anvil", qty = 4, in = ["Sac Outlet", "Token Maker"] },
-  { name = "Draconic Visitor", qty = 3, in = ["Dragon Engine", "Finisher"] },
-  { name = "Experimental Synthesizer", qty = 4, in = ["Cheap Artifact"] },
-  { name = "Clockwork Percussionist", qty = 4, in = ["Cheap Artifact"] },
-  { name = "Legion Extruder", qty = 3, in = ["Cheap Artifact", "Sac Outlet", "Token Maker", "Removal"] },
-  { name = "Deadly Dispute", qty = 4, in = ["Sac Outlet", "Card Draw"] },
-  { name = "Shrapnel Blast", qty = 4, in = ["Sac Outlet", "Burn"] },
-  { name = "Rottenmouth Viper", qty = 2, in = ["Sac Outlet", "Finisher"] },
-  { name = "Fatal Push", qty = 4, in = ["Removal"] },
-  { name = "Voltage Surge", qty = 1, in = ["Removal", "Sac Outlet"] },
-  { name = "Blood Crypt", qty = 4, in = ["Land"] },
-  { name = "Blackcleave Cliffs", qty = 4, in = ["Land"] },
-  { name = "Blazemire Verge", qty = 4, in = ["Land"] },
-  { name = "Sulfurous Springs", qty = 3, in = ["Land"] },
-  { name = "Blightstep Pathway", qty = 2, in = ["Land"] },
-  { name = "Mountain", qty = 4, in = ["Land"] },
-  { name = "Swamp", in = ["Land"] },
-  { name = "Sokenzan, Crucible of Defiance", in = ["Land"] },
+  { printing = "eoe/168", qty = 4, in = ["Munitions Engine"] },  # Weapons Manufacturing
+  { printing = "neo/230", qty = 4, in = ["Sac Outlet", "Token Maker"] },  # Oni-Cult Anvil
+  { printing = "fra/80", qty = 3, in = ["Dragon Engine", "Finisher"] },  # Draconic Visitor
+  { printing = "plst/NEO-138", qty = 4, in = ["Cheap Artifact"] },  # Experimental Synthesizer
+  { printing = "dsk/130", qty = 4, in = ["Cheap Artifact"] },  # Clockwork Percussionist
+  { printing = "pbig/12p", qty = 3, in = ["Cheap Artifact", "Sac Outlet", "Token Maker", "Removal"] },  # Legion Extruder
+  { printing = "sld/1980", qty = 4, in = ["Sac Outlet", "Card Draw"] },  # Deadly Dispute
+  { printing = "ddu/48", qty = 4, in = ["Sac Outlet", "Burn"] },  # Shrapnel Blast
+  { printing = "blb/107", qty = 2, in = ["Sac Outlet", "Finisher"] },  # Rottenmouth Viper
+  { printing = "slp/3", qty = 4, in = ["Removal"] },  # Fatal Push
+  { printing = "neo/171", qty = 1, in = ["Removal", "Sac Outlet"] },  # Voltage Surge
+  { printing = "ecl/262", qty = 4, in = ["Land"] },  # Blood Crypt
+  { printing = "dsc/263", qty = 4, in = ["Land"] },  # Blackcleave Cliffs
+  { printing = "dsk/256", qty = 4, in = ["Land"] },  # Blazemire Verge
+  { printing = "frc/85", qty = 3, in = ["Land"] },  # Sulfurous Springs
+  { printing = "plst/KHM-252", qty = 2, in = ["Land"] },  # Blightstep Pathway
+  { printing = "fra/391", qty = 4, in = ["Land"] },  # Mountain
+  { printing = "fra/388", in = ["Land"] },  # Swamp
+  { printing = "neo/276", in = ["Land"] },  # Sokenzan, Crucible of Defiance
 ]
 
 [categories]
