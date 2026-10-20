@@ -34,7 +34,7 @@ cards = [
   { printing = "cmr/337", in = ["Topdeck Setup"] },  # Scroll Rack
   { printing = "frc/39", in = ["Topdeck Setup"] },  # Brainstorm
   { printing = "ltr/766", in = ["Ring Tempt", "Draw"] },  # Call of the Ring
-  { printing = "sld/1294", in = ["Draw"] },  # Gandalf, Friend of the Shire
+  { printing = "ltr/50", in = ["Draw"] },  # Gandalf, Friend of the Shire
   { printing = "hoc/20", in = ["Ring Tempt"] },  # Witch-king of Angmar
   { printing = "ltc/58", in = ["Ring Tempt", "Token Maker"] },  # In the Darkness Bind Them
   { printing = "ltr/782", in = ["Draw", "Ring Tempt"] },  # Sauron's Ransom
