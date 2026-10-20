@@ -28,7 +28,7 @@ cards = [
   { printing = "soc/176", in = ["Draw"] },  # Sram, Senior Edificer
   { printing = "plst/MOC-379", in = ["Draw"] },  # Skullclamp
   { printing = "inr/34", in = ["Draw"] },  # Mentor of the Meek
-  { printing = "sld/2123", in = ["Draw"] },  # Esper Sentinel
+  { printing = "plst/MH2-12", in = ["Draw"] },  # Esper Sentinel
   { printing = "tdc/140", in = ["Draw"] },  # Welcoming Vampire
   { printing = "sld/874", in = ["Draw"] },  # Archivist of Oghma
   { printing = "ncc/196", in = ["Same-Name Removal"] },  # Declaration in Stone
@@ -56,7 +56,7 @@ cards = [
   { printing = "eoc/137", in = ["Ramp"] },  # Everflowing Chalice
   { printing = "lci/12", in = ["Ramp"] },  # Fabrication Foundry
   { printing = "blc/290", in = ["Ramp"] },  # Thran Dynamo
-  { printing = "pmei/2026-21", in = ["Ramp"] },  # Worn Powerstone
+  { printing = "cmm/984", in = ["Ramp"] },  # Worn Powerstone
   { printing = "2xm/232", in = ["Ramp"] },  # Basalt Monolith
   { printing = "fdc/262", in = ["Ramp", "Draw"] },  # Hedron Archive
   { printing = "fdc/259", in = ["Ramp"] },  # Foundry Inspector
