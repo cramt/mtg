@@ -1,4 +1,5 @@
 name = "Weapons of Mass Dragonstruction"
+cover = "eoe/168"
 description = "Pioneer Bo1 Rakdos Weapons Manufacturing. Munitions ping, then Draconic Visitor turns every artifact token (Munitions, Anvil Constructs, Extruder Golems, Dispute Treasures) into 5/5 flying Dragons."
 
 cards = [
