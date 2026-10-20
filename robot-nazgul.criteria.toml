@@ -4,8 +4,9 @@
 # before Nazgûl casts double up, so the bars are Mishra on curve, an enabler by 5, and
 # a Nazgûl or Pattern Matcher in hand once both are down.
 #
-# Measured 2026-10-20: Mishra by turn 4 reads 71% here and 73% with every land read
-# untapped, so the checklands cost ~2 points and the rock count is the real limit.
+# Measured 2026-10-20 at 37 lands with fetches, shocks and Battlebond lands: Mishra on
+# turn 3 39%, by turn 4 77%. At 34 lands with checklands it was 32% / 70%, and a bench
+# of 34 / 36 / 37 lands put 6 mana by turn 6 at 43% / 48% / 51% for +1.5 points of flood.
 # A "{U}{B}{R} by turn 3" bar was dropped: can_cast reads what's left after the
 # casting line spends the turn's mana on Mishra, so it only re-measured the cast.
 
@@ -14,25 +15,23 @@ keep = [{ query = "t:land", min = 2, max = 5 }]
 down_to = 6
 bottom = ['mv>=5', 't:land']
 
-# Lands gauntlet reads as tapped that are untapped on the turns these bars ask about.
-# Fastlands are untapped through turn 3. Slowlands are tapped only as the first or
-# second land, and the bars here are turns 3-5. The MDFC lands enter untapped for 3
-# life. Checklands, reveal lands and the snarl stay read as tapped: with 11 typed
-# lands they're untapped about half the time early, so leaving them tapped is the floor.
+# Lands gauntlet reads as tapped that are untapped here. Shocks are paid for, the
+# Battlebond-style lands have two or more opponents in Commander, and the MDFC lands
+# enter untapped for 3 life. Fetches still read as the tapped land they find: a floor.
 [assume]
-untapped = ['name:"Spirebluff Canal" or name:"Darkslick Shores" or name:"Blackcleave Cliffs" or name:"Sunken Hollow" or name:"Smoldering Marsh" or name:"Shipwreck Marsh" or name:"Haunted Ridge" or name:"Sink into Stupor" or name:"Fell the Profane"']
+untapped = ['name:"Watery Grave" or name:"Blood Crypt" or name:"Steam Vents" or o:"two or more opponents" or name:"Sink into Stupor" or name:"Fell the Profane"']
 
 [casting]
 prefer = ['name:"Mishra, Artificer Prodigy"', 'cat:"Ramp"']
 
 [[criterion]]
 name = "Mishra on turn 3"
-at_least = 0.28
+at_least = 0.35
 require = [{ turn = 3, cast = 'name:"Mishra, Artificer Prodigy"', min = 1 }]
 
 [[criterion]]
 name = "Mishra by turn 4"
-at_least = 0.68
+at_least = 0.72
 require = [{ turn = 4, cast = 'name:"Mishra, Artificer Prodigy"', min = 1 }]
 
 [[criterion]]
