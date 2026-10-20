@@ -1,0 +1,68 @@
+# Bench: `gauntlet test decks/double-agent.deck.toml decks/double-agent.criteria.toml [--draw]`
+# The ramp is deliberately not about curving Yes Man out on turn 2 (there's no 1-mana
+# accelerant in white worth a slot). The rocks pay for the equip costs and for recasting
+# Yes Man at 5 and 7 after each exile, so the bars are "Yes Man on 3" and the recast turns.
+# The recast figures are floors: the casting line spends the same mana on rocks that turn.
+# 35 lands beat 33 by ~5 points on both recast bars, so it runs 35.
+
+[mulligan]
+keep = [{ query = "t:land", min = 2, max = 5 }]
+down_to = 6
+bottom = ['mv>=5', 't:land']
+
+[casting]
+prefer = ['name:"Yes Man, Personal Securitron"', 'cat:"Ramp"']
+
+[[effect]]
+match = 'name:"Fellwar Stone"'
+on = "cast"
+adds = 1
+
+[[criterion]]
+name = "Yes Man on turn 3"
+at_least = 0.80
+require = [{ turn = 3, cast = 'name:"Yes Man, Personal Securitron"', min = 1 }]
+
+[[criterion]]
+name = "Spy Kit or a way to find it by turn 4"
+at_least = 0.60
+require = [{ turn = 4, query = 'cat:"Spy Kit" or cat:"Equipment Tutor"', min = 1 }]
+
+[[criterion]]
+name = "5 mana by turn 5 (Yes Man's first recast)"
+at_least = 0.55
+require = [{ turn = 5, can_cast = "{4}{W}" }]
+
+[[criterion]]
+name = "7 mana by turn 7 (second recast)"
+at_least = 0.45
+require = [{ turn = 7, can_cast = "{6}{W}" }]
+
+[[criterion]]
+name = "same-name removal by turn 6"
+at_least = 0.45
+require = [{ turn = 6, query = 'cat:"Same-Name Removal"', min = 1 }]
+
+[[expect]]
+name = "lands in opener"
+turn = 0
+query = "t:land"
+
+# Rocks the standard effect library can't read. Coldsteel Heart names white. Fabrication
+# Foundry's mana only pays for artifact spells, which Yes Man is. Basalt Monolith's
+# doesn't-untap is ignored: it untaps for {3} and nets 3 every other turn at worst.
+# Everflowing Chalice is cast for 2 with one charge counter.
+[[effect]]
+match = 'name:"Coldsteel Heart" or name:"Everflowing Chalice" or name:"Fabrication Foundry"'
+on = "cast"
+adds = 1
+
+[[effect]]
+match = 'name:"Worn Powerstone"'
+on = "cast"
+adds = 2
+
+[[effect]]
+match = 'name:"Basalt Monolith"'
+on = "cast"
+adds = 3
