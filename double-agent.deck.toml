@@ -60,7 +60,7 @@ cards = [
   { printing = "2xm/232", in = ["Ramp"] },  # Basalt Monolith
   { printing = "fdc/262", in = ["Ramp", "Draw"] },  # Hedron Archive
   { printing = "fdc/259", in = ["Ramp"] },  # Foundry Inspector
-  { name = "March of Otherworldly Light", in = ["Removal"] },
+  { printing = "neo/28", in = ["Removal"] },  # March of Otherworldly Light
   { printing = "plst/BLC-143", in = ["Removal"] },  # Loran of the Third Path
   { printing = "plst/TDC-124", in = ["Draw"] },  # Mangara, the Diplomat
   { printing = "fdc/293", in = ["Draw"] },  # Tome of Legends
