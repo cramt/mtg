@@ -29,7 +29,7 @@ cards = [
   { printing = "plst/MOC-379", in = ["Draw"] },  # Skullclamp
   { printing = "inr/34", in = ["Draw"] },  # Mentor of the Meek
   { printing = "plst/MH2-12", in = ["Draw"] },  # Esper Sentinel
-  { name = "Endless Atlas", in = ["Draw"] },
+  { printing = "fdc/256", in = ["Draw"] },  # Endless Atlas
   { printing = "sld/874", in = ["Draw"] },  # Archivist of Oghma
   { printing = "ncc/196", in = ["Same-Name Removal"] },  # Declaration in Stone
   { printing = "clb/8", in = ["Same-Name Removal"] },  # Banishment
@@ -51,7 +51,7 @@ cards = [
   { printing = "fdc/245", in = ["Ramp"] },  # Arcane Signet
   { printing = "fdc/271", in = ["Ramp"] },  # Mind Stone
   { printing = "frc/57", in = ["Ramp"] },  # Fellwar Stone
-  { name = "Sceptre of Eternal Glory", in = ["Ramp"] },
+  { printing = "40k/166", in = ["Ramp"] },  # Sceptre of Eternal Glory
   { printing = "j22/94", in = ["Ramp"] },  # Coldsteel Heart
   { printing = "eoc/137", in = ["Ramp"] },  # Everflowing Chalice
   { printing = "lci/12", in = ["Ramp"] },  # Fabrication Foundry
@@ -67,7 +67,7 @@ cards = [
   { printing = "dsk/6", in = ["Draw"] },  # Enduring Innocence
   { printing = "soc/153", in = ["Ramp", "Draw"] },  # Land Tax
   { printing = "soc/136", in = ["Ramp"] },  # Archaeomancer's Map
-  { name = "Runed Halo", in = ["Spy Protection"] },
+  { printing = "plst/M21-32", in = ["Spy Protection"] },  # Runed Halo
   { printing = "plst/CMR-3", in = ["Spy Protection", "Finisher"] },  # Akroma's Will
   { printing = "cmm/958", in = ["Finisher"] },  # Kaldra Compleat
   { printing = "plst/NPH-130", in = ["Finisher"] },  # Batterskull
