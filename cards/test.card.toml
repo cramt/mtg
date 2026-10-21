@@ -1,12 +1,10 @@
 name = "Kaladin, Herald of Second Chances"
 type = "Legendary Planeswalker — Kaladin"
 color_indicator = "WU"
-loyalty = "5"
+loyalty = "3"
 rules = """
 At the beginning of your upkeep, if an opponent controls more creatures than you, Kaladin becomes a 6/6 Knight Avatar with flying and indestructible until end of turn.
 
-+1: Create a 1/1 white Soldier creature token.
++1: Creature a 2/2 white knight creature token with flying and vige
 
-0: Put a +1/+1 counter on each creature you control. Those creatures gain flying until your next turn.
-
-−3: Destroy target creature an opponent controls with mana value 3 or greater."""
+-1: Put a +1/+1 counter on each creature you control. Those creatures gain flying until your next turn."""
