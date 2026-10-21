@@ -3,9 +3,7 @@ type = "Legendary Planeswalker — Kaladin"
 color_indicator = "WU"
 loyalty = "5"
 rules = """
-During your turn, as long as Kaito has one or more loyalty counters on him, he’s a 3/4 Ninja creature and has hexproof.
-
-At the beginning of your upkeep, if an opponent controls more lands than you, you may search your library for up to three basic land cards, reveal them, put them into your hand, then shuffle.
+At the beginning of your upkeep, if an opponent controls more creatures than you, Kaladin is a 5/5 Knight Avatar creature and has flying.
 
 +1: Create a 1/1 white Soldier creature token.
 
