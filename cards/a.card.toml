@@ -2,7 +2,7 @@ name = "Knights of Wind and Truth"
 type = "Kindred Enchantment - Saga Knight"
 cost = "{W}{U}{B}"
 rules = """
-I — For each opponent, destroy up to one target nonartifact creature that player controls.
+I — Target Legendary Knight you control fights another target creature
 
 II — For each opponent, you create a 2/2 colorless Robot Villain artifact creature token.
 
