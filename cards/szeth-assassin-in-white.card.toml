@@ -4,6 +4,5 @@ type = "Legendary Creature — Human Assassin"
 rules = """
 Flying, Deathtouch, Vigilance.
 
-
 """
 pt = "3/1"
