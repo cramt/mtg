@@ -1099,7 +1099,7 @@ stables = {}
 "white bulk" = {}
 "green bulk" = {}
 "red bulk" = {}
-"There's No Place Like Loam" = { deck = "decks/there-s-no-place-like-loam.deck.toml" }
-"An Apple a Day" = { deck = "decks/an-apple-a-day.deck.toml" }
-"Pest Control" = { deck = "decks/pest-control.deck.toml" }
-"Solve for X" = { deck = "decks/solve-for-x.deck.toml" }
+"There's No Place Like Loam" = { deck = "there-s-no-place-like-loam" }
+"An Apple a Day" = { deck = "an-apple-a-day" }
+"Pest Control" = { deck = "pest-control" }
+"Solve for X" = { deck = "solve-for-x" }
