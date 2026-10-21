@@ -3,7 +3,9 @@ type = "Legendary Planeswalker — Kaladin"
 color_indicator = "WU"
 loyalty = "5"
 rules = """
-If one or more tokens would be created under your control, twice that many of those tokens are created instead.
+During your turn, as long as Kaito has one or more loyalty counters on him, he’s a 3/4 Ninja creature and has hexproof.
+
+At the beginning of your upkeep if your 
 
 +1: Create a 1/1 white Soldier creature token.
 
