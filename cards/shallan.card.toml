@@ -1,6 +1,6 @@
 name = "Shallan of The Unseen Court"
 cost = "{1}{U}{B}{R}"
-type = "Legendary Creature — Human"
+type = "Legendary Creature — Human Warlock"
 rules = """
 Flying
 """
