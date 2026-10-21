@@ -1,4 +1,4 @@
 name = "a"
-cost = "{1}{U}"
 type = "Creature — Homunculus"
 pt = "1/1"
+cost = "{2}{W}{U}{R}{S}{R}{R}{R}"
