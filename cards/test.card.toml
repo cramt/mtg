@@ -3,7 +3,7 @@ type = "Legendary Planeswalker — Kaladin"
 color_indicator = "WU"
 loyalty = "5"
 rules = """
-At the beginning of your upkeep, if an opponent controls more creatures than you, Kaladin becomes a 5/5 Knight Avatar with flying and indestructable until end of turn.
+At the beginning of your upkeep, if an opponent controls more creatures than you, Kaladin becomes a 6/6 Knight Avatar with flying and indestructible until end of turn.
 
 +1: Create a 1/1 white Soldier creature token.
 
