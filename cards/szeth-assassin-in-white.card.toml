@@ -4,5 +4,7 @@ type = "Legendary Creature — Human Assassin"
 rules = """
 Flying, Deathtouch, Vigilance.
 
-Creature an """
+Creatures your opponents control enter tapped.
+
+"""
 pt = "3/1"
