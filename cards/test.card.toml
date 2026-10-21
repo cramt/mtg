@@ -1,7 +1,4 @@
 name = "Kaladin, Herald Of Second Changes"
 type = "Legendary Planeswalker — Kaladin"
-rules = """
-Flying
-"""
 color_indicator = "WU"
 loyalty = "5"
