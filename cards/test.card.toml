@@ -1,7 +1,7 @@
-name = "Test"
-cost = "{1}{U}"
-type = "Creature — Homunculus"
+name = "Kaladin, Herald Of Second Changes"
+type = "Legendary Planeswalker — Kaladin"
 rules = """
 Flying
 """
-pt = "212/1"
+color_indicator = "WU"
+loyalty = "5"
