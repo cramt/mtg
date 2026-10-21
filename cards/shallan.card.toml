@@ -2,6 +2,7 @@ name = "Shallan of The Unseen Court"
 cost = "{1}{U}{B}{R}"
 type = "Legendary Creature — Human Warlock"
 rules = """
-Flying
-"""
-pt = "1/1"
+You may have Shallan enter as a copy of another creature you control, except it has Shallan’s other abilities.
+
+Discard a card: """
+pt = "2/2"
