@@ -1,5 +1,5 @@
-name = "shallan"
-cost = "{1}{U}"
+name = "Shallan Of the "
+cost = "{1}{U}{B}{R}"
 type = "Creature — Homunculus"
 rules = """
 Flying
