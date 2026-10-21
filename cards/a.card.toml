@@ -1,6 +1,6 @@
 name = "Knights of Wind and Truth"
 type = "Kindred Enchantment - Saga Knight"
-cost = "{W}{U}{B}"
+cost = "{2}{W}{U}{B}"
 rules = """
 I — Target Legendary Knight creature fights another target creature you don't control. If you do, remove a chapter counter from this enchantment.
 
