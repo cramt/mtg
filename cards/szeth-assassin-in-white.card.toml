@@ -6,5 +6,5 @@ Flying, Deathtouch, Vigilance.
 
 Creatures your opponents control enter tapped.
 
-Whenever Szeth deals combat damage to a player put a shield counter on Szeth."""
+Whenever Szeth deals combat damage to a player, you may pay {W/B} if you do put a shield counter on Szeth."""
 pt = "3/1"
