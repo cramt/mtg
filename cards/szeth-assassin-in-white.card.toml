@@ -1,5 +1,5 @@
 name = "Szeth, Assassin in White"
-cost = "{1}{U}"
+cost = "{W}{B}"
 type = "Creature — Homunculus"
 rules = """
 Flying
