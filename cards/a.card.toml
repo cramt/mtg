@@ -1,3 +1,9 @@
 name = "Knights of Wind and Truth"
 type = "Kindred Enchantment - Saga Knight"
 cost = "{W}{U}{B}"
+rules = """
+I — For each opponent, destroy up to one target nonartifact creature that player controls.
+
+II — For each opponent, you create a 2/2 colorless Robot Villain artifact creature token.
+
+III — Artifact creatures you control gain deathtouch until end of turn. Put a +1/+1 counter on each of them."""
