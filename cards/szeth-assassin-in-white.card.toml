@@ -2,7 +2,8 @@ name = "Szeth, Assassin in White"
 cost = "{W}{B}"
 type = "Legendary Creature — Human Assassin"
 rules = """
-Flying, Deathtouch, Vigilence
+Flying, Deathtouch, Vigilance.
+
 
 """
 pt = "1/1"
