@@ -4,6 +4,6 @@ cost = "{2}{W}{U}{B}"
 rules = """
 I — Target Legendary Knight creature fights another target creature you don't control. If you do, remove a chapter counter from this enchantment.
 
-II — For each opponent, you create a 2/2 colorless Robot Villain artifact creature token.
+II — Draw a 
 
 III — Artifact creatures you control gain deathtouch until end of turn. Put a +1/+1 counter on each of them."""
