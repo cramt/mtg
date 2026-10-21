@@ -4,5 +4,5 @@ type = "Legendary Creature — Human Warlock"
 rules = """
 You may have Shallan enter as a copy of another creature you control, except it has Shallan’s other abilities.
 
-Discard a card: """
+Discard a card and Sacrifice an enchantment: Change the target of target spell or ability with a single target."""
 pt = "2/2"
