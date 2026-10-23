@@ -54,7 +54,7 @@ cards = [
   { printing = "frc/60", in = ["Ramp"] },  # Rakdos Signet
   { printing = "frc/58", in = ["Ramp"] },  # Izzet Signet
   { printing = "frc/57", in = ["Ramp"] },  # Fellwar Stone
-  { name = "Mind Stone", in = ["Ramp"] },
+  { printing = "fdc/271", in = ["Ramp"] },  # Mind Stone
   { printing = "plst/OTC-106", in = ["Removal"] },  # Pongify
   { printing = "sch/42", in = ["Removal"] },  # Bitter Triumph
   { printing = "soc/216", in = ["Removal"] },  # Infernal Grasp
@@ -71,23 +71,23 @@ cards = [
   { printing = "fdc/296", in = ["Land", "Graveyard Hate"] },  # Bojuka Bog
   { printing = "frc/22", in = ["Land"] },  # Command Tower
   { printing = "frc/70", in = ["Land"] },  # Exotic Orchard
-  { name = "Spire of Industry", in = ["Land"] },
-  { name = "Seat of the Synod", in = ["Land"] },
-  { name = "Vault of Whispers", in = ["Land"] },
-  { name = "Great Furnace", in = ["Land"] },
-  { name = "Polluted Delta", in = ["Land"] },
-  { name = "Bloodstained Mire", in = ["Land"] },
-  { name = "Scalding Tarn", in = ["Land"] },
-  { name = "Flooded Strand", in = ["Land"] },
-  { name = "Wooded Foothills", in = ["Land"] },
+  { printing = "eoc/183", in = ["Land"] },  # Spire of Industry
+  { printing = "eoc/176", in = ["Land"] },  # Seat of the Synod
+  { printing = "j25/780", in = ["Land"] },  # Vault of Whispers
+  { printing = "eoc/161", in = ["Land"] },  # Great Furnace
+  { printing = "mh3/224", in = ["Land"] },  # Polluted Delta
+  { printing = "mh3/216", in = ["Land"] },  # Bloodstained Mire
+  { printing = "spg/112", in = ["Land"] },  # Scalding Tarn
+  { printing = "mh3/220", in = ["Land"] },  # Flooded Strand
+  { printing = "mh3/236", in = ["Land"] },  # Wooded Foothills
   { printing = "frc/71", in = ["Land"] },  # Fabled Passage
-  { name = "Watery Grave", in = ["Land"] },
-  { name = "Blood Crypt", in = ["Land"] },
-  { name = "Steam Vents", in = ["Land"] },
+  { printing = "eoe/261", in = ["Land"] },  # Watery Grave
+  { printing = "ecl/262", in = ["Land"] },  # Blood Crypt
+  { printing = "ecl/267", in = ["Land"] },  # Steam Vents
   { printing = "psnc/260p", in = ["Land"] },  # Xander's Lounge
-  { name = "Morphic Pool", in = ["Land"] },
-  { name = "Luxury Suite", in = ["Land"] },
-  { name = "Training Center", in = ["Land"] },
+  { printing = "clb/357", in = ["Land"] },  # Morphic Pool
+  { printing = "clb/355", in = ["Land"] },  # Luxury Suite
+  { printing = "cmm/434", in = ["Land"] },  # Training Center
   { printing = "frc/83", in = ["Land"] },  # Shivan Reef
   { printing = "frc/87", in = ["Land"] },  # Underground River
   { printing = "frc/85", in = ["Land"] },  # Sulfurous Springs
