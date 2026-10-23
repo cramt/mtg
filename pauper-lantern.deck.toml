@@ -5,11 +5,11 @@ cards = [
   { printing = "mh3/217", in = ["Land"] },  # Bountiful Landscape
   { printing = "frc/39", qty = 4, in = ["Draw"] },  # Brainstorm
   { printing = "clb/304", qty = 2, in = ["Pauper Ensaring Bridge"] },  # Campfire
-  { printing = "wc98/rb57", qty = 4, in = ["Instant"] },  # Counterspell
+  { printing = "wc98/rb57", qty = 4, in = ["Counters"] },  # Counterspell
   { printing = "eoe/53", qty = 3, in = ["Pauper Ensaring Bridge"] },  # Cryoshatter
   { printing = "soc/194", qty = 2, in = ["Sorcery"] },  # Deep Analysis
-  { printing = "plst/BFZ-76", in = ["Instant"] },  # Dispel
-  { printing = "rav/43", qty = 2, in = ["Instant"] },  # Dizzy Spell
+  { printing = "plst/BFZ-76", in = ["Counters"] },  # Dispel
+  { printing = "rav/43", qty = 2, in = ["Tutor"] },  # Dizzy Spell
   { printing = "rtr/93", in = ["Instant"] },  # Electrickery
   { printing = "5ed/87", qty = 2, in = ["Pauper Ensaring Bridge"] },  # Flood
   { printing = "isd/224", qty = 4, in = ["Lock"] },  # Ghoulcaller's Bell
@@ -43,3 +43,5 @@ Lock = {}
 "Pauper Ensaring Bridge" = {}
 "Poor man's lantern" = {}
 Draw = {}
+Tutor = {}
+Counters = {}
