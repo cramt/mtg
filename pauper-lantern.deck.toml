@@ -3,12 +3,12 @@ format = "pauper"
 
 cards = [
   { printing = "mh3/217", in = ["Land"] },  # Bountiful Landscape
-  { printing = "mmq/61", qty = 4, in = ["Instant"] },  # Brainstorm
+  { printing = "sta/13", qty = 4, in = ["Instant"] },  # Brainstorm
   { printing = "clb/304", qty = 2, in = ["Artifact"] },  # Campfire
-  { printing = "mmq/69", qty = 4, in = ["Instant"] },  # Counterspell
+  { printing = "btd/6", qty = 4, in = ["Instant"] },  # Counterspell
   { printing = "eoe/53", qty = 3, in = ["Enchantment"] },  # Cryoshatter
   { printing = "tor/36", qty = 2, in = ["Sorcery"] },  # Deep Analysis
-  { printing = "wwk/26", in = ["Instant"] },  # Dispel
+  { printing = "bfz/76", in = ["Instant"] },  # Dispel
   { printing = "rav/43", qty = 2, in = ["Instant"] },  # Dizzy Spell
   { printing = "rtr/93", in = ["Instant"] },  # Electrickery
   { printing = "drk/27", qty = 2, in = ["Enchantment"] },  # Flood
