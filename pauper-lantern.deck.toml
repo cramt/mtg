@@ -7,7 +7,7 @@ cards = [
   { printing = "clb/304", qty = 2, in = ["Artifact"] },  # Campfire
   { printing = "btd/6", qty = 4, in = ["Instant"] },  # Counterspell
   { printing = "eoe/53", qty = 3, in = ["Enchantment"] },  # Cryoshatter
-  { printing = "tor/36", qty = 2, in = ["Sorcery"] },  # Deep Analysis
+  { printing = "plst/EMA-45", qty = 2, in = ["Sorcery"] },  # Deep Analysis
   { printing = "bfz/76", in = ["Instant"] },  # Dispel
   { printing = "rav/43", qty = 2, in = ["Instant"] },  # Dizzy Spell
   { printing = "rtr/93", in = ["Instant"] },  # Electrickery
@@ -21,7 +21,7 @@ cards = [
   { printing = "mbs/130", qty = 3, in = ["Artifact"] },  # Shriekhorn
   { printing = "csp/97", qty = 4, in = ["Instant"] },  # Skred
   { printing = "ice/371", qty = 7, in = ["Land"] },  # Snow-Covered Island
-  { printing = "ice/379", qty = 2, in = ["Land"] },  # Snow-Covered Mountain
+  { printing = "sld/328", qty = 2, in = ["Land"] },  # Snow-Covered Mountain
   { printing = "khm/273", qty = 4, in = ["Land"] },  # Volatile Fjord
   { printing = "clb/304", in = ["Sideboard"] },  # Campfire
   { printing = "wwk/26", qty = 3, in = ["Sideboard"] },  # Dispel
