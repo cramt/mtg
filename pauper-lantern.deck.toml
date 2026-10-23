@@ -7,19 +7,19 @@ cards = [
   { printing = "clb/304", qty = 2, in = ["Pauper Ensaring Bridge"] },  # Campfire
   { printing = "wc98/rb57", qty = 4, in = ["Counters"] },  # Counterspell
   { printing = "eoe/53", qty = 3, in = ["Pauper Ensaring Bridge"] },  # Cryoshatter
-  { printing = "soc/194", qty = 2, in = ["Sorcery"] },  # Deep Analysis
+  { printing = "soc/194", qty = 2, in = ["Draw"] },  # Deep Analysis
   { printing = "plst/BFZ-76", in = ["Counters"] },  # Dispel
   { printing = "rav/43", qty = 2, in = ["Tutor"] },  # Dizzy Spell
-  { printing = "rtr/93", in = ["Instant"] },  # Electrickery
+  { printing = "rtr/93", in = ["Murder"] },  # Electrickery
   { printing = "5ed/87", qty = 2, in = ["Pauper Ensaring Bridge"] },  # Flood
   { printing = "isd/224", qty = 4, in = ["Lock"] },  # Ghoulcaller's Bell
-  { printing = "ltr/60", qty = 4, in = ["Sorcery"] },  # Lórien Revealed
+  { printing = "ltr/60", qty = 4, in = ["Draw"] },  # Lórien Revealed
   { printing = "fem/61a", qty = 4, in = ["Poor man's lantern"] },  # Orcish Spy
   { printing = "mh3/223", in = ["Land"] },  # Perilous Landscape
-  { printing = "dsc/74", qty = 4, in = ["Sorcery"] },  # Portent
+  { printing = "dsc/74", qty = 4, in = ["Draw"] },  # Portent
   { printing = "mh3/225", in = ["Land"] },  # Seething Landscape
   { printing = "mbs/130", qty = 3, in = ["Lock"] },  # Shriekhorn
-  { printing = "csp/97", qty = 4, in = ["Instant"] },  # Skred
+  { printing = "csp/97", qty = 4, in = ["Murder"] },  # Skred
   { printing = "khm/279", qty = 7, in = ["Land"] },  # Snow-Covered Island
   { printing = "khm/283", qty = 2, in = ["Land"] },  # Snow-Covered Mountain
   { printing = "khm/273", qty = 4, in = ["Land"] },  # Volatile Fjord
@@ -45,3 +45,4 @@ Lock = {}
 Draw = {}
 Tutor = {}
 Counters = {}
+Murder = {}
