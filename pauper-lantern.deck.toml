@@ -14,7 +14,7 @@ cards = [
   { printing = "drk/27", qty = 2, in = ["Enchantment"] },  # Flood
   { printing = "isd/224", qty = 4, in = ["Artifact"] },  # Ghoulcaller's Bell
   { printing = "ltr/60", qty = 4, in = ["Sorcery"] },  # Lórien Revealed
-  { printing = "8ed/208★", qty = 4, finish = "foil", in = ["Creature"] },  # Orcish Spy
+  { printing = "8ed/208", qty = 4, finish = "foil", in = ["Creature"] },  # Orcish Spy
   { printing = "mh3/223", in = ["Land"] },  # Perilous Landscape
   { printing = "c18/97", qty = 4, in = ["Sorcery"] },  # Portent
   { printing = "mh3/225", in = ["Land"] },  # Seething Landscape
