@@ -4,7 +4,7 @@ format = "pauper"
 cards = [
   { printing = "mh3/217", in = ["Land"] },  # Bountiful Landscape
   { printing = "frc/39", qty = 4, in = ["Instant"] },  # Brainstorm
-  { printing = "clb/304", qty = 2, in = ["Artifact"] },  # Campfire
+  { printing = "clb/304", qty = 2 },  # Campfire
   { printing = "wc98/rb57", qty = 4, in = ["Instant"] },  # Counterspell
   { printing = "eoe/53", qty = 3, in = ["Enchantment"] },  # Cryoshatter
   { printing = "soc/194", qty = 2, in = ["Sorcery"] },  # Deep Analysis
@@ -12,13 +12,13 @@ cards = [
   { printing = "rav/43", qty = 2, in = ["Instant"] },  # Dizzy Spell
   { printing = "rtr/93", in = ["Instant"] },  # Electrickery
   { printing = "5ed/87", qty = 2, in = ["Enchantment"] },  # Flood
-  { printing = "isd/224", qty = 4, in = ["Artifact"] },  # Ghoulcaller's Bell
+  { printing = "isd/224", qty = 4, in = ["Lock"] },  # Ghoulcaller's Bell
   { printing = "ltr/60", qty = 4, in = ["Sorcery"] },  # Lórien Revealed
   { printing = "fem/61a", qty = 4, in = ["Creature"] },  # Orcish Spy
   { printing = "mh3/223", in = ["Land"] },  # Perilous Landscape
   { printing = "dsc/74", qty = 4, in = ["Sorcery"] },  # Portent
   { printing = "mh3/225", in = ["Land"] },  # Seething Landscape
-  { printing = "mbs/130", qty = 3, in = ["Artifact"] },  # Shriekhorn
+  { printing = "mbs/130", qty = 3, in = ["Lock"] },  # Shriekhorn
   { printing = "csp/97", qty = 4, in = ["Instant"] },  # Skred
   { printing = "khm/279", qty = 7, in = ["Land"] },  # Snow-Covered Island
   { printing = "khm/283", qty = 2, in = ["Land"] },  # Snow-Covered Mountain
@@ -39,3 +39,4 @@ Artifact = {}
 Enchantment = {}
 Sorcery = {}
 Creature = {}
+Lock = {}
