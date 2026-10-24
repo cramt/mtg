@@ -1,6 +1,6 @@
 name = "Weapons of Mass Dragonstruction"
 cover = "eoe/168"
-description = "Pioneer Bo1 Rakdos Weapons Manufacturing. Cheap nontoken artifacts make Munitions, sac outlets cash them in for damage and cards, and Mayhem Devil pings on every sacrifice, including the creature an opponent gives up to Tithing Blade."
+description = "Pioneer Bo1 Rakdos Weapons Manufacturing. Cheap nontoken artifacts make Munitions, sac outlets cash them in for damage and cards, and Mayhem Devil pings on every sacrifice, including the creature an opponent gives up to Tithing Blade. Fountainport turns spare tokens into cards."
 
 cards = [
   { name = "Weapons Manufacturing", qty = 4, in = ["Munitions Engine"] },
@@ -19,7 +19,8 @@ cards = [
   { name = "Blood Crypt", qty = 4, in = ["Land"] },
   { name = "Blackcleave Cliffs", qty = 4, in = ["Land"] },
   { name = "Blazemire Verge", qty = 4, in = ["Land"] },
-  { name = "Sulfurous Springs", qty = 2, in = ["Land"] },
+  { name = "Sulfurous Springs", in = ["Land"] },
+  { name = "Fountainport", in = ["Land", "Card Draw"] },
   { name = "Blightstep Pathway", qty = 2, in = ["Land"] },
   { name = "Mountain", qty = 4, in = ["Land"] },
   { name = "Swamp", in = ["Land"] },
