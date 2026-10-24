@@ -43,7 +43,7 @@ cards = [
   { name = "Cling to Dust", in = ["Graveyard Exile Outlet", "Graveyard Cast"] },
   { name = "Viscera Seer", in = ["Sac Outlet"] },
   { name = "Carrion Feeder", in = ["Sac Outlet"] },
-  { name = "Jarad, Golgari Lich Lord", in = ["Sac Outlet"] },
+  { name = "From the Catacombs", in = ["Graveyard Recursion", "Graveyard Cast"] },
   { name = "Blood Artist", in = ["Death Payoff"] },
   { name = "Increasing Savagery", in = ["Voltron", "Graveyard Cast"] },
   { name = "Dina, Essence Brewer", in = ["Death Payoff", "Draw"] },
