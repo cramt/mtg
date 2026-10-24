@@ -7,12 +7,12 @@ bottom = ['mv>=6', 't:land']
 [casting]
 prefer = ['name:"Varolz, the Scar-Striped"', 'cat:"Ramp"', 'cat:"Exile Recursion"', 'cat:"Leaves Graveyard Payoff"', 'cat:"Self-Mill"', 'cat:"Voltron"', 'cat:"Graveyard Recursion" t:creature']
 
-# Checklands are untapped by the turns that matter here.
+# Checklands are untapped by the turns that matter here; the shock is untapped for 2 life.
 [assume]
-untapped = ['name:"Woodland Cemetery"', 'name:"Deathcap Glade"', 'name:"Necroblossom Snarl"']
+untapped = ['name:"Woodland Cemetery"', 'name:"Deathcap Glade"', 'name:"Necroblossom Snarl"', 'name:"Overgrown Tomb"']
 
 [land_drop]
-prefer = ['name:"Woodland Cemetery" or name:"Deathcap Glade" or name:"Necroblossom Snarl" or name:"Darkbore Pathway // Slitherbore Pathway" or name:"Command Tower" or name:"Llanowar Wastes"', 't:basic', 't:land']
+prefer = ['name:"Woodland Cemetery" or name:"Deathcap Glade" or name:"Necroblossom Snarl" or name:"Darkbore Pathway // Slitherbore Pathway" or name:"Command Tower" or name:"Llanowar Wastes" or name:"Overgrown Tomb"', 't:basic', 't:land']
 
 [[effect]]
 match = '''name:"Nature's Lore" or name:"Three Visits" or name:"Wood Elves"'''

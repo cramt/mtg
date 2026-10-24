@@ -86,10 +86,22 @@ cards = [
   { printing = "fdc/296", in = ["Land", "Graveyard Exile Outlet"] },  # Bojuka Bog
   { printing = "drk/116", in = ["Land", "Battlefield Exile Outlet"] },  # City of Shadows
   { printing = "plst/MIC-179", in = ["Land", "Voltron"] },  # Rogue's Passage
-  { printing = "frc/71", in = ["Land"] },  # Fabled Passage
-  { printing = "plst/LCC-328", in = ["Land"] },  # Evolving Wilds
-  { printing = "fra/388", qty = 12, in = ["Land"] },  # Swamp
-  { printing = "fra/394", qty = 10, in = ["Land"] },  # Forest
+  { name = "Bloodstained Mire", in = ["Land"] },
+  { name = "Windswept Heath", in = ["Land"] },
+  { name = "Overgrown Tomb", in = ["Land"] },
+  { name = "Underground Mortuary", in = ["Land", "Self-Mill"] },
+  { name = "Festering Thicket", in = ["Land"] },
+  { name = "Verdant Catacombs", in = ["Land"] },
+  { name = "Marsh Flats", in = ["Land"] },
+  { name = "Wooded Foothills", in = ["Land"] },
+  { name = "Urborg, Tomb of Yawgmoth", in = ["Land"] },
+  { name = "Yavimaya, Cradle of Growth", in = ["Land"] },
+  { name = "Takenuma, Abandoned Mire", in = ["Land", "Graveyard Recursion"] },
+  { name = "Boseiju, Who Endures", in = ["Land", "Removal"] },
+  { name = "Witch's Cottage", in = ["Land", "Graveyard Recursion"] },
+  { name = "Phyrexian Tower", in = ["Land", "Sac Outlet"] },
+  { printing = "fra/388", qty = 5, in = ["Land"] },  # Swamp
+  { printing = "fra/394", qty = 5, in = ["Land"] },  # Forest
 ]
 
 [categories]
