@@ -10,86 +10,86 @@ Half the deck ends up in the yard, so the graveyard is a second hand: flashback,
 The win is voltron: scavenge counters go on Varolz (Hardened Scales, Branching Evolution). Brawn gives trample while it sits in the yard, Champion of Dusan exiles itself for a permanent trample counter, and Rancor, Sword of Vengeance and Rogue's Passage cover the rest. No protection swords and no shroud: protection from black or green stops your own scavenge from targeting him (CR 702.16b), and shroud stops all targeting."""
 
 cards = [
-  { name = "Varolz, the Scar-Striped", in = ["Commander"] },
-  { name = "Mister Immortal", in = ["Exile Recursion"] },
-  { name = "Eternal Scourge", in = ["Exile Recursion"] },
-  { name = "Khan, Vengeful Heart", in = ["Exile Recursion", "Sac Outlet", "Draw"] },
-  { name = "Reassembling Skeleton", in = ["Graveyard Recursion"] },
-  { name = "Persistent Specimen", in = ["Graveyard Recursion"] },
-  { name = "Teacher's Pest", in = ["Graveyard Recursion"] },
-  { name = "Haunt of the Dead Marshes", in = ["Graveyard Recursion"] },
-  { name = "Nether Traitor", in = ["Graveyard Recursion", "Evasive Body"] },
-  { name = "Bloodghast", in = ["Graveyard Recursion"] },
-  { name = "Bone Dragon", in = ["Graveyard Recursion", "Graveyard Exile Outlet", "Evasive Body"] },
-  { name = "Golgari Grave-Troll", in = ["Self-Mill"] },
-  { name = "Stinkweed Imp", in = ["Self-Mill"] },
-  { name = "Hermit Druid", in = ["Self-Mill"] },
-  { name = "Stitcher's Supplier", in = ["Self-Mill"] },
-  { name = "Satyr Wayfinder", in = ["Self-Mill"] },
-  { name = "Grisly Salvage", in = ["Self-Mill"] },
-  { name = "Dredger's Insight", in = ["Self-Mill", "Leaves Graveyard Payoff"] },
-  { name = "Mulch", in = ["Self-Mill"] },
-  { name = "Nethergoyf", in = ["Graveyard Cast", "Graveyard Exile Outlet"] },
-  { name = "Buried Alive", in = ["Self-Mill"] },
-  { name = "Tormod, the Desecrator", in = ["Leaves Graveyard Payoff"] },
-  { name = "Teval's Judgment", in = ["Leaves Graveyard Payoff", "Draw"] },
-  { name = "Insidious Roots", in = ["Leaves Graveyard Payoff", "Ramp"] },
-  { name = "Syr Konrad, the Grim", in = ["Leaves Graveyard Payoff", "Death Payoff"] },
-  { name = "Fang, Fearless l'Cie", in = ["Leaves Graveyard Payoff", "Draw"] },
-  { name = "Amzu, Swarm's Hunger", in = ["Leaves Graveyard Payoff", "Evasive Body"] },
-  { name = "Fungal Plots", in = ["Graveyard Exile Outlet"] },
-  { name = "Coffin Purge", in = ["Graveyard Exile Outlet", "Graveyard Cast"] },
-  { name = "Food Chain", in = ["Battlefield Exile Outlet"] },
-  { name = "Cling to Dust", in = ["Graveyard Exile Outlet", "Graveyard Cast"] },
-  { name = "Viscera Seer", in = ["Sac Outlet"] },
-  { name = "Carrion Feeder", in = ["Sac Outlet"] },
-  { name = "From the Catacombs", in = ["Graveyard Recursion", "Graveyard Cast"] },
-  { name = "Blood Artist", in = ["Death Payoff"] },
-  { name = "Increasing Savagery", in = ["Voltron", "Graveyard Cast"] },
-  { name = "Dina, Essence Brewer", in = ["Death Payoff", "Draw"] },
-  { name = "Pitiless Plunderer", in = ["Death Payoff", "Ramp"] },
-  { name = "Polukranos, Unchained", in = ["Graveyard Cast", "Graveyard Exile Outlet", "Removal"] },
-  { name = "Skullclamp", in = ["Death Payoff", "Draw"] },
-  { name = "Hardened Scales", in = ["Voltron"] },
-  { name = "Branching Evolution", in = ["Voltron"] },
-  { name = "Rancor", in = ["Voltron"] },
-  { name = "Sword of Vengeance", in = ["Voltron"] },
-  { name = "Brawn", in = ["Voltron", "Graveyard Cast"] },
-  { name = "Champion of Dusan", in = ["Voltron", "Graveyard Exile Outlet"] },
-  { name = "Swiftfoot Boots", in = ["Voltron", "Protection"] },
-  { name = "Tyvar's Stand", in = ["Protection"] },
-  { name = "Grapple with the Past", in = ["Self-Mill", "Graveyard Recursion"] },
-  { name = "Arcane Signet", in = ["Ramp"] },
-  { name = "Golgari Signet", in = ["Ramp"] },
-  { name = "Visions of Dominance", in = ["Voltron", "Graveyard Cast"] },
-  { name = "Nature's Lore", in = ["Ramp"] },
-  { name = "Three Visits", in = ["Ramp"] },
-  { name = "Farseek", in = ["Ramp"] },
-  { name = "Wood Elves", in = ["Ramp"] },
-  { name = "Assassin's Trophy", in = ["Removal"] },
-  { name = "Chainer's Edict", in = ["Removal", "Graveyard Cast"] },
-  { name = "Never // Return", in = ["Removal", "Graveyard Exile Outlet", "Graveyard Cast"] },
-  { name = "Beast Within", in = ["Removal"] },
-  { name = "Pernicious Deed", in = ["Board Wipe"] },
-  { name = "Fell the Profane // Fell Mire", in = ["Removal", "Land"] },
-  { name = "Hagra Mauling // Hagra Broodpit", in = ["Removal", "Land"] },
-  { name = "Turntimber Symbiosis // Turntimber, Serpentine Wood", in = ["Land"] },
-  { name = "Boggart Trawler // Boggart Bog", in = ["Graveyard Exile Outlet", "Land"] },
-  { name = "Bala Ged Recovery // Bala Ged Sanctuary", in = ["Graveyard Recursion", "Land"] },
-  { name = "Command Tower", in = ["Land"] },
-  { name = "Llanowar Wastes", in = ["Land"] },
-  { name = "Woodland Cemetery", in = ["Land"] },
-  { name = "Twilight Mire", in = ["Land"] },
-  { name = "Deathcap Glade", in = ["Land"] },
-  { name = "Necroblossom Snarl", in = ["Land"] },
-  { name = "Darkbore Pathway // Slitherbore Pathway", in = ["Land"] },
-  { name = "Bojuka Bog", in = ["Land", "Graveyard Exile Outlet"] },
-  { name = "City of Shadows", in = ["Land", "Battlefield Exile Outlet"] },
-  { name = "Rogue's Passage", in = ["Land", "Voltron"] },
-  { name = "Fabled Passage", in = ["Land"] },
-  { name = "Evolving Wilds", in = ["Land"] },
-  { name = "Swamp", qty = 12, in = ["Land"] },
-  { name = "Forest", qty = 10, in = ["Land"] },
+  { printing = "dgm/112", in = ["Commander"] },  # Varolz, the Scar-Striped
+  { printing = "msc/727", in = ["Exile Recursion"] },  # Mister Immortal
+  { printing = "emn/7", in = ["Exile Recursion"] },  # Eternal Scourge
+  { printing = "trk/119", in = ["Exile Recursion", "Sac Outlet", "Draw"] },  # Khan, Vengeful Heart
+  { printing = "tdc/195", in = ["Graveyard Recursion"] },  # Reassembling Skeleton
+  { printing = "j25/473", in = ["Graveyard Recursion"] },  # Persistent Specimen
+  { printing = "sos/238", in = ["Graveyard Recursion"] },  # Teacher's Pest
+  { printing = "hoc/186", in = ["Graveyard Recursion"] },  # Haunt of the Dead Marshes
+  { printing = "soc/220", in = ["Graveyard Recursion", "Evasive Body"] },  # Nether Traitor
+  { printing = "sld/2351", in = ["Graveyard Recursion"] },  # Bloodghast
+  { printing = "m19/88", in = ["Graveyard Recursion", "Graveyard Exile Outlet", "Evasive Body"] },  # Bone Dragon
+  { printing = "plst/UMA-167", in = ["Self-Mill"] },  # Golgari Grave-Troll
+  { printing = "plst/GK1-53", in = ["Self-Mill"] },  # Stinkweed Imp
+  { printing = "inr/202", in = ["Self-Mill"] },  # Hermit Druid
+  { printing = "tdc/196", in = ["Self-Mill"] },  # Stitcher's Supplier
+  { printing = "eoc/106", in = ["Self-Mill"] },  # Satyr Wayfinder
+  { printing = "tdc/290", in = ["Self-Mill"] },  # Grisly Salvage
+  { printing = "dft/159", in = ["Self-Mill", "Leaves Graveyard Payoff"] },  # Dredger's Insight
+  { printing = "dsc/189", in = ["Self-Mill"] },  # Mulch
+  { printing = "mh3/103", in = ["Graveyard Cast", "Graveyard Exile Outlet"] },  # Nethergoyf
+  { printing = "mh3/273", in = ["Self-Mill"] },  # Buried Alive
+  { printing = "cmr/155", in = ["Leaves Graveyard Payoff"] },  # Tormod, the Desecrator
+  { printing = "tdc/28", in = ["Leaves Graveyard Payoff", "Draw"] },  # Teval's Judgment
+  { printing = "mkm/208", in = ["Leaves Graveyard Payoff", "Ramp"] },  # Insidious Roots
+  { printing = "dsc/158", in = ["Leaves Graveyard Payoff", "Death Payoff"] },  # Syr Konrad, the Grim
+  { printing = "fin/99", in = ["Leaves Graveyard Payoff", "Draw"] },  # Fang, Fearless l'Cie
+  { printing = "clu/24", in = ["Leaves Graveyard Payoff", "Evasive Body"] },  # Amzu, Swarm's Hunger
+  { printing = "j25/658", in = ["Graveyard Exile Outlet"] },  # Fungal Plots
+  { printing = "ody/124", in = ["Graveyard Exile Outlet", "Graveyard Cast"] },  # Coffin Purge
+  { printing = "2x2/147", in = ["Battlefield Exile Outlet"] },  # Food Chain
+  { printing = "plst/THB-87", in = ["Graveyard Exile Outlet", "Graveyard Cast"] },  # Cling to Dust
+  { printing = "soc/229", in = ["Sac Outlet"] },  # Viscera Seer
+  { printing = "fdc/88", in = ["Sac Outlet"] },  # Carrion Feeder
+  { printing = "clb/623", in = ["Graveyard Recursion", "Graveyard Cast"] },  # From the Catacombs
+  { printing = "plst/INR-97", in = ["Death Payoff"] },  # Blood Artist
+  { printing = "dds/47", in = ["Voltron", "Graveyard Cast"] },  # Increasing Savagery
+  { printing = "soc/1", in = ["Death Payoff", "Draw"] },  # Dina, Essence Brewer
+  { printing = "sld/1431", in = ["Death Payoff", "Ramp"] },  # Pitiless Plunderer
+  { printing = "pthb/224p", in = ["Graveyard Cast", "Graveyard Exile Outlet", "Removal"] },  # Polukranos, Unchained
+  { printing = "plst/MOC-379", in = ["Death Payoff", "Draw"] },  # Skullclamp
+  { printing = "soc/272", in = ["Voltron"] },  # Hardened Scales
+  { printing = "mh3/285", in = ["Voltron"] },  # Branching Evolution
+  { printing = "2x2/156", in = ["Voltron"] },  # Rancor
+  { printing = "blb/395", in = ["Voltron"] },  # Sword of Vengeance
+  { printing = "m3c/224", in = ["Voltron", "Graveyard Cast"] },  # Brawn
+  { printing = "tdm/137", in = ["Voltron", "Graveyard Exile Outlet"] },  # Champion of Dusan
+  { printing = "fdc/291", in = ["Voltron", "Protection"] },  # Swiftfoot Boots
+  { printing = "soc/291", in = ["Protection"] },  # Tyvar's Stand
+  { printing = "tdc/257", in = ["Self-Mill", "Graveyard Recursion"] },  # Grapple with the Past
+  { printing = "fdc/245", in = ["Ramp"] },  # Arcane Signet
+  { printing = "dsc/246", in = ["Ramp"] },  # Golgari Signet
+  { printing = "mic/37", in = ["Voltron", "Graveyard Cast"] },  # Visions of Dominance
+  { printing = "plst/CMM-904", in = ["Ramp"] },  # Nature's Lore
+  { printing = "soc/289", in = ["Ramp"] },  # Three Visits
+  { printing = "eoc/50", in = ["Ramp"] },  # Farseek
+  { printing = "moc/316", in = ["Ramp"] },  # Wood Elves
+  { printing = "sld/2891", in = ["Removal"] },  # Assassin's Trophy
+  { printing = "plst/DMR-78", in = ["Removal", "Graveyard Cast"] },  # Chainer's Edict
+  { printing = "drc/96", in = ["Removal", "Graveyard Exile Outlet", "Graveyard Cast"] },  # Never // Return
+  { printing = "fdc/190", in = ["Removal"] },  # Beast Within
+  { printing = "plst/A25-212", in = ["Board Wipe"] },  # Pernicious Deed
+  { printing = "mh3/244", in = ["Removal", "Land"] },  # Fell the Profane // Fell Mire
+  { printing = "plst/ZNR-106", in = ["Removal", "Land"] },  # Hagra Mauling // Hagra Broodpit
+  { printing = "pznr/215s", in = ["Land"] },  # Turntimber Symbiosis // Turntimber, Serpentine Wood
+  { printing = "mh3/243", in = ["Graveyard Exile Outlet", "Land"] },  # Boggart Trawler // Boggart Bog
+  { printing = "plst/ZNR-180", in = ["Graveyard Recursion", "Land"] },  # Bala Ged Recovery // Bala Ged Sanctuary
+  { printing = "frc/22", in = ["Land"] },  # Command Tower
+  { printing = "soc/383", in = ["Land"] },  # Llanowar Wastes
+  { printing = "soc/424", in = ["Land"] },  # Woodland Cemetery
+  { printing = "soc/418", in = ["Land"] },  # Twilight Mire
+  { printing = "psos/253p", in = ["Land"] },  # Deathcap Glade
+  { printing = "soc/389", in = ["Land"] },  # Necroblossom Snarl
+  { printing = "plst/KHM-254", in = ["Land"] },  # Darkbore Pathway // Slitherbore Pathway
+  { printing = "fdc/296", in = ["Land", "Graveyard Exile Outlet"] },  # Bojuka Bog
+  { printing = "drk/116", in = ["Land", "Battlefield Exile Outlet"] },  # City of Shadows
+  { printing = "plst/MIC-179", in = ["Land", "Voltron"] },  # Rogue's Passage
+  { printing = "frc/71", in = ["Land"] },  # Fabled Passage
+  { printing = "plst/LCC-328", in = ["Land"] },  # Evolving Wilds
+  { printing = "fra/388", qty = 12, in = ["Land"] },  # Swamp
+  { printing = "fra/394", qty = 10, in = ["Land"] },  # Forest
 ]
 
 [categories]
