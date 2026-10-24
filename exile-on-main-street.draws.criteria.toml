@@ -1,0 +1,30 @@
+# What has been seen (in hand, or already played) by turn N, with no casting policy, so nothing cast drops out of the count.
+[mulligan]
+keep = [{ query = "t:land", min = 2, max = 5 }]
+down_to = 6
+bottom = ['mv>=6', 't:land']
+
+[[criterion]]
+name = "squee or self-mill seen by turn 3"
+at_least = 0.70
+require = [{ turn = 3, query = 'cat:"Exile Recursion" or cat:"Self-Mill"', min = 1 }]
+
+[[criterion]]
+name = "recursive body seen by turn 4"
+at_least = 0.70
+require = [{ turn = 4, query = 'cat:"Exile Recursion" or cat:"Graveyard Recursion" t:creature', min = 1 }]
+
+[[criterion]]
+name = "leaves-graveyard payoff seen by turn 5"
+at_least = 0.55
+require = [{ turn = 5, query = 'cat:"Leaves Graveyard Payoff"', min = 1 }]
+
+[[criterion]]
+name = "voltron piece seen by turn 6"
+at_least = 0.65
+require = [{ turn = 6, query = 'cat:"Voltron"', min = 1 }]
+
+[[expect]]
+name = "self-mill cards by turn 4"
+turn = 4
+query = 'cat:"Self-Mill"'

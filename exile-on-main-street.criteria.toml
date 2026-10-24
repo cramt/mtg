@@ -1,0 +1,77 @@
+# Does the lap come online: a squee on the battlefield with Varolz (free sac + scavenge) and something paying for cards leaving the graveyard?
+[mulligan]
+keep = [{ query = "t:land", min = 2, max = 5 }]
+down_to = 6
+bottom = ['mv>=6', 't:land']
+
+[casting]
+prefer = ['name:"Varolz, the Scar-Striped"', 'cat:"Ramp"', 'cat:"Exile Recursion"', 'cat:"Leaves Graveyard Payoff"', 'cat:"Self-Mill"', 'cat:"Voltron"', 'cat:"Graveyard Recursion" t:creature']
+
+# Checklands are untapped by the turns that matter here.
+[assume]
+untapped = ['name:"Woodland Cemetery"', 'name:"Deathcap Glade"', 'name:"Necroblossom Snarl"']
+
+[land_drop]
+prefer = ['name:"Woodland Cemetery" or name:"Deathcap Glade" or name:"Necroblossom Snarl" or name:"Darkbore Pathway // Slitherbore Pathway" or name:"Command Tower" or name:"Llanowar Wastes"', 't:basic', 't:land']
+
+[[effect]]
+match = '''name:"Nature's Lore" or name:"Three Visits" or name:"Wood Elves"'''
+on = "cast"
+fetch = ['t:forest']
+to = "battlefield"
+
+[[effect]]
+match = 'name:"Farseek"'
+on = "cast"
+fetch = ['t:swamp']
+to = "battlefield"
+
+[[effect]]
+match = 'name:"Cultivate"'
+on = "cast"
+fetch = ['t:basic']
+to = "battlefield"
+
+[[criterion]]
+name = "Varolz on curve (turn 3)"
+at_least = 0.70
+require = [{ turn = 3, cast = 'name:"Varolz, the Scar-Striped"', min = 1 }]
+
+[[criterion]]
+name = "lap ready: Varolz + a recursive body cast by turn 5"
+at_least = 0.55
+require = [
+  { turn = 5, cast = 'name:"Varolz, the Scar-Striped"', min = 1 },
+  { turn = 5, cast = 'cat:"Exile Recursion" or cat:"Graveyard Recursion" t:creature', min = 1 },
+]
+
+# Only three squees exist in Golgari; milling is how they show up, since a milled squee is still live.
+[[criterion]]
+name = "a squee, or self-mill to dig for one, cast by turn 4"
+at_least = 0.60
+require = [{ turn = 4, cast = 'cat:"Exile Recursion" or cat:"Self-Mill"', min = 1 }]
+
+[[criterion]]
+name = "voltron piece (evasion or doubler) by turn 6"
+at_least = 0.60
+require = [{ turn = 6, cast = 'cat:"Voltron"', min = 1 }]
+
+[[criterion]]
+name = "recursive body (squee or graveyard recursion) cast by turn 4"
+at_least = 0.65
+require = [{ turn = 4, cast = 'cat:"Exile Recursion" or cat:"Graveyard Recursion" t:creature', min = 1 }]
+
+[[criterion]]
+name = "leaves-graveyard payoff cast by turn 5"
+at_least = 0.60
+require = [{ turn = 5, cast = 'cat:"Leaves Graveyard Payoff"', min = 1 }]
+
+[[criterion]]
+name = "three lands by turn 3"
+at_least = 0.80
+require = [{ turn = 3, query = 't:land', min = 3 }]
+
+[[expect]]
+name = "squees in hand by turn 6"
+turn = 6
+query = 'cat:"Exile Recursion"'

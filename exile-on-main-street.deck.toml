@@ -1,0 +1,110 @@
+name = "Exile on Main Street"
+format = "commander"
+description = """
+Varolz gives every creature card in the graveyard scavenge and is a free sac outlet, so one creature can be sacrificed, then exiled from the graveyard as a scavenge cost, then brought back. Normally that's a card used up. Here the squees make it a lap: Mister Immortal ({2}{G} from graveyard or exile), Eternal Scourge and Khan, Vengeful Heart (cast from exile).
+
+Self-mill is how the squees show up, since a milled squee is still live: Grave-Troll, Stinkweed Imp, Hermit Druid, Buried Alive. Every lap trips the leaves-your-graveyard payoffs (Tormod, Teval's Judgment, Insidious Roots, Syr Konrad, Fang, Amzu), and Food Chain / City of Shadows / Altar of Bhaal exile straight off the battlefield.
+
+The win is voltron: scavenge counters go on Varolz (Hardened Scales, Branching Evolution), with Rancor, Sword of Vengeance, Warhammer, Ring of Kalonia and Rogue's Passage pushing commander damage through. No protection swords and no shroud: protection from black or green stops your own scavenge from targeting him (CR 702.16b), and shroud stops all targeting."""
+
+cards = [
+  { name = "Varolz, the Scar-Striped", in = ["Commander"] },
+  { name = "Mister Immortal", in = ["Exile Recursion"] },
+  { name = "Eternal Scourge", in = ["Exile Recursion"] },
+  { name = "Khan, Vengeful Heart", in = ["Exile Recursion", "Sac Outlet", "Draw"] },
+  { name = "Reassembling Skeleton", in = ["Graveyard Recursion"] },
+  { name = "Persistent Specimen", in = ["Graveyard Recursion"] },
+  { name = "Teacher's Pest", in = ["Graveyard Recursion"] },
+  { name = "Haunt of the Dead Marshes", in = ["Graveyard Recursion"] },
+  { name = "Nether Traitor", in = ["Graveyard Recursion", "Evasive Body"] },
+  { name = "Bloodghast", in = ["Graveyard Recursion"] },
+  { name = "Bone Dragon", in = ["Graveyard Recursion", "Graveyard Exile Outlet", "Evasive Body"] },
+  { name = "Golgari Grave-Troll", in = ["Self-Mill"] },
+  { name = "Stinkweed Imp", in = ["Self-Mill"] },
+  { name = "Hermit Druid", in = ["Self-Mill"] },
+  { name = "Stitcher's Supplier", in = ["Self-Mill"] },
+  { name = "Satyr Wayfinder", in = ["Self-Mill"] },
+  { name = "Grisly Salvage", in = ["Self-Mill"] },
+  { name = "Dredger's Insight", in = ["Self-Mill", "Leaves Graveyard Payoff"] },
+  { name = "Mulch", in = ["Self-Mill"] },
+  { name = "Splinterfright", in = ["Self-Mill"] },
+  { name = "Buried Alive", in = ["Self-Mill"] },
+  { name = "Tormod, the Desecrator", in = ["Leaves Graveyard Payoff"] },
+  { name = "Teval's Judgment", in = ["Leaves Graveyard Payoff", "Draw"] },
+  { name = "Insidious Roots", in = ["Leaves Graveyard Payoff", "Ramp"] },
+  { name = "Syr Konrad, the Grim", in = ["Leaves Graveyard Payoff", "Death Payoff"] },
+  { name = "Fang, Fearless l'Cie", in = ["Leaves Graveyard Payoff", "Draw"] },
+  { name = "Amzu, Swarm's Hunger", in = ["Leaves Graveyard Payoff", "Evasive Body"] },
+  { name = "Fungal Plots", in = ["Graveyard Exile Outlet"] },
+  { name = "Graveyard Marshal", in = ["Graveyard Exile Outlet"] },
+  { name = "Food Chain", in = ["Battlefield Exile Outlet"] },
+  { name = "Altar of Bhaal // Bone Offering", in = ["Battlefield Exile Outlet"] },
+  { name = "Viscera Seer", in = ["Sac Outlet"] },
+  { name = "Carrion Feeder", in = ["Sac Outlet"] },
+  { name = "Jarad, Golgari Lich Lord", in = ["Sac Outlet"] },
+  { name = "Blood Artist", in = ["Death Payoff"] },
+  { name = "Zulaport Cutthroat", in = ["Death Payoff"] },
+  { name = "Dina, Essence Brewer", in = ["Death Payoff", "Draw"] },
+  { name = "Pitiless Plunderer", in = ["Death Payoff", "Ramp"] },
+  { name = "Mazirek, Kraul Death Priest", in = ["Death Payoff", "Evasive Body"] },
+  { name = "Skullclamp", in = ["Death Payoff", "Draw"] },
+  { name = "Hardened Scales", in = ["Voltron"] },
+  { name = "Branching Evolution", in = ["Voltron"] },
+  { name = "Rancor", in = ["Voltron"] },
+  { name = "Sword of Vengeance", in = ["Voltron"] },
+  { name = "Loxodon Warhammer", in = ["Voltron"] },
+  { name = "Ring of Kalonia", in = ["Voltron"] },
+  { name = "Swiftfoot Boots", in = ["Voltron", "Protection"] },
+  { name = "Tyvar's Stand", in = ["Protection"] },
+  { name = "Grapple with the Past", in = ["Self-Mill", "Graveyard Recursion"] },
+  { name = "Arcane Signet", in = ["Ramp"] },
+  { name = "Golgari Signet", in = ["Ramp"] },
+  { name = "Talisman of Resilience", in = ["Ramp"] },
+  { name = "Nature's Lore", in = ["Ramp"] },
+  { name = "Three Visits", in = ["Ramp"] },
+  { name = "Farseek", in = ["Ramp"] },
+  { name = "Wood Elves", in = ["Ramp"] },
+  { name = "Assassin's Trophy", in = ["Removal"] },
+  { name = "Infernal Grasp", in = ["Removal"] },
+  { name = "Go for the Throat", in = ["Removal"] },
+  { name = "Beast Within", in = ["Removal"] },
+  { name = "Pernicious Deed", in = ["Board Wipe"] },
+  { name = "Fell the Profane // Fell Mire", in = ["Removal", "Land"] },
+  { name = "Hagra Mauling // Hagra Broodpit", in = ["Removal", "Land"] },
+  { name = "Turntimber Symbiosis // Turntimber, Serpentine Wood", in = ["Land"] },
+  { name = "Boggart Trawler // Boggart Bog", in = ["Graveyard Exile Outlet", "Land"] },
+  { name = "Bala Ged Recovery // Bala Ged Sanctuary", in = ["Graveyard Recursion", "Land"] },
+  { name = "Command Tower", in = ["Land"] },
+  { name = "Llanowar Wastes", in = ["Land"] },
+  { name = "Woodland Cemetery", in = ["Land"] },
+  { name = "Twilight Mire", in = ["Land"] },
+  { name = "Deathcap Glade", in = ["Land"] },
+  { name = "Necroblossom Snarl", in = ["Land"] },
+  { name = "Darkbore Pathway // Slitherbore Pathway", in = ["Land"] },
+  { name = "Bojuka Bog", in = ["Land", "Graveyard Exile Outlet"] },
+  { name = "City of Shadows", in = ["Land", "Battlefield Exile Outlet"] },
+  { name = "Rogue's Passage", in = ["Land", "Voltron"] },
+  { name = "Fabled Passage", in = ["Land"] },
+  { name = "Evolving Wilds", in = ["Land"] },
+  { name = "Swamp", qty = 12, in = ["Land"] },
+  { name = "Forest", qty = 10, in = ["Land"] },
+]
+
+[categories]
+"Battlefield Exile Outlet" = {}
+"Board Wipe" = {}
+Commander = { type = "commander" }
+"Death Payoff" = {}
+Draw = {}
+"Evasive Body" = {}
+"Exile Recursion" = {}
+"Graveyard Exile Outlet" = {}
+"Graveyard Recursion" = {}
+Land = {}
+"Leaves Graveyard Payoff" = {}
+Protection = {}
+Ramp = {}
+Removal = {}
+"Sac Outlet" = {}
+Self-Mill = {}
+Voltron = {}
