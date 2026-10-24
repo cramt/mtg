@@ -7,6 +7,8 @@ Self-mill is how the squees show up, since a milled squee is still live: Grave-T
 
 Half the deck ends up in the yard, so the graveyard is a second hand: flashback, escape and aftermath (Increasing Savagery for ten counters, Visions of Dominance at {5}{G}{G} thanks to Varolz's mana value, Polukranos, Never // Return, Chainer's Edict). Every graveyard cast is a card leaving the graveyard, and escape costs can exile the squees you're about to recast.
 
+Scavenge pays a card's mana cost but counts its power, so the ammo is cards that cannot live on the battlefield: Death's Shadow ({B}, 13), Phyrexian Dreadnought ({1}, 12), Force of Savagery (8/0) all die the moment they are cast, which is just another way into the yard. Egon is 6 power for {2}{B} and exiles two cards from the yard every upkeep. Terrasymbiosis turns each scavenge into that many cards.
+
 The win is voltron: scavenge counters go on Varolz (Hardened Scales, Branching Evolution). Brawn gives trample while it sits in the yard, Champion of Dusan exiles itself for a permanent trample counter, and Rancor, Sword of Vengeance and Rogue's Passage cover the rest. No protection swords and no shroud: protection from black or green stops your own scavenge from targeting him (CR 702.16b), and shroud stops all targeting."""
 
 cards = [
@@ -26,9 +28,9 @@ cards = [
   { printing = "inr/202", in = ["Self-Mill"] },  # Hermit Druid
   { printing = "tdc/196", in = ["Self-Mill"] },  # Stitcher's Supplier
   { printing = "eoc/106", in = ["Self-Mill"] },  # Satyr Wayfinder
-  { printing = "tdc/290", in = ["Self-Mill"] },  # Grisly Salvage
+  { name = "Phyrexian Dreadnought", in = ["Scavenge Ammo"] },
   { printing = "dft/159", in = ["Self-Mill", "Leaves Graveyard Payoff"] },  # Dredger's Insight
-  { printing = "dsc/189", in = ["Self-Mill"] },  # Mulch
+  { name = "Force of Savagery", in = ["Scavenge Ammo"] },
   { printing = "mh3/103", in = ["Graveyard Cast", "Graveyard Exile Outlet"] },  # Nethergoyf
   { printing = "mh3/273", in = ["Self-Mill"] },  # Buried Alive
   { printing = "cmr/155", in = ["Leaves Graveyard Payoff"] },  # Tormod, the Desecrator
@@ -38,14 +40,14 @@ cards = [
   { printing = "fin/99", in = ["Leaves Graveyard Payoff", "Draw"] },  # Fang, Fearless l'Cie
   { printing = "clu/24", in = ["Leaves Graveyard Payoff", "Evasive Body"] },  # Amzu, Swarm's Hunger
   { printing = "j25/658", in = ["Graveyard Exile Outlet"] },  # Fungal Plots
-  { printing = "ody/124", in = ["Graveyard Exile Outlet", "Graveyard Cast"] },  # Coffin Purge
+  { name = "Terrasymbiosis", in = ["Draw"] },
   { printing = "2x2/147", in = ["Battlefield Exile Outlet"] },  # Food Chain
   { printing = "plst/THB-87", in = ["Graveyard Exile Outlet", "Graveyard Cast"] },  # Cling to Dust
   { printing = "soc/229", in = ["Sac Outlet"] },  # Viscera Seer
-  { printing = "fdc/88", in = ["Sac Outlet"] },  # Carrion Feeder
+  { name = "Egon, God of Death // Throne of Death", in = ["Scavenge Ammo", "Graveyard Exile Outlet", "Draw"] },
   { printing = "clb/623", in = ["Graveyard Recursion", "Graveyard Cast"] },  # From the Catacombs
   { printing = "plst/INR-97", in = ["Death Payoff"] },  # Blood Artist
-  { printing = "dds/47", in = ["Voltron", "Graveyard Cast"] },  # Increasing Savagery
+  { name = "Death's Shadow", in = ["Scavenge Ammo"] },
   { printing = "soc/1", in = ["Death Payoff", "Draw"] },  # Dina, Essence Brewer
   { printing = "sld/1431", in = ["Death Payoff", "Ramp"] },  # Pitiless Plunderer
   { printing = "pthb/224p", in = ["Graveyard Cast", "Graveyard Exile Outlet", "Removal"] },  # Polukranos, Unchained
@@ -59,8 +61,8 @@ cards = [
   { printing = "fdc/291", in = ["Voltron", "Protection"] },  # Swiftfoot Boots
   { printing = "soc/291", in = ["Protection"] },  # Tyvar's Stand
   { printing = "tdc/257", in = ["Self-Mill", "Graveyard Recursion"] },  # Grapple with the Past
-  { printing = "fdc/245", in = ["Ramp"] },  # Arcane Signet
-  { printing = "dsc/246", in = ["Ramp"] },  # Golgari Signet
+  { name = "Elves of Deep Shadow", in = ["Ramp"] },
+  { name = "Molt Tender", in = ["Ramp", "Self-Mill", "Graveyard Exile Outlet"] },
   { printing = "mic/37", in = ["Voltron", "Graveyard Cast"] },  # Visions of Dominance
   { printing = "plst/CMM-904", in = ["Ramp"] },  # Nature's Lore
   { printing = "soc/289", in = ["Ramp"] },  # Three Visits
@@ -121,5 +123,6 @@ Protection = {}
 Ramp = {}
 Removal = {}
 "Sac Outlet" = {}
+"Scavenge Ammo" = {}
 Self-Mill = {}
 Voltron = {}

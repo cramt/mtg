@@ -22,7 +22,7 @@ require = [{ turn = 5, query = 'cat:"Leaves Graveyard Payoff"', min = 1 }]
 [[criterion]]
 name = "voltron piece seen by turn 6"
 at_least = 0.65
-require = [{ turn = 6, query = 'cat:"Voltron"', min = 1 }]
+require = [{ turn = 6, query = 'cat:"Voltron" or cat:"Scavenge Ammo"', min = 1 }]
 
 [[expect]]
 name = "self-mill cards by turn 4"

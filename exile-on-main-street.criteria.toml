@@ -5,7 +5,7 @@ down_to = 6
 bottom = ['mv>=6', 't:land']
 
 [casting]
-prefer = ['name:"Varolz, the Scar-Striped"', 'cat:"Ramp"', 'cat:"Exile Recursion"', 'cat:"Leaves Graveyard Payoff"', 'cat:"Self-Mill"', 'cat:"Voltron"', 'cat:"Graveyard Recursion" t:creature']
+prefer = ['name:"Varolz, the Scar-Striped"', 'cat:"Ramp"', 'cat:"Exile Recursion"', 'cat:"Leaves Graveyard Payoff"', 'cat:"Self-Mill"', 'cat:"Voltron"', 'cat:"Scavenge Ammo" -name:"Egon, God of Death // Throne of Death"', 'cat:"Graveyard Recursion" t:creature']
 
 # Checklands are untapped by the turns that matter here; the shock is untapped for 2 life.
 [assume]
@@ -52,9 +52,9 @@ at_least = 0.60
 require = [{ turn = 4, cast = 'cat:"Exile Recursion" or cat:"Self-Mill"', min = 1 }]
 
 [[criterion]]
-name = "voltron piece (evasion or doubler) by turn 6"
+name = "voltron piece (evasion, doubler or scavenge ammo) by turn 6"
 at_least = 0.60
-require = [{ turn = 6, cast = 'cat:"Voltron"', min = 1 }]
+require = [{ turn = 6, cast = 'cat:"Voltron" or cat:"Scavenge Ammo"', min = 1 }]
 
 [[criterion]]
 name = "recursive body (squee or graveyard recursion) cast by turn 4"
