@@ -1,3 +1,7 @@
+# Arena lets you choose; the shock is always paid early and Cliffs is untapped through turn 3.
+[assume]
+untapped = ['name:"Blood Crypt"', 'name:"Blackcleave Cliffs"']
+
 [mulligan]
 keep = [{ query = "t:land", min = 2, max = 5 }]
 down_to = 6
@@ -18,13 +22,23 @@ require = [
 
 [[criterion]]
 name = "Rakdos on turn 2"
-at_least = 0.85
+at_least = 0.88
 require = [{ turn = 2, can_cast = "{B}{R}" }]
 
 [[criterion]]
-name = "Draconic Visitor castable by turn 6"
-at_least = 0.50
-require = [{ turn = 6, can_cast = "{3}{R}{R}" }]
+name = "Mayhem Devil castable on turn 3"
+at_least = 0.75
+require = [{ turn = 3, can_cast = "{1}{B}{R}" }]
+
+[[criterion]]
+name = "a draw spell by turn 4"
+at_least = 0.70
+require = [{ turn = 4, query = 'cat:"Card Draw"', min = 1 }]
+
+[[criterion]]
+name = "cheap removal by turn 2"
+at_least = 0.85
+require = [{ turn = 2, query = 'cat:"Removal" mv<=2', min = 1 }]
 
 [[expect]]
 name = "lands in opener"
