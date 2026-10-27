@@ -1,10 +1,18 @@
-# Bench: `gauntlet test decks/robot-nazgul.deck.toml decks/robot-nazgul.criteria.toml [--draw]`
-# Mishra is a 4-drop, so the 2-mana rocks are the ramp that matters: rock on 2, Mishra on 3.
-# The engine needs Mishra plus one of the two "your spells are artifacts" enchantments
-# before Nazgûl casts double up, so the bars are Mishra on curve, an enabler by 5, and
-# a Nazgûl or Pattern Matcher in hand once both are down.
+# Bench: `gauntlet test robot-nazgul.deck.toml robot-nazgul.criteria.toml [--draw]`
+# Topdeck artifacts first, Nazgûl second. Mishra is a 4-drop, so the 2-mana rocks are the
+# ramp that matters: rock on 2, Mishra on 3. The engine is a cast-from-top permanent
+# (Forge, Skull, Mm'menon, Reality Chip, Fortune Teller's Talent) fed by topdeck setup
+# (Top, Scroll Rack, Brainstorm, the artifact Brainstorms), with the artifact tutors aimed
+# at the engine. Nazgûl are the win: Mycosynth or Biotransference, then Mishra doubles them.
 #
-# Measured 2026-10-20 at 37 lands with fetches, shocks and Battlebond lands: Mishra on
+# Fabricate, Transmute Artifact and Tezzeret can't find Mycosynth or Biotransference: both
+# are enchantments in the library, and Mycosynth only makes library cards artifacts once
+# it's on the battlefield. Only Ringsight reaches them.
+#
+# Measured 2026-10-27, topdeck rework (old list → new): engine or a tutor for it by
+# turn 5 41% → 59%, topdeck setup by turn 3 24% → 58%, a Nazgûl or Ringsight by turn 5
+# 70% → 61% (9 → 7 Nazgûl, Pattern Matcher cut), Mishra by turn 4 77% → 76%.
+# Earlier, 2026-10-20 at 37 lands with fetches, shocks and Battlebond lands: Mishra on
 # turn 3 39%, by turn 4 77%. At 34 lands with checklands it was 32% / 70%, and a bench
 # of 34 / 36 / 37 lands put 6 mana by turn 6 at 43% / 48% / 51% for +1.5 points of flood.
 # A "{U}{B}{R} by turn 3" bar was dropped: can_cast reads what's left after the
@@ -35,14 +43,23 @@ at_least = 0.72
 require = [{ turn = 4, cast = 'name:"Mishra, Artificer Prodigy"', min = 1 }]
 
 [[criterion]]
-name = "artifact enabler or a tutor for one by turn 5"
+name = "cast-from-top engine or an artifact tutor for one by turn 5"
 at_least = 0.55
-require = [{ turn = 5, query = 'cat:"Artifact Enabler" or cat:"Tutor" -name:"Pattern Matcher"', min = 1 }]
+require = [{ turn = 5, query = 'cat:"Cast From Top" or name:"Fabricate" or name:"Transmute Artifact" or name:"Tezzeret the Seeker" or name:"Tribute Mage"', min = 1 }]
 
 [[criterion]]
-name = "a Nazgûl or Pattern Matcher by turn 5"
-at_least = 0.70
-require = [{ turn = 5, query = 'cat:"Nazgûl" or name:"Pattern Matcher" or name:"Ringsight"', min = 1 }]
+name = "topdeck setup by turn 3"
+at_least = 0.52
+require = [{ turn = 3, query = 'cat:"Topdeck Setup" or name:"Trinket Mage"', min = 1 }]
+
+[[criterion]]
+name = "Mycosynth, Biotransference or Ringsight by turn 6"
+require = [{ turn = 6, query = 'cat:"Artifact Enabler" or name:"Ringsight"', min = 1 }]
+
+[[criterion]]
+name = "a Nazgûl or Ringsight by turn 5"
+at_least = 0.58
+require = [{ turn = 5, query = 'cat:"Nazgûl" or name:"Ringsight"', min = 1 }]
 
 [[expect]]
 name = "lands in opener"

@@ -1,13 +1,11 @@
 name = "Robot Nazgûl"
 format = "commander"
 description = """
-Mishra, Artificer Prodigy fetches a card with the same name every time you cast an artifact spell. Encroaching Mycosynth and Biotransference make your creature spells, and every nonland permanent card in your library, artifacts. Each Nazgûl you cast brings a second one with it, so all nine take about five casts.
+Topdeck artifacts first, Nazgûl as the finish. Mystic Forge, Crystal Skull, Mm'menon, The Reality Chip and Fortune Teller's Talent cast off the top of your library, and Sensei's Divining Top, Scroll Rack, Brainstorm, Brainstone and Conch Horn decide what's there. Fabricate, Transmute Artifact, Tezzeret and Tribute Mage go find the engine; Trinket Mage finds Top or Bauble.
 
-Every Nazgûl has its own "whenever the Ring tempts you, put a +1/+1 counter on each Wraith". With k of them out, one temptation is k counters on each, and nine arriving one after another is 285 counters of deathtouch. Token copies are Wraiths with the same trigger: Mirrorworks copies every Nazgûl that enters (with Mycosynth out it's an artifact), Flameshadow Conjuring and both Saheelis make temporary copies that still tempt on the way in, and Brudiclad turns every Necron Warrior and Myr token you have into a Nazgûl at the start of combat.
+Mishra, Artificer Prodigy fetches a card with the same name every time you cast an artifact spell, and the search may come up empty (CR 701.23b), so every artifact you cast is an optional shuffle: Brainstorm two bad cards back, cast a Bauble, shuffle them away. Top plus Forge is {1}: draw a card, then recast Top from the top of your library. Mishra's Bauble from the top is a free artifact spell, so with Biotransference out it's a free 2/2. Etherium Sculptor, Foundry Inspector, Shuri, Mechanaut and Jhoira's Familiar make the chain cheap, and the Saheelis copy a reducer for the turn.
 
-Mechanized Production is the alternative win. It copies a Nazgûl every upkeep and wins at eight artifacts that share a name. Nine Nazgûl qualify, and so do eight Necron Warriors, because Biotransference makes one for every artifact spell you cast.
-
-Mishra's search may come up empty (CR 701.23b), so with Mycosynth out every permanent you cast is an optional shuffle. That turns Brainstorm, Scroll Rack and Sensei's Divining Top into "keep the best, shuffle the rest away". Mystic Forge, Mm'menon and Crystal Skull cast artifacts from the top of your library, and Mycosynth makes that nearly every card. Top plus Forge is {1}: draw a card, then recast Top from the top of your library, which with Biotransference out also makes a 2/2.
+Encroaching Mycosynth turns the whole library into artifacts, which means Forge and Skull cast nearly anything. It also makes Nazgûl artifacts, so each Nazgûl cast brings a second with Mishra. Every Nazgûl has "whenever the Ring tempts you, put a +1/+1 counter on each Wraith", so k of them on the table make each temptation k counters on each. Mirrorworks and the Saheelis make more Wraiths. Mechanized Production is the alternative win: it copies a Nazgûl every upkeep and wins at eight artifacts that share a name, and Shuri can make a spare artifact a ninth Nazgûl for the turn.
 
 Bracket 3 by feel, 2 by rule: no Game Changers and no two-card infinites. Mechanized Production is a telegraphed upkeep win that takes a few turns of setup."""
 
@@ -15,17 +13,13 @@ cards = [
   { printing = "plst/TSP-243", in = ["Commander"] },  # Mishra, Artificer Prodigy
   { printing = "one/47", in = ["Artifact Enabler"] },  # Encroaching Mycosynth
   { printing = "40k/30", in = ["Artifact Enabler", "Token Maker"] },  # Biotransference
-  { printing = "ltr/100", qty = 9, in = ["Nazgûl", "Ring Tempt"] },  # Nazgûl
-  { printing = "m20/234", in = ["Tutor"] },  # Pattern Matcher
+  { printing = "ltr/100", qty = 7, in = ["Nazgûl", "Ring Tempt"] },  # Nazgûl
   { printing = "spg/20", in = ["Tutor"] },  # Fabricate
   { printing = "ltr/220", in = ["Tutor", "Ring Tempt"] },  # Ringsight
   { printing = "sld/1841", in = ["Token Copy", "Win Condition"] },  # Mechanized Production
   { printing = "c18/211", in = ["Token Copy"] },  # Mirrorworks
-  { printing = "moc/280", in = ["Token Copy"] },  # Flameshadow Conjuring
   { printing = "lci/239", in = ["Token Copy"] },  # Saheeli, the Sun's Brilliance
   { printing = "plst/KLD-186", in = ["Token Copy"] },  # Saheeli Rai
-  { printing = "soc/299", in = ["Token Copy", "Win Condition"] },  # Brudiclad, Telchor Engineer
-  { printing = "rvr/62", in = ["Clone"] },  # Spark Double
   { printing = "mm2/62", in = ["Tutor"] },  # Tezzeret the Seeker
   { printing = "m3c/302", in = ["Cast From Top"] },  # Mystic Forge
   { printing = "eoe/68", in = ["Cast From Top", "Ramp"] },  # Mm'menon, the Right Hand
@@ -33,13 +27,19 @@ cards = [
   { printing = "2x2/314", in = ["Topdeck Setup"] },  # Sensei's Divining Top
   { printing = "cmr/337", in = ["Topdeck Setup"] },  # Scroll Rack
   { printing = "frc/39", in = ["Topdeck Setup"] },  # Brainstorm
+  { name = "The Reality Chip", in = ["Cast From Top"] },
+  { name = "Fortune Teller's Talent", in = ["Cast From Top", "Cost Reduction"] },
+  { name = "Mishra's Bauble", in = ["Topdeck Setup"] },
+  { name = "Brainstone", in = ["Topdeck Setup", "Draw"] },
+  { name = "Conch Horn", in = ["Topdeck Setup", "Draw"] },
+  { name = "Crystal Ball", in = ["Topdeck Setup"] },
+  { name = "Witching Well", in = ["Topdeck Setup", "Draw"] },
+  { name = "Trinket Mage", in = ["Tutor"] },
+  { name = "Tribute Mage", in = ["Tutor"] },
+  { name = "Shuri, Wakandan Inventor", in = ["Cost Reduction", "Token Copy"] },
+  { name = "Enthusiastic Mechanaut", in = ["Cost Reduction"] },
+  { name = "Jhoira's Familiar", in = ["Cost Reduction"] },
   { printing = "ltr/766", in = ["Ring Tempt", "Draw"] },  # Call of the Ring
-  { printing = "ltr/50", in = ["Draw"] },  # Gandalf, Friend of the Shire
-  { printing = "hoc/20", in = ["Ring Tempt"] },  # Witch-king of Angmar
-  { printing = "ltc/58", in = ["Ring Tempt", "Token Maker"] },  # In the Darkness Bind Them
-  { printing = "ltr/782", in = ["Draw", "Ring Tempt"] },  # Sauron's Ransom
-  { printing = "cmm/116", in = ["Draw"] },  # Reverse Engineer
-  { printing = "eoc/47", in = ["Draw"] },  # Tezzeret's Gambit
   { printing = "fdc/71", in = ["Draw", "Protection"] },  # Padeem, Consul of Innovation
   { printing = "cmm/130", in = ["Ramp"] },  # Urza, Lord High Artificer
   { printing = "fdc/62", in = ["Cost Reduction"] },  # Etherium Sculptor
