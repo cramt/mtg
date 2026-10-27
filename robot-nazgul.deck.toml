@@ -5,7 +5,7 @@ Topdeck artifacts first, Nazgûl as the finish. Mystic Forge, Crystal Skull, Mm'
 
 Mishra, Artificer Prodigy fetches a card with the same name every time you cast an artifact spell, and the search may come up empty (CR 701.23b), so every artifact you cast is an optional shuffle: Brainstorm two bad cards back, cast a Bauble, shuffle them away. Mishra's Bauble from the top is a free artifact spell, so with Biotransference out it's a free 2/2. Etherium Sculptor, Foundry Inspector, Shuri, Mechanaut and Jhoira's Familiar make the chain cheap, and the Saheelis copy a reducer for the turn.
 
-Encroaching Mycosynth turns the whole library into artifacts, which means Forge and Skull cast nearly anything. It also makes Nazgûl artifacts, so each Nazgûl cast brings a second with Mishra. Every Nazgûl has "whenever the Ring tempts you, put a +1/+1 counter on each Wraith", so k of them on the table make each temptation k counters on each. Mirrorworks and the Saheelis make more Wraiths. Mechanized Production is the alternative win: it copies a Nazgûl every upkeep and wins at eight artifacts that share a name, and Shuri can make a spare artifact a ninth Nazgûl for the turn.
+Encroaching Mycosynth turns the whole library into artifacts, which means Forge and Skull cast nearly anything. It also makes Nazgûl artifacts, so each Nazgûl cast brings a second with Mishra. Every Nazgûl has \"whenever the Ring tempts you, put a +1/+1 counter on each Wraith\", so k of them on the table make each temptation k counters on each. Mirrorworks and the Saheelis make more Wraiths. Mechanized Production is the alternative win: it copies a Nazgûl every upkeep and wins at eight artifacts that share a name, and Shuri can make a spare artifact a ninth Nazgûl for the turn.
 
 Bracket 3 by feel, 2 by rule: no Game Changers and no two-card infinites. Sensei's Divining Top is out on purpose: with a cost reducer and Forge, Skull or Fortune Teller's Talent it draws the whole library for free, and the topdeck here is meant to be a gamble, not a solved loop. Mechanized Production is a telegraphed upkeep win that takes a few turns of setup."""
 
@@ -24,7 +24,7 @@ cards = [
   { printing = "m3c/302", in = ["Cast From Top"] },  # Mystic Forge
   { printing = "eoe/68", in = ["Cast From Top", "Ramp"] },  # Mm'menon, the Right Hand
   { printing = "acr/15", in = ["Cast From Top", "Ramp"] },  # Crystal Skull, Isu Spyglass
-  { name = "Perception Bobblehead", in = ["Ramp", "Cast From Top"] },
+  { printing = "pip/139", in = ["Ramp", "Cast From Top"] },  # Perception Bobblehead
   { printing = "cmr/337", in = ["Topdeck Setup"] },  # Scroll Rack
   { printing = "frc/39", in = ["Topdeck Setup"] },  # Brainstorm
   { name = "Ponder", in = ["Topdeck Setup"] },
