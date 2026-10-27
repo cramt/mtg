@@ -27,18 +27,18 @@ cards = [
   { printing = "2x2/314", in = ["Topdeck Setup"] },  # Sensei's Divining Top
   { printing = "cmr/337", in = ["Topdeck Setup"] },  # Scroll Rack
   { printing = "frc/39", in = ["Topdeck Setup"] },  # Brainstorm
-  { name = "The Reality Chip", in = ["Cast From Top"] },
-  { name = "Fortune Teller's Talent", in = ["Cast From Top", "Cost Reduction"] },
-  { name = "Mishra's Bauble", in = ["Topdeck Setup"] },
-  { name = "Brainstone", in = ["Topdeck Setup", "Draw"] },
-  { name = "Conch Horn", in = ["Topdeck Setup", "Draw"] },
-  { name = "Crystal Ball", in = ["Topdeck Setup"] },
-  { name = "Witching Well", in = ["Topdeck Setup", "Draw"] },
-  { name = "Trinket Mage", in = ["Tutor"] },
-  { name = "Tribute Mage", in = ["Tutor"] },
-  { name = "Shuri, Wakandan Inventor", in = ["Cost Reduction", "Token Copy"] },
-  { name = "Enthusiastic Mechanaut", in = ["Cost Reduction"] },
-  { name = "Jhoira's Familiar", in = ["Cost Reduction"] },
+  { printing = "plst/NEO-74", in = ["Cast From Top"] },  # The Reality Chip
+  { printing = "blc/14", in = ["Cast From Top", "Cost Reduction"] },  # Fortune Teller's Talent
+  { printing = "sld/2041", in = ["Topdeck Setup"] },  # Mishra's Bauble
+  { printing = "dsc/242", in = ["Topdeck Setup", "Draw"] },  # Brainstone
+  { printing = "fem/83", in = ["Topdeck Setup", "Draw"] },  # Conch Horn
+  { printing = "plst/C18-201", in = ["Topdeck Setup"] },  # Crystal Ball
+  { printing = "j25/394", in = ["Topdeck Setup", "Draw"] },  # Witching Well
+  { printing = "plst/DDU-41", in = ["Tutor"] },  # Trinket Mage
+  { printing = "plst/MH1-73", in = ["Tutor"] },  # Tribute Mage
+  { printing = "pmei/2026-15", in = ["Cost Reduction", "Token Copy"] },  # Shuri, Wakandan Inventor
+  { printing = "eoc/114", in = ["Cost Reduction"] },  # Enthusiastic Mechanaut
+  { printing = "2xm/265", in = ["Cost Reduction"] },  # Jhoira's Familiar
   { printing = "ltr/766", in = ["Ring Tempt", "Draw"] },  # Call of the Ring
   { printing = "fdc/71", in = ["Draw", "Protection"] },  # Padeem, Consul of Innovation
   { printing = "cmm/130", in = ["Ramp"] },  # Urza, Lord High Artificer
