@@ -1,7 +1,7 @@
 name = "Robot Nazgûl"
 format = "commander"
 description = """
-Topdeck artifacts first, Nazgûl as the finish. Mystic Forge, Crystal Skull, Mm'menon, The Reality Chip and Fortune Teller's Talent cast off the top of your library, and Scroll Rack, Brainstorm, Brainstone and Conch Horn decide what's there. Perception Bobblehead casts the top card free if it costs 3 or less, which with Mycosynth out includes a Nazgûl. Fabricate, Transmute Artifact, Tezzeret and Tribute Mage go find the engine; Trinket Mage finds Bauble, Brainstone or Witching Well.
+Topdeck artifacts first, Nazgûl as the finish. Mystic Forge, Crystal Skull, Mm'menon, The Reality Chip and Fortune Teller's Talent cast off the top of your library, and Scroll Rack, Brainstorm, Ponder, Brainstone and Conch Horn decide what's there. Perception Bobblehead casts the top card free if it costs 3 or less, which with Mycosynth out includes a Nazgûl. Fabricate, Transmute Artifact, Tezzeret and Tribute Mage go find the engine.
 
 Mishra, Artificer Prodigy fetches a card with the same name every time you cast an artifact spell, and the search may come up empty (CR 701.23b), so every artifact you cast is an optional shuffle: Brainstorm two bad cards back, cast a Bauble, shuffle them away. Mishra's Bauble from the top is a free artifact spell, so with Biotransference out it's a free 2/2. Etherium Sculptor, Foundry Inspector, Shuri, Mechanaut and Jhoira's Familiar make the chain cheap, and the Saheelis copy a reducer for the turn.
 
@@ -27,6 +27,7 @@ cards = [
   { name = "Perception Bobblehead", in = ["Ramp", "Cast From Top"] },
   { printing = "cmr/337", in = ["Topdeck Setup"] },  # Scroll Rack
   { printing = "frc/39", in = ["Topdeck Setup"] },  # Brainstorm
+  { name = "Ponder", in = ["Topdeck Setup"] },
   { printing = "plst/NEO-74", in = ["Cast From Top"] },  # The Reality Chip
   { printing = "blc/14", in = ["Cast From Top", "Cost Reduction"] },  # Fortune Teller's Talent
   { printing = "sld/2041", in = ["Topdeck Setup"] },  # Mishra's Bauble
@@ -34,7 +35,6 @@ cards = [
   { printing = "fem/83", in = ["Topdeck Setup", "Draw"] },  # Conch Horn
   { printing = "plst/C18-201", in = ["Topdeck Setup"] },  # Crystal Ball
   { printing = "j25/394", in = ["Topdeck Setup", "Draw"] },  # Witching Well
-  { printing = "plst/DDU-41", in = ["Tutor"] },  # Trinket Mage
   { printing = "plst/MH1-73", in = ["Tutor"] },  # Tribute Mage
   { printing = "pmei/2026-15", in = ["Cost Reduction", "Token Copy"] },  # Shuri, Wakandan Inventor
   { printing = "eoc/114", in = ["Cost Reduction"] },  # Enthusiastic Mechanaut

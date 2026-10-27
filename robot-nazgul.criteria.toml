@@ -12,6 +12,10 @@
 # Measured 2026-10-27, topdeck rework (old list → new): engine or a tutor for it by
 # turn 5 41% → 59%, topdeck setup by turn 3 24% → 58%, a Nazgûl or Ringsight by turn 5
 # 70% → 61% (9 → 7 Nazgûl, Pattern Matcher cut), Mishra by turn 4 77% → 76%.
+# Then -Sensei's Divining Top +Perception Bobblehead (Top with a reducer and a cast-from-top
+# card draws the library: deterministic, not the play pattern), setup by turn 3 58% → 53%.
+# -Trinket Mage (only one-shot targets left): an 8th Nazgûl put setup at 48%, Ponder
+# holds it at 53%, so Ponder.
 # Earlier, 2026-10-20 at 37 lands with fetches, shocks and Battlebond lands: Mishra on
 # turn 3 39%, by turn 4 77%. At 34 lands with checklands it was 32% / 70%, and a bench
 # of 34 / 36 / 37 lands put 6 mana by turn 6 at 43% / 48% / 51% for +1.5 points of flood.
@@ -50,7 +54,7 @@ require = [{ turn = 5, query = 'cat:"Cast From Top" or name:"Fabricate" or name:
 [[criterion]]
 name = "topdeck setup by turn 3"
 at_least = 0.52
-require = [{ turn = 3, query = 'cat:"Topdeck Setup" or name:"Trinket Mage"', min = 1 }]
+require = [{ turn = 3, query = 'cat:"Topdeck Setup"', min = 1 }]
 
 [[criterion]]
 name = "Mycosynth, Biotransference or Ringsight by turn 6"
