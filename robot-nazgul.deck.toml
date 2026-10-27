@@ -27,7 +27,7 @@ cards = [
   { printing = "pip/139", in = ["Ramp", "Cast From Top"] },  # Perception Bobblehead
   { printing = "cmr/337", in = ["Topdeck Setup"] },  # Scroll Rack
   { printing = "frc/39", in = ["Topdeck Setup"] },  # Brainstorm
-  { name = "Ponder", in = ["Topdeck Setup"] },
+  { printing = "plst/DSC-73", in = ["Topdeck Setup"] },  # Ponder
   { printing = "plst/NEO-74", in = ["Cast From Top"] },  # The Reality Chip
   { printing = "blc/14", in = ["Cast From Top", "Cost Reduction"] },  # Fortune Teller's Talent
   { printing = "sld/2041", in = ["Topdeck Setup"] },  # Mishra's Bauble
@@ -45,7 +45,7 @@ cards = [
   { printing = "fdc/62", in = ["Cost Reduction"] },  # Etherium Sculptor
   { printing = "fdc/259", in = ["Cost Reduction"] },  # Foundry Inspector
   { printing = "atq/14", in = ["Tutor"] },  # Transmute Artifact
-  { name = "Thopter Engineer", in = ["Haste"] },
+  { printing = "blc/204", in = ["Haste"] },  # Thopter Engineer
   { printing = "fdc/245", in = ["Ramp"] },  # Arcane Signet
   { printing = "frc/62", in = ["Ramp"] },  # Talisman of Dominance
   { printing = "frc/63", in = ["Ramp"] },  # Talisman of Indulgence
@@ -58,7 +58,7 @@ cards = [
   { printing = "plst/OTC-106", in = ["Removal"] },  # Pongify
   { printing = "sch/42", in = ["Removal"] },  # Bitter Triumph
   { printing = "soc/216", in = ["Removal"] },  # Infernal Grasp
-  { name = "Agility Bobblehead", in = ["Ramp", "Haste"] },
+  { printing = "pip/126", in = ["Ramp", "Haste"] },  # Agility Bobblehead
   { printing = "fdc/146", in = ["Removal"] },  # Chaos Warp
   { printing = "sld/2426", in = ["Removal", "Wipe"] },  # Vandalblast
   { printing = "ltr/70", in = ["Removal", "Ring Tempt"] },  # Soothing of Sméagol
