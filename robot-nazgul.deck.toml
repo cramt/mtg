@@ -1,13 +1,13 @@
 name = "Robot Nazgûl"
 format = "commander"
 description = """
-Topdeck artifacts first, Nazgûl as the finish. Mystic Forge, Crystal Skull, Mm'menon, The Reality Chip and Fortune Teller's Talent cast off the top of your library, and Sensei's Divining Top, Scroll Rack, Brainstorm, Brainstone and Conch Horn decide what's there. Fabricate, Transmute Artifact, Tezzeret and Tribute Mage go find the engine; Trinket Mage finds Top or Bauble.
+Topdeck artifacts first, Nazgûl as the finish. Mystic Forge, Crystal Skull, Mm'menon, The Reality Chip and Fortune Teller's Talent cast off the top of your library, and Scroll Rack, Brainstorm, Brainstone and Conch Horn decide what's there. Perception Bobblehead casts the top card free if it costs 3 or less, which with Mycosynth out includes a Nazgûl. Fabricate, Transmute Artifact, Tezzeret and Tribute Mage go find the engine; Trinket Mage finds Bauble, Brainstone or Witching Well.
 
-Mishra, Artificer Prodigy fetches a card with the same name every time you cast an artifact spell, and the search may come up empty (CR 701.23b), so every artifact you cast is an optional shuffle: Brainstorm two bad cards back, cast a Bauble, shuffle them away. Top plus Forge is {1}: draw a card, then recast Top from the top of your library. Mishra's Bauble from the top is a free artifact spell, so with Biotransference out it's a free 2/2. Etherium Sculptor, Foundry Inspector, Shuri, Mechanaut and Jhoira's Familiar make the chain cheap, and the Saheelis copy a reducer for the turn.
+Mishra, Artificer Prodigy fetches a card with the same name every time you cast an artifact spell, and the search may come up empty (CR 701.23b), so every artifact you cast is an optional shuffle: Brainstorm two bad cards back, cast a Bauble, shuffle them away. Mishra's Bauble from the top is a free artifact spell, so with Biotransference out it's a free 2/2. Etherium Sculptor, Foundry Inspector, Shuri, Mechanaut and Jhoira's Familiar make the chain cheap, and the Saheelis copy a reducer for the turn.
 
 Encroaching Mycosynth turns the whole library into artifacts, which means Forge and Skull cast nearly anything. It also makes Nazgûl artifacts, so each Nazgûl cast brings a second with Mishra. Every Nazgûl has "whenever the Ring tempts you, put a +1/+1 counter on each Wraith", so k of them on the table make each temptation k counters on each. Mirrorworks and the Saheelis make more Wraiths. Mechanized Production is the alternative win: it copies a Nazgûl every upkeep and wins at eight artifacts that share a name, and Shuri can make a spare artifact a ninth Nazgûl for the turn.
 
-Bracket 3 by feel, 2 by rule: no Game Changers and no two-card infinites. Mechanized Production is a telegraphed upkeep win that takes a few turns of setup."""
+Bracket 3 by feel, 2 by rule: no Game Changers and no two-card infinites. Sensei's Divining Top is out on purpose: with a cost reducer and Forge, Skull or Fortune Teller's Talent it draws the whole library for free, and the topdeck here is meant to be a gamble, not a solved loop. Mechanized Production is a telegraphed upkeep win that takes a few turns of setup."""
 
 cards = [
   { printing = "plst/TSP-243", in = ["Commander"] },  # Mishra, Artificer Prodigy
@@ -24,7 +24,7 @@ cards = [
   { printing = "m3c/302", in = ["Cast From Top"] },  # Mystic Forge
   { printing = "eoe/68", in = ["Cast From Top", "Ramp"] },  # Mm'menon, the Right Hand
   { printing = "acr/15", in = ["Cast From Top", "Ramp"] },  # Crystal Skull, Isu Spyglass
-  { printing = "2x2/314", in = ["Topdeck Setup"] },  # Sensei's Divining Top
+  { name = "Perception Bobblehead", in = ["Ramp", "Cast From Top"] },
   { printing = "cmr/337", in = ["Topdeck Setup"] },  # Scroll Rack
   { printing = "frc/39", in = ["Topdeck Setup"] },  # Brainstorm
   { printing = "plst/NEO-74", in = ["Cast From Top"] },  # The Reality Chip
