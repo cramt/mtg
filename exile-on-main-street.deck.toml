@@ -28,9 +28,9 @@ cards = [
   { printing = "inr/202", in = ["Self-Mill"] },  # Hermit Druid
   { printing = "tdc/196", in = ["Self-Mill"] },  # Stitcher's Supplier
   { printing = "eoc/106", in = ["Self-Mill"] },  # Satyr Wayfinder
-  { name = "Phyrexian Dreadnought", in = ["Scavenge Ammo"] },
+  { printing = "g10/3", in = ["Scavenge Ammo"] },  # Phyrexian Dreadnought
   { printing = "dft/159", in = ["Self-Mill", "Leaves Graveyard Payoff"] },  # Dredger's Insight
-  { name = "Force of Savagery", in = ["Scavenge Ammo"] },
+  { printing = "plst/FUT-126", in = ["Scavenge Ammo"] },  # Force of Savagery
   { printing = "mh3/103", in = ["Graveyard Cast", "Graveyard Exile Outlet"] },  # Nethergoyf
   { printing = "mh3/273", in = ["Self-Mill"] },  # Buried Alive
   { printing = "cmr/155", in = ["Leaves Graveyard Payoff"] },  # Tormod, the Desecrator
@@ -40,14 +40,14 @@ cards = [
   { printing = "fin/99", in = ["Leaves Graveyard Payoff", "Draw"] },  # Fang, Fearless l'Cie
   { printing = "clu/24", in = ["Leaves Graveyard Payoff", "Evasive Body"] },  # Amzu, Swarm's Hunger
   { printing = "j25/658", in = ["Graveyard Exile Outlet"] },  # Fungal Plots
-  { name = "Terrasymbiosis", in = ["Draw"] },
+  { printing = "eoe/210", in = ["Draw"] },  # Terrasymbiosis
   { printing = "2x2/147", in = ["Battlefield Exile Outlet"] },  # Food Chain
   { printing = "plst/THB-87", in = ["Graveyard Exile Outlet", "Graveyard Cast"] },  # Cling to Dust
   { printing = "soc/229", in = ["Sac Outlet"] },  # Viscera Seer
-  { name = "Egon, God of Death // Throne of Death", in = ["Scavenge Ammo", "Graveyard Exile Outlet", "Draw"] },
+  { printing = "khm/92", in = ["Scavenge Ammo", "Graveyard Exile Outlet", "Draw"] },  # Egon, God of Death // Throne of Death
   { printing = "clb/623", in = ["Graveyard Recursion", "Graveyard Cast"] },  # From the Catacombs
   { printing = "plst/INR-97", in = ["Death Payoff"] },  # Blood Artist
-  { name = "Death's Shadow", in = ["Scavenge Ammo"] },
+  { printing = "slp/8", in = ["Scavenge Ammo"] },  # Death's Shadow
   { printing = "soc/1", in = ["Death Payoff", "Draw"] },  # Dina, Essence Brewer
   { printing = "sld/1431", in = ["Death Payoff", "Ramp"] },  # Pitiless Plunderer
   { printing = "pthb/224p", in = ["Graveyard Cast", "Graveyard Exile Outlet", "Removal"] },  # Polukranos, Unchained
@@ -61,8 +61,8 @@ cards = [
   { printing = "fdc/291", in = ["Voltron", "Protection"] },  # Swiftfoot Boots
   { printing = "soc/291", in = ["Protection"] },  # Tyvar's Stand
   { printing = "tdc/257", in = ["Self-Mill", "Graveyard Recursion"] },  # Grapple with the Past
-  { name = "Elves of Deep Shadow", in = ["Ramp"] },
-  { name = "Molt Tender", in = ["Ramp", "Self-Mill", "Graveyard Exile Outlet"] },
+  { printing = "sld/1710", in = ["Ramp"] },  # Elves of Deep Shadow
+  { printing = "dft/171", in = ["Ramp", "Self-Mill", "Graveyard Exile Outlet"] },  # Molt Tender
   { printing = "mic/37", in = ["Voltron", "Graveyard Cast"] },  # Visions of Dominance
   { printing = "plst/CMM-904", in = ["Ramp"] },  # Nature's Lore
   { printing = "soc/289", in = ["Ramp"] },  # Three Visits
@@ -88,20 +88,20 @@ cards = [
   { printing = "fdc/296", in = ["Land", "Graveyard Exile Outlet"] },  # Bojuka Bog
   { printing = "drk/116", in = ["Land", "Battlefield Exile Outlet"] },  # City of Shadows
   { printing = "plst/MIC-179", in = ["Land", "Voltron"] },  # Rogue's Passage
-  { name = "Bloodstained Mire", in = ["Land"] },
-  { name = "Windswept Heath", in = ["Land"] },
-  { name = "Overgrown Tomb", in = ["Land"] },
-  { name = "Underground Mortuary", in = ["Land", "Self-Mill"] },
-  { name = "Festering Thicket", in = ["Land"] },
-  { name = "Verdant Catacombs", in = ["Land"] },
-  { name = "Marsh Flats", in = ["Land"] },
-  { name = "Wooded Foothills", in = ["Land"] },
-  { name = "Urborg, Tomb of Yawgmoth", in = ["Land"] },
-  { name = "Yavimaya, Cradle of Growth", in = ["Land"] },
-  { name = "Takenuma, Abandoned Mire", in = ["Land", "Graveyard Recursion"] },
-  { name = "Boseiju, Who Endures", in = ["Land", "Removal"] },
-  { name = "Witch's Cottage", in = ["Land", "Graveyard Recursion"] },
-  { name = "Phyrexian Tower", in = ["Land", "Sac Outlet"] },
+  { printing = "mh3/216", in = ["Land"] },  # Bloodstained Mire
+  { printing = "mh3/235", in = ["Land"] },  # Windswept Heath
+  { printing = "ecl/266", in = ["Land"] },  # Overgrown Tomb
+  { printing = "mkm/271", in = ["Land", "Self-Mill"] },  # Underground Mortuary
+  { printing = "soc/371", in = ["Land"] },  # Festering Thicket
+  { printing = "spg/113", in = ["Land"] },  # Verdant Catacombs
+  { printing = "spg/110", in = ["Land"] },  # Marsh Flats
+  { printing = "mh3/236", in = ["Land"] },  # Wooded Foothills
+  { printing = "plst/UMA-254", in = ["Land"] },  # Urborg, Tomb of Yawgmoth
+  { printing = "plst/M3C-409", in = ["Land"] },  # Yavimaya, Cradle of Growth
+  { printing = "neo/278", in = ["Land", "Graveyard Recursion"] },  # Takenuma, Abandoned Mire
+  { printing = "neo/266", in = ["Land", "Removal"] },  # Boseiju, Who Endures
+  { printing = "fdc/319", in = ["Land", "Graveyard Recursion"] },  # Witch's Cottage
+  { printing = "mh3/303", in = ["Land", "Sac Outlet"] },  # Phyrexian Tower
   { printing = "fra/388", qty = 5, in = ["Land"] },  # Swamp
   { printing = "fra/394", qty = 5, in = ["Land"] },  # Forest
 ]
