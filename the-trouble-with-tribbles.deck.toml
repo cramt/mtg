@@ -1,0 +1,112 @@
+name = "The Trouble with Tribbles"
+format = "commander"
+description = """
+Rocco tutors Koloth, Tribble Hunter. At each of your end steps, Koloth gives every player two Tribbles. All Tribbles get +1/+0 and are goaded by you, so every opponent's Tribble has to attack someone other than you. Koloth's goad is a static ability, not a one-shot, so it lasts as long as Koloth stays on the battlefield (CR 701.15b).
+
+Give away Maskwood Nexus and "creatures you control are every creature type" now applies to the opponent. Their whole board becomes Tribbles: all goaded, all +1/+0, all aimed away from you. Give away Troubling Tribbles and it copies itself every upkeep for whoever controls it, and each copy is goaded too. Iroh, Bazaar Trader, Stiltzkin, Harmless Offering and Avarice Totem do the giving. Yes Man, Humble Defector, Wedding Ring and Life of the Party give themselves away, and Life of the Party and Wedding Ring hand out copies. Rocco's X fits the cheap donors: Stiltzkin 1, Bazaar Trader 2, Iroh 3, Koloth 4.
+
+Strionic Resonator, Kirol and Roaming Throne (naming Klingon) copy Koloth's end-step trigger. Helm of the Host and Tempestra make nonlegendary Koloth copies, and each copy adds its own trigger and another +1/+0. Death Kiss, Gahiji and Ellie pay off opponents attacking each other, and Bothersome Quasit stops goaded creatures from blocking. Your own Tribbles feed Skullclamp and Tocasia's Welcome, and Chord of Calling can convoke with them.
+
+Bracket 3: one Game Changer (Enlightened Tutor, for Maskwood or Helm). Koloth, Troubling Tribbles and Tribble Cluster are from Star Trek Commander (release 2026-11-13) and aren't legal before then."""
+
+cards = [
+  { name = "Rocco, Cabaretti Caterer", in = ["Commander"] },
+  { name = "Koloth, Tribble Hunter", in = ["Tribble Engine"] },
+  { name = "Troubling Tribbles", in = ["Tribble Engine"] },
+  { name = "Tribble Cluster", in = ["Tribble Engine"] },
+  { name = "Maskwood Nexus", in = ["Tribble Engine", "Give Away"] },
+  { name = "Strionic Resonator", in = ["Trigger Copier"] },
+  { name = "Kirol, Attentive First-Year", in = ["Trigger Copier"] },
+  { name = "Roaming Throne", in = ["Trigger Copier"] },
+  { name = "Helm of the Host", in = ["Trigger Copier"] },
+  { name = "Tempestra, Dame of Games", in = ["Trigger Copier"] },
+  { name = "Iroh, Tea Master", in = ["Give Away"] },
+  { name = "Bazaar Trader", in = ["Give Away"] },
+  { name = "Stiltzkin, Moogle Merchant", in = ["Give Away", "Draw"] },
+  { name = "Harmless Offering", in = ["Give Away"] },
+  { name = "Avarice Totem", in = ["Give Away"] },
+  { name = "Yes Man, Personal Securitron", in = ["Give Away", "Draw"] },
+  { name = "Humble Defector", in = ["Give Away", "Draw"] },
+  { name = "Life of the Party", in = ["Give Away", "Goad"] },
+  { name = "Wedding Ring", in = ["Give Away", "Draw"] },
+  { name = "Disrupt Decorum", in = ["Goad"] },
+  { name = "Taunt from the Rampart", in = ["Goad"] },
+  { name = "Marisi, Breaker of the Coil", in = ["Goad"] },
+  { name = "Agitator Ant", in = ["Goad"] },
+  { name = "Puppet Master, String Puller", in = ["Goad"] },
+  { name = "Geode Rager", in = ["Goad"] },
+  { name = "Vengeful Ancestor", in = ["Goad"] },
+  { name = "Death Kiss", in = ["Goad Payoff"] },
+  { name = "Gahiji, Honored One", in = ["Goad Payoff"] },
+  { name = "Bothersome Quasit", in = ["Goad Payoff", "Goad"] },
+  { name = "Ellie, Brick Master", in = ["Goad Payoff"] },
+  { name = "Combat Calligrapher", in = ["Goad Payoff"] },
+  { name = "Ghostly Prison", in = ["Goad Payoff"] },
+  { name = "Chord of Calling", in = ["Tutor"] },
+  { name = "Green Sun's Zenith", in = ["Tutor"] },
+  { name = "Finale of Devastation", in = ["Tutor"] },
+  { name = "Imperial Recruiter", in = ["Tutor"] },
+  { name = "Enlightened Tutor", in = ["Tutor"] },
+  { name = "Mind Stone", in = ["Ramp"] },
+  { name = "Arcane Signet", in = ["Ramp"] },
+  { name = "Fellwar Stone", in = ["Ramp"] },
+  { name = "Talisman of Conviction", in = ["Ramp"] },
+  { name = "Talisman of Unity", in = ["Ramp"] },
+  { name = "Talisman of Impulse", in = ["Ramp"] },
+  { name = "Birds of Paradise", in = ["Ramp"] },
+  { name = "Elvish Mystic", in = ["Ramp"] },
+  { name = "Nature's Lore", in = ["Ramp"] },
+  { name = "Three Visits", in = ["Ramp"] },
+  { name = "Cultivate", in = ["Ramp"] },
+  { name = "Wood Elves", in = ["Ramp"] },
+  { name = "Skullclamp", in = ["Draw"] },
+  { name = "Tocasia's Welcome", in = ["Draw"] },
+  { name = "Shamanic Revelation", in = ["Draw"] },
+  { name = "Return of the Wildspeaker", in = ["Draw"] },
+  { name = "Esper Sentinel", in = ["Draw"] },
+  { name = "Swords to Plowshares", in = ["Removal"] },
+  { name = "Path to Exile", in = ["Removal"] },
+  { name = "Chaos Warp", in = ["Removal"] },
+  { name = "Beast Within", in = ["Removal"] },
+  { name = "Generous Gift", in = ["Removal"] },
+  { name = "Skyclave Apparition", in = ["Removal"] },
+  { name = "Lightning Greaves", in = ["Protection"] },
+  { name = "Heroic Intervention", in = ["Protection"] },
+  { name = "Boros Charm", in = ["Protection"] },
+  { name = "Selfless Spirit", in = ["Protection"] },
+  { name = "Command Tower", in = ["Land"] },
+  { name = "Exotic Orchard", in = ["Land"] },
+  { name = "Path of Ancestry", in = ["Land"] },
+  { name = "Battlefield Forge", in = ["Land"] },
+  { name = "Clifftop Retreat", in = ["Land"] },
+  { name = "Furycalm Snarl", in = ["Land"] },
+  { name = "Rugged Prairie", in = ["Land"] },
+  { name = "Sunscorched Divide", in = ["Land"] },
+  { name = "Temple of Triumph", in = ["Land"] },
+  { name = "Radiant Summit", in = ["Land"] },
+  { name = "Fabled Passage", in = ["Land"] },
+  { name = "Evolving Wilds", in = ["Land"] },
+  { name = "Cabaretti Courtyard", in = ["Land"] },
+  { name = "Jungle Shrine", in = ["Land"] },
+  { name = "Rootbound Crag", in = ["Land"] },
+  { name = "Sunpetal Grove", in = ["Land"] },
+  { name = "Sungrass Prairie", in = ["Land"] },
+  { name = "Blossoming Sands", in = ["Land"] },
+  { name = "Forest", qty = 8, in = ["Land"] },
+  { name = "Mountain", qty = 5, in = ["Land"] },
+  { name = "Plains", qty = 5, in = ["Land"] },
+]
+
+[categories]
+Commander = { type = "commander" }
+Draw = {}
+"Give Away" = {}
+Goad = {}
+"Goad Payoff" = {}
+Land = {}
+Protection = {}
+Ramp = {}
+Removal = {}
+"Tribble Engine" = {}
+"Trigger Copier" = {}
+Tutor = {}
