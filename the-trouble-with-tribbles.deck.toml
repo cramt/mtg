@@ -3,7 +3,7 @@ format = "commander"
 description = """
 Rocco tutors Koloth, Tribble Hunter, and is the deck's only creature tutor: he's always in the command zone, so extra creature tutors are dead weight. At each of your end steps, Koloth gives every player two Tribbles. All Tribbles get +1/+0 and are goaded by you, so every opponent's Tribble has to attack someone other than you. Koloth's goad is a static ability, not a one-shot, so it lasts as long as Koloth stays on the battlefield (CR 701.15b).
 
-Give away Maskwood Nexus and "creatures you control are every creature type" now applies to the opponent. Their whole board becomes Tribbles: all goaded, all +1/+0, all aimed away from you. Give away Troubling Tribbles and it copies itself every upkeep for whoever controls it, and each copy is goaded too. Iroh, Bazaar Trader and Stiltzkin do the giving, and Rocco finds whichever one you need. Rainbow Vale gives itself away every time you tap it, and Forbidden Orchard hands an opponent a Spirit each tap; on the Maskwood player that Spirit is a goaded Tribble. Yes Man, Humble Defector, Wedding Ring and Life of the Party give themselves away, and Life of the Party and Wedding Ring hand out copies. Rocco's X fits the cheap donors: Stiltzkin 1, Bazaar Trader 2, Iroh 3, Koloth 4.
+Give away Maskwood Nexus and \"creatures you control are every creature type\" now applies to the opponent. Their whole board becomes Tribbles: all goaded, all +1/+0, all aimed away from you. Give away Troubling Tribbles and it copies itself every upkeep for whoever controls it, and each copy is goaded too. Iroh, Bazaar Trader and Stiltzkin do the giving, and Rocco finds whichever one you need. Rainbow Vale gives itself away every time you tap it, and Forbidden Orchard hands an opponent a Spirit each tap; on the Maskwood player that Spirit is a goaded Tribble. Yes Man, Humble Defector, Wedding Ring and Life of the Party give themselves away, and Life of the Party and Wedding Ring hand out copies. Rocco's X fits the cheap donors: Stiltzkin 1, Bazaar Trader 2, Iroh 3, Koloth 4.
 
 Strionic Resonator, Kirol and Roaming Throne (naming Klingon) copy Koloth's end-step trigger. Helm of the Host and Tempestra make nonlegendary Koloth copies, and each copy adds its own trigger and another +1/+0. Death Kiss, Gahiji and Ellie pay off opponents attacking each other, and Bothersome Quasit stops goaded creatures from blocking. Your own Tribbles feed Skullclamp and Tocasia's Welcome.
 
@@ -75,7 +75,7 @@ cards = [
   { printing = "frc/80", in = ["Land"] },  # Radiant Summit
   { printing = "frc/71", in = ["Land"] },  # Fabled Passage
   { printing = "plst/LCC-328", in = ["Land"] },  # Evolving Wilds
-  { name = "Sundown Pass", in = ["Land"] },
+  { printing = "psos/264p", in = ["Land"] },  # Sundown Pass
   { printing = "ecc/154", in = ["Land"] },  # Jungle Shrine
   { printing = "ecc/163", in = ["Land"] },  # Rootbound Crag
   { printing = "plst/BLC-335", in = ["Land"] },  # Sunpetal Grove
@@ -112,5 +112,5 @@ Ramp = {}
 Removal = {}
 "Tribble Engine" = {}
 "Trigger Copier" = {}
-"Maskwood Tutor" = {}
 Tutor = {}
+"Maskwood Tutor" = {}
