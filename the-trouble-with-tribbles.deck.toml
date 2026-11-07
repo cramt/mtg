@@ -10,91 +10,91 @@ Strionic Resonator, Kirol and Roaming Throne (naming Klingon) copy Koloth's end-
 Bracket 3: one Game Changer (Enlightened Tutor, for Maskwood or Helm). Koloth, Troubling Tribbles and Tribble Cluster are from Star Trek Commander (release 2026-11-13) and aren't legal before then."""
 
 cards = [
-  { name = "Rocco, Cabaretti Caterer", in = ["Commander"] },
-  { name = "Koloth, Tribble Hunter", in = ["Tribble Engine"] },
-  { name = "Troubling Tribbles", in = ["Tribble Engine"] },
-  { name = "Tribble Cluster", in = ["Tribble Engine"] },
-  { name = "Maskwood Nexus", in = ["Tribble Engine", "Give Away"] },
-  { name = "Strionic Resonator", in = ["Trigger Copier"] },
-  { name = "Kirol, Attentive First-Year", in = ["Trigger Copier"] },
-  { name = "Roaming Throne", in = ["Trigger Copier"] },
-  { name = "Helm of the Host", in = ["Trigger Copier"] },
-  { name = "Tempestra, Dame of Games", in = ["Trigger Copier"] },
-  { name = "Iroh, Tea Master", in = ["Give Away"] },
-  { name = "Bazaar Trader", in = ["Give Away"] },
-  { name = "Stiltzkin, Moogle Merchant", in = ["Give Away", "Draw"] },
-  { name = "Harmless Offering", in = ["Give Away"] },
-  { name = "Avarice Totem", in = ["Give Away"] },
-  { name = "Yes Man, Personal Securitron", in = ["Give Away", "Draw"] },
-  { name = "Humble Defector", in = ["Give Away", "Draw"] },
-  { name = "Life of the Party", in = ["Give Away", "Goad"] },
-  { name = "Wedding Ring", in = ["Give Away", "Draw"] },
-  { name = "Disrupt Decorum", in = ["Goad"] },
-  { name = "Taunt from the Rampart", in = ["Goad"] },
-  { name = "Marisi, Breaker of the Coil", in = ["Goad"] },
-  { name = "Agitator Ant", in = ["Goad"] },
-  { name = "Puppet Master, String Puller", in = ["Goad"] },
-  { name = "Geode Rager", in = ["Goad"] },
-  { name = "Vengeful Ancestor", in = ["Goad"] },
-  { name = "Death Kiss", in = ["Goad Payoff"] },
-  { name = "Gahiji, Honored One", in = ["Goad Payoff"] },
-  { name = "Bothersome Quasit", in = ["Goad Payoff", "Goad"] },
-  { name = "Ellie, Brick Master", in = ["Goad Payoff"] },
-  { name = "Combat Calligrapher", in = ["Goad Payoff"] },
-  { name = "Ghostly Prison", in = ["Goad Payoff"] },
-  { name = "Chord of Calling", in = ["Tutor"] },
-  { name = "Green Sun's Zenith", in = ["Tutor"] },
-  { name = "Finale of Devastation", in = ["Tutor"] },
-  { name = "Imperial Recruiter", in = ["Tutor"] },
-  { name = "Enlightened Tutor", in = ["Tutor"] },
-  { name = "Mind Stone", in = ["Ramp"] },
-  { name = "Arcane Signet", in = ["Ramp"] },
-  { name = "Fellwar Stone", in = ["Ramp"] },
-  { name = "Talisman of Conviction", in = ["Ramp"] },
-  { name = "Talisman of Unity", in = ["Ramp"] },
-  { name = "Talisman of Impulse", in = ["Ramp"] },
-  { name = "Birds of Paradise", in = ["Ramp"] },
-  { name = "Elvish Mystic", in = ["Ramp"] },
-  { name = "Nature's Lore", in = ["Ramp"] },
-  { name = "Three Visits", in = ["Ramp"] },
-  { name = "Cultivate", in = ["Ramp"] },
-  { name = "Wood Elves", in = ["Ramp"] },
-  { name = "Skullclamp", in = ["Draw"] },
-  { name = "Tocasia's Welcome", in = ["Draw"] },
-  { name = "Shamanic Revelation", in = ["Draw"] },
-  { name = "Return of the Wildspeaker", in = ["Draw"] },
-  { name = "Esper Sentinel", in = ["Draw"] },
-  { name = "Swords to Plowshares", in = ["Removal"] },
-  { name = "Path to Exile", in = ["Removal"] },
-  { name = "Chaos Warp", in = ["Removal"] },
-  { name = "Beast Within", in = ["Removal"] },
-  { name = "Generous Gift", in = ["Removal"] },
-  { name = "Skyclave Apparition", in = ["Removal"] },
-  { name = "Lightning Greaves", in = ["Protection"] },
-  { name = "Heroic Intervention", in = ["Protection"] },
-  { name = "Boros Charm", in = ["Protection"] },
-  { name = "Selfless Spirit", in = ["Protection"] },
-  { name = "Command Tower", in = ["Land"] },
-  { name = "Exotic Orchard", in = ["Land"] },
-  { name = "Path of Ancestry", in = ["Land"] },
-  { name = "Battlefield Forge", in = ["Land"] },
-  { name = "Clifftop Retreat", in = ["Land"] },
-  { name = "Furycalm Snarl", in = ["Land"] },
-  { name = "Rugged Prairie", in = ["Land"] },
-  { name = "Sunscorched Divide", in = ["Land"] },
-  { name = "Temple of Triumph", in = ["Land"] },
-  { name = "Radiant Summit", in = ["Land"] },
-  { name = "Fabled Passage", in = ["Land"] },
-  { name = "Evolving Wilds", in = ["Land"] },
-  { name = "Cabaretti Courtyard", in = ["Land"] },
-  { name = "Jungle Shrine", in = ["Land"] },
-  { name = "Rootbound Crag", in = ["Land"] },
-  { name = "Sunpetal Grove", in = ["Land"] },
-  { name = "Sungrass Prairie", in = ["Land"] },
-  { name = "Blossoming Sands", in = ["Land"] },
-  { name = "Forest", qty = 8, in = ["Land"] },
-  { name = "Mountain", qty = 5, in = ["Land"] },
-  { name = "Plains", qty = 5, in = ["Land"] },
+  { printing = "snc/218", in = ["Commander"] },  # Rocco, Cabaretti Caterer
+  { printing = "trc/72", in = ["Tribble Engine"] },  # Koloth, Tribble Hunter
+  { printing = "trk/41", in = ["Tribble Engine"] },  # Troubling Tribbles
+  { printing = "trc/32", in = ["Tribble Engine"] },  # Tribble Cluster
+  { printing = "sld/1904", in = ["Tribble Engine", "Give Away"] },  # Maskwood Nexus
+  { printing = "lcc/116", in = ["Trigger Copier"] },  # Strionic Resonator
+  { printing = "ecl/231", in = ["Trigger Copier"] },  # Kirol, Attentive First-Year
+  { printing = "sld/2415", in = ["Trigger Copier"] },  # Roaming Throne
+  { printing = "blc/276", in = ["Trigger Copier"] },  # Helm of the Host
+  { printing = "tmc/27", in = ["Trigger Copier"] },  # Tempestra, Dame of Games
+  { printing = "ptla/228s", in = ["Give Away"] },  # Iroh, Tea Master
+  { printing = "wwk/72", in = ["Give Away"] },  # Bazaar Trader
+  { printing = "fin/565", in = ["Give Away", "Draw"] },  # Stiltzkin, Moogle Merchant
+  { printing = "fdn/625", in = ["Give Away"] },  # Harmless Offering
+  { printing = "5dn/104", in = ["Give Away"] },  # Avarice Totem
+  { printing = "pip/29", in = ["Give Away", "Draw"] },  # Yes Man, Personal Securitron
+  { printing = "plst/FRF-104", in = ["Give Away", "Draw"] },  # Humble Defector
+  { printing = "plst/NCC-48", in = ["Give Away", "Goad"] },  # Life of the Party
+  { printing = "lcc/102", in = ["Give Away", "Draw"] },  # Wedding Ring
+  { printing = "mkc/151", in = ["Goad"] },  # Disrupt Decorum
+  { printing = "msc/188", in = ["Goad"] },  # Taunt from the Rampart
+  { printing = "plst/C19-46", in = ["Goad"] },  # Marisi, Breaker of the Coil
+  { printing = "mkc/145", in = ["Goad"] },  # Agitator Ant
+  { printing = "msc/59", in = ["Goad"] },  # Puppet Master, String Puller
+  { printing = "scd/144", in = ["Goad"] },  # Geode Rager
+  { printing = "tdc/242", in = ["Goad"] },  # Vengeful Ancestor
+  { printing = "clb/629", in = ["Goad Payoff"] },  # Death Kiss
+  { printing = "ncc/340", in = ["Goad Payoff"] },  # Gahiji, Honored One
+  { printing = "plst/CLB-674", in = ["Goad Payoff", "Goad"] },  # Bothersome Quasit
+  { printing = "sld/2197", in = ["Goad Payoff"] },  # Ellie, Brick Master
+  { printing = "soc/141", in = ["Goad Payoff"] },  # Combat Calligrapher
+  { printing = "soc/146", in = ["Goad Payoff"] },  # Ghostly Prison
+  { printing = "rvr/134", in = ["Tutor"] },  # Chord of Calling
+  { printing = "2x2/150", in = ["Tutor"] },  # Green Sun's Zenith
+  { printing = "sld/2680", in = ["Tutor"] },  # Finale of Devastation
+  { printing = "mh2/281", in = ["Tutor"] },  # Imperial Recruiter
+  { printing = "dmr/6", in = ["Tutor"] },  # Enlightened Tutor
+  { printing = "fdc/271", in = ["Ramp"] },  # Mind Stone
+  { printing = "fdc/245", in = ["Ramp"] },  # Arcane Signet
+  { printing = "frc/57", in = ["Ramp"] },  # Fellwar Stone
+  { printing = "soc/428", in = ["Ramp"] },  # Talisman of Conviction
+  { printing = "mkc/244", in = ["Ramp"] },  # Talisman of Unity
+  { printing = "tdc/332", in = ["Ramp"] },  # Talisman of Impulse
+  { printing = "plst/GK2-82", in = ["Ramp"] },  # Birds of Paradise
+  { printing = "fdc/202", in = ["Ramp"] },  # Elvish Mystic
+  { printing = "plst/CMM-904", in = ["Ramp"] },  # Nature's Lore
+  { printing = "soc/289", in = ["Ramp"] },  # Three Visits
+  { printing = "sld/2679", in = ["Ramp"] },  # Cultivate
+  { printing = "moc/316", in = ["Ramp"] },  # Wood Elves
+  { printing = "plst/MOC-379", in = ["Draw"] },  # Skullclamp
+  { printing = "soc/181", in = ["Draw"] },  # Tocasia's Welcome
+  { printing = "fdc/229", in = ["Draw"] },  # Shamanic Revelation
+  { printing = "ecc/115", in = ["Draw"] },  # Return of the Wildspeaker
+  { printing = "sld/2123", in = ["Draw"] },  # Esper Sentinel
+  { printing = "fdc/53", in = ["Removal"] },  # Swords to Plowshares
+  { printing = "frc/30", in = ["Removal"] },  # Path to Exile
+  { printing = "fdc/146", in = ["Removal"] },  # Chaos Warp
+  { printing = "fdc/190", in = ["Removal"] },  # Beast Within
+  { printing = "sld/2534", in = ["Removal"] },  # Generous Gift
+  { printing = "plst/BLC-154", in = ["Removal"] },  # Skyclave Apparition
+  { printing = "soc/350", in = ["Protection"] },  # Lightning Greaves
+  { printing = "cmm/295", in = ["Protection"] },  # Heroic Intervention
+  { printing = "fdn/721", in = ["Protection"] },  # Boros Charm
+  { printing = "soc/167", in = ["Protection"] },  # Selfless Spirit
+  { printing = "frc/22", in = ["Land"] },  # Command Tower
+  { printing = "frc/70", in = ["Land"] },  # Exotic Orchard
+  { printing = "frc/77", in = ["Land"] },  # Path of Ancestry
+  { printing = "frc/65", in = ["Land"] },  # Battlefield Forge
+  { printing = "frc/67", in = ["Land"] },  # Clifftop Retreat
+  { printing = "soc/375", in = ["Land"] },  # Furycalm Snarl
+  { printing = "soc/401", in = ["Land"] },  # Rugged Prairie
+  { printing = "soc/410", in = ["Land"] },  # Sunscorched Divide
+  { printing = "soc/417", in = ["Land"] },  # Temple of Triumph
+  { printing = "frc/80", in = ["Land"] },  # Radiant Summit
+  { printing = "frc/71", in = ["Land"] },  # Fabled Passage
+  { printing = "plst/LCC-328", in = ["Land"] },  # Evolving Wilds
+  { printing = "eoc/151", in = ["Land"] },  # Cabaretti Courtyard
+  { printing = "ecc/154", in = ["Land"] },  # Jungle Shrine
+  { printing = "ecc/163", in = ["Land"] },  # Rootbound Crag
+  { printing = "plst/BLC-335", in = ["Land"] },  # Sunpetal Grove
+  { printing = "plst/BLC-334", in = ["Land"] },  # Sungrass Prairie
+  { printing = "plst/NEO-265", in = ["Land"] },  # Blossoming Sands
+  { printing = "fra/394", qty = 8, in = ["Land"] },  # Forest
+  { printing = "fra/391", qty = 5, in = ["Land"] },  # Mountain
+  { printing = "fra/382", qty = 5, in = ["Land"] },  # Plains
 ]
 
 [categories]
