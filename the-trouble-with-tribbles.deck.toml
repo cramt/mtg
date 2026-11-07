@@ -94,7 +94,7 @@ cards = [
   { name = "Sunpetal Grove", in = ["Land"] },
   { name = "Battlefield Forge", in = ["Land"] },
   { name = "Furycalm Snarl", in = ["Land"] },
-  { name = "Fabled Passage", in = ["Land"] },
+  { name = "Copperline Gorge", in = ["Land"] },
   { name = "Forest", qty = 9, in = ["Land"] },
   { name = "Mountain", qty = 5, in = ["Land"] },
   { name = "Plains", qty = 5, in = ["Land"] },
