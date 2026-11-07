@@ -79,8 +79,8 @@ cards = [
   { printing = "ecc/154", in = ["Land"] },  # Jungle Shrine
   { printing = "ecc/163", in = ["Land"] },  # Rootbound Crag
   { printing = "plst/BLC-335", in = ["Land"] },  # Sunpetal Grove
-  { name = "Sungrass Prairie", in = ["Land"] },
-  { name = "Blossoming Sands", in = ["Land"] },
+  { printing = "plst/BLC-334", in = ["Land"] },  # Sungrass Prairie
+  { printing = "plst/NEO-265", in = ["Land"] },  # Blossoming Sands
   { printing = "fra/394", qty = 9, in = ["Land"] },  # Forest
   { printing = "fra/391", qty = 5, in = ["Land"] },  # Mountain
   { printing = "fra/382", qty = 5, in = ["Land"] },  # Plains
