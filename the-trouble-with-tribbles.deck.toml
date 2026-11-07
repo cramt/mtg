@@ -86,7 +86,7 @@ cards = [
   { printing = "frc/80", in = ["Land"] },  # Radiant Summit
   { printing = "frc/71", in = ["Land"] },  # Fabled Passage
   { printing = "plst/LCC-328", in = ["Land"] },  # Evolving Wilds
-  { printing = "eoc/151", in = ["Land"] },  # Cabaretti Courtyard
+  { name = "Sundown Pass", in = ["Land"] },
   { printing = "ecc/154", in = ["Land"] },  # Jungle Shrine
   { printing = "ecc/163", in = ["Land"] },  # Rootbound Crag
   { printing = "plst/BLC-335", in = ["Land"] },  # Sunpetal Grove
