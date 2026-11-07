@@ -66,7 +66,7 @@ cards = [
   { printing = "fdc/213", in = ["Ramp"] },  # Llanowar Elves
   { printing = "fdc/204", in = ["Ramp"] },  # Fyndhorn Elves
   { printing = "plst/MIC-132", in = ["Ramp"] },  # Avacyn's Pilgrim
-  { name = "Wild Growth", in = ["Ramp"] },
+  { printing = "pmei/2026-2", in = ["Ramp"] },  # Wild Growth
   { printing = "ecc/113", in = ["Ramp"] },  # Kodama's Reach
   { printing = "fra/113", in = ["Ramp"] },  # Simulacrum Shaper
   { printing = "sld/766", in = ["Ramp"] },  # Farhaven Elf
@@ -77,27 +77,27 @@ cards = [
   { printing = "fra/79", in = ["Maskwood Tutor"] },  # Curse-Marred Demon
   { printing = "sld/2103", in = ["Maskwood Tutor"] },  # Goblin Engineer
   { printing = "j22/236", in = ["Maskwood Tutor"] },  # Sanctum Gargoyle
-  { name = "Command Tower", in = ["Land"] },
-  { name = "Exotic Orchard", in = ["Land"] },
-  { name = "Sacred Foundry", in = ["Land"] },
-  { name = "Stomping Ground", in = ["Land"] },
-  { name = "Temple Garden", in = ["Land"] },
-  { name = "Elegant Parlor", in = ["Land"] },
-  { name = "Lush Portico", in = ["Land"] },
-  { name = "Commercial District", in = ["Land"] },
-  { name = "Jetmir's Garden", in = ["Land"] },
-  { name = "Spectator Seating", in = ["Land"] },
-  { name = "Bountiful Promenade", in = ["Land"] },
-  { name = "Spire Garden", in = ["Land"] },
-  { name = "Clifftop Retreat", in = ["Land"] },
-  { name = "Rootbound Crag", in = ["Land"] },
-  { name = "Sunpetal Grove", in = ["Land"] },
-  { name = "Battlefield Forge", in = ["Land"] },
-  { name = "Furycalm Snarl", in = ["Land"] },
-  { name = "Copperline Gorge", in = ["Land"] },
-  { name = "Forest", qty = 9, in = ["Land"] },
-  { name = "Mountain", qty = 5, in = ["Land"] },
-  { name = "Plains", qty = 5, in = ["Land"] },
+  { printing = "frc/22", in = ["Land"] },  # Command Tower
+  { printing = "frc/70", in = ["Land"] },  # Exotic Orchard
+  { printing = "eoe/256", in = ["Land"] },  # Sacred Foundry
+  { printing = "eoe/258", in = ["Land"] },  # Stomping Ground
+  { printing = "ecl/268", in = ["Land"] },  # Temple Garden
+  { printing = "mkm/260", in = ["Land"] },  # Elegant Parlor
+  { printing = "mkm/263", in = ["Land"] },  # Lush Portico
+  { printing = "mkm/259", in = ["Land"] },  # Commercial District
+  { printing = "plst/SNC-250", in = ["Land"] },  # Jetmir's Garden
+  { printing = "cmm/427", in = ["Land"] },  # Spectator Seating
+  { printing = "plst/BBD-81", in = ["Land"] },  # Bountiful Promenade
+  { printing = "clb/361", in = ["Land"] },  # Spire Garden
+  { printing = "frc/67", in = ["Land"] },  # Clifftop Retreat
+  { printing = "ecc/163", in = ["Land"] },  # Rootbound Crag
+  { printing = "plst/BLC-335", in = ["Land"] },  # Sunpetal Grove
+  { printing = "frc/65", in = ["Land"] },  # Battlefield Forge
+  { printing = "soc/375", in = ["Land"] },  # Furycalm Snarl
+  { printing = "blc/301", in = ["Land"] },  # Copperline Gorge
+  { printing = "fra/394", qty = 9, in = ["Land"] },  # Forest
+  { printing = "fra/391", qty = 5, in = ["Land"] },  # Mountain
+  { printing = "fra/382", qty = 5, in = ["Land"] },  # Plains
 ]
 
 [categories]
