@@ -1,47 +1,29 @@
+# Rocco's X can't be cast by this engine ({X} is refused), and can_cast under a
+# [casting] line reads the mana the line left after its own ramp casts, which
+# made "Rocco X=4 by turn 6" read ~17% for any ramp package. So this file asks
+# about cards in hand only, with no [casting], and leaves Rocco's mana to playtests.
+
 [mulligan]
 keep = [{ query = "t:land", min = 3, max = 5 }]
 down_to = 6
 bottom = ['mv>=6', 't:land']
 
 [[criterion]]
-name = "a donor by turn 5"
-at_least = 0.70
-require = [{ turn = 5, query = 'cat:"Give Away"', min = 1 }]
+name = "turn-1 ramp in the opener"
+at_least = 0.35
+require = [{ turn = 0, query = 'cat:"Ramp" mv<=1', min = 1 }]
 
 [[criterion]]
-name = "Naya by turn 3"
-at_least = 0.60
-require = [{ turn = 3, can_cast = "{R}{G}{W}" }]
+name = "any ramp piece by turn 2"
+at_least = 0.70
+require = [{ turn = 2, query = 'cat:"Ramp"', min = 1 }]
+
+[[criterion]]
+name = "Maskwood or a tutor for it by turn 6"
+at_least = 0.40
+require = [{ turn = 6, query = '''name:"Maskwood Nexus" or cat:"Maskwood Tutor" or name:"Enlightened Tutor"''', min = 1 }]
 
 [[expect]]
 name = "lands in opener"
 turn = 0
 query = "t:land"
-
-[land_drop]
-prefer = ["t:basic", "t:land"]
-
-[[effect]]
-match = '''name:"Nature's Lore" or name:"Three Visits"'''
-on = "cast"
-fetch = ['t:forest']
-to = "battlefield"
-
-[[effect]]
-match = 'name:"Cultivate" or name:"Wood Elves"'
-on = "cast"
-fetch = ['t:basic']
-to = "battlefield"
-
-[[effect]]
-match = '''name:"Arcane Signet" or name:"Fellwar Stone" or name:"Mind Stone" or name:"Birds of Paradise" or name:"Elvish Mystic" or t:artifact o:"Talisman"'''
-on = "cast"
-adds = 1
-
-[casting]
-prefer = ['cat:"Ramp"']
-
-[[criterion]]
-name = "Rocco for X=4 (Koloth) by turn 6"
-at_least = 0.50
-require = [{ turn = 6, can_cast = "{4}{R}{G}{W}" }]

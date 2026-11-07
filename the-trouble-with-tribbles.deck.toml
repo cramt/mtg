@@ -1,11 +1,15 @@
 name = "The Trouble with Tribbles"
 format = "commander"
 description = """
-Rocco tutors Koloth, Tribble Hunter. At each of your end steps, Koloth gives every player two Tribbles. All Tribbles get +1/+0 and are goaded by you, so every opponent's Tribble has to attack someone other than you. Koloth's goad is a static ability, not a one-shot, so it lasts as long as Koloth stays on the battlefield (CR 701.15b).
+Rocco tutors Koloth, Tribble Hunter, and is the deck's only creature tutor: he's always in the command zone, so extra creature tutors are dead weight. At each of your end steps, Koloth gives every player two Tribbles. All Tribbles get +1/+0 and are goaded by you, so every opponent's Tribble has to attack someone other than you. Koloth's goad is a static ability, not a one-shot, so it lasts as long as Koloth stays on the battlefield (CR 701.15b).
 
-Give away Maskwood Nexus and "creatures you control are every creature type" now applies to the opponent. Their whole board becomes Tribbles: all goaded, all +1/+0, all aimed away from you. Give away Troubling Tribbles and it copies itself every upkeep for whoever controls it, and each copy is goaded too. Iroh, Bazaar Trader, Stiltzkin, Harmless Offering and Avarice Totem do the giving. Yes Man, Humble Defector, Wedding Ring and Life of the Party give themselves away, and Life of the Party and Wedding Ring hand out copies. Rocco's X fits the cheap donors: Stiltzkin 1, Bazaar Trader 2, Iroh 3, Koloth 4.
+Give away Maskwood Nexus and "creatures you control are every creature type" now applies to the opponent. Their whole board becomes Tribbles: all goaded, all +1/+0, all aimed away from you. Give away Troubling Tribbles and it copies itself every upkeep for whoever controls it, and each copy is goaded too. Iroh, Bazaar Trader and Stiltzkin do the giving, and Rocco finds whichever one you need. Rainbow Vale gives itself away every time you tap it, and Forbidden Orchard hands an opponent a Spirit each tap; on the Maskwood player that Spirit is a goaded Tribble. Yes Man, Humble Defector, Wedding Ring and Life of the Party give themselves away, and Life of the Party and Wedding Ring hand out copies. Rocco's X fits the cheap donors: Stiltzkin 1, Bazaar Trader 2, Iroh 3, Koloth 4.
 
-Strionic Resonator, Kirol and Roaming Throne (naming Klingon) copy Koloth's end-step trigger. Helm of the Host and Tempestra make nonlegendary Koloth copies, and each copy adds its own trigger and another +1/+0. Death Kiss, Gahiji and Ellie pay off opponents attacking each other, and Bothersome Quasit stops goaded creatures from blocking. Your own Tribbles feed Skullclamp and Tocasia's Welcome, and Chord of Calling can convoke with them.
+Strionic Resonator, Kirol and Roaming Throne (naming Klingon) copy Koloth's end-step trigger. Helm of the Host and Tempestra make nonlegendary Koloth copies, and each copy adds its own trigger and another +1/+0. Death Kiss, Gahiji and Ellie pay off opponents attacking each other, and Bothersome Quasit stops goaded creatures from blocking. Your own Tribbles feed Skullclamp and Tocasia's Welcome.
+
+Ramp is turn-1 one-drops and turn-2 three-drops that net a land plus something else; no two-mana rocks.
+
+Maskwood is the card Rocco can't fetch directly, so the artifact tutors are creatures he can fetch: Curse-Marred Demon (X=4) tutors anything, Goblin Engineer (X=2) bins Maskwood and Sanctum Gargoyle brings it back to hand, which also covers the Demon's random discard hitting it.
 
 Bracket 3: one Game Changer (Enlightened Tutor, for Maskwood or Helm). Koloth, Troubling Tribbles and Tribble Cluster are from Star Trek Commander (release 2026-11-13) and aren't legal before then."""
 
@@ -23,8 +27,6 @@ cards = [
   { printing = "ptla/228s", in = ["Give Away"] },  # Iroh, Tea Master
   { printing = "wwk/72", in = ["Give Away"] },  # Bazaar Trader
   { printing = "fin/565", in = ["Give Away", "Draw"] },  # Stiltzkin, Moogle Merchant
-  { printing = "fdn/625", in = ["Give Away"] },  # Harmless Offering
-  { printing = "5dn/104", in = ["Give Away"] },  # Avarice Totem
   { printing = "pip/29", in = ["Give Away", "Draw"] },  # Yes Man, Personal Securitron
   { printing = "plst/FRF-104", in = ["Give Away", "Draw"] },  # Humble Defector
   { printing = "plst/NCC-48", in = ["Give Away", "Goad"] },  # Life of the Party
@@ -41,22 +43,9 @@ cards = [
   { printing = "plst/CLB-674", in = ["Goad Payoff", "Goad"] },  # Bothersome Quasit
   { printing = "sld/2197", in = ["Goad Payoff"] },  # Ellie, Brick Master
   { printing = "soc/141", in = ["Goad Payoff"] },  # Combat Calligrapher
-  { printing = "soc/146", in = ["Goad Payoff"] },  # Ghostly Prison
-  { printing = "rvr/134", in = ["Tutor"] },  # Chord of Calling
-  { printing = "2x2/150", in = ["Tutor"] },  # Green Sun's Zenith
-  { printing = "sld/2680", in = ["Tutor"] },  # Finale of Devastation
-  { printing = "mh2/281", in = ["Tutor"] },  # Imperial Recruiter
   { printing = "dmr/6", in = ["Tutor"] },  # Enlightened Tutor
-  { printing = "fdc/271", in = ["Ramp"] },  # Mind Stone
-  { printing = "fdc/245", in = ["Ramp"] },  # Arcane Signet
-  { printing = "frc/57", in = ["Ramp"] },  # Fellwar Stone
-  { printing = "soc/428", in = ["Ramp"] },  # Talisman of Conviction
-  { printing = "mkc/244", in = ["Ramp"] },  # Talisman of Unity
-  { printing = "tdc/332", in = ["Ramp"] },  # Talisman of Impulse
   { printing = "plst/GK2-82", in = ["Ramp"] },  # Birds of Paradise
   { printing = "fdc/202", in = ["Ramp"] },  # Elvish Mystic
-  { printing = "plst/CMM-904", in = ["Ramp"] },  # Nature's Lore
-  { printing = "soc/289", in = ["Ramp"] },  # Three Visits
   { printing = "sld/2679", in = ["Ramp"] },  # Cultivate
   { printing = "moc/316", in = ["Ramp"] },  # Wood Elves
   { printing = "plst/MOC-379", in = ["Draw"] },  # Skullclamp
@@ -90,11 +79,25 @@ cards = [
   { printing = "ecc/154", in = ["Land"] },  # Jungle Shrine
   { printing = "ecc/163", in = ["Land"] },  # Rootbound Crag
   { printing = "plst/BLC-335", in = ["Land"] },  # Sunpetal Grove
-  { printing = "plst/BLC-334", in = ["Land"] },  # Sungrass Prairie
-  { printing = "plst/NEO-265", in = ["Land"] },  # Blossoming Sands
-  { printing = "fra/394", qty = 8, in = ["Land"] },  # Forest
+  { name = "Rainbow Vale", in = ["Land", "Give Away"] },
+  { name = "Forbidden Orchard", in = ["Land", "Give Away"] },
+  { printing = "fra/394", qty = 9, in = ["Land"] },  # Forest
   { printing = "fra/391", qty = 5, in = ["Land"] },  # Mountain
   { printing = "fra/382", qty = 5, in = ["Land"] },  # Plains
+  { name = "Llanowar Elves", in = ["Ramp"] },
+  { name = "Fyndhorn Elves", in = ["Ramp"] },
+  { name = "Avacyn's Pilgrim", in = ["Ramp"] },
+  { name = "Utopia Sprawl", in = ["Ramp"] },
+  { name = "Kodama's Reach", in = ["Ramp"] },
+  { name = "Simulacrum Shaper", in = ["Ramp"] },
+  { name = "Farhaven Elf", in = ["Ramp"] },
+  { name = "They Went This Way", in = ["Ramp"] },
+  { name = "Harmonize", in = ["Draw"] },
+  { name = "Flawless Maneuver", in = ["Protection"] },
+  { name = "Return to Dust", in = ["Removal"] },
+  { name = "Curse-Marred Demon", in = ["Maskwood Tutor"] },
+  { name = "Goblin Engineer", in = ["Maskwood Tutor"] },
+  { name = "Sanctum Gargoyle", in = ["Maskwood Tutor"] },
 ]
 
 [categories]
@@ -109,4 +112,5 @@ Ramp = {}
 Removal = {}
 "Tribble Engine" = {}
 "Trigger Copier" = {}
+"Maskwood Tutor" = {}
 Tutor = {}
