@@ -63,31 +63,10 @@ cards = [
   { printing = "cmm/295", in = ["Protection"] },  # Heroic Intervention
   { printing = "fdn/721", in = ["Protection"] },  # Boros Charm
   { printing = "soc/167", in = ["Protection"] },  # Selfless Spirit
-  { printing = "frc/22", in = ["Land"] },  # Command Tower
-  { printing = "frc/70", in = ["Land"] },  # Exotic Orchard
-  { printing = "frc/77", in = ["Land"] },  # Path of Ancestry
-  { printing = "frc/65", in = ["Land"] },  # Battlefield Forge
-  { printing = "frc/67", in = ["Land"] },  # Clifftop Retreat
-  { printing = "soc/375", in = ["Land"] },  # Furycalm Snarl
-  { printing = "soc/401", in = ["Land"] },  # Rugged Prairie
-  { printing = "soc/410", in = ["Land"] },  # Sunscorched Divide
-  { printing = "soc/417", in = ["Land"] },  # Temple of Triumph
-  { printing = "frc/80", in = ["Land"] },  # Radiant Summit
-  { printing = "frc/71", in = ["Land"] },  # Fabled Passage
-  { printing = "plst/LCC-328", in = ["Land"] },  # Evolving Wilds
-  { printing = "psos/264p", in = ["Land"] },  # Sundown Pass
-  { printing = "ecc/154", in = ["Land"] },  # Jungle Shrine
-  { printing = "ecc/163", in = ["Land"] },  # Rootbound Crag
-  { printing = "plst/BLC-335", in = ["Land"] },  # Sunpetal Grove
-  { printing = "plst/BLC-334", in = ["Land"] },  # Sungrass Prairie
-  { printing = "plst/NEO-265", in = ["Land"] },  # Blossoming Sands
-  { printing = "fra/394", qty = 9, in = ["Land"] },  # Forest
-  { printing = "fra/391", qty = 5, in = ["Land"] },  # Mountain
-  { printing = "fra/382", qty = 5, in = ["Land"] },  # Plains
   { printing = "fdc/213", in = ["Ramp"] },  # Llanowar Elves
   { printing = "fdc/204", in = ["Ramp"] },  # Fyndhorn Elves
   { printing = "plst/MIC-132", in = ["Ramp"] },  # Avacyn's Pilgrim
-  { printing = "sld/2693", in = ["Ramp"] },  # Utopia Sprawl
+  { name = "Wild Growth", in = ["Ramp"] },
   { printing = "ecc/113", in = ["Ramp"] },  # Kodama's Reach
   { printing = "fra/113", in = ["Ramp"] },  # Simulacrum Shaper
   { printing = "sld/766", in = ["Ramp"] },  # Farhaven Elf
@@ -98,6 +77,27 @@ cards = [
   { printing = "fra/79", in = ["Maskwood Tutor"] },  # Curse-Marred Demon
   { printing = "sld/2103", in = ["Maskwood Tutor"] },  # Goblin Engineer
   { printing = "j22/236", in = ["Maskwood Tutor"] },  # Sanctum Gargoyle
+  { name = "Command Tower", in = ["Land"] },
+  { name = "Exotic Orchard", in = ["Land"] },
+  { name = "Sacred Foundry", in = ["Land"] },
+  { name = "Stomping Ground", in = ["Land"] },
+  { name = "Temple Garden", in = ["Land"] },
+  { name = "Elegant Parlor", in = ["Land"] },
+  { name = "Lush Portico", in = ["Land"] },
+  { name = "Commercial District", in = ["Land"] },
+  { name = "Jetmir's Garden", in = ["Land"] },
+  { name = "Spectator Seating", in = ["Land"] },
+  { name = "Bountiful Promenade", in = ["Land"] },
+  { name = "Spire Garden", in = ["Land"] },
+  { name = "Clifftop Retreat", in = ["Land"] },
+  { name = "Rootbound Crag", in = ["Land"] },
+  { name = "Sunpetal Grove", in = ["Land"] },
+  { name = "Battlefield Forge", in = ["Land"] },
+  { name = "Furycalm Snarl", in = ["Land"] },
+  { name = "Fabled Passage", in = ["Land"] },
+  { name = "Forest", qty = 9, in = ["Land"] },
+  { name = "Mountain", qty = 5, in = ["Land"] },
+  { name = "Plains", qty = 5, in = ["Land"] },
 ]
 
 [categories]

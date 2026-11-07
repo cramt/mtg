@@ -3,6 +3,10 @@
 # made "Rocco X=4 by turn 6" read ~17% for any ramp package. So this file asks
 # about cards in hand only, with no [casting], and leaves Rocco's mana to playtests.
 
+# Battlebond lands are untapped with two or more opponents; shocks assume you pay 2.
+[assume]
+untapped = ['name:"Spectator Seating" or name:"Bountiful Promenade" or name:"Spire Garden" or name:"Sacred Foundry" or name:"Stomping Ground" or name:"Temple Garden"']
+
 [mulligan]
 keep = [{ query = "t:land", min = 3, max = 5 }]
 down_to = 6
@@ -27,3 +31,13 @@ require = [{ turn = 6, query = '''name:"Maskwood Nexus" or cat:"Maskwood Tutor" 
 name = "lands in opener"
 turn = 0
 query = "t:land"
+
+[[criterion]]
+name = "{G} on turn 1, for the one-drop dorks"
+at_least = 0.60
+require = [{ turn = 1, can_cast = "{G}" }]
+
+[[criterion]]
+name = "{R}{G}{W} by turn 3, lands only"
+at_least = 0.50
+require = [{ turn = 3, can_cast = "{R}{G}{W}" }]
