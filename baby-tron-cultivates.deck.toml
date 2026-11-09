@@ -41,7 +41,7 @@ cards = [
   { printing = "dbl/219", in = ["Land: Finds Basic", "Alternative Use", "Rating: Generally Good"] },  # Dire-Strain Rampage
   { printing = "otc/250", in = ["Land: Top Cards to Graveyard", "Alternative Use", "Rating: Generally Good"] },  # Wreck and Rebuild
   { printing = "fra/144", in = ["Land: Top Cards to Graveyard", "Rating: Can Be Good"] },  # Primal Witchstalker
-  { printing = "moc/316", in = ["Land: Finds Forest", "Rating: Generally Good"] },  # Wood Elves
+  { printing = "moc/316", in = ["Land: Finds Forest", "Rating: Can Be Good"] },  # Wood Elves
   { printing = "sld/766", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # Farhaven Elf
   { printing = "tsr/247", in = ["Land: Finds Forest", "Rating: Can Be Good"] },  # Yavimaya Dryad
   { printing = "fra/113", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Simulacrum Shaper
