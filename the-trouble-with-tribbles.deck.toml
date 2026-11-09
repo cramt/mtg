@@ -7,7 +7,7 @@ Give away Maskwood Nexus and \"creatures you control are every creature type\" n
 
 Strionic Resonator, Kirol and Roaming Throne (naming Klingon) copy Koloth's end-step trigger. Helm of the Host and Tempestra make nonlegendary Koloth copies, and each copy adds its own trigger and another +1/+0. Death Kiss, Gahiji and Ellie pay off opponents attacking each other, and Bothersome Quasit stops goaded creatures from blocking. Your own Tribbles feed Skullclamp and Tocasia's Welcome.
 
-Ramp is Maldhound's Baby Tron ladder, aimed at Rocco rather than a 5-drop: ten one-mana accelerants, then three-drops that make two or three mana a tap, so turn 4 has 6-7 mana for Rocco at X=3 (Iroh) or X=4 (Koloth). Rocco is a creature spell, so Somberwald Sage, Shaman of Forgotten Ways and Gwenna's creature-only mana all pay for him. tools/rocco-goldfish on main measures it: Rocco X>=3 by turn 4 in 53% of goldfish games (was 18% with Cultivate-style ramp), X>=4 by turn 5 in 54% (was 21%).
+Ramp is Maldhound's Baby Tron ladder, aimed at Rocco rather than a 5-drop: nine one-mana accelerants, then three-drops that make two or three mana a tap, so turn 4 has 6-7 mana for Rocco at X=3 (Iroh) or X=4 (Koloth). Rocco is a creature spell, so Somberwald Sage, Shaman of Forgotten Ways and Gwenna's creature-only mana all pay for him. tools/rocco-goldfish on main measures it: Rocco X>=3 by turn 4 in 52% of goldfish games (was 18% with Cultivate-style ramp), X>=4 by turn 5 in 53% (was 21%).
 
 Maskwood is the card Rocco can't fetch directly, so the artifact tutors are creatures he can fetch: Curse-Marred Demon (X=4) tutors anything, Goblin Engineer (X=2) bins Maskwood and Sanctum Gargoyle brings it back to hand, which also covers the Demon's random discard hitting it.
 
@@ -47,6 +47,7 @@ cards = [
   { printing = "plst/MOC-379", in = ["Draw"] },  # Skullclamp
   { printing = "soc/181", in = ["Draw"] },  # Tocasia's Welcome
   { printing = "fdc/229", in = ["Draw"] },  # Shamanic Revelation
+  { printing = "ecc/115", in = ["Draw"] },  # Return of the Wildspeaker
   { printing = "fdc/53", in = ["Removal"] },  # Swords to Plowshares
   { printing = "frc/30", in = ["Removal"] },  # Path to Exile
   { printing = "fdc/146", in = ["Removal"] },  # Chaos Warp
@@ -64,7 +65,6 @@ cards = [
   { printing = "hoc/25", in = ["Ramp"] },  # Delighted Halfling
   { printing = "plst/CSP-105", in = ["Ramp"] },  # Boreal Druid
   { printing = "sld/1317", in = ["Ramp"] },  # Arbor Elf
-  { printing = "8ed/243", in = ["Ramp"] },  # Elvish Pioneer
   { printing = "con/114", in = ["Ramp"] },  # Knotvine Mystic
   { printing = "inr/215", in = ["Ramp"] },  # Somberwald Sage
   { printing = "dtk/204", in = ["Ramp"] },  # Shaman of Forgotten Ways
