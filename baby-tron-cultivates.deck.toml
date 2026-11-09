@@ -7,92 +7,98 @@ Each card costs 3, adds at least one permanent mana by turn 3, and also does som
 
 Categories: how it ramps. Land cards by how they find the land (a basic, a Forest, any land, the top cards with the rest to the graveyard or to the bottom, a land token, or from hand), then Land Aura, Rock, Planeswalker, Aura Dork, and dorks split by how much one tap makes: 1, 2, 3 or Variable). "Alternative Use" marks cards with another job when you don't need the mana: a mode, cycling, channel, an adventure or a back face. "Restricted Mana" marks dorks whose mana only goes to some spells.
 
+Rating: Generally Good is as good as Cultivate or better in most decks. Can Be Good is worse than a plain Cultivate in a vacuum, but some archetype would rather have it (big creatures, enchantress, elves, vehicles). Really Shit is what no deck takes over a plain Cultivate, kept anyway because it isn't just a worse Farseek or Nature's Lore.
+
 A card pool, not a deck: green or colourless, no Game Changers, no Sol Ring.
 """
 
 cards = [
-  { printing = "sld/2679", in = ["Land: Finds Basic"] },  # Cultivate
-  { printing = "ecc/113", in = ["Land: Finds Basic"] },  # Kodama's Reach
-  { printing = "c17/155", in = ["Land: Finds Forest"] },  # Nissa's Pilgrimage
-  { printing = "mh3/154", in = ["Land: Finds Basic"] },  # Flare of Cultivation
-  { printing = "trk/240", in = ["Land: Top Cards to Graveyard"] },  # Hit It!
-  { printing = "mkm/151", in = ["Land: Finds Any Land", "Alternative Use"] },  # Archdruid's Charm
-  { printing = "eoc/98", in = ["Land: Finds Basic"] },  # Harrow
-  { printing = "ltr/163", in = ["Land: Finds Basic"] },  # Entish Restoration
-  { printing = "plst/HOU-111", in = ["Land: Finds Basic", "Alternative Use"] },  # Beneath the Sands
-  { printing = "plst/ODY-236", in = ["Land: Finds Basic"] },  # Deep Reconnaissance
-  { printing = "trk/198", in = ["Land: Finds Basic"] },  # Final Frontier
-  { printing = "tdm/154", in = ["Land: Finds Basic"] },  # Roamer's Routine
-  { printing = "mic/139", in = ["Land: Finds Basic"] },  # Growth Spasm
-  { printing = "fdn/225", in = ["Land: Finds Basic"] },  # Grow from the Ashes
-  { printing = "mkm/178", in = ["Land: Finds Basic"] },  # They Went This Way
-  { printing = "woe/181", in = ["Land: Finds Basic", "Alternative Use"] },  # Return from the Wilds
-  { printing = "ptla/175s", in = ["Land: Finds Basic"] },  # Earthbender Ascension
-  { printing = "trk/200", in = ["Land: Finds Basic"] },  # Genesis Device
-  { printing = "blb/175", in = ["Land: Finds Basic"] },  # Heaped Harvest
-  { printing = "fin/203", in = ["Land: Finds Basic"] },  # Summon: Fenrir
-  { printing = "dmu/188", in = ["Land: Finds Basic"] },  # The Weatherseed Treaty
-  { printing = "cmm/906", in = ["Land: Finds Basic"] },  # Omen of the Hunt
-  { printing = "eoe/194", in = ["Land: Finds Basic"] },  # Larval Scoutlander
-  { printing = "j25/638", in = ["Land: Top Cards to Bottom"] },  # Bounty of Skemfar
-  { printing = "lci/213", in = ["Land: From Hand"] },  # Spelunking
-  { printing = "dbl/219", in = ["Land: Finds Basic", "Alternative Use"] },  # Dire-Strain Rampage
-  { printing = "otc/250", in = ["Land: Top Cards to Graveyard", "Alternative Use"] },  # Wreck and Rebuild
-  { printing = "fra/144", in = ["Land: Top Cards to Graveyard"] },  # Primal Witchstalker
-  { printing = "moc/316", in = ["Land: Finds Forest"] },  # Wood Elves
-  { printing = "sld/766", in = ["Land: Finds Basic"] },  # Farhaven Elf
-  { printing = "tsr/247", in = ["Land: Finds Forest"] },  # Yavimaya Dryad
-  { printing = "fra/113", in = ["Land: Finds Basic"] },  # Simulacrum Shaper
-  { printing = "j25/730", in = ["Land: Finds Basic"] },  # Topiary Stomper
-  { printing = "j25/56", in = ["Land: Finds Basic"] },  # Sutina, Speaker of the Tajuru
-  { printing = "fdc/195", in = ["Land: Top Cards to Bottom"] },  # Clifftop Lookout
-  { printing = "m3c/226", in = ["Land: Top Cards to Bottom"] },  # Elvish Rejuvenator
-  { printing = "fin/227", in = ["Land: Top Cards to Bottom"] },  # Ignis Scientia
-  { printing = "ecl/186", in = ["Land: Makes Land Token"] },  # Mutable Explorer
-  { printing = "trk/193", in = ["Land: Makes Land Token"] },  # David and Carol Marcus, Creators
-  { printing = "dft/168", in = ["Land: Finds Basic"] },  # Lumbering Worldwagon
-  { printing = "fdn/767", in = ["Land: Finds Basic"] },  # Springbloom Druid
-  { printing = "j25/684", in = ["Dork: 1 Mana"] },  # Llanowar Visionary
-  { printing = "plst/DD1-4", in = ["Dork: 1 Mana"] },  # Elvish Harbinger
-  { printing = "plst/CMR-230", in = ["Dork: 1 Mana"] },  # Gilanra, Caller of Wirewood
-  { printing = "dsk/176", in = ["Dork: Variable"] },  # Enduring Vitality
-  { printing = "sld/1155", in = ["Dork: 1 Mana", "Alternative Use"] },  # Esika, God of the Tree
-  { printing = "fdc/225", in = ["Dork: Variable"] },  # Rishkar, Peema Renegade
-  { printing = "fra/262", in = ["Dork: Variable"] },  # Loot, the Nexus
-  { printing = "afr/176", in = ["Dork: Variable"] },  # Circle of Dreams Druid
-  { printing = "fdn/219", in = ["Dork: Variable"] },  # Elvish Archdruid
-  { printing = "plst/8ED-251", in = ["Dork: 2 Mana"] },  # Fyndhorn Elder
-  { printing = "dpa/68", in = ["Dork: 2 Mana"] },  # Greenweaver Druid
-  { printing = "fdc/214", in = ["Dork: 3 Mana"] },  # Llanowar Tribe
-  { printing = "plst/ODY-254", in = ["Dork: 2 Mana"] },  # Nantuko Elder
-  { printing = "m3c/67", in = ["Dork: 2 Mana"] },  # Sage of the Maze
-  { printing = "tmt/134", in = ["Dork: 2 Mana"] },  # Transdimensional Bovine
-  { printing = "dbl/493", in = ["Dork: Variable"] },  # Weaver of Blossoms
-  { printing = "inr/215", in = ["Dork: 3 Mana", "Restricted Mana"] },  # Somberwald Sage
-  { printing = "dtk/204", in = ["Dork: 2 Mana", "Restricted Mana"] },  # Shaman of Forgotten Ways
-  { printing = "plst/BRO-185", in = ["Dork: 2 Mana", "Restricted Mana"] },  # Gwenna, Eyes of Gaea
-  { printing = "j25/150", in = ["Dork: 1 Mana"] },  # Undercellar Myconid
-  { printing = "eld/174", in = ["Dork: 1 Mana", "Alternative Use"] },  # Rosethorn Acolyte
-  { printing = "c21/222", in = ["Dork: 1 Mana"] },  # Leyline Prowler
-  { printing = "rna/180", in = ["Dork: 2 Mana"] },  # Gyre Engineer
-  { printing = "con/114", in = ["Dork: 2 Mana"] },  # Knotvine Mystic
-  { printing = "ecc/53", in = ["Dork: Variable"] },  # Faeburrow Elder
-  { printing = "mh3/204", in = ["Dork: 2 Mana"] },  # Snapping Voidcraw
-  { printing = "akh/209", in = ["Dork: 2 Mana"] },  # Weaver of Currents
-  { printing = "soc/334", in = ["Dork: 2 Mana", "Restricted Mana"] },  # Troyan, Gutsy Explorer
-  { printing = "fra/154", in = ["Rock"] },  # Tenured Tethermage
-  { printing = "plst/WAR-232", in = ["Planeswalker"] },  # Kiora, Behemoth Beckoner
-  { printing = "blc/98", in = ["Planeswalker", "Alternative Use"] },  # Domri, Anarch of Bolas
-  { printing = "plst/9ED-262", in = ["Land Aura"] },  # Overgrowth
-  { printing = "moc/315", in = ["Land Aura"] },  # Weirding Wood
-  { printing = "dbl/478", in = ["Land Aura", "Alternative Use"] },  # Nature's Embrace
-  { printing = "ons/255", in = ["Land Aura"] },  # Elvish Guidance
-  { printing = "afr/183", in = ["Land Aura"] },  # Find the Path
-  { printing = "woc/122", in = ["Aura Dork", "Dork: 2 Mana", "Alternative Use"] },  # Careful Cultivation
-  { printing = "fdc/278", in = ["Rock"] },  # Palladium Myr
-  { printing = "cmm/984", in = ["Rock"] },  # Worn Powerstone
-  { printing = "plst/M3C-286", in = ["Rock"] },  # Coalition Relic
-  { printing = "frc/54", in = ["Rock"] },  # Chromatic Lantern
+  { printing = "sld/2679", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Cultivate
+  { printing = "ecc/113", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Kodama's Reach
+  { printing = "c17/155", in = ["Land: Finds Forest", "Rating: Generally Good"] },  # Nissa's Pilgrimage
+  { printing = "mh3/154", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Flare of Cultivation
+  { printing = "trk/240", in = ["Land: Top Cards to Graveyard", "Rating: Generally Good"] },  # Hit It!
+  { printing = "mkm/151", in = ["Land: Finds Any Land", "Alternative Use", "Rating: Generally Good"] },  # Archdruid's Charm
+  { printing = "eoc/98", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Harrow
+  { printing = "ltr/163", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Entish Restoration
+  { printing = "plst/HOU-111", in = ["Land: Finds Basic", "Alternative Use", "Rating: Generally Good"] },  # Beneath the Sands
+  { printing = "plst/ODY-236", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Deep Reconnaissance
+  { printing = "trk/198", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Final Frontier
+  { printing = "tdm/154", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Roamer's Routine
+  { printing = "mic/139", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Growth Spasm
+  { printing = "fdn/225", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Grow from the Ashes
+  { printing = "mkm/178", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # They Went This Way
+  { printing = "woe/181", in = ["Land: Finds Basic", "Alternative Use", "Rating: Generally Good"] },  # Return from the Wilds
+  { printing = "ptla/175s", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Earthbender Ascension
+  { printing = "trk/200", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Genesis Device
+  { printing = "blb/175", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Heaped Harvest
+  { printing = "fin/203", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Summon: Fenrir
+  { printing = "dmu/188", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # The Weatherseed Treaty
+  { printing = "cmm/906", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # Omen of the Hunt
+  { printing = "eoe/194", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Larval Scoutlander
+  { printing = "j25/638", in = ["Land: Top Cards to Bottom", "Rating: Can Be Good"] },  # Bounty of Skemfar
+  { printing = "lci/213", in = ["Land: From Hand", "Rating: Can Be Good"] },  # Spelunking
+  { printing = "dbl/219", in = ["Land: Finds Basic", "Alternative Use", "Rating: Generally Good"] },  # Dire-Strain Rampage
+  { printing = "otc/250", in = ["Land: Top Cards to Graveyard", "Alternative Use", "Rating: Generally Good"] },  # Wreck and Rebuild
+  { printing = "fra/144", in = ["Land: Top Cards to Graveyard", "Rating: Can Be Good"] },  # Primal Witchstalker
+  { printing = "moc/316", in = ["Land: Finds Forest", "Rating: Generally Good"] },  # Wood Elves
+  { printing = "sld/766", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # Farhaven Elf
+  { printing = "tsr/247", in = ["Land: Finds Forest", "Rating: Generally Good"] },  # Yavimaya Dryad
+  { printing = "fra/113", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Simulacrum Shaper
+  { printing = "j25/730", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Topiary Stomper
+  { printing = "j25/56", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Sutina, Speaker of the Tajuru
+  { printing = "fdc/195", in = ["Land: Top Cards to Bottom", "Rating: Can Be Good"] },  # Clifftop Lookout
+  { printing = "m3c/226", in = ["Land: Top Cards to Bottom", "Rating: Can Be Good"] },  # Elvish Rejuvenator
+  { printing = "fin/227", in = ["Land: Top Cards to Bottom", "Rating: Generally Good"] },  # Ignis Scientia
+  { printing = "ecl/186", in = ["Land: Makes Land Token", "Rating: Generally Good"] },  # Mutable Explorer
+  { printing = "trk/193", in = ["Land: Makes Land Token", "Rating: Generally Good"] },  # David and Carol Marcus, Creators
+  { printing = "dft/168", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # Lumbering Worldwagon
+  { printing = "fdn/767", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # Springbloom Druid
+  { printing = "j25/684", in = ["Dork: 1 Mana", "Rating: Generally Good"] },  # Llanowar Visionary
+  { printing = "plst/DD1-4", in = ["Dork: 1 Mana", "Rating: Can Be Good"] },  # Elvish Harbinger
+  { printing = "plst/CMR-230", in = ["Dork: 1 Mana", "Rating: Can Be Good"] },  # Gilanra, Caller of Wirewood
+  { printing = "dsk/176", in = ["Dork: Variable", "Rating: Generally Good"] },  # Enduring Vitality
+  { printing = "sld/1155", in = ["Dork: 1 Mana", "Alternative Use", "Rating: Generally Good"] },  # Esika, God of the Tree
+  { printing = "fdc/225", in = ["Dork: Variable", "Rating: Generally Good"] },  # Rishkar, Peema Renegade
+  { printing = "fra/262", in = ["Dork: Variable", "Rating: Can Be Good"] },  # Loot, the Nexus
+  { printing = "afr/176", in = ["Dork: Variable", "Rating: Can Be Good"] },  # Circle of Dreams Druid
+  { printing = "fdn/219", in = ["Dork: Variable", "Rating: Can Be Good"] },  # Elvish Archdruid
+  { printing = "plst/8ED-251", in = ["Dork: 2 Mana", "Rating: Generally Good"] },  # Fyndhorn Elder
+  { printing = "dpa/68", in = ["Dork: 2 Mana", "Rating: Generally Good"] },  # Greenweaver Druid
+  { printing = "fdc/214", in = ["Dork: 3 Mana", "Rating: Generally Good"] },  # Llanowar Tribe
+  { printing = "plst/ODY-254", in = ["Dork: 2 Mana", "Rating: Generally Good"] },  # Nantuko Elder
+  { printing = "m3c/67", in = ["Dork: 2 Mana", "Rating: Generally Good"] },  # Sage of the Maze
+  { printing = "tmt/134", in = ["Dork: 2 Mana", "Rating: Generally Good"] },  # Transdimensional Bovine
+  { printing = "dbl/493", in = ["Dork: Variable", "Rating: Really Shit"] },  # Weaver of Blossoms
+  { printing = "inr/215", in = ["Dork: 3 Mana", "Restricted Mana", "Rating: Can Be Good"] },  # Somberwald Sage
+  { printing = "dtk/204", in = ["Dork: 2 Mana", "Restricted Mana", "Rating: Can Be Good"] },  # Shaman of Forgotten Ways
+  { printing = "plst/BRO-185", in = ["Dork: 2 Mana", "Restricted Mana", "Rating: Can Be Good"] },  # Gwenna, Eyes of Gaea
+  { printing = "j25/150", in = ["Dork: 1 Mana", "Rating: Can Be Good"] },  # Undercellar Myconid
+  { printing = "eld/174", in = ["Dork: 1 Mana", "Alternative Use", "Rating: Really Shit"] },  # Rosethorn Acolyte
+  { printing = "c21/222", in = ["Dork: 1 Mana", "Rating: Really Shit"] },  # Leyline Prowler
+  { printing = "rna/180", in = ["Dork: 2 Mana", "Rating: Generally Good"] },  # Gyre Engineer
+  { printing = "con/114", in = ["Dork: 2 Mana", "Rating: Generally Good"] },  # Knotvine Mystic
+  { printing = "ecc/53", in = ["Dork: Variable", "Rating: Generally Good"] },  # Faeburrow Elder
+  { printing = "mh3/204", in = ["Dork: 2 Mana", "Rating: Generally Good"] },  # Snapping Voidcraw
+  { printing = "akh/209", in = ["Dork: 2 Mana", "Rating: Generally Good"] },  # Weaver of Currents
+  { printing = "soc/334", in = ["Dork: 2 Mana", "Restricted Mana", "Rating: Can Be Good"] },  # Troyan, Gutsy Explorer
+  { printing = "fra/154", in = ["Rock", "Rating: Can Be Good"] },  # Tenured Tethermage
+  { printing = "plst/WAR-232", in = ["Planeswalker", "Rating: Can Be Good"] },  # Kiora, Behemoth Beckoner
+  { printing = "blc/98", in = ["Planeswalker", "Alternative Use", "Rating: Generally Good"] },  # Domri, Anarch of Bolas
+  { printing = "plst/9ED-262", in = ["Land Aura", "Rating: Can Be Good"] },  # Overgrowth
+  { printing = "moc/315", in = ["Land Aura", "Rating: Can Be Good"] },  # Weirding Wood
+  { printing = "dbl/478", in = ["Land Aura", "Alternative Use", "Rating: Can Be Good"] },  # Nature's Embrace
+  { printing = "ons/255", in = ["Land Aura", "Rating: Can Be Good"] },  # Elvish Guidance
+  { printing = "afr/183", in = ["Land Aura", "Rating: Can Be Good"] },  # Find the Path
+  { printing = "woc/122", in = ["Aura Dork", "Dork: 2 Mana", "Alternative Use", "Rating: Can Be Good"] },  # Careful Cultivation
+  { printing = "fdc/278", in = ["Rock", "Rating: Generally Good"] },  # Palladium Myr
+  { printing = "cmm/984", in = ["Rock", "Rating: Generally Good"] },  # Worn Powerstone
+  { printing = "plst/M3C-286", in = ["Rock", "Rating: Generally Good"] },  # Coalition Relic
+  { printing = "frc/54", in = ["Rock", "Rating: Generally Good"] },  # Chromatic Lantern
+  { printing = "znc/66", in = ["Land: Finds Basic", "Rating: Really Shit"] },  # Far Wanderings
+  { printing = "stx/131", in = ["Land: Finds Forest", "Rating: Really Shit"] },  # Field Trip
+  { printing = "ecl/197", in = ["Land: Finds Basic", "Rating: Really Shit"] },  # Tend the Sprigs
+  { printing = "dmu/176", in = ["Land: Finds Basic", "Rating: Really Shit"] },  # Scout the Wilderness
 ]
 
 [categories]
@@ -113,3 +119,6 @@ cards = [
 "Planeswalker" = {}
 "Alternative Use" = {}
 "Restricted Mana" = {}
+"Rating: Generally Good" = {}
+"Rating: Can Be Good" = {}
+"Rating: Really Shit" = {}
