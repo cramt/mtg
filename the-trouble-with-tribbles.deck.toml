@@ -7,7 +7,7 @@ Give away Maskwood Nexus and \"creatures you control are every creature type\" n
 
 Strionic Resonator, Kirol and Roaming Throne (naming Klingon) copy Koloth's end-step trigger. Helm of the Host and Tempestra make nonlegendary Koloth copies, and each copy adds its own trigger and another +1/+0. Death Kiss, Gahiji and Ellie pay off opponents attacking each other, and Bothersome Quasit stops goaded creatures from blocking. Your own Tribbles feed Skullclamp and Tocasia's Welcome.
 
-Ramp is turn-1 one-drops and turn-2 three-drops that net a land plus something else; no two-mana rocks.
+Ramp is Maldhound's Baby Tron ladder, aimed at Rocco rather than a 5-drop: ten one-mana accelerants, then three-drops that make two or three mana a tap, so turn 4 has 6-7 mana for Rocco at X=3 (Iroh) or X=4 (Koloth). Rocco is a creature spell, so Somberwald Sage, Shaman of Forgotten Ways and Gwenna's creature-only mana all pay for him. tools/rocco-goldfish on main measures it: Rocco X>=3 by turn 4 in 53% of goldfish games (was 18% with Cultivate-style ramp), X>=4 by turn 5 in 54% (was 21%).
 
 Maskwood is the card Rocco can't fetch directly, so the artifact tutors are creatures he can fetch: Curse-Marred Demon (X=4) tutors anything, Goblin Engineer (X=2) bins Maskwood and Sanctum Gargoyle brings it back to hand, which also covers the Demon's random discard hitting it.
 
@@ -34,9 +34,7 @@ cards = [
   { printing = "mkc/151", in = ["Goad"] },  # Disrupt Decorum
   { printing = "msc/188", in = ["Goad"] },  # Taunt from the Rampart
   { printing = "plst/C19-46", in = ["Goad"] },  # Marisi, Breaker of the Coil
-  { printing = "mkc/145", in = ["Goad"] },  # Agitator Ant
   { printing = "msc/59", in = ["Goad"] },  # Puppet Master, String Puller
-  { printing = "scd/144", in = ["Goad"] },  # Geode Rager
   { printing = "tdc/242", in = ["Goad"] },  # Vengeful Ancestor
   { printing = "clb/629", in = ["Goad Payoff"] },  # Death Kiss
   { printing = "ncc/340", in = ["Goad Payoff"] },  # Gahiji, Honored One
@@ -46,13 +44,9 @@ cards = [
   { printing = "dmr/6", in = ["Tutor"] },  # Enlightened Tutor
   { printing = "plst/GK2-82", in = ["Ramp"] },  # Birds of Paradise
   { printing = "fdc/202", in = ["Ramp"] },  # Elvish Mystic
-  { printing = "sld/2679", in = ["Ramp"] },  # Cultivate
-  { printing = "moc/316", in = ["Ramp"] },  # Wood Elves
   { printing = "plst/MOC-379", in = ["Draw"] },  # Skullclamp
   { printing = "soc/181", in = ["Draw"] },  # Tocasia's Welcome
   { printing = "fdc/229", in = ["Draw"] },  # Shamanic Revelation
-  { printing = "ecc/115", in = ["Draw"] },  # Return of the Wildspeaker
-  { printing = "sld/2123", in = ["Draw"] },  # Esper Sentinel
   { printing = "fdc/53", in = ["Removal"] },  # Swords to Plowshares
   { printing = "frc/30", in = ["Removal"] },  # Path to Exile
   { printing = "fdc/146", in = ["Removal"] },  # Chaos Warp
@@ -67,10 +61,18 @@ cards = [
   { printing = "fdc/204", in = ["Ramp"] },  # Fyndhorn Elves
   { printing = "plst/MIC-132", in = ["Ramp"] },  # Avacyn's Pilgrim
   { printing = "pmei/2026-2", in = ["Ramp"] },  # Wild Growth
-  { printing = "ecc/113", in = ["Ramp"] },  # Kodama's Reach
-  { printing = "fra/113", in = ["Ramp"] },  # Simulacrum Shaper
-  { printing = "sld/766", in = ["Ramp"] },  # Farhaven Elf
-  { printing = "mkm/178", in = ["Ramp"] },  # They Went This Way
+  { name = "Delighted Halfling", in = ["Ramp"] },
+  { name = "Boreal Druid", in = ["Ramp"] },
+  { name = "Arbor Elf", in = ["Ramp"] },
+  { name = "Elvish Pioneer", in = ["Ramp"] },
+  { name = "Knotvine Mystic", in = ["Ramp"] },
+  { name = "Somberwald Sage", in = ["Ramp"] },
+  { name = "Shaman of Forgotten Ways", in = ["Ramp"] },
+  { name = "Gwenna, Eyes of Gaea", in = ["Ramp"] },
+  { name = "Sage of the Maze", in = ["Ramp"] },
+  { name = "Faeburrow Elder", in = ["Ramp"] },
+  { name = "Transdimensional Bovine", in = ["Ramp"] },
+  { name = "Overgrowth", in = ["Ramp"] },
   { printing = "fdc/209", in = ["Draw"] },  # Harmonize
   { printing = "frc/25", in = ["Protection"] },  # Flawless Maneuver
   { printing = "dsc/102", in = ["Removal"] },  # Return to Dust
@@ -82,9 +84,8 @@ cards = [
   { printing = "eoe/256", in = ["Land"] },  # Sacred Foundry
   { printing = "eoe/258", in = ["Land"] },  # Stomping Ground
   { printing = "ecl/268", in = ["Land"] },  # Temple Garden
-  { printing = "mkm/260", in = ["Land"] },  # Elegant Parlor
-  { printing = "mkm/263", in = ["Land"] },  # Lush Portico
   { printing = "mkm/259", in = ["Land"] },  # Commercial District
+  { printing = "mkm/260", in = ["Land"] },  # Elegant Parlor
   { printing = "plst/SNC-250", in = ["Land"] },  # Jetmir's Garden
   { printing = "cmm/427", in = ["Land"] },  # Spectator Seating
   { printing = "plst/BBD-81", in = ["Land"] },  # Bountiful Promenade
@@ -95,7 +96,7 @@ cards = [
   { printing = "frc/65", in = ["Land"] },  # Battlefield Forge
   { printing = "soc/375", in = ["Land"] },  # Furycalm Snarl
   { printing = "blc/301", in = ["Land"] },  # Copperline Gorge
-  { printing = "fra/394", qty = 9, in = ["Land"] },  # Forest
+  { printing = "fra/394", qty = 8, in = ["Land"] },  # Forest
   { printing = "fra/391", qty = 5, in = ["Land"] },  # Mountain
   { printing = "fra/382", qty = 5, in = ["Land"] },  # Plains
 ]
