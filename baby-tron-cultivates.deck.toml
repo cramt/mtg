@@ -27,9 +27,9 @@ cards = [
   { printing = "tdm/154", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # Roamer's Routine
   { printing = "mic/139", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # Growth Spasm
   { printing = "fdn/225", in = ["Land: Finds Basic", "Rating: Really Shit"] },  # Grow from the Ashes
-  { printing = "mkm/178", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # They Went This Way
+  { printing = "mkm/178", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # They Went This Way
   { printing = "woe/181", in = ["Land: Finds Basic", "Alternative Use", "Rating: Can Be Good"] },  # Return from the Wilds
-  { printing = "ptla/175s", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Earthbender Ascension
+  { printing = "ptla/175s", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # Earthbender Ascension
   { printing = "trk/200", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Genesis Device
   { printing = "blb/175", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # Heaped Harvest
   { printing = "fin/203", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # Summon: Fenrir
@@ -59,7 +59,7 @@ cards = [
   { printing = "plst/CMR-230", in = ["Dork: 1 Mana", "Rating: Can Be Good"] },  # Gilanra, Caller of Wirewood
   { printing = "dsk/176", in = ["Dork: Variable", "Rating: Generally Good"] },  # Enduring Vitality
   { printing = "sld/1155", in = ["Dork: 1 Mana", "Alternative Use", "Rating: Can Be Good"] },  # Esika, God of the Tree
-  { printing = "fdc/225", in = ["Dork: Variable", "Rating: Generally Good"] },  # Rishkar, Peema Renegade
+  { printing = "fdc/225", in = ["Dork: Variable", "Rating: Can Be Good"] },  # Rishkar, Peema Renegade
   { printing = "fra/262", in = ["Dork: Variable", "Rating: Can Be Good"] },  # Loot, the Nexus
   { printing = "afr/176", in = ["Dork: Variable", "Rating: Can Be Good"] },  # Circle of Dreams Druid
   { printing = "fdn/219", in = ["Dork: Variable", "Rating: Can Be Good"] },  # Elvish Archdruid
@@ -79,21 +79,21 @@ cards = [
   { printing = "rna/180", in = ["Dork: 2 Mana", "Rating: Generally Good"] },  # Gyre Engineer
   { printing = "con/114", in = ["Dork: 2 Mana", "Rating: Generally Good"] },  # Knotvine Mystic
   { printing = "ecc/53", in = ["Dork: Variable", "Rating: Generally Good"] },  # Faeburrow Elder
-  { printing = "mh3/204", in = ["Dork: 2 Mana", "Rating: Generally Good"] },  # Snapping Voidcraw
+  { printing = "mh3/204", in = ["Dork: 2 Mana", "Rating: Can Be Good"] },  # Snapping Voidcraw
   { printing = "akh/209", in = ["Dork: 2 Mana", "Rating: Can Be Good"] },  # Weaver of Currents
   { printing = "soc/334", in = ["Dork: 2 Mana", "Restricted Mana", "Rating: Can Be Good"] },  # Troyan, Gutsy Explorer
   { printing = "fra/154", in = ["Rock", "Rating: Can Be Good"] },  # Tenured Tethermage
   { printing = "plst/WAR-232", in = ["Planeswalker", "Rating: Can Be Good"] },  # Kiora, Behemoth Beckoner
   { printing = "blc/98", in = ["Planeswalker", "Alternative Use", "Rating: Generally Good"] },  # Domri, Anarch of Bolas
-  { printing = "plst/9ED-262", in = ["Land Aura", "Rating: Can Be Good"] },  # Overgrowth
+  { printing = "plst/9ED-262", in = ["Land Aura", "Rating: Generally Good"] },  # Overgrowth
   { printing = "moc/315", in = ["Land Aura", "Rating: Can Be Good"] },  # Weirding Wood
   { printing = "dbl/478", in = ["Land Aura", "Alternative Use", "Rating: Can Be Good"] },  # Nature's Embrace
   { printing = "ons/255", in = ["Land Aura", "Rating: Can Be Good"] },  # Elvish Guidance
   { printing = "afr/183", in = ["Land Aura", "Rating: Can Be Good"] },  # Find the Path
   { printing = "woc/122", in = ["Aura Dork", "Dork: 2 Mana", "Alternative Use", "Rating: Can Be Good"] },  # Careful Cultivation
-  { printing = "fdc/278", in = ["Rock", "Rating: Generally Good"] },  # Palladium Myr
+  { printing = "fdc/278", in = ["Rock", "Rating: Can Be Good"] },  # Palladium Myr
   { printing = "cmm/984", in = ["Rock", "Rating: Can Be Good"] },  # Worn Powerstone
-  { printing = "plst/M3C-286", in = ["Rock", "Rating: Generally Good"] },  # Coalition Relic
+  { printing = "plst/M3C-286", in = ["Rock", "Rating: Can Be Good"] },  # Coalition Relic
   { printing = "frc/54", in = ["Rock", "Rating: Can Be Good"] },  # Chromatic Lantern
   { printing = "znc/66", in = ["Land: Finds Basic", "Rating: Really Shit"] },  # Far Wanderings
   { printing = "stx/131", in = ["Land: Finds Forest", "Rating: Really Shit"] },  # Field Trip
