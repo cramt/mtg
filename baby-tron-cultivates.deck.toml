@@ -31,7 +31,7 @@ cards = [
   { printing = "woe/181", in = ["Land: Finds Basic", "Alternative Use", "Rating: Can Be Good"] },  # Return from the Wilds
   { printing = "ptla/175s", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Earthbender Ascension
   { printing = "trk/200", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Genesis Device
-  { printing = "blb/175", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Heaped Harvest
+  { printing = "blb/175", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # Heaped Harvest
   { printing = "fin/203", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Summon: Fenrir
   { printing = "dmu/188", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # The Weatherseed Treaty
   { printing = "cmm/906", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # Omen of the Hunt
