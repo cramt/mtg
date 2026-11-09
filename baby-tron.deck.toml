@@ -11,113 +11,113 @@ Filtered to green or colourless identity. No Game Changers, no Sol Ring.
 """
 
 cards = [
-  { name = "Llanowar Elves", in = ["Elf"] },
-  { name = "Elvish Mystic", in = ["Elf"] },
-  { name = "Fyndhorn Elves", in = ["Elf"] },
-  { name = "Birds of Paradise", in = ["Elf"] },
-  { name = "Boreal Druid", in = ["Elf"] },
-  { name = "Delighted Halfling", in = ["Elf"] },
-  { name = "Arbor Elf", in = ["Elf"] },
-  { name = "Noble Hierarch", in = ["Elf"] },
-  { name = "Ignoble Hierarch", in = ["Elf"] },
-  { name = "Avacyn's Pilgrim", in = ["Elf"] },
-  { name = "Elves of Deep Shadow", in = ["Elf"] },
-  { name = "Utopia Sprawl", in = ["Elf"] },
-  { name = "Wild Growth", in = ["Elf"] },
-  { name = "Elvish Pioneer", in = ["Elf", "Needs Lands In Hand"] },
-  { name = "Arboreal Grazer", in = ["Elf", "Needs Lands In Hand"] },
-  { name = "Krosan Wayfarer", in = ["Elf", "Needs Lands In Hand"] },
-  { name = "Sakura-Tribe Scout", in = ["Elf", "Needs Lands In Hand"] },
-  { name = "Skyshroud Ranger", in = ["Elf", "Needs Lands In Hand"] },
-  { name = "Exploration", in = ["Elf", "Needs Lands In Hand"] },
-  { name = "Burgeoning", in = ["Elf", "Needs Lands In Hand"] },
-  { name = "Cultivate", in = ["Cultivate", "Land Ramp"] },
-  { name = "Kodama's Reach", in = ["Cultivate", "Land Ramp"] },
-  { name = "Nissa's Pilgrimage", in = ["Cultivate", "Land Ramp"] },
-  { name = "Flare of Cultivation", in = ["Cultivate", "Land Ramp"] },
-  { name = "Hit It!", in = ["Cultivate", "Land Ramp"] },
-  { name = "Archdruid's Charm", in = ["Cultivate", "Land Ramp"] },
-  { name = "Harrow", in = ["Cultivate", "Land Ramp"] },
-  { name = "Entish Restoration", in = ["Cultivate", "Land Ramp"] },
-  { name = "Beneath the Sands", in = ["Cultivate", "Land Ramp"] },
-  { name = "Deep Reconnaissance", in = ["Cultivate", "Land Ramp"] },
-  { name = "Final Frontier", in = ["Cultivate", "Land Ramp"] },
-  { name = "Roamer's Routine", in = ["Cultivate", "Land Ramp"] },
-  { name = "Far Wanderings", in = ["Cultivate", "Land Ramp"] },
-  { name = "Field Trip", in = ["Cultivate", "Land Ramp"] },
-  { name = "Growth Spasm", in = ["Cultivate", "Land Ramp"] },
-  { name = "Grow from the Ashes", in = ["Cultivate", "Land Ramp"] },
-  { name = "They Went This Way", in = ["Cultivate", "Land Ramp"] },
-  { name = "Return from the Wilds", in = ["Cultivate", "Land Ramp"] },
-  { name = "Tend the Sprigs", in = ["Cultivate", "Land Ramp"] },
-  { name = "Spoils of Victory", in = ["Cultivate", "Land Ramp"] },
-  { name = "Earthbender Ascension", in = ["Cultivate", "Land Ramp"] },
-  { name = "Genesis Device", in = ["Cultivate", "Land Ramp"] },
-  { name = "Heaped Harvest", in = ["Cultivate", "Land Ramp"] },
-  { name = "Summon: Fenrir", in = ["Cultivate", "Land Ramp"] },
-  { name = "The Weatherseed Treaty", in = ["Cultivate", "Land Ramp"] },
-  { name = "Omen of the Hunt", in = ["Cultivate", "Land Ramp"] },
-  { name = "Scout the Wilderness", in = ["Cultivate", "Land Ramp"] },
-  { name = "Larval Scoutlander", in = ["Cultivate", "Land Ramp"] },
-  { name = "Bounty of Skemfar", in = ["Cultivate", "Land Ramp"] },
-  { name = "Spelunking", in = ["Cultivate", "Land Ramp"] },
-  { name = "Dire-Strain Rampage", in = ["Cultivate", "Land Ramp"] },
-  { name = "Wreck and Rebuild", in = ["Cultivate", "Land Ramp"] },
-  { name = "Primal Witchstalker", in = ["Cultivate", "Land Ramp"] },
-  { name = "Wood Elves", in = ["Cultivate", "Land Ramp"] },
-  { name = "Farhaven Elf", in = ["Cultivate", "Land Ramp"] },
-  { name = "Yavimaya Dryad", in = ["Cultivate", "Land Ramp"] },
-  { name = "Simulacrum Shaper", in = ["Cultivate", "Land Ramp"] },
-  { name = "Topiary Stomper", in = ["Cultivate", "Land Ramp"] },
-  { name = "Sutina, Speaker of the Tajuru", in = ["Cultivate", "Land Ramp"] },
-  { name = "Clifftop Lookout", in = ["Cultivate", "Land Ramp"] },
-  { name = "Elvish Rejuvenator", in = ["Cultivate", "Land Ramp"] },
-  { name = "Ignis Scientia", in = ["Cultivate", "Land Ramp"] },
-  { name = "Mutable Explorer", in = ["Cultivate", "Land Ramp"] },
-  { name = "David and Carol Marcus, Creators", in = ["Cultivate", "Land Ramp"] },
-  { name = "Lumbering Worldwagon", in = ["Cultivate", "Land Ramp"] },
-  { name = "Springbloom Druid", in = ["Cultivate", "Land Ramp"] },
-  { name = "Llanowar Visionary", in = ["Cultivate", "Dork"] },
-  { name = "Elvish Harbinger", in = ["Cultivate", "Dork"] },
-  { name = "Gilanra, Caller of Wirewood", in = ["Cultivate", "Dork"] },
-  { name = "Enduring Vitality", in = ["Cultivate", "Dork"] },
-  { name = "Esika, God of the Tree", in = ["Cultivate", "Dork"] },
-  { name = "Rishkar, Peema Renegade", in = ["Cultivate", "Dork"] },
-  { name = "Loot, the Nexus", in = ["Cultivate", "Dork"] },
-  { name = "Circle of Dreams Druid", in = ["Cultivate", "Dork"] },
-  { name = "Elvish Archdruid", in = ["Cultivate", "Dork"] },
-  { name = "Fyndhorn Elder", in = ["Cultivate", "Dork"] },
-  { name = "Greenweaver Druid", in = ["Cultivate", "Dork"] },
-  { name = "Llanowar Tribe", in = ["Cultivate", "Dork"] },
-  { name = "Nantuko Elder", in = ["Cultivate", "Dork"] },
-  { name = "Sage of the Maze", in = ["Cultivate", "Dork"] },
-  { name = "Transdimensional Bovine", in = ["Cultivate", "Dork"] },
-  { name = "Weaver of Blossoms", in = ["Cultivate", "Dork"] },
-  { name = "Somberwald Sage", in = ["Cultivate", "Dork"] },
-  { name = "Shaman of Forgotten Ways", in = ["Cultivate", "Dork"] },
-  { name = "Gwenna, Eyes of Gaea", in = ["Cultivate", "Dork"] },
-  { name = "Undercellar Myconid", in = ["Cultivate", "Dork"] },
-  { name = "Rosethorn Acolyte", in = ["Cultivate", "Dork"] },
-  { name = "Leyline Prowler", in = ["Cultivate", "Dork"] },
-  { name = "Gyre Engineer", in = ["Cultivate", "Dork"] },
-  { name = "Knotvine Mystic", in = ["Cultivate", "Dork"] },
-  { name = "Faeburrow Elder", in = ["Cultivate", "Dork"] },
-  { name = "Snapping Voidcraw", in = ["Cultivate", "Dork"] },
-  { name = "Weaver of Currents", in = ["Cultivate", "Dork"] },
-  { name = "Troyan, Gutsy Explorer", in = ["Cultivate", "Dork"] },
-  { name = "Tenured Tethermage", in = ["Cultivate", "Dork"] },
-  { name = "Kiora, Behemoth Beckoner", in = ["Cultivate", "Planeswalker"] },
-  { name = "Domri, Anarch of Bolas", in = ["Cultivate", "Planeswalker"] },
-  { name = "Overgrowth", in = ["Cultivate", "Land Aura"] },
-  { name = "Weirding Wood", in = ["Cultivate", "Land Aura"] },
-  { name = "Nature's Embrace", in = ["Cultivate", "Land Aura"] },
-  { name = "Elvish Guidance", in = ["Cultivate", "Land Aura"] },
-  { name = "Find the Path", in = ["Cultivate", "Land Aura"] },
-  { name = "Careful Cultivation", in = ["Cultivate", "Dork"] },
-  { name = "Palladium Myr", in = ["Cultivate", "Rock"] },
-  { name = "Worn Powerstone", in = ["Cultivate", "Rock"] },
-  { name = "Coalition Relic", in = ["Cultivate", "Rock"] },
-  { name = "Chromatic Lantern", in = ["Cultivate", "Rock"] },
+  { printing = "fdc/213", in = ["Elf"] },  # Llanowar Elves
+  { printing = "fdc/202", in = ["Elf"] },  # Elvish Mystic
+  { printing = "fdc/204", in = ["Elf"] },  # Fyndhorn Elves
+  { printing = "plst/GK2-82", in = ["Elf"] },  # Birds of Paradise
+  { printing = "plst/CSP-105", in = ["Elf"] },  # Boreal Druid
+  { printing = "hoc/25", in = ["Elf"] },  # Delighted Halfling
+  { printing = "sld/1317", in = ["Elf"] },  # Arbor Elf
+  { printing = "plst/MM2-151", in = ["Elf"] },  # Noble Hierarch
+  { printing = "ecc/52", in = ["Elf"] },  # Ignoble Hierarch
+  { printing = "plst/MIC-132", in = ["Elf"] },  # Avacyn's Pilgrim
+  { printing = "sld/1710", in = ["Elf"] },  # Elves of Deep Shadow
+  { printing = "sld/2693", in = ["Elf"] },  # Utopia Sprawl
+  { printing = "pmei/2026-2", in = ["Elf"] },  # Wild Growth
+  { printing = "8ed/243", in = ["Elf", "Needs Lands In Hand"] },  # Elvish Pioneer
+  { printing = "tdc/245", in = ["Elf", "Needs Lands In Hand"] },  # Arboreal Grazer
+  { printing = "jud/123", in = ["Elf", "Needs Lands In Hand"] },  # Krosan Wayfarer
+  { printing = "plst/SOK-144", in = ["Elf", "Needs Lands In Hand"] },  # Sakura-Tribe Scout
+  { printing = "10e/297", in = ["Elf", "Needs Lands In Hand"] },  # Skyshroud Ranger
+  { printing = "dmr/159", in = ["Elf", "Needs Lands In Hand"] },  # Exploration
+  { printing = "sld/408", in = ["Elf", "Needs Lands In Hand"] },  # Burgeoning
+  { printing = "sld/2679", in = ["Cultivate", "Land Ramp"] },  # Cultivate
+  { printing = "ecc/113", in = ["Cultivate", "Land Ramp"] },  # Kodama's Reach
+  { printing = "c17/155", in = ["Cultivate", "Land Ramp"] },  # Nissa's Pilgrimage
+  { printing = "mh3/154", in = ["Cultivate", "Land Ramp"] },  # Flare of Cultivation
+  { printing = "trk/240", in = ["Cultivate", "Land Ramp"] },  # Hit It!
+  { printing = "mkm/151", in = ["Cultivate", "Land Ramp"] },  # Archdruid's Charm
+  { printing = "eoc/98", in = ["Cultivate", "Land Ramp"] },  # Harrow
+  { printing = "ltr/163", in = ["Cultivate", "Land Ramp"] },  # Entish Restoration
+  { printing = "plst/HOU-111", in = ["Cultivate", "Land Ramp"] },  # Beneath the Sands
+  { printing = "plst/ODY-236", in = ["Cultivate", "Land Ramp"] },  # Deep Reconnaissance
+  { printing = "trk/198", in = ["Cultivate", "Land Ramp"] },  # Final Frontier
+  { printing = "tdm/154", in = ["Cultivate", "Land Ramp"] },  # Roamer's Routine
+  { printing = "znc/66", in = ["Cultivate", "Land Ramp"] },  # Far Wanderings
+  { printing = "stx/131", in = ["Cultivate", "Land Ramp"] },  # Field Trip
+  { printing = "mic/139", in = ["Cultivate", "Land Ramp"] },  # Growth Spasm
+  { printing = "fdn/225", in = ["Cultivate", "Land Ramp"] },  # Grow from the Ashes
+  { printing = "mkm/178", in = ["Cultivate", "Land Ramp"] },  # They Went This Way
+  { printing = "woe/181", in = ["Cultivate", "Land Ramp"] },  # Return from the Wilds
+  { printing = "ecl/197", in = ["Cultivate", "Land Ramp"] },  # Tend the Sprigs
+  { printing = "c13/172", in = ["Cultivate", "Land Ramp"] },  # Spoils of Victory
+  { printing = "ptla/175s", in = ["Cultivate", "Land Ramp"] },  # Earthbender Ascension
+  { printing = "trk/200", in = ["Cultivate", "Land Ramp"] },  # Genesis Device
+  { printing = "blb/175", in = ["Cultivate", "Land Ramp"] },  # Heaped Harvest
+  { printing = "fin/203", in = ["Cultivate", "Land Ramp"] },  # Summon: Fenrir
+  { printing = "dmu/188", in = ["Cultivate", "Land Ramp"] },  # The Weatherseed Treaty
+  { printing = "cmm/906", in = ["Cultivate", "Land Ramp"] },  # Omen of the Hunt
+  { printing = "dmu/176", in = ["Cultivate", "Land Ramp"] },  # Scout the Wilderness
+  { printing = "eoe/194", in = ["Cultivate", "Land Ramp"] },  # Larval Scoutlander
+  { printing = "j25/638", in = ["Cultivate", "Land Ramp"] },  # Bounty of Skemfar
+  { printing = "lci/213", in = ["Cultivate", "Land Ramp"] },  # Spelunking
+  { printing = "dbl/219", in = ["Cultivate", "Land Ramp"] },  # Dire-Strain Rampage
+  { printing = "otc/250", in = ["Cultivate", "Land Ramp"] },  # Wreck and Rebuild
+  { printing = "fra/144", in = ["Cultivate", "Land Ramp"] },  # Primal Witchstalker
+  { printing = "moc/316", in = ["Cultivate", "Land Ramp"] },  # Wood Elves
+  { printing = "sld/766", in = ["Cultivate", "Land Ramp"] },  # Farhaven Elf
+  { printing = "tsr/247", in = ["Cultivate", "Land Ramp"] },  # Yavimaya Dryad
+  { printing = "fra/113", in = ["Cultivate", "Land Ramp"] },  # Simulacrum Shaper
+  { printing = "j25/730", in = ["Cultivate", "Land Ramp"] },  # Topiary Stomper
+  { printing = "j25/56", in = ["Cultivate", "Land Ramp"] },  # Sutina, Speaker of the Tajuru
+  { printing = "fdc/195", in = ["Cultivate", "Land Ramp"] },  # Clifftop Lookout
+  { printing = "m3c/226", in = ["Cultivate", "Land Ramp"] },  # Elvish Rejuvenator
+  { printing = "fin/227", in = ["Cultivate", "Land Ramp"] },  # Ignis Scientia
+  { printing = "ecl/186", in = ["Cultivate", "Land Ramp"] },  # Mutable Explorer
+  { printing = "trk/193", in = ["Cultivate", "Land Ramp"] },  # David and Carol Marcus, Creators
+  { printing = "dft/168", in = ["Cultivate", "Land Ramp"] },  # Lumbering Worldwagon
+  { printing = "fdn/767", in = ["Cultivate", "Land Ramp"] },  # Springbloom Druid
+  { printing = "j25/684", in = ["Cultivate", "Dork"] },  # Llanowar Visionary
+  { printing = "plst/DD1-4", in = ["Cultivate", "Dork"] },  # Elvish Harbinger
+  { printing = "plst/CMR-230", in = ["Cultivate", "Dork"] },  # Gilanra, Caller of Wirewood
+  { printing = "dsk/176", in = ["Cultivate", "Dork"] },  # Enduring Vitality
+  { printing = "sld/1155", in = ["Cultivate", "Dork"] },  # Esika, God of the Tree
+  { printing = "fdc/225", in = ["Cultivate", "Dork"] },  # Rishkar, Peema Renegade
+  { printing = "fra/262", in = ["Cultivate", "Dork"] },  # Loot, the Nexus
+  { printing = "afr/176", in = ["Cultivate", "Dork"] },  # Circle of Dreams Druid
+  { printing = "fdn/219", in = ["Cultivate", "Dork"] },  # Elvish Archdruid
+  { printing = "plst/8ED-251", in = ["Cultivate", "Dork"] },  # Fyndhorn Elder
+  { printing = "dpa/68", in = ["Cultivate", "Dork"] },  # Greenweaver Druid
+  { printing = "fdc/214", in = ["Cultivate", "Dork"] },  # Llanowar Tribe
+  { printing = "plst/ODY-254", in = ["Cultivate", "Dork"] },  # Nantuko Elder
+  { printing = "m3c/67", in = ["Cultivate", "Dork"] },  # Sage of the Maze
+  { printing = "tmt/134", in = ["Cultivate", "Dork"] },  # Transdimensional Bovine
+  { printing = "dbl/493", in = ["Cultivate", "Dork"] },  # Weaver of Blossoms
+  { printing = "inr/215", in = ["Cultivate", "Dork"] },  # Somberwald Sage
+  { printing = "dtk/204", in = ["Cultivate", "Dork"] },  # Shaman of Forgotten Ways
+  { printing = "plst/BRO-185", in = ["Cultivate", "Dork"] },  # Gwenna, Eyes of Gaea
+  { printing = "j25/150", in = ["Cultivate", "Dork"] },  # Undercellar Myconid
+  { printing = "eld/174", in = ["Cultivate", "Dork"] },  # Rosethorn Acolyte
+  { printing = "c21/222", in = ["Cultivate", "Dork"] },  # Leyline Prowler
+  { printing = "rna/180", in = ["Cultivate", "Dork"] },  # Gyre Engineer
+  { printing = "con/114", in = ["Cultivate", "Dork"] },  # Knotvine Mystic
+  { printing = "ecc/53", in = ["Cultivate", "Dork"] },  # Faeburrow Elder
+  { printing = "mh3/204", in = ["Cultivate", "Dork"] },  # Snapping Voidcraw
+  { printing = "akh/209", in = ["Cultivate", "Dork"] },  # Weaver of Currents
+  { printing = "soc/334", in = ["Cultivate", "Dork"] },  # Troyan, Gutsy Explorer
+  { printing = "fra/154", in = ["Cultivate", "Dork"] },  # Tenured Tethermage
+  { printing = "plst/WAR-232", in = ["Cultivate", "Planeswalker"] },  # Kiora, Behemoth Beckoner
+  { printing = "blc/98", in = ["Cultivate", "Planeswalker"] },  # Domri, Anarch of Bolas
+  { printing = "plst/9ED-262", in = ["Cultivate", "Land Aura"] },  # Overgrowth
+  { printing = "moc/315", in = ["Cultivate", "Land Aura"] },  # Weirding Wood
+  { printing = "dbl/478", in = ["Cultivate", "Land Aura"] },  # Nature's Embrace
+  { printing = "ons/255", in = ["Cultivate", "Land Aura"] },  # Elvish Guidance
+  { printing = "afr/183", in = ["Cultivate", "Land Aura"] },  # Find the Path
+  { printing = "woc/122", in = ["Cultivate", "Dork"] },  # Careful Cultivation
+  { printing = "fdc/278", in = ["Cultivate", "Rock"] },  # Palladium Myr
+  { printing = "cmm/984", in = ["Cultivate", "Rock"] },  # Worn Powerstone
+  { printing = "plst/M3C-286", in = ["Cultivate", "Rock"] },  # Coalition Relic
+  { printing = "frc/54", in = ["Cultivate", "Rock"] },  # Chromatic Lantern
 ]
 
 [categories]
