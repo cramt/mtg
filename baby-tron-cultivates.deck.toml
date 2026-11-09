@@ -7,7 +7,7 @@ Each card costs 3, adds at least one permanent mana by turn 3, and also does som
 
 Categories: how it ramps. Land cards by how they find the land (a basic, a Forest, any land, the top cards with the rest to the graveyard or to the bottom, a land token, or from hand), then Land Aura, Rock, Planeswalker, Aura Dork, and dorks split by how much one tap makes: 1, 2, 3 or Variable). "Alternative Use" marks cards with another job when you don't need the mana: a mode, cycling, channel, an adventure or a back face. "Restricted Mana" marks dorks whose mana only goes to some spells.
 
-Rating: Generally Good is as good as Cultivate or better in most decks. Can Be Good is worse than a plain Cultivate in a vacuum, but some archetype would rather have it (big creatures, enchantress, elves, vehicles). Really Shit is what no deck takes over a plain Cultivate, kept anyway because it isn't just a worse Farseek or Nature's Lore.
+Rating: Generally Good is plain Cultivate or better, and Cultivate is the floor. Can Be Good is worse than a plain Cultivate in a vacuum, but some archetype would rather have it (big creatures, enchantress, elves, vehicles). Really Shit is what no deck takes over a plain Cultivate, kept anyway because it isn't just a worse Farseek or Nature's Lore.
 
 A card pool, not a deck: green or colourless, no Game Changers, no Sol Ring.
 """
@@ -15,12 +15,12 @@ A card pool, not a deck: green or colourless, no Game Changers, no Sol Ring.
 cards = [
   { printing = "sld/2679", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Cultivate
   { printing = "ecc/113", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Kodama's Reach
-  { printing = "c17/155", in = ["Land: Finds Forest", "Rating: Generally Good"] },  # Nissa's Pilgrimage
+  { printing = "c17/155", in = ["Land: Finds Forest", "Rating: Can Be Good"] },  # Nissa's Pilgrimage
   { printing = "mh3/154", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Flare of Cultivation
   { printing = "trk/240", in = ["Land: Top Cards to Graveyard", "Rating: Generally Good"] },  # Hit It!
   { printing = "mkm/151", in = ["Land: Finds Any Land", "Alternative Use", "Rating: Generally Good"] },  # Archdruid's Charm
   { printing = "eoc/98", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Harrow
-  { printing = "ltr/163", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Entish Restoration
+  { printing = "ltr/163", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # Entish Restoration
   { printing = "plst/HOU-111", in = ["Land: Finds Basic", "Alternative Use", "Rating: Can Be Good"] },  # Beneath the Sands
   { printing = "plst/ODY-236", in = ["Land: Finds Basic", "Rating: Really Shit"] },  # Deep Reconnaissance
   { printing = "trk/198", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # Final Frontier
@@ -32,7 +32,7 @@ cards = [
   { printing = "ptla/175s", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Earthbender Ascension
   { printing = "trk/200", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Genesis Device
   { printing = "blb/175", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # Heaped Harvest
-  { printing = "fin/203", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Summon: Fenrir
+  { printing = "fin/203", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # Summon: Fenrir
   { printing = "dmu/188", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # The Weatherseed Treaty
   { printing = "cmm/906", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # Omen of the Hunt
   { printing = "eoe/194", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Larval Scoutlander
@@ -43,7 +43,7 @@ cards = [
   { printing = "fra/144", in = ["Land: Top Cards to Graveyard", "Rating: Can Be Good"] },  # Primal Witchstalker
   { printing = "moc/316", in = ["Land: Finds Forest", "Rating: Generally Good"] },  # Wood Elves
   { printing = "sld/766", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # Farhaven Elf
-  { printing = "tsr/247", in = ["Land: Finds Forest", "Rating: Generally Good"] },  # Yavimaya Dryad
+  { printing = "tsr/247", in = ["Land: Finds Forest", "Rating: Can Be Good"] },  # Yavimaya Dryad
   { printing = "fra/113", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Simulacrum Shaper
   { printing = "j25/730", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Topiary Stomper
   { printing = "j25/56", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # Sutina, Speaker of the Tajuru
