@@ -5,58 +5,58 @@ The turn-2 half of Maldhound's Baby Tron package (Good Time Boys ep 63 and 65), 
 
 Each card costs 3, adds at least one permanent mana by turn 3, and also does something else: a land to hand, a card, a body, removal, haste, a flashback. A 3-drop that taps for two or more counts on its own.
 
-Categories: how it ramps (Land Ramp, Land Aura, Rock, Planeswalker, Aura Dork, and dorks split by how much one tap makes: 1, 2, 3 or Variable). "Alternative Use" marks cards with another job when you don't need the mana: a mode, cycling, channel, an adventure or a back face. "Restricted Mana" marks dorks whose mana only goes to some spells.
+Categories: how it ramps. Land cards by how they find the land (a basic, a Forest, any land, the top cards with the rest to the graveyard or to the bottom, a land token, or from hand), then Land Aura, Rock, Planeswalker, Aura Dork, and dorks split by how much one tap makes: 1, 2, 3 or Variable). "Alternative Use" marks cards with another job when you don't need the mana: a mode, cycling, channel, an adventure or a back face. "Restricted Mana" marks dorks whose mana only goes to some spells.
 
 A card pool, not a deck: green or colourless, no Game Changers, no Sol Ring.
 """
 
 cards = [
-  { printing = "sld/2679", in = ["Land Ramp"] },  # Cultivate
-  { printing = "ecc/113", in = ["Land Ramp"] },  # Kodama's Reach
-  { printing = "c17/155", in = ["Land Ramp"] },  # Nissa's Pilgrimage
-  { printing = "mh3/154", in = ["Land Ramp"] },  # Flare of Cultivation
-  { printing = "trk/240", in = ["Land Ramp"] },  # Hit It!
-  { printing = "mkm/151", in = ["Land Ramp", "Alternative Use"] },  # Archdruid's Charm
-  { printing = "eoc/98", in = ["Land Ramp"] },  # Harrow
-  { printing = "ltr/163", in = ["Land Ramp"] },  # Entish Restoration
-  { printing = "plst/HOU-111", in = ["Land Ramp", "Alternative Use"] },  # Beneath the Sands
-  { printing = "plst/ODY-236", in = ["Land Ramp"] },  # Deep Reconnaissance
-  { printing = "trk/198", in = ["Land Ramp"] },  # Final Frontier
-  { printing = "tdm/154", in = ["Land Ramp"] },  # Roamer's Routine
-  { printing = "znc/66", in = ["Land Ramp"] },  # Far Wanderings
-  { printing = "stx/131", in = ["Land Ramp"] },  # Field Trip
-  { printing = "mic/139", in = ["Land Ramp"] },  # Growth Spasm
-  { printing = "fdn/225", in = ["Land Ramp"] },  # Grow from the Ashes
-  { printing = "mkm/178", in = ["Land Ramp"] },  # They Went This Way
-  { printing = "woe/181", in = ["Land Ramp", "Alternative Use"] },  # Return from the Wilds
-  { printing = "ecl/197", in = ["Land Ramp"] },  # Tend the Sprigs
-  { printing = "c13/172", in = ["Land Ramp"] },  # Spoils of Victory
-  { printing = "ptla/175s", in = ["Land Ramp"] },  # Earthbender Ascension
-  { printing = "trk/200", in = ["Land Ramp"] },  # Genesis Device
-  { printing = "blb/175", in = ["Land Ramp"] },  # Heaped Harvest
-  { printing = "fin/203", in = ["Land Ramp"] },  # Summon: Fenrir
-  { printing = "dmu/188", in = ["Land Ramp"] },  # The Weatherseed Treaty
-  { printing = "cmm/906", in = ["Land Ramp"] },  # Omen of the Hunt
-  { printing = "dmu/176", in = ["Land Ramp"] },  # Scout the Wilderness
-  { printing = "eoe/194", in = ["Land Ramp"] },  # Larval Scoutlander
-  { printing = "j25/638", in = ["Land Ramp"] },  # Bounty of Skemfar
-  { printing = "lci/213", in = ["Land Ramp"] },  # Spelunking
-  { printing = "dbl/219", in = ["Land Ramp", "Alternative Use"] },  # Dire-Strain Rampage
-  { printing = "otc/250", in = ["Land Ramp", "Alternative Use"] },  # Wreck and Rebuild
-  { printing = "fra/144", in = ["Land Ramp"] },  # Primal Witchstalker
-  { printing = "moc/316", in = ["Land Ramp"] },  # Wood Elves
-  { printing = "sld/766", in = ["Land Ramp"] },  # Farhaven Elf
-  { printing = "tsr/247", in = ["Land Ramp"] },  # Yavimaya Dryad
-  { printing = "fra/113", in = ["Land Ramp"] },  # Simulacrum Shaper
-  { printing = "j25/730", in = ["Land Ramp"] },  # Topiary Stomper
-  { printing = "j25/56", in = ["Land Ramp"] },  # Sutina, Speaker of the Tajuru
-  { printing = "fdc/195", in = ["Land Ramp"] },  # Clifftop Lookout
-  { printing = "m3c/226", in = ["Land Ramp"] },  # Elvish Rejuvenator
-  { printing = "fin/227", in = ["Land Ramp"] },  # Ignis Scientia
-  { printing = "ecl/186", in = ["Land Ramp"] },  # Mutable Explorer
-  { printing = "trk/193", in = ["Land Ramp"] },  # David and Carol Marcus, Creators
-  { printing = "dft/168", in = ["Land Ramp"] },  # Lumbering Worldwagon
-  { printing = "fdn/767", in = ["Land Ramp"] },  # Springbloom Druid
+  { printing = "sld/2679", in = ["Land: Finds Basic"] },  # Cultivate
+  { printing = "ecc/113", in = ["Land: Finds Basic"] },  # Kodama's Reach
+  { printing = "c17/155", in = ["Land: Finds Forest"] },  # Nissa's Pilgrimage
+  { printing = "mh3/154", in = ["Land: Finds Basic"] },  # Flare of Cultivation
+  { printing = "trk/240", in = ["Land: Top Cards to Graveyard"] },  # Hit It!
+  { printing = "mkm/151", in = ["Land: Finds Any Land", "Alternative Use"] },  # Archdruid's Charm
+  { printing = "eoc/98", in = ["Land: Finds Basic"] },  # Harrow
+  { printing = "ltr/163", in = ["Land: Finds Basic"] },  # Entish Restoration
+  { printing = "plst/HOU-111", in = ["Land: Finds Basic", "Alternative Use"] },  # Beneath the Sands
+  { printing = "plst/ODY-236", in = ["Land: Finds Basic"] },  # Deep Reconnaissance
+  { printing = "trk/198", in = ["Land: Finds Basic"] },  # Final Frontier
+  { printing = "tdm/154", in = ["Land: Finds Basic"] },  # Roamer's Routine
+  { printing = "znc/66", in = ["Land: Finds Basic"] },  # Far Wanderings
+  { printing = "stx/131", in = ["Land: Finds Forest"] },  # Field Trip
+  { printing = "mic/139", in = ["Land: Finds Basic"] },  # Growth Spasm
+  { printing = "fdn/225", in = ["Land: Finds Basic"] },  # Grow from the Ashes
+  { printing = "mkm/178", in = ["Land: Finds Basic"] },  # They Went This Way
+  { printing = "woe/181", in = ["Land: Finds Basic", "Alternative Use"] },  # Return from the Wilds
+  { printing = "ecl/197", in = ["Land: Finds Basic"] },  # Tend the Sprigs
+  { printing = "c13/172", in = ["Land: Finds Any Land"] },  # Spoils of Victory
+  { printing = "ptla/175s", in = ["Land: Finds Basic"] },  # Earthbender Ascension
+  { printing = "trk/200", in = ["Land: Finds Basic"] },  # Genesis Device
+  { printing = "blb/175", in = ["Land: Finds Basic"] },  # Heaped Harvest
+  { printing = "fin/203", in = ["Land: Finds Basic"] },  # Summon: Fenrir
+  { printing = "dmu/188", in = ["Land: Finds Basic"] },  # The Weatherseed Treaty
+  { printing = "cmm/906", in = ["Land: Finds Basic"] },  # Omen of the Hunt
+  { printing = "dmu/176", in = ["Land: Finds Basic"] },  # Scout the Wilderness
+  { printing = "eoe/194", in = ["Land: Finds Basic"] },  # Larval Scoutlander
+  { printing = "j25/638", in = ["Land: Top Cards to Bottom"] },  # Bounty of Skemfar
+  { printing = "lci/213", in = ["Land: From Hand"] },  # Spelunking
+  { printing = "dbl/219", in = ["Land: Finds Basic", "Alternative Use"] },  # Dire-Strain Rampage
+  { printing = "otc/250", in = ["Land: Top Cards to Graveyard", "Alternative Use"] },  # Wreck and Rebuild
+  { printing = "fra/144", in = ["Land: Top Cards to Graveyard"] },  # Primal Witchstalker
+  { printing = "moc/316", in = ["Land: Finds Forest"] },  # Wood Elves
+  { printing = "sld/766", in = ["Land: Finds Basic"] },  # Farhaven Elf
+  { printing = "tsr/247", in = ["Land: Finds Forest"] },  # Yavimaya Dryad
+  { printing = "fra/113", in = ["Land: Finds Basic"] },  # Simulacrum Shaper
+  { printing = "j25/730", in = ["Land: Finds Basic"] },  # Topiary Stomper
+  { printing = "j25/56", in = ["Land: Finds Basic"] },  # Sutina, Speaker of the Tajuru
+  { printing = "fdc/195", in = ["Land: Top Cards to Bottom"] },  # Clifftop Lookout
+  { printing = "m3c/226", in = ["Land: Top Cards to Bottom"] },  # Elvish Rejuvenator
+  { printing = "fin/227", in = ["Land: Top Cards to Bottom"] },  # Ignis Scientia
+  { printing = "ecl/186", in = ["Land: Makes Land Token"] },  # Mutable Explorer
+  { printing = "trk/193", in = ["Land: Makes Land Token"] },  # David and Carol Marcus, Creators
+  { printing = "dft/168", in = ["Land: Finds Basic"] },  # Lumbering Worldwagon
+  { printing = "fdn/767", in = ["Land: Finds Basic"] },  # Springbloom Druid
   { printing = "j25/684", in = ["Dork: 1 Mana"] },  # Llanowar Visionary
   { printing = "plst/DD1-4", in = ["Dork: 1 Mana"] },  # Elvish Harbinger
   { printing = "plst/CMR-230", in = ["Dork: 1 Mana"] },  # Gilanra, Caller of Wirewood
@@ -101,7 +101,13 @@ cards = [
 ]
 
 [categories]
-"Land Ramp" = {}
+"Land: Top Cards to Graveyard" = {}
+"Land: Top Cards to Bottom" = {}
+"Land: Finds Basic" = {}
+"Land: Finds Forest" = {}
+"Land: Finds Any Land" = {}
+"Land: Makes Land Token" = {}
+"Land: From Hand" = {}
 "Dork: 1 Mana" = {}
 "Dork: 2 Mana" = {}
 "Dork: 3 Mana" = {}
