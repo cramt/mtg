@@ -61,18 +61,18 @@ cards = [
   { printing = "fdc/204", in = ["Ramp"] },  # Fyndhorn Elves
   { printing = "plst/MIC-132", in = ["Ramp"] },  # Avacyn's Pilgrim
   { printing = "pmei/2026-2", in = ["Ramp"] },  # Wild Growth
-  { name = "Delighted Halfling", in = ["Ramp"] },
-  { name = "Boreal Druid", in = ["Ramp"] },
-  { name = "Arbor Elf", in = ["Ramp"] },
-  { name = "Elvish Pioneer", in = ["Ramp"] },
-  { name = "Knotvine Mystic", in = ["Ramp"] },
-  { name = "Somberwald Sage", in = ["Ramp"] },
-  { name = "Shaman of Forgotten Ways", in = ["Ramp"] },
-  { name = "Gwenna, Eyes of Gaea", in = ["Ramp"] },
-  { name = "Sage of the Maze", in = ["Ramp"] },
-  { name = "Faeburrow Elder", in = ["Ramp"] },
-  { name = "Transdimensional Bovine", in = ["Ramp"] },
-  { name = "Overgrowth", in = ["Ramp"] },
+  { printing = "hoc/25", in = ["Ramp"] },  # Delighted Halfling
+  { printing = "plst/CSP-105", in = ["Ramp"] },  # Boreal Druid
+  { printing = "sld/1317", in = ["Ramp"] },  # Arbor Elf
+  { printing = "8ed/243", in = ["Ramp"] },  # Elvish Pioneer
+  { printing = "con/114", in = ["Ramp"] },  # Knotvine Mystic
+  { printing = "inr/215", in = ["Ramp"] },  # Somberwald Sage
+  { printing = "dtk/204", in = ["Ramp"] },  # Shaman of Forgotten Ways
+  { printing = "plst/BRO-185", in = ["Ramp"] },  # Gwenna, Eyes of Gaea
+  { printing = "m3c/67", in = ["Ramp"] },  # Sage of the Maze
+  { printing = "ecc/53", in = ["Ramp"] },  # Faeburrow Elder
+  { printing = "tmt/134", in = ["Ramp"] },  # Transdimensional Bovine
+  { printing = "plst/9ED-262", in = ["Ramp"] },  # Overgrowth
   { printing = "fdc/209", in = ["Draw"] },  # Harmonize
   { printing = "frc/25", in = ["Protection"] },  # Flawless Maneuver
   { printing = "dsc/102", in = ["Removal"] },  # Return to Dust
