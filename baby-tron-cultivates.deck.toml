@@ -1,0 +1,106 @@
+name = "Baby Tron Cultivates"
+format = "commander"
+description = """
+The turn-2 half of Maldhound's Baby Tron package (Good Time Boys ep 63 and 65), the 1-3-5 mana ladder: a 1-mana accelerant on turn 1, a 3-mana ramp piece on turn 2 off two lands plus that elf, then 5+ mana on turn 3. The other half is Baby Tron Elves.
+
+Each card costs 3, adds at least one permanent mana by turn 3, and also does something else: a land to hand, a card, a body, removal, haste, a flashback. A 3-drop that taps for two or more counts on its own. The categories say how it ramps.
+
+A card pool, not a deck: green or colourless, no Game Changers, no Sol Ring.
+"""
+
+cards = [
+  { printing = "sld/2679", in = ["Land Ramp"] },  # Cultivate
+  { printing = "ecc/113", in = ["Land Ramp"] },  # Kodama's Reach
+  { printing = "c17/155", in = ["Land Ramp"] },  # Nissa's Pilgrimage
+  { printing = "mh3/154", in = ["Land Ramp"] },  # Flare of Cultivation
+  { printing = "trk/240", in = ["Land Ramp"] },  # Hit It!
+  { printing = "mkm/151", in = ["Land Ramp"] },  # Archdruid's Charm
+  { printing = "eoc/98", in = ["Land Ramp"] },  # Harrow
+  { printing = "ltr/163", in = ["Land Ramp"] },  # Entish Restoration
+  { printing = "plst/HOU-111", in = ["Land Ramp"] },  # Beneath the Sands
+  { printing = "plst/ODY-236", in = ["Land Ramp"] },  # Deep Reconnaissance
+  { printing = "trk/198", in = ["Land Ramp"] },  # Final Frontier
+  { printing = "tdm/154", in = ["Land Ramp"] },  # Roamer's Routine
+  { printing = "znc/66", in = ["Land Ramp"] },  # Far Wanderings
+  { printing = "stx/131", in = ["Land Ramp"] },  # Field Trip
+  { printing = "mic/139", in = ["Land Ramp"] },  # Growth Spasm
+  { printing = "fdn/225", in = ["Land Ramp"] },  # Grow from the Ashes
+  { printing = "mkm/178", in = ["Land Ramp"] },  # They Went This Way
+  { printing = "woe/181", in = ["Land Ramp"] },  # Return from the Wilds
+  { printing = "ecl/197", in = ["Land Ramp"] },  # Tend the Sprigs
+  { printing = "c13/172", in = ["Land Ramp"] },  # Spoils of Victory
+  { printing = "ptla/175s", in = ["Land Ramp"] },  # Earthbender Ascension
+  { printing = "trk/200", in = ["Land Ramp"] },  # Genesis Device
+  { printing = "blb/175", in = ["Land Ramp"] },  # Heaped Harvest
+  { printing = "fin/203", in = ["Land Ramp"] },  # Summon: Fenrir
+  { printing = "dmu/188", in = ["Land Ramp"] },  # The Weatherseed Treaty
+  { printing = "cmm/906", in = ["Land Ramp"] },  # Omen of the Hunt
+  { printing = "dmu/176", in = ["Land Ramp"] },  # Scout the Wilderness
+  { printing = "eoe/194", in = ["Land Ramp"] },  # Larval Scoutlander
+  { printing = "j25/638", in = ["Land Ramp"] },  # Bounty of Skemfar
+  { printing = "lci/213", in = ["Land Ramp"] },  # Spelunking
+  { printing = "dbl/219", in = ["Land Ramp"] },  # Dire-Strain Rampage
+  { printing = "otc/250", in = ["Land Ramp"] },  # Wreck and Rebuild
+  { printing = "fra/144", in = ["Land Ramp"] },  # Primal Witchstalker
+  { printing = "moc/316", in = ["Land Ramp"] },  # Wood Elves
+  { printing = "sld/766", in = ["Land Ramp"] },  # Farhaven Elf
+  { printing = "tsr/247", in = ["Land Ramp"] },  # Yavimaya Dryad
+  { printing = "fra/113", in = ["Land Ramp"] },  # Simulacrum Shaper
+  { printing = "j25/730", in = ["Land Ramp"] },  # Topiary Stomper
+  { printing = "j25/56", in = ["Land Ramp"] },  # Sutina, Speaker of the Tajuru
+  { printing = "fdc/195", in = ["Land Ramp"] },  # Clifftop Lookout
+  { printing = "m3c/226", in = ["Land Ramp"] },  # Elvish Rejuvenator
+  { printing = "fin/227", in = ["Land Ramp"] },  # Ignis Scientia
+  { printing = "ecl/186", in = ["Land Ramp"] },  # Mutable Explorer
+  { printing = "trk/193", in = ["Land Ramp"] },  # David and Carol Marcus, Creators
+  { printing = "dft/168", in = ["Land Ramp"] },  # Lumbering Worldwagon
+  { printing = "fdn/767", in = ["Land Ramp"] },  # Springbloom Druid
+  { printing = "j25/684", in = ["Dork"] },  # Llanowar Visionary
+  { printing = "plst/DD1-4", in = ["Dork"] },  # Elvish Harbinger
+  { printing = "plst/CMR-230", in = ["Dork"] },  # Gilanra, Caller of Wirewood
+  { printing = "dsk/176", in = ["Dork"] },  # Enduring Vitality
+  { printing = "sld/1155", in = ["Dork"] },  # Esika, God of the Tree
+  { printing = "fdc/225", in = ["Dork"] },  # Rishkar, Peema Renegade
+  { printing = "fra/262", in = ["Dork"] },  # Loot, the Nexus
+  { printing = "afr/176", in = ["Dork"] },  # Circle of Dreams Druid
+  { printing = "fdn/219", in = ["Dork"] },  # Elvish Archdruid
+  { printing = "plst/8ED-251", in = ["Dork"] },  # Fyndhorn Elder
+  { printing = "dpa/68", in = ["Dork"] },  # Greenweaver Druid
+  { printing = "fdc/214", in = ["Dork"] },  # Llanowar Tribe
+  { printing = "plst/ODY-254", in = ["Dork"] },  # Nantuko Elder
+  { printing = "m3c/67", in = ["Dork"] },  # Sage of the Maze
+  { printing = "tmt/134", in = ["Dork"] },  # Transdimensional Bovine
+  { printing = "dbl/493", in = ["Dork"] },  # Weaver of Blossoms
+  { printing = "inr/215", in = ["Dork"] },  # Somberwald Sage
+  { printing = "dtk/204", in = ["Dork"] },  # Shaman of Forgotten Ways
+  { printing = "plst/BRO-185", in = ["Dork"] },  # Gwenna, Eyes of Gaea
+  { printing = "j25/150", in = ["Dork"] },  # Undercellar Myconid
+  { printing = "eld/174", in = ["Dork"] },  # Rosethorn Acolyte
+  { printing = "c21/222", in = ["Dork"] },  # Leyline Prowler
+  { printing = "rna/180", in = ["Dork"] },  # Gyre Engineer
+  { printing = "con/114", in = ["Dork"] },  # Knotvine Mystic
+  { printing = "ecc/53", in = ["Dork"] },  # Faeburrow Elder
+  { printing = "mh3/204", in = ["Dork"] },  # Snapping Voidcraw
+  { printing = "akh/209", in = ["Dork"] },  # Weaver of Currents
+  { printing = "soc/334", in = ["Dork"] },  # Troyan, Gutsy Explorer
+  { printing = "fra/154", in = ["Dork"] },  # Tenured Tethermage
+  { printing = "plst/WAR-232", in = ["Planeswalker"] },  # Kiora, Behemoth Beckoner
+  { printing = "blc/98", in = ["Planeswalker"] },  # Domri, Anarch of Bolas
+  { printing = "plst/9ED-262", in = ["Land Aura"] },  # Overgrowth
+  { printing = "moc/315", in = ["Land Aura"] },  # Weirding Wood
+  { printing = "dbl/478", in = ["Land Aura"] },  # Nature's Embrace
+  { printing = "ons/255", in = ["Land Aura"] },  # Elvish Guidance
+  { printing = "afr/183", in = ["Land Aura"] },  # Find the Path
+  { printing = "woc/122", in = ["Dork"] },  # Careful Cultivation
+  { printing = "fdc/278", in = ["Rock"] },  # Palladium Myr
+  { printing = "cmm/984", in = ["Rock"] },  # Worn Powerstone
+  { printing = "plst/M3C-286", in = ["Rock"] },  # Coalition Relic
+  { printing = "frc/54", in = ["Rock"] },  # Chromatic Lantern
+]
+
+[categories]
+Dork = {}
+"Land Aura" = {}
+"Land Ramp" = {}
+Planeswalker = {}
+Rock = {}
