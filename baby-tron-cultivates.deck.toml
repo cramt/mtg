@@ -22,9 +22,9 @@ cards = [
   { printing = "eoc/98", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Harrow
   { printing = "ltr/163", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Entish Restoration
   { printing = "plst/HOU-111", in = ["Land: Finds Basic", "Alternative Use", "Rating: Can Be Good"] },  # Beneath the Sands
-  { printing = "plst/ODY-236", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Deep Reconnaissance
-  { printing = "trk/198", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Final Frontier
-  { printing = "tdm/154", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Roamer's Routine
+  { printing = "plst/ODY-236", in = ["Land: Finds Basic", "Rating: Really Shit"] },  # Deep Reconnaissance
+  { printing = "trk/198", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # Final Frontier
+  { printing = "tdm/154", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # Roamer's Routine
   { printing = "mic/139", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # Growth Spasm
   { printing = "fdn/225", in = ["Land: Finds Basic", "Rating: Really Shit"] },  # Grow from the Ashes
   { printing = "mkm/178", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # They Went This Way
@@ -51,14 +51,14 @@ cards = [
   { printing = "m3c/226", in = ["Land: Top Cards to Bottom", "Rating: Can Be Good"] },  # Elvish Rejuvenator
   { printing = "fin/227", in = ["Land: Top Cards to Bottom", "Rating: Generally Good"] },  # Ignis Scientia
   { printing = "ecl/186", in = ["Land: Makes Land Token", "Rating: Generally Good"] },  # Mutable Explorer
-  { printing = "trk/193", in = ["Land: Makes Land Token", "Rating: Generally Good"] },  # David and Carol Marcus, Creators
+  { printing = "trk/193", in = ["Land: Makes Land Token", "Rating: Can Be Good"] },  # David and Carol Marcus, Creators
   { printing = "dft/168", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # Lumbering Worldwagon
   { printing = "fdn/767", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # Springbloom Druid
   { printing = "j25/684", in = ["Dork: 1 Mana", "Rating: Generally Good"] },  # Llanowar Visionary
   { printing = "plst/DD1-4", in = ["Dork: 1 Mana", "Rating: Can Be Good"] },  # Elvish Harbinger
   { printing = "plst/CMR-230", in = ["Dork: 1 Mana", "Rating: Can Be Good"] },  # Gilanra, Caller of Wirewood
   { printing = "dsk/176", in = ["Dork: Variable", "Rating: Generally Good"] },  # Enduring Vitality
-  { printing = "sld/1155", in = ["Dork: 1 Mana", "Alternative Use", "Rating: Generally Good"] },  # Esika, God of the Tree
+  { printing = "sld/1155", in = ["Dork: 1 Mana", "Alternative Use", "Rating: Can Be Good"] },  # Esika, God of the Tree
   { printing = "fdc/225", in = ["Dork: Variable", "Rating: Generally Good"] },  # Rishkar, Peema Renegade
   { printing = "fra/262", in = ["Dork: Variable", "Rating: Can Be Good"] },  # Loot, the Nexus
   { printing = "afr/176", in = ["Dork: Variable", "Rating: Can Be Good"] },  # Circle of Dreams Druid
