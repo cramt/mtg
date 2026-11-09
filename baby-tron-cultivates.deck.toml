@@ -21,19 +21,19 @@ cards = [
   { printing = "mkm/151", in = ["Land: Finds Any Land", "Alternative Use", "Rating: Generally Good"] },  # Archdruid's Charm
   { printing = "eoc/98", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Harrow
   { printing = "ltr/163", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Entish Restoration
-  { printing = "plst/HOU-111", in = ["Land: Finds Basic", "Alternative Use", "Rating: Generally Good"] },  # Beneath the Sands
+  { printing = "plst/HOU-111", in = ["Land: Finds Basic", "Alternative Use", "Rating: Can Be Good"] },  # Beneath the Sands
   { printing = "plst/ODY-236", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Deep Reconnaissance
   { printing = "trk/198", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Final Frontier
   { printing = "tdm/154", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Roamer's Routine
-  { printing = "mic/139", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Growth Spasm
-  { printing = "fdn/225", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Grow from the Ashes
+  { printing = "mic/139", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # Growth Spasm
+  { printing = "fdn/225", in = ["Land: Finds Basic", "Rating: Really Shit"] },  # Grow from the Ashes
   { printing = "mkm/178", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # They Went This Way
-  { printing = "woe/181", in = ["Land: Finds Basic", "Alternative Use", "Rating: Generally Good"] },  # Return from the Wilds
+  { printing = "woe/181", in = ["Land: Finds Basic", "Alternative Use", "Rating: Can Be Good"] },  # Return from the Wilds
   { printing = "ptla/175s", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Earthbender Ascension
   { printing = "trk/200", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Genesis Device
   { printing = "blb/175", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Heaped Harvest
   { printing = "fin/203", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Summon: Fenrir
-  { printing = "dmu/188", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # The Weatherseed Treaty
+  { printing = "dmu/188", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # The Weatherseed Treaty
   { printing = "cmm/906", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # Omen of the Hunt
   { printing = "eoe/194", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Larval Scoutlander
   { printing = "j25/638", in = ["Land: Top Cards to Bottom", "Rating: Can Be Good"] },  # Bounty of Skemfar
@@ -46,7 +46,7 @@ cards = [
   { printing = "tsr/247", in = ["Land: Finds Forest", "Rating: Generally Good"] },  # Yavimaya Dryad
   { printing = "fra/113", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Simulacrum Shaper
   { printing = "j25/730", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Topiary Stomper
-  { printing = "j25/56", in = ["Land: Finds Basic", "Rating: Generally Good"] },  # Sutina, Speaker of the Tajuru
+  { printing = "j25/56", in = ["Land: Finds Basic", "Rating: Can Be Good"] },  # Sutina, Speaker of the Tajuru
   { printing = "fdc/195", in = ["Land: Top Cards to Bottom", "Rating: Can Be Good"] },  # Clifftop Lookout
   { printing = "m3c/226", in = ["Land: Top Cards to Bottom", "Rating: Can Be Good"] },  # Elvish Rejuvenator
   { printing = "fin/227", in = ["Land: Top Cards to Bottom", "Rating: Generally Good"] },  # Ignis Scientia
@@ -80,7 +80,7 @@ cards = [
   { printing = "con/114", in = ["Dork: 2 Mana", "Rating: Generally Good"] },  # Knotvine Mystic
   { printing = "ecc/53", in = ["Dork: Variable", "Rating: Generally Good"] },  # Faeburrow Elder
   { printing = "mh3/204", in = ["Dork: 2 Mana", "Rating: Generally Good"] },  # Snapping Voidcraw
-  { printing = "akh/209", in = ["Dork: 2 Mana", "Rating: Generally Good"] },  # Weaver of Currents
+  { printing = "akh/209", in = ["Dork: 2 Mana", "Rating: Can Be Good"] },  # Weaver of Currents
   { printing = "soc/334", in = ["Dork: 2 Mana", "Restricted Mana", "Rating: Can Be Good"] },  # Troyan, Gutsy Explorer
   { printing = "fra/154", in = ["Rock", "Rating: Can Be Good"] },  # Tenured Tethermage
   { printing = "plst/WAR-232", in = ["Planeswalker", "Rating: Can Be Good"] },  # Kiora, Behemoth Beckoner
@@ -92,9 +92,9 @@ cards = [
   { printing = "afr/183", in = ["Land Aura", "Rating: Can Be Good"] },  # Find the Path
   { printing = "woc/122", in = ["Aura Dork", "Dork: 2 Mana", "Alternative Use", "Rating: Can Be Good"] },  # Careful Cultivation
   { printing = "fdc/278", in = ["Rock", "Rating: Generally Good"] },  # Palladium Myr
-  { printing = "cmm/984", in = ["Rock", "Rating: Generally Good"] },  # Worn Powerstone
+  { printing = "cmm/984", in = ["Rock", "Rating: Can Be Good"] },  # Worn Powerstone
   { printing = "plst/M3C-286", in = ["Rock", "Rating: Generally Good"] },  # Coalition Relic
-  { printing = "frc/54", in = ["Rock", "Rating: Generally Good"] },  # Chromatic Lantern
+  { printing = "frc/54", in = ["Rock", "Rating: Can Be Good"] },  # Chromatic Lantern
   { printing = "znc/66", in = ["Land: Finds Basic", "Rating: Really Shit"] },  # Far Wanderings
   { printing = "stx/131", in = ["Land: Finds Forest", "Rating: Really Shit"] },  # Field Trip
   { printing = "ecl/197", in = ["Land: Finds Basic", "Rating: Really Shit"] },  # Tend the Sprigs
