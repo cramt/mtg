@@ -23,21 +23,16 @@ cards = [
   { printing = "plst/ODY-236", in = ["Land: Finds Basic"] },  # Deep Reconnaissance
   { printing = "trk/198", in = ["Land: Finds Basic"] },  # Final Frontier
   { printing = "tdm/154", in = ["Land: Finds Basic"] },  # Roamer's Routine
-  { printing = "znc/66", in = ["Land: Finds Basic"] },  # Far Wanderings
-  { printing = "stx/131", in = ["Land: Finds Forest"] },  # Field Trip
   { printing = "mic/139", in = ["Land: Finds Basic"] },  # Growth Spasm
   { printing = "fdn/225", in = ["Land: Finds Basic"] },  # Grow from the Ashes
   { printing = "mkm/178", in = ["Land: Finds Basic"] },  # They Went This Way
   { printing = "woe/181", in = ["Land: Finds Basic", "Alternative Use"] },  # Return from the Wilds
-  { printing = "ecl/197", in = ["Land: Finds Basic"] },  # Tend the Sprigs
-  { printing = "c13/172", in = ["Land: Finds Any Land"] },  # Spoils of Victory
   { printing = "ptla/175s", in = ["Land: Finds Basic"] },  # Earthbender Ascension
   { printing = "trk/200", in = ["Land: Finds Basic"] },  # Genesis Device
   { printing = "blb/175", in = ["Land: Finds Basic"] },  # Heaped Harvest
   { printing = "fin/203", in = ["Land: Finds Basic"] },  # Summon: Fenrir
   { printing = "dmu/188", in = ["Land: Finds Basic"] },  # The Weatherseed Treaty
   { printing = "cmm/906", in = ["Land: Finds Basic"] },  # Omen of the Hunt
-  { printing = "dmu/176", in = ["Land: Finds Basic"] },  # Scout the Wilderness
   { printing = "eoe/194", in = ["Land: Finds Basic"] },  # Larval Scoutlander
   { printing = "j25/638", in = ["Land: Top Cards to Bottom"] },  # Bounty of Skemfar
   { printing = "lci/213", in = ["Land: From Hand"] },  # Spelunking
