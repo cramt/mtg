@@ -1,0 +1,115 @@
+name = "The Sokratic Method"
+format = "commander"
+description = """
+Group hug that hugs back. Every card you give an opponent is a trigger for you, and one-spell-per-turn stax means they can't use the pile you handed them.
+
+Sokrates is the fog. Tap it on an attacker during their combat: the damage is prevented, and the attacker's controller and the player it hit each draw half its power. That is an ability, not a spell, so Rule of Law, Archon of Emeria, Eidolon of Rhetoric and Arcane Laboratory only bind the opponents. Teferi, Time Raveler keeps them at sorcery speed. Freed from the Real and Pemmin's Aura untap Sokrates for {U} each, so open blue mana is how many attackers you fog, and Thousand-Year Elixir adds one more. Illusionist's Bracers and Rings of Brighthearth copy the activation onto a second attacker. Untapping it also brings its hexproof back.
+
+Making them draw: Howling Mine, Kami of the Crescent Moon and Dictate of Kruphix give every opponent a second card on their own draw step. Vision Skeins, Truce, Temple Bell, Mikokoro, Geier Reach Sanitarium, Lore Broker, Jace's Archivist, Jace Beleren and Gleaming Splendor do it at instant speed or on your turn, which is when Troi pays off. Arcane Denial counters a spell and hands out two cards.
+
+Paid for it: Faerie Mastermind, The Unagi of Kyoshi Island, King T'Challa, Trouble in Pairs and The Council of Four draw off opponents' second cards. Gleaming Splendor, Smothering Tithe and Tataru Taru turn their draws into Treasure, and Treasure pays for untaps. Consecrated Sphinx and Mind's Eye draw off every card they draw. Krang makes each of those triggers fire twice.
+
+Closing: Scrawling Crawler makes every opponent draw cost a life, two with Krang, so Prosperity for X is X (or 2X) to each opponent. Troi turns opponents' draws on your turn into a flying army. Approach of the Second Sun is the backup: this deck digs seven cards deep in a turn."""
+
+cards = [
+  { name = "Sokrates, Athenian Teacher", in = ["Commander"] },
+  { name = "Freed from the Real", in = ["Untap Sokrates"] },
+  { name = "Pemmin's Aura", in = ["Untap Sokrates"] },
+  { name = "Thousand-Year Elixir", in = ["Untap Sokrates"] },
+  { name = "Illusionist's Bracers", in = ["Copy Sokrates"] },
+  { name = "Rings of Brighthearth", in = ["Copy Sokrates"] },
+  { name = "Rule of Law", in = ["Stax"] },
+  { name = "Archon of Emeria", in = ["Stax"] },
+  { name = "Eidolon of Rhetoric", in = ["Stax"] },
+  { name = "Arcane Laboratory", in = ["Stax"] },
+  { name = "Teferi, Time Raveler", in = ["Stax", "Removal"] },
+  { name = "Howling Mine", in = ["Opponents Draw"] },
+  { name = "Kami of the Crescent Moon", in = ["Opponents Draw"] },
+  { name = "Dictate of Kruphix", in = ["Opponents Draw"] },
+  { name = "Temple Bell", in = ["Opponents Draw"] },
+  { name = "Vision Skeins", in = ["Opponents Draw"] },
+  { name = "Words of Wisdom", in = ["Opponents Draw"] },
+  { name = "Truce", in = ["Opponents Draw"] },
+  { name = "Struggle for Project Purity", in = ["Opponents Draw"] },
+  { name = "Jace Beleren", in = ["Opponents Draw"] },
+  { name = "Lore Broker", in = ["Opponents Draw"] },
+  { name = "Jace's Archivist", in = ["Opponents Draw"] },
+  { name = "Prosperity", in = ["Opponents Draw", "Finisher"] },
+  { name = "Faerie Mastermind", in = ["Draw Payoff", "Opponents Draw"] },
+  { name = "Gleaming Splendor", in = ["Draw Payoff", "Ramp", "Opponents Draw"] },
+  { name = "The Unagi of Kyoshi Island", in = ["Draw Payoff"] },
+  { name = "King T'Challa", in = ["Draw Payoff"] },
+  { name = "Trouble in Pairs", in = ["Draw Payoff"] },
+  { name = "Krang, the All-Powerful", in = ["Draw Payoff"] },
+  { name = "The Council of Four", in = ["Draw Payoff"] },
+  { name = "Smothering Tithe", in = ["Draw Payoff", "Ramp"] },
+  { name = "Consecrated Sphinx", in = ["Draw Payoff"] },
+  { name = "Mind's Eye", in = ["Draw Payoff"] },
+  { name = "Tataru Taru", in = ["Draw Payoff", "Ramp"] },
+  { name = "Troi, Winging It", in = ["Draw Payoff", "Finisher"] },
+  { name = "Scrawling Crawler", in = ["Draw Payoff", "Finisher", "Opponents Draw"] },
+  { name = "Mangara, the Diplomat", in = ["Draw Payoff"] },
+  { name = "Approach of the Second Sun", in = ["Finisher"] },
+  { name = "Arcane Signet", in = ["Ramp"] },
+  { name = "Fellwar Stone", in = ["Ramp"] },
+  { name = "Mind Stone", in = ["Ramp"] },
+  { name = "Talisman of Progress", in = ["Ramp"] },
+  { name = "Azorius Signet", in = ["Ramp"] },
+  { name = "Archaeomancer's Map", in = ["Ramp"] },
+  { name = "Land Tax", in = ["Ramp"] },
+  { name = "Swords to Plowshares", in = ["Removal"] },
+  { name = "Path to Exile", in = ["Removal"] },
+  { name = "Get Lost", in = ["Removal"] },
+  { name = "Generous Gift", in = ["Removal"] },
+  { name = "Council's Judgment", in = ["Removal"] },
+  { name = "Counterspell", in = ["Counterspell"] },
+  { name = "Arcane Denial", in = ["Counterspell", "Opponents Draw"] },
+  { name = "Mystic Confluence", in = ["Counterspell"] },
+  { name = "Aetherspouts", in = ["Board Wipe"] },
+  { name = "Settle the Wreckage", in = ["Board Wipe"] },
+  { name = "Supreme Verdict", in = ["Board Wipe"] },
+  { name = "Austere Command", in = ["Board Wipe"] },
+  { name = "Tormod's Crypt", in = ["Graveyard Hate"] },
+  { name = "Sink into Stupor // Soporific Springs", in = ["Counterspell", "Land"] },
+  { name = "Witch Enchanter // Witch-Blessed Meadow", in = ["Removal", "Land"] },
+  { name = "Jwari Disruption // Jwari Ruins", in = ["Counterspell", "Land"] },
+  { name = "Sejiri Shelter // Sejiri Glacier", in = ["Land"] },
+  { name = "Command Tower", in = ["Land"] },
+  { name = "Reliquary Tower", in = ["Land - Utility"] },
+  { name = "Mikokoro, Center of the Sea", in = ["Land - Utility", "Opponents Draw"] },
+  { name = "Geier Reach Sanitarium", in = ["Land - Utility", "Opponents Draw"] },
+  { name = "Mystic Sanctuary", in = ["Land - Utility"] },
+  { name = "Castle Vantress", in = ["Land - Utility"] },
+  { name = "Castle Ardenvale", in = ["Land - Utility"] },
+  { name = "Hallowed Fountain", in = ["Land"] },
+  { name = "Glacial Fortress", in = ["Land"] },
+  { name = "Prairie Stream", in = ["Land"] },
+  { name = "Sea of Clouds", in = ["Land"] },
+  { name = "Deserted Beach", in = ["Land"] },
+  { name = "Adarkar Wastes", in = ["Land"] },
+  { name = "Hengegate Pathway // Mistgate Pathway", in = ["Land"] },
+  { name = "Mistveil Plains", in = ["Land"] },
+  { name = "Fabled Passage", in = ["Land"] },
+  { name = "Exotic Orchard", in = ["Land"] },
+  { name = "Mystic Gate", in = ["Land"] },
+  { name = "Irrigated Farmland", in = ["Land"] },
+  { name = "Seachrome Coast", in = ["Land"] },
+  { name = "Island", qty = 10, in = ["Land"] },
+  { name = "Plains", qty = 8, in = ["Land"] },
+]
+
+[categories]
+"Board Wipe" = {}
+Commander = { type = "commander" }
+"Copy Sokrates" = {}
+Counterspell = {}
+"Draw Payoff" = {}
+Finisher = {}
+"Graveyard Hate" = {}
+Land = {}
+"Land - Utility" = {}
+"Opponents Draw" = {}
+Ramp = {}
+Removal = {}
+Stax = {}
+"Untap Sokrates" = {}
