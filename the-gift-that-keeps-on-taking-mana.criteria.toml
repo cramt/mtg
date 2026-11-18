@@ -2,7 +2,9 @@
 # mana left after the engine's own casts, and hand queries skip cards already cast.
 # Lands only (no Naked Time / Molten Man fetches), so these are floors.
 [assume]
-untapped = ['name:"Inspiring Vantage" or name:"Sacred Foundry"']
+# Shocks assume you pay 2. Dalkovan Encampment is untapped next to any Mountain, which
+# this deck almost always has by turn 2; on turn 1 that's optimistic.
+untapped = ['name:"Sacred Foundry" or name:"Dalkovan Encampment"']
 
 [mulligan]
 keep = [{ query = "t:land", min = 2, max = 4 }]
@@ -22,7 +24,7 @@ at_least = 0.75
 require = [{ turn = 3, can_cast = "{1}{R}{W}" }]
 
 [[criterion]]
-name = "{1}{R} on turn 2, for Naked Time / Gallia"
+name = "{1}{R} on turn 2, for Naked Time"
 at_least = 0.85
 require = [{ turn = 2, can_cast = "{1}{R}" }]
 

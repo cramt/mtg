@@ -1,7 +1,7 @@
-# Inspiring Vantage is untapped on the turns that matter here (two or fewer other lands);
-# shocks assume you pay 2.
 [assume]
-untapped = ['name:"Inspiring Vantage" or name:"Sacred Foundry"']
+# Shocks assume you pay 2. Dalkovan Encampment is untapped next to any Mountain, which
+# this deck almost always has by turn 2; on turn 1 that's optimistic.
+untapped = ['name:"Sacred Foundry" or name:"Dalkovan Encampment"']
 
 [mulligan]
 keep = [{ query = "t:land", min = 2, max = 4 }]
@@ -9,11 +9,11 @@ down_to = 6
 bottom = ['mv>=5', 't:land']
 
 [casting]
-prefer = ['name:"The Naked Time"', 'name:"Iroh, Tea Master"', 'name:"Molten Man, Inferno Incarnate"', 'name:"Gallia, the Merrymaker"', 'name:"Voice of Victory"', 'name:"Stiltzkin, Moogle Merchant"']
+prefer = ['name:"The Naked Time"', 'name:"Iroh, Tea Master"', 'name:"Molten Man, Inferno Incarnate"', 'name:"Voice of Victory"', 'name:"Stiltzkin, Moogle Merchant"']
 
 # Both gifts fetch a basic Mountain tapped, which pays from the next turn.
 [land_drop]
-prefer = ['name:"Sacred Foundry"', 'name:"Inspiring Vantage"', 'name:"Sunbillow Verge"', 'name:Plains', 'name:Mountain']
+prefer = ['name:"Sacred Foundry"', 'name:"Dalkovan Encampment"', 'name:Plains', 'name:Mountain']
 
 [[effect]]
 match = 'name:"The Naked Time" or name:"Molten Man, Inferno Incarnate"'
