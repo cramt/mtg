@@ -1,0 +1,32 @@
+# Mana and access, asked without a [casting] policy: under one, can_cast reads the
+# mana left after the engine's own casts, and hand queries skip cards already cast.
+# Lands only (no Naked Time / Molten Man fetches), so these are floors.
+[assume]
+untapped = ['name:"Inspiring Vantage" or name:"Sacred Foundry"']
+
+[mulligan]
+keep = [{ query = "t:land", min = 2, max = 4 }]
+down_to = 6
+bottom = ['mv>=5', 't:land']
+
+[[criterion]]
+name = "any way to give something away by turn 4 (Iroh, Stiltzkin, Offering)"
+at_least = 0.75
+require = [{ turn = 4, query = 'cat:"Give Away"', min = 1 }]
+
+# Sunbillow Verge reads as {W} only here (its {R} needs a Mountain or Plains, which
+# gauntlet cannot see), so this is a floor.
+[[criterion]]
+name = "{1}{R}{W} on turn 3, for Iroh"
+at_least = 0.75
+require = [{ turn = 3, can_cast = "{1}{R}{W}" }]
+
+[[criterion]]
+name = "{1}{R} on turn 2, for Naked Time / Gallia"
+at_least = 0.85
+require = [{ turn = 2, can_cast = "{1}{R}" }]
+
+[[expect]]
+name = "lands in opener"
+turn = 0
+query = "t:land"

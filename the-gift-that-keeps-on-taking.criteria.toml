@@ -1,0 +1,38 @@
+# Inspiring Vantage is untapped on the turns that matter here (two or fewer other lands);
+# shocks assume you pay 2.
+[assume]
+untapped = ['name:"Inspiring Vantage" or name:"Sacred Foundry"']
+
+[mulligan]
+keep = [{ query = "t:land", min = 2, max = 4 }]
+down_to = 6
+bottom = ['mv>=5', 't:land']
+
+[casting]
+prefer = ['name:"The Naked Time"', 'name:"Iroh, Tea Master"', 'name:"Molten Man, Inferno Incarnate"', 'name:"Gallia, the Merrymaker"', 'name:"Voice of Victory"', 'name:"Stiltzkin, Moogle Merchant"']
+
+# Both gifts fetch a basic Mountain tapped, which pays from the next turn.
+[land_drop]
+prefer = ['name:"Sacred Foundry"', 'name:"Inspiring Vantage"', 'name:"Sunbillow Verge"', 'name:Plains', 'name:Mountain']
+
+[[effect]]
+match = 'name:"The Naked Time" or name:"Molten Man, Inferno Incarnate"'
+on = "cast"
+fetch = ['name:Mountain']
+to = "battlefield"
+
+[[criterion]]
+name = "the dream: Naked Time turn 2, Iroh turn 3 (6 hasty, they lose a land)"
+at_least = 0.10
+require = [
+  { turn = 2, cast = 'name:"The Naked Time"', min = 1 },
+  { turn = 3, cast = 'name:"Iroh, Tea Master"', min = 1 },
+]
+
+[[criterion]]
+name = "Iroh plus a land-eating gift on the battlefield by turn 4"
+at_least = 0.25
+require = [
+  { turn = 4, cast = 'name:"Iroh, Tea Master"', min = 1 },
+  { turn = 4, cast = 'cat:"Give Away Target"', min = 1 },
+]

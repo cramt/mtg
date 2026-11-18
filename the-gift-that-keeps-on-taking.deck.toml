@@ -1,0 +1,52 @@
+name = "The Gift That Keeps On Taking"
+format = "standard"
+description = """
+Boros tempo that gives the opponent permanents that eat their own lands.
+
+The Naked Time ramps a Mountain, then chapter II gives every creature entering that turn a +1/+1 counter and haste. At the start of combat, Iroh, Tea Master hands the Saga to the opponent: the chapter II trigger is yours, so Iroh's Ally still enters with a counter and haste. Next turn the opponent puts the lore counter on, reads chapter III, and sacrifices one of their own lands. Turn 2 Naked Time into turn 3 Iroh is two 3/3 hasty attackers and a Stone Rain.
+
+Molten Man, Inferno Incarnate is the same joke as a creature: a 0/0 that's +1/+1 per Mountain its controller has, with "when this leaves the battlefield, sacrifice a land". Give it to anyone without Mountains and it dies to state-based actions (CR 704.5f), and the leave trigger belongs to whoever controlled it when it left (CR 603.3a, 603.10a): they sacrifice the land. On your side it fetches a Mountain and is a 3/3 or bigger. Against Mountain decks keep it, or donate it and Torch the Tower it (exile is still leaving the battlefield).
+
+Stiltzkin and Harmless Offering are extra ways to give; Zidane makes a Treasure every gift. Gallia gives haste to every creature with a +1/+1 counter, which is every Iroh Ally once a gift is across the table. Voice of Victory stops the opponent answering Iroh on your turn. Torch the Tower can bargain away Iroh's Food, or your own Naked Time before chapter III when there's no Iroh.
+
+Iroh's token counts permanents you own that opponents control as it's made, so after a Molten Man gift it counts 0: Molten Man's death trigger goes on the stack above Iroh's reflexive one (APNAP, CR 101.4) and resolves first."""
+
+cards = [
+  { name = "Stiltzkin, Moogle Merchant", qty = 3, in = ["Give Away", "Draw"] },
+  { name = "Torch the Tower", qty = 4, in = ["Removal"] },
+  { name = "The Naked Time", qty = 4, in = ["Give Away Target", "Ramp", "Haste"] },
+  { name = "Voice of Victory", qty = 4, in = ["Protection"] },
+  { name = "Gallia, the Merrymaker", qty = 4, in = ["Haste"] },
+  { name = "Lightning Helix", qty = 3, in = ["Removal"] },
+  { name = "Sear", qty = 2, in = ["Removal"] },
+  { name = "Boros Charm", in = ["Protection", "Burn"] },
+  { name = "Iroh, Tea Master", qty = 4, in = ["Give Away"] },
+  { name = "Molten Man, Inferno Incarnate", qty = 4, in = ["Give Away Target", "Ramp"] },
+  { name = "Harmless Offering", qty = 2, in = ["Give Away"] },
+  { name = "Zidane, Tantalus Thief", qty = 2, in = ["Give Away Payoff", "Removal"] },
+  { name = "Sacred Foundry", qty = 4, in = ["Land"] },
+  { name = "Inspiring Vantage", qty = 4, in = ["Land"] },
+  { name = "Sunbillow Verge", qty = 4, in = ["Land"] },
+  { name = "Mountain", qty = 8, in = ["Land"] },
+  { name = "Plains", qty = 3, in = ["Land"] },
+  { name = "Iroh's Demonstration", qty = 3, in = ["Sideboard"] },
+  { name = "Get Lost", qty = 2, in = ["Sideboard"] },
+  { name = "Rest in Peace", qty = 2, in = ["Sideboard"] },
+  { name = "Authority of the Consuls", qty = 2, in = ["Sideboard"] },
+  { name = "Abrade", qty = 3, in = ["Sideboard"] },
+  { name = "Obliterating Bolt", qty = 2, in = ["Sideboard"] },
+  { name = "Boros Charm", in = ["Sideboard"] },
+]
+
+[categories]
+Burn = {}
+Draw = {}
+"Give Away" = {}
+"Give Away Payoff" = {}
+"Give Away Target" = {}
+Haste = {}
+Land = {}
+Protection = {}
+Ramp = {}
+Removal = {}
+Sideboard = { type = "sideboard" }
