@@ -12,7 +12,7 @@ down_to = 6
 bottom = ['mv>=5', 't:land']
 
 [[criterion]]
-name = "any way to give something away by turn 4 (Iroh, Stiltzkin, Offering)"
+name = "any way to give something away by turn 4 (Iroh, Stiltzkin)"
 at_least = 0.75
 require = [{ turn = 4, query = 'cat:"Give Away"', min = 1 }]
 

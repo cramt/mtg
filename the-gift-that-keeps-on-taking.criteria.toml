@@ -9,7 +9,7 @@ down_to = 6
 bottom = ['mv>=5', 't:land']
 
 [casting]
-prefer = ['name:"The Naked Time"', 'name:"Iroh, Tea Master"', 'name:"Molten Man, Inferno Incarnate"', 'name:"Voice of Victory"', 'name:"Stiltzkin, Moogle Merchant"']
+prefer = ['name:"The Naked Time"', 'name:"Iroh, Tea Master"', 'name:"Lightning, Army of One"', 'name:"Molten Man, Inferno Incarnate"', 'name:"Voice of Victory"', 'name:"Kinscaer Sentry"', 'name:"Stiltzkin, Moogle Merchant"', 'name:"Stadium Headliner"']
 
 # Both gifts fetch a basic Mountain tapped, which pays from the next turn.
 [land_drop]
@@ -36,3 +36,15 @@ require = [
   { turn = 4, cast = 'name:"Iroh, Tea Master"', min = 1 },
   { turn = 4, cast = 'cat:"Give Away Target"', min = 1 },
 ]
+
+# The engine lines above land in a minority of games; the rest are won or lost on
+# whether there's pressure on the board before the opponent's card advantage matters.
+[[criterion]]
+name = "a creature in play by turn 2"
+at_least = 0.70
+require = [{ turn = 2, cast = 't:creature mv<=2', min = 1 }]
+
+[[criterion]]
+name = "two creatures in play by turn 3"
+at_least = 0.50
+require = [{ turn = 3, cast = 't:creature', min = 2 }]
