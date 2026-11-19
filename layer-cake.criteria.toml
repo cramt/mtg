@@ -1,66 +1,93 @@
-# Mimeoplasm costs {X}{B}{G}{U} and wants X>=2: two copy targets, six counters.
-# "On curve" here is X=2 on turn 4, which needs one piece of ramp.
-# Mana thresholds sit just under the first measured run (27% and 54%): gauntlet reads
-# fastlands, Fabled Passage and land ramp as tapped, so these are floors that catch a
-# regression, not the real odds.
+# Mimeoplasm costs {X}{B}{G}{U}. X is both the number of copy targets and three
+# counters each, and every switch ({2}) and lore reset costs mana on top, so the
+# deck is judged on big mana as much as on curve. The ramp is Maldhound's Baby
+# Tron 1-3-5 ladder (see the baby-tron-elves and baby-tron-cultivates pools):
+# a one-drop on turn 1, a 3-mana ramp piece on turn 2, Mimeoplasm at X=2 on turn 3.
+#
+# Every mana number here is a floor, kept to compare lists rather than quoted as
+# the odds: gauntlet reads fastlands, Fabled Passage and land ramp as tapped,
+# can't see Tato Farmer or land recursion, and its turn-1 dork rate reads low.
+# Thresholds sit just under the measured run.
 
 [mulligan]
 keep = [{ query = "t:land", min = 2, max = 5 }]
 down_to = 6
 bottom = ['mv>=6', 't:land']
 
-
 [assume]
-# checklands: with 12 basics and 3 shocks they're untapped by the turns asked about here
+# checklands: with 9 basics and 3 shocks they're untapped by the turns asked about here
 untapped = ['name:"Overgrown Tomb" or name:"Watery Grave" or name:"Breeding Pool" or name:"Woodland Cemetery" or name:"Drowned Catacomb" or name:"Hinterland Harbor"']
 
 [land_drop]
 prefer = ['t:land -o:"enters tapped"', 't:land']
 
+[casting]
+prefer = ['cat:"One-Drop Accelerant"', 'cat:"Ramp"']
+
 [[effect]]
-match = '''name:"Nature's Lore" or name:"Three Visits" or name:"Farseek" or name:"Rampant Growth"'''
+match = '''name:"Sakura-Tribe Elder" or name:"Nature's Lore" or name:"Three Visits" or name:"Farseek" or name:"Rampant Growth"'''
 on = "cast"
 fetch = ['t:forest -t:instant -t:sorcery']
 to = "battlefield"
 
+# Witchstalker returns a land from the graveyard after milling four; read as one fetched land
 [[effect]]
-match = 'name:"Birds of Paradise" or name:"Llanowar Elves" or name:"Elvish Mystic" or name:"Paradise Druid"'
+match = 'name:"Primal Witchstalker"'
+on = "cast"
+fetch = ['t:basic']
+to = "battlefield"
+
+[[effect]]
+match = 'name:"Birds of Paradise" or name:"Llanowar Elves" or name:"Elvish Mystic" or name:"Fyndhorn Elves" or name:"Elves of Deep Shadow" or name:"Boreal Druid" or name:"Delighted Halfling" or name:"Skull Prophet"'
 on = "cast"
 adds = 1
 
 [[effect]]
-match = 'name:"Arcane Signet" or name:"Fellwar Stone" or name:"Talisman of Dominance" or name:"Talisman of Curiosity" or name:"Talisman of Resilience"'
+match = 'name:"Utopia Sprawl" or name:"Wild Growth"'
 on = "cast"
 adds = 1
 
-[casting]
-prefer = ['cat:"Ramp"']
+[[criterion]]
+name = "Baby Tron rung 1: a one-drop accelerant in the opener"
+at_least = 0.50
+require = [{ turn = 0, query = 'cat:"One-Drop Accelerant"', min = 1 }]
 
 [[criterion]]
 name = "commander on curve (X=2 by turn 4)"
-at_least = 0.25
+at_least = 0.22
 require = [{ turn = 4, can_cast = "{2}{B}{G}{U}" }]
 
 [[criterion]]
 name = "Mimeoplasm at X=2 by turn 5"
-at_least = 0.50
+at_least = 0.45
 require = [{ turn = 5, can_cast = "{2}{B}{G}{U}" }]
 
 [[criterion]]
-name = "a way to stock the graveyard by turn 4"
-at_least = 0.75
-require = [{ turn = 4, query = 'cat:"Graveyard Setup" or cat:"Copy Target"', min = 1 }]
+name = "big mana: Mimeoplasm at X=4 by turn 6"
+at_least = 0.22
+require = [{ turn = 6, can_cast = "{4}{B}{G}{U}" }]
+
+[[criterion]]
+name = "a self-mill or graveyard tutor by turn 3"
+at_least = 0.80
+require = [{ turn = 3, query = 'cat:"Self-Mill" or cat:"Graveyard Tutor"', min = 1 }]
+
+[[criterion]]
+name = "two graveyard fillers by turn 4"
+at_least = 0.55
+require = [{ turn = 4, query = 'cat:"Self-Mill" or cat:"Graveyard Tutor"', min = 2 }]
 
 [[criterion]]
 name = "a lore reset or proliferate by turn 6"
-at_least = 0.75
+at_least = 0.55
 require = [{ turn = 6, query = 'cat:"Counter Removal" or cat:"Proliferate"', min = 1 }]
+
+# informational: gauntlet's tapped-land reading keeps this near zero, see the header
+[[criterion]]
+name = "Baby Tron rung 3: Mimeoplasm at X=2 on turn 3"
+require = [{ turn = 3, can_cast = "{2}{B}{G}{U}" }]
 
 [[expect]]
 name = "lands in opener"
 turn = 0
 query = "t:land"
-
-[[criterion]]
-name = "five mana of any colour by turn 5 (diagnostic)"
-require = [{ turn = 5, can_cast = "{5}" }]
