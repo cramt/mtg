@@ -21,13 +21,13 @@ cards = [
   { printing = "fin/1", in = ["Copy Target", "Removal"] },  # Summon: Bahamut
   { printing = "fic/42", in = ["Copy Target", "Removal"] },  # Summon: Valefor
   { printing = "fin/120", in = ["Copy Target", "Card Draw"] },  # Summon: Anima
-  { name = "Summon: Titan", in = ["Copy Target", "Self-Mill", "Land Recursion"] },
+  { printing = "fin/204", in = ["Copy Target", "Self-Mill", "Land Recursion"] },  # Summon: Titan
   { printing = "fin/203", in = ["Copy Target", "Ramp"] },  # Summon: Fenrir
   { printing = "trk/249", in = ["Copy Target", "Ramp", "Land Recursion"] },  # Nog, Ambitious Cadet
   { printing = "bro/81", in = ["Copy Target", "Evasion"] },  # Surge Engine
   { printing = "plst/ZNC-27", in = ["Copy Target", "Evasion"] },  # Invisible Stalker
-  { name = "World Shaper", in = ["Copy Target", "Self-Mill", "Land Recursion"] },
-  { name = "Stinkweed Imp", in = ["Copy Target", "Self-Mill", "Removal"] },
+  { printing = "otc/214", in = ["Copy Target", "Self-Mill", "Land Recursion"] },  # World Shaper
+  { printing = "plst/GK1-53", in = ["Copy Target", "Self-Mill", "Removal"] },  # Stinkweed Imp
   { printing = "pwar/218p", in = ["Counter Removal", "Card Draw"] },  # Soul Diviner
   { printing = "fic/39", in = ["Counter Removal", "Card Draw"] },  # O'aka, Traveling Merchant
   { printing = "plst/C21-40", in = ["Counter Removal", "Ramp"] },  # Fain, the Broker
@@ -41,28 +41,28 @@ cards = [
   { printing = "dmr/82", in = ["Graveyard Tutor"] },  # Entomb
   { printing = "pmh2/106p", in = ["Graveyard Tutor"] },  # Unmarked Grave
   { printing = "plst/OTJ-93", in = ["Graveyard Tutor"] },  # Lively Dirge
-  { name = "Lotuslight Dancers", in = ["Graveyard Tutor"] },
+  { printing = "ptdm/204p", in = ["Graveyard Tutor"] },  # Lotuslight Dancers
   { printing = "tdc/196", in = ["Self-Mill"] },  # Stitcher's Supplier
-  { name = "Satyr Wayfinder", in = ["Self-Mill"] },
+  { printing = "eoc/106", in = ["Self-Mill"] },  # Satyr Wayfinder
   { printing = "tdc/290", in = ["Self-Mill"] },  # Grisly Salvage
-  { name = "Mulch", in = ["Self-Mill"] },
-  { name = "Glimpse the Unthinkable", in = ["Self-Mill"] },
-  { name = "Hedron Crab", in = ["Self-Mill"] },
-  { name = "Golgari Grave-Troll", in = ["Self-Mill"] },
-  { name = "Six", in = ["Self-Mill", "Land Recursion"] },
-  { name = "Sidisi, Brood Tyrant", in = ["Self-Mill"] },
+  { printing = "dsc/189", in = ["Self-Mill"] },  # Mulch
+  { printing = "2x2/218", in = ["Self-Mill"] },  # Glimpse the Unthinkable
+  { printing = "tdc/155", in = ["Self-Mill"] },  # Hedron Crab
+  { printing = "plst/UMA-167", in = ["Self-Mill"] },  # Golgari Grave-Troll
+  { printing = "plst/MH3-169", in = ["Self-Mill", "Land Recursion"] },  # Six
+  { printing = "cmm/355", in = ["Self-Mill"] },  # Sidisi, Brood Tyrant
   { printing = "eoc/91", in = ["Self-Mill", "Land Recursion"] },  # Aftermath Analyst
-  { name = "Skull Prophet", in = ["Ramp", "Self-Mill"] },
+  { printing = "tdc/304", in = ["Ramp", "Self-Mill"] },  # Skull Prophet
   { printing = "plst/GK2-82", in = ["Ramp", "One-Drop Accelerant"] },  # Birds of Paradise
   { printing = "fdc/213", in = ["Ramp", "One-Drop Accelerant"] },  # Llanowar Elves
   { printing = "fdc/202", in = ["Ramp", "One-Drop Accelerant"] },  # Elvish Mystic
-  { name = "Utopia Sprawl", in = ["Ramp", "One-Drop Accelerant"] },
+  { printing = "sld/2693", in = ["Ramp", "One-Drop Accelerant"] },  # Utopia Sprawl
   { printing = "plst/CMM-904", in = ["Ramp"] },  # Nature's Lore
   { printing = "soc/289", in = ["Ramp"] },  # Three Visits
   { printing = "eoc/50", in = ["Ramp"] },  # Farseek
   { printing = "tdc/265", in = ["Ramp"] },  # Rampant Growth
-  { name = "Splendid Reclamation", in = ["Land Recursion"] },
-  { name = "Life from the Loam", in = ["Land Recursion", "Self-Mill"] },
+  { printing = "eoc/108", in = ["Land Recursion"] },  # Splendid Reclamation
+  { printing = "tdc/96", in = ["Land Recursion", "Self-Mill"] },  # Life from the Loam
   { printing = "sld/2891", in = ["Removal"] },  # Assassin's Trophy
   { printing = "plst/IKO-91", in = ["Removal", "Counter Removal"] },  # Heartless Act
   { printing = "fdc/190", in = ["Removal"] },  # Beast Within
@@ -94,20 +94,20 @@ cards = [
   { printing = "ecc/155", in = ["Land", "Counter Removal"] },  # Nesting Grounds
   { printing = "eoc/163", in = ["Land", "Proliferate"] },  # Karn's Bastion
   { printing = "fdc/296", in = ["Land"] },  # Bojuka Bog
-  { name = "Dakmor Salvage", in = ["Land", "Self-Mill"] },
+  { printing = "eoc/156", in = ["Land", "Self-Mill"] },  # Dakmor Salvage
   { printing = "fra/394", qty = 5, in = ["Land"] },  # Forest
   { printing = "fra/385", qty = 3, in = ["Land"] },  # Island
   { printing = "fra/388", qty = 3, in = ["Land"] },  # Swamp
-  { name = "Wild Growth", in = ["Ramp", "One-Drop Accelerant"] },
-  { name = "Fyndhorn Elves", in = ["Ramp", "One-Drop Accelerant"] },
-  { name = "Elves of Deep Shadow", in = ["Ramp", "One-Drop Accelerant"] },
-  { name = "Delighted Halfling", in = ["Ramp", "One-Drop Accelerant"] },
-  { name = "Arbor Elf", in = ["Ramp", "One-Drop Accelerant"] },
-  { name = "Sakura-Tribe Scout", in = ["Ramp", "One-Drop Accelerant"] },
-  { name = "Primal Witchstalker", in = ["Ramp", "Self-Mill", "Land Recursion"] },
-  { name = "Tato Farmer", in = ["Ramp", "Self-Mill", "Land Recursion"] },
-  { name = "Sakura-Tribe Elder", in = ["Ramp"] },
-  { name = "Boreal Druid", in = ["Ramp", "One-Drop Accelerant"] },
+  { printing = "pmei/2026-2", in = ["Ramp", "One-Drop Accelerant"] },  # Wild Growth
+  { printing = "fdc/204", in = ["Ramp", "One-Drop Accelerant"] },  # Fyndhorn Elves
+  { printing = "sld/1710", in = ["Ramp", "One-Drop Accelerant"] },  # Elves of Deep Shadow
+  { printing = "hoc/25", in = ["Ramp", "One-Drop Accelerant"] },  # Delighted Halfling
+  { printing = "sld/1317", in = ["Ramp", "One-Drop Accelerant"] },  # Arbor Elf
+  { printing = "plst/SOK-144", in = ["Ramp", "One-Drop Accelerant"] },  # Sakura-Tribe Scout
+  { printing = "fra/144", in = ["Ramp", "Self-Mill", "Land Recursion"] },  # Primal Witchstalker
+  { printing = "pip/86", in = ["Ramp", "Self-Mill", "Land Recursion"] },  # Tato Farmer
+  { printing = "soc/285", in = ["Ramp"] },  # Sakura-Tribe Elder
+  { printing = "plst/CSP-105", in = ["Ramp", "One-Drop Accelerant"] },  # Boreal Druid
 ]
 
 [categories]
