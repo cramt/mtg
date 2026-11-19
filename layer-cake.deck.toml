@@ -1,0 +1,126 @@
+name = "Layer Cake"
+format = "commander"
+description = """
+Mimeoplasm, Revered One as a layer-stacking toolbox. Copy effects live in layer 1, and an effect that changed Mimeoplasm without a duration stays on it when it switches to copying something else (CR 707.4). So you make one form do something permanent, then turn into a different creature and keep it. Each layer stacks on the last, hence the name.
+
+The kill: Mimeoplasm exiles Summon: Primal Odin and Invisible Stalker or Surge Engine. As Odin, chapter II gives it "whenever this creature deals combat damage to a player, that player loses the game" with no duration (layer 6). Switch into Invisible Stalker and you're a hexproof, unblockable creature with that trigger, and each hit removes a player. Surge Engine does the same through its own steps: {U} loses defender and gains can't be blocked, also with no duration, so it outlives every later switch.
+
+The Sagas are the value. Mimeoplasm never entered as a Saga, so it starts at zero lore counters when it becomes one. Lore counters are just counters and carry across switches, so chapters from different Summons mix (CR 715.2b). Soul Diviner, O'aka, Thrull Parasite, Hex Parasite, Fain, Power Conduit, Xavier Sal, Clash of the Eikons and Nesting Grounds take the lore counter back off. Next main phase the same chapter fires again: Bahamut destroys a nonland permanent every turn, Odin a creature, Valefor bounces. Proliferate pushes it a chapter forward at instant speed. When a final chapter triggers, switch out in response; the trigger still resolves (CR 113.7a) and the sacrifice SBA only hits Sagas (CR 715.4).
+
+Nog, Evolved Sleeper and Surge Engine are pseudo-levelers. Their stages are type, ability and base-P/T effects with no duration, so they pile up: Nog's extra land drop and lands-from-graveyard stay on whatever Mimeoplasm turns into next. Do Nog first, because a type change you already made (layer 4) beats the type the new copy gives (layer 1), and Nog's "if Nog is a Rogue" check would fail. Training Grounds and Biomancer's Familiar make each {2} switch cost {1}.
+
+Mimeoplasm only copies what it exiled as it entered, so Buried Alive, Entomb, Unmarked Grave, Lively Dirge, Vile Entomber and Corpse Connoisseur put the right creatures in the graveyard first. The exiled cards are gone for good if Mimeoplasm dies, which is why Swiftfoot Boots, Heroic Intervention, Ripples of Potential and Mutational Advantage are here.
+
+Bracket 3: no Game Changers, no two-card infinites. Lighthouse Chronologist is out on purpose: on Mimeoplasm it's an extra turn every opponent's turn, which is looped extra turns and bracket 4. Frodo, Sauron's Bane would be the best pseudo-leveler here but it's white."""
+
+cards = [
+  { name = "Mimeoplasm, Revered One", in = ["Commander"] },
+  { name = "Summon: Primal Odin", in = ["Copy Target", "Win Condition"] },
+  { name = "Summon: Bahamut", in = ["Copy Target", "Removal"] },
+  { name = "Summon: Valefor", in = ["Copy Target", "Removal"] },
+  { name = "Summon: Anima", in = ["Copy Target", "Card Draw"] },
+  { name = "Summon: Shiva", in = ["Copy Target"] },
+  { name = "Summon: Fenrir", in = ["Copy Target", "Ramp"] },
+  { name = "Nog, Ambitious Cadet", in = ["Copy Target", "Ramp"] },
+  { name = "Surge Engine", in = ["Copy Target", "Evasion"] },
+  { name = "Evolved Sleeper", in = ["Copy Target"] },
+  { name = "Invisible Stalker", in = ["Copy Target", "Evasion"] },
+  { name = "Ferropede", in = ["Copy Target", "Evasion", "Counter Removal"] },
+  { name = "Soul Diviner", in = ["Counter Removal", "Card Draw"] },
+  { name = "O'aka, Traveling Merchant", in = ["Counter Removal", "Card Draw"] },
+  { name = "Thrull Parasite", in = ["Counter Removal"] },
+  { name = "Hex Parasite", in = ["Counter Removal"] },
+  { name = "Fain, the Broker", in = ["Counter Removal", "Ramp"] },
+  { name = "Power Conduit", in = ["Counter Removal"] },
+  { name = "Clash of the Eikons", in = ["Counter Removal", "Removal"] },
+  { name = "Xavier Sal, Infested Captain", in = ["Counter Removal", "Proliferate"] },
+  { name = "Experimental Augury", in = ["Proliferate"] },
+  { name = "Contentious Plan", in = ["Proliferate"] },
+  { name = "Thirsting Roots", in = ["Proliferate", "Ramp"] },
+  { name = "Drown in Ichor", in = ["Proliferate", "Removal"] },
+  { name = "Ripples of Potential", in = ["Proliferate", "Protection"] },
+  { name = "Training Grounds", in = ["Cost Reducer"] },
+  { name = "Biomancer's Familiar", in = ["Cost Reducer"] },
+  { name = "Buried Alive", in = ["Graveyard Setup"] },
+  { name = "Entomb", in = ["Graveyard Setup"] },
+  { name = "Unmarked Grave", in = ["Graveyard Setup"] },
+  { name = "Lively Dirge", in = ["Graveyard Setup"] },
+  { name = "Grisly Salvage", in = ["Graveyard Setup"] },
+  { name = "Stitcher's Supplier", in = ["Graveyard Setup"] },
+  { name = "Vile Entomber", in = ["Graveyard Setup"] },
+  { name = "Corpse Connoisseur", in = ["Graveyard Setup"] },
+  { name = "Birds of Paradise", in = ["Ramp"] },
+  { name = "Arcane Signet", in = ["Ramp"] },
+  { name = "Fellwar Stone", in = ["Ramp"] },
+  { name = "Talisman of Dominance", in = ["Ramp"] },
+  { name = "Talisman of Curiosity", in = ["Ramp"] },
+  { name = "Talisman of Resilience", in = ["Ramp"] },
+  { name = "Nature's Lore", in = ["Ramp"] },
+  { name = "Three Visits", in = ["Ramp"] },
+  { name = "Farseek", in = ["Ramp"] },
+  { name = "Rampant Growth", in = ["Ramp"] },
+  { name = "Phyrexian Arena", in = ["Card Draw"] },
+  { name = "Sylvan Library", in = ["Card Draw"] },
+  { name = "Fact or Fiction", in = ["Card Draw", "Graveyard Setup"] },
+  { name = "Aftermath Analyst", in = ["Graveyard Setup"] },
+  { name = "Assassin's Trophy", in = ["Removal"] },
+  { name = "Heartless Act", in = ["Removal", "Counter Removal"] },
+  { name = "Beast Within", in = ["Removal"] },
+  { name = "Arcane Denial", in = ["Counterspell"] },
+  { name = "Serum Snare", in = ["Removal", "Proliferate"] },
+  { name = "Feed the Swarm", in = ["Removal"] },
+  { name = "Toxic Deluge", in = ["Board Wipe"] },
+  { name = "Scavenging Ooze", in = ["Graveyard Hate"] },
+  { name = "Swiftfoot Boots", in = ["Protection"] },
+  { name = "Heroic Intervention", in = ["Protection"] },
+  { name = "Mutational Advantage", in = ["Protection"] },
+  { name = "Sink into Stupor // Soporific Springs", in = ["Land", "Counterspell"] },
+  { name = "Fell the Profane // Fell Mire", in = ["Land", "Removal"] },
+  { name = "Bala Ged Recovery // Bala Ged Sanctuary", in = ["Land"] },
+  { name = "Command Tower", in = ["Land"] },
+  { name = "Exotic Orchard", in = ["Land"] },
+  { name = "Zagoth Triome", in = ["Land"] },
+  { name = "Underground River", in = ["Land"] },
+  { name = "Llanowar Wastes", in = ["Land"] },
+  { name = "Yavimaya Coast", in = ["Land"] },
+  { name = "Woodland Cemetery", in = ["Land"] },
+  { name = "Drowned Catacomb", in = ["Land"] },
+  { name = "Hinterland Harbor", in = ["Land"] },
+  { name = "Overgrown Tomb", in = ["Land"] },
+  { name = "Watery Grave", in = ["Land"] },
+  { name = "Breeding Pool", in = ["Land"] },
+  { name = "Darkbore Pathway // Slitherbore Pathway", in = ["Land"] },
+  { name = "Clearwater Pathway // Murkwater Pathway", in = ["Land"] },
+  { name = "Barkchannel Pathway // Tidechannel Pathway", in = ["Land"] },
+  { name = "Blooming Marsh", in = ["Land"] },
+  { name = "Darkslick Shores", in = ["Land"] },
+  { name = "Botanical Sanctum", in = ["Land"] },
+  { name = "Fabled Passage", in = ["Land"] },
+  { name = "Nesting Grounds", in = ["Land", "Counter Removal"] },
+  { name = "Karn's Bastion", in = ["Land", "Proliferate"] },
+  { name = "Bojuka Bog", in = ["Land", "Graveyard Hate"] },
+  { name = "Forest", qty = 4, in = ["Land"] },
+  { name = "Island", qty = 4, in = ["Land"] },
+  { name = "Swamp", qty = 4, in = ["Land"] },
+  { name = "Llanowar Elves", in = ["Ramp"] },
+  { name = "Elvish Mystic", in = ["Ramp"] },
+  { name = "Paradise Druid", in = ["Ramp"] },
+]
+
+[categories]
+"Board Wipe" = {}
+"Card Draw" = {}
+Commander = { type = "commander" }
+"Copy Target" = {}
+"Cost Reducer" = {}
+"Counter Removal" = {}
+Counterspell = {}
+Evasion = {}
+"Graveyard Hate" = {}
+"Graveyard Setup" = {}
+Land = {}
+Proliferate = {}
+Protection = {}
+Ramp = {}
+Removal = {}
+"Win Condition" = {}

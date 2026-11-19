@@ -1,0 +1,66 @@
+# Mimeoplasm costs {X}{B}{G}{U} and wants X>=2: two copy targets, six counters.
+# "On curve" here is X=2 on turn 4, which needs one piece of ramp.
+# Mana thresholds sit just under the first measured run (27% and 54%): gauntlet reads
+# fastlands, Fabled Passage and land ramp as tapped, so these are floors that catch a
+# regression, not the real odds.
+
+[mulligan]
+keep = [{ query = "t:land", min = 2, max = 5 }]
+down_to = 6
+bottom = ['mv>=6', 't:land']
+
+
+[assume]
+# checklands: with 12 basics and 3 shocks they're untapped by the turns asked about here
+untapped = ['name:"Overgrown Tomb" or name:"Watery Grave" or name:"Breeding Pool" or name:"Woodland Cemetery" or name:"Drowned Catacomb" or name:"Hinterland Harbor"']
+
+[land_drop]
+prefer = ['t:land -o:"enters tapped"', 't:land']
+
+[[effect]]
+match = '''name:"Nature's Lore" or name:"Three Visits" or name:"Farseek" or name:"Rampant Growth"'''
+on = "cast"
+fetch = ['t:forest -t:instant -t:sorcery']
+to = "battlefield"
+
+[[effect]]
+match = 'name:"Birds of Paradise" or name:"Llanowar Elves" or name:"Elvish Mystic" or name:"Paradise Druid"'
+on = "cast"
+adds = 1
+
+[[effect]]
+match = 'name:"Arcane Signet" or name:"Fellwar Stone" or name:"Talisman of Dominance" or name:"Talisman of Curiosity" or name:"Talisman of Resilience"'
+on = "cast"
+adds = 1
+
+[casting]
+prefer = ['cat:"Ramp"']
+
+[[criterion]]
+name = "commander on curve (X=2 by turn 4)"
+at_least = 0.25
+require = [{ turn = 4, can_cast = "{2}{B}{G}{U}" }]
+
+[[criterion]]
+name = "Mimeoplasm at X=2 by turn 5"
+at_least = 0.50
+require = [{ turn = 5, can_cast = "{2}{B}{G}{U}" }]
+
+[[criterion]]
+name = "a way to stock the graveyard by turn 4"
+at_least = 0.75
+require = [{ turn = 4, query = 'cat:"Graveyard Setup" or cat:"Copy Target"', min = 1 }]
+
+[[criterion]]
+name = "a lore reset or proliferate by turn 6"
+at_least = 0.75
+require = [{ turn = 6, query = 'cat:"Counter Removal" or cat:"Proliferate"', min = 1 }]
+
+[[expect]]
+name = "lands in opener"
+turn = 0
+query = "t:land"
+
+[[criterion]]
+name = "five mana of any colour by turn 5 (diagnostic)"
+require = [{ turn = 5, can_cast = "{5}" }]
