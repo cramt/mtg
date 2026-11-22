@@ -8,10 +8,10 @@ The sideboard leans on artifacts wherever an artifact does the job. Soul-Guide L
 
 Sideboard plan, against the Nov 2026 MTGO field:
 
-- **Golgari Midrange** (Sheoldred, Badgermole Cub, Unholy Annex): +3 Thoughtseize, +2 Heartless Act / -2 Shrapnel Blast, -2 Mishra's Research Desk, -1 Experimental Synthesizer. Keep the Blades: an edict gets Sheoldred when she's alone, which Bauble never does.
+- **Golgari Midrange** (Sheoldred, Badgermole Cub, Unholy Annex, Mutavault): +3 Thoughtseize, +2 Withering Torment, +2 Heartless Act / -2 Shrapnel Blast, -2 Mishra's Research Desk, -2 Grim Bauble, -1 Experimental Synthesizer. Torment is the only answer to Unholy Annex once it resolves; Fatal Push kills its Demon token (mana value 0) and an animated Mutavault. Keep the Blades: an edict gets Sheoldred when she's alone, which Bauble never does.
 - **Izzet Prowess, Mono-Red**: +2 Fire Magic, +2 The Meathook Massacre / -1 Thoughtseize, -2 Mishra's Research Desk, -1 Rottenmouth Viper. Mayhem Devil survives both.
 - **Mono-Green Nykthos / Outcaster**: +3 Thoughtseize, +2 Heartless Act, +1 Fire Magic / -2 Mishra's Research Desk, -2 Deadly Dispute, -1 Rottenmouth Viper, -1 Experimental Synthesizer
-- **Graveyard decks** (Izzet Cauldron, Spellementals, Golgari Food, Greasefang): +3 Soul-Guide Lantern, +2 Rakdos Charm / -2 Mishra's Research Desk, -1 Rottenmouth Viper, -1 Shrapnel Blast, -1 Deadly Dispute. Lantern does Desk's job here and exiles their yard too; the fourth comes in against Cauldron combo
+- **Graveyard decks** (Izzet Cauldron, Spellementals, Golgari Food, Greasefang): +2 Soul-Guide Lantern, +2 Rakdos Charm / -2 Mishra's Research Desk, -1 Rottenmouth Viper, -1 Shrapnel Blast. Lantern does Desk's job here and exiles their yard too
 - **Control, Creativity, Lotus Field**: +3 Thoughtseize / -3 Fatal Push. Thoughtseize is for Temporary Lockdown and Supreme Verdict.
 - **Selesnya Company**: +2 The Meathook Massacre, +2 Fire Magic / -1 Thoughtseize, -2 Mishra's Research Desk, -1 Rottenmouth Viper
 """
@@ -41,9 +41,10 @@ cards = [
   { name = "Swamp", in = ["Land"] },
   { name = "Thoughtseize", qty = 3, in = ["Sideboard", "Discard"] },
   { name = "Heartless Act", qty = 2, in = ["Sideboard", "Removal"] },
+  { name = "Withering Torment", qty = 2, in = ["Sideboard", "Removal", "Enchantment Removal"] },
   { name = "Fire Magic", qty = 2, in = ["Sideboard", "Sweeper"] },
   { name = "The Meathook Massacre", qty = 2, in = ["Sideboard", "Sweeper", "Sac Payoff"] },
-  { name = "Soul-Guide Lantern", qty = 4, in = ["Sideboard", "Cheap Artifact", "Graveyard Hate"] },
+  { name = "Soul-Guide Lantern", qty = 2, in = ["Sideboard", "Cheap Artifact", "Graveyard Hate"] },
   { name = "Rakdos Charm", qty = 2, in = ["Sideboard", "Graveyard Hate", "Artifact Removal"] },
 ]
 
@@ -52,6 +53,7 @@ Sideboard = { type = "sideboard" }
 "Artifact Removal" = {}
 Discard = {}
 "Graveyard Hate" = {}
+"Enchantment Removal" = {}
 Sweeper = {}
 Burn = {}
 "Card Draw" = {}
