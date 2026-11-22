@@ -2,18 +2,18 @@ name = "Weapons of Mass Dragonstruction (Bo3)"
 format = "pioneer"
 cover = "eoe/168"
 description = """
-Pioneer Bo3 Rakdos Weapons Manufacturing: the Bo1 list plus a sideboard. The main deck can differ from the Bo1 list where the Bo3 field calls for it; for now it matches. Cheap nontoken artifacts make Munitions, sac outlets cash them in for damage and cards, and Mayhem Devil pings on every sacrifice.
+Pioneer Bo3 Rakdos Weapons Manufacturing: the Bo1 list plus a sideboard. The main deck can differ from the Bo1 list where the Bo3 field calls for it; for now it matches: 1 Thoughtseize main, 3 more in the sideboard. Cheap nontoken artifacts make Munitions, sac outlets cash them in for damage and cards, and Mayhem Devil pings on every sacrifice.
 
 The sideboard leans on artifacts wherever an artifact does the job. Soul-Guide Lantern and Reckoner Bankbuster each make a Munitions, then get sacrificed for value, which also turns on revolt for Fatal Push.
 
 Sideboard plan, against the Nov 2026 MTGO field:
 
-- **Golgari Midrange** (Sheoldred, Badgermole Cub, Unholy Annex): +3 Thoughtseize, +2 Heartless Act, +2 Reckoner Bankbuster / -3 Shrapnel Blast, -2 Tithing Blade, -2 Mishra's Research Desk. Keep the Baubles for Badgermole Cub.
-- **Izzet Prowess, Mono-Red**: +2 Fire Magic, +2 The Meathook Massacre / -2 Mishra's Research Desk, -1 Rottenmouth Viper, -1 Deadly Dispute. Mayhem Devil survives both.
-- **Mono-Green Nykthos / Outcaster**: +3 Thoughtseize, +2 Heartless Act, +2 Fire Magic / -3 Shrapnel Blast, -2 Mishra's Research Desk, -1 Rottenmouth Viper, -1 Deadly Dispute
+- **Golgari Midrange** (Sheoldred, Badgermole Cub, Unholy Annex): +3 Thoughtseize, +2 Heartless Act, +2 Reckoner Bankbuster / -2 Shrapnel Blast, -2 Mishra's Research Desk, -2 Grim Bauble, -1 Experimental Synthesizer. Keep the Blades: an edict gets Sheoldred when she's alone, which Bauble never does.
+- **Izzet Prowess, Mono-Red**: +2 Fire Magic, +2 The Meathook Massacre / -1 Thoughtseize, -2 Mishra's Research Desk, -1 Rottenmouth Viper. Mayhem Devil survives both.
+- **Mono-Green Nykthos / Outcaster**: +3 Thoughtseize, +2 Heartless Act, +1 Fire Magic / -2 Mishra's Research Desk, -2 Deadly Dispute, -1 Rottenmouth Viper, -1 Experimental Synthesizer
 - **Graveyard decks** (Izzet Cauldron, Spellementals, Golgari Food, Greasefang): +2 Soul-Guide Lantern, +1 Rakdos Charm, +1 Kolaghan's Command / -2 Mishra's Research Desk, -1 Rottenmouth Viper, -1 Shrapnel Blast
 - **Control, Creativity, Lotus Field**: +3 Thoughtseize, +2 Reckoner Bankbuster / -4 Fatal Push, -1 Grim Bauble. Thoughtseize is for Temporary Lockdown and Supreme Verdict.
-- **Selesnya Company**: +2 The Meathook Massacre, +2 Fire Magic / -2 Mishra's Research Desk, -1 Rottenmouth Viper, -1 Deadly Dispute
+- **Selesnya Company**: +2 The Meathook Massacre, +2 Fire Magic / -1 Thoughtseize, -2 Mishra's Research Desk, -1 Rottenmouth Viper
 """
 
 cards = [
@@ -25,10 +25,11 @@ cards = [
   { name = "Tithing Blade", qty = 2, in = ["Cheap Artifact", "Removal"] },
   { name = "Legion Extruder", qty = 4, in = ["Cheap Artifact", "Sac Outlet", "Token Maker", "Removal"] },
   { name = "Deadly Dispute", qty = 3, in = ["Sac Outlet", "Card Draw"] },
-  { name = "Shrapnel Blast", qty = 3, in = ["Sac Outlet", "Burn"] },
+  { name = "Shrapnel Blast", qty = 2, in = ["Sac Outlet", "Burn"] },
   { name = "Mayhem Devil", qty = 2, in = ["Sac Payoff", "Removal"] },
   { name = "Rottenmouth Viper", in = ["Sac Outlet", "Finisher"] },
   { name = "Fatal Push", qty = 4, in = ["Removal"] },
+  { name = "Thoughtseize", in = ["Discard"] },
   { name = "Midgar, City of Mako", qty = 2, in = ["Land", "Card Draw"] },
   { name = "Blood Crypt", qty = 4, in = ["Land"] },
   { name = "Blackcleave Cliffs", qty = 4, in = ["Land"] },
