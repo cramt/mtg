@@ -44,3 +44,10 @@ require = [{ turn = 2, query = 'cat:"Removal" mv<=2', min = 1 }]
 name = "lands in opener"
 turn = 0
 query = "t:land"
+
+# The Bo1 ladder's fast decks (elves/Badgermole, Izzet prowess) are where the deck loses,
+# and their early threats all die to a turn-1 Push or Bauble.
+[[criterion]]
+name = "1-mana removal in hand with B up by turn 1"
+at_least = 0.55
+require = [{ turn = 1, query = 'name:"Fatal Push" or name:"Grim Bauble"', min = 1 }, { turn = 1, can_cast = "{B}" }]
