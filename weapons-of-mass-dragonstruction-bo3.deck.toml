@@ -1,0 +1,66 @@
+name = "Weapons of Mass Dragonstruction (Bo3)"
+format = "pioneer"
+cover = "eoe/168"
+description = """
+Pioneer Bo3 Rakdos Weapons Manufacturing: the Bo1 list's main deck plus a sideboard. Cheap nontoken artifacts make Munitions, sac outlets cash them in for damage and cards, and Mayhem Devil pings on every sacrifice.
+
+The sideboard leans on artifacts wherever an artifact does the job. Soul-Guide Lantern and Reckoner Bankbuster each make a Munitions, then get sacrificed for value, which also turns on revolt for Fatal Push.
+
+Sideboard plan, against the Nov 2026 MTGO field:
+
+- **Golgari Midrange** (Sheoldred, Badgermole Cub, Unholy Annex): +3 Thoughtseize, +2 Heartless Act, +2 Reckoner Bankbuster / -3 Shrapnel Blast, -2 Grim Bauble, -2 Mishra's Research Desk
+- **Izzet Prowess, Mono-Red**: +2 Fire Magic, +2 The Meathook Massacre / -2 Mishra's Research Desk, -1 Rottenmouth Viper, -1 Deadly Dispute. Mayhem Devil survives both.
+- **Mono-Green Nykthos / Outcaster**: +3 Thoughtseize, +2 Heartless Act, +2 Fire Magic / -3 Shrapnel Blast, -2 Mishra's Research Desk, -1 Rottenmouth Viper, -1 Deadly Dispute
+- **Graveyard decks** (Izzet Cauldron, Spellementals, Golgari Food, Greasefang): +2 Soul-Guide Lantern, +1 Rakdos Charm, +1 Kolaghan's Command / -2 Mishra's Research Desk, -1 Rottenmouth Viper, -1 Shrapnel Blast
+- **Control, Creativity, Lotus Field**: +3 Thoughtseize, +2 Reckoner Bankbuster / -4 Fatal Push, -1 Grim Bauble. Thoughtseize is for Temporary Lockdown and Supreme Verdict.
+- **Selesnya Company**: +2 The Meathook Massacre, +2 Fire Magic / -2 Mishra's Research Desk, -1 Rottenmouth Viper, -1 Deadly Dispute
+"""
+
+cards = [
+  { name = "Weapons Manufacturing", qty = 4, in = ["Munitions Engine"] },
+  { name = "Oni-Cult Anvil", qty = 4, in = ["Sac Outlet", "Token Maker"] },
+  { name = "Experimental Synthesizer", qty = 4, in = ["Cheap Artifact", "Card Draw"] },
+  { name = "Mishra's Research Desk", qty = 2, in = ["Cheap Artifact", "Card Draw"] },
+  { name = "Grim Bauble", qty = 2, in = ["Cheap Artifact", "Removal"] },
+  { name = "Tithing Blade", qty = 4, in = ["Cheap Artifact", "Removal"] },
+  { name = "Legion Extruder", qty = 4, in = ["Cheap Artifact", "Sac Outlet", "Token Maker", "Removal"] },
+  { name = "Deadly Dispute", qty = 3, in = ["Sac Outlet", "Card Draw"] },
+  { name = "Shrapnel Blast", qty = 3, in = ["Sac Outlet", "Burn"] },
+  { name = "Mayhem Devil", qty = 2, in = ["Sac Payoff", "Removal"] },
+  { name = "Rottenmouth Viper", in = ["Sac Outlet", "Finisher"] },
+  { name = "Fatal Push", qty = 4, in = ["Removal"] },
+  { name = "Midgar, City of Mako", qty = 2, in = ["Land", "Card Draw"] },
+  { name = "Blood Crypt", qty = 4, in = ["Land"] },
+  { name = "Blackcleave Cliffs", qty = 4, in = ["Land"] },
+  { name = "Blazemire Verge", qty = 4, in = ["Land"] },
+  { name = "Sulfurous Springs", in = ["Land"] },
+  { name = "Fountainport", in = ["Land", "Card Draw"] },
+  { name = "Blightstep Pathway", qty = 2, in = ["Land"] },
+  { name = "Mountain", qty = 4, in = ["Land"] },
+  { name = "Swamp", in = ["Land"] },
+  { name = "Thoughtseize", qty = 3, in = ["Sideboard", "Discard"] },
+  { name = "Heartless Act", qty = 2, in = ["Sideboard", "Removal"] },
+  { name = "Reckoner Bankbuster", qty = 2, in = ["Sideboard", "Cheap Artifact", "Card Draw"] },
+  { name = "Fire Magic", qty = 2, in = ["Sideboard", "Sweeper"] },
+  { name = "The Meathook Massacre", qty = 2, in = ["Sideboard", "Sweeper", "Sac Payoff"] },
+  { name = "Soul-Guide Lantern", qty = 2, in = ["Sideboard", "Cheap Artifact", "Graveyard Hate"] },
+  { name = "Rakdos Charm", in = ["Sideboard", "Graveyard Hate", "Artifact Removal"] },
+  { name = "Kolaghan's Command", in = ["Sideboard", "Discard", "Artifact Removal"] },
+]
+
+[categories]
+Sideboard = { type = "sideboard" }
+"Artifact Removal" = {}
+Discard = {}
+"Graveyard Hate" = {}
+Sweeper = {}
+Burn = {}
+"Card Draw" = {}
+"Cheap Artifact" = {}
+Finisher = {}
+Land = {}
+"Munitions Engine" = {}
+Removal = {}
+"Sac Outlet" = {}
+"Sac Payoff" = {}
+"Token Maker" = {}
