@@ -2,13 +2,13 @@ name = "Weapons of Mass Dragonstruction (Bo3)"
 format = "pioneer"
 cover = "eoe/168"
 description = """
-Pioneer Bo3 Rakdos Weapons Manufacturing: the Bo1 list's main deck plus a sideboard. Cheap nontoken artifacts make Munitions, sac outlets cash them in for damage and cards, and Mayhem Devil pings on every sacrifice.
+Pioneer Bo3 Rakdos Weapons Manufacturing: the Bo1 list plus a sideboard. The main deck can differ from the Bo1 list where the Bo3 field calls for it; for now it matches. Cheap nontoken artifacts make Munitions, sac outlets cash them in for damage and cards, and Mayhem Devil pings on every sacrifice.
 
 The sideboard leans on artifacts wherever an artifact does the job. Soul-Guide Lantern and Reckoner Bankbuster each make a Munitions, then get sacrificed for value, which also turns on revolt for Fatal Push.
 
 Sideboard plan, against the Nov 2026 MTGO field:
 
-- **Golgari Midrange** (Sheoldred, Badgermole Cub, Unholy Annex): +3 Thoughtseize, +2 Heartless Act, +2 Reckoner Bankbuster / -3 Shrapnel Blast, -2 Grim Bauble, -2 Mishra's Research Desk
+- **Golgari Midrange** (Sheoldred, Badgermole Cub, Unholy Annex): +3 Thoughtseize, +2 Heartless Act, +2 Reckoner Bankbuster / -3 Shrapnel Blast, -2 Tithing Blade, -2 Mishra's Research Desk. Keep the Baubles for Badgermole Cub.
 - **Izzet Prowess, Mono-Red**: +2 Fire Magic, +2 The Meathook Massacre / -2 Mishra's Research Desk, -1 Rottenmouth Viper, -1 Deadly Dispute. Mayhem Devil survives both.
 - **Mono-Green Nykthos / Outcaster**: +3 Thoughtseize, +2 Heartless Act, +2 Fire Magic / -3 Shrapnel Blast, -2 Mishra's Research Desk, -1 Rottenmouth Viper, -1 Deadly Dispute
 - **Graveyard decks** (Izzet Cauldron, Spellementals, Golgari Food, Greasefang): +2 Soul-Guide Lantern, +1 Rakdos Charm, +1 Kolaghan's Command / -2 Mishra's Research Desk, -1 Rottenmouth Viper, -1 Shrapnel Blast
@@ -21,8 +21,8 @@ cards = [
   { name = "Oni-Cult Anvil", qty = 4, in = ["Sac Outlet", "Token Maker"] },
   { name = "Experimental Synthesizer", qty = 4, in = ["Cheap Artifact", "Card Draw"] },
   { name = "Mishra's Research Desk", qty = 2, in = ["Cheap Artifact", "Card Draw"] },
-  { name = "Grim Bauble", qty = 2, in = ["Cheap Artifact", "Removal"] },
-  { name = "Tithing Blade", qty = 4, in = ["Cheap Artifact", "Removal"] },
+  { name = "Grim Bauble", qty = 4, in = ["Cheap Artifact", "Removal"] },
+  { name = "Tithing Blade", qty = 2, in = ["Cheap Artifact", "Removal"] },
   { name = "Legion Extruder", qty = 4, in = ["Cheap Artifact", "Sac Outlet", "Token Maker", "Removal"] },
   { name = "Deadly Dispute", qty = 3, in = ["Sac Outlet", "Card Draw"] },
   { name = "Shrapnel Blast", qty = 3, in = ["Sac Outlet", "Burn"] },
