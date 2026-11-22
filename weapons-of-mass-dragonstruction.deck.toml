@@ -8,13 +8,14 @@ cards = [
   { name = "Experimental Synthesizer", qty = 4, in = ["Cheap Artifact", "Card Draw"] },
   { name = "Mishra's Research Desk", qty = 2, in = ["Cheap Artifact", "Card Draw"] },
   { name = "Grim Bauble", qty = 4, in = ["Cheap Artifact", "Removal"] },
-  { name = "Tithing Blade", qty = 2, in = ["Cheap Artifact", "Removal"] },
+  { name = "Tithing Blade", qty = 1, in = ["Cheap Artifact", "Removal"] },
   { name = "Legion Extruder", qty = 4, in = ["Cheap Artifact", "Sac Outlet", "Token Maker", "Removal"] },
   { name = "Deadly Dispute", qty = 3, in = ["Sac Outlet", "Card Draw"] },
   { name = "Shrapnel Blast", qty = 3, in = ["Sac Outlet", "Burn"] },
   { name = "Mayhem Devil", qty = 2, in = ["Sac Payoff", "Removal"] },
   { name = "Rottenmouth Viper", in = ["Sac Outlet", "Finisher"] },
   { name = "Fatal Push", qty = 4, in = ["Removal"] },
+  { name = "Thoughtseize", in = ["Discard"] },
   { name = "Midgar, City of Mako", qty = 2, in = ["Land", "Card Draw"] },
   { name = "Blood Crypt", qty = 4, in = ["Land"] },
   { name = "Blackcleave Cliffs", qty = 4, in = ["Land"] },
@@ -29,6 +30,7 @@ cards = [
 [categories]
 Burn = {}
 "Card Draw" = {}
+Discard = {}
 "Cheap Artifact" = {}
 Finisher = {}
 Land = {}
