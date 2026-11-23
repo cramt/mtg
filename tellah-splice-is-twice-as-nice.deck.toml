@@ -1,0 +1,188 @@
+name = "Tellah Splice Is Twice As Nice"
+format = "commander"
+description = """
+Imported from Moxfield (https://moxfield.com/decks/TK-I1Xcx9U2KKnbQMg4ROA, by KeepingItCasual), recategorized by what each card's oracle text does. The 63-card Moxfield maybeboard is kept as Maybeboard.
+
+Tellah, Great Sage rewards mana spent, not mana value: four or more spent on a noncreature spell draws two, eight or more sacrifices Tellah and deals that much to each opponent. Splice onto Arcane is how a one-mana Arcane spell gets there, because splice costs count as mana spent on the spell. Every noncreature spell also makes a Hero token.
+
+The tokens are the second engine. Zada, Leyline of Resonance, Mirrorwing Dragon, Frontline Heroism, Radiate and Radiant Performer copy a spell that targets one of your creatures onto the rest, so Veil of Secrecy makes the whole team unblockable, Overblaze doubles every creature's damage and Unnatural Speed gives the team haste. Radiate on Blind with Anger steals every nonlegendary creature that can be targeted.
+
+Psychic Puppetry and Toils of Night and Day untap Gilded Lotus or Lotus Field for three more mana. Peer Through Depths, Reach Through Mists and Sift Through Sands in one turn put The Unspeakable onto the battlefield, and it returns Arcane cards when it connects.
+
+Tension: the cost reducers (Mizzix, Vadrik, Archmage of Runes, Case of the Ransacked Lab, Wizards of Thay, Mindsplice Apparatus, Font of Magic) cut mana spent, which works against Tellah's four- and eight-mana thresholds.
+
+House ban: the list runs Sol Ring, so `scryfall check` fails until it's swapped out."""
+
+cards = [
+  { name = "Tellah, Great Sage", in = ["Commander"] },
+  { name = "Arcane Signet", in = ["Ramp"] },
+  { name = "Archmage Emeritus", in = ["Card Draw"] },
+  { name = "Archmage of Runes", in = ["Cost Reducer", "Card Draw"] },
+  { name = "Blasphemous Act", in = ["Board Wipe"] },
+  { name = "Blind with Anger", in = ["Arcane", "Threaten"] },
+  { name = "Case of the Ransacked Lab", in = ["Cost Reducer", "Card Draw"] },
+  { name = "Chaos Warp", in = ["Removal"] },
+  { name = "Consuming Vortex", in = ["Arcane", "Splice", "Removal"] },
+  { name = "Coveted Jewel", in = ["Ramp", "Card Draw"] },
+  { name = "Crackling Spellslinger", in = ["Spell Copy"] },
+  { name = "Crack the Earth", in = ["Arcane", "Removal"] },
+  { name = "Decanter of Endless Water", in = ["Ramp", "No Max Hand Size"] },
+  { name = "Deekah, Fractal Theorist", in = ["Token Maker"] },
+  { name = "Desperate Ritual", in = ["Arcane", "Splice", "Ramp"] },
+  { name = "Disrupting Shoal", in = ["Arcane", "Counterspell"] },
+  { name = "Eerie Procession", in = ["Arcane", "Arcane Tutor"] },
+  { name = "Empowered Autogenerator", in = ["Ramp"] },
+  { name = "Everdream", in = ["Splice", "Card Draw"] },
+  { name = "Everflowing Chalice", in = ["Ramp"] },
+  { name = "Evermind", in = ["Arcane", "Splice", "Card Draw"] },
+  { name = "Exalted Flamer of Tzeentch", in = ["Spell Recursion", "Opponent Damage"] },
+  { name = "Eye of Nowhere", in = ["Arcane", "Removal"] },
+  { name = "Font of Magic", in = ["Cost Reducer"] },
+  { name = "Frontline Heroism", in = ["Spell Copy", "Token Maker"] },
+  { name = "Gaze of Adamaro", in = ["Arcane", "Opponent Damage"] },
+  { name = "Gilded Lotus", in = ["Ramp"] },
+  { name = "Glacial Ray", in = ["Arcane", "Splice", "Removal"] },
+  { name = "Heed the Mists", in = ["Arcane", "Card Draw"] },
+  { name = "Into the Fray", in = ["Arcane", "Splice", "Targets Own Creature"] },
+  { name = "Ire of Kaminari", in = ["Arcane", "Removal", "Opponent Damage"] },
+  { name = "Izzet Signet", in = ["Ramp"] },
+  { name = "Leyline of Resonance", in = ["Spell Copy"] },
+  { name = "Lifted by Clouds", in = ["Arcane", "Splice", "Targets Own Creature"] },
+  { name = "Mindsplice Apparatus", in = ["Cost Reducer"] },
+  { name = "Mirrorwing Dragon", in = ["Spell Copy"] },
+  { name = "Mizzix of the Izmagnus", in = ["Cost Reducer"] },
+  { name = "Mystic Retrieval", in = ["Spell Recursion"] },
+  { name = "Overblaze", in = ["Arcane", "Splice", "Targets Own Creature", "Opponent Damage"] },
+  { name = "Peer Through Depths", in = ["Arcane", "Spell Tutor", "Unspeakable Package"] },
+  { name = "Petals of Insight", in = ["Arcane", "Card Draw"] },
+  { name = "Pinnacle Monk // Mystic Peak", in = ["Spell Recursion", "Land"] },
+  { name = "Psychic Puppetry", in = ["Arcane", "Splice", "Untap Permanent"] },
+  { name = "Radiant Performer", in = ["Spell Copy"] },
+  { name = "Radiate", in = ["Spell Copy"] },
+  { name = "Reach Through Mists", in = ["Arcane", "Card Draw", "Unspeakable Package"] },
+  { name = "Reweave", in = ["Arcane", "Splice", "Removal"] },
+  { name = "Sift Through Sands", in = ["Arcane", "Card Draw", "Unspeakable Package"] },
+  { name = "Silundi Vision // Silundi Isle", in = ["Spell Tutor", "Land"] },
+  { name = "Sol Ring", in = ["Ramp"] },
+  { name = "Sorcerer Class", in = ["Card Draw", "Ramp", "Opponent Damage"] },
+  { name = "Spiraling Embers", in = ["Arcane", "Removal", "Opponent Damage"] },
+  { name = "Storm-Kiln Artist", in = ["Ramp"] },
+  { name = "Storm King's Thunder", in = ["Spell Copy"] },
+  { name = "Strange Inversion", in = ["Arcane", "Splice", "Targets Own Creature"] },
+  { name = "Talisman of Creativity", in = ["Ramp"] },
+  { name = "The Emperor of Palamecia // The Lord Master of Hell", in = ["Ramp", "Opponent Damage"] },
+  { name = "The Mirari Conjecture", in = ["Spell Recursion", "Spell Copy"] },
+  { name = "The Unspeakable", in = ["Arcane Recursion", "Unspeakable Package"] },
+  { name = "Thought Vessel", in = ["Ramp", "No Max Hand Size"] },
+  { name = "Thousand-Year Storm", in = ["Spell Copy"] },
+  { name = "Toils of Night and Day", in = ["Arcane", "Untap Permanent"] },
+  { name = "Unnatural Speed", in = ["Arcane", "Targets Own Creature"] },
+  { name = "Vadrik, Astral Archmage", in = ["Cost Reducer"] },
+  { name = "Veil of Secrecy", in = ["Arcane", "Splice", "Targets Own Creature"] },
+  { name = "Wizards of Thay", in = ["Cost Reducer"] },
+  { name = "Zada, Hedron Grinder", in = ["Spell Copy"] },
+  { name = "Zoyowa's Justice", in = ["Removal"] },
+  { name = "Cascade Bluffs", in = ["Land"] },
+  { name = "Command Tower", in = ["Land"] },
+  { name = "Exotic Orchard", in = ["Land"] },
+  { name = "Fiery Islet", in = ["Land"] },
+  { name = "Frostboil Snarl", in = ["Land"] },
+  { name = "Ghost Quarter", in = ["Land"] },
+  { name = "Izzet Boilerworks", in = ["Land"] },
+  { name = "Lotus Field", in = ["Land"] },
+  { name = "Path of Ancestry", in = ["Land"] },
+  { name = "Reliquary Tower", in = ["Land", "No Max Hand Size"] },
+  { name = "Shivan Reef", in = ["Land"] },
+  { name = "Steam Vents", in = ["Land"] },
+  { name = "Sulfur Falls", in = ["Land"] },
+  { name = "Island", qty = 10, in = ["Land"] },
+  { name = "Mountain", qty = 9, in = ["Land"] },
+  { name = "Aura Barbs", in = ["Maybeboard"] },
+  { name = "Baral, Chief of Compliance", in = ["Maybeboard"] },
+  { name = "Barrel Down Sokenzan", in = ["Maybeboard"] },
+  { name = "Battlefield Thaumaturge", in = ["Maybeboard"] },
+  { name = "Blazing Shoal", in = ["Maybeboard"] },
+  { name = "Brain Freeze", in = ["Maybeboard"] },
+  { name = "Caged Sun", in = ["Maybeboard"] },
+  { name = "Consign to Memory", in = ["Maybeboard"] },
+  { name = "Crack the Earth", in = ["Maybeboard"] },
+  { name = "Crushing Pain", in = ["Maybeboard"] },
+  { name = "Cut the Earthly Bond", in = ["Maybeboard"] },
+  { name = "Dampen Thought", in = ["Maybeboard"] },
+  { name = "Devouring Rage", in = ["Maybeboard"] },
+  { name = "Djinn Illuminatus", in = ["Maybeboard"] },
+  { name = "Empty the Warrens", in = ["Maybeboard"] },
+  { name = "Fell Beast's Shriek", in = ["Maybeboard"] },
+  { name = "Fellwar Stone", in = ["Maybeboard"] },
+  { name = "Fiery Encore", in = ["Maybeboard"] },
+  { name = "First Volley", in = ["Maybeboard"] },
+  { name = "Flusterstorm", in = ["Maybeboard"] },
+  { name = "Follow the Bodies", in = ["Maybeboard"] },
+  { name = "Galvanic Relay", in = ["Maybeboard"] },
+  { name = "Gigadrowse", in = ["Maybeboard"] },
+  { name = "Goblin Electromancer", in = ["Maybeboard"] },
+  { name = "Grapeshot", in = ["Maybeboard"] },
+  { name = "Ground Rift", in = ["Maybeboard"] },
+  { name = "Haughty Djinn", in = ["Maybeboard"] },
+  { name = "Haze of Rage", in = ["Maybeboard"] },
+  { name = "Ideas Unbound", in = ["Maybeboard"] },
+  { name = "Ignite Memories", in = ["Maybeboard"] },
+  { name = "Inspiration from Beyond", in = ["Maybeboard"] },
+  { name = "Izzet Signet", in = ["Maybeboard"] },
+  { name = "Lava Spike", in = ["Maybeboard"] },
+  { name = "Leap of Flame", in = ["Maybeboard"] },
+  { name = "Liquimetal Torque", in = ["Maybeboard"] },
+  { name = "Lose Focus", in = ["Maybeboard"] },
+  { name = "Mists of Lórien", in = ["Maybeboard"] },
+  { name = "Murmurs from Beyond", in = ["Maybeboard"] },
+  { name = "Octavia, Living Thesis", in = ["Maybeboard"] },
+  { name = "Ornithopter of Paradise", in = ["Maybeboard"] },
+  { name = "Part the Veil", in = ["Maybeboard"] },
+  { name = "Path of Anger's Flame", in = ["Maybeboard"] },
+  { name = "Pelargir Survivor", in = ["Maybeboard"] },
+  { name = "Primal Amulet // Primal Wellspring", in = ["Maybeboard"] },
+  { name = "Pyromatics", in = ["Maybeboard"] },
+  { name = "Radstorm", in = ["Maybeboard"] },
+  { name = "Ribbons of the Reikai", in = ["Maybeboard"] },
+  { name = "Scattershot", in = ["Maybeboard"] },
+  { name = "Shattering Spree", in = ["Maybeboard"] },
+  { name = "Shifting Borders", in = ["Maybeboard"] },
+  { name = "Shreds of Sanity", in = ["Maybeboard"] },
+  { name = "Spreading Insurrection", in = ["Maybeboard"] },
+  { name = "Stormcatch Mentor", in = ["Maybeboard"] },
+  { name = "Stream of Consciousness", in = ["Maybeboard"] },
+  { name = "Stream of Thought", in = ["Maybeboard"] },
+  { name = "Sunder from Within", in = ["Maybeboard"] },
+  { name = "Temporal Fissure", in = ["Maybeboard"] },
+  { name = "Through the Breach", in = ["Maybeboard"] },
+  { name = "Torrent of Stone", in = ["Maybeboard"] },
+  { name = "Train of Thought", in = ["Maybeboard"] },
+  { name = "Unearthly Blizzard", in = ["Maybeboard"] },
+  { name = "Vacuumelt", in = ["Maybeboard"] },
+  { name = "Volcanic Vision", in = ["Maybeboard"] },
+]
+
+[categories]
+Arcane = {}
+"Arcane Recursion" = {}
+"Arcane Tutor" = {}
+"Board Wipe" = {}
+"Card Draw" = {}
+Commander = { type = "commander" }
+"Cost Reducer" = {}
+Counterspell = {}
+Land = {}
+Maybeboard = { type = "maybeboard" }
+"No Max Hand Size" = {}
+"Opponent Damage" = {}
+Ramp = {}
+Removal = {}
+"Spell Copy" = {}
+"Spell Recursion" = {}
+"Spell Tutor" = {}
+Splice = {}
+"Targets Own Creature" = {}
+Threaten = {}
+"Token Maker" = {}
+"Unspeakable Package" = {}
+"Untap Permanent" = {}
