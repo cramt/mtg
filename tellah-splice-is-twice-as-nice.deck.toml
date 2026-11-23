@@ -14,152 +14,152 @@ Tension: the cost reducers (Mizzix, Vadrik, Archmage of Runes, Case of the Ransa
 House ban: the list runs Sol Ring, so `scryfall check` fails until it's swapped out."""
 
 cards = [
-  { name = "Tellah, Great Sage", in = ["Commander"] },
-  { name = "Arcane Signet", in = ["Ramp"] },
-  { name = "Archmage Emeritus", in = ["Card Draw"] },
-  { name = "Archmage of Runes", in = ["Cost Reducer", "Card Draw"] },
-  { name = "Blasphemous Act", in = ["Board Wipe"] },
-  { name = "Blind with Anger", in = ["Arcane", "Threaten"] },
-  { name = "Case of the Ransacked Lab", in = ["Cost Reducer", "Card Draw"] },
-  { name = "Chaos Warp", in = ["Removal"] },
-  { name = "Consuming Vortex", in = ["Arcane", "Splice", "Removal"] },
-  { name = "Coveted Jewel", in = ["Ramp", "Card Draw"] },
-  { name = "Crackling Spellslinger", in = ["Spell Copy"] },
-  { name = "Crack the Earth", in = ["Arcane", "Removal"] },
-  { name = "Decanter of Endless Water", in = ["Ramp", "No Max Hand Size"] },
-  { name = "Deekah, Fractal Theorist", in = ["Token Maker"] },
-  { name = "Desperate Ritual", in = ["Arcane", "Splice", "Ramp"] },
-  { name = "Disrupting Shoal", in = ["Arcane", "Counterspell"] },
-  { name = "Eerie Procession", in = ["Arcane", "Arcane Tutor"] },
-  { name = "Empowered Autogenerator", in = ["Ramp"] },
-  { name = "Everdream", in = ["Splice", "Card Draw"] },
-  { name = "Everflowing Chalice", in = ["Ramp"] },
-  { name = "Evermind", in = ["Arcane", "Splice", "Card Draw"] },
-  { name = "Exalted Flamer of Tzeentch", in = ["Spell Recursion", "Opponent Damage"] },
-  { name = "Eye of Nowhere", in = ["Arcane", "Removal"] },
-  { name = "Font of Magic", in = ["Cost Reducer"] },
-  { name = "Frontline Heroism", in = ["Spell Copy", "Token Maker"] },
-  { name = "Gaze of Adamaro", in = ["Arcane", "Opponent Damage"] },
-  { name = "Gilded Lotus", in = ["Ramp"] },
-  { name = "Glacial Ray", in = ["Arcane", "Splice", "Removal"] },
-  { name = "Heed the Mists", in = ["Arcane", "Card Draw"] },
-  { name = "Into the Fray", in = ["Arcane", "Splice", "Targets Own Creature"] },
-  { name = "Ire of Kaminari", in = ["Arcane", "Removal", "Opponent Damage"] },
-  { name = "Izzet Signet", in = ["Ramp"] },
-  { name = "Leyline of Resonance", in = ["Spell Copy"] },
-  { name = "Lifted by Clouds", in = ["Arcane", "Splice", "Targets Own Creature"] },
-  { name = "Mindsplice Apparatus", in = ["Cost Reducer"] },
-  { name = "Mirrorwing Dragon", in = ["Spell Copy"] },
-  { name = "Mizzix of the Izmagnus", in = ["Cost Reducer"] },
-  { name = "Mystic Retrieval", in = ["Spell Recursion"] },
-  { name = "Overblaze", in = ["Arcane", "Splice", "Targets Own Creature", "Opponent Damage"] },
-  { name = "Peer Through Depths", in = ["Arcane", "Spell Tutor", "Unspeakable Package"] },
-  { name = "Petals of Insight", in = ["Arcane", "Card Draw"] },
-  { name = "Pinnacle Monk // Mystic Peak", in = ["Spell Recursion", "Land"] },
-  { name = "Psychic Puppetry", in = ["Arcane", "Splice", "Untap Permanent"] },
-  { name = "Radiant Performer", in = ["Spell Copy"] },
-  { name = "Radiate", in = ["Spell Copy"] },
-  { name = "Reach Through Mists", in = ["Arcane", "Card Draw", "Unspeakable Package"] },
-  { name = "Reweave", in = ["Arcane", "Splice", "Removal"] },
-  { name = "Sift Through Sands", in = ["Arcane", "Card Draw", "Unspeakable Package"] },
-  { name = "Silundi Vision // Silundi Isle", in = ["Spell Tutor", "Land"] },
-  { name = "Sol Ring", in = ["Ramp"] },
-  { name = "Sorcerer Class", in = ["Card Draw", "Ramp", "Opponent Damage"] },
-  { name = "Spiraling Embers", in = ["Arcane", "Removal", "Opponent Damage"] },
-  { name = "Storm-Kiln Artist", in = ["Ramp"] },
-  { name = "Storm King's Thunder", in = ["Spell Copy"] },
-  { name = "Strange Inversion", in = ["Arcane", "Splice", "Targets Own Creature"] },
-  { name = "Talisman of Creativity", in = ["Ramp"] },
-  { name = "The Emperor of Palamecia // The Lord Master of Hell", in = ["Ramp", "Opponent Damage"] },
-  { name = "The Mirari Conjecture", in = ["Spell Recursion", "Spell Copy"] },
-  { name = "The Unspeakable", in = ["Arcane Recursion", "Unspeakable Package"] },
-  { name = "Thought Vessel", in = ["Ramp", "No Max Hand Size"] },
-  { name = "Thousand-Year Storm", in = ["Spell Copy"] },
-  { name = "Toils of Night and Day", in = ["Arcane", "Untap Permanent"] },
-  { name = "Unnatural Speed", in = ["Arcane", "Targets Own Creature"] },
-  { name = "Vadrik, Astral Archmage", in = ["Cost Reducer"] },
-  { name = "Veil of Secrecy", in = ["Arcane", "Splice", "Targets Own Creature"] },
-  { name = "Wizards of Thay", in = ["Cost Reducer"] },
-  { name = "Zada, Hedron Grinder", in = ["Spell Copy"] },
-  { name = "Zoyowa's Justice", in = ["Removal"] },
-  { name = "Cascade Bluffs", in = ["Land"] },
-  { name = "Command Tower", in = ["Land"] },
-  { name = "Exotic Orchard", in = ["Land"] },
-  { name = "Fiery Islet", in = ["Land"] },
-  { name = "Frostboil Snarl", in = ["Land"] },
-  { name = "Ghost Quarter", in = ["Land"] },
-  { name = "Izzet Boilerworks", in = ["Land"] },
-  { name = "Lotus Field", in = ["Land"] },
-  { name = "Path of Ancestry", in = ["Land"] },
-  { name = "Reliquary Tower", in = ["Land", "No Max Hand Size"] },
-  { name = "Shivan Reef", in = ["Land"] },
-  { name = "Steam Vents", in = ["Land"] },
-  { name = "Sulfur Falls", in = ["Land"] },
-  { name = "Island", qty = 10, in = ["Land"] },
-  { name = "Mountain", qty = 9, in = ["Land"] },
-  { name = "Aura Barbs", in = ["Maybeboard"] },
-  { name = "Baral, Chief of Compliance", in = ["Maybeboard"] },
-  { name = "Barrel Down Sokenzan", in = ["Maybeboard"] },
-  { name = "Battlefield Thaumaturge", in = ["Maybeboard"] },
-  { name = "Blazing Shoal", in = ["Maybeboard"] },
-  { name = "Brain Freeze", in = ["Maybeboard"] },
-  { name = "Caged Sun", in = ["Maybeboard"] },
-  { name = "Consign to Memory", in = ["Maybeboard"] },
-  { name = "Crack the Earth", in = ["Maybeboard"] },
-  { name = "Crushing Pain", in = ["Maybeboard"] },
-  { name = "Cut the Earthly Bond", in = ["Maybeboard"] },
-  { name = "Dampen Thought", in = ["Maybeboard"] },
-  { name = "Devouring Rage", in = ["Maybeboard"] },
-  { name = "Djinn Illuminatus", in = ["Maybeboard"] },
-  { name = "Empty the Warrens", in = ["Maybeboard"] },
-  { name = "Fell Beast's Shriek", in = ["Maybeboard"] },
-  { name = "Fellwar Stone", in = ["Maybeboard"] },
-  { name = "Fiery Encore", in = ["Maybeboard"] },
-  { name = "First Volley", in = ["Maybeboard"] },
-  { name = "Flusterstorm", in = ["Maybeboard"] },
-  { name = "Follow the Bodies", in = ["Maybeboard"] },
-  { name = "Galvanic Relay", in = ["Maybeboard"] },
-  { name = "Gigadrowse", in = ["Maybeboard"] },
-  { name = "Goblin Electromancer", in = ["Maybeboard"] },
-  { name = "Grapeshot", in = ["Maybeboard"] },
-  { name = "Ground Rift", in = ["Maybeboard"] },
-  { name = "Haughty Djinn", in = ["Maybeboard"] },
-  { name = "Haze of Rage", in = ["Maybeboard"] },
-  { name = "Ideas Unbound", in = ["Maybeboard"] },
-  { name = "Ignite Memories", in = ["Maybeboard"] },
-  { name = "Inspiration from Beyond", in = ["Maybeboard"] },
-  { name = "Izzet Signet", in = ["Maybeboard"] },
-  { name = "Lava Spike", in = ["Maybeboard"] },
-  { name = "Leap of Flame", in = ["Maybeboard"] },
-  { name = "Liquimetal Torque", in = ["Maybeboard"] },
-  { name = "Lose Focus", in = ["Maybeboard"] },
-  { name = "Mists of Lórien", in = ["Maybeboard"] },
-  { name = "Murmurs from Beyond", in = ["Maybeboard"] },
-  { name = "Octavia, Living Thesis", in = ["Maybeboard"] },
-  { name = "Ornithopter of Paradise", in = ["Maybeboard"] },
-  { name = "Part the Veil", in = ["Maybeboard"] },
-  { name = "Path of Anger's Flame", in = ["Maybeboard"] },
-  { name = "Pelargir Survivor", in = ["Maybeboard"] },
-  { name = "Primal Amulet // Primal Wellspring", in = ["Maybeboard"] },
-  { name = "Pyromatics", in = ["Maybeboard"] },
-  { name = "Radstorm", in = ["Maybeboard"] },
-  { name = "Ribbons of the Reikai", in = ["Maybeboard"] },
-  { name = "Scattershot", in = ["Maybeboard"] },
-  { name = "Shattering Spree", in = ["Maybeboard"] },
-  { name = "Shifting Borders", in = ["Maybeboard"] },
-  { name = "Shreds of Sanity", in = ["Maybeboard"] },
-  { name = "Spreading Insurrection", in = ["Maybeboard"] },
-  { name = "Stormcatch Mentor", in = ["Maybeboard"] },
-  { name = "Stream of Consciousness", in = ["Maybeboard"] },
-  { name = "Stream of Thought", in = ["Maybeboard"] },
-  { name = "Sunder from Within", in = ["Maybeboard"] },
-  { name = "Temporal Fissure", in = ["Maybeboard"] },
-  { name = "Through the Breach", in = ["Maybeboard"] },
-  { name = "Torrent of Stone", in = ["Maybeboard"] },
-  { name = "Train of Thought", in = ["Maybeboard"] },
-  { name = "Unearthly Blizzard", in = ["Maybeboard"] },
-  { name = "Vacuumelt", in = ["Maybeboard"] },
-  { name = "Volcanic Vision", in = ["Maybeboard"] },
+  { printing = "fin/244", in = ["Commander"] },  # Tellah, Great Sage
+  { printing = "fdc/245", in = ["Ramp"] },  # Arcane Signet
+  { printing = "soc/188", in = ["Card Draw"] },  # Archmage Emeritus
+  { printing = "pmei/2026-30", in = ["Cost Reducer", "Card Draw"] },  # Archmage of Runes
+  { printing = "fdc/140", in = ["Board Wipe"] },  # Blasphemous Act
+  { printing = "chk/158", in = ["Arcane", "Threaten"] },  # Blind with Anger
+  { printing = "mkm/45", in = ["Cost Reducer", "Card Draw"] },  # Case of the Ransacked Lab
+  { printing = "fdc/146", in = ["Removal"] },  # Chaos Warp
+  { printing = "chk/54", in = ["Arcane", "Splice", "Removal"] },  # Consuming Vortex
+  { printing = "blc/268", in = ["Ramp", "Card Draw"] },  # Coveted Jewel
+  { printing = "otc/25", in = ["Spell Copy"] },  # Crackling Spellslinger
+  { printing = "bok/98", in = ["Arcane", "Removal"] },  # Crack the Earth
+  { printing = "plst/CLB-309", in = ["Ramp", "No Max Hand Size"] },  # Decanter of Endless Water
+  { printing = "plst/C21-26", in = ["Token Maker"] },  # Deekah, Fractal Theorist
+  { printing = "sld/1984", in = ["Arcane", "Splice", "Ramp"] },  # Desperate Ritual
+  { printing = "uma/51", in = ["Arcane", "Counterspell"] },  # Disrupting Shoal
+  { printing = "chk/58", in = ["Arcane", "Arcane Tutor"] },  # Eerie Procession
+  { printing = "eoc/135", in = ["Ramp"] },  # Empowered Autogenerator
+  { printing = "plst/MH1-47", in = ["Splice", "Card Draw"] },  # Everdream
+  { printing = "eoc/137", in = ["Ramp"] },  # Everflowing Chalice
+  { printing = "plst/SOK-37", in = ["Arcane", "Splice", "Card Draw"] },  # Evermind
+  { printing = "40k/119", in = ["Spell Recursion", "Opponent Damage"] },  # Exalted Flamer of Tzeentch
+  { printing = "chk/59", in = ["Arcane", "Removal"] },  # Eye of Nowhere
+  { printing = "clb/71", in = ["Cost Reducer"] },  # Font of Magic
+  { printing = "plst/J25-15", in = ["Spell Copy", "Token Maker"] },  # Frontline Heroism
+  { printing = "sok/98", in = ["Arcane", "Opponent Damage"] },  # Gaze of Adamaro
+  { printing = "pw26/3", in = ["Ramp"] },  # Gilded Lotus
+  { printing = "mma/115", in = ["Arcane", "Splice", "Removal"] },  # Glacial Ray
+  { printing = "bok/36", in = ["Arcane", "Card Draw"] },  # Heed the Mists
+  { printing = "sok/106", in = ["Arcane", "Splice", "Targets Own Creature"] },  # Into the Fray
+  { printing = "bok/109", in = ["Arcane", "Removal", "Opponent Damage"] },  # Ire of Kaminari
+  { printing = "frc/58", in = ["Ramp"] },  # Izzet Signet
+  { printing = "dsk/143", in = ["Spell Copy"] },  # Leyline of Resonance
+  { printing = "chk/73", in = ["Arcane", "Splice", "Targets Own Creature"] },  # Lifted by Clouds
+  { printing = "one/63", in = ["Cost Reducer"] },  # Mindsplice Apparatus
+  { printing = "soc/249", in = ["Spell Copy"] },  # Mirrorwing Dragon
+  { printing = "cmm/348", in = ["Cost Reducer"] },  # Mizzix of the Izmagnus
+  { printing = "plst/INR-77", in = ["Spell Recursion"] },  # Mystic Retrieval
+  { printing = "bok/114", in = ["Arcane", "Splice", "Targets Own Creature", "Opponent Damage"] },  # Overblaze
+  { printing = "dds/5", in = ["Arcane", "Spell Tutor", "Unspeakable Package"] },  # Peer Through Depths
+  { printing = "mma/60", in = ["Arcane", "Card Draw"] },  # Petals of Insight
+  { printing = "mh3/246", in = ["Spell Recursion", "Land"] },  # Pinnacle Monk // Mystic Peak
+  { printing = "chk/80", in = ["Arcane", "Splice", "Untap Permanent"] },  # Psychic Puppetry
+  { printing = "c21/54", in = ["Spell Copy"] },  # Radiant Performer
+  { printing = "sld/2536", in = ["Spell Copy"] },  # Radiate
+  { printing = "dds/7", in = ["Arcane", "Card Draw", "Unspeakable Package"] },  # Reach Through Mists
+  { printing = "chk/82", in = ["Arcane", "Splice", "Removal"] },  # Reweave
+  { printing = "dds/9", in = ["Arcane", "Card Draw", "Unspeakable Package"] },  # Sift Through Sands
+  { printing = "znr/80", in = ["Spell Tutor", "Land"] },  # Silundi Vision // Silundi Isle
+  { printing = "fdc/286", in = ["Ramp"] },  # Sol Ring
+  { printing = "afr/233", in = ["Card Draw", "Ramp", "Opponent Damage"] },  # Sorcerer Class
+  { printing = "sok/116", in = ["Arcane", "Removal", "Opponent Damage"] },  # Spiraling Embers
+  { printing = "plst/OTC-181", in = ["Ramp"] },  # Storm-Kiln Artist
+  { printing = "clb/196", in = ["Spell Copy"] },  # Storm King's Thunder
+  { printing = "chk/192", in = ["Arcane", "Splice", "Targets Own Creature"] },  # Strange Inversion
+  { printing = "frc/61", in = ["Ramp"] },  # Talisman of Creativity
+  { printing = "fin/219", in = ["Ramp", "Opponent Damage"] },  # The Emperor of Palamecia // The Lord Master of Hell
+  { printing = "plst/DOM-57", in = ["Spell Recursion", "Spell Copy"] },  # The Mirari Conjecture
+  { printing = "plst/DDS-13", in = ["Arcane Recursion", "Unspeakable Package"] },  # The Unspeakable
+  { printing = "fdc/292", in = ["Ramp", "No Max Hand Size"] },  # Thought Vessel
+  { printing = "fdn/248", in = ["Spell Copy"] },  # Thousand-Year Storm
+  { printing = "plst/BOK-57", in = ["Arcane", "Untap Permanent"] },  # Toils of Night and Day
+  { printing = "chk/197", in = ["Arcane", "Targets Own Creature"] },  # Unnatural Speed
+  { printing = "dbl/248", in = ["Cost Reducer"] },  # Vadrik, Astral Archmage
+  { printing = "bok/59", in = ["Arcane", "Splice", "Targets Own Creature"] },  # Veil of Secrecy
+  { printing = "clb/105", in = ["Cost Reducer"] },  # Wizards of Thay
+  { printing = "sld/2406", in = ["Spell Copy"] },  # Zada, Hedron Grinder
+  { printing = "lci/173", in = ["Removal"] },  # Zoyowa's Justice
+  { printing = "soc/364", in = ["Land"] },  # Cascade Bluffs
+  { printing = "frc/22", in = ["Land"] },  # Command Tower
+  { printing = "frc/70", in = ["Land"] },  # Exotic Orchard
+  { printing = "mh1/238", in = ["Land"] },  # Fiery Islet
+  { printing = "soc/374", in = ["Land"] },  # Frostboil Snarl
+  { printing = "mb2/109", in = ["Land"] },  # Ghost Quarter
+  { printing = "plst/GK1-47", in = ["Land"] },  # Izzet Boilerworks
+  { printing = "soc/385", in = ["Land"] },  # Lotus Field
+  { printing = "frc/77", in = ["Land"] },  # Path of Ancestry
+  { printing = "plst/DSC-295", in = ["Land", "No Max Hand Size"] },  # Reliquary Tower
+  { printing = "frc/83", in = ["Land"] },  # Shivan Reef
+  { printing = "ecl/267", in = ["Land"] },  # Steam Vents
+  { printing = "frc/84", in = ["Land"] },  # Sulfur Falls
+  { printing = "fra/385", qty = 10, in = ["Land"] },  # Island
+  { printing = "fra/391", qty = 9, in = ["Land"] },  # Mountain
+  { printing = "plst/BOK-94", in = ["Maybeboard"] },  # Aura Barbs
+  { printing = "sld/1164", in = ["Maybeboard"] },  # Baral, Chief of Compliance
+  { printing = "sok/94", in = ["Maybeboard"] },  # Barrel Down Sokenzan
+  { printing = "jou/31", in = ["Maybeboard"] },  # Battlefield Thaumaturge
+  { printing = "plst/BOK-96", in = ["Maybeboard"] },  # Blazing Shoal
+  { printing = "mb2/24", in = ["Maybeboard"] },  # Brain Freeze
+  { printing = "plst/CM2-178", in = ["Maybeboard"] },  # Caged Sun
+  { printing = "spg/162", in = ["Maybeboard"] },  # Consign to Memory
+  { printing = "bok/98", in = ["Maybeboard"] },  # Crack the Earth
+  { printing = "chk/162", in = ["Maybeboard"] },  # Crushing Pain
+  { printing = "sok/32", in = ["Maybeboard"] },  # Cut the Earthly Bond
+  { printing = "mma/39", in = ["Maybeboard"] },  # Dampen Thought
+  { printing = "chk/164", in = ["Maybeboard"] },  # Devouring Rage
+  { printing = "plst/GPT-142", in = ["Maybeboard"] },  # Djinn Illuminatus
+  { printing = "plst/DMR-118", in = ["Maybeboard"] },  # Empty the Warrens
+  { printing = "ltc/508", in = ["Maybeboard"] },  # Fell Beast's Shriek
+  { printing = "frc/57", in = ["Maybeboard"] },  # Fellwar Stone
+  { printing = "c21/51", in = ["Maybeboard"] },  # Fiery Encore
+  { printing = "bok/100", in = ["Maybeboard"] },  # First Volley
+  { printing = "plst/CMD-46", in = ["Maybeboard"] },  # Flusterstorm
+  { printing = "mkc/23", in = ["Maybeboard"] },  # Follow the Bodies
+  { printing = "mh2/127", in = ["Maybeboard"] },  # Galvanic Relay
+  { printing = "plst/GPT-26", in = ["Maybeboard"] },  # Gigadrowse
+  { printing = "tdc/99", in = ["Maybeboard"] },  # Goblin Electromancer
+  { printing = "sld/2413", in = ["Maybeboard"] },  # Grapeshot
+  { printing = "plst/TSP-162", in = ["Maybeboard"] },  # Ground Rift
+  { printing = "tdc/154", in = ["Maybeboard"] },  # Haughty Djinn
+  { printing = "plst/FUT-100", in = ["Maybeboard"] },  # Haze of Rage
+  { printing = "plst/SOK-40", in = ["Maybeboard"] },  # Ideas Unbound
+  { printing = "tsp/164", in = ["Maybeboard"] },  # Ignite Memories
+  { printing = "fdn/43", in = ["Maybeboard"] },  # Inspiration from Beyond
+  { printing = "frc/58", in = ["Maybeboard"] },  # Izzet Signet
+  { printing = "sld/2049", in = ["Maybeboard"] },  # Lava Spike
+  { printing = "gpt/121", in = ["Maybeboard"] },  # Leap of Flame
+  { printing = "mh2/228", in = ["Maybeboard"] },  # Liquimetal Torque
+  { printing = "mh2/49", in = ["Maybeboard"] },  # Lose Focus
+  { printing = "ltc/501", in = ["Maybeboard"] },  # Mists of Lórien
+  { printing = "cmd/53", in = ["Maybeboard"] },  # Murmurs from Beyond
+  { printing = "otc/103", in = ["Maybeboard"] },  # Octavia, Living Thesis
+  { printing = "fdc/277", in = ["Maybeboard"] },  # Ornithopter of Paradise
+  { printing = "chk/77", in = ["Maybeboard"] },  # Part the Veil
+  { printing = "sok/109", in = ["Maybeboard"] },  # Path of Anger's Flame
+  { printing = "hoc/182", in = ["Maybeboard"] },  # Pelargir Survivor
+  { printing = "pxtc/243", in = ["Maybeboard"] },  # Primal Amulet // Primal Wellspring
+  { printing = "gk1/33", in = ["Maybeboard"] },  # Pyromatics
+  { printing = "pip/37", in = ["Maybeboard"] },  # Radstorm
+  { printing = "bok/50", in = ["Maybeboard"] },  # Ribbons of the Reikai
+  { printing = "scg/102", in = ["Maybeboard"] },  # Scattershot
+  { printing = "plst/GK1-34", in = ["Maybeboard"] },  # Shattering Spree
+  { printing = "sok/56", in = ["Maybeboard"] },  # Shifting Borders
+  { printing = "emn/141", in = ["Maybeboard"] },  # Shreds of Sanity
+  { printing = "plst/MH2-142", in = ["Maybeboard"] },  # Spreading Insurrection
+  { printing = "plst/BLB-234", in = ["Maybeboard"] },  # Stormcatch Mentor
+  { printing = "uma/74", in = ["Maybeboard"] },  # Stream of Consciousness
+  { printing = "plst/MH1-71", in = ["Maybeboard"] },  # Stream of Thought
+  { printing = "sok/117", in = ["Maybeboard"] },  # Sunder from Within
+  { printing = "plst/DDS-12", in = ["Maybeboard"] },  # Temporal Fissure
+  { printing = "inr/175", in = ["Maybeboard"] },  # Through the Breach
+  { printing = "mma/137", in = ["Maybeboard"] },  # Torrent of Stone
+  { printing = "ddj/19", in = ["Maybeboard"] },  # Train of Thought
+  { printing = "chk/196", in = ["Maybeboard"] },  # Unearthly Blizzard
+  { printing = "ddj/24", in = ["Maybeboard"] },  # Vacuumelt
+  { printing = "c21/182", in = ["Maybeboard"] },  # Volcanic Vision
 ]
 
 [categories]
