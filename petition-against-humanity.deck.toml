@@ -5,25 +5,29 @@ Imported from Moxfield (https://moxfield.com/decks/k3WaVmQSwkmzpdgo6uEFjw, by De
 
 Two any-number cards, 21 Persistent Petitioners and 18 Slime Against Humanity, glued together by Katilda and Lier. Every Petitioners is a Human spell, so casting one gives a Slime in the graveyard flashback at its mana cost, and each Slime counts every other Slime in the graveyard and exile. Four Petitioners tapping together mill twelve: aimed at yourself it stocks the graveyard with Slimes, aimed at an opponent it's the alternate win.
 
-Katilda, Dawnhart Prime and Enduring Vitality turn the Petitioners into mana dorks, while Drumbellower and Quest for Renewal untap them on every opponent's turn, so the Advisors mill once per player per round. Same-name payoffs scale with the pile: Nantuko Shrine and Aven Shrine trigger off graveyard copies, Locket of Yesterdays discounts each copy, Thrumming Stone ripples into more copies, Spellweaver Helix with two Slimes imprinted copies the other every time one is cast, and Wood Sage naming Petitioners digs for Advisors and bins everything else. Catalyst Stone cuts Katilda's granted flashback by two, so a graveyard Slime costs {G}.
+Katilda, Dawnhart Prime and Enduring Vitality turn the Petitioners into mana dorks, while Drumbellower and Quest for Renewal untap them on every opponent's turn, so the Advisors mill once per player per round. Same-name payoffs scale with the pile: Nantuko Shrine triggers off graveyard copies, Locket of Yesterdays discounts each copy, Thrumming Stone ripples into more copies, Spellweaver Helix with two Slimes imprinted copies the other every time one is cast, and Wood Sage naming Petitioners digs for Advisors and bins everything else. Catalyst Stone cuts Katilda's granted flashback by two, so a graveyard Slime costs {G}, and only {G} with The Earth Crystal out too.
+
+2026 update (post-Feb-2025 printings): Petitioners taps any four Advisors, so Human Advisors (Rick Jones, Jennifer Walters) trigger Katilda and count toward the mill-twelve. The Water Crystal turns every one-card Petitioners ping at an opponent into five and makes Petitioners cost {U}. The Earth Crystal doubles the Oozes' counters. Merciful Mandate untaps the whole team for a second round of activations, and Katilda can flash it back. Jennifer Walters stops opponents casting spells on the turn the Slimes go off.
 
 Watch out: Dusk kills your own Oozes once they're big; Dawn returns every Petitioners (power 1) from the graveyard."""
 
 cards = [
   { name = "Katilda and Lier", in = ["Commander"] },
 
-  { name = "Persistent Petitioners", qty = 21, in = ["Human Spell", "Self-Mill", "Win Condition"] },
-  { name = "Slime Against Humanity", qty = 18, in = ["Token Maker", "Win Condition"] },
+  { name = "Persistent Petitioners", qty = 21, in = ["Human Spell", "Advisor", "Self-Mill", "Win Condition"] },
+  { name = "Slime Against Humanity", qty = 18, in = ["Creates Creature Tokens", "Win Condition"] },
 
-  { name = "Aven Shrine", in = ["Same-Name Payoff", "Lifegain"] },
-  { name = "Nantuko Shrine", in = ["Same-Name Payoff", "Token Maker"] },
+  { name = "Nantuko Shrine", in = ["Same-Name Payoff", "Creates Creature Tokens"] },
   { name = "Locket of Yesterdays", in = ["Same-Name Payoff", "Cost Reducer"] },
   { name = "Thrumming Stone", in = ["Same-Name Payoff", "Card Advantage"] },
   { name = "Spellweaver Helix", in = ["Same-Name Payoff", "Spell Copy"] },
+  { name = "The Earth Crystal", in = ["Cost Reducer", "Counter Doubler"] },
+  { name = "The Water Crystal", in = ["Cost Reducer", "Win Condition"] },
   { name = "Wood Sage", in = ["Human Spell", "Card Advantage", "Self-Mill"] },
 
   { name = "Drumbellower", in = ["Untap on Opponents' Turns"] },
   { name = "Quest for Renewal", in = ["Untap on Opponents' Turns"] },
+  { name = "Merciful Mandate", in = ["Untap Creatures"] },
 
   { name = "Katilda, Dawnhart Prime", in = ["Human Spell", "Creatures Tap for Mana", "Ramp", "Team Pump"] },
   { name = "Enduring Vitality", in = ["Creatures Tap for Mana", "Ramp"] },
@@ -33,13 +37,11 @@ cards = [
   { name = "Arcane Signet", in = ["Ramp"] },
   { name = "Nature's Lore", in = ["Ramp"] },
   { name = "Three Visits", in = ["Ramp"] },
-  { name = "Sunscape Familiar", in = ["Cost Reducer"] },
   { name = "Catalyst Stone", in = ["Cost Reducer"] },
 
-  { name = "Consider", in = ["Self-Mill", "Cantrip"] },
-  { name = "Mental Note", in = ["Self-Mill", "Cantrip"] },
   { name = "Thought Scour", in = ["Self-Mill", "Cantrip"] },
-  { name = "Ledger Shredder", in = ["Loot"] },
+  { name = "Rick Jones, Destined Sidekick", in = ["Human Spell", "Advisor", "Self-Mill"] },
+  { name = "Jennifer Walters // The Sensational She-Hulk", in = ["Human Spell", "Advisor", "Protection"] },
 
   { name = "Crib Swap", in = ["Human Spell", "Removal"] },
   { name = "Witch Enchanter // Witch-Blessed Meadow", in = ["Human Spell", "Removal", "Land"] },
@@ -76,8 +78,7 @@ cards = [
   { name = "Hinterland Harbor", in = ["Land"] },
   { name = "Sunpetal Grove", in = ["Land"] },
   { name = "Forest", qty = 2, in = ["Land"] },
-  { name = "Island", qty = 2, in = ["Land"] },
-  { name = "Plains", in = ["Land"] },
+  { name = "Island", qty = 3, in = ["Land"] },
 
   { name = "Citanul Hierophants", in = ["Maybeboard"] },
   { name = "Council of the Absolute", in = ["Maybeboard"] },
@@ -113,8 +114,8 @@ Commander = { type = "commander" }
 "Grants Flash" = {}
 "Human Spell" = {}
 Land = {}
-Lifegain = {}
-Loot = {}
+Advisor = {}
+"Counter Doubler" = {}
 "Mass Tap" = {}
 Maybeboard = { type = "maybeboard" }
 "One-Drop Accelerant" = {}
@@ -125,6 +126,8 @@ Removal = {}
 "Self-Mill" = {}
 "Spell Copy" = {}
 "Team Pump" = {}
-"Token Maker" = {}
+"Untap Creatures" = {}
+Protection = {}
+"Creates Creature Tokens" = {}
 "Untap on Opponents' Turns" = {}
 "Win Condition" = {}

@@ -1,0 +1,41 @@
+# Katilda and Lier is a 3-drop: a one-mana dork puts it out on turn 2.
+# Thresholds are regression guards set just under the 2026-11 list. Gauntlet fetches basics only
+# (the real fetches also find shocks and Spara's Headquarters), so the absolute figures are floors.
+[mulligan]
+keep = [{ query = "t:land", min = 2, max = 5 }]
+down_to = 6
+bottom = ['mv>=5', 't:land']
+
+[assume]
+# Shocks and pay-life MDFC lands: pay the life. Checklands and fastlands: untapped from turn 2-3 on in practice.
+untapped = ['o:"two or more opponents"', 'o:"you may pay 2 life"', 'o:"you may pay 3 life"', 'o:"unless you control a"', 'o:"two or more other lands"']
+
+[land_drop]
+prefer = ['t:land -o:"enters tapped"', 't:land']
+
+[[effect]]
+match = '''name:"Nature's Lore" or name:"Three Visits"'''
+on = "cast"
+fetch = ['t:forest']
+to = "battlefield"
+
+[casting]
+prefer = ['name:"Katilda and Lier"', 'cat:"One-Drop Accelerant"', 'cat:"Ramp"']
+
+[[criterion]]
+name = "commander on curve (3-drop: turn 3)"
+at_least = 0.42
+require = [{ turn = 3, cast = 'name:"Katilda and Lier"', min = 1 }]
+
+[[criterion]]
+name = "commander turn 2 off a dork"
+require = [{ turn = 2, cast = 'name:"Katilda and Lier"', min = 1 }]
+
+[[criterion]]
+name = "four Advisors seen by turn 5 (mill-12 online)"
+at_least = 0.18
+require = [{ turn = 5, query = 'cat:"Advisor" or name:"Persistent Petitioners"', min = 4 }]
+
+[[criterion]]
+name = "a Crystal or same-name payoff by turn 5"
+require = [{ turn = 5, query = 'cat:"Same-Name Payoff" or name:"The Earth Crystal" or name:"The Water Crystal"', min = 1 }]
