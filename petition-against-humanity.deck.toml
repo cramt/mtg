@@ -36,11 +36,11 @@ cards = [
   { printing = "plst/CMM-904", in = ["Ramp"] },  # Nature's Lore
   { printing = "soc/289", in = ["Ramp"] },  # Three Visits
 
-  { name = "Eternal Witness", in = ["Human Spell", "Recursion"] },
-  { name = "Noxious Revival", in = ["Recursion"] },
-  { name = "Cruel Calculations", in = ["Card Advantage"] },
-  { name = "Thirst for Identity", in = ["Card Advantage", "Discard Outlet"] },
-  { name = "Winternight Stories", in = ["Card Advantage", "Discard Outlet"] },
+  { printing = "m3c/227", in = ["Human Spell", "Recursion"] },  # Eternal Witness
+  { printing = "spg/73", in = ["Recursion"] },  # Noxious Revival
+  { printing = "fra/26", in = ["Card Advantage"] },  # Cruel Calculations
+  { printing = "ecl/79", in = ["Card Advantage", "Discard Outlet"] },  # Thirst for Identity
+  { printing = "ptdm/67p", in = ["Card Advantage", "Discard Outlet"] },  # Winternight Stories
   { printing = "msh/184", in = ["Human Spell", "Advisor", "Self-Mill"] },  # Rick Jones, Destined Sidekick
   { printing = "msh/18", in = ["Human Spell", "Advisor", "Protection"] },  # Jennifer Walters // The Sensational She-Hulk
 
