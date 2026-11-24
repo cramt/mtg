@@ -5,11 +5,11 @@ Imported from Moxfield (https://moxfield.com/decks/k3WaVmQSwkmzpdgo6uEFjw, by De
 
 Two any-number cards, 21 Persistent Petitioners and 18 Slime Against Humanity, glued together by Katilda and Lier. Every Petitioners is a Human spell, so casting one gives a Slime in the graveyard flashback at its mana cost, and each Slime counts every other Slime in the graveyard and exile. Four Petitioners tapping together mill twelve: aimed at yourself it stocks the graveyard with Slimes, aimed at an opponent it's the alternate win.
 
-Katilda, Dawnhart Prime and Enduring Vitality turn the Petitioners into mana dorks, while Drumbellower and Quest for Renewal untap them on every opponent's turn, so the Advisors mill once per player per round. Same-name payoffs scale with the pile: Locket of Yesterdays discounts each copy, Thrumming Stone ripples into more copies, Spellweaver Helix with two Slimes imprinted copies the other every time one is cast, and Wood Sage naming Petitioners digs for Advisors and bins everything else. Catalyst Stone cuts Katilda's granted flashback by two, so a graveyard Slime costs {G}, and only {G} with The Earth Crystal out too.
+Katilda, Dawnhart Prime and Enduring Vitality turn the Petitioners into mana dorks, while Drumbellower and Quest for Renewal untap them on every opponent's turn, so the Advisors mill once per player per round. Same-name payoffs scale with the pile: Locket of Yesterdays discounts each copy, Thrumming Stone ripples into more copies, Spellweaver Helix with two Slimes imprinted copies the other every time one is cast, and Wood Sage naming Petitioners digs for Advisors and bins everything else. The Earth Crystal and Locket of Yesterdays make a graveyard Slime cost {G} or less.
 
-2026 update (post-Feb-2025 printings): Petitioners taps any four Advisors, so Human Advisors (Rick Jones, Jennifer Walters) trigger Katilda and count toward the mill-twelve. The Water Crystal turns every one-card Petitioners ping at an opponent into five and makes Petitioners cost {U}. The Earth Crystal doubles the Oozes' counters. Merciful Mandate untaps the whole team for a second round of activations, and Katilda can flash it back. Jennifer Walters stops opponents casting spells on the turn the Slimes go off. Draw is flashback-friendly and graveyard-friendly: Cruel Calculations draws one per card milled this turn (Petitioners on yourself is twelve), and Thirst for Identity and Winternight Stories discard two Slimes as upside; Katilda and Catalyst Stone recast them for {U}.
+2026 update (post-Feb-2025 printings): Petitioners taps any four Advisors, so Human Advisors (Rick Jones, Jennifer Walters) trigger Katilda and count toward the mill-twelve. The Water Crystal turns every one-card Petitioners ping at an opponent into five and makes Petitioners cost {U}. The Earth Crystal doubles the Oozes' counters. Merciful Mandate untaps the whole team for a second round of activations, and Katilda can flash it back. Jennifer Walters stops opponents casting spells on the turn the Slimes go off. Draw is flashback-friendly and graveyard-friendly: Cruel Calculations draws one per card milled this turn (Petitioners on yourself is twelve), and Thirst for Identity and Winternight Stories discard two Slimes as upside; Katilda recasts them from the graveyard.
 
-Watch out: Dusk kills your own Oozes once they're big; Dawn returns every Petitioners (power 1) from the graveyard."""
+Recursion: Dusk // Dawn is here for Dawn, not the wipe. Self-mill puts it in the graveyard, where aftermath lets you cast Dawn directly, returning every Petitioners (power 1) and Eternal Witness (power 2) to hand. Eternal Witness is a Human, so it triggers Katilda as well as returning a card. Noxious Revival costs {G/P}, so Katilda's flashback recasts it for 2 life and no mana: put Dawn, a Crystal or a dead engine piece back on top."""
 
 cards = [
   { printing = "moc/446", in = ["Commander"] },  # Katilda and Lier
@@ -35,8 +35,9 @@ cards = [
   { printing = "plst/MIC-132", in = ["Human Spell", "Ramp", "One-Drop Accelerant"] },  # Avacyn's Pilgrim
   { printing = "plst/CMM-904", in = ["Ramp"] },  # Nature's Lore
   { printing = "soc/289", in = ["Ramp"] },  # Three Visits
-  { printing = "ody/297", in = ["Cost Reducer"] },  # Catalyst Stone
 
+  { name = "Eternal Witness", in = ["Human Spell", "Recursion"] },
+  { name = "Noxious Revival", in = ["Recursion"] },
   { name = "Cruel Calculations", in = ["Card Advantage"] },
   { name = "Thirst for Identity", in = ["Card Advantage", "Discard Outlet"] },
   { name = "Winternight Stories", in = ["Card Advantage", "Discard Outlet"] },
@@ -47,8 +48,7 @@ cards = [
   { printing = "sld/2655", in = ["Human Spell", "Removal", "Land"] },  # Witch Enchanter // Witch-Blessed Meadow
   { printing = "znr/19", in = ["Removal", "Land"] },  # Kabira Takedown // Kabira Plateau
   { printing = "mh3/249", in = ["Removal", "Land"] },  # Bridgeworks Battle // Tanglespan Bridgeworks
-  { printing = "drc/65", in = ["Board Wipe", "Creature Recursion"] },  # Dusk // Dawn
-  { printing = "mh3/260", in = ["Mass Tap", "Land"] },  # Suppression Ray // Orderly Plaza
+  { printing = "drc/65", in = ["Creature Recursion", "Self-Mill Payoff"] },  # Dusk // Dawn
   { printing = "plst/ZNR-180", in = ["Recursion", "Land"] },  # Bala Ged Recovery // Bala Ged Sanctuary
 
   { printing = "soc/360", in = ["Land", "Grants Flash"] },  # Alchemist's Refuge
@@ -104,7 +104,6 @@ cards = [
 ]
 
 [categories]
-"Board Wipe" = {}
 Cantrip = {}
 "Card Advantage" = {}
 Commander = { type = "commander" }
@@ -117,13 +116,13 @@ Commander = { type = "commander" }
 Land = {}
 Advisor = {}
 "Counter Doubler" = {}
-"Mass Tap" = {}
 Maybeboard = { type = "maybeboard" }
 "One-Drop Accelerant" = {}
 Ramp = {}
 Recursion = {}
 Removal = {}
 "Same-Name Payoff" = {}
+"Self-Mill Payoff" = {}
 "Self-Mill" = {}
 "Spell Copy" = {}
 "Team Pump" = {}
