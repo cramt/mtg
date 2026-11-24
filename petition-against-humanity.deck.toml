@@ -12,95 +12,95 @@ Katilda, Dawnhart Prime and Enduring Vitality turn the Petitioners into mana dor
 Watch out: Dusk kills your own Oozes once they're big; Dawn returns every Petitioners (power 1) from the graveyard."""
 
 cards = [
-  { name = "Katilda and Lier", in = ["Commander"] },
+  { printing = "moc/446", in = ["Commander"] },  # Katilda and Lier
 
-  { name = "Persistent Petitioners", qty = 21, in = ["Human Spell", "Advisor", "Self-Mill", "Win Condition"] },
-  { name = "Slime Against Humanity", qty = 18, in = ["Creates Creature Tokens", "Win Condition"] },
+  { printing = "rvr/53", qty = 21, in = ["Human Spell", "Advisor", "Self-Mill", "Win Condition"] },  # Persistent Petitioners
+  { printing = "sld/7083", qty = 18, in = ["Creates Creature Tokens", "Win Condition"] },  # Slime Against Humanity
 
-  { name = "Nantuko Shrine", in = ["Same-Name Payoff", "Creates Creature Tokens"] },
-  { name = "Locket of Yesterdays", in = ["Same-Name Payoff", "Cost Reducer"] },
-  { name = "Thrumming Stone", in = ["Same-Name Payoff", "Card Advantage"] },
-  { name = "Spellweaver Helix", in = ["Same-Name Payoff", "Spell Copy"] },
-  { name = "The Earth Crystal", in = ["Cost Reducer", "Counter Doubler"] },
-  { name = "The Water Crystal", in = ["Cost Reducer", "Win Condition"] },
-  { name = "Wood Sage", in = ["Human Spell", "Card Advantage", "Self-Mill"] },
+  { printing = "ody/256", in = ["Same-Name Payoff", "Creates Creature Tokens"] },  # Nantuko Shrine
+  { printing = "tsp/258", in = ["Same-Name Payoff", "Cost Reducer"] },  # Locket of Yesterdays
+  { printing = "2x2/315", in = ["Same-Name Payoff", "Card Advantage"] },  # Thrumming Stone
+  { printing = "mrd/247", in = ["Same-Name Payoff", "Spell Copy"] },  # Spellweaver Helix
+  { printing = "fin/184", in = ["Cost Reducer", "Counter Doubler"] },  # The Earth Crystal
+  { printing = "fin/85", in = ["Cost Reducer", "Win Condition"] },  # The Water Crystal
+  { printing = "cns/195", in = ["Human Spell", "Card Advantage", "Self-Mill"] },  # Wood Sage
 
-  { name = "Drumbellower", in = ["Untap on Opponents' Turns"] },
-  { name = "Quest for Renewal", in = ["Untap on Opponents' Turns"] },
-  { name = "Merciful Mandate", in = ["Untap Creatures"] },
+  { printing = "soc/143", in = ["Untap on Opponents' Turns"] },  # Drumbellower
+  { printing = "sld/2405", in = ["Untap on Opponents' Turns"] },  # Quest for Renewal
+  { printing = "trc/25", in = ["Untap Creatures"] },  # Merciful Mandate
 
-  { name = "Katilda, Dawnhart Prime", in = ["Human Spell", "Creatures Tap for Mana", "Ramp", "Team Pump"] },
-  { name = "Enduring Vitality", in = ["Creatures Tap for Mana", "Ramp"] },
-  { name = "Birds of Paradise", in = ["Ramp", "One-Drop Accelerant"] },
-  { name = "Noble Hierarch", in = ["Human Spell", "Ramp", "One-Drop Accelerant"] },
-  { name = "Avacyn's Pilgrim", in = ["Human Spell", "Ramp", "One-Drop Accelerant"] },
-  { name = "Arcane Signet", in = ["Ramp"] },
-  { name = "Nature's Lore", in = ["Ramp"] },
-  { name = "Three Visits", in = ["Ramp"] },
-  { name = "Catalyst Stone", in = ["Cost Reducer"] },
+  { printing = "dbl/230", in = ["Human Spell", "Creatures Tap for Mana", "Ramp", "Team Pump"] },  # Katilda, Dawnhart Prime
+  { printing = "dsk/176", in = ["Creatures Tap for Mana", "Ramp"] },  # Enduring Vitality
+  { printing = "plst/GK2-82", in = ["Ramp", "One-Drop Accelerant"] },  # Birds of Paradise
+  { printing = "plst/MM2-151", in = ["Human Spell", "Ramp", "One-Drop Accelerant"] },  # Noble Hierarch
+  { printing = "plst/MIC-132", in = ["Human Spell", "Ramp", "One-Drop Accelerant"] },  # Avacyn's Pilgrim
+  { printing = "fdc/245", in = ["Ramp"] },  # Arcane Signet
+  { printing = "plst/CMM-904", in = ["Ramp"] },  # Nature's Lore
+  { printing = "soc/289", in = ["Ramp"] },  # Three Visits
+  { printing = "ody/297", in = ["Cost Reducer"] },  # Catalyst Stone
 
-  { name = "Thought Scour", in = ["Self-Mill", "Cantrip"] },
-  { name = "Rick Jones, Destined Sidekick", in = ["Human Spell", "Advisor", "Self-Mill"] },
-  { name = "Jennifer Walters // The Sensational She-Hulk", in = ["Human Spell", "Advisor", "Protection"] },
+  { printing = "sch/51", in = ["Self-Mill", "Cantrip"] },  # Thought Scour
+  { printing = "msh/184", in = ["Human Spell", "Advisor", "Self-Mill"] },  # Rick Jones, Destined Sidekick
+  { printing = "msh/18", in = ["Human Spell", "Advisor", "Protection"] },  # Jennifer Walters // The Sensational She-Hulk
 
-  { name = "Crib Swap", in = ["Human Spell", "Removal"] },
-  { name = "Witch Enchanter // Witch-Blessed Meadow", in = ["Human Spell", "Removal", "Land"] },
-  { name = "Kabira Takedown // Kabira Plateau", in = ["Removal", "Land"] },
-  { name = "Bridgeworks Battle // Tanglespan Bridgeworks", in = ["Removal", "Land"] },
-  { name = "Dusk // Dawn", in = ["Board Wipe", "Creature Recursion"] },
-  { name = "Suppression Ray // Orderly Plaza", in = ["Mass Tap", "Land"] },
-  { name = "Bala Ged Recovery // Bala Ged Sanctuary", in = ["Recursion", "Land"] },
+  { printing = "ecl/11", in = ["Human Spell", "Removal"] },  # Crib Swap
+  { printing = "sld/2655", in = ["Human Spell", "Removal", "Land"] },  # Witch Enchanter // Witch-Blessed Meadow
+  { printing = "znr/19", in = ["Removal", "Land"] },  # Kabira Takedown // Kabira Plateau
+  { printing = "mh3/249", in = ["Removal", "Land"] },  # Bridgeworks Battle // Tanglespan Bridgeworks
+  { printing = "drc/65", in = ["Board Wipe", "Creature Recursion"] },  # Dusk // Dawn
+  { printing = "mh3/260", in = ["Mass Tap", "Land"] },  # Suppression Ray // Orderly Plaza
+  { printing = "plst/ZNR-180", in = ["Recursion", "Land"] },  # Bala Ged Recovery // Bala Ged Sanctuary
 
-  { name = "Alchemist's Refuge", in = ["Land", "Grants Flash"] },
-  { name = "Gavony Township", in = ["Land", "Team Pump"] },
-  { name = "Riftstone Portal", in = ["Land"] },
-  { name = "Yavimaya, Cradle of Growth", in = ["Land"] },
-  { name = "Command Tower", in = ["Land"] },
-  { name = "Path of Ancestry", in = ["Land"] },
-  { name = "Exotic Orchard", in = ["Land"] },
-  { name = "Spara's Headquarters", in = ["Land"] },
-  { name = "Breeding Pool", in = ["Land"] },
-  { name = "Hallowed Fountain", in = ["Land"] },
-  { name = "Temple Garden", in = ["Land"] },
-  { name = "Hedge Maze", in = ["Land", "Self-Mill"] },
-  { name = "Lush Portico", in = ["Land", "Self-Mill"] },
-  { name = "Meticulous Archive", in = ["Land", "Self-Mill"] },
-  { name = "Flooded Strand", in = ["Land"] },
-  { name = "Misty Rainforest", in = ["Land"] },
-  { name = "Windswept Heath", in = ["Land"] },
-  { name = "Bountiful Promenade", in = ["Land"] },
-  { name = "Rejuvenating Springs", in = ["Land"] },
-  { name = "Sea of Clouds", in = ["Land"] },
-  { name = "Deserted Beach", in = ["Land"] },
-  { name = "Dreamroot Cascade", in = ["Land"] },
-  { name = "Overgrown Farmland", in = ["Land"] },
-  { name = "Glacial Fortress", in = ["Land"] },
-  { name = "Hinterland Harbor", in = ["Land"] },
-  { name = "Sunpetal Grove", in = ["Land"] },
-  { name = "Forest", qty = 2, in = ["Land"] },
-  { name = "Island", qty = 3, in = ["Land"] },
+  { printing = "soc/360", in = ["Land", "Grants Flash"] },  # Alchemist's Refuge
+  { printing = "plst/MOC-406", in = ["Land", "Team Pump"] },  # Gavony Township
+  { printing = "jud/143", in = ["Land"] },  # Riftstone Portal
+  { printing = "plst/M3C-409", in = ["Land"] },  # Yavimaya, Cradle of Growth
+  { printing = "frc/22", in = ["Land"] },  # Command Tower
+  { printing = "frc/77", in = ["Land"] },  # Path of Ancestry
+  { printing = "frc/70", in = ["Land"] },  # Exotic Orchard
+  { printing = "psnc/257p", in = ["Land"] },  # Spara's Headquarters
+  { printing = "eoe/251", in = ["Land"] },  # Breeding Pool
+  { printing = "ecl/265", in = ["Land"] },  # Hallowed Fountain
+  { printing = "ecl/268", in = ["Land"] },  # Temple Garden
+  { printing = "mkm/262", in = ["Land", "Self-Mill"] },  # Hedge Maze
+  { printing = "mkm/263", in = ["Land", "Self-Mill"] },  # Lush Portico
+  { printing = "mkm/264", in = ["Land", "Self-Mill"] },  # Meticulous Archive
+  { printing = "mh3/220", in = ["Land"] },  # Flooded Strand
+  { printing = "spg/111", in = ["Land"] },  # Misty Rainforest
+  { printing = "mh3/235", in = ["Land"] },  # Windswept Heath
+  { printing = "plst/BBD-81", in = ["Land"] },  # Bountiful Promenade
+  { printing = "cmm/424", in = ["Land"] },  # Rejuvenating Springs
+  { printing = "plst/BBD-84", in = ["Land"] },  # Sea of Clouds
+  { printing = "fra/176", in = ["Land"] },  # Deserted Beach
+  { printing = "psos/254p", in = ["Land"] },  # Dreamroot Cascade
+  { printing = "fra/185", in = ["Land"] },  # Overgrown Farmland
+  { printing = "frc/73", in = ["Land"] },  # Glacial Fortress
+  { printing = "soc/381", in = ["Land"] },  # Hinterland Harbor
+  { printing = "plst/BLC-335", in = ["Land"] },  # Sunpetal Grove
+  { printing = "fra/394", qty = 2, in = ["Land"] },  # Forest
+  { printing = "fra/385", qty = 3, in = ["Land"] },  # Island
 
-  { name = "Citanul Hierophants", in = ["Maybeboard"] },
-  { name = "Council of the Absolute", in = ["Maybeboard"] },
-  { name = "Cryptolith Rite", in = ["Maybeboard"] },
-  { name = "Formless Genesis", in = ["Maybeboard"] },
-  { name = "Grand Arbiter Augustin IV", in = ["Maybeboard"] },
-  { name = "Intruder Alarm", in = ["Maybeboard"] },
-  { name = "Kellan, the Kid", in = ["Maybeboard"] },
-  { name = "Mass Appeal", in = ["Maybeboard"] },
-  { name = "Murkfiend Liege", in = ["Maybeboard"] },
-  { name = "Raff, Weatherlight Stalwart", in = ["Maybeboard"] },
-  { name = "Remembrance", in = ["Maybeboard"] },
-  { name = "Reveille Squad", in = ["Maybeboard"] },
-  { name = "Search the City", in = ["Maybeboard"] },
-  { name = "Seedborn Muse", in = ["Maybeboard"] },
-  { name = "Serum Powder", in = ["Maybeboard"] },
-  { name = "Song of Freyalise", in = ["Maybeboard"] },
-  { name = "Sphinx of the Chimes", in = ["Maybeboard"] },
-  { name = "Sunken Palace", in = ["Maybeboard"] },
-  { name = "Tamiyo, Collector of Tales", in = ["Maybeboard"] },
-  { name = "To Arms!", in = ["Maybeboard"] },
-  { name = "Treasure Cruise", in = ["Maybeboard"] },
+  { printing = "dsc/81", in = ["Maybeboard"] },  # Citanul Hierophants
+  { printing = "dgm/62", in = ["Maybeboard"] },  # Council of the Absolute
+  { printing = "inr/189", in = ["Maybeboard"] },  # Cryptolith Rite
+  { printing = "eoc/96", in = ["Maybeboard"] },  # Formless Genesis
+  { printing = "2x2/221", in = ["Maybeboard"] },  # Grand Arbiter Augustin IV
+  { printing = "sld/229", in = ["Maybeboard"] },  # Intruder Alarm
+  { printing = "otj/213", in = ["Maybeboard"] },  # Kellan, the Kid
+  { printing = "avr/66", in = ["Maybeboard"] },  # Mass Appeal
+  { printing = "2x2/259", in = ["Maybeboard"] },  # Murkfiend Liege
+  { printing = "plst/DMU-212", in = ["Maybeboard"] },  # Raff, Weatherlight Stalwart
+  { printing = "usg/34", in = ["Maybeboard"] },  # Remembrance
+  { printing = "plst/PCY-18", in = ["Maybeboard"] },  # Reveille Squad
+  { printing = "plst/RTR-49", in = ["Maybeboard"] },  # Search the City
+  { printing = "tdc/268", in = ["Maybeboard"] },  # Seedborn Muse
+  { printing = "ima/228", in = ["Maybeboard"] },  # Serum Powder
+  { printing = "plst/DOM-179", in = ["Maybeboard"] },  # Song of Freyalise
+  { printing = "rtr/52", in = ["Maybeboard"] },  # Sphinx of the Chimes
+  { printing = "m3c/81", in = ["Maybeboard"] },  # Sunken Palace
+  { printing = "plst/WAR-220", in = ["Maybeboard"] },  # Tamiyo, Collector of Tales
+  { printing = "plst/GPT-20", in = ["Maybeboard"] },  # To Arms!
+  { printing = "soc/205", in = ["Maybeboard"] },  # Treasure Cruise
 ]
 
 [categories]
